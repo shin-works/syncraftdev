@@ -1,0 +1,2133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeSense - 子どもが"時間を感じて"動く知育時計アプリ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            50% {
+                transform: scale(1.05);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+        }
+        
+        :root {
+            --primary: #FF6B8A;
+            --primary-light: #FF8FA8;
+            --primary-dark: #E9486C;
+            --secondary: #3ACDDF;
+            --secondary-light: #66E0F0;
+            --secondary-dark: #24A9BC;
+            --accent: #FFCF56;
+            --accent-light: #FFE090;
+            --accent-dark: #E8B73F;
+            --light: #FAF9F8;
+            --dark: #303238;
+            --gray: #888890;
+            --light-gray: #F0F0F5;
+            
+            --font-primary: 'M PLUS Rounded 1c', sans-serif;
+            
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.10);
+            
+            --border-radius-sm: 10px;
+            --border-radius-md: 20px;
+            --border-radius-lg: 30px;
+            --border-radius-xl: 50px;
+            
+            --transition-fast: 0.2s ease;
+            --transition-medium: 0.4s ease;
+            --transition-slow: 0.8s ease;
+        }
+
+        /* Theme Toggler Variables */
+        body.dark-theme {
+            --primary: #FF8FA8;
+            --primary-light: #FFA8BE;
+            --primary-dark: #FF6B8A;
+            --secondary: #66E0F0;
+            --secondary-light: #8AEAF5;
+            --secondary-dark: #3ACDDF;
+            --accent: #FFE090;
+            --accent-light: #FFE9B0;
+            --accent-dark: #FFCF56;
+            --light: #292A2F;
+            --dark: #F0F0F5;
+            --gray: #AAAAAF;
+            --light-gray: #343540;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: var(--font-primary);
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            scroll-snap-type: y proximity;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            overflow-x: hidden;
+            transition: background-color var(--transition-medium), color var(--transition-medium);
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        /* Initial Loading Animation */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.8s ease, visibility 0.8s ease;
+        }
+        
+        .preloader.loaded {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .preloader-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .loader-characters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .loader-character {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            animation: bounce 2s infinite alternate, rotate 8s linear infinite;
+            opacity: 0;
+        }
+        
+        .loader-character:nth-child(1) {
+            animation-delay: 0s;
+        }
+        
+        .loader-character:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .loader-character:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        
+        .loader-character:nth-child(4) {
+            animation-delay: 0.6s;
+        }
+        
+        .loader-character img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            50% {
+                transform: translateY(-20px);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg) translateY(0);
+            }
+            25% {
+                transform: rotate(10deg) translateY(-10px);
+            }
+            50% {
+                transform: rotate(0deg) translateY(0);
+            }
+            75% {
+                transform: rotate(-10deg) translateY(-10px);
+            }
+            100% {
+                transform: rotate(0deg) translateY(0);
+            }
+        }
+        
+        .loader-bar {
+            width: 200px;
+            height: 10px;
+            background-color: var(--light-gray);
+            border-radius: 5px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .loader-progress {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent), var(--primary));
+            background-size: 300% 100%;
+            animation: progressAnimation 2s linear infinite;
+            width: 0%;
+        }
+        
+        @keyframes progressAnimation {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 0%; }
+        }
+        
+        /* Theme Toggle */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            width: 60px;
+            height: 30px;
+            background-color: var(--light-gray);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+            transition: background-color var(--transition-fast);
+        }
+        
+        .theme-toggle-thumb {
+            width: 20px;
+            height: 20px;
+            background-color: var(--dark);
+            border-radius: 50%;
+            transform: translateX(0);
+            transition: transform var(--transition-fast), background-color var(--transition-fast);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--light);
+            font-size: 12px;
+        }
+        
+        body.dark-theme .theme-toggle-thumb {
+            transform: translateX(30px);
+        }
+        
+        /* General Styles */
+        .section {
+            min-height: 100vh;
+            padding: 80px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            scroll-snap-align: start;
+        }
+        
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 800;
+            line-height: 1.3;
+        }
+        
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            margin-bottom: 2rem;
+        }
+        
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            transition: color var(--transition-medium);
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 30px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: var(--border-radius-xl);
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: transform var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
+            cursor: pointer;
+            border: none;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            z-index: 1;
+            margin: 10px;
+        }
+        
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 150%;
+            height: 150%;
+            background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+            transform: translate(-50%, -50%) scale(0);
+            opacity: 0;
+            z-index: -1;
+            transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .btn:hover::after {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 0.2;
+        }
+        
+        .btn.btn-secondary {
+            background-color: var(--secondary);
+        }
+        
+        .btn.btn-accent {
+            background-color: var(--accent);
+            color: var(--dark);
+        }
+        
+        .btn.btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn.btn-small {
+            padding: 10px 20px;
+            font-size: 0.9rem;
+        }
+        
+        /* Particles Animation */
+        .particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.5;
+            animation: float-particles 15s infinite linear;
+        }
+        
+        @keyframes float-particles {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.5;
+            }
+            90% {
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            position: relative;
+            overflow: hidden;
+            color: white;
+            text-align: center;
+            padding: 40px 20px 60px;
+            min-height: 90vh;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: var(--light);
+            clip-path: ellipse(55% 100px at 50% 100px);
+            z-index: 5;
+            pointer-events: none;
+        }
+        
+        body.dark-theme .hero::before {
+            background-color: var(--dark);
+            clip-path: ellipse(55% 100px at 50% 100px);
+            z-index: 5;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .logo-container {
+            width: 400px;
+            height: 400px;
+            margin: 0 auto 5px;
+            animation: float 6s ease-in-out infinite;
+            position: relative;
+        }
+        
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        
+        .logo {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: transform var(--transition-medium);
+        }
+        
+        .logo:hover {
+            transform: rotate(5deg) scale(1.05);
+        }
+        
+        .hero-title {
+            font-size: clamp(2.2rem, 4vw, 3.8rem);
+            line-height: 1.1;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #ffffff, #ffefd5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient 8s ease infinite;
+            background-size: 200% 200%;
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1rem, 1.5vw, 1.4rem);
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .app-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        
+        .app-buttons .btn {
+            min-width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+            animation: bounce-soft 2s infinite;
+            z-index: 2;
+        }
+        
+        .scroll-arrow {
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        
+        @keyframes bounce-soft {
+            0%, 100% {
+                transform: translateY(0) translateX(-50%);
+            }
+            50% {
+                transform: translateY(-10px) translateX(-50%);
+            }
+        }
+        
+        /* About Section */
+        .about {
+            text-align: center;
+            background-color: var(--light);
+            z-index: 2;
+        }
+        
+        .section-title {
+            position: relative;
+            display: block;
+            margin: 0 auto 50px;
+            text-align: center;
+            width: fit-content;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -15px;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--primary-light), var(--secondary-light));
+            border-radius: 5px;
+            margin: 0 auto;
+        }
+        
+        .about-text {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+            line-height: 1.8;
+        }
+        
+        /* Problem Section */
+        .problem {
+            position: relative;
+            background: linear-gradient(135deg, var(--secondary-light), var(--secondary));
+            color: white;
+            overflow: hidden;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            margin: 50px 0;
+            padding-top: 80px;
+            padding-bottom: 100px;
+        }
+        
+        .problem::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: var(--light);
+            clip-path: ellipse(55% 100px at 50% 100px);
+            z-index: 5;
+            pointer-events: none;
+        }
+        
+        body.dark-theme .problem {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+        
+        body.dark-theme .problem::after {
+            background-color: var(--dark);
+            clip-path: ellipse(55% 100px at 50% 100px);
+        }
+        
+        .problem-container {
+            position: relative;
+            z-index: 5;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .problem-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .chat-bubble {
+            position: relative;
+            padding: 20px 25px;
+            border-radius: var(--border-radius-md);
+            background-color: rgba(255, 255, 255, 0.8);
+            color: var(--dark);
+            box-shadow: var(--shadow-md);
+            transform: translateY(30px);
+            opacity: 0;
+            transition: transform 0.8s var(--transition-medium), opacity 0.8s var(--transition-medium);
+        }
+        
+        .chat-bubble.active {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        
+        .chat-bubble:nth-child(even) {
+            align-self: flex-start;
+            margin-left: 60px;
+            border-radius: 20px 20px 20px 0;
+            transform: translateX(-30px);
+        }
+        
+        .chat-bubble:nth-child(odd) {
+            align-self: flex-end;
+            margin-right: 60px;
+            border-radius: 20px 20px 0 20px;
+            transform: translateX(30px);
+        }
+        
+        .chat-bubble.active:nth-child(even) {
+            transform: translateX(0);
+        }
+        
+        .chat-bubble.active:nth-child(odd) {
+            transform: translateX(0);
+        }
+        
+        .chat-bubble::before {
+            content: '';
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .chat-bubble:nth-child(1)::before {
+            content: '';
+            display: block;
+            right: -60px;
+            background-image: url('udk7du16nr.png');
+        }
+        
+        .chat-bubble:nth-child(2)::before {
+            content: '';
+            display: block;
+            left: -60px;
+            background-image: url('3v5ai8ysuk.png');
+        }
+        
+        .chat-bubble:nth-child(3)::before {
+            content: '';
+            display: block;
+            right: -60px;
+            background-image: url('pdxy7gb4jg.png');
+        }
+        
+        .chat-bubble:nth-child(4)::before {
+            content: '';
+            display: block;
+            left: -60px;
+            background-image: url('5krf0g1nqj.png');
+        }
+        
+        .giraffe-img {
+            position: absolute;
+            bottom: 10px;
+            right: -40px;
+            width: 90px;
+            z-index: 2;
+        }
+        
+        /* Features Section */
+        .features {
+            background-color: var(--light);
+            z-index: 2;
+            position: relative;
+            padding-bottom: 150px;
+        }
+        
+        .features-title {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transform-origin: center bottom;
+            transition: transform var(--transition-medium), box-shadow var(--transition-medium);
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        
+        body.dark-theme .feature-card {
+            background-color: var(--light-gray);
+        }
+        
+        .feature-card.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .feature-card:nth-child(1) {
+            background: linear-gradient(to bottom right, var(--light), var(--light-gray));
+        }
+        
+        .feature-card:nth-child(2) {
+            background: linear-gradient(to bottom right, var(--secondary-light), var(--secondary));
+            color: white;
+        }
+        
+        .feature-card:nth-child(3) {
+            background: linear-gradient(to bottom right, var(--primary-light), var(--primary));
+            color: white;
+        }
+        
+        body.dark-theme .feature-card:nth-child(1) {
+            background: linear-gradient(to bottom right, var(--light-gray), var(--dark));
+        }
+        
+        .feature-img-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 20px;
+            position: relative;
+            overflow: hidden;
+            flex: 1;
+        }
+        
+        .feature-img {
+            width: 160px;
+            height: 160px;
+            object-fit: contain;
+            transition: transform var(--transition-medium);
+        }
+        
+        .feature-card:hover .feature-img {
+            transform: scale(1.1) rotate(5deg);
+        }
+        
+        .feature-content {
+            padding: 30px;
+            text-align: center;
+            z-index: 3;
+        }
+        
+        .screenshot-container {
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .screenshot-item {
+            position: relative;
+            border-radius: var(--border-radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            width: 200px;
+            transition: transform var(--transition-medium);
+        }
+        
+        .screenshot-item:hover {
+            transform: translateY(-10px) rotate(2deg);
+        }
+        
+        .screenshot-item:nth-child(even):hover {
+            transform: translateY(-10px) rotate(-2deg);
+        }
+        
+        .screenshot-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform var(--transition-medium);
+        }
+        
+        .screenshot-item:hover img {
+            transform: scale(1.05);
+        }
+        
+        .screenshot-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            font-size: 0.9rem;
+            transform: translateY(100%);
+            transition: transform var(--transition-fast);
+        }
+        
+        .screenshot-item:hover .screenshot-label {
+            transform: translateY(0);
+        }
+        
+        /* Use Cases Section */
+        .use-cases {
+            background: linear-gradient(135deg, var(--accent-light), var(--accent));
+            color: var(--dark);
+            position: relative;
+            overflow: hidden;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            margin: 50px 0;
+            padding-top: 80px;
+            padding-bottom: 100px;
+        }
+        
+        .use-cases::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: var(--light);
+            clip-path: ellipse(55% 100px at 50% 100px);
+            z-index: 5;
+            pointer-events: none;
+        }
+        
+        body.dark-theme .use-cases {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+        
+        body.dark-theme .use-cases::after {
+            background-color: var(--dark);
+            clip-path: ellipse(55% 100px at 50% 100px);
+        }
+        
+        .use-cases-container {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .carousel {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .carousel-inner {
+            display: flex;
+            transition: transform var(--transition-medium);
+        }
+        
+        .carousel-item {
+            min-width: 100%;
+            padding: 0 20px;
+        }
+        
+        .use-case-card {
+            display: flex;
+            background-color: white;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+        
+        body.dark-theme .use-case-card {
+            background-color: var(--light-gray);
+        }
+        
+        .use-case-img {
+            width: 40%;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .use-case-img img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
+            transition: transform var(--transition-medium);
+        }
+        
+        .use-case-img:hover img {
+            transform: rotate(10deg);
+        }
+        
+        .use-case-content {
+            width: 60%;
+            padding: 40px;
+        }
+        
+        .carousel-controls {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            gap: 20px;
+        }
+        
+        .carousel-control {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-fast);
+            border: none;
+            font-size: 1.5rem;
+        }
+        
+        .carousel-control:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: scale(1.1);
+        }
+        
+        .carousel-indicators {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 10px;
+        }
+        
+        .carousel-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        
+        .carousel-indicator.active {
+            background-color: white;
+            transform: scale(1.2);
+        }
+        
+        /* Voice Samples Section */
+        .voice-samples {
+            background-color: var(--light);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .voice-sample-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .voice-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+        }
+        
+        .voice-item {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-radius: var(--border-radius-md);
+            background-color: white;
+            box-shadow: var(--shadow-md);
+            transition: transform var(--transition-medium), box-shadow var(--transition-medium);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        body.dark-theme .voice-item {
+            background-color: var(--light-gray);
+        }
+        
+        .voice-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .voice-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+        }
+        
+        .voice-item:nth-child(1)::before {
+            background-color: var(--accent);
+        }
+        
+        .voice-item:nth-child(2)::before {
+            background-color: var(--primary);
+        }
+        
+        .voice-item:nth-child(3)::before {
+            background-color: var(--secondary);
+        }
+        
+        .voice-item:nth-child(4)::before {
+            background-color: #6BCB77;
+        }
+        
+        .voice-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            box-shadow: var(--shadow-md);
+            transition: transform var(--transition-medium);
+        }
+        
+        .voice-item:hover .voice-avatar {
+            transform: scale(1.1) rotate(10deg);
+        }
+        
+        .voice-content {
+            flex: 1;
+        }
+        
+        .voice-text {
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .voice-character {
+            color: var(--primary);
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        .play-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--accent);
+            color: var(--dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-fast);
+            border: none;
+            margin-left: auto;
+            flex-shrink: 0;
+        }
+        
+        .play-button svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+        
+        .voice-item:hover .play-button {
+            transform: scale(1.1);
+            background-color: var(--accent-dark);
+        }
+        
+        .voice-playing .play-button {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .audio-progress {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            width: 0%;
+            background-color: var(--primary);
+            transition: width 0.1s linear;
+        }
+        
+        /* Get Started Section */
+        .get-started {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            margin: 50px 0;
+            padding-top: 80px;
+            padding-bottom: 100px;
+        }
+        
+        body.dark-theme .get-started {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+        
+        .get-started::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: var(--light);
+            clip-path: ellipse(55% 100px at 50% 100px);
+            z-index: 5;
+            pointer-events: none;
+        }
+        
+        body.dark-theme .get-started::after {
+            background-color: var(--dark);
+        }
+        
+        .get-started-content {
+            position: relative;
+            z-index: 5;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            box-shadow: var(--shadow-md);
+        }
+        
+        /* Developer Section */
+        .developer {
+            background-color: var(--light);
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+        
+        .testimonial-card {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: white;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-lg);
+            position: relative;
+        }
+        
+        body.dark-theme .testimonial-card {
+            background-color: var(--light-gray);
+        }
+        
+        .quote-mark {
+            position: absolute;
+            font-size: 100px;
+            line-height: 1;
+            color: rgba(0, 0, 0, 0.05);
+        }
+        
+        .quote-mark-open {
+            top: 20px;
+            left: 20px;
+        }
+        
+        .quote-mark-close {
+            bottom: 20px;
+            right: 20px;
+            transform: rotate(180deg);
+        }
+        
+        .testimonial-text {
+            position: relative;
+            z-index: 2;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .author-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            box-shadow: var(--shadow-md);
+        }
+        
+        .author-info {
+            text-align: left;
+        }
+        
+        .author-name {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        
+        .author-title {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 60px 0 30px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto 50px;
+            padding: 0 20px;
+        }
+        
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-logo img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        
+        .footer-logo-text {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: white;
+        }
+        
+        .footer-links h4 {
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .footer-links h4::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary);
+            border-radius: 3px;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: all var(--transition-fast);
+        }
+        
+        .footer-links a:hover {
+            color: white;
+            transform: translateX(5px);
+            display: inline-block;
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all var(--transition-fast);
+        }
+        
+        .social-icon:hover {
+            background-color: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+        }
+        
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-fast);
+            z-index: 99;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .back-to-top:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .section {
+                padding: 60px 20px;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            
+            .voice-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            
+            .use-case-card {
+                flex-direction: column;
+            }
+            
+            .use-case-img {
+                width: 100%;
+                padding: 20px;
+            }
+            
+            .use-case-content {
+                width: 100%;
+                padding: 30px;
+            }
+            
+            .chat-bubble {
+                margin-left: 20px !important;
+                margin-right: 20px !important;
+            }
+            
+            .giraffe-img {
+                width: 120px;
+                right: -40px;
+            }
+            
+            .testimonial-card {
+                padding: 30px 20px;
+            }
+            
+            .testimonial-author {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .author-avatar {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            
+            .author-info {
+                text-align: center;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header-buttons {
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+            
+            .app-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .app-buttons .btn {
+                width: 100%;
+                max-width: 220px;
+            }
+            
+            .voice-item {
+                padding: 15px;
+            }
+            
+            .voice-avatar {
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+            }
+            
+            .play-button {
+                width: 40px;
+                height: 40px;
+            }
+            
+            .chat-bubble::before {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
+            }
+            
+            .chat-bubble:nth-child(even)::before {
+                left: -45px;
+            }
+            
+            .chat-bubble:nth-child(odd)::before {
+                right: -45px;
+            }
+            
+            .chat-bubble:nth-child(even) {
+                margin-left: 45px;
+            }
+            
+            .chat-bubble:nth-child(odd) {
+                margin-right: 45px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <div class="theme-toggle-thumb">
+            <span id="themeIcon">🌙</span>
+        </div>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="loader-characters">
+                <div class="loader-character">
+                    <img src="lv1t7qynca.png" alt="Character">
+                </div>
+                <div class="loader-character">
+                    <img src="heddgvc7pg.png" alt="Character">
+                </div>
+                <div class="loader-character">
+                    <img src="mh3d6qblwj.png" alt="Character">
+                </div>
+                <div class="loader-character">
+                    <img src="ykp7spbqi7.png" alt="Character">
+                </div>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress" id="loaderProgress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4L4 12H9V20H15V12H20L12 4Z" fill="currentColor" />
+        </svg>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="section hero" id="hero">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="logo-container" style="width: 450px; height: 450px;">
+                    <img src="x9ghvotjp8.png" alt="TimeSense Logo" class="logo">
+                </div>
+                <h1 class="hero-title">子どもが"時間を感じて"動く</h1>
+                <p class="hero-subtitle">キャラクターの声かけで自立をサポート</p>
+                
+                <div style="margin: 25px 0 20px; font-weight: bold; color: white; background-color: rgba(255, 107, 138, 0.7); padding: 10px 20px; border-radius: 20px; display: inline-block; animation: pulse 2s infinite; font-size: 1.2rem; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">6月リリース予定！</div>
+                
+                <div class="app-buttons" style="margin-top: 15px;">
+                    <a href="#" class="btn" style="background-color: #333;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.9 5c.1 1.1-.3 2.3-1 3.1-.7.9-1.8 1.4-2.9 1.3-.1-1.1.3-2.2.9-3 .7-.9 1.9-1.5 3-1.4zM15 10.9c1.6 0 3.1.9 3.1 3 0 .5-.1 1-.2 1.5-1.3.6-2.3 1.7-2.7 3.1-.1-.7-.1-1.5-.4-2.2-.3-.6-.9-1.1-1.5-1.5-.3-.2-.8-.4-1.1-.7-.5-.5-.9-1.1-.9-1.9 0-1.3.9-2.2 2.1-2.3.5 0 1.1.2 1.6.2.2-.3 0-.8 0-.8z" />
+                            <path d="M12 4c4.4 0 8 3.6 8 8s-3.6 8-8 8-8-3.6-8-8 3.6-8 8-8m0-2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
+                        </svg>
+                        App Store
+                    </a>
+                    <a href="#" class="btn" style="background-color: #0070c9;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3v18h18V3H3zm14 2.5h1.5V7h-1l-1.5-1.5L14.5 7h-1V5.5H15l1 1 1-1zM8 13.5l-3-7h1.5l2.2 5.2L11 6.5h1l2.2 5.2 2.2-5.2h1.5l-3 7h-1l-2.2-5.2-2.2 5.2h-1.5z" />
+                        </svg>
+                        Google Play
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about" style="padding: 60px 20px;">
+        <div class="container">
+            <h2 class="section-title">TimeSenseとは？</h2>
+            <p class="about-text" style="margin-bottom: 20px;">
+                TimeSenseは、子どもの"時間の理解"と"行動"をつなげる声かけタイマーです。アナログ時計と残り時間の視覚的な表現と、個性豊かなキャラクターの声かけで、お子さまの時間感覚と自立を自然に育みます。
+            </p>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="section problem" id="problem">
+        <div class="container problem-container">
+            <h2 class="section-title" style="text-align: center; margin: 0 auto 50px;">朝のバタバタ、思わず出ちゃうこんなセリフ…</h2>
+            
+            <div class="chat-container">
+                <div class="chat-bubble" id="chat1">
+                    「もう出かける時間だよ！」
+                </div>
+                <div class="chat-bubble" id="chat2">
+                    「あと何分しかないよ！急いで!」
+                </div>
+                <div class="chat-bubble" id="chat3">
+                    「またあそび始めてる！なんで！？」
+                </div>
+                <div class="chat-bubble" id="chat4">
+                    「また怒っちゃった…ほんとは優しくしたいのに」
+                </div>
+                
+
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px; position: relative; z-index: 10;">
+                <div style="background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%); padding: 25px 30px; border-radius: 20px; color: white; font-weight: 500; font-size: 1.3rem; max-width: 800px; margin: 0 auto; box-shadow: var(--shadow-lg); border: 3px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(5px);">
+                    <div style="display: inline-block; position: relative; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+                        <span style="font-weight: 800; letter-spacing: 0.5px;">TimeSenseは、こんな毎日のバタバタを、</span><br>
+                        <span style="font-weight: 800; letter-spacing: 0.5px;">かわいいキャラクターと一緒にやさしくサポートします。</span>
+                        <div style="position: absolute; bottom: -10px; left: 0; width: 100%; height: 4px; background-color: rgba(255, 255, 255, 0.7); border-radius: 4px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <h2 class="section-title">TimeSenseの特徴</h2>
+            
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 50px; font-size: 1.1rem;">TimeSenseの画面と声掛け設計は、子どもの成長や心理学の研究結果に基づいています。</p>
+            
+            <div class="features-grid">
+                <div class="feature-card" id="feature1">
+                    <div class="feature-img-container">
+                        <img src="n4fwof1nzj.png" alt="時間表示の特徴" class="feature-img">
+                    </div>
+                    <div class="feature-content">
+                        <h3>あと○分がひと目でわかる</h3>
+                        <p>知育デザインのアナログ時計＋タイマー表示で、残り時間がパッと見える</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card" id="feature2">
+                    <div class="feature-img-container">
+                        <img src="qec271mpll.png" alt="声かけ機能" class="feature-img">
+                    </div>
+                    <div class="feature-content">
+                        <h3>キャラが声でサポート</h3>
+                        <p>親の代わりに、キャラクターが子どもに合った声かけでサポートします</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card" id="feature3">
+                    <div class="feature-img-container">
+                        <img src="1hkrqutgzf.png" alt="キャラクター切り替え" class="feature-img">
+                    </div>
+                    <div class="feature-content">
+                        <h3>朝・夜・宿題でキャラを切り替え</h3>
+                        <p>時間帯やシーンに応じてキャラが変わるから、子どもも飽きずに続けられる</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="screenshot-container">
+                <div class="screenshot-item">
+                    <img src="hcj7irmb7y.png" alt="ライトモード画面">
+                    <div class="screenshot-label">ライトモード</div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="ft86yrq9r7.png" alt="ダークモード画面">
+                    <div class="screenshot-label">ダークモード</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="section use-cases" id="use-cases">
+        <div class="container use-cases-container" style="position: relative; z-index: 20;">
+            <h2 class="section-title">活用シーン</h2>
+            
+            <div class="use-cases-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+                <div class="use-case-card" style="height: 100%; display: flex; flex-direction: column; background-color: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.4s ease; text-align: center;">
+                    <div class="use-case-img" style="padding: 20px; display: flex; justify-content: center; align-items: center; background-color: var(--light); text-align: center; width: 100%;">
+                        <img src="ykp7spbqi7.png" alt="朝の支度" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
+                    </div>
+                    <div class="use-case-content" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; width: 100%;">
+                        <h3 style="margin-bottom: 10px; width: 100%; text-align: center; color: var(--dark);">「早くして！」の代わりに</h3>
+                        <p style="flex-grow: 1; font-size: 0.95rem; width: 100%; text-align: center; margin: 0 auto;">残り時間とキャラの声で、朝の支度がスムーズに。親が何度も声をかける必要がなくなり、朝の時間がより穏やかに。</p>
+                    </div>
+                </div>
+                
+                <div class="use-case-card" style="height: 100%; display: flex; flex-direction: column; background-color: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.4s ease; text-align: center;">
+                    <div class="use-case-img" style="padding: 20px; display: flex; justify-content: center; align-items: center; background-color: var(--light); text-align: center; width: 100%;">
+                        <img src="vlvutrpm8a.png" alt="お片付け" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
+                    </div>
+                    <div class="use-case-content" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; width: 100%;">
+                        <h3 style="margin-bottom: 10px; width: 100%; text-align: center; color: var(--dark);">集中スイッチON</h3>
+                        <p style="flex-grow: 1; font-size: 0.95rem; width: 100%; text-align: center; margin: 0 auto;">タイマーで区切ることで、やる気もメリハリもアップ。「あと5分！」というキャラクターの声かけが、子どもの集中力を高めます。</p>
+                    </div>
+                </div>
+                
+                <div class="use-case-card" style="height: 100%; display: flex; flex-direction: column; background-color: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.4s ease; text-align: center;">
+                    <div class="use-case-img" style="padding: 20px; display: flex; justify-content: center; align-items: center; background-color: var(--light); text-align: center; width: 100%;">
+                        <img src="mh3d6qblwj.png" alt="時間の切り替え" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
+                    </div>
+                    <div class="use-case-content" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; width: 100%;">
+                        <h3 style="margin-bottom: 10px; width: 100%; text-align: center; color: var(--dark);">遅れず出発できる！</h3>
+                        <p style="flex-grow: 1; font-size: 0.95rem; width: 100%; text-align: center; margin: 0 auto;">キャラの声で準備をうながすから、イライラ減少。「もう出かける時間だよ！」と声をかけてくれるので、親子のストレスが軽減されます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Samples Section -->
+    <section class="section voice-samples" id="voice-samples">
+        <div class="container">
+            <h2 class="section-title">声かけサンプル</h2>
+            
+            <div class="voice-sample-container">
+                <div class="voice-grid">
+                    <div class="voice-item" data-character="luma">
+                        <img src="heddgvc7pg.png" alt="Lumaキャラクター" class="voice-avatar">
+                        <div class="voice-content">
+                            <div class="voice-text">「Luma：あと5分だよ、がんばってね〜！」</div>
+                            <div class="voice-character">やさしい朝のパートナー／励まし上手</div>
+                        </div>
+                        <button class="play-button">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                        <div class="audio-progress"></div>
+                    </div>
+                    
+                    <div class="voice-item" data-character="pico">
+                        <img src="ykp7spbqi7.png" alt="Picoキャラクター" class="voice-avatar">
+                        <div class="voice-content">
+                            <div class="voice-text">「Pico：急いで～、もうすぐ時間切れ！」</div>
+                            <div class="voice-character">おでかけ前にぴったりのせっかちキャラ</div>
+                        </div>
+                        <button class="play-button">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                        <div class="audio-progress"></div>
+                    </div>
+                    
+                    <div class="voice-item" data-character="milo">
+                        <img src="mh3d6qblwj.png" alt="Miloキャラクター" class="voice-avatar">
+                        <div class="voice-content">
+                            <div class="voice-text">「Milo：よっしゃ、あと10分だ！集中集中！」</div>
+                            <div class="voice-character">宿題モードの熱血お兄ちゃん</div>
+                        </div>
+                        <button class="play-button">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                        <div class="audio-progress"></div>
+                    </div>
+                    
+                    <div class="voice-item" data-character="toto">
+                        <img src="3id2hkffq7.png" alt="Totoキャラクター" class="voice-avatar">
+                        <div class="voice-content">
+                            <div class="voice-text">「Toto：そろそろお布団いこうよ〜」</div>
+                            <div class="voice-character">夜のリラックスタイムにおすすめ</div>
+                        </div>
+                        <button class="play-button">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                        <div class="audio-progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Started Section -->
+    <section class="section get-started" id="get-started">
+        <div class="container get-started-content">
+            <h2 class="section-title">利用方法</h2>
+            <p>まずは無料で体験できます！<br>プレミアムでは広告なし＆キャラ音声がすべて使えます。</p>
+            
+            <div style="font-weight: bold; color: white; background-color: rgba(255, 107, 138, 0.7); padding: 8px 15px; border-radius: 20px; display: inline-block; animation: pulse 2s infinite; margin: 30px 0;">6月リリース予定！</div>
+            
+            <div class="app-buttons">
+                <a href="#" class="btn" style="background-color: #333;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.9 5c.1 1.1-.3 2.3-1 3.1-.7.9-1.8 1.4-2.9 1.3-.1-1.1.3-2.2.9-3 .7-.9 1.9-1.5 3-1.4zM15 10.9c1.6 0 3.1.9 3.1 3 0 .5-.1 1-.2 1.5-1.3.6-2.3 1.7-2.7 3.1-.1-.7-.1-1.5-.4-2.2-.3-.6-.9-1.1-1.5-1.5-.3-.2-.8-.4-1.1-.7-.5-.5-.9-1.1-.9-1.9 0-1.3.9-2.2 2.1-2.3.5 0 1.1.2 1.6.2.2-.3 0-.8 0-.8z" />
+                        <path d="M12 4c4.4 0 8 3.6 8 8s-3.6 8-8 8-8-3.6-8-8 3.6-8 8-8m0-2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
+                    </svg>
+                    App Store
+                </a>
+                <a href="#" class="btn" style="background-color: #0070c9;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 3v18h18V3H3zm14 2.5h1.5V7h-1l-1.5-1.5L14.5 7h-1V5.5H15l1 1 1-1zM8 13.5l-3-7h1.5l2.2 5.2L11 6.5h1l2.2 5.2 2.2-5.2h1.5l-3 7h-1l-2.2-5.2-2.2 5.2h-1.5z" />
+                    </svg>
+                    Google Play
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developer Section -->
+    <section class="section developer" id="developer">
+        <div class="container">
+            <h2 class="section-title">開発者より</h2>
+            
+            <div class="testimonial-card">
+                <div class="quote-mark quote-mark-open">"</div>
+                <div class="testimonial-text" style="text-align: left; padding-left: 20px;">
+                    <p style="text-indent: 1em;">このアプリは、朝の時間にいつもバタバタしていた私たち家族が、<strong>少しでも笑顔で1日を始められるように…という想いから生まれました。</strong></p>
+                    
+                    <p style="text-indent: 2em;">「あと○分」が感覚でわかるように。<strong>かわいいキャラたちが、親の代わりにやさしく声をかけてくれます。</strong></p>
+                    
+                    <p style="text-indent: 3em;"><strong>あなたの声を代弁してくれる"朝の相棒"です。</strong></p>
+                    
+                    <p style="text-indent: 2em;">TimeSenseは、「タイマー × 教育 × 優しさ」で、<strong>子どもが"自分で動ける"力を、毎日少しずつ育てていくアプリです。</strong></p>
+                    
+                    <p style="text-indent: 1em;">自分の子にも、世界中の親子にも使ってもらえたら嬉しいです。レビューやご意見もお待ちしています！</p>
+                </div>
+                <div class="quote-mark quote-mark-close">"</div>
+                
+                <div class="testimonial-author">
+                    <img src="lv1t7qynca.png" alt="開発者" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">山田 太郎</div>
+                        <div class="author-title">TimeSense開発者・一児のパパ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <img src="df7ksn98ya_1.png" alt="Syncraft Logo" style="max-width: 180px; margin-bottom: 20px;">
+                </div>
+                <div class="footer-links" style="margin-top: 30px;">
+                    <ul style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; list-style: none; padding: 0;">
+                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">よくある質問</a></li>
+                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">お問い合わせ</a></li>
+                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">運営会社</a></li>
+                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">利用規約</a></li>
+                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">プライバシーポリシー</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2023 TimeSense All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Preloader
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('preloader');
+            const loaderProgress = document.getElementById('loaderProgress');
+            
+            let width = 0;
+            const interval = setInterval(function() {
+                if (width >= 100) {
+                    clearInterval(interval);
+                    setTimeout(function() {
+                        preloader.classList.add('loaded');
+                    }, 500);
+                } else {
+                    width += 1;
+                    loaderProgress.style.width = width + '%';
+                }
+            }, 20);
+            
+            // Initialize particles
+            createParticles();
+        });
+        
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        
+        themeToggle.addEventListener('click', function() {
+            document.body.classList.toggle('dark-theme');
+            
+            if (document.body.classList.contains('dark-theme')) {
+                themeIcon.textContent = '☀️';
+            } else {
+                themeIcon.textContent = '🌙';
+            }
+        });
+        
+        // Back to Top
+        const backToTop = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+            
+            // Check for chat bubbles
+            animateChatBubbles();
+            
+            // Check for feature cards
+            animateFeatureCards();
+        });
+        
+        backToTop.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Particles Animation
+        function createParticles() {
+            const particles = document.getElementById('particles');
+            const colors = ['#FFE9B0', '#AED9E0', '#FF8FA8', '#FFFFFF'];
+            const shapes = ['circle', 'triangle', 'square'];
+            
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                
+                const size = Math.random() * 15 + 5;
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                const shape = shapes[Math.floor(Math.random() * shapes.length)];
+                const left = Math.random() * 100;
+                const duration = Math.random() * 15 + 10;
+                const delay = Math.random() * 10;
+                
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.backgroundColor = color;
+                particle.style.left = `${left}%`;
+                particle.style.bottom = `-${size}px`;
+                particle.style.opacity = Math.random() * 0.5 + 0.1;
+                particle.style.animationDuration = `${duration}s`;
+                particle.style.animationDelay = `${delay}s`;
+                
+                if (shape === 'triangle') {
+                    particle.style.borderRadius = '0';
+                    particle.style.width = '0';
+                    particle.style.height = '0';
+                    particle.style.backgroundColor = 'transparent';
+                    particle.style.borderLeft = `${size/2}px solid transparent`;
+                    particle.style.borderRight = `${size/2}px solid transparent`;
+                    particle.style.borderBottom = `${size}px solid ${color}`;
+                } else if (shape === 'square') {
+                    particle.style.borderRadius = '2px';
+                }
+                
+                particles.appendChild(particle);
+            }
+        }
+        
+        // Chat Bubbles Animation
+        function animateChatBubbles() {
+            const chatBubbles = document.querySelectorAll('.chat-bubble');
+            
+            chatBubbles.forEach((bubble) => {
+                const bubbleTop = bubble.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (bubbleTop < windowHeight * 0.9) {
+                    bubble.classList.add('active');
+                }
+            });
+        }
+        
+        // Feature Cards Animation
+        function animateFeatureCards() {
+            const featureCards = document.querySelectorAll('.feature-card');
+            
+            featureCards.forEach((card) => {
+                const cardTop = card.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (cardTop < windowHeight * 0.85) {
+                    card.classList.add('active');
+                }
+            });
+        }
+        
+        // Use Cases Carousel
+        const carouselInner = document.getElementById('carouselInner');
+        const indicators = document.getElementById('carouselIndicators');
+        const prevButton = document.getElementById('prevButton');
+        const nextButton = document.getElementById('nextButton');
+        
+        // Add indicators
+        const items = document.querySelectorAll('.carousel-item');
+        let currentIndex = 0;
+        
+        for (let i = 0; i < items.length; i++) {
+            const indicator = document.createElement('div');
+            indicator.className = 'carousel-indicator';
+            if (i === 0) indicator.classList.add('active');
+            
+            indicator.addEventListener('click', function() {
+                goToSlide(i);
+            });
+            
+            indicators.appendChild(indicator);
+        }
+        
+        function updateCarousel() {
+            const width = items[0].offsetWidth;
+            carouselInner.style.transform = `translateX(-${currentIndex * width}px)`;
+            
+            // Update indicators
+            document.querySelectorAll('.carousel-indicator').forEach((ind, idx) => {
+                if (idx === currentIndex) {
+                    ind.classList.add('active');
+                } else {
+                    ind.classList.remove('active');
+                }
+            });
+        }
+        
+        function goToSlide(index) {
+            if (index < 0) {
+                currentIndex = items.length - 1;
+            } else if (index >= items.length) {
+                currentIndex = 0;
+            } else {
+                currentIndex = index;
+            }
+            
+            updateCarousel();
+        }
+        
+        prevButton.addEventListener('click', function() {
+            goToSlide(currentIndex - 1);
+        });
+        
+        nextButton.addEventListener('click', function() {
+            goToSlide(currentIndex + 1);
+        });
+        
+        // Voice Sample Player
+        const voiceItems = document.querySelectorAll('.voice-item');
+        
+        voiceItems.forEach(item => {
+            const progressBar = item.querySelector('.audio-progress');
+            const playButton = item.querySelector('.play-button');
+            
+            playButton.addEventListener('click', function() {
+                // Reset all progress bars and remove playing class
+                document.querySelectorAll('.voice-item').forEach(otherItem => {
+                    otherItem.classList.remove('voice-playing');
+                    otherItem.querySelector('.audio-progress').style.width = '0%';
+                });
+                
+                // Add playing class and animate progress
+                item.classList.add('voice-playing');
+                
+                // Simulate audio playing with progress bar
+                let progress = 0;
+                const interval = setInterval(() => {
+                    progress += 1;
+                    progressBar.style.width = `${progress}%`;
+                    
+                    if (progress >= 100) {
+                        clearInterval(interval);
+                        item.classList.remove('voice-playing');
+                    }
+                }, 30);
+            });
+        });
+        
+        // Initialize animations on load
+        window.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                animateChatBubbles();
+                animateFeatureCards();
+            }, 1000);
+        });
+        
+        // Resize listener for carousel
+        window.addEventListener('resize', function() {
+            updateCarousel();
+        });
+        
+        // Initialize carousel
+        updateCarousel();
+    </script>
+</body>
+</html>
