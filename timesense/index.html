@@ -8,6 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap" rel="stylesheet">
     <style>
+        /* プリローダーを非表示にするアニメーション */
+        @keyframes hidePreloader {
+            0% { opacity: 1; }
+            100% { opacity: 0; visibility: hidden; }
+        }
+        
+        /* JavaScript が機能しない場合のフォールバック */
+        #preloader {
+            animation: hidePreloader 0s ease-in 3s forwards;
+        }
+        
+        body.loaded #preloader {
+            display: none !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+        }
+        
         @keyframes pulse {
             0% {
                 transform: scale(1);
@@ -54,22 +71,7 @@
             --transition-slow: 0.8s ease;
         }
 
-        /* Theme Toggler Variables */
-        body.dark-theme {
-            --primary: #FF8FA8;
-            --primary-light: #FFA8BE;
-            --primary-dark: #FF6B8A;
-            --secondary: #66E0F0;
-            --secondary-light: #8AEAF5;
-            --secondary-dark: #3ACDDF;
-            --accent: #FFE090;
-            --accent-light: #FFE9B0;
-            --accent-dark: #FFCF56;
-            --light: #292A2F;
-            --dark: #F0F0F5;
-            --gray: #AAAAAF;
-            --light-gray: #343540;
-        }
+        /* Theme Variables - Dark mode removed as requested */
         
         * {
             margin: 0;
@@ -218,42 +220,7 @@
             0% { background-position: 0% 0%; }
             100% { background-position: 100% 0%; }
         }
-        
-        /* Theme Toggle */
-        .theme-toggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            width: 60px;
-            height: 30px;
-            background-color: var(--light-gray);
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-            padding: 5px;
-            cursor: pointer;
-            box-shadow: var(--shadow-sm);
-            transition: background-color var(--transition-fast);
-        }
-        
-        .theme-toggle-thumb {
-            width: 20px;
-            height: 20px;
-            background-color: var(--dark);
-            border-radius: 50%;
-            transform: translateX(0);
-            transition: transform var(--transition-fast), background-color var(--transition-fast);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: var(--light);
-            font-size: 12px;
-        }
-        
-        body.dark-theme .theme-toggle-thumb {
-            transform: translateX(30px);
-        }
+        /* Theme Toggle styles removed as requested */
         
         /* General Styles */
         .section {
@@ -336,6 +303,39 @@
             opacity: 0;
             z-index: -1;
             transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+        
+        /* スマートフォンアプリボタンのホバー時に「Coming Soon」を表示 */
+        .store-btn {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .store-btn .btn-content {
+            transition: opacity 0.3s ease;
+        }
+        
+        .store-btn .coming-soon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .store-btn:hover .btn-content {
+            opacity: 0.2;
+        }
+        
+        .store-btn:hover .coming-soon {
+            opacity: 1;
         }
         
         .btn:hover {
@@ -427,11 +427,7 @@
             pointer-events: none;
         }
         
-        body.dark-theme .hero::before {
-            background-color: var(--dark);
-            clip-path: ellipse(55% 100px at 50% 100px);
-            z-index: 5;
-        }
+        /* Dark theme styles removed */
         
         .hero-content {
             position: relative;
@@ -590,13 +586,13 @@
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             margin: 50px 0;
             padding-top: 80px;
-            padding-bottom: 100px;
+            padding-bottom: 180px;
         }
         
         .problem::after {
             content: '';
             position: absolute;
-            bottom: -1px;
+            bottom: 0;
             left: 0;
             right: 0;
             height: 100px;
@@ -606,14 +602,7 @@
             pointer-events: none;
         }
         
-        body.dark-theme .problem {
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        }
-        
-        body.dark-theme .problem::after {
-            background-color: var(--dark);
-            clip-path: ellipse(55% 100px at 50% 100px);
-        }
+        /* Dark theme styles removed */
         
         .problem-container {
             position: relative;
@@ -643,37 +632,46 @@
             background-color: rgba(255, 255, 255, 0.8);
             color: var(--dark);
             box-shadow: var(--shadow-md);
-            transform: translateY(30px);
-            opacity: 0;
-            transition: transform 0.8s var(--transition-medium), opacity 0.8s var(--transition-medium);
-        }
-        
-        .chat-bubble.active {
             transform: translateY(0);
             opacity: 1;
+            cursor: pointer;
+            will-change: transform, box-shadow;
+            /* 初期状態から表示するように変更 */
         }
+        
+        .chat-bubble:hover {
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+            transform: translateY(-10px) !important;
+        }
+        
+        /* .chat-bubble.active {
+            transform: translateY(0);
+            opacity: 1;
+        } */
         
         .chat-bubble:nth-child(even) {
             align-self: flex-start;
             margin-left: 60px;
             border-radius: 20px 20px 20px 0;
-            transform: translateX(-30px);
+            transform: translateX(0); /* 初期から表示 */
         }
         
         .chat-bubble:nth-child(odd) {
             align-self: flex-end;
             margin-right: 60px;
             border-radius: 20px 20px 0 20px;
-            transform: translateX(30px);
+            transform: translateX(0); /* 初期から表示 */
         }
         
+        /* アニメーションクラスはもう不要
         .chat-bubble.active:nth-child(even) {
             transform: translateX(0);
         }
         
         .chat-bubble.active:nth-child(odd) {
             transform: translateX(0);
-        }
+        } */
         
         .chat-bubble::before {
             content: '';
@@ -757,18 +755,16 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-            opacity: 0;
-            transform: translateY(50px);
+            opacity: 1; /* 常に表示するように変更 */
+            transform: translateY(0); /* 初期位置から移動しないように変更 */
         }
         
-        body.dark-theme .feature-card {
-            background-color: var(--light-gray);
-        }
+        /* Dark theme styles removed */
         
-        .feature-card.active {
+        /* .feature-card.active {
             opacity: 1;
             transform: translateY(0);
-        }
+        } */
         
         .feature-card:hover {
             transform: translateY(-10px);
@@ -789,9 +785,7 @@
             color: white;
         }
         
-        body.dark-theme .feature-card:nth-child(1) {
-            background: linear-gradient(to bottom right, var(--light-gray), var(--dark));
-        }
+        /* Dark theme styles removed */
         
         .feature-img-container {
             width: 100%;
@@ -805,8 +799,8 @@
         }
         
         .feature-img {
-            width: 160px;
-            height: 160px;
+            width: 240px;
+            height: 240px;
             object-fit: contain;
             transition: transform var(--transition-medium);
         }
@@ -884,13 +878,13 @@
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             margin: 50px 0;
             padding-top: 80px;
-            padding-bottom: 100px;
+            padding-bottom: 180px;
         }
         
         .use-cases::after {
             content: '';
             position: absolute;
-            bottom: -1px;
+            bottom: 0;
             left: 0;
             right: 0;
             height: 100px;
@@ -900,14 +894,7 @@
             pointer-events: none;
         }
         
-        body.dark-theme .use-cases {
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        }
-        
-        body.dark-theme .use-cases::after {
-            background-color: var(--dark);
-            clip-path: ellipse(55% 100px at 50% 100px);
-        }
+        /* Dark theme styles removed */
         
         .use-cases-container {
             position: relative;
@@ -939,9 +926,7 @@
             box-shadow: var(--shadow-lg);
         }
         
-        body.dark-theme .use-case-card {
-            background-color: var(--light-gray);
-        }
+        /* Dark theme styles removed */
         
         .use-case-img {
             width: 40%;
@@ -1046,12 +1031,10 @@
             transition: transform var(--transition-medium), box-shadow var(--transition-medium);
             position: relative;
             overflow: hidden;
-            cursor: pointer;
+            justify-content: center;
         }
         
-        body.dark-theme .voice-item {
-            background-color: var(--light-gray);
-        }
+        /* Dark theme styles removed */
         
         .voice-item:hover {
             transform: translateY(-5px);
@@ -1087,7 +1070,6 @@
             width: 80px;
             height: 80px;
             border-radius: 50%;
-            margin-right: 20px;
             box-shadow: var(--shadow-md);
             transition: transform var(--transition-medium);
         }
@@ -1098,6 +1080,8 @@
         
         .voice-content {
             flex: 1;
+            display: flex;
+            flex-direction: column;
         }
         
         .voice-text {
@@ -1108,12 +1092,51 @@
         .voice-character {
             color: var(--primary);
             font-size: 0.9rem;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        
+        /* カスタムオーディオプレーヤー */
+        /* オーディオプレーヤーのスタイル */
+        .audio-player {
+            margin-top: 8px;
+            width: 120px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: transparent;
+            overflow: hidden;
+        }
+        
+        /* オーディオプレーヤーのスタイル調整 (ブラウザによって見た目は異なります) */
+        audio::-webkit-media-controls-panel {
+            background-color: white;
+            padding: 0;
+            box-shadow: none;
+        }
+        
+        audio::-webkit-media-controls-play-button {
+            background-color: var(--accent);
+            border-radius: 50%;
+        }
+        
+        audio::-webkit-media-controls-timeline {
+            display: none;
+        }
+        
+        audio::-webkit-media-controls-current-time-display,
+        audio::-webkit-media-controls-time-remaining-display {
+            display: none;
+        }
+        
+        /* オーディオプレーヤー全体の境界線と影を削除 */
+        audio {
+            box-shadow: none;
+            border: none;
+            outline: none;
         }
         
         .play-button {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             background-color: var(--accent);
             color: var(--dark);
@@ -1126,15 +1149,18 @@
             border: none;
             margin-left: auto;
             flex-shrink: 0;
+            position: relative;
+            z-index: 10;
+            pointer-events: auto;
         }
         
         .play-button svg {
-            width: 20px;
-            height: 20px;
+            width: 24px;
+            height: 24px;
             fill: currentColor;
         }
         
-        .voice-item:hover .play-button {
+        .play-button:hover {
             transform: scale(1.1);
             background-color: var(--accent-dark);
         }
@@ -1152,6 +1178,7 @@
             width: 0%;
             background-color: var(--primary);
             transition: width 0.1s linear;
+            z-index: 5;
         }
         
         /* Get Started Section */
@@ -1164,7 +1191,7 @@
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             margin: 50px 0;
             padding-top: 80px;
-            padding-bottom: 100px;
+            padding-bottom: 180px;
         }
         
         body.dark-theme .get-started {
@@ -1174,7 +1201,7 @@
         .get-started::after {
             content: '';
             position: absolute;
-            bottom: -1px;
+            bottom: 0;
             left: 0;
             right: 0;
             height: 100px;
@@ -1217,9 +1244,7 @@
             position: relative;
         }
         
-        body.dark-theme .testimonial-card {
-            background-color: var(--light-gray);
-        }
+        /* Dark theme styles removed */
         
         .quote-mark {
             position: absolute;
@@ -1541,14 +1566,9 @@
     </style>
 </head>
 <body>
-    <!-- Theme Toggle -->
-    <div class="theme-toggle" id="themeToggle">
-        <div class="theme-toggle-thumb">
-            <span id="themeIcon">🌙</span>
-        </div>
-    </div>
+    <!-- Theme Toggle removed as requested -->
 
-    <!-- Preloader -->
+    <!-- Preloader - シンプル化 -->
     <div class="preloader" id="preloader">
         <div class="preloader-content">
             <div class="loader-characters">
@@ -1566,10 +1586,19 @@
                 </div>
             </div>
             <div class="loader-bar">
-                <div class="loader-progress" id="loaderProgress"></div>
+                <div class="loader-progress" id="loaderProgress" style="width: 0%;"></div>
             </div>
         </div>
     </div>
+    
+    <!-- JavaScriptが無効でも3秒後に読み込み画面を非表示にする -->
+    <noscript>
+        <style>
+            #preloader {
+                display: none !important;
+            }
+        </style>
+    </noscript>
 
     <!-- Back to Top Button -->
     <div class="back-to-top" id="backToTop">
@@ -1583,27 +1612,37 @@
         <div class="particles" id="particles"></div>
         <div class="container">
             <div class="hero-content">
-                <div class="logo-container" style="width: 450px; height: 450px;">
-                    <img src="x9ghvotjp8.png" alt="TimeSense Logo" class="logo">
+                <div class="logo-container" style="width: min(450px, 100%); height: auto; max-width: 100%;">
+                    <img src="x9ghvotjp8.png" alt="TimeSense Logo" class="logo" style="max-width: 100%; height: auto;">
                 </div>
                 <h1 class="hero-title">子どもが"時間を感じて"動く</h1>
                 <p class="hero-subtitle">キャラクターの声かけで自立をサポート</p>
                 
-                <div style="margin: 25px 0 20px; font-weight: bold; color: white; background-color: rgba(255, 107, 138, 0.7); padding: 10px 20px; border-radius: 20px; display: inline-block; animation: pulse 2s infinite; font-size: 1.2rem; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">6月リリース予定！</div>
+                <div style="margin: 25px 0 20px; font-weight: bold; color: white; background-color: rgba(255, 107, 138, 0.7); padding: 10px 20px; border-radius: 20px; display: inline-block; animation: pulse 2s infinite; font-size: 1.2rem; box-shadow: 0 4px 8px rgba(0,0,0,0.2); position: relative; z-index: 5;">6月リリース予定！</div>
                 
                 <div class="app-buttons" style="margin-top: 15px;">
-                    <a href="#" class="btn" style="background-color: #333;">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M17.9 5c.1 1.1-.3 2.3-1 3.1-.7.9-1.8 1.4-2.9 1.3-.1-1.1.3-2.2.9-3 .7-.9 1.9-1.5 3-1.4zM15 10.9c1.6 0 3.1.9 3.1 3 0 .5-.1 1-.2 1.5-1.3.6-2.3 1.7-2.7 3.1-.1-.7-.1-1.5-.4-2.2-.3-.6-.9-1.1-1.5-1.5-.3-.2-.8-.4-1.1-.7-.5-.5-.9-1.1-.9-1.9 0-1.3.9-2.2 2.1-2.3.5 0 1.1.2 1.6.2.2-.3 0-.8 0-.8z" />
-                            <path d="M12 4c4.4 0 8 3.6 8 8s-3.6 8-8 8-8-3.6-8-8 3.6-8 8-8m0-2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
-                        </svg>
-                        App Store
+                    <!-- //App Storeリンクをここに貼る -->
+                    <a href="javascript:void(0);" onclick="event.preventDefault();" class="btn store-btn" style="background-color: #333;">
+                        <div class="btn-content">
+                            <!-- //この部分をApp Store画像に入れ替える -->
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.9 5c.1 1.1-.3 2.3-1 3.1-.7.9-1.8 1.4-2.9 1.3-.1-1.1.3-2.2.9-3 .7-.9 1.9-1.5 3-1.4zM15 10.9c1.6 0 3.1.9 3.1 3 0 .5-.1 1-.2 1.5-1.3.6-2.3 1.7-2.7 3.1-.1-.7-.1-1.5-.4-2.2-.3-.6-.9-1.1-1.5-1.5-.3-.2-.8-.4-1.1-.7-.5-.5-.9-1.1-.9-1.9 0-1.3.9-2.2 2.1-2.3.5 0 1.1.2 1.6.2.2-.3 0-.8 0-.8z" />
+                                <path d="M12 4c4.4 0 8 3.6 8 8s-3.6 8-8 8-8-3.6-8-8 3.6-8 8-8m0-2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
+                            </svg>
+                            App Store
+                        </div>
+                        <div class="coming-soon">Coming Soon</div>
                     </a>
-                    <a href="#" class="btn" style="background-color: #0070c9;">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 3v18h18V3H3zm14 2.5h1.5V7h-1l-1.5-1.5L14.5 7h-1V5.5H15l1 1 1-1zM8 13.5l-3-7h1.5l2.2 5.2L11 6.5h1l2.2 5.2 2.2-5.2h1.5l-3 7h-1l-2.2-5.2-2.2 5.2h-1.5z" />
-                        </svg>
-                        Google Play
+                    <!-- //Google Playリンクをここに貼る -->
+                    <a href="javascript:void(0);" onclick="event.preventDefault();" class="btn store-btn" style="background-color: #0070c9;">
+                        <div class="btn-content">
+                            <!-- //この部分をGoogle Play画像に入れ替える -->
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 3v18h18V3H3zm14 2.5h1.5V7h-1l-1.5-1.5L14.5 7h-1V5.5H15l1 1 1-1zM8 13.5l-3-7h1.5l2.2 5.2L11 6.5h1l2.2 5.2 2.2-5.2h1.5l-3 7h-1l-2.2-5.2-2.2 5.2h-1.5z" />
+                            </svg>
+                            Google Play
+                        </div>
+                        <div class="coming-soon">Coming Soon</div>
                     </a>
                 </div>
             </div>
@@ -1628,28 +1667,42 @@
             <h2 class="section-title" style="text-align: center; margin: 0 auto 50px;">朝のバタバタ、思わず出ちゃうこんなセリフ…</h2>
             
             <div class="chat-container">
-                <div class="chat-bubble" id="chat1">
+                <div class="chat-bubble active" id="chat1" style="transition: transform 0.5s ease; transform: translateY(0);">
                     「もう出かける時間だよ！」
                 </div>
-                <div class="chat-bubble" id="chat2">
+                <div class="chat-bubble active" id="chat2" style="transition: transform 0.5s ease; transform: translateY(0);">
                     「あと何分しかないよ！急いで!」
                 </div>
-                <div class="chat-bubble" id="chat3">
+                <div class="chat-bubble active" id="chat3" style="transition: transform 0.5s ease; transform: translateY(0);">
                     「またあそび始めてる！なんで！？」
                 </div>
-                <div class="chat-bubble" id="chat4">
+                <div class="chat-bubble active" id="chat4" style="transition: transform 0.5s ease; transform: translateY(0);">
                     「また怒っちゃった…ほんとは優しくしたいのに」
                 </div>
                 
-
+                <script>
+                    // ホバー検出のための監視コード
+                    document.addEventListener('DOMContentLoaded', function() {
+                        document.querySelectorAll('.chat-bubble').forEach(bubble => {
+                            bubble.addEventListener('mouseenter', function() {
+                                this.style.transform = 'translateY(-10px)';
+                                this.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.15)';
+                            });
+                            
+                            bubble.addEventListener('mouseleave', function() {
+                                this.style.transform = 'translateY(0)';
+                                this.style.boxShadow = 'var(--shadow-md)';
+                            });
+                        });
+                    });
+                </script>
             </div>
             
             <div style="text-align: center; margin-top: 60px; position: relative; z-index: 10;">
-                <div style="background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%); padding: 25px 30px; border-radius: 20px; color: white; font-weight: 500; font-size: 1.3rem; max-width: 800px; margin: 0 auto; box-shadow: var(--shadow-lg); border: 3px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(5px);">
+                <div style="background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%); padding: 25px 30px; border-radius: 20px; color: white; font-weight: 500; font-size: 1.3rem; max-width: 800px; margin: 0 auto; box-shadow: var(--shadow-lg); border: 3px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(5px); position: relative;">
                     <div style="display: inline-block; position: relative; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">
                         <span style="font-weight: 800; letter-spacing: 0.5px;">TimeSenseは、こんな毎日のバタバタを、</span><br>
                         <span style="font-weight: 800; letter-spacing: 0.5px;">かわいいキャラクターと一緒にやさしくサポートします。</span>
-                        <div style="position: absolute; bottom: -10px; left: 0; width: 100%; height: 4px; background-color: rgba(255, 255, 255, 0.7); border-radius: 4px;"></div>
                     </div>
                 </div>
             </div>
@@ -1664,9 +1717,9 @@
             <p style="text-align: center; max-width: 800px; margin: 0 auto 50px; font-size: 1.1rem;">TimeSenseの画面と声掛け設計は、子どもの成長や心理学の研究結果に基づいています。</p>
             
             <div class="features-grid">
-                <div class="feature-card" id="feature1">
+                <div class="feature-card active" id="feature1">
                     <div class="feature-img-container">
-                        <img src="n4fwof1nzj.png" alt="時間表示の特徴" class="feature-img">
+                        <img src="n4fwof1nzj.png" alt="時間表示の特徴" class="feature-img" style="width: 110%; max-width: 110%; height: auto;">
                     </div>
                     <div class="feature-content">
                         <h3>あと○分がひと目でわかる</h3>
@@ -1674,7 +1727,7 @@
                     </div>
                 </div>
                 
-                <div class="feature-card" id="feature2">
+                <div class="feature-card active" id="feature2">
                     <div class="feature-img-container">
                         <img src="qec271mpll.png" alt="声かけ機能" class="feature-img">
                     </div>
@@ -1684,7 +1737,7 @@
                     </div>
                 </div>
                 
-                <div class="feature-card" id="feature3">
+                <div class="feature-card active" id="feature3">
                     <div class="feature-img-container">
                         <img src="1hkrqutgzf.png" alt="キャラクター切り替え" class="feature-img">
                     </div>
@@ -1726,7 +1779,7 @@
                 
                 <div class="use-case-card" style="height: 100%; display: flex; flex-direction: column; background-color: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.4s ease; text-align: center;">
                     <div class="use-case-img" style="padding: 20px; display: flex; justify-content: center; align-items: center; background-color: var(--light); text-align: center; width: 100%;">
-                        <img src="vlvutrpm8a.png" alt="お片付け" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
+                        <img src="l1xovd9bxc.png" alt="お片付け" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
                     </div>
                     <div class="use-case-content" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; width: 100%;">
                         <h3 style="margin-bottom: 10px; width: 100%; text-align: center; color: var(--dark);">集中スイッチON</h3>
@@ -1736,11 +1789,11 @@
                 
                 <div class="use-case-card" style="height: 100%; display: flex; flex-direction: column; background-color: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.4s ease; text-align: center;">
                     <div class="use-case-img" style="padding: 20px; display: flex; justify-content: center; align-items: center; background-color: var(--light); text-align: center; width: 100%;">
-                        <img src="mh3d6qblwj.png" alt="時間の切り替え" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
+                        <img src="vlvutrpm8a.png" alt="時間の切り替え" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
                     </div>
                     <div class="use-case-content" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; width: 100%;">
-                        <h3 style="margin-bottom: 10px; width: 100%; text-align: center; color: var(--dark);">遅れず出発できる！</h3>
-                        <p style="flex-grow: 1; font-size: 0.95rem; width: 100%; text-align: center; margin: 0 auto;">キャラの声で準備をうながすから、イライラ減少。「もう出かける時間だよ！」と声をかけてくれるので、親子のストレスが軽減されます。</p>
+                        <h3 style="margin-bottom: 10px; width: 100%; text-align: center; color: var(--dark);">時間の切り替えに</h3>
+                        <p style="flex-grow: 1; font-size: 0.95rem; width: 100%; text-align: center; margin: 0 auto;">まだまだ切り替えが苦手なのは成長段階の子どもたちには当たり前。ゲーム・遊びの切り替えをシーンに合わせてサポートします。</p>
                     </div>
                 </div>
             </div>
@@ -1755,59 +1808,63 @@
             <div class="voice-sample-container">
                 <div class="voice-grid">
                     <div class="voice-item" data-character="luma">
-                        <img src="heddgvc7pg.png" alt="Lumaキャラクター" class="voice-avatar">
+                        <div style="display: flex; flex-direction: column; align-items: center; width: 100px; margin-right: 20px;">
+                            <img src="heddgvc7pg.png" alt="Lumaキャラクター" class="voice-avatar" style="margin-right: 0;">
+                            <div style="text-align: center; margin-top: 10px; font-weight: bold; color: var(--primary);">Luma</div>
+                        </div>
                         <div class="voice-content">
                             <div class="voice-text">「Luma：あと5分だよ、がんばってね〜！」</div>
                             <div class="voice-character">やさしい朝のパートナー／励まし上手</div>
+                            <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
+                                <source src="2dkgs3tevf.mp3" type="audio/mpeg">
+                                お使いのブラウザは音声再生をサポートしていません
+                            </audio>
                         </div>
-                        <button class="play-button">
-                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 5v14l11-7z"/>
-                            </svg>
-                        </button>
-                        <div class="audio-progress"></div>
                     </div>
                     
                     <div class="voice-item" data-character="pico">
-                        <img src="ykp7spbqi7.png" alt="Picoキャラクター" class="voice-avatar">
+                        <div style="display: flex; flex-direction: column; align-items: center; width: 100px; margin-right: 20px;">
+                            <img src="vlvutrpm8a.png" alt="Picoキャラクター" class="voice-avatar" style="margin-right: 0;">
+                            <div style="text-align: center; margin-top: 10px; font-weight: bold; color: var(--primary);">Pico</div>
+                        </div>
                         <div class="voice-content">
                             <div class="voice-text">「Pico：急いで～、もうすぐ時間切れ！」</div>
                             <div class="voice-character">おでかけ前にぴったりのせっかちキャラ</div>
+                            <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
+                                <source src="bce66m9gum.mp3" type="audio/mpeg">
+                                お使いのブラウザは音声再生をサポートしていません
+                            </audio>
                         </div>
-                        <button class="play-button">
-                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 5v14l11-7z"/>
-                            </svg>
-                        </button>
-                        <div class="audio-progress"></div>
                     </div>
                     
                     <div class="voice-item" data-character="milo">
-                        <img src="mh3d6qblwj.png" alt="Miloキャラクター" class="voice-avatar">
+                        <div style="display: flex; flex-direction: column; align-items: center; width: 100px; margin-right: 20px;">
+                            <img src="mh3d6qblwj.png" alt="Miloキャラクター" class="voice-avatar" style="margin-right: 0;">
+                            <div style="text-align: center; margin-top: 10px; font-weight: bold; color: var(--primary);">Milo</div>
+                        </div>
                         <div class="voice-content">
                             <div class="voice-text">「Milo：よっしゃ、あと10分だ！集中集中！」</div>
                             <div class="voice-character">宿題モードの熱血お兄ちゃん</div>
+                            <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
+                                <source src="v4sar4jalm.mp3" type="audio/mpeg">
+                                お使いのブラウザは音声再生をサポートしていません
+                            </audio>
                         </div>
-                        <button class="play-button">
-                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 5v14l11-7z"/>
-                            </svg>
-                        </button>
-                        <div class="audio-progress"></div>
                     </div>
                     
                     <div class="voice-item" data-character="toto">
-                        <img src="3id2hkffq7.png" alt="Totoキャラクター" class="voice-avatar">
+                        <div style="display: flex; flex-direction: column; align-items: center; width: 100px; margin-right: 20px;">
+                            <img src="ykp7spbqi7.png" alt="Totoキャラクター" class="voice-avatar" style="margin-right: 0;">
+                            <div style="text-align: center; margin-top: 10px; font-weight: bold; color: var(--primary);">Toto</div>
+                        </div>
                         <div class="voice-content">
                             <div class="voice-text">「Toto：そろそろお布団いこうよ〜」</div>
                             <div class="voice-character">夜のリラックスタイムにおすすめ</div>
+                            <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
+                                <source src="zfqp1rrr7s.mp3" type="audio/mpeg">
+                                お使いのブラウザは音声再生をサポートしていません
+                            </audio>
                         </div>
-                        <button class="play-button">
-                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 5v14l11-7z"/>
-                            </svg>
-                        </button>
-                        <div class="audio-progress"></div>
                     </div>
                 </div>
             </div>
@@ -1817,24 +1874,34 @@
     <!-- Get Started Section -->
     <section class="section get-started" id="get-started">
         <div class="container get-started-content">
-            <h2 class="section-title">利用方法</h2>
+            <h2 class="section-title">アプリをダウンロード</h2>
             <p>まずは無料で体験できます！<br>プレミアムでは広告なし＆キャラ音声がすべて使えます。</p>
             
             <div style="font-weight: bold; color: white; background-color: rgba(255, 107, 138, 0.7); padding: 8px 15px; border-radius: 20px; display: inline-block; animation: pulse 2s infinite; margin: 30px 0;">6月リリース予定！</div>
             
             <div class="app-buttons">
-                <a href="#" class="btn" style="background-color: #333;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.9 5c.1 1.1-.3 2.3-1 3.1-.7.9-1.8 1.4-2.9 1.3-.1-1.1.3-2.2.9-3 .7-.9 1.9-1.5 3-1.4zM15 10.9c1.6 0 3.1.9 3.1 3 0 .5-.1 1-.2 1.5-1.3.6-2.3 1.7-2.7 3.1-.1-.7-.1-1.5-.4-2.2-.3-.6-.9-1.1-1.5-1.5-.3-.2-.8-.4-1.1-.7-.5-.5-.9-1.1-.9-1.9 0-1.3.9-2.2 2.1-2.3.5 0 1.1.2 1.6.2.2-.3 0-.8 0-.8z" />
-                        <path d="M12 4c4.4 0 8 3.6 8 8s-3.6 8-8 8-8-3.6-8-8 3.6-8 8-8m0-2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
-                    </svg>
-                    App Store
+                <!-- //App Storeリンクをここに貼る -->
+                <a href="javascript:void(0);" onclick="event.preventDefault();" class="btn store-btn" style="background-color: #333;">
+                    <div class="btn-content">
+                        <!-- //この部分をApp Store画像に入れ替える -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.9 5c.1 1.1-.3 2.3-1 3.1-.7.9-1.8 1.4-2.9 1.3-.1-1.1.3-2.2.9-3 .7-.9 1.9-1.5 3-1.4zM15 10.9c1.6 0 3.1.9 3.1 3 0 .5-.1 1-.2 1.5-1.3.6-2.3 1.7-2.7 3.1-.1-.7-.1-1.5-.4-2.2-.3-.6-.9-1.1-1.5-1.5-.3-.2-.8-.4-1.1-.7-.5-.5-.9-1.1-.9-1.9 0-1.3.9-2.2 2.1-2.3.5 0 1.1.2 1.6.2.2-.3 0-.8 0-.8z" />
+                            <path d="M12 4c4.4 0 8 3.6 8 8s-3.6 8-8 8-8-3.6-8-8 3.6-8 8-8m0-2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
+                        </svg>
+                        App Store
+                    </div>
+                    <div class="coming-soon">Coming Soon</div>
                 </a>
-                <a href="#" class="btn" style="background-color: #0070c9;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 3v18h18V3H3zm14 2.5h1.5V7h-1l-1.5-1.5L14.5 7h-1V5.5H15l1 1 1-1zM8 13.5l-3-7h1.5l2.2 5.2L11 6.5h1l2.2 5.2 2.2-5.2h1.5l-3 7h-1l-2.2-5.2-2.2 5.2h-1.5z" />
-                    </svg>
-                    Google Play
+                <!-- //Google Playリンクをここに貼る -->
+                <a href="javascript:void(0);" onclick="event.preventDefault();" class="btn store-btn" style="background-color: #0070c9;">
+                    <div class="btn-content">
+                        <!-- //この部分をGoogle Play画像に入れ替える -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3v18h18V3H3zm14 2.5h1.5V7h-1l-1.5-1.5L14.5 7h-1V5.5H15l1 1 1-1zM8 13.5l-3-7h1.5l2.2 5.2L11 6.5h1l2.2 5.2 2.2-5.2h1.5l-3 7h-1l-2.2-5.2-2.2 5.2h-1.5z" />
+                        </svg>
+                        Google Play
+                    </div>
+                    <div class="coming-soon">Coming Soon</div>
                 </a>
             </div>
         </div>
@@ -1847,24 +1914,24 @@
             
             <div class="testimonial-card">
                 <div class="quote-mark quote-mark-open">"</div>
-                <div class="testimonial-text" style="text-align: left; padding-left: 20px;">
-                    <p style="text-indent: 1em;">このアプリは、朝の時間にいつもバタバタしていた私たち家族が、<strong>少しでも笑顔で1日を始められるように…という想いから生まれました。</strong></p>
+                <div class="testimonial-text" style="text-align: left; padding: 20px 30px;">
+                    <p>このアプリは、朝の時間にいつもバタバタしていた私たち家族が、<strong>少しでも笑顔で1日を始められるように…という想いから生まれました。</strong></p>
                     
-                    <p style="text-indent: 2em;">「あと○分」が感覚でわかるように。<strong>かわいいキャラたちが、親の代わりにやさしく声をかけてくれます。</strong></p>
+                    <p>「あと○分」が感覚でわかるように。<strong>かわいいキャラたちが、親の代わりにやさしく声をかけてくれます。</strong></p>
                     
-                    <p style="text-indent: 3em;"><strong>あなたの声を代弁してくれる"育児の相棒"です。</strong></p>
+                    <p><strong>あなたの声を代弁してくれる"朝の相棒"です。</strong></p>
                     
-                    <p style="text-indent: 2em;">TimeSenseは、「タイマー × 教育 × 優しさ」で、<strong>子どもが"自分で動ける"力を、毎日少しずつ育てていくアプリです。</strong></p>
+                    <p>TimeSenseは、「タイマー × 教育 × 優しさ」で、<strong>子どもが"自分で動ける"力を、毎日少しずつ育てていくアプリです。</strong></p>
                     
-                    <p style="text-indent: 1em;">自分の子にも、世界中の親子にも使ってもらえたら嬉しいです。レビューやご意見もお待ちしています！</p>
+                    <p>自分の子にも、世界中の親子にも使ってもらえたら嬉しいです。レビューやご意見もお待ちしています！</p>
                 </div>
                 <div class="quote-mark quote-mark-close">"</div>
                 
                 <div class="testimonial-author">
                     <img src="lv1t7qynca.png" alt="開発者" class="author-avatar">
                     <div class="author-info">
-                        <div class="author-name">Syncraft 代表</div>
-                        <div class="author-title">TimeSense開発者・一児のパパ</div>
+                        <div class="author-name">syncraft 代表</div>
+                        <div class="author-title">TimeSense開発者</div>
                     </div>
                 </div>
             </div>
@@ -1880,11 +1947,14 @@
                 </div>
                 <div class="footer-links" style="margin-top: 30px;">
                     <ul style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; list-style: none; padding: 0;">
-                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">よくある質問</a></li>
-                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">お問い合わせ</a></li>
-                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">運営会社</a></li>
-                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">利用規約</a></li>
-                        <li><a href="#" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">プライバシーポリシー</a></li>
+                        <li><a href="https://example.com/faq" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">よくある質問</a></li>
+                        <!-- //urlをここに貼り付け -->
+                        <li><a href="https://example.com/contact" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">お問い合わせ</a></li>
+                        <!-- //urlをここに貼り付け -->
+                        <li><a href="https://syncraft.dev/" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">運営会社</a></li>
+                        <!-- //urlをここに貼り付け -->
+                        <li><a href="https://clear-turtle-13b.notion.site/TimeSense-Terms-of-Service-1df9fbf2cf7280809533c4d973904a2e" target="_blank" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">利用規約</a></li>
+                        <li><a href="https://clear-turtle-13b.notion.site/TimeSense-Privacy-Policy-1db9fbf2cf728057ab9be7a34eae65fc" target="_blank" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">プライバシーポリシー</a></li>
                     </ul>
                 </div>
             </div>
@@ -1896,41 +1966,92 @@
     </footer>
 
     <script>
-        // Preloader
-        window.addEventListener('load', function() {
-            const preloader = document.getElementById('preloader');
-            const loaderProgress = document.getElementById('loaderProgress');
-            
-            let width = 0;
-            const interval = setInterval(function() {
-                if (width >= 100) {
-                    clearInterval(interval);
-                    setTimeout(function() {
-                        preloader.classList.add('loaded');
-                    }, 500);
-                } else {
-                    width += 1;
-                    loaderProgress.style.width = width + '%';
+        // プリローダーを即時実行関数で囲んで確実に実行されるようにする
+        (function() {
+            // プリローダーの進行状況を更新する関数
+            function updateLoader() {
+                const preloader = document.getElementById('preloader');
+                const loaderProgress = document.getElementById('loaderProgress');
+                
+                if (!preloader || !loaderProgress) {
+                    console.error('Preloader elements not found');
+                    return;
                 }
-            }, 20);
-            
-            // Initialize particles
-            createParticles();
-        });
-        
-        // Theme Toggle
-        const themeToggle = document.getElementById('themeToggle');
-        const themeIcon = document.getElementById('themeIcon');
-        
-        themeToggle.addEventListener('click', function() {
-            document.body.classList.toggle('dark-theme');
-            
-            if (document.body.classList.contains('dark-theme')) {
-                themeIcon.textContent = '☀️';
-            } else {
-                themeIcon.textContent = '🌙';
+                
+                let width = 0;
+                const interval = setInterval(function() {
+                    width += 3; // より速く進める
+                    loaderProgress.style.width = width + '%';
+                    
+                    if (width >= 100) {
+                        clearInterval(interval);
+                        hidePreloader();
+                    }
+                }, 30);
             }
-        });
+            
+            // プリローダーを非表示にする関数
+            function hidePreloader() {
+                const preloader = document.getElementById('preloader');
+                if (!preloader) return;
+                
+                // すべての方法で非表示にする
+                document.body.classList.add('loaded');
+                preloader.classList.add('loaded');
+                preloader.style.opacity = '0';
+                preloader.style.visibility = 'hidden';
+                preloader.style.display = 'none';
+                
+                console.log('Preloader hidden');
+                
+                // プリローダー非表示後に各要素のアニメーションを実行
+                setTimeout(function() {
+                    animateChatBubbles();
+                    animateFeatureCards();
+                    console.log('Animations triggered after preloader');
+                    
+                    // 表示されない場合に備えて、すべての要素を強制的に表示
+                    document.querySelectorAll('.chat-bubble').forEach(bubble => {
+                        bubble.classList.add('active');
+                    });
+                    
+                    document.querySelectorAll('.feature-card').forEach(card => {
+                        card.classList.add('active');
+                    });
+                }, 300);
+            }
+            
+            // DOMContentLoaded イベントでローダーを開始
+            document.addEventListener('DOMContentLoaded', function() {
+                console.log('DOM loaded, starting preloader');
+                updateLoader();
+                
+                // パーティクル初期化を試行
+                try {
+                    if (typeof createParticles === 'function') {
+                        createParticles();
+                    }
+                } catch (e) {
+                    console.error('Error creating particles:', e);
+                }
+            });
+            
+            // window.onload イベントでも念のため処理 (二重保険)
+            window.onload = function() {
+                console.log('Window loaded');
+                hidePreloader();
+            };
+            
+            // 最終的なフォールバック: 2秒後に強制的に非表示
+            setTimeout(hidePreloader, 2000);
+            
+            // 即時実行: ページが完全に読み込まれる前にバーが動くようにする
+            updateLoader();
+        })();
+        
+        // Theme Toggle removed as requested
+        
+        // Dark mode toggle removed as requested
         
         // Back to Top
         const backToTop = document.getElementById('backToTop');
@@ -1949,6 +2070,16 @@
             animateFeatureCards();
         });
         
+        // ページ読み込み時にも要素のアニメーションを実行
+        document.addEventListener('DOMContentLoaded', function() {
+            // 少し遅延させて実行
+            setTimeout(function() {
+                animateChatBubbles();
+                animateFeatureCards();
+                console.log('Initial animations triggered');
+            }, 500);
+        });
+        
         backToTop.addEventListener('click', function() {
             window.scrollTo({
                 top: 0,
@@ -1959,42 +2090,56 @@
         // Particles Animation
         function createParticles() {
             const particles = document.getElementById('particles');
+            
+            // particles要素が見つからない場合は処理を終了
+            if (!particles) {
+                console.warn('Particles element not found');
+                return;
+            }
+            
             const colors = ['#FFE9B0', '#AED9E0', '#FF8FA8', '#FFFFFF'];
             const shapes = ['circle', 'triangle', 'square'];
             
+            // 既存の子要素をクリア
+            particles.innerHTML = '';
+            
             for (let i = 0; i < 30; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                
-                const size = Math.random() * 15 + 5;
-                const color = colors[Math.floor(Math.random() * colors.length)];
-                const shape = shapes[Math.floor(Math.random() * shapes.length)];
-                const left = Math.random() * 100;
-                const duration = Math.random() * 15 + 10;
-                const delay = Math.random() * 10;
-                
-                particle.style.width = `${size}px`;
-                particle.style.height = `${size}px`;
-                particle.style.backgroundColor = color;
-                particle.style.left = `${left}%`;
-                particle.style.bottom = `-${size}px`;
-                particle.style.opacity = Math.random() * 0.5 + 0.1;
-                particle.style.animationDuration = `${duration}s`;
-                particle.style.animationDelay = `${delay}s`;
-                
-                if (shape === 'triangle') {
-                    particle.style.borderRadius = '0';
-                    particle.style.width = '0';
-                    particle.style.height = '0';
-                    particle.style.backgroundColor = 'transparent';
-                    particle.style.borderLeft = `${size/2}px solid transparent`;
-                    particle.style.borderRight = `${size/2}px solid transparent`;
-                    particle.style.borderBottom = `${size}px solid ${color}`;
-                } else if (shape === 'square') {
-                    particle.style.borderRadius = '2px';
+                try {
+                    const particle = document.createElement('div');
+                    particle.className = 'particle';
+                    
+                    const size = Math.random() * 15 + 5;
+                    const color = colors[Math.floor(Math.random() * colors.length)];
+                    const shape = shapes[Math.floor(Math.random() * shapes.length)];
+                    const left = Math.random() * 100;
+                    const duration = Math.random() * 15 + 10;
+                    const delay = Math.random() * 10;
+                    
+                    particle.style.width = `${size}px`;
+                    particle.style.height = `${size}px`;
+                    particle.style.backgroundColor = color;
+                    particle.style.left = `${left}%`;
+                    particle.style.bottom = `-${size}px`;
+                    particle.style.opacity = Math.random() * 0.5 + 0.1;
+                    particle.style.animationDuration = `${duration}s`;
+                    particle.style.animationDelay = `${delay}s`;
+                    
+                    if (shape === 'triangle') {
+                        particle.style.borderRadius = '0';
+                        particle.style.width = '0';
+                        particle.style.height = '0';
+                        particle.style.backgroundColor = 'transparent';
+                        particle.style.borderLeft = `${size/2}px solid transparent`;
+                        particle.style.borderRight = `${size/2}px solid transparent`;
+                        particle.style.borderBottom = `${size}px solid ${color}`;
+                    } else if (shape === 'square') {
+                        particle.style.borderRadius = '2px';
+                    }
+                    
+                    particles.appendChild(particle);
+                } catch (e) {
+                    console.error('Error creating particle:', e);
                 }
-                
-                particles.appendChild(particle);
             }
         }
         
@@ -2027,25 +2172,30 @@
         }
         
         // Use Cases Carousel
-        const carouselInner = document.getElementById('carouselInner');
-        const indicators = document.getElementById('carouselIndicators');
-        const prevButton = document.getElementById('prevButton');
-        const nextButton = document.getElementById('nextButton');
+        let carouselInner = document.getElementById('carouselInner');
+        let indicators = document.getElementById('carouselIndicators');
+        let prevButton = document.getElementById('prevButton');
+        let nextButton = document.getElementById('nextButton');
         
-        // Add indicators
-        const items = document.querySelectorAll('.carousel-item');
+        // Add indicators if elements exist
+        let items = document.querySelectorAll('.carousel-item');
         let currentIndex = 0;
         
-        for (let i = 0; i < items.length; i++) {
-            const indicator = document.createElement('div');
-            indicator.className = 'carousel-indicator';
-            if (i === 0) indicator.classList.add('active');
-            
-            indicator.addEventListener('click', function() {
-                goToSlide(i);
-            });
-            
-            indicators.appendChild(indicator);
+        // Only run carousel code if elements exist
+        if (carouselInner && indicators) {
+            for (let i = 0; i < items.length; i++) {
+                const indicator = document.createElement('div');
+                indicator.className = 'carousel-indicator';
+                if (i === 0) indicator.classList.add('active');
+                
+                indicator.addEventListener('click', function() {
+                    goToSlide(i);
+                });
+                
+                indicators.appendChild(indicator);
+            }
+        } else {
+            console.log('Carousel elements not found, skipping initialization');
         }
         
         function updateCarousel() {
@@ -2084,34 +2234,35 @@
         
         // Voice Sample Player
         const voiceItems = document.querySelectorAll('.voice-item');
+        let currentAudio = null;
+        let currentInterval = null;
         
-        voiceItems.forEach(item => {
-            const progressBar = item.querySelector('.audio-progress');
-            const playButton = item.querySelector('.play-button');
+        // Fallback function to simulate audio progress
+        function simulateAudioProgress(item, progressBar) {
+            console.log('Using simulated audio playback');
+            item.classList.add('voice-playing');
+            let progress = 0;
             
-            playButton.addEventListener('click', function() {
-                // Reset all progress bars and remove playing class
-                document.querySelectorAll('.voice-item').forEach(otherItem => {
-                    otherItem.classList.remove('voice-playing');
-                    otherItem.querySelector('.audio-progress').style.width = '0%';
-                });
+            // Clear any existing interval
+            if (currentInterval) {
+                clearInterval(currentInterval);
+            }
+            
+            currentInterval = setInterval(() => {
+                progress += 1;
+                progressBar.style.width = `${progress}%`;
                 
-                // Add playing class and animate progress
-                item.classList.add('voice-playing');
-                
-                // Simulate audio playing with progress bar
-                let progress = 0;
-                const interval = setInterval(() => {
-                    progress += 1;
-                    progressBar.style.width = `${progress}%`;
-                    
-                    if (progress >= 100) {
-                        clearInterval(interval);
-                        item.classList.remove('voice-playing');
-                    }
-                }, 30);
-            });
-        });
+                if (progress >= 100) {
+                    clearInterval(currentInterval);
+                    currentInterval = null;
+                    item.classList.remove('voice-playing');
+                    progressBar.style.width = '0%';
+                }
+            }, 30);
+        }
+        
+                // 音声再生関連のJavaScriptを削除し、標準のaudio要素のみを使用
+        console.log('音声サンプルはネイティブのaudio要素で再生できます');
         
         // Initialize animations on load
         window.addEventListener('DOMContentLoaded', function() {
@@ -2123,11 +2274,15 @@
         
         // Resize listener for carousel
         window.addEventListener('resize', function() {
-            updateCarousel();
+            if (typeof updateCarousel === 'function') {
+                updateCarousel();
+            }
         });
         
-        // Initialize carousel
-        updateCarousel();
+        // Initialize carousel if function exists
+        if (typeof updateCarousel === 'function') {
+            updateCarousel();
+        }
     </script>
 </body>
 </html>
