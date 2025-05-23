@@ -690,16 +690,15 @@
         .chat-bubble::before {
             content: '';
             display: inline-block;
-            position: relative; 
+            position: absolute;
             width: 55px;
             height: 55px;
             border-radius: 50%;
-            
+            top: 50%;
+            transform: translateY(-50%);
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
-            margin-right: 10px;
-            vertical-align: middle;
         }
         
         .chat-bubble:nth-child(1)::before {
