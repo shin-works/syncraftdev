@@ -582,7 +582,7 @@
             position: relative;
             background: linear-gradient(135deg, var(--secondary-light), var(--secondary));
             color: white;
-            overflow: hidden;
+            overflow: visible;
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             margin: 50px 0;
             padding-top: 80px;
@@ -591,15 +591,15 @@
 
         /* レスポンシブ対応：スマホ画面では余白を増やす */
         @media (max-width: 768px) {
-            .problem {
-                padding-bottom: 400px;
+            .chat-container {
+                margin-bottom: 200px;
             }
         }
         
         /* さらに小さい画面サイズでは更に余白を増やす */
         @media (max-width: 480px) {
-            .problem {
-                padding-bottom: 500px;
+            .chat-container {
+                margin-bottom: 260px;
             }
         }
         
@@ -689,15 +689,17 @@
         
         .chat-bubble::before {
             content: '';
-            position: absolute;
+            display: inline-block;
+            position: relative; 
             width: 55px;
             height: 55px;
             border-radius: 50%;
-            top: 50%;
-            transform: translateY(-50%);
+            
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
+            margin-right: 10px;
+            vertical-align: middle;
         }
         
         .chat-bubble:nth-child(1)::before {
