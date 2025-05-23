@@ -1430,4 +1430,13 @@ footer {
     transform: translateY(0);
   }
 }
+.dynamic-title {
+  font-size: 8vw;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.2;
+  max-width: 90vw;
+  margin: 0 auto;
+  word-break: keep-all;
+}
 
