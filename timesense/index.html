@@ -586,20 +586,20 @@
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             margin: 50px 0;
             padding-top: 80px;
-            padding-bottom: 250px;
+            padding-bottom: 230px;
         }
 
         /* レスポンシブ対応：スマホ画面では余白を増やす */
         @media (max-width: 768px) {
             .problem {
-                padding-bottom: 300px;
+                padding-bottom: 350px;
             }
         }
         
         /* さらに小さい画面サイズでは更に余白を増やす */
         @media (max-width: 480px) {
             .problem {
-                padding-bottom: 350px;
+                padding-bottom: 400px;
             }
         }
         
@@ -614,20 +614,6 @@
             clip-path: ellipse(55% 100px at 50% 100px);
             z-index: 5;
             pointer-events: none;
-        }
-
-        @media (max-width: 768px) {
-            .problem::after {
-                height: 120px;
-                clip-path: ellipse(65% 120px at 50% 120px);
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .problem::after {
-                height: 140px;
-                clip-path: ellipse(75% 140px at 50% 140px);
-            }
         }
         
         /* Dark theme styles removed */
