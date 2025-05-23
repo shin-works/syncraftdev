@@ -1401,17 +1401,3 @@ footer {
 .menu-toggle.active span {
   background: #0D335A !important;
 }
-
-.word {
-  display: inline-block;
-  white-space: nowrap;
-  margin-left: 0.3em;
-  margin-right: 0.3em;
-}
-
-.letter {
-  display: inline;
-  transition: all 0.3s ease;
-  font-size: 5rem;
-  text-shadow: 0 0 15px rgba(120, 213, 234, 0.7), 0 3px 15px rgba(0, 0, 0, 0.9);
-}
