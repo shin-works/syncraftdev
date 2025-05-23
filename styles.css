@@ -1410,7 +1410,6 @@ footer {
 
 .letter {
   display: inline-block;
-  font-size: inherit;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 0.6s ease forwards;
@@ -1432,11 +1431,8 @@ footer {
   }
 }
 .dynamic-title {
-  font-size: clamp(24px, 8vw, 80px);
   text-align: center;
-  font-weight: bold;
+  font-size: 5rem;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   line-height: 1.2;
-  margin: 0 auto;
-  word-break: keep-all;
 }
-
