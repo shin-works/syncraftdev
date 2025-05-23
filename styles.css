@@ -1401,3 +1401,9 @@ footer {
 .menu-toggle.active span {
   background: #0D335A !important;
 }
+
+.word {
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0 4px;
+}
