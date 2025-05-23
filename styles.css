@@ -1394,3 +1394,8 @@ footer {
     color: #0D335A !important; 
   }
 }
+@media screen and (max-width: 768px) {
+  nav.active + .menu-toggle span {
+    background: #0D335A !important; 
+  }
+}
