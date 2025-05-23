@@ -1430,9 +1430,3 @@ footer {
     transform: translateY(0);
   }
 }
-.dynamic-title {
-  text-align: center;
-  font-size: 5rem;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  line-height: 1.2;
-}
