@@ -90,9 +90,47 @@
     .indent {
       padding-left: 20px;
     }
+    /* 言語切り替えボタンのスタイル */
+    .language-toggle {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        display: flex;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .language-toggle a {
+        display: inline-block;
+        padding: 6px 10px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.85rem;
+        color: #5a5a5a;
+        transition: all 0.3s ease;
+    }
+    
+    .language-toggle a:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    
+    .language-toggle a.active {
+        background-color: #ff85a2;
+        color: white;
+    }
   </style>
 </head>
 <body>
+  <!-- 言語切り替えボタン -->
+  <div class="language-toggle">
+      <a href="https://syncraft.dev/timesense/terms" class="active">日本語</a>
+      <a href="https://syncraft.dev/timesense/en/terms/">English</a>
+  </div>
+  
   <header>
     <h1>TimeSense 利用規約</h1>
   </header>
