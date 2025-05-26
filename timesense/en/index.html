@@ -50,6 +50,39 @@
              height: 80px;
            }
         }
+        
+        /* 言語切り替えボタンのスタイル */
+        .language-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .language-toggle a {
+            display: inline-block;
+            padding: 6px 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: var(--dark);
+            transition: all 0.3s ease;
+        }
+        
+        .language-toggle a:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+        
+        .language-toggle a.active {
+            background-color: var(--primary);
+            color: white;
+        }
             
         :root {
             --primary: #FF6B8A;
@@ -1577,7 +1610,13 @@
 </head>
 <body>
     <!-- Theme Toggle removed as requested -->
-
+    
+    <!-- 言語切り替えボタン -->
+    <div class="language-toggle">
+        <a href="https://syncraft.dev/timesense/">日本語</a>
+        <a href="https://syncraft.dev/timesense/en/" class="active">English</a>
+    </div>
+    
     <!-- Preloader - シンプル化 -->
     <div class="preloader" id="preloader">
         <div class="preloader-content">
