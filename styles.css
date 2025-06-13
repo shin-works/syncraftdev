@@ -517,23 +517,6 @@ section {
     padding: 40px;
 }
 
-.google-play-button {
-    display: flex;
-    align-items: center;
-    height: 48px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-radius: 12px;
-}
-
-.google-play-button img {
-    height: 100%;
-}
-
-.google-play-button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-}
-
 /* Mission Statement Styles */
 .mission-statement {
     text-align: center;
