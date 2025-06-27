@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://syncraft.dev/sitemap.xml
