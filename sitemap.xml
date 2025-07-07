@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://syncraft.dev/timesense</loc>
+    <loc>https://syncraft.dev/timesense/</loc>
     <lastmod>2025-06-27</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://syncraft.dev/timesense/en</loc>
+    <loc>https://syncraft.dev/timesense/en/</loc>
     <lastmod>2025-06-27</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://syncraft.dev/timesense/terms</loc>
+    <loc>https://syncraft.dev/timesense/terms/</loc>
     <lastmod>2025-06-01</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://syncraft.dev/timesense/privacy</loc>
+    <loc>https://syncraft.dev/timesense/privacy/</loc>
     <lastmod>2025-06-01</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://syncraft.dev/timesense/en/terms</loc>
+    <loc>https://syncraft.dev/timesense/en/terms/</loc>
     <lastmod>2025-06-01</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://syncraft.dev/timesense/en/privacy</loc>
+    <loc>https://syncraft.dev/timesense/en/privacy/</loc>
     <lastmod>2025-06-01</lastmod>
     <priority>0.5</priority>
   </url>
