@@ -160,11 +160,13 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center">
-                    <a href="../index.html" class="text-2xl font-bold text-radarCyan uppercase tracking-wider bank-gothic glow">
+                    <a href="../index.html" class="text-xl sm:text-2xl font-bold text-radarCyan uppercase tracking-wider bank-gothic glow">
                         STEALTHRADAR
                     </a>
                 </div>
-                <div class="flex items-center gap-6 text-stealthText/70">
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center gap-6 text-stealthText/70">
                     <span class="font-medium text-radarCyan">Privacy Policy</span>
                     <a href="../terms/index.html" class="text-stealthText/70 hover:text-radarCyan transition-colors">
                         Terms of Service
@@ -190,16 +192,57 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-stealthText hover:text-radarCyan transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="py-4 space-y-4 border-t border-radarCyan/20">
+                    <div class="text-center">
+                        <span class="font-medium text-radarCyan">Privacy Policy</span>
+                    </div>
+                    <div class="text-center">
+                        <a href="../terms/index.html" class="text-stealthText/70 hover:text-radarCyan transition-colors">
+                            Terms of Service
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <div class="flex justify-center space-x-4">
+                            <a href="../../privacy/index.html" class="text-stealthText hover:text-radarCyan transition-colors">
+                                <span class="mr-2">🇯🇵</span>日本語
+                            </a>
+                            <a href="index.html" class="text-stealthText hover:text-radarCyan transition-colors">
+                                <span class="mr-2">🇺🇸</span>English
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <!-- Title -->
         <div class="text-center mb-12">
             <h1 class="text-3xl md:text-4xl font-bold mb-4 gradient-text uppercase tracking-wider bank-gothic">
-                STEALTHRADAR PRIVACY POLICY
+                PRIVACY POLICY
             </h1>
             <p class="text-stealthText/80 text-lg">
                 STEALTH RADAR (hereinafter "App") has established the following policy regarding the handling of location information and usage data to ensure that all users, including children, can enjoy safe and secure experiences.
