@@ -30,4 +30,16 @@
     <lastmod>2025-06-01</lastmod>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://syncraft.dev/stealthradar/</loc>
+    <lastmod>2025-08-22</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://syncraft.dev/stealthradar/en/</loc>
+    <lastmod>2025-08-22</lastmod>
+    <priority>1.0</priority>
+  </url>
+
 </urlset>
+
