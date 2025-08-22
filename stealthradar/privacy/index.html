@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - StealthRadar</title>
+    <meta name="description" content="STEALTH RADARのプライバシーポリシーです。個人情報の取り扱いについて定めています。">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --stealth-background: #101820;
+            --stealth-text: #e0ffff;
+            --radar-cyan: #00f0ff;
+            --emerald-green: #1abc9c;
+            --alert-red: #ff3b30;
+        }
+        
+        html {
+            font-family: 'Noto Sans JP', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-color: var(--stealth-background);
+            color: var(--stealth-text);
+        }
+        
+        .bank-gothic {
+            font-family: 'Orbitron', 'Noto Sans JP', sans-serif;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+        }
+        
+        .btn {
+            @apply px-6 py-3 font-bold rounded-md transition-all duration-300 shadow-lg;
+        }
+        
+        .btn-primary {
+            background-color: var(--radar-cyan);
+            color: var(--stealth-background);
+        }
+        
+        .btn-primary:hover {
+            background-color: rgba(0, 240, 255, 0.8);
+        }
+        
+        .btn-secondary {
+            background-color: var(--emerald-green);
+            color: var(--stealth-background);
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(26, 188, 156, 0.8);
+        }
+        
+        .container {
+            @apply mx-auto max-w-4xl;
+        }
+        
+        .glow {
+            text-shadow: 0 0 10px var(--radar-cyan), 0 0 20px var(--radar-cyan);
+        }
+        
+        .card {
+            background-color: rgba(16, 24, 32, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            border: 1px solid rgba(0, 240, 255, 0.2);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .text-stealthText {
+            color: var(--stealth-text);
+        }
+        
+        .text-radarCyan {
+            color: var(--radar-cyan);
+        }
+        
+        .text-emeraldGreen {
+            color: var(--emerald-green);
+        }
+        
+        .text-alertRed {
+            color: var(--alert-red);
+        }
+        
+        .border-radarCyan {
+            border-color: var(--radar-cyan);
+        }
+        
+        .border-emeraldGreen {
+            border-color: var(--emerald-green);
+        }
+        
+        .border-alertRed {
+            border-color: var(--alert-red);
+        }
+        
+        .bg-radarCyan {
+            background-color: var(--radar-cyan);
+        }
+        
+        .bg-emeraldGreen {
+            background-color: var(--emerald-green);
+        }
+        
+        .bg-alertRed {
+            background-color: var(--alert-red);
+        }
+        
+
+        
+        .gradient-text {
+            background: linear-gradient(to right, var(--stealth-text), var(--radar-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-stealthBackground text-stealthText">
+
+
+    <!-- Header -->
+    <header class="border-b border-radarCyan/20 bg-stealthBackground/95 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="text-2xl font-bold text-radarCyan uppercase tracking-wider bank-gothic glow">
+                        STEALTHRADAR
+                    </a>
+                </div>
+                <div class="flex items-center gap-6 text-stealthText/70">
+                    <span class="font-medium text-radarCyan">プライバシーポリシー</span>
+                    <a href="../terms/index.html" class="text-stealthText/70 hover:text-radarCyan transition-colors">
+                        利用規約
+                    </a>
+                    
+                    <!-- Language Dropdown -->
+                    <div class="relative group">
+                        <button class="text-stealthText hover:text-radarCyan font-medium transition-colors flex items-center">
+                            言語
+                            <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-48 bg-stealthBackground border border-radarCyan/20 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <div class="py-2">
+                                <a href="index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    <span class="mr-2">🇯🇵</span>日本語
+                                </a>
+                                <a href="../en/privacy/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    <span class="mr-2">🇺🇸</span>English
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Title -->
+        <div class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4 gradient-text uppercase tracking-wider bank-gothic">
+                STEALTHRADAR プライバシーポリシー
+            </h1>
+            <p class="text-stealthText/80 text-lg">
+                STEALTH RADAR（以下「本アプリ」）は、ユーザーの皆さまが安心して楽しくご利用いただけるよう、位置情報や利用データの取り扱いについて以下の方針を定めています。
+            </p>
+            <p class="text-stealthText/80 mt-4">
+                お子さまを含むすべてのユーザーにとって安全で安心な体験となるよう努めてまいります。
+            </p>
+        </div>
+
+        <!-- Privacy Sections -->
+        <div class="space-y-8">
+            <!-- 1. 収集する情報について -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    1. 収集する情報について
+                </h2>
+                <p class="text-stealthText/90 mb-4">本アプリが利用する情報は、以下に限られます。</p>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p><strong class="text-radarCyan">位置情報</strong>　冒険ミッションの判定に利用します。　位置情報は端末内でのみ処理され、外部サーバーに保存・送信されることはありません。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p><strong class="text-radarCyan">利用データ（匿名）</strong>　アプリの改善・不具合解消のために、クラッシュ情報や利用状況を匿名で収集する場合があります。　個人を特定できる情報（氏名・住所・電話番号・メールアドレスなど）は一切収集しません。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. 情報の利用目的 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    2. 情報の利用目的
+                </h2>
+                <p class="text-stealthText/90 mb-4">収集した情報は以下の目的でのみ使用します。</p>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>冒険ミッション判定や地図表示など、アプリの基本機能の提供</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>アプリの品質改善や不具合修正のための分析</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>新機能追加やユーザー体験向上の参考</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. 情報の第三者提供について -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    3. 情報の第三者提供について
+                </h2>
+                <p class="text-stealthText/90">
+                    本アプリは、ユーザーの同意なしに個人情報を第三者へ提供することはありません。
+                </p>
+            </section>
+
+            <!-- 4. 広告利用について（無料版のみ） -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    4. 広告利用について（無料版のみ）
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <p>無料版に限り、Google AdMobなどの広告サービスを利用する場合があります。</p>
+                    <p>広告の最適化のために広告IDが使用されることがありますが、端末の設定から制御することが可能です。</p>
+                </div>
+            </section>
+
+            <!-- 5. データの保存と管理 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    5. データの保存と管理
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>位置情報はリアルタイム判定のみに利用され、サーバーに保存されません。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>匿名の利用データは、セキュリティに配慮した方法で管理されます。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. お子さまの利用について -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    6. お子さまの利用について
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>本アプリはお子さまも楽しめる内容ですが、必ず保護者の方と一緒にご利用ください。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>本アプリが個人情報を収集することはありません。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>保護者の管理・同意を前提としてご利用ください。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 7. ユーザーの選択と権利 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    7. ユーザーの選択と権利
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>ユーザーは、端末の設定からいつでも位置情報の利用を停止できます。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>停止すると一部機能がご利用いただけなくなります。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 8. 安全にご利用いただくためのお願い -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    8. 安全にご利用いただくためのお願い
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>歩きながらのスマートフォン操作は危険です。必ず立ち止まってご利用ください。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>公共の道路や車道などでは使用を控え、安全な場所で遊んでください。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>小さなお子さまがご利用の際は、保護者の方が常に安全を確認してください。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="w-2 h-2 bg-stealthText rounded-full mt-2 flex-shrink-0"></span>
+                        <p>本アプリの利用中に発生した事故やトラブルについて、開発者は責任を負いかねます。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 9. 改定について -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    9. 改定について
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <p>本プライバシーポリシーは、必要に応じて改定する場合があります。</p>
+                    <p>重要な変更がある場合は、本アプリ内または公式サイトにてお知らせします。</p>
+                </div>
+            </section>
+
+            <!-- 10. お問い合わせ -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    10. お問い合わせ
+                </h2>
+                <p class="text-stealthText/90 mb-4">本ポリシーに関するお問い合わせは、以下までご連絡ください。</p>
+                <div class="space-y-2 text-stealthText/90">
+                    <p>• 開発元：SynCraft</p>
+                    <p>• メールアドレス：hello@syncraft.dev</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Information -->
+        <div class="mt-12 pt-8 border-t border-radarCyan/20 text-center">
+            <p class="text-stealthText/60 text-sm">
+                最終更新日: 2025年8月21日
+            </p>
+        </div>
+        
+        <!-- Back to Main Button -->
+        <div class="mt-8 text-center">
+            <a href="../index.html" class="btn btn-primary">
+                メインページに戻る
+            </a>
+        </div>
+    </main>
+
+    <script>
+        // Set current year if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            // Any additional JavaScript can be added here
+        });
+    </script>
+</body>
+</html>

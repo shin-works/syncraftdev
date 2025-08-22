@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用規約 - StealthRadar</title>
+    <meta name="description" content="STEALTH RADARの利用規約です。本アプリの利用条件を定めています。">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --stealth-background: #101820;
+            --stealth-text: #e0ffff;
+            --radar-cyan: #00f0ff;
+            --emerald-green: #1abc9c;
+            --alert-red: #ff3b30;
+        }
+        
+        html {
+            font-family: 'Noto Sans JP', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-color: var(--stealth-background);
+            color: var(--stealth-text);
+        }
+        
+        .bank-gothic {
+            font-family: 'Orbitron', 'Noto Sans JP', sans-serif;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+        }
+        
+        .btn {
+            @apply px-6 py-3 font-bold rounded-md transition-all duration-300 shadow-lg;
+        }
+        
+        .btn-primary {
+            background-color: var(--radar-cyan);
+            color: var(--stealth-background);
+        }
+        
+        .btn-primary:hover {
+            background-color: rgba(0, 240, 255, 0.8);
+        }
+        
+        .btn-secondary {
+            background-color: var(--emerald-green);
+            color: var(--stealth-background);
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(26, 188, 156, 0.8);
+        }
+        
+        .container {
+            @apply mx-auto max-w-4xl;
+        }
+        
+        .glow {
+            text-shadow: 0 0 10px var(--radar-cyan), 0 0 20px var(--radar-cyan);
+        }
+        
+        .card {
+            background-color: rgba(16, 24, 32, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            border: 1px solid rgba(0, 240, 255, 0.2);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .text-stealthText {
+            color: var(--stealth-text);
+        }
+        
+        .text-radarCyan {
+            color: var(--radar-cyan);
+        }
+        
+        .text-emeraldGreen {
+            color: var(--emerald-green);
+        }
+        
+        .text-alertRed {
+            color: var(--alert-red);
+        }
+        
+        .border-radarCyan {
+            border-color: var(--radar-cyan);
+        }
+        
+        .border-emeraldGreen {
+            border-color: var(--emerald-green);
+        }
+        
+        .border-alertRed {
+            border-color: var(--alert-red);
+        }
+        
+        .bg-radarCyan {
+            background-color: var(--radar-cyan);
+        }
+        
+        .bg-emeraldGreen {
+            background-color: var(--emerald-green);
+        }
+        
+        .bg-alertRed {
+            background-color: var(--alert-red);
+        }
+        
+
+        
+        .gradient-text {
+            background: linear-gradient(to right, var(--stealth-text), var(--radar-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-stealthBackground text-stealthText">
+
+
+    <!-- Header -->
+    <header class="border-b border-radarCyan/20 bg-stealthBackground/95 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="text-2xl font-bold text-radarCyan uppercase tracking-wider bank-gothic glow">
+                        STEALTHRADAR
+                    </a>
+                </div>
+                <div class="flex items-center gap-6 text-stealthText/70">
+                    <span class="font-medium text-radarCyan">利用規約</span>
+                    <a href="../privacy/index.html" class="text-stealthText/70 hover:text-radarCyan transition-colors">
+                        プライバシーポリシー
+                    </a>
+                    
+                    <!-- Language Dropdown -->
+                    <div class="relative group">
+                        <button class="text-stealthText hover:text-radarCyan font-medium transition-colors flex items-center">
+                            言語
+                            <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-48 bg-stealthBackground border border-radarCyan/20 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <div class="py-2">
+                                <a href="index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    <span class="mr-2">🇯🇵</span>日本語
+                                </a>
+                                <a href="../en/terms/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    <span class="mr-2">🇺🇸</span>English
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Title -->
+        <div class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4 gradient-text uppercase tracking-wider bank-gothic">
+                STEALTHRADAR 利用規約
+            </h1>
+            <p class="text-stealthText/80 text-lg">
+                本利用規約（以下「本規約」）は、SynCraft（以下「当方」）が提供するアプリケーション「STEALTH RADAR」（以下「本アプリ」）の利用条件を定めるものです。
+            </p>
+            <p class="text-stealthText/80 mt-4">
+                ユーザーは、本アプリをインストールまたは利用した時点で、本規約に同意したものとみなされます。
+            </p>
+        </div>
+
+        <!-- Terms Sections -->
+        <div class="space-y-8">
+            <!-- 第1条 定義 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    第1条 定義
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>「ユーザー」とは、本アプリを利用するすべての方をいいます。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>「有料版」とは、本アプリ内で追加購入により利用可能となる買い切り型機能をいいます。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 第2条 利用条件 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    第2条 利用条件
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>本アプリは、一部の基本機能を無料でご利用いただけます。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>有料版は App Store を通じて購入可能であり、購入した時点で料金が発生します。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">3.</span>
+                        <p>有料版は買い切り型であり、一度購入すれば継続してご利用いただけます。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">4.</span>
+                        <p>未成年者が利用する場合は、保護者の同意および監督のもとで利用するものとします。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 第3条 料金および返金 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    第3条 料金および返金
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>有料版の料金は購入画面に表示されます。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>原則として、一度購入された有料版の返金は行いません。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">3.</span>
+                        <p>ただし、法律上の要請または各ストアの定めに基づく場合はこの限りではありません。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 第4条 禁止事項 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    第4条 禁止事項
+                </h2>
+                <p class="text-stealthText/90 mb-4">ユーザーは、以下の行為を行ってはなりません。</p>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText">•</span>
+                        <p>歩行中や運転中の利用など、危険な状況での使用</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText">•</span>
+                        <p>不正アクセス、改変、リバースエンジニアリング等の行為</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText">•</span>
+                        <p>法令または公序良俗に違反する行為</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText">•</span>
+                        <p>他のユーザーや第三者に不利益や損害を与える行為</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 第5条 免責事項 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    第5条 免責事項
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>本アプリの利用により発生した事故・怪我・紛争について、当方は一切の責任を負いません。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>本アプリは、位置情報サービスや通信環境に依存するため、その精度や可用性について保証しません。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">3.</span>
+                        <p>当方は、予告なく本アプリの内容を変更・停止する場合があります。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 第6条 知的財産権 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    第6条 知的財産権
+                </h2>
+                <p class="text-stealthText/90">
+                    本アプリに関する著作権、商標権、その他の知的財産権は、当方または正当な権利者に帰属します。
+                </p>
+            </section>
+
+            <!-- 第7条 個人情報の取扱い -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    第7条 個人情報の取扱い
+                </h2>
+                <p class="text-stealthText/90">
+                    ユーザーの情報の取扱いについては、別途定める「プライバシーポリシー」に従います。
+                </p>
+            </section>
+
+            <!-- 第8条 規約の変更 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    第8条 規約の変更
+                </h2>
+                <p class="text-stealthText/90">
+                    当方は必要に応じて本規約を改定できるものとし、変更後の規約は本アプリまたは当方ウェブサイトに掲載した時点から効力を生じます。
+                </p>
+            </section>
+
+            <!-- 第9条 準拠法および合意管轄 -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    第9条 準拠法および合意管轄
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>本規約の解釈・適用は日本法に準拠します。</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>本アプリの利用に関連して当方とユーザーとの間で紛争が生じた場合、訴額に応じて大阪地方裁判所または大阪簡易裁判所を第一審の専属的合意管轄裁判所とします。</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Information -->
+        <div class="mt-12 pt-8 border-t border-radarCyan/20 text-center">
+            <p class="text-stealthText/60 text-sm">
+                最終更新日: 2025年8月21日
+            </p>
+        </div>
+        
+        <!-- Back to Main Button -->
+        <div class="mt-8 text-center">
+            <a href="../index.html" class="btn btn-primary">
+                メインページに戻る
+            </a>
+        </div>
+    </main>
+
+    <script>
+        // Set current year if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            // Any additional JavaScript can be added here
+        });
+    </script>
+</body>
+</html>
