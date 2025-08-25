@@ -1401,3 +1401,37 @@ footer {
 .menu-toggle.active span {
   background: #0D335A !important;
 }
+
+/* === PRODUCT カード調整 === */
+.product-showcase { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+  gap: 32px; 
+  align-items: stretch; 
+}
+
+.product-info { 
+  display: flex; 
+  flex-direction: column; 
+  height: 100%; 
+}
+
+.product-features { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 12px; 
+}
+
+.product-info .btn { 
+  margin-top: auto; 
+  align-self: flex-start; 
+}
+
+.product-logo { 
+  line-height: 1.1; 
+}
+
+.product-features .feature i { 
+  width: 1.25em; 
+  text-align: center; 
+}
