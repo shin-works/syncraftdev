@@ -29,6 +29,7 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="favicon_sr.png" type="image/png">
+    
     <style>
         :root {
             --stealth-background: #101820;
@@ -87,7 +88,7 @@
         .section-title {
             font-size: 1.875rem;
             font-weight: 700;
-            margin-top: 4rem;
+            margin-top: 2rem;
             margin-bottom: 2.5rem;
             text-align: center;
             color: var(--stealth-text);
@@ -98,7 +99,7 @@
         @media (min-width: 768px) {
             .section-title {
                 font-size: 2.25rem;
-                margin-top: 5rem;
+                margin-top: 2.5rem;
                 margin-bottom: 3rem;
             }
         }
@@ -106,7 +107,7 @@
         @media (min-width: 1024px) {
             .section-title {
                 font-size: 2.5rem;
-                margin-top: 6rem;
+                margin-top: 3rem;
                 margin-bottom: 3.5rem;
             }
         }
@@ -358,10 +359,10 @@
                     <div class="border-t border-radarCyan/20 mt-4 pt-4">
                         <div class="text-sm text-stealthText/70 mb-2 px-2">言語</div>
                         <a href="index.html" class="block py-2 px-2 text-stealthText hover:text-radarCyan font-medium">
-                            <span class="mr-2">🇯🇵</span>日本語
+                            日本語
                         </a>
                         <a href="en/index.html" class="block py-2 px-2 text-stealthText hover:text-radarCyan font-medium">
-                            <span class="mr-2">🇺🇸</span>English
+                            English
                         </a>
                     </div>
                     
@@ -375,7 +376,7 @@
 
     <main>
         <!-- Hero Section -->
-        <section id="hero" class="relative min-h-[80vh] bg-stealthBackground flex items-center overflow-hidden">
+        <section id="hero" class="relative min-h-[80vh] bg-gradient-radial flex items-center overflow-hidden">
             <!-- Background Image -->
             <div class="absolute inset-0 w-full h-full">
                 <img src="assets/images/hero.png" alt="Hero Background" class="w-full h-full object-cover object-left">
@@ -403,6 +404,30 @@
             </div>
         </section>
 
+        <!-- About Section -->
+        <section class="bg-gradient-radial" style="padding: 4rem 1rem; margin-bottom: 2rem;">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">STEALTH RADARとは</h2>
+                
+                <div class="max-w-4xl mx-auto">
+                    <div class="card text-center">
+                        <p class="text-lg mb-6 text-stealthText">
+                            <strong class="text-radarCyan">STEALTH RADAR（ステルスレーダー）</strong>は、日常の移動や外遊びを「冒険」に変えるGPS探索レーダーアプリです。
+                        </p>
+                        
+                        <p class="text-lg mb-6 text-stealthText">
+                            ゲームや動画に夢中になりがちな子どもも、ステルスレーダーを使えば、いつもの街並みや公園がミッションの舞台に早変わり。自然と外に出たくなるきっかけになります。
+                        </p>
+                        
+                        <p class="text-lg text-stealthText">
+                            宝探しやアイテム収集ミッション、街イベントから動画企画まで。<br>
+                            無限の遊び方で、毎日の体験をもっとワクワクに。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Features Section -->
         <section id="features" class="section bg-gradient-to-br">
             <div class="container">
@@ -413,7 +438,7 @@
                         <div class="mb-6 flex justify-center">
                             <img src="assets/images/15-removebg.png" alt="GPSアプリ" class="w-50 h-50 object-contain">
                         </div>
-                        <h3 class="text-xl font-bold mb-3 text-radarCyan">日常を冒険に変えるGPS探索レーダーアプリ</h3>
+                        <h3 class="text-xl font-bold mb-3 text-radarCyan">日常を冒険に変えるGPSアプリ</h3>
                         <p class="text-stealthText">現実世界の見慣れた場所を、冒険のフィールドに変換。無限大の遊び方で、大人も子供も、つい冒険に出たくなる。<br>新しい発見と興奮が、あなたを待っています。</p>
                     </div>
                     
@@ -439,8 +464,8 @@
         </section>
 
         <!-- Use Cases Section -->
-        <section id="use-cases" class="section bg-gradient-radial">
-            <div class="container">
+        <section id="use-cases" class="bg-gradient-radial" style="padding: 4rem 1rem; margin-top: 2rem; margin-bottom: 2rem;">
+            <div class="container mx-auto max-w-6xl">
                 <h2 class="section-title">利用シーン</h2>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -575,8 +600,8 @@
         </section>
 
         <!-- Safety Section -->
-        <section id="safety" class="section bg-gradient-radial">
-            <div class="container">
+        <section id="safety" class="bg-gradient-radial" style="padding: 4rem 1rem; margin-top: 2rem; margin-bottom: 2rem;">
+            <div class="container mx-auto max-w-6xl">
                 <h2 class="section-title">安全に楽しむために</h2>
                 
                 <div class="max-w-4xl mx-auto">
