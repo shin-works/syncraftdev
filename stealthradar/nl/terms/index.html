@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - StealthRadar</title>
-    <meta name="description" content="StealthRadar Terms of Service. Defines the terms and conditions for using our app.">
+    <title>Gebruiksvoorwaarden - StealthRadar</title>
+    <meta name="description" content="StealthRadar gebruiksvoorwaarden. Hierin leggen we de voorwaarden vast voor het gebruik van onze app.">
     <link rel="icon" href="../../favicon_sr.png" type="image/png">
     
     <!-- Google Fonts -->
@@ -118,33 +118,6 @@
             background-color: var(--alert-red);
         }
         
-        .language-switcher {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            display: flex;
-            gap: 10px;
-        }
-        
-        .language-btn {
-            padding: 8px 16px;
-            border: 1px solid var(--radar-cyan);
-            background: transparent;
-            color: var(--radar-cyan);
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            text-decoration: none;
-        }
-        
-        .language-btn:hover,
-        .language-btn.active {
-            background: var(--radar-cyan);
-            color: var(--stealth-background);
-        }
-        
         .gradient-text {
             background: linear-gradient(to right, var(--stealth-text), var(--radar-cyan));
             -webkit-background-clip: text;
@@ -155,8 +128,6 @@
 </head>
 <body class="min-h-screen bg-stealthBackground text-stealthText">
 
-
-    <!-- Header -->
     <header class="border-b border-radarCyan/20 bg-stealthBackground/95 backdrop-blur-sm sticky top-0 z-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
@@ -166,17 +137,14 @@
                     </a>
                 </div>
                 
-                <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center gap-6 text-stealthText/70">
-                    <span class="font-medium text-radarCyan">Terms of Service</span>
+                    <span class="font-medium text-radarCyan">Gebruiksvoorwaarden</span>
                     <a href="../privacy/index.html" class="text-stealthText/70 hover:text-radarCyan transition-colors">
-                        Privacy Policy
+                        Privacybeleid
                     </a>
-                    
-                    <!-- Language Dropdown -->
                     <div class="relative group">
                         <button class="text-stealthText hover:text-radarCyan font-medium transition-colors flex items-center">
-                            Language
+                            Taal
                             <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                             </svg>
@@ -186,21 +154,20 @@
                                 <a href="../../terms/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
                                     日本語
                                 </a>
-                                <a href="index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                <a href="../en/terms/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
                                     English
                                 </a>
-                            <a href="../de/terms/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
-                                Deutsch
-                            </a>
-                            <a href="../nl/terms/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
-                                Nederlands
-                            </a>
+                                <a href="../de/terms/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    Deutsch
+                                </a>
+                                <a href="index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    Nederlands
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Mobile Menu Button -->
                 <div class="md:hidden">
                     <button id="mobile-menu-button" class="text-stealthText hover:text-radarCyan transition-colors">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -209,16 +176,14 @@
                     </button>
                 </div>
             </div>
-
-            <!-- Mobile Menu -->
             <div id="mobile-menu" class="md:hidden hidden">
                 <div class="py-4 space-y-4 border-t border-radarCyan/20">
                     <div class="text-center">
-                        <span class="font-medium text-radarCyan">Terms of Service</span>
+                        <span class="font-medium text-radarCyan">Gebruiksvoorwaarden</span>
                     </div>
                     <div class="text-center">
                         <a href="../privacy/index.html" class="text-stealthText/70 hover:text-radarCyan transition-colors">
-                            Privacy Policy
+                            Privacybeleid
                         </a>
                     </div>
                     <div class="text-center">
@@ -226,15 +191,15 @@
                             <a href="../../terms/index.html" class="text-stealthText hover:text-radarCyan transition-colors">
                                 日本語
                             </a>
-                            <a href="index.html" class="text-stealthText hover:text-radarCyan transition-colors">
+                            <a href="../en/terms/index.html" class="text-stealthText hover:text-radarCyan transition-colors">
                                 English
                             </a>
-                                <a href="../de/terms/index.html" class="text-stealthText hover:text-radarCyan transition-colors">
-                                    Deutsch
-                                </a>
-                                <a href="../nl/terms/index.html" class="text-stealthText hover:text-radarCyan transition-colors">
-                                    Nederlands
-                                </a>
+                            <a href="../de/terms/index.html" class="text-stealthText hover:text-radarCyan transition-colors">
+                                Deutsch
+                            </a>
+                            <a href="index.html" class="text-stealthText hover:text-radarCyan transition-colors">
+                                Nederlands
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -243,207 +208,191 @@
     </header>
 
     <script>
-        // Mobile menu toggle
         document.getElementById('mobile-menu-button').addEventListener('click', function() {
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         });
     </script>
 
-    <!-- Main Content -->
     <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <!-- Title -->
         <div class="text-center mb-12">
             <h1 class="text-3xl md:text-4xl font-bold mb-4 gradient-text uppercase tracking-wider bank-gothic">
-                TERMS OF SERVICE
+                GEBRUIKSVOORWAARDEN
             </h1>
             <p class="text-stealthText/80 text-lg">
-                These Terms of Service (hereinafter "Terms") define the terms and conditions for using the "StealthRadar" application (hereinafter "App") provided by [Operator Name or Trade Name] (hereinafter "We").
+                Deze gebruiksvoorwaarden (hierna „Voorwaarden“) regelen het gebruik van de app „STEALTH RADAR” (hierna „App”) zoals aangeboden door SynCraft (hierna „wij”).
             </p>
             <p class="text-stealthText/80 mt-4">
-                Users are deemed to have agreed to these Terms at the time of installing or using the App.
+                Gebruikers stemmen met deze Voorwaarden in zodra zij de App installeren of gebruiken.
             </p>
         </div>
 
-        <!-- Terms Sections -->
         <div class="space-y-8">
-            <!-- Article 1. Definitions -->
             <section class="card border-radarCyan/20">
                 <h2 class="text-2xl font-bold text-radarCyan mb-4">
-                    Article 1. Definitions
+                    Artikel 1: Definities
                 </h2>
                 <div class="space-y-3 text-stealthText/90">
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">1.</span>
-                        <p>"User" means all persons who use the App.</p>
+                        <p>„Gebruiker“ verwijst naar iedere persoon die de App gebruikt.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">2.</span>
-                        <p>"Paid Version" means one-time purchase features that become available through additional purchases within the App.</p>
+                        <p>„Betaalde versie“ betreft functies die via extra aankopen in de App beschikbaar komen.</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Article 2. Terms of Use -->
             <section class="card border-radarCyan/20">
                 <h2 class="text-2xl font-bold text-radarCyan mb-4">
-                    Article 2. Terms of Use
+                    Artikel 2: Gebruiksvoorwaarden
                 </h2>
                 <div class="space-y-3 text-stealthText/90">
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">1.</span>
-                        <p>Some basic features of the App are available for free.</p>
+                        <p>Sommige basisfuncties zijn gratis beschikbaar.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">2.</span>
-                        <p>The paid version is available for purchase through App Store, and charges apply at the time of purchase.</p>
+                        <p>De betaalde versie wordt via de App Store verkocht en de kosten worden bij aankoop in rekening gebracht.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">3.</span>
-                        <p>The paid version is a one-time purchase and can be used continuously once purchased.</p>
+                        <p>De betaalde versie betreft een eenmalige aankoop en blijft daarna beschikbaar.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">4.</span>
-                        <p>Minors must use the App under parental consent and supervision.</p>
+                        <p>Minderjarigen gebruiken de App onder toezicht en met toestemming van een ouder of voogd.</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Article 3. Fees and Refunds -->
             <section class="card border-radarCyan/20">
                 <h2 class="text-2xl font-bold text-radarCyan mb-4">
-                    Article 3. Fees and Refunds
+                    Artikel 3: Kosten en restituties
                 </h2>
                 <div class="space-y-3 text-stealthText/90">
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">1.</span>
-                        <p>Fees for the paid version are displayed on the purchase screen.</p>
+                        <p>De prijs van de betaalde versie staat op het aankoop-scherm vermeld.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">2.</span>
-                        <p>As a general rule, we do not provide refunds for purchased paid versions.</p>
+                        <p>In principe worden aangekochte betaalde versies niet terugbetaald.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">3.</span>
-                        <p>However, this does not apply in cases required by law or as stipulated by each store.</p>
+                        <p>Uitzonderingen gelden indien vereist door de wet of door het beleid van de winkel.</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Article 4. Prohibited Activities -->
-            <section class="card border-alertRed/20">
-                <h2 class="text-2xl font-bold text-alertRed mb-4">
-                    Article 4. Prohibited Activities
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    Artikel 4: Verboden Handelingen
                 </h2>
-                <p class="text-stealthText/90 mb-4">Users must not engage in the following activities:</p>
+                <p class="text-stealthText/90 mb-4">Gebruikers mogen de volgende handelingen niet uitvoeren:</p>
                 <div class="space-y-3 text-stealthText/90">
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText">•</span>
-                        <p>Using the App in dangerous situations such as while walking or driving</p>
+                        <p>Gebruik tijdens gevaarlijke situaties zoals lopen of rijden.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText">•</span>
-                        <p>Unauthorized access, modification, reverse engineering, or similar activities</p>
+                        <p>Ongeoorloofde toegang, wijziging of reverse engineering.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText">•</span>
-                        <p>Activities that violate laws or public order and morals</p>
+                        <p>Handelingen die in strijd zijn met wetten of openbare orde.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText">•</span>
-                        <p>Activities that cause harm or damage to other users or third parties</p>
+                        <p>Schade berokkenen aan andere gebruikers of derden.</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Article 5. Disclaimer -->
             <section class="card border-radarCyan/20">
                 <h2 class="text-2xl font-bold text-radarCyan mb-4">
-                    Article 5. Disclaimer
+                    Artikel 5: Vrijwaring
                 </h2>
                 <div class="space-y-3 text-stealthText/90">
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">1.</span>
-                        <p>We are not responsible for any accidents, injuries, or disputes that occur while using the App.</p>
+                        <p>Wij zijn niet aansprakelijk voor ongevallen, verwondingen of geschillen door gebruik van de App.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">2.</span>
-                        <p>The App depends on location services and communication environments, so we do not guarantee their accuracy or availability.</p>
+                        <p>De App is afhankelijk van locatie-informatie en netwerkomstandigheden; we garanderen de nauwkeurigheid niet.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">3.</span>
-                        <p>We may change or discontinue the App's content without notice.</p>
+                        <p>We kunnen de inhoud van de App zonder aankondiging wijzigen of beëindigen.</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Article 6. Intellectual Property Rights -->
             <section class="card border-radarCyan/20">
                 <h2 class="text-2xl font-bold text-radarCyan mb-4">
-                    Article 6. Intellectual Property Rights
+                    Artikel 6: Intellectuele eigendomsrechten
                 </h2>
                 <p class="text-stealthText/90">
-                    Copyrights, trademarks, and other intellectual property rights related to the App belong to us or legitimate rights holders.
+                    Copyrights, handelsmerken en andere intellectuele eigendomsrechten van de App behoren tot ons of aanrechtenhouders.
                 </p>
             </section>
 
-            <!-- Article 7. Personal Information Handling -->
             <section class="card border-radarCyan/20">
                 <h2 class="text-2xl font-bold text-radarCyan mb-4">
-                    Article 7. Personal Information Handling
+                    Artikel 7: Persoonsgegevens
                 </h2>
                 <p class="text-stealthText/90">
-                    The handling of user information follows the separately established "Privacy Policy."
+                    De verwerking van gebruikersinformatie valt onder het afzonderlijk vastgestelde privacybeleid.
                 </p>
             </section>
 
-            <!-- Article 8. Terms Modification -->
             <section class="card border-radarCyan/20">
                 <h2 class="text-2xl font-bold text-radarCyan mb-4">
-                    Article 8. Terms Modification
+                    Artikel 8: Wijzigingen
                 </h2>
                 <p class="text-stealthText/90">
-                    We may revise these Terms as necessary, and revised terms take effect when posted on the App or our website.
+                    We kunnen deze voorwaarden aanpassen; nieuwe versies zijn van kracht zodra ze in de App of op de officiële website zijn gepubliceerd.
                 </p>
             </section>
 
-            <!-- Article 9. Governing Law and Jurisdiction -->
             <section class="card border-radarCyan/20">
                 <h2 class="text-2xl font-bold text-radarCyan mb-4">
-                    Article 9. Governing Law and Jurisdiction
+                    Artikel 9: Toepasselijk recht en bevoegde rechtbank
                 </h2>
                 <div class="space-y-3 text-stealthText/90">
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">1.</span>
-                        <p>The interpretation and application of these Terms shall be governed by Japanese law.</p>
+                        <p>Deze voorwaarden vallen onder Japans recht.</p>
                     </div>
                     <div class="flex items-start gap-3">
                         <span class="text-stealthText font-medium">2.</span>
-                        <p>In the event of a dispute between us and a user related to the use of the App, the Osaka District Court or Osaka Summary Court shall be the exclusive agreed jurisdiction for the first instance, depending on the amount of the claim.</p>
+                        <p>Bij geschillen is de Osaka District Court of Osaka Summary Court eerste aanleg, afhankelijk van de hoogte van de vordering.</p>
                     </div>
                 </div>
             </section>
         </div>
 
-        <!-- Footer Information -->
         <div class="mt-12 pt-8 border-t border-radarCyan/20 text-center">
             <p class="text-stealthText/60 text-sm">
-                Last updated: August 21, 2025
+                Laatste update: 21 augustus 2025
             </p>
         </div>
         
-        <!-- Back to Main Button -->
         <div class="mt-8 text-center">
             <a href="../index.html" class="btn btn-primary">
-                Back to Main Page
+                Terug naar hoofdpagina
             </a>
         </div>
     </main>
 
     <script>
-        // Set current year if needed
         document.addEventListener('DOMContentLoaded', function() {
-            // Any additional JavaScript can be added here
+            // Extra scripts kunnen hier worden toegevoegd
         });
     </script>
 </body>
