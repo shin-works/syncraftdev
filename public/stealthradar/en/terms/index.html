@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - StealthRadar</title>
+    <meta name="description" content="StealthRadar Terms of Service. Defines the terms and conditions for using our app.">
+    <link rel="icon" href="../../favicon_sr.png" type="image/png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --stealth-background: #101820;
+            --stealth-text: #e0ffff;
+            --radar-cyan: #00f0ff;
+            --emerald-green: #1abc9c;
+            --alert-red: #ff3b30;
+        }
+        
+        html {
+            font-family: 'Noto Sans JP', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-color: var(--stealth-background);
+            color: var(--stealth-text);
+        }
+        
+        .bank-gothic {
+            font-family: 'Orbitron', 'Noto Sans JP', sans-serif;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+        }
+        
+        .btn {
+            @apply px-6 py-3 font-bold rounded-md transition-all duration-300 shadow-lg;
+        }
+        
+        .btn-primary {
+            background-color: var(--radar-cyan);
+            color: var(--stealth-background);
+        }
+        
+        .btn-primary:hover {
+            background-color: rgba(0, 240, 255, 0.8);
+        }
+        
+        .btn-secondary {
+            background-color: var(--emerald-green);
+            color: var(--stealth-background);
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(26, 188, 156, 0.8);
+        }
+        
+        .container {
+            @apply mx-auto max-w-4xl;
+        }
+        
+        .glow {
+            text-shadow: 0 0 10px var(--radar-cyan), 0 0 20px var(--radar-cyan);
+        }
+        
+        .card {
+            background-color: rgba(16, 24, 32, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            border: 1px solid rgba(0, 240, 255, 0.2);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .text-stealthText {
+            color: var(--stealth-text);
+        }
+        
+        .text-radarCyan {
+            color: var(--radar-cyan);
+        }
+        
+        .text-emeraldGreen {
+            color: var(--emerald-green);
+        }
+        
+        .text-alertRed {
+            color: var(--alert-red);
+        }
+        
+        .border-radarCyan {
+            border-color: var(--radar-cyan);
+        }
+        
+        .border-emeraldGreen {
+            border-color: var(--emerald-green);
+        }
+        
+        .border-alertRed {
+            border-color: var(--alert-red);
+        }
+        
+        .bg-radarCyan {
+            background-color: var(--radar-cyan);
+        }
+        
+        .bg-emeraldGreen {
+            background-color: var(--emerald-green);
+        }
+        
+        .bg-alertRed {
+            background-color: var(--alert-red);
+        }
+        
+        .language-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .language-btn {
+            padding: 8px 16px;
+            border: 1px solid var(--radar-cyan);
+            background: transparent;
+            color: var(--radar-cyan);
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .language-btn:hover,
+        .language-btn.active {
+            background: var(--radar-cyan);
+            color: var(--stealth-background);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(to right, var(--stealth-text), var(--radar-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-stealthBackground text-stealthText">
+
+
+    <!-- Header -->
+    <header class="border-b border-radarCyan/20 bg-stealthBackground/95 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="text-xl sm:text-2xl font-bold text-radarCyan uppercase tracking-wider bank-gothic glow">
+                        STEALTHRADAR
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center gap-6 text-stealthText/70">
+                    <span class="font-medium text-radarCyan">Terms of Service</span>
+                    <a href="../privacy/index.html" class="text-stealthText/70 hover:text-radarCyan transition-colors">
+                        Privacy Policy
+                    </a>
+                    
+                    <!-- Language Dropdown -->
+                    <div class="relative group">
+                        <button class="text-stealthText hover:text-radarCyan font-medium transition-colors flex items-center">
+                            Language
+                            <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-48 bg-stealthBackground border border-radarCyan/20 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50" style="background-color: rgba(16, 24, 32, 0.95); backdrop-filter: blur(8px);">
+                            <div class="py-2">
+                                <a href="../../terms/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    日本語
+                                </a>
+                                <a href="index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    English
+                                </a>
+                            <a href="../de/terms/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                Deutsch
+                            </a>
+                            <a href="../nl/terms/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                Nederlands
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-stealthText hover:text-radarCyan transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="py-4 space-y-4 border-t border-radarCyan/20">
+                    <div class="text-center">
+                        <span class="font-medium text-radarCyan">Terms of Service</span>
+                    </div>
+                    <div class="text-center">
+                        <a href="../privacy/index.html" class="text-stealthText/70 hover:text-radarCyan transition-colors">
+                            Privacy Policy
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <div class="flex justify-center space-x-4">
+                            <a href="../../terms/index.html" class="text-stealthText hover:text-radarCyan transition-colors">
+                                日本語
+                            </a>
+                            <a href="index.html" class="text-stealthText hover:text-radarCyan transition-colors">
+                                English
+                            </a>
+                                <a href="../de/terms/index.html" class="text-stealthText hover:text-radarCyan transition-colors">
+                                    Deutsch
+                                </a>
+                                <a href="../nl/terms/index.html" class="text-stealthText hover:text-radarCyan transition-colors">
+                                    Nederlands
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Title -->
+        <div class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4 gradient-text uppercase tracking-wider bank-gothic">
+                TERMS OF SERVICE
+            </h1>
+            <p class="text-stealthText/80 text-lg">
+                These Terms of Service (hereinafter "Terms") define the terms and conditions for using the "StealthRadar" application (hereinafter "App") provided by [Operator Name or Trade Name] (hereinafter "We").
+            </p>
+            <p class="text-stealthText/80 mt-4">
+                Users are deemed to have agreed to these Terms at the time of installing or using the App.
+            </p>
+        </div>
+
+        <!-- Terms Sections -->
+        <div class="space-y-8">
+            <!-- Article 1. Definitions -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    Article 1. Definitions
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>"User" means all persons who use the App.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>"Paid Version" means one-time purchase features that become available through additional purchases within the App.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Article 2. Terms of Use -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    Article 2. Terms of Use
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>Some basic features of the App are available for free.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>The paid version is available for purchase through App Store, and charges apply at the time of purchase.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">3.</span>
+                        <p>The paid version is a one-time purchase and can be used continuously once purchased.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">4.</span>
+                        <p>Minors must use the App under parental consent and supervision.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Article 3. Fees and Refunds -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    Article 3. Fees and Refunds
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>Fees for the paid version are displayed on the purchase screen.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>As a general rule, we do not provide refunds for purchased paid versions.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">3.</span>
+                        <p>However, this does not apply in cases required by law or as stipulated by each store.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Article 4. Prohibited Activities -->
+            <section class="card border-alertRed/20">
+                <h2 class="text-2xl font-bold text-alertRed mb-4">
+                    Article 4. Prohibited Activities
+                </h2>
+                <p class="text-stealthText/90 mb-4">Users must not engage in the following activities:</p>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText">•</span>
+                        <p>Using the App in dangerous situations such as while walking or driving</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText">•</span>
+                        <p>Unauthorized access, modification, reverse engineering, or similar activities</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText">•</span>
+                        <p>Activities that violate laws or public order and morals</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText">•</span>
+                        <p>Activities that cause harm or damage to other users or third parties</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Article 5. Disclaimer -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    Article 5. Disclaimer
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>We are not responsible for any accidents, injuries, or disputes that occur while using the App.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>The App depends on location services and communication environments, so we do not guarantee their accuracy or availability.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">3.</span>
+                        <p>We may change or discontinue the App's content without notice.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Article 6. Intellectual Property Rights -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    Article 6. Intellectual Property Rights
+                </h2>
+                <p class="text-stealthText/90">
+                    Copyrights, trademarks, and other intellectual property rights related to the App belong to us or legitimate rights holders.
+                </p>
+            </section>
+
+            <!-- Article 7. Personal Information Handling -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    Article 7. Personal Information Handling
+                </h2>
+                <p class="text-stealthText/90">
+                    The handling of user information follows the separately established "Privacy Policy."
+                </p>
+            </section>
+
+            <!-- Article 8. Terms Modification -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    Article 8. Terms Modification
+                </h2>
+                <p class="text-stealthText/90">
+                    We may revise these Terms as necessary, and revised terms take effect when posted on the App or our website.
+                </p>
+            </section>
+
+            <!-- Article 9. Governing Law and Jurisdiction -->
+            <section class="card border-radarCyan/20">
+                <h2 class="text-2xl font-bold text-radarCyan mb-4">
+                    Article 9. Governing Law and Jurisdiction
+                </h2>
+                <div class="space-y-3 text-stealthText/90">
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">1.</span>
+                        <p>The interpretation and application of these Terms shall be governed by Japanese law.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-stealthText font-medium">2.</span>
+                        <p>In the event of a dispute between us and a user related to the use of the App, the Osaka District Court or Osaka Summary Court shall be the exclusive agreed jurisdiction for the first instance, depending on the amount of the claim.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Information -->
+        <div class="mt-12 pt-8 border-t border-radarCyan/20 text-center">
+            <p class="text-stealthText/60 text-sm">
+                Last updated: August 21, 2025
+            </p>
+        </div>
+        
+        <!-- Back to Main Button -->
+        <div class="mt-8 text-center">
+            <a href="../index.html" class="btn btn-primary">
+                Back to Main Page
+            </a>
+        </div>
+    </main>
+
+    <script>
+        // Set current year if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            // Any additional JavaScript can be added here
+        });
+    </script>
+</body>
+</html>

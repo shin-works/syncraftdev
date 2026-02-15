@@ -1,0 +1,49 @@
+---
+/**
+ * BlogSection — Latest posts preview on the top page
+ */
+import type { Lang } from '../i18n/translations';
+import { t, getLocalizedPath } from '../i18n/utils';
+import BlogCard from './BlogCard.astro';
+import { getCollection } from 'astro:content';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+
+const prefix = `${lang}/`;
+const allPosts = await getCollection('blog', ({ id }) => id.startsWith(prefix));
+
+// Sort by date desc, take latest 3
+const posts = allPosts
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+
+const blogHref = getLocalizedPath('/blog/', lang);
+---
+
+<section id="blog" class="blog-section">
+  <div class="container">
+    <h2 class="section-title" data-text="BLOG">{t(lang, 'section.blog')}</h2>
+    <div class="blog-list">
+      {posts.map((post) => {
+        const slug = post.id.replace(prefix, '').replace(/\.mdx?$/, '');
+        return (
+          <BlogCard
+            lang={lang}
+            title={post.data.title}
+            date={post.data.date}
+            description={post.data.description}
+            slug={slug}
+            image={post.data.image}
+            imageAlt={post.data.imageAlt}
+          />
+        );
+      })}
+    </div>
+    {posts.length > 0 && (
+      <div class="blog-view-all">
+        <a href={blogHref} class="read-more">{t(lang, 'blog.viewall')}</a>
+      </div>
+    )}
+  </div>
+</section>

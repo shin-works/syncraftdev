@@ -1,0 +1,28 @@
+---
+/**
+ * / — Japanese top page
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import ProductSection from '../components/ProductSection.astro';
+import BlogSection from '../components/BlogSection.astro';
+import ContactSection from '../components/ContactSection.astro';
+import { t } from '../i18n/utils';
+
+const lang = 'ja';
+---
+
+<BaseLayout
+  title={t(lang, 'site.title')}
+  description={t(lang, 'site.description')}
+  lang={lang}
+  canonicalUrl="/"
+  alternateUrls={{ ja: '/', en: '/en/' }}
+  activeNav="hero"
+  currentPath="/"
+>
+  <Hero />
+  <ProductSection lang={lang} />
+  <BlogSection lang={lang} />
+  <ContactSection lang={lang} />
+</BaseLayout>

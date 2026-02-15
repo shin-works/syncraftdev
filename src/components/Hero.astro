@@ -1,0 +1,96 @@
+---
+/**
+ * Hero — Animated title with liquid background
+ */
+---
+
+<section id="hero" class="hero">
+  <div class="noise-overlay"></div>
+  <div class="liquid-background">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+    <div class="glowing-particles"></div>
+  </div>
+  <div class="hero-content">
+    <div class="mission-statement">
+      <div class="dynamic-title">
+        <div class="title-line">
+          <span class="letter">C</span><span class="letter">r</span><span class="letter">a</span><span class="letter">f</span><span class="letter">t</span><span class="letter">i</span><span class="letter">n</span><span class="letter">g</span><span class="letter space"> </span><span class="letter">i</span><span class="letter">d</span><span class="letter">e</span><span class="letter">a</span><span class="letter">s</span>
+        </div>
+        <div class="title-line">
+          <span class="letter">i</span><span class="letter">n</span><span class="letter space"> </span><span class="letter">s</span><span class="letter">y</span><span class="letter">n</span><span class="letter">c</span><span class="letter">.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="mouse"><div class="wheel"></div></div>
+    <div class="arrows">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Letter-by-letter animation
+  const letters = document.querySelectorAll('.letter');
+  letters.forEach((letter, index) => {
+    setTimeout(() => letter.classList.add('animate'), 100 * index);
+
+    letter.addEventListener('mouseenter', function (this: HTMLElement) {
+      this.style.animationName = 'bounce-letter';
+      this.style.animationDuration = '0.6s';
+      this.style.animationTimingFunction = 'ease';
+      this.style.animationIterationCount = '1';
+    });
+
+    letter.addEventListener('animationend', function (this: HTMLElement, e: AnimationEvent) {
+      if (e.animationName === 'bounce-letter') {
+        this.style.animationName = 'pulse-letter';
+        this.style.animationDuration = '2s';
+        this.style.animationTimingFunction = 'ease-in-out';
+        this.style.animationIterationCount = 'infinite';
+        this.style.animationDirection = 'alternate';
+      }
+    });
+  });
+
+  // Glowing particles
+  (function createGlowingParticles() {
+    const container = document.querySelector('.glowing-particles');
+    if (!container) return;
+
+    const colors = [
+      'rgba(255, 75, 141, OPACITY)',
+      'rgba(0, 85, 179, OPACITY)',
+      'rgba(120, 213, 234, OPACITY)',
+      'rgba(255, 204, 0, OPACITY)',
+    ];
+
+    for (let i = 0; i < 60; i++) {
+      const p = document.createElement('div');
+      p.className = 'glow-particle';
+      const size = Math.random() * 6 + 2;
+      const opacity = Math.random() * 0.5 + 0.2;
+      const color = colors[Math.floor(Math.random() * colors.length)].replace('OPACITY', String(opacity));
+      Object.assign(p.style, {
+        width: `${size}px`,
+        height: `${size}px`,
+        left: `${Math.random() * 100}%`,
+        top: `${Math.random() * 100}%`,
+        background: color,
+      });
+      container.appendChild(p);
+
+      const duration = Math.random() * 12 + 5;
+      const moveX = (Math.random() - 0.5) * 30;
+      const moveY = (Math.random() - 0.5) * 30;
+      const delay = Math.random() * 5;
+      p.style.animation = `floatParticle ${duration}s infinite alternate ease-in-out ${delay}s`;
+      p.style.setProperty('--moveX', `${moveX}vw`);
+      p.style.setProperty('--moveY', `${moveY}vh`);
+    }
+  })();
+</script>

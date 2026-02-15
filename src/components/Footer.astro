@@ -1,0 +1,15 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/utils';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+---
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <p class="copyright">{t(lang, 'footer.copyright')}</p>
+    </div>
+  </div>
+</footer>

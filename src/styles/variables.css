@@ -1,0 +1,28 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* VARIABLES */
+:root {
+    --primary-color: #0055b3;
+    --secondary-color: #ff4b8d;
+    --accent-color: #78d5ea;
+    --tertiary-color: #ffcc00;
+    --quaternary-color: #ff6600;
+    --dark-color: #1a1a2e;
+    --light-color: #f5f5f7;
+    --text-color: #333;
+    --text-light: #f5f5f7;
+    --background-dark: #0d1117;
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    --gradient-secondary: linear-gradient(135deg, var(--secondary-color), var(--tertiary-color));
+    --gradient-mixed: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    --border-radius-sm: 8px;
+    --border-radius-md: 16px;
+    --border-radius-lg: 24px;
+    --transition-speed: 0.3s;
+    --shadow-light: 0 10px 30px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 15px 40px rgba(0, 0, 0, 0.15);
+    --shadow-dark: 0 20px 50px rgba(0, 0, 0, 0.2);
+    --font-primary: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,35 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/utils';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+---
+
+<section id="contact" class="contact">
+  <div class="contact-background">
+    <div class="grid-lines"></div>
+  </div>
+  <div class="container">
+    <h2 class="section-title" data-text="CONTACT">{t(lang, 'section.contact')}</h2>
+    <div class="contact-simple">
+      <div class="contact-logo" style="width:120px;height:auto;margin:0 auto 20px;">
+        <img
+          src="/syncraft_logo_yoko_new.png"
+          alt="SynCraft Logo"
+          style="width:100%;height:auto;transition:transform 0.3s ease;"
+        />
+      </div>
+      <div class="contact-info-list" style="padding-left:32px;">
+        <div class="contact-info-item">
+          <i class="fas fa-building"></i>
+          <span>{t(lang, 'contact.developer')}</span>
+        </div>
+        <div class="contact-info-item">
+          <i class="fas fa-envelope"></i>
+          <span>hello@syncraft.dev</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

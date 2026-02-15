@@ -1,0 +1,87 @@
+---
+/**
+ * SEOHead — canonical, hreflang, OGP, JSON-LD
+ */
+import type { Lang } from '../i18n/translations';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalUrl: string;
+  lang: Lang;
+  alternateUrls?: Record<string, string>; // { ja: '...', en: '...' }
+  ogType?: string;
+  ogImage?: string;
+  article?: {
+    headline: string;
+    datePublished: string;
+    dateModified?: string;
+    description: string;
+    url: string;
+  };
+}
+
+const {
+  title,
+  description,
+  canonicalUrl,
+  lang,
+  alternateUrls,
+  ogType = 'website',
+  ogImage,
+  article,
+} = Astro.props;
+
+const siteUrl = 'https://syncraft.dev';
+const fullCanonical = canonicalUrl.startsWith('http')
+  ? canonicalUrl
+  : `${siteUrl}${canonicalUrl}`;
+---
+
+<!-- Canonical -->
+<link rel="canonical" href={fullCanonical} />
+
+<!-- hreflang -->
+{alternateUrls && Object.entries(alternateUrls).map(([hrefLang, url]) => (
+  <link
+    rel="alternate"
+    hreflang={hrefLang}
+    href={url.startsWith('http') ? url : `${siteUrl}${url}`}
+  />
+))}
+{alternateUrls?.en && (
+  <link
+    rel="alternate"
+    hreflang="x-default"
+    href={alternateUrls.en.startsWith('http') ? alternateUrls.en : `${siteUrl}${alternateUrls.en}`}
+  />
+)}
+
+<!-- Open Graph -->
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content={ogType} />
+<meta property="og:url" content={fullCanonical} />
+{ogImage && <meta property="og:image" content={ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`} />}
+<meta property="og:site_name" content="SynCraft" />
+<meta property="og:locale" content={lang === 'ja' ? 'ja_JP' : 'en_US'} />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+
+<!-- Article JSON-LD -->
+{article && (
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.headline,
+    datePublished: article.datePublished,
+    dateModified: article.dateModified ?? article.datePublished,
+    author: { '@type': 'Organization', name: 'SynCraft', url: siteUrl },
+    publisher: { '@type': 'Organization', name: 'SynCraft', url: siteUrl },
+    description: article.description,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': article.url },
+  })} />
+)}

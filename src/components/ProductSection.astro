@@ -1,0 +1,95 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/utils';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+
+const tsHref = lang === 'ja' ? '/timesense/' : '/timesense/en/';
+const srHref = lang === 'ja' ? '/stealthradar/' : `/stealthradar/${lang}/`;
+const tsImage = lang === 'ja' ? '/TS_OGP.png' : '/TS_OGP_en.png';
+const srImage = lang === 'ja' ? '/SR_OGP.png' : '/SR_OGP_en.png';
+---
+
+<section id="product" class="product">
+  <div class="product-background">
+    <div class="wave-container">
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+      <div class="wave wave4"></div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="section-title" data-text="PRODUCT">{t(lang, 'section.product')}</h2>
+    <div class="product-showcase">
+      <!-- TimeSense -->
+      <div class="product-info">
+        <div class="product-logo">TimeSense</div>
+        <picture class="product-hero">
+          <img
+            src={tsImage}
+            alt={t(lang, 'product.ts.alt')}
+            loading="lazy"
+            decoding="async"
+            width="1200"
+            height="630"
+            fetchpriority="low"
+          />
+        </picture>
+        <p>{t(lang, 'product.ts.desc')}</p>
+        <div class="product-features">
+          <div class="feature">
+            <i class="fas fa-clock"></i>
+            <span>{t(lang, 'product.ts.feat1')}</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-volume-up"></i>
+            <span>{t(lang, 'product.ts.feat2')}</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-child"></i>
+            <span>{t(lang, 'product.ts.feat3')}</span>
+          </div>
+        </div>
+        <a href={tsHref} class="btn btn-outline">
+          {t(lang, 'product.ts.btn')}
+        </a>
+      </div>
+
+      <!-- STEALTH RADAR -->
+      <div class="product-info">
+        <div class="product-logo">STEALTH RADAR</div>
+        <picture class="product-hero">
+          <img
+            src={srImage}
+            alt={t(lang, 'product.sr.alt')}
+            loading="lazy"
+            decoding="async"
+            width="1200"
+            height="630"
+            fetchpriority="low"
+          />
+        </picture>
+        <p>{t(lang, 'product.sr.desc')}</p>
+        <div class="product-features">
+          <div class="feature">
+            <i class="fas fa-location-arrow"></i>
+            <span>{t(lang, 'product.sr.feat1')}</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-bullseye"></i>
+            <span>{t(lang, 'product.sr.feat2')}</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <span>{t(lang, 'product.sr.feat3')}</span>
+          </div>
+        </div>
+        <a href={srHref} class="btn btn-outline">
+          {t(lang, 'product.sr.btn')}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

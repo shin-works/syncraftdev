@@ -1,0 +1,45 @@
+---
+/**
+ * /blog/{slug}/ — Japanese blog post
+ */
+import { getCollection, render } from 'astro:content';
+import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ id }) => id.startsWith('ja/'));
+  return posts
+    .filter((p) => !p.data.draft)
+    .map((post) => ({
+      params: { slug: post.id.replace('ja/', '').replace(/\.mdx?$/, '') },
+      props: { post },
+    }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const stripMd = (s: string) => s.replace(/\.mdx?$/, '');
+
+// Build alternate URLs
+const alternates: Record<string, string> = {
+  ja: stripMd(post.id.replace('ja/', '')),
+};
+if (post.data.alternates) {
+  for (const [altLang, altSlug] of Object.entries(post.data.alternates)) {
+    alternates[altLang] = altSlug;
+  }
+}
+---
+
+<BlogPostLayout
+  title={post.data.title}
+  description={post.data.description}
+  lang="ja"
+  date={post.data.date}
+  slug={stripMd(post.id.replace('ja/', ''))}
+  image={post.data.image}
+  imageAlt={post.data.imageAlt}
+  alternates={alternates}
+>
+  <Content />
+</BlogPostLayout>

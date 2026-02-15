@@ -1,0 +1,135 @@
+---
+/**
+ * BaseLayout — Shared shell: <head>, loading screen, cursor, header, footer
+ */
+import type { Lang } from '../i18n/translations';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SEOHead from '../components/SEOHead.astro';
+
+import '../styles/variables.css';
+import '../styles/base.css';
+import '../styles/animations.css';
+import '../styles/header.css';
+import '../styles/hero.css';
+import '../styles/product.css';
+import '../styles/blog.css';
+import '../styles/contact.css';
+import '../styles/footer.css';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: Lang;
+  canonicalUrl: string;
+  alternateUrls?: Record<string, string>;
+  activeNav?: string;
+  currentPath: string;
+  ogType?: string;
+  ogImage?: string;
+  article?: {
+    headline: string;
+    datePublished: string;
+    dateModified?: string;
+    description: string;
+    url: string;
+  };
+}
+
+const {
+  title,
+  description,
+  lang,
+  canonicalUrl,
+  alternateUrls,
+  activeNav,
+  currentPath,
+  ogType,
+  ogImage,
+  article,
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang={lang}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <SEOHead
+    title={title}
+    description={description}
+    canonicalUrl={canonicalUrl}
+    lang={lang}
+    alternateUrls={alternateUrls}
+    ogType={ogType}
+    ogImage={ogImage}
+    article={article}
+  />
+</head>
+<body>
+  <!-- Loading screen -->
+  <div class="loading-screen">
+    <div class="loading-icon">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+    <div class="loading-text">SynCraft</div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor"></div>
+
+  <Header
+    lang={lang}
+    currentPath={currentPath}
+    alternateUrls={alternateUrls}
+    activeNav={activeNav}
+  />
+
+  <main>
+    <slot />
+  </main>
+
+  <Footer lang={lang} />
+
+  <script>
+    // Loading screen hide
+    setTimeout(() => {
+      document.querySelector('.loading-screen')?.classList.add('hidden');
+    }, 2000);
+
+    // Custom cursor
+    const cursor = document.querySelector('.cursor');
+    if (cursor) {
+      document.addEventListener('mousemove', (e) => {
+        (cursor as HTMLElement).style.top = `${e.pageY}px`;
+        (cursor as HTMLElement).style.left = `${e.pageX}px`;
+      });
+
+      document.addEventListener('click', () => {
+        cursor.classList.add('cursor-expand');
+        setTimeout(() => cursor.classList.remove('cursor-expand'), 500);
+      });
+
+      document
+        .querySelectorAll('a, button, .work-card, .feature')
+        .forEach((el) => {
+          el.addEventListener('mouseenter', () =>
+            cursor.classList.add('cursor-grow'),
+          );
+          el.addEventListener('mouseleave', () =>
+            cursor.classList.remove('cursor-grow'),
+          );
+        });
+    }
+  </script>
+</body>
+</html>

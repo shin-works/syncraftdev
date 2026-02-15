@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --stealth-background: #101820;
+  --stealth-text: #e0ffff;
+  --radar-cyan: #00f0ff;
+  --emerald-green: #1abc9c;
+  --alert-red: #ff3b30;
+}
+
+@layer base {
+  html {
+    font-family: 'Noto Sans JP', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-stealthBackground text-stealthText;
+  }
+  
+  .bank-gothic {
+    font-family: 'Orbitron', 'Noto Sans JP', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 font-bold rounded-md transition-all duration-300 shadow-lg;
+  }
+  
+  .btn-primary {
+    @apply bg-radarCyan text-stealthBackground hover:bg-opacity-80;
+  }
+  
+  .btn-secondary {
+    @apply bg-emeraldGreen text-stealthBackground hover:bg-opacity-80;
+  }
+  
+  .section {
+    @apply py-16 px-4 md:px-8;
+  }
+  
+  .container {
+    @apply mx-auto max-w-6xl;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-12 text-center;
+  }
+  
+  .glow {
+    text-shadow: 0 0 10px var(--radar-cyan), 0 0 20px var(--radar-cyan);
+  }
+  
+  .card {
+    @apply bg-stealthBackground bg-opacity-70 backdrop-blur-lg p-6 rounded-xl border border-radarCyan border-opacity-30 shadow-lg;
+  }
+}

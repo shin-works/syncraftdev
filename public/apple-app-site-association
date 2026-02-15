@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "GRUC29WM57.com.syncraft.StealthRadar",
+        "paths": [ "/radar/*" ]
+      }
+    ]
+  }
+}

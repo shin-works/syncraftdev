@@ -1,0 +1,2351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="TimeSense is a smart voice timer app that helps children manage time in a fun way. Characters gently remind them of what’s next.">
+    <meta property="og:title" content="TimeSense - Voice Timer for Kids">
+    <meta property="og:description" content="No more rushing! Cute characters gently guide your child through routines like getting ready, studying, and going out.">
+    <meta property="og:image" content="https://syncraft.dev/timesense/timesense_ogp.png">
+    <meta property="og:url" content="https://syncraft.dev/timesense/en/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="../favicon_ts.png" type="image/png">
+    
+    <title>TimeSense - Voice Timer for Kids</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* プリローダーを非表示にするアニメーション */
+        @keyframes hidePreloader {
+            0% { opacity: 1; }
+            100% { opacity: 0; visibility: hidden; }
+        }
+        
+        /* JavaScript が機能しない場合のフォールバック */
+        #preloader {
+            animation: hidePreloader 0s ease-in 3s forwards;
+        }
+        
+        body.loaded #preloader {
+            display: none !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            50% {
+                transform: scale(1.05);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+        }
+        
+        @media (max-width: 768px) {
+          .problem-bottom-spacer {
+              height: 50px;
+          }
+        }
+        @media (max-width: 480px) {
+          .problem-bottom-spacer {
+             height: 80px;
+           }
+        }
+        
+        /* 言語切り替えボタンのスタイル */
+        .language-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .language-toggle a {
+            display: inline-block;
+            padding: 6px 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: var(--dark);
+            transition: all 0.3s ease;
+        }
+        
+        .language-toggle a:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+        
+        .language-toggle a.active {
+            background-color: var(--primary);
+            color: white;
+        }
+            
+        :root {
+            --primary: #FF6B8A;
+            --primary-light: #FF8FA8;
+            --primary-dark: #E9486C;
+            --secondary: #3ACDDF;
+            --secondary-light: #66E0F0;
+            --secondary-dark: #24A9BC;
+            --accent: #FFCF56;
+            --accent-light: #FFE090;
+            --accent-dark: #E8B73F;
+            --light: #FAF9F8;
+            --dark: #303238;
+            --gray: #888890;
+            --light-gray: #F0F0F5;
+            
+            --font-primary: 'M PLUS Rounded 1c', sans-serif;
+            
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.10);
+            
+            --border-radius-sm: 10px;
+            --border-radius-md: 20px;
+            --border-radius-lg: 30px;
+            --border-radius-xl: 50px;
+            
+            --transition-fast: 0.2s ease;
+            --transition-medium: 0.4s ease;
+            --transition-slow: 0.8s ease;
+        }
+
+        /* Theme Variables - Dark mode removed as requested */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: var(--font-primary);
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            scroll-snap-type: y proximity;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            overflow-x: hidden;
+            transition: background-color var(--transition-medium), color var(--transition-medium);
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        /* Initial Loading Animation */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.8s ease, visibility 0.8s ease;
+        }
+        
+        .preloader.loaded {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .preloader-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .loader-characters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .loader-character {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            animation: bounce 2s infinite alternate, rotate 8s linear infinite;
+            opacity: 0;
+        }
+        
+        .loader-character:nth-child(1) {
+            animation-delay: 0s;
+        }
+        
+        .loader-character:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .loader-character:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        
+        .loader-character:nth-child(4) {
+            animation-delay: 0.6s;
+        }
+        
+        .loader-character img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            50% {
+                transform: translateY(-20px);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg) translateY(0);
+            }
+            25% {
+                transform: rotate(10deg) translateY(-10px);
+            }
+            50% {
+                transform: rotate(0deg) translateY(0);
+            }
+            75% {
+                transform: rotate(-10deg) translateY(-10px);
+            }
+            100% {
+                transform: rotate(0deg) translateY(0);
+            }
+        }
+        
+        .loader-bar {
+            width: 200px;
+            height: 10px;
+            background-color: var(--light-gray);
+            border-radius: 5px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .loader-progress {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent), var(--primary));
+            background-size: 300% 100%;
+            animation: progressAnimation 2s linear infinite;
+            width: 0%;
+        }
+        
+        @keyframes progressAnimation {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 0%; }
+        }
+        /* Theme Toggle styles removed as requested */
+        
+        /* General Styles */
+        .section {
+            min-height: 100vh;
+            padding: 80px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            scroll-snap-align: start;
+        }
+        
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 800;
+            line-height: 1.3;
+        }
+        
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            margin-bottom: 2rem;
+        }
+        
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            transition: color var(--transition-medium);
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 30px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: var(--border-radius-xl);
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: transform var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
+            cursor: pointer;
+            border: none;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            z-index: 1;
+            margin: 10px;
+        }
+        
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 150%;
+            height: 150%;
+            background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+            transform: translate(-50%, -50%) scale(0);
+            opacity: 0;
+            z-index: -1;
+            transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+        
+        /* スマートフォンアプリボタンのホバー時に「Coming Soon」を表示 */
+        .store-btn {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .store-btn .btn-content {
+            transition: opacity 0.3s ease;
+        }
+        
+        .store-btn .coming-soon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .store-btn:hover .btn-content {
+            opacity: 0.2;
+        }
+        
+        .store-btn:hover .coming-soon {
+            opacity: 1;
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .btn:hover::after {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 0.2;
+        }
+        
+        .btn.btn-secondary {
+            background-color: var(--secondary);
+        }
+        
+        .btn.btn-accent {
+            background-color: var(--accent);
+            color: var(--dark);
+        }
+        
+        .btn.btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn.btn-small {
+            padding: 10px 20px;
+            font-size: 0.9rem;
+        }
+        
+        /* Particles Animation */
+        .particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.5;
+            animation: float-particles 15s infinite linear;
+        }
+        
+        @keyframes float-particles {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.5;
+            }
+            90% {
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            position: relative;
+            overflow: hidden;
+            color: white;
+            text-align: center;
+            padding: 40px 20px 60px;
+            min-height: 90vh;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: var(--light);
+            clip-path: ellipse(55% 100px at 50% 100px);
+            z-index: 5;
+            pointer-events: none;
+        }
+        
+        /* Dark theme styles removed */
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .logo-container {
+            width: 400px;
+            height: 400px;
+            margin: 0 auto 5px;
+            animation: float 6s ease-in-out infinite;
+            position: relative;
+        }
+        
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        
+        .logo {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: transform var(--transition-medium);
+        }
+        
+        .logo:hover {
+            transform: rotate(5deg) scale(1.05);
+        }
+        
+        .hero-title {
+            font-size: clamp(2.2rem, 4vw, 3.8rem);
+            line-height: 1.1;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #ffffff, #ffefd5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient 8s ease infinite;
+            background-size: 200% 200%;
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1rem, 1.5vw, 1.4rem);
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .app-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        
+        .app-buttons .btn {
+            min-width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+            animation: bounce-soft 2s infinite;
+            z-index: 2;
+        }
+        
+        .scroll-arrow {
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        
+        @keyframes bounce-soft {
+            0%, 100% {
+                transform: translateY(0) translateX(-50%);
+            }
+            50% {
+                transform: translateY(-10px) translateX(-50%);
+            }
+        }
+        
+        /* About Section */
+        .about {
+            text-align: center;
+            background-color: var(--light);
+            z-index: 2;
+        }
+        
+        .section-title {
+            position: relative;
+            display: block;
+            margin: 0 auto 50px;
+            text-align: center;
+            width: fit-content;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -15px;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--primary-light), var(--secondary-light));
+            border-radius: 5px;
+            margin: 0 auto;
+        }
+        
+        .about-text {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+            line-height: 1.8;
+        }
+        
+        /* Problem Section */
+        .problem {
+            position: relative;
+            background: linear-gradient(135deg, var(--secondary-light), var(--secondary));
+            color: white;
+            overflow: visible;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            margin: 50px 0;
+            padding-top: 80px;
+            padding-bottom: 100px;
+        }
+        
+        .problem::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: var(--light);
+            clip-path: ellipse(55% 100px at 50% 100px);
+            z-index: 5;
+            pointer-events: none;
+        }
+           
+        .problem-container {
+            position: relative;
+            z-index: 5;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .problem-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .chat-bubble {
+            position: relative;
+            padding: 20px 25px;
+            border-radius: var(--border-radius-md);
+            background-color: rgba(255, 255, 255, 0.8);
+            color: var(--dark);
+            box-shadow: var(--shadow-md);
+            transform: translateY(0);
+            opacity: 1;
+            cursor: pointer;
+            will-change: transform, box-shadow;
+            /* 初期状態から表示するように変更 */
+        }
+        
+        .chat-bubble:hover {
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+            transform: translateY(-10px) !important;
+        }
+        
+        /* .chat-bubble.active {
+            transform: translateY(0);
+            opacity: 1;
+        } */
+        
+        .chat-bubble:nth-child(even) {
+            align-self: flex-start;
+            margin-left: 60px;
+            border-radius: 20px 20px 20px 0;
+            transform: translateX(0); /* 初期から表示 */
+        }
+        
+        .chat-bubble:nth-child(odd) {
+            align-self: flex-end;
+            margin-right: 60px;
+            border-radius: 20px 20px 0 20px;
+            transform: translateX(0); /* 初期から表示 */
+        }
+        
+        /* アニメーションクラスはもう不要
+        .chat-bubble.active:nth-child(even) {
+            transform: translateX(0);
+        }
+        
+        .chat-bubble.active:nth-child(odd) {
+            transform: translateX(0);
+        } */
+        
+        .chat-bubble::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .chat-bubble:nth-child(1)::before {
+            content: '';
+            display: block;
+            right: -60px;
+            background-image: url('../udk7du16nr.png');
+        }
+        
+        .chat-bubble:nth-child(2)::before {
+            content: '';
+            display: block;
+            left: -60px;
+            background-image: url('../3v5ai8ysuk.png');
+        }
+        
+        .chat-bubble:nth-child(3)::before {
+            content: '';
+            display: block;
+            right: -60px;
+            background-image: url('../pdxy7gb4jg.png');
+        }
+        
+        .chat-bubble:nth-child(4)::before {
+            content: '';
+            display: block;
+            left: -60px;
+            background-image: url('../5krf0g1nqj.png');
+        }
+        
+        .giraffe-img {
+            position: absolute;
+            bottom: 10px;
+            right: -40px;
+            width: 90px;
+            z-index: 2;
+        }
+        
+        /* Features Section */
+        .features {
+            background-color: var(--light);
+            z-index: 2;
+            position: relative;
+            padding-bottom: 150px;
+        }
+        
+        .features-title {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transform-origin: center bottom;
+            transition: transform var(--transition-medium), box-shadow var(--transition-medium);
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            opacity: 1; /* 常に表示するように変更 */
+            transform: translateY(0); /* 初期位置から移動しないように変更 */
+        }
+        
+        /* Dark theme styles removed */
+        
+        /* .feature-card.active {
+            opacity: 1;
+            transform: translateY(0);
+        } */
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .feature-card:nth-child(1) {
+            background: linear-gradient(to bottom right, var(--light), var(--light-gray));
+        }
+        
+        .feature-card:nth-child(2) {
+            background: linear-gradient(to bottom right, var(--secondary-light), var(--secondary));
+            color: white;
+        }
+        
+        .feature-card:nth-child(3) {
+            background: linear-gradient(to bottom right, var(--primary-light), var(--primary));
+            color: white;
+        }
+        
+        /* Dark theme styles removed */
+        
+        .feature-img-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 20px;
+            position: relative;
+            overflow: hidden;
+            flex: 1;
+        }
+        
+        .feature-img {
+            width: 240px;
+            height: 240px;
+            object-fit: contain;
+            transition: transform var(--transition-medium);
+        }
+        
+        .feature-card:hover .feature-img {
+            transform: scale(1.1) rotate(5deg);
+        }
+        
+        .feature-content {
+            padding: 30px;
+            text-align: center;
+            z-index: 3;
+        }
+        
+        .screenshot-container {
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .screenshot-item {
+            position: relative;
+            border-radius: var(--border-radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            width: 200px;
+            transition: transform var(--transition-medium);
+        }
+        
+        .screenshot-item:hover {
+            transform: translateY(-10px) rotate(2deg);
+        }
+        
+        .screenshot-item:nth-child(even):hover {
+            transform: translateY(-10px) rotate(-2deg);
+        }
+        
+        .screenshot-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform var(--transition-medium);
+        }
+        
+        .screenshot-item:hover img {
+            transform: scale(1.05);
+        }
+        
+        .screenshot-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            font-size: 0.9rem;
+            transform: translateY(100%);
+            transition: transform var(--transition-fast);
+        }
+        
+        .screenshot-item:hover .screenshot-label {
+            transform: translateY(0);
+        }
+        
+        /* Use Cases Section */
+        .use-cases {
+            background: linear-gradient(135deg, var(--accent-light), var(--accent));
+            color: var(--dark);
+            position: relative;
+            overflow: hidden;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            margin: 50px 0;
+            padding-top: 80px;
+            padding-bottom: 180px;
+        }
+        
+        .use-cases::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: var(--light);
+            clip-path: ellipse(55% 100px at 50% 100px);
+            z-index: 5;
+            pointer-events: none;
+        }
+        
+        /* Dark theme styles removed */
+        
+        .use-cases-container {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .carousel {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .carousel-inner {
+            display: flex;
+            transition: transform var(--transition-medium);
+        }
+        
+        .carousel-item {
+            min-width: 100%;
+            padding: 0 20px;
+        }
+        
+        .use-case-card {
+            display: flex;
+            background-color: white;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+        
+        /* Dark theme styles removed */
+        
+        .use-case-img {
+            width: 40%;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .use-case-img img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
+            transition: transform var(--transition-medium);
+        }
+        
+        .use-case-img:hover img {
+            transform: rotate(10deg);
+        }
+        
+        .use-case-content {
+            width: 60%;
+            padding: 40px;
+        }
+        
+        .carousel-controls {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            gap: 20px;
+        }
+        
+        .carousel-control {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-fast);
+            border: none;
+            font-size: 1.5rem;
+        }
+        
+        .carousel-control:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: scale(1.1);
+        }
+        
+        .carousel-indicators {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 10px;
+        }
+        
+        .carousel-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        
+        .carousel-indicator.active {
+            background-color: white;
+            transform: scale(1.2);
+        }
+        
+        /* Voice Samples Section */
+        .voice-samples {
+            background-color: var(--light);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .voice-sample-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .voice-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+        }
+        
+        .voice-item {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-radius: var(--border-radius-md);
+            background-color: white;
+            box-shadow: var(--shadow-md);
+            transition: transform var(--transition-medium), box-shadow var(--transition-medium);
+            position: relative;
+            overflow: hidden;
+            justify-content: center;
+        }
+        
+        /* Dark theme styles removed */
+        
+        .voice-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .voice-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+        }
+        
+        .voice-item:nth-child(1)::before {
+            background-color: var(--accent);
+        }
+        
+        .voice-item:nth-child(2)::before {
+            background-color: var(--primary);
+        }
+        
+        .voice-item:nth-child(3)::before {
+            background-color: var(--secondary);
+        }
+        
+        .voice-item:nth-child(4)::before {
+            background-color: #6BCB77;
+        }
+        
+        .voice-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: var(--shadow-md);
+            transition: transform var(--transition-medium);
+        }
+        
+        .voice-item:hover .voice-avatar {
+            transform: scale(1.1) rotate(10deg);
+        }
+        
+        .voice-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .voice-text {
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .voice-character {
+            color: var(--primary);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        /* カスタムオーディオプレーヤー */
+        /* オーディオプレーヤーのスタイル */
+        .audio-player {
+            margin-top: 8px;
+            width: 120px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: transparent;
+            overflow: hidden;
+        }
+        
+        /* オーディオプレーヤーのスタイル調整 (ブラウザによって見た目は異なります) */
+        audio::-webkit-media-controls-panel {
+            background-color: white;
+            padding: 0;
+            box-shadow: none;
+        }
+        
+        audio::-webkit-media-controls-play-button {
+            background-color: var(--accent);
+            border-radius: 50%;
+        }
+        
+        audio::-webkit-media-controls-timeline {
+            display: none;
+        }
+        
+        audio::-webkit-media-controls-current-time-display,
+        audio::-webkit-media-controls-time-remaining-display {
+            display: none;
+        }
+        
+        /* オーディオプレーヤー全体の境界線と影を削除 */
+        audio {
+            box-shadow: none;
+            border: none;
+            outline: none;
+        }
+        
+        .play-button {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: var(--accent);
+            color: var(--dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-fast);
+            border: none;
+            margin-left: auto;
+            flex-shrink: 0;
+            position: relative;
+            z-index: 10;
+            pointer-events: auto;
+        }
+        
+        .play-button svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+        
+        .play-button:hover {
+            transform: scale(1.1);
+            background-color: var(--accent-dark);
+        }
+        
+        .voice-playing .play-button {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .audio-progress {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            width: 0%;
+            background-color: var(--primary);
+            transition: width 0.1s linear;
+            z-index: 5;
+        }
+        
+        /* Get Started Section */
+        .get-started {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            margin: 50px 0;
+            padding-top: 80px;
+            padding-bottom: 180px;
+        }
+        
+        body.dark-theme .get-started {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+        
+        .get-started::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: var(--light);
+            clip-path: ellipse(55% 100px at 50% 100px);
+            z-index: 5;
+            pointer-events: none;
+        }
+        
+        body.dark-theme .get-started::after {
+            background-color: var(--dark);
+        }
+        
+        .get-started-content {
+            position: relative;
+            z-index: 5;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            box-shadow: var(--shadow-md);
+        }
+        
+        /* Developer Section */
+        .developer {
+            background-color: var(--light);
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+        
+        .testimonial-card {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: white;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-lg);
+            position: relative;
+        }
+        
+        /* Dark theme styles removed */
+        
+        .quote-mark {
+            position: absolute;
+            font-size: 100px;
+            line-height: 1;
+            color: rgba(0, 0, 0, 0.05);
+        }
+        
+        .quote-mark-open {
+            top: 20px;
+            left: 20px;
+        }
+        
+        .quote-mark-close {
+            bottom: 20px;
+            right: 20px;
+            transform: rotate(180deg);
+        }
+        
+        .testimonial-text {
+            position: relative;
+            z-index: 2;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .author-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            box-shadow: var(--shadow-md);
+        }
+        
+        .author-info {
+            text-align: left;
+        }
+        
+        .author-name {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        
+        .author-title {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 60px 0 30px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto 50px;
+            padding: 0 20px;
+        }
+        
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-logo img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        
+        .footer-logo-text {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: white;
+        }
+        
+        .footer-links h4 {
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .footer-links h4::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary);
+            border-radius: 3px;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: all var(--transition-fast);
+        }
+        
+        .footer-links a:hover {
+            color: white;
+            transform: translateX(5px);
+            display: inline-block;
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all var(--transition-fast);
+        }
+        
+        .social-icon:hover {
+            background-color: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+        }
+        
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-fast);
+            z-index: 99;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .back-to-top:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .section {
+                padding: 60px 20px;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            
+            .voice-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            
+            .use-case-card {
+                flex-direction: column;
+            }
+            
+            .use-case-img {
+                width: 100%;
+                padding: 20px;
+            }
+            
+            .use-case-content {
+                width: 100%;
+                padding: 30px;
+            }
+            
+            .chat-bubble {
+                margin-left: 20px !important;
+                margin-right: 20px !important;
+            }
+            
+            .giraffe-img {
+                width: 120px;
+                right: -40px;
+            }
+            
+            .testimonial-card {
+                padding: 30px 20px;
+            }
+            
+            .testimonial-author {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .author-avatar {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            
+            .author-info {
+                text-align: center;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header-buttons {
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+            
+            .app-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .app-buttons .btn {
+                width: 100%;
+                max-width: 220px;
+            }
+            
+            .voice-item {
+                padding: 15px;
+            }
+            
+            .voice-avatar {
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+            }
+            
+            .play-button {
+                width: 40px;
+                height: 40px;
+            }
+            
+            .chat-bubble::before {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
+            }
+            
+            .chat-bubble:nth-child(even)::before {
+                left: -45px;
+            }
+            
+            .chat-bubble:nth-child(odd)::before {
+                right: -45px;
+            }
+            
+            .chat-bubble:nth-child(even) {
+                margin-left: 45px;
+            }
+            
+            .chat-bubble:nth-child(odd) {
+                margin-right: 45px;
+            }
+        }
+    </style>
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1600801180837419');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1600801180837419&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+<body>
+    <!-- Theme Toggle removed as requested -->
+    
+    <!-- 言語切り替えボタン -->
+    <div class="language-toggle">
+        <a href="https://syncraft.dev/timesense/">日本語</a>
+        <a href="https://syncraft.dev/timesense/en/" class="active">English</a>
+    </div>
+    
+    <!-- Preloader - シンプル化 -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="loader-characters">
+                <div class="loader-character">
+                    <img src="../x9ghvotjp8.png" alt="Character">
+                </div>
+                <div class="loader-character">
+                    <img src="../heddgvc7pg.png" alt="Character">
+                </div>
+                <div class="loader-character">
+                    <img src="../mh3d6qblwj.png" alt="Character">
+                </div>
+                <div class="loader-character">
+                    <img src="../ykp7spbqi7.png" alt="Character">
+                </div>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress" id="loaderProgress" style="width: 0%;"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScriptが無効でも3秒後に読み込み画面を非表示にする -->
+    <noscript>
+        <style>
+            #preloader {
+                display: none !important;
+            }
+        </style>
+    </noscript>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4L4 12H9V20H15V12H20L12 4Z" fill="currentColor" />
+        </svg>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="section hero" id="hero">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <div class="hero-content" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+                <div class="logo-container" style="width: min(450px, 100%); height: auto; max-width: 100%; margin-bottom: 20px;">
+                    <img src="../x9ghvotjp8.png" alt="TimeSense Logo" class="logo" style="max-width: 100%; height: auto;">
+                </div>
+                
+                <h1 class="hero-title">Visual Timer for Kids<br>with Voice Reminders</h1>
+                <p class="hero-subtitle">A gentle visual timer<br>that helps kids manage morning routines, bedtime,<br>and smooth transitions.</p>
+                                
+                <div class="app-buttons" style="margin-top: 10px; margin-bottom: 40px; display: flex; flex-direction: row; gap: 20px; align-items: center;">
+                <!-- App Store -->
+                <a href="https://apps.apple.com/jp/app/id6747689461" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; height: 60px;">
+                    <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" style="height: 100%;">
+                </a>
+                <!-- Google Play -->
+                <a href="https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; height: 60px;">
+                    <img src="GetItOnGooglePlay_Badge_Web_color_English.png" alt="Download on the Google Play" style="height: 100%;">
+                </a>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about" style="padding: 60px 20px;">
+        <div class="container">
+            <h2 class="section-title">What is TimeSense?</h2>
+            <p class="about-text" style="margin-bottom: 20px;">
+               TimeSense is a visual timer for kids designed to make daily routines easier. By showing how much time is left and providing calm voice reminders, it helps children handle transitions, morning routines, and bedtime more smoothly. 
+            </p>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="section problem" id="problem">
+        <div class="container problem-container">
+            <h2 class="section-title" style="text-align: center; margin: 0 auto 50px;">Everyday Chaos,<br>Familiar Words...</h2>
+            
+            <div class="chat-container">
+                <div class="chat-bubble active" id="chat1" style="transition: transform 0.5s ease; transform: translateY(0);">
+                    "We need to leave—now!"
+                </div>
+                <div class="chat-bubble active" id="chat2" style="transition: transform 0.5s ease; transform: translateY(0);">
+                    “Only 〇 minutes left? Hurry up!”
+                </div>
+                <div class="chat-bubble active" id="chat3" style="transition: transform 0.5s ease; transform: translateY(0);">
+                    “You're playing again? Why!?”
+                </div>
+                <div class="chat-bubble active" id="chat4" style="transition: transform 0.5s ease; transform: translateY(0);">
+                    “I yelled again... I just wanted to stay calm.”
+                </div>
+                
+                <script>
+                    // ホバー検出のための監視コード
+                    document.addEventListener('DOMContentLoaded', function() {
+                        document.querySelectorAll('.chat-bubble').forEach(bubble => {
+                            bubble.addEventListener('mouseenter', function() {
+                                this.style.transform = 'translateY(-10px)';
+                                this.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.15)';
+                            });
+                            
+                            bubble.addEventListener('mouseleave', function() {
+                                this.style.transform = 'translateY(0)';
+                                this.style.boxShadow = 'var(--shadow-md)';
+                            });
+                        });
+                    });
+                </script>
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px; position: relative; z-index: 10;">
+                <div style="background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%); padding: 25px 30px; border-radius: 20px; color: white; font-weight: 500; font-size: 1.3rem; max-width: 800px; margin: 0 auto; box-shadow: var(--shadow-lg); border: 3px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(5px); position: relative;">
+                    <div style="display: inline-block; position: relative; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+                        <span style="font-weight: 800; letter-spacing: 0.5px;">TimeSense gently supports your daily routine</span><br>
+                        <span style="font-weight: 800; letter-spacing: 0.5px;">with kindness and encouragement.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="problem-bottom-spacer"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <h2 class="section-title">Features of TimeSense</h2>
+            
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 50px; font-size: 1.1rem;">TimeSense was designed with insights from child psychology and developmental research—to support kids in a way that feels natural and engaging.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card active" id="feature1">
+                    <div class="feature-img-container">
+                        <img src="../n4fwof1nzj.png" alt="Time Display Feature" class="feature-img" style="width: 110%; max-width: 110%; height: auto;">
+                    </div>
+                    <div class="feature-content">
+                        <h3>See the time.<br>Feel the countdown.</h3>
+                        <p>The analog clock + timer display allows you to see the remaining time at a glance.</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card active" id="feature2">
+                    <div class="feature-img-container">
+                        <img src="luma_30minleft_en.png" alt="Voice Support Function" class="feature-img">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Character<br>Voice Support</h3>
+                        <p>Characters speak gently in place of parents—guiding children through countdowns and next steps.</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card active" id="feature3">
+                    <div class="feature-img-container">
+                        <img src="../1hkrqutgzf.png" alt="Character Switching" class="feature-img">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Character Switching<br>for Morning, Evening, Homework</h3>
+                        <p>Switch characters by time of day—morning, homework, or bedtime—keeping routines fresh and fun.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="screenshot-container">
+                <div class="screenshot-item">
+                    <img src="../hcj7irmb7y.png" alt="Light Mode Screen">
+                    <div class="screenshot-label">Light Mode</div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="../ft86yrq9r7.png" alt="Dark Mode Screen">
+                    <div class="screenshot-label">Dark Mode</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="section use-cases" id="use-cases">
+        <div class="container use-cases-container" style="position: relative; z-index: 20;">
+            <h2 class="section-title">Use Cases</h2>
+            
+            <div class="use-cases-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+                <div class="use-case-card" style="height: 100%; display: flex; flex-direction: column; background-color: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.4s ease; text-align: center;">
+                    <div class="use-case-img" style="padding: 20px; display: flex; justify-content: center; align-items: center; background-color: var(--light); text-align: center; width: 100%;">
+                        <img src="../3id2hkffq7.png" alt="Morning Preparation" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
+                    </div>
+                    <div class="use-case-content" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; width: 100%;">
+                        <h3 style="margin-bottom: 10px; width: 100%; text-align: center; color: var(--dark);">"Hurry Up!"<br>Replacement</h3>
+                        <p style="flex-grow: 1; font-size: 0.95rem; width: 100%; text-align: center; margin: 0 auto;">Let the timer and characters take over the morning rush—no more repeating “Hurry up!”</p>
+                    </div>
+                </div>
+                
+                <div class="use-case-card" style="height: 100%; display: flex; flex-direction: column; background-color: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.4s ease; text-align: center;">
+                    <div class="use-case-img" style="padding: 20px; display: flex; justify-content: center; align-items: center; background-color: var(--light); text-align: center; width: 100%;">
+                        <img src="../l1xovd9bxc.png" alt="Cleaning Up" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
+                    </div>
+                    <div class="use-case-content" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; width: 100%;">
+                        <h3 style="margin-bottom: 10px; width: 100%; text-align: center; color: var(--dark);">Concentration Switch ON</h3>
+                        <p style="flex-grow: 1; font-size: 0.95rem; width: 100%; text-align: center; margin: 0 auto;">“5 minutes left!”—hearing it from a character boosts focus and motivation.</p>
+                    </div>
+                </div>
+                
+                <div class="use-case-card" style="height: 100%; display: flex; flex-direction: column; background-color: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.4s ease; text-align: center;">
+                    <div class="use-case-img" style="padding: 20px; display: flex; justify-content: center; align-items: center; background-color: var(--light); text-align: center; width: 100%;">
+                        <img src="../ykp7spbqi7.png" alt="Time Switching" style="max-height: 150px; object-fit: contain; margin: 0 auto; display: block;">
+                    </div>
+                    <div class="use-case-content" style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; width: 100%;">
+                        <h3 style="margin-bottom: 10px; width: 100%; text-align: center; color: var(--dark);">Smooth Transitions</h3>
+                        <p style="flex-grow: 1; font-size: 0.95rem; width: 100%; text-align: center; margin: 0 auto;">Struggling with transitions is normal. TimeSense guides kids gently through changes—like cleaning up or moving from play to study.</p>
+                    </div>
+                </div>
+                <div class="problem-bottom-spacer"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Samples Section -->
+    <section class="section voice-samples" id="voice-samples">
+        <div class="container">
+            <h2 class="section-title">Voice Samples</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 50px; font-size: 1.1rem;">
+                Choose voice samples that match your child’s mood and needs.<br>
+                From basic countdowns to playful encouragement—each voice is designed to help kids take action smoothly.
+            </p>
+
+            <div class="voice-sample-container">
+
+                <!-- Free Characters Heading -->
+                <div style="width: 100%; text-align: center; margin: 30px 0 10px;">
+                    <h3 style="font-size: 1.2rem; color: #333;">🎵 Free Character Voices</h3>
+                    <p style="margin-top: 5px; font-size: 0.95rem; color: #777;">
+                        These basic voices are available as soon as you download the app.
+                    </p>
+                </div>
+
+                <div class="voice-grid">
+                    <div class="voice-item" data-character="luma">
+                        <div style="display: flex; flex-direction: column; align-items: center; width: 100px; margin-right: 20px;">
+                            <img src="../icon_1_Luma.png" alt="Luma Character" class="voice-avatar" style="margin-right: 0;">
+                            <div style="text-align: center; margin-top: 10px; font-weight: bold; color: var(--primary);">Luma</div>
+                        </div>
+                        <div class="voice-content">
+                            <div class="voice-text">"You've got 30 minutes left."</div>
+                            <div class="voice-character">Daily partner / natural and friendly</div>
+                            <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
+                                <source src="luma_30min.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback
+                            </audio>
+                        </div>
+                    </div>
+
+                    <div class="voice-item" data-character="pico">
+                        <div style="display: flex; flex-direction: column; align-items: center; width: 100px; margin-right: 20px;">
+                            <img src="../icon_nor_Pico.png" alt="Pico Character" class="voice-avatar" style="margin-right: 0;">
+                            <div style="text-align: center; margin-top: 10px; font-weight: bold; color: var(--primary);">Pico</div>
+                        </div>
+                        <div class="voice-content">
+                            <div class="voice-text">"Five minutes! We gotta hurry!"</div>
+                            <div class="voice-character">A perfect fit for rushed mornings</div>
+                            <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
+                                <source src="pico_nor_5min.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Premium Characters Heading -->
+                <div style="width: 100%; text-align: center; margin: 60px 0 10px;">
+                    <h3 style="font-size: 1.2rem; color: #333;">👑 TimeSense+ Premium Voices</h3>
+                    <p style="margin-top: 5px; font-size: 0.95rem; color: #777;">
+                        With a premium plan, you’ll unlock extra voices tailored for mornings, bedtime, and homework.
+                    </p>
+                </div>
+
+                <div class="voice-grid">
+                    <div class="voice-item" data-character="milo">
+                        <div style="display: flex; flex-direction: column; align-items: center; width: 100px; margin-right: 20px;">
+                            <img src="../icon_2_Milo.png" alt="Milo Character" class="voice-avatar" style="margin-right: 0;">
+                            <div style="text-align: center; margin-top: 10px; font-weight: bold; color: var(--primary);">Milo</div>
+                        </div>
+                        <div class="voice-content">
+                            <div class="voice-text">"Just 5 more! You got this—<br>let’s blast through to the end!"</div>
+                            <div class="voice-character">Hot-blooded big brother in homework mode</div>
+                            <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
+                                <source src="milo_5min.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback
+                            </audio>
+                        </div>
+                    </div>
+
+                    <div class="voice-item" data-character="toto">
+                        <div style="display: flex; flex-direction: column; align-items: center; width: 100px; margin-right: 20px;">
+                            <img src="../icon_3_Toto.png" alt="Toto Character" class="voice-avatar" style="margin-right: 0;">
+                            <div style="text-align: center; margin-top: 10px; font-weight: bold; color: var(--primary);">Toto</div>
+                        </div>
+                        <div class="voice-content">
+                            <div class="voice-text">"Okay... just one more minute.<br>It’s almost bedtime."</div>
+                            <div class="voice-character">Gentle voice support from a caring friend</div>
+                            <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
+                                <source src="toto_1min.mp3" type="audio/mpeg">
+                                Your browser does not support audio playback
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Started Section -->
+    <section class="section get-started" id="get-started">
+        <div class="container get-started-content">
+            <h2 class="section-title">Download the App</h2>
+            <p>Try it for free today!<br>Upgrade to TimeSense+ for full voice selection and an ad-free experience—designed to fit every moment of your child’s day.</p>
+            
+            <div class="app-buttons" style="margin-top: 10px; margin-bottom: 40px; display: flex; flex-direction: row; gap: 20px; align-items: center;">
+                <!-- App Store -->
+                <a href="https://apps.apple.com/jp/app/id6747689461" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; height: 60px;">
+                    <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" style="height: 100%;">
+                </a>
+                <!-- Google Play -->
+                <a href="https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; height: 60px;">
+                    <img src="GetItOnGooglePlay_Badge_Web_color_English.png" alt="Download on the Google Play" style="height: 100%;">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developer Section -->
+    <section class="section developer" id="developer">
+        <div class="container">
+            <h2 class="section-title">From the Developer</h2>
+            
+            <div class="testimonial-card">
+                <div class="quote-mark quote-mark-open">"</div>
+                <div class="testimonial-text" style="text-align: left; padding: 20px 30px;">
+                    <p>This app was created from our wish to begin each morning with a smile—even during hectic routines and moments when our son found it hard to switch tasks.</p>
+                    
+                    <p>With a clear display of remaining time and adorable character voices offering gentle prompts, TimeSense acts like a co-parent—speaking on your behalf.</strong></p>
+                    
+                    <p>It’s a timer app built on the ideas of education and kindness, helping kids gradually develop self-direction and time awareness.</p>
+                    
+                    <p>We hope TimeSense can support children and parents all over the world. We’d love to hear your feedback!</p>
+                    
+                </div>
+                <div class="quote-mark quote-mark-close">"</div>
+                
+                <div class="testimonial-author">
+                    <img src="../lv1t7qynca.png" alt="Developer" class="author-avatar">
+                    <div class="author-info">
+                        <div class="author-name">TimeSense Developer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <img src="../df7ksn98ya_1.png" alt="Syncraft Logo" style="max-width: 180px; margin-bottom: 20px;">
+                </div>
+                <div class="footer-links" style="margin-top: 30px;">
+                    <ul style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; list-style: none; padding: 0;">
+                        <li><a href="https://syncraft.dev/timesense/en/terms" target="_blank" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">Terms of Use</a></li>
+                        <li><a href="https://syncraft.dev/timesense/en/privacy" target="_blank" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">Privacy Policy</a></li>
+                        <li><a href="https://syncraft.dev/" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">Development & Operation</a></li>
+                        <li><a href="mailto:hello.syncraft@gmail.com" style="text-decoration: none; color: rgba(255, 255, 255, 0.8);">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2025 TimeSense All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // プリローダーを即時実行関数で囲んで確実に実行されるようにする
+        (function() {
+            // プリローダーの進行状況を更新する関数
+            function updateLoader() {
+                const preloader = document.getElementById('preloader');
+                const loaderProgress = document.getElementById('loaderProgress');
+                
+                if (!preloader || !loaderProgress) {
+                    console.error('Preloader elements not found');
+                    return;
+                }
+                
+                let width = 0;
+                const interval = setInterval(function() {
+                    width += 3; // より速く進める
+                    loaderProgress.style.width = width + '%';
+                    
+                    if (width >= 100) {
+                        clearInterval(interval);
+                        hidePreloader();
+                    }
+                }, 30);
+            }
+            
+            // プリローダーを非表示にする関数
+            function hidePreloader() {
+                const preloader = document.getElementById('preloader');
+                if (!preloader) return;
+                
+                // すべての方法で非表示にする
+                document.body.classList.add('loaded');
+                preloader.classList.add('loaded');
+                preloader.style.opacity = '0';
+                preloader.style.visibility = 'hidden';
+                preloader.style.display = 'none';
+                
+                console.log('Preloader hidden');
+                
+                // プリローダー非表示後に各要素のアニメーションを実行
+                setTimeout(function() {
+                    animateChatBubbles();
+                    animateFeatureCards();
+                    console.log('Animations triggered after preloader');
+                    
+                    // 表示されない場合に備えて、すべての要素を強制的に表示
+                    document.querySelectorAll('.chat-bubble').forEach(bubble => {
+                        bubble.classList.add('active');
+                    });
+                    
+                    document.querySelectorAll('.feature-card').forEach(card => {
+                        card.classList.add('active');
+                    });
+                }, 300);
+            }
+            
+            // DOMContentLoaded イベントでローダーを開始
+            document.addEventListener('DOMContentLoaded', function() {
+                console.log('DOM loaded, starting preloader');
+                updateLoader();
+                
+                // パーティクル初期化を試行
+                try {
+                    if (typeof createParticles === 'function') {
+                        createParticles();
+                    }
+                } catch (e) {
+                    console.error('Error creating particles:', e);
+                }
+            });
+            
+            // window.onload イベントでも念のため処理 (二重保険)
+            window.onload = function() {
+                console.log('Window loaded');
+                hidePreloader();
+            };
+            
+            // 最終的なフォールバック: 2秒後に強制的に非表示
+            setTimeout(hidePreloader, 2000);
+            
+            // 即時実行: ページが完全に読み込まれる前にバーが動くようにする
+            updateLoader();
+        })();
+        
+        // Theme Toggle removed as requested
+        
+        // Dark mode toggle removed as requested
+        
+        // Back to Top
+        const backToTop = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+            
+            // Check for chat bubbles
+            animateChatBubbles();
+            
+            // Check for feature cards
+            animateFeatureCards();
+        });
+        
+        // ページ読み込み時にも要素のアニメーションを実行
+        document.addEventListener('DOMContentLoaded', function() {
+            // 少し遅延させて実行
+            setTimeout(function() {
+                animateChatBubbles();
+                animateFeatureCards();
+                console.log('Initial animations triggered');
+            }, 500);
+        });
+        
+        backToTop.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Particles Animation
+        function createParticles() {
+            const particles = document.getElementById('particles');
+            
+            // particles要素が見つからない場合は処理を終了
+            if (!particles) {
+                console.warn('Particles element not found');
+                return;
+            }
+            
+            const colors = ['#FFE9B0', '#AED9E0', '#FF8FA8', '#FFFFFF'];
+            const shapes = ['circle', 'triangle', 'square'];
+            
+            // 既存の子要素をクリア
+            particles.innerHTML = '';
+            
+            for (let i = 0; i < 30; i++) {
+                try {
+                    const particle = document.createElement('div');
+                    particle.className = 'particle';
+                    
+                    const size = Math.random() * 15 + 5;
+                    const color = colors[Math.floor(Math.random() * colors.length)];
+                    const shape = shapes[Math.floor(Math.random() * shapes.length)];
+                    const left = Math.random() * 100;
+                    const duration = Math.random() * 15 + 10;
+                    const delay = Math.random() * 10;
+                    
+                    particle.style.width = `${size}px`;
+                    particle.style.height = `${size}px`;
+                    particle.style.backgroundColor = color;
+                    particle.style.left = `${left}%`;
+                    particle.style.bottom = `-${size}px`;
+                    particle.style.opacity = Math.random() * 0.5 + 0.1;
+                    particle.style.animationDuration = `${duration}s`;
+                    particle.style.animationDelay = `${delay}s`;
+                    
+                    if (shape === 'triangle') {
+                        particle.style.borderRadius = '0';
+                        particle.style.width = '0';
+                        particle.style.height = '0';
+                        particle.style.backgroundColor = 'transparent';
+                        particle.style.borderLeft = `${size/2}px solid transparent`;
+                        particle.style.borderRight = `${size/2}px solid transparent`;
+                        particle.style.borderBottom = `${size}px solid ${color}`;
+                    } else if (shape === 'square') {
+                        particle.style.borderRadius = '2px';
+                    }
+                    
+                    particles.appendChild(particle);
+                } catch (e) {
+                    console.error('Error creating particle:', e);
+                }
+            }
+        }
+        
+        // Chat Bubbles Animation
+        function animateChatBubbles() {
+            const chatBubbles = document.querySelectorAll('.chat-bubble');
+            
+            chatBubbles.forEach((bubble) => {
+                const bubbleTop = bubble.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (bubbleTop < windowHeight * 0.9) {
+                    bubble.classList.add('active');
+                }
+            });
+        }
+        
+        // Feature Cards Animation
+        function animateFeatureCards() {
+            const featureCards = document.querySelectorAll('.feature-card');
+            
+            featureCards.forEach((card) => {
+                const cardTop = card.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (cardTop < windowHeight * 0.85) {
+                    card.classList.add('active');
+                }
+            });
+        }
+        
+        // Use Cases Carousel
+        let carouselInner = document.getElementById('carouselInner');
+        let indicators = document.getElementById('carouselIndicators');
+        let prevButton = document.getElementById('prevButton');
+        let nextButton = document.getElementById('nextButton');
+        
+        // Add indicators if elements exist
+        let items = document.querySelectorAll('.carousel-item');
+        let currentIndex = 0;
+        
+        // Only run carousel code if elements exist
+        if (carouselInner && indicators) {
+            for (let i = 0; i < items.length; i++) {
+                const indicator = document.createElement('div');
+                indicator.className = 'carousel-indicator';
+                if (i === 0) indicator.classList.add('active');
+                
+                indicator.addEventListener('click', function() {
+                    goToSlide(i);
+                });
+                
+                indicators.appendChild(indicator);
+            }
+        } else {
+            console.log('Carousel elements not found, skipping initialization');
+        }
+        
+        function updateCarousel() {
+            const width = items[0].offsetWidth;
+            carouselInner.style.transform = `translateX(-${currentIndex * width}px)`;
+            
+            // Update indicators
+            document.querySelectorAll('.carousel-indicator').forEach((ind, idx) => {
+                if (idx === currentIndex) {
+                    ind.classList.add('active');
+                } else {
+                    ind.classList.remove('active');
+                }
+            });
+        }
+        
+        function goToSlide(index) {
+            if (index < 0) {
+                currentIndex = items.length - 1;
+            } else if (index >= items.length) {
+                currentIndex = 0;
+            } else {
+                currentIndex = index;
+            }
+            
+            updateCarousel();
+        }
+        
+        prevButton.addEventListener('click', function() {
+            goToSlide(currentIndex - 1);
+        });
+        
+        nextButton.addEventListener('click', function() {
+            goToSlide(currentIndex + 1);
+        });
+        
+        // Voice Sample Player
+        const voiceItems = document.querySelectorAll('.voice-item');
+        let currentAudio = null;
+        let currentInterval = null;
+        
+        // Fallback function to simulate audio progress
+        function simulateAudioProgress(item, progressBar) {
+            console.log('Using simulated audio playback');
+            item.classList.add('voice-playing');
+            let progress = 0;
+            
+            // Clear any existing interval
+            if (currentInterval) {
+                clearInterval(currentInterval);
+            }
+            
+            currentInterval = setInterval(() => {
+                progress += 1;
+                progressBar.style.width = `${progress}%`;
+                
+                if (progress >= 100) {
+                    clearInterval(currentInterval);
+                    currentInterval = null;
+                    item.classList.remove('voice-playing');
+                    progressBar.style.width = '0%';
+                }
+            }, 30);
+        }
+        
+                // 音声再生関連のJavaScriptを削除し、標準のaudio要素のみを使用
+        console.log('音声サンプルはネイティブのaudio要素で再生できます');
+        
+        // Initialize animations on load
+        window.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                animateChatBubbles();
+                animateFeatureCards();
+            }, 1000);
+        });
+        
+        // Resize listener for carousel
+        window.addEventListener('resize', function() {
+            if (typeof updateCarousel === 'function') {
+                updateCarousel();
+            }
+        });
+        
+        // Initialize carousel if function exists
+        if (typeof updateCarousel === 'function') {
+            updateCarousel();
+        }
+    </script>
+</body>
+</html>

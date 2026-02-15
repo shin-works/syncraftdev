@@ -1,0 +1,48 @@
+---
+/**
+ * /blog/ — Japanese blog listing page
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogCard from '../../components/BlogCard.astro';
+import { getCollection } from 'astro:content';
+import { t } from '../../i18n/utils';
+
+const lang = 'ja';
+const prefix = 'ja/';
+
+const posts = (await getCollection('blog', ({ id }) => id.startsWith(prefix)))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="Blog - SynCraft"
+  description="SynCraftのプロダクト開発、技術知見、お知らせを発信するブログです。"
+  lang={lang}
+  canonicalUrl="/blog/"
+  alternateUrls={{ ja: '/blog/', en: '/en/blog/' }}
+  activeNav="blog"
+  currentPath="/blog/"
+>
+  <div class="blog-page">
+    <div class="container">
+      <h1>Blog</h1>
+      <div class="blog-list">
+        {posts.map((post) => {
+          const slug = post.id.replace(prefix, '').replace(/\.mdx?$/, '');
+          return (
+            <BlogCard
+              lang={lang}
+              title={post.data.title}
+              date={post.data.date}
+              description={post.data.description}
+              slug={slug}
+              image={post.data.image}
+              imageAlt={post.data.imageAlt}
+            />
+          );
+        })}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

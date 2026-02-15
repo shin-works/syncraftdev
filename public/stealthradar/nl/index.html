@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEALTH RADAR - Maak van het dagelijks leven een avontuur</title>
+    <meta name="description" content="Verander vertrouwde plekken in de echte wereld in avonturenvelden. Zowel volwassenen als kinderen krijgen zin om op avontuur te gaan.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://syncraft.dev/stealthradar/nl/">
+    <meta property="og:title" content="STEALTH RADAR - Maak van het dagelijks leven een avontuur">
+    <meta property="og:description" content="Nieuwe ontdekkingen en spanning wachten op je">
+    <meta property="og:image" content="https://syncraft.dev/stealthradar/assets/images/ogp-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://syncraft.dev/stealthradar/nl/">
+    <meta property="twitter:title" content="STEALTH RADAR - Maak van het dagelijks leven een avontuur">
+    <meta property="twitter:description" content="Nieuwe ontdekkingen en spanning wachten op je">
+    <meta property="twitter:image" content="https://syncraft.dev/stealthradar/assets/images/ogp-image.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="../favicon_sr.png" type="image/png">
+    
+    <style>
+        :root {
+            --stealth-background: #101820;
+            --stealth-text: #e0ffff;
+            --radar-cyan: #00f0ff;
+            --emerald-green: #1abc9c;
+            --alert-red: #ff3b30;
+        }
+        
+        html {
+            font-family: 'Noto Sans JP', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-color: var(--stealth-background);
+            color: var(--stealth-text);
+        }
+        
+        .bank-gothic {
+            font-family: 'Orbitron', 'Noto Sans JP', sans-serif;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+        }
+        
+        .btn {
+            @apply px-6 py-3 font-bold rounded-md transition-all duration-300 shadow-lg;
+        }
+        
+        .btn-primary {
+            background-color: var(--radar-cyan);
+            color: var(--stealth-background);
+        }
+        
+        .btn-primary:hover {
+            background-color: rgba(0, 240, 255, 0.8);
+        }
+        
+        .btn-secondary {
+            background-color: var(--emerald-green);
+            color: var(--stealth-background);
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(26, 188, 156, 0.8);
+        }
+        
+        .section {
+            @apply py-16 px-4 md:px-8;
+        }
+        
+        .container {
+            @apply mx-auto max-w-6xl;
+        }
+        
+        .section-title {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 2.5rem;
+            text-align: center;
+            color: var(--stealth-text);
+            line-height: 1.3;
+            letter-spacing: 0.02em;
+        }
+        
+        @media (min-width: 768px) {
+            .section-title {
+                font-size: 2.25rem;
+                margin-top: 2.5rem;
+                margin-bottom: 3rem;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .section-title {
+                font-size: 2.5rem;
+                margin-top: 3rem;
+                margin-bottom: 3.5rem;
+            }
+        }
+        
+        .glow {
+            text-shadow: 0 0 10px var(--radar-cyan), 0 0 20px var(--radar-cyan);
+        }
+        
+        .card {
+            background-color: rgba(16, 24, 32, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            border: 1px solid rgba(0, 240, 255, 0.3);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card:hover {
+            border-color: var(--radar-cyan);
+            border-opacity: 1;
+        }
+        
+        .bg-stealthBackground {
+            background-color: var(--stealth-background);
+        }
+        
+        .text-stealthText {
+            color: var(--stealth-text);
+        }
+        
+        .text-radarCyan {
+            color: var(--radar-cyan);
+        }
+        
+        .text-emeraldGreen {
+            color: var(--emerald-green);
+        }
+        
+        .text-alertRed {
+            color: var(--alert-red);
+        }
+        
+        .border-radarCyan {
+            border-color: var(--radar-cyan);
+        }
+        
+        .border-emeraldGreen {
+            border-color: var(--emerald-green);
+        }
+        
+        .border-alertRed {
+            border-color: var(--alert-red);
+        }
+        
+        .bg-radarCyan {
+            background-color: var(--radar-cyan);
+        }
+        
+        .bg-emeraldGreen {
+            background-color: var(--emerald-green);
+        }
+        
+        .bg-alertRed {
+            background-color: var(--alert-red);
+        }
+        
+        .bg-gradient-radial {
+            background: radial-gradient(ellipse at center, var(--stealth-background) 0%, #000000 100%);
+        }
+        
+        .bg-gradient-to-br {
+            background: linear-gradient(to bottom right, var(--stealth-background), #374151, var(--stealth-background));
+        }
+        
+        .mobile-menu {
+            display: none;
+        }
+        
+        .mobile-menu.open {
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu {
+                display: none;
+            }
+            
+            .mobile-menu.open {
+                display: block;
+            }
+            
+            .desktop-nav {
+                display: none;
+            }
+        }
+        
+        .faq-item {
+            margin-bottom: 1rem;
+        }
+        
+        .faq-question {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: var(--stealth-background);
+            border: 1px solid rgba(0, 240, 255, 0.3);
+            border-radius: 0.5rem;
+            text-align: left;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            border-color: var(--radar-cyan);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+        
+        .faq-answer.open {
+            max-height: 400px;
+            opacity: 1;
+        }
+        
+        .faq-content {
+            padding: 1.5rem;
+            background: #374151;
+            border-top: none;
+            border-radius: 0 0 0.5rem 0.5rem;
+        }
+        
+        .analyze-button {
+            /* グラデーション背景 */
+            background: linear-gradient(
+                to bottom,
+                rgba(200, 200, 200, 0.4) 0%,
+                rgba(100, 100, 100, 0.2) 50%,
+                rgba(18, 69, 79, 0.3) 100%
+            ) !important;
+            
+            /* テキスト色 */
+            color: #e0ffff;
+            
+            /* ボタンスタイル */
+            border: none;
+            border-radius: 10px;
+            padding: 12px 24px;
+            font-weight: 600;
+            cursor: pointer;
+            
+            /* グロー効果 */
+            box-shadow: 
+                0 0 8px rgba(0, 240, 255, 0.8),
+                0 0 16px rgba(0, 240, 255, 0.4);
+            
+            /* ホバー効果 */
+            transition: all 0.3s ease;
+        }
+        
+        .analyze-button:hover {
+            box-shadow: 
+                0 0 12px rgba(0, 240, 255, 0.9),
+                0 0 24px rgba(0, 240, 255, 0.5);
+            transform: translateY(-1px);
+        }
+        
+        .analyze-button:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 transition-all duration-300 bg-stealthBackground shadow-lg">
+        <div class="container mx-auto px-4 sm:px-6 max-w-7xl">
+            <div class="flex items-center justify-between py-4 min-h-[60px]">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#" class="flex items-center">
+                        <span class="bank-gothic text-xl text-radarCyan glow">STEALTH RADAR</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav hidden md:flex space-x-6 lg:space-x-8 xl:space-x-10">
+                    <a href="#hero" class="text-stealthText hover:text-radarCyan font-medium transition-colors">Start</a>
+                    <a href="#features" class="text-stealthText hover:text-radarCyan font-medium transition-colors">Functies</a>
+                    <a href="#use-cases" class="text-stealthText hover:text-radarCyan font-medium transition-colors">Gebruikssituaties</a>
+                    <a href="#faq" class="text-stealthText hover:text-radarCyan font-medium transition-colors">FAQ</a>
+                    <a href="#safety" class="text-stealthText hover:text-radarCyan font-medium transition-colors">Veiligheid</a>
+                    
+                    <!-- Language Dropdown -->
+                    <div class="relative group">
+                        <button class="text-stealthText hover:text-radarCyan font-medium transition-colors flex items-center">
+                            Taal
+                            <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-48 bg-stealthBackground border border-radarCyan/20 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50" style="background-color: rgba(16, 24, 32, 0.95); backdrop-filter: blur(8px);">
+                            <div class="py-2">
+                                <a href="../index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    日本語
+                                </a>
+                                <a href="../en/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    English
+                                </a>
+                                <a href="../de/index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    Deutsch
+                                </a>
+                                <a href="index.html" class="block px-4 py-2 text-stealthText hover:bg-radarCyan hover:text-stealthBackground transition-colors">
+                                    Nederlands
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                
+                <!-- CTA Button -->
+                <div class="hidden lg:block">
+                    <a href="https://apps.apple.com/app/id6751251839?utm_source=stealthradar_lp&utm_medium=web&utm_campaign=launch&utm_content=nl" class="analyze-button">Gratis proberen</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="text-stealthText hover:text-radarCyan" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu md:hidden" id="mobileMenu">
+                <div class="pt-2 pb-4 space-y-1">
+                    <a href="#hero" class="block py-2 text-stealthText hover:text-radarCyan font-medium" onclick="closeMobileMenu()">Start</a>
+                    <a href="#features" class="block py-2 text-stealthText hover:text-radarCyan font-medium" onclick="closeMobileMenu()">Functies</a>
+                    <a href="#use-cases" class="block py-2 text-stealthText hover:text-radarCyan font-medium" onclick="closeMobileMenu()">Gebruikssituaties</a>
+                    <a href="#faq" class="block py-2 text-stealthText hover:text-radarCyan font-medium" onclick="closeMobileMenu()">FAQ</a>
+                    <a href="#safety" class="block py-2 text-stealthText hover:text-radarCyan font-medium" onclick="closeMobileMenu()">Veiligheid</a>
+                    
+                    <!-- Mobile Language Switcher -->
+                    <div class="border-t border-radarCyan/20 mt-4 pt-4">
+                        <div class="text-sm text-stealthText/70 mb-2 px-2">Taal</div>
+                        <a href="../index.html" class="block py-2 px-2 text-stealthText hover:text-radarCyan font-medium">
+                            日本語
+                        </a>
+                        <a href="../en/index.html" class="block py-2 px-2 text-stealthText hover:text-radarCyan font-medium">
+                            English
+                        </a>
+                        <a href="../de/index.html" class="block py-2 px-2 text-stealthText hover:text-radarCyan font-medium">
+                            Deutsch
+                        </a>
+                        <a href="index.html" class="block py-2 px-2 text-stealthText hover:text-radarCyan font-medium">
+                            Nederlands
+                        </a>
+                    </div>
+                    
+                    <div class="pt-4">
+                        <a href="https://apps.apple.com/app/id6751251839?utm_source=stealthradar_lp&utm_medium=web&utm_campaign=launch&utm_content=nl" class="analyze-button w-full text-center block">Gratis proberen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="relative min-h-[80vh] bg-gradient-radial flex items-center overflow-hidden">
+            <!-- Background Image -->
+            <div class="absolute inset-0 w-full h-full">
+                <img src="../assets/images/hero.png" alt="Hero Background" class="w-full h-full object-cover object-left">
+            </div>
+            
+            <div class="container mx-auto px-6 z-10 relative">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <div class="md:w-1/2 mb-10 md:mb-0">
+                        <!-- App preview or secondary content can be added here -->
+                    </div>
+                    <div class="md:w-1/2 text-right">
+                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-black mb-4" style="line-height: 1.4;">
+                            <span class="text-stealthText block">Maak elke plek</span>
+                            <span class="text-stealthText block">speelbaar.</span>
+                        </h1>
+                        <p class="text-xl md:text-2xl mb-8">Verander de echte wereld in een speurtocht.</p>
+                        <div class="text-right">
+                            <a href="https://apps.apple.com/app/id6751251839?utm_source=stealthradar_lp&utm_medium=web&utm_campaign=launch&utm_content=nl" class="inline-block">
+                                <img src="../assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" class="h-12 md:h-14">
+                            </a>
+                            <p class="text-radarCyan text-base font-bold mt-3 glow">Download nu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="bg-gradient-radial" style="padding: 4rem 1rem; margin-bottom: 2rem;">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">Wat is STEALTH RADAR?</h2>
+                
+                <div class="max-w-4xl mx-auto">
+                    <div class="card text-center">
+                        <p class="text-lg mb-6 text-stealthText">
+                            <strong class="text-radarCyan">STEALTH RADAR</strong> is een GPS-gestuurde speurtocht-app die dagelijkse wandelingen en buitentijd verandert in meeslepende missies in de echte wereld.
+                        </p>
+                        
+                        <p class="text-lg mb-6 text-stealthText">
+                            Bekende straten worden missiezones, parken veranderen in zoekgebieden, en gewone uitstapjes worden interactieve avonturen.
+                        </p>
+                        
+                        <p class="text-lg text-stealthText">
+                            Van schattenjachten en verzameluitdagingen tot grootschalige outdoor-evenementen en creatieve videoprojecten –<br>
+                            STEALTH RADAR brengt ontdekkingsdrang en spanning in het dagelijks leven.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="bg-gradient-to-br" style="padding: 4rem 1rem;">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">App-functies</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                    <div class="card text-center hover:border-radarCyan hover:border-opacity-100 transition-all duration-300">
+                        <div class="mb-6 flex justify-center">
+                            <img src="../assets/images/15-removebg.png" alt="GPS App" class="w-50 h-50 object-contain">
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-radarCyan">GPS-app die het dagelijks leven verandert in avontuur</h3>
+                        <p class="text-stealthText">Verander vertrouwde plekken in de echte wereld in avonturenvelden. Eindeloze speelmogelijkheden maken zowel volwassenen als kinderen enthousiast.<br><br>Nieuwe ontdekkingen en spanning wachten op je.</p>
+                    </div>
+                    
+                    <div class="card text-center hover:border-radarCyan hover:border-opacity-100 transition-all duration-300">
+                        <div class="mb-6 flex justify-center">
+                            <img src="../assets/images/screen_commander.png" alt="Commander Mode" class="w-50 h-50 object-contain">
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-radarCyan">Commander-modus</h3>
+                        <p class="text-stealthText">Plaats pins op de kaart en stuur versleutelde “locatiegegevens” en “missies” naar zoekers (gratis versie: 1 pin, betaalde versie: tot 8 pins). Stel bestemmingen in voor je team.</p>
+                    </div>
+                    
+                    <div class="card text-center hover:border-radarCyan hover:border-opacity-100 transition-all duration-300">
+                        <div class="mb-6 flex justify-center">
+                            <video autoplay muted loop class="w-50 h-50 object-contain" style="width: 339px; height: 736px; object-fit: contain;">
+                                <source src="../assets/images/movie_searcher.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-radarCyan">Searcher-modus</h3>
+                        <p class="text-stealthText">Analyseer versleutelde links van de commander en zoek doelen met de radar. Missies starten wanneer je dichterbij komt. Beleef echte avonturen in de echte wereld.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases Section -->
+        <section id="use-cases" class="bg-gradient-radial" style="padding: 4rem 1rem; margin-top: 2rem; margin-bottom: 2rem;">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">Gebruikssituaties</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="card group hover:scale-105 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,240,255,0.3)]">
+                        <h3 class="text-lg font-bold mb-2 text-emeraldGreen group-hover:text-radarCyan transition-colors duration-300">
+                            Plaatselijk park → Onbekend gebied
+                        </h3>
+                        <p class="text-stealthText">
+                            Zelfs het park dat je altijd bezoekt, wordt een onbekend gebied om te verkennen. Nieuwe ontdekkingen en avonturen wachten.
+                        </p>
+                    </div>
+                    
+                    <div class="card group hover:scale-105 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,240,255,0.3)]">
+                        <h3 class="text-lg font-bold mb-2 text-emeraldGreen group-hover:text-radarCyan transition-colors duration-300">
+                            Boodschappen → Cruciale missie
+                        </h3>
+                        <p class="text-stealthText">
+                            Dagelijkse boodschappen worden een belangrijke item-missie. Winkelen wordt leuker.
+                        </p>
+                    </div>
+                    
+                    <div class="card group hover:scale-105 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,240,255,0.3)]">
+                        <h3 class="text-lg font-bold mb-2 text-emeraldGreen group-hover:text-radarCyan transition-colors duration-300">
+                            Gezinsuitje → Teamavontuur
+                        </h3>
+                        <p class="text-stealthText">
+                            Gezinsuitjes worden teamavonturen. Nieuwe ervaringen versterken de gezinsband.
+                        </p>
+                    </div>
+                    
+                    <div class="card group hover:scale-105 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,240,255,0.3)]">
+                        <h3 class="text-lg font-bold mb-2 text-emeraldGreen group-hover:text-radarCyan transition-colors duration-300">
+                            Airsoft & Outdoorrecreatie → Tactische Missiemodus
+                        </h3>
+                        <p class="text-stealthText">
+                            Verrijk airsoft en buitenactiviteiten met radargestuurde tracking en missieopdrachten — voor een meeslependere en strategischere ervaring.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="bg-stealthBackground" style="padding: 4rem 1rem;">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">Veelgestelde vragen</h2>
+                
+                <div class="max-w-3xl mx-auto mt-12">
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Kan ik de app offline gebruiken?</span>
+                            <span class="transform transition-transform duration-300">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-content">
+                                Voor het starten van missies is internet nodig, maar beweging wordt via GPS bepaald, dus constante verbinding is niet nodig.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Zijn er in-app aankopen?</span>
+                            <span class="transform transition-transform duration-300">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-content">
+                                <p>Basisfuncties zijn gratis beschikbaar.</p>
+                                <p class="mt-2">Meer geavanceerde functies kun je eenmalig aanschaffen. Geen extra kosten.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Kunnen kinderen de app alleen gebruiken?</span>
+                            <span class="transform transition-transform duration-300">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-content">
+                                Gebruik de app om veiligheidsredenen altijd samen met een ouder of voogd.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Wordt mijn privacy beschermd?</span>
+                            <span class="transform transition-transform duration-300">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-content">
+                                Locatiegegevens worden alleen op het apparaat gebruikt en niet naar servers gestuurd.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Wat is het verschil tussen de gratis en betaalde versie?</span>
+                            <span class="transform transition-transform duration-300">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-content">
+                                <div class="space-y-4">
+                                    <div>
+                                        <h4 class="font-bold text-radarCyan mb-2">Gratis versie</h4>
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>Eén doelpin</li>
+                                            <li>Beperkte nauwkeurigheid in de searcher-modus (schaalbeperking)</li>
+                                            <li>Basis schattenjacht- en avontuurfuncties beschikbaar</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-emeraldGreen mb-2">Betaalde versie (eenmalige aankoop)</h4>
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>Tot 8 pins mogelijk</li>
+                                            <li>Gedetailleerde missieomschrijvingen</li>
+                                            <li>Missievoltooiing</li>
+                                            <li>Nauwkeurigheidsbeperking opgeheven</li>
+                                            <li>Geen advertenties</li>
+                                            <li>Voorrang bij toekomstige updates</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Safety Section -->
+        <section id="safety" class="bg-gradient-radial" style="padding: 4rem 1rem; margin-top: 2rem; margin-bottom: 2rem;">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">Veiligheidsrichtlijnen</h2>
+                
+                <div class="max-w-4xl mx-auto">
+                    <div class="card border-alertRed">
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="mr-3 text-alertRed text-2xl">⚠️</div>
+                                <p>Een smartphone gebruiken tijdens het lopen is gevaarlijk. Stop en gebruik de app veilig.</p>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="mr-3 text-alertRed text-2xl">⚠️</div>
+                                <p>Vermijd gebruik op openbare wegen en speel op veilige locaties.</p>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="mr-3 text-alertRed text-2xl">⚠️</div>
+                                <p>Als jonge kinderen de app gebruiken, doe dit altijd met een ouder of voogd.</p>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <div class="mr-3 text-alertRed text-2xl">⚠️</div>
+                                <p>Wij zijn niet aansprakelijk voor ongevallen of problemen tijdens het gebruik.</p>
+                            </li>
+                        </ul>
+                        
+                        <div class="mt-8 p-4 bg-transparent rounded-lg border border-alertRed">
+                            <p class="text-center font-bold text-alertRed">
+                                Veiligheid eerst — geniet van je avontuur!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-stealthText py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="bank-gothic text-xl text-radarCyan">STEALTH RADAR</h3>
+                    <p class="mb-4">Maak van het dagelijks leven een avontuur met onze GPS-app</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-radarCyan">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#hero" class="hover:text-radarCyan transition-colors">Start</a></li>
+                        <li><a href="#features" class="hover:text-radarCyan transition-colors">Functies</a></li>
+                        <li><a href="#use-cases" class="hover:text-radarCyan transition-colors">Gebruikssituaties</a></li>
+                        <li><a href="#faq" class="hover:text-radarCyan transition-colors">FAQ</a></li>
+                        <li><a href="#safety" class="hover:text-radarCyan transition-colors">Veiligheid</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-radarCyan">Juridisch</h3>
+                    <ul class="space-y-2">
+                        <li><a href="privacy/index.html" class="hover:text-radarCyan transition-colors">Privacybeleid</a></li>
+                        <li><a href="terms/index.html" class="hover:text-radarCyan transition-colors">Gebruiksvoorwaarden</a></li>
+                        <li><a href="mailto:hello@syncraft.dev" class="hover:text-radarCyan transition-colors">Contact</a></li>
+                        <li><a href="https://syncraft.dev/" target="_blank" rel="noopener noreferrer" class="hover:text-radarCyan transition-colors">Ontwikkelaar & Uitgever</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p>&copy; <span id="currentYear"></span> <span class="bank-gothic">STEALTH RADAR</span>. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('open');
+        }
+        
+        function closeMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.remove('open');
+        }
+        
+        // FAQ toggle
+        function toggleFAQ(button) {
+            const answer = button.nextElementSibling;
+            const arrow = button.querySelector('span:last-child');
+            
+            answer.classList.toggle('open');
+            arrow.style.transform = answer.classList.contains('open') ? 'rotate(180deg)' : 'rotate(0deg)';
+        }
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Set current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

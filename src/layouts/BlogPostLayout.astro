@@ -1,0 +1,90 @@
+---
+/**
+ * BlogPostLayout — Individual article page
+ */
+import BaseLayout from './BaseLayout.astro';
+import type { Lang } from '../i18n/translations';
+import { t, getLocalizedPath } from '../i18n/utils';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: Lang;
+  date: Date;
+  slug: string;
+  image?: string;
+  imageAlt?: string;
+  alternates?: Record<string, string>;
+}
+
+const { title, description, lang, date, slug, image, imageAlt, alternates } =
+  Astro.props;
+
+const blogBase = lang === 'ja' ? '/blog' : '/en/blog';
+const currentPath = `${blogBase}/${slug}/`;
+const canonicalUrl = currentPath;
+
+const tsHref = lang === 'ja' ? '/timesense/' : '/timesense/en/';
+const srHref = lang === 'ja' ? '/stealthradar/' : `/stealthradar/${lang}/`;
+
+// Build hreflang alternate URLs for this article
+const alternateUrls: Record<string, string> = {};
+if (lang === 'ja') alternateUrls.ja = currentPath;
+if (lang === 'en') alternateUrls.en = currentPath;
+
+if (alternates) {
+  for (const [altLang, altSlug] of Object.entries(alternates)) {
+    const altBase = altLang === 'ja' ? '/blog' : '/en/blog';
+    alternateUrls[altLang] = `${altBase}/${altSlug}/`;
+  }
+}
+
+const formattedDate = date.toISOString().slice(0, 10).replace(/-/g, '.');
+const isoDate = date.toISOString().slice(0, 10);
+const backHref = getLocalizedPath('/blog/', lang);
+const articleUrl = `https://syncraft.dev${currentPath}`;
+---
+
+<BaseLayout
+  title={`${title} - SynCraft`}
+  description={description}
+  lang={lang}
+  canonicalUrl={canonicalUrl}
+  alternateUrls={alternateUrls}
+  activeNav="blog"
+  currentPath={currentPath}
+  ogType="article"
+  article={{
+    headline: title,
+    datePublished: isoDate,
+    description,
+    url: articleUrl,
+  }}
+>
+  <div class="article-page-wrapper">
+    <article>
+      <div class="article-header">
+        <a href={backHref} class="article-back">{t(lang, 'blog.back')}</a>
+        <time datetime={isoDate}>{formattedDate}</time>
+        <h1>{title}</h1>
+        {image && (
+          <div class="article-hero-large">
+            <img src={image} alt={imageAlt ?? title} />
+          </div>
+        )}
+      </div>
+      <div class="article-body">
+        <slot />
+
+        <!-- Product CTA -->
+        <div class="article-cta">
+          <p>
+            <a href={tsHref}>{t(lang, 'cta.try_timesense')}</a>
+            &nbsp;|&nbsp;
+            <a href={srHref}>{t(lang, 'cta.try_stealthradar')}</a>
+          </p>
+        </div>
+      </div>
+    </article>
+  </div>
+</BaseLayout>
