@@ -10,6 +10,7 @@ const srHref = lang === 'ja' ? '/stealthradar/' : `/stealthradar/${lang}/`;
 const tsImage = lang === 'ja' ? '/TS_OGP.png' : '/TS_OGP_en.png';
 const srImage = lang === 'ja' ? '/SR_OGP.png' : '/SR_OGP_en.png';
 const ctImage = lang === 'ja' ? '/clocktimer_OGP.png' : '/clocktimer_OGP_en.png';
+const ctHref = lang === 'ja' ? '/clocktimer/' : '/clocktimer/en/';
 ---
 
 <section id="product" class="product">
@@ -121,9 +122,9 @@ const ctImage = lang === 'ja' ? '/clocktimer_OGP.png' : '/clocktimer_OGP_en.png'
             <span>{t(lang, 'product.ct.feat3')}</span>
           </div>
         </div>
-        <span class="btn btn-outline btn-disabled" aria-disabled="true">
+        <a href={ctHref} class="btn btn-outline">
           {t(lang, 'product.ct.btn')}
-        </span>
+        </a>
       </div>
     </div>
   </div>
