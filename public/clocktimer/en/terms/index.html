@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - ClockTimer</title>
+    <meta name="description" content="ClockTimer Terms of Service. Defines the terms of use for this app.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --ct-bg: #fafafa;
+            --ct-text: #1a1a1a;
+            --ct-text-muted: #374151;
+            --ct-accent: #138a92;
+            --ct-border: #e5e7eb;
+        }
+        html { font-family: 'Noto Sans JP', sans-serif; scroll-behavior: smooth; }
+        body { background-color: var(--ct-bg); color: var(--ct-text); }
+        .btn { @apply font-semibold transition-all duration-300 inline-flex items-center justify-center; padding: 0.5rem 2rem; line-height: 1.5; }
+        .btn-primary { background-color: white; color: var(--ct-accent); border: 1px solid var(--ct-accent); border-radius: 9999px; }
+        .btn-primary:hover { background-color: white; color: #0f6d74; border-color: #0f6d74; }
+        .container { @apply mx-auto max-w-4xl; }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--ct-border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="border-b border-gray-200 bg-white/95 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="../../index.html" class="flex items-center">
+                    <img src="../../assets/images/clock-timer_logotype_yoko.png" alt="ClockTimer" class="h-8">
+                </a>
+                <div class="hidden md:flex items-center gap-6">
+                    <span class="font-medium text-[#138a92]">Terms of Service</span>
+                    <a href="../privacy/index.html" class="text-gray-600 hover:text-[#138a92] transition-colors">Privacy Policy</a>
+                    <div class="relative group">
+                        <button class="text-gray-700 hover:text-[#138a92] font-medium flex items-center">
+                            Language
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <a href="../../terms/index.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#138a92]">日本語</a>
+                            <a href="index.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#138a92]">English</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-[#138a92]">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="md:hidden hidden py-4 border-t border-gray-200 space-y-4">
+                <a href="../privacy/index.html" class="block text-gray-600 hover:text-[#138a92]">Privacy Policy</a>
+                <div class="flex gap-4">
+                    <a href="../../terms/index.html" class="text-gray-700 hover:text-[#138a92]">日本語</a>
+                    <a href="index.html" class="text-gray-700 hover:text-[#138a92]">English</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4 text-[#138a92]">Terms of Service</h1>
+            <p class="text-gray-500 text-sm">Last updated: February 24, 2026</p>
+        </div>
+
+        <div class="space-y-8">
+            <section class="card">
+                <p class="text-gray-600 mb-4">
+                    These Terms of Service (hereinafter "Terms") define the conditions for use of the app "ClockTimer" (hereinafter "the App") provided by SynCraft (hereinafter "we").
+                </p>
+                <p class="text-gray-600 mb-2">Users are deemed to have agreed to these Terms upon starting to use the App. If you do not agree, please discontinue use of the App.</p>
+                <p class="text-gray-600 text-sm">* These Terms apply to both iOS and Android versions.</p>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 1 (Service Content and Changes)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>The App provides timer features, habit management features, task organization features, and more.</p>
+                    <p>We may change, add, or discontinue features, specifications, design, or other content without notice.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 2 (Fees and Subscriptions)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p><strong>1.</strong> The App offers free features and paid plans.</p>
+                    <p><strong>2.</strong> Paid plans include the following:</p>
+                    <ul class="list-disc list-inside space-y-1 ml-2 mb-2">
+                        <li>Monthly plan</li>
+                        <li>Annual plan</li>
+                        <li>Lifetime (one-time purchase) plan</li>
+                    </ul>
+                    <p><strong>3.</strong> Monthly and annual plans are provided as subscriptions and are automatically renewed.</p>
+                    <p><strong>4.</strong> Subscriptions are provided through the billing system of each store (Apple App Store or Google Play).</p>
+                    <p><strong>5.</strong> Cancellation of subscription renewal must be performed by the user through the account settings of each store. We cannot process cancellations on behalf of users.</p>
+                    <p><strong>6.</strong> Subscription renewal dates and billing dates are determined in accordance with each store's policies.</p>
+                    <p><strong>7.</strong> Refunds are subject to each store's policy. We cannot process individual refunds.</p>
+                    <p><strong>8.</strong> The Lifetime plan provides the right to use features in the App at the time of purchase and does not guarantee access to all features that may be added in the future, external integration features, or the provision of other apps or services.</p>
+                    <p><strong>9.</strong> Fees and service content may be changed without notice.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 3 (Data Storage and Loss)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>Data in the App (tasks, habit records, etc.) is stored on the user's device. We currently do not support cloud backup or data sync features.</p>
+                    <p>Data may be lost in the following cases:</p>
+                    <ul class="list-disc list-inside space-y-1 ml-2">
+                        <li>Uninstalling the app</li>
+                        <li>Changing devices</li>
+                        <li>Device reset</li>
+                        <li>OS or storage malfunctions</li>
+                    </ul>
+                    <p>We are not responsible for data loss.</p>
+                    <p>However, when it is clearly attributable to a significant defect in the App, we will respond in good faith to the extent possible.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 4 (Voice Content)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>The App includes voice content created using the following text-to-speech services:</p>
+                    <ul class="list-disc list-inside space-y-1 ml-2">
+                        <li>VOICEVOX (<a href="https://voicevox.hiroshiba.jp" target="_blank" rel="noopener noreferrer" class="text-[#138a92] hover:underline">https://voicevox.hiroshiba.jp</a>)<br>Voice library used: Tohoku Itako</li>
+                        <li>Typecast (<a href="https://typecast.ai/" target="_blank" rel="noopener noreferrer" class="text-[#138a92] hover:underline">https://typecast.ai/</a>)</li>
+                    </ul>
+                    <p>Each voice is used lawfully in accordance with the terms of use and commercial licenses of the respective services.</p>
+                    <p>Secondary use, redistribution, or modification of voice content within the App is prohibited.</p>
+                    <p>When using the device's TTS feature, voice quality and reading content depend on the user's device environment.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 5 (Intellectual Property)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>Copyrights and related intellectual property rights to programs, designs, text, voice, and other content included in the App belong to us or the rightful owners.</p>
+                    <p>Users shall not reproduce, copy, modify, or redistribute these beyond the scope of personal use without authorization.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 6 (Prohibited Acts)</h2>
+                <p class="text-gray-600 mb-3">Users shall not engage in the following acts:</p>
+                <ul class="list-disc list-inside space-y-1 text-gray-600 ml-2">
+                    <li>Reverse engineering of the App</li>
+                    <li>Unauthorized access</li>
+                    <li>Tampering</li>
+                    <li>Acts that violate laws</li>
+                    <li>Acts that interfere with the operation of the App</li>
+                    <li>Other acts deemed inappropriate by us</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 7 (Service Suspension and Discontinuation)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>We may suspend or discontinue all or part of the App without prior notice in the following cases:</p>
+                    <ul class="list-disc list-inside space-y-1 ml-2">
+                        <li>When performing system maintenance or inspection</li>
+                        <li>When a malfunction occurs</li>
+                        <li>When an external service is discontinued or its specifications are changed</li>
+                        <li>When there are other unavoidable reasons</li>
+                    </ul>
+                    <p>We shall be liable for damages incurred by users as a result only to the extent permitted by law.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 8 (Disclaimer)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>We do not guarantee the completeness, accuracy, continuity, or fitness for a particular purpose of the App.</p>
+                    <p>We shall be liable for damages arising from the use of the App only to the extent permitted by law.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 9 (Suspension of Use)</h2>
+                <p class="text-gray-600">When a user violates these Terms, we may suspend use of the App without prior notice.</p>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 10 (Changes to Terms)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>We may change these Terms as necessary.</p>
+                    <p>Revised terms take effect when posted in the App or on our website.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 11 (Governing Law and Jurisdiction)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>The interpretation and application of these Terms shall be governed by the laws of Japan.</p>
+                    <p>Any disputes arising in connection with this service shall be subject to the exclusive jurisdiction of the Osaka District Court as the court of first instance.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">Article 12 (Contact)</h2>
+                <div class="space-y-2 text-gray-600">
+                    <p>Developer / Operator: SynCraft</p>
+                    <p>Contact: <a href="mailto:hello@syncraft.dev" class="text-[#138a92] hover:underline">hello@syncraft.dev</a></p>
+                </div>
+            </section>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-gray-200 text-center">
+            <p class="text-gray-500 text-sm">Last updated: February 24, 2026</p>
+        </div>
+        <div class="mt-8 text-center">
+            <a href="../../index.html" class="btn btn-primary inline-block">Back to Main Page</a>
+        </div>
+    </main>
+</body>
+</html>

@@ -32,6 +32,13 @@ export const translations = {
     'product.sr.feat2': 'レーダーUI',
     'product.sr.feat3': '安全な共有',
     'product.sr.btn': 'Product Page',
+    'product.ct.alt': 'ClockTimer アプリの紹介画像',
+    'product.ct.desc':
+      '「ClockTimer」は、タイマー・習慣管理・タスク整理を通して、毎日の一歩を支えるアプリです。',
+    'product.ct.feat1': '直感的な操作',
+    'product.ct.feat2': '音声ガイド',
+    'product.ct.feat3': 'ToDo・習慣管理',
+    'product.ct.btn': 'Product Page',
 
     // Blog section
     'section.blog': 'Blog',
@@ -80,6 +87,13 @@ export const translations = {
     'product.sr.feat2': 'Radar UI',
     'product.sr.feat3': 'Safe Sharing',
     'product.sr.btn': 'Product Page',
+    'product.ct.alt': 'ClockTimer app introduction',
+    'product.ct.desc':
+      'ClockTimer supports your daily progress through timers, habit tracking, and task organization.',
+    'product.ct.feat1': 'Intuitive Controls',
+    'product.ct.feat2': 'Voice Guidance',
+    'product.ct.feat3': 'ToDo & Habit Management',
+    'product.ct.btn': 'Product Page',
 
     // Blog section
     'section.blog': 'Blog',

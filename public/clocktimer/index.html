@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClockTimer - 時間を、シンプルに。</title>
+    <meta name="description" content="シンプルで洗練されたタイマー・ストップウォッチアプリ。作業、勉強、料理に。">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://syncraft.dev/clocktimer/">
+    <meta property="og:title" content="ClockTimer - 時間を、シンプルに。">
+    <meta property="og:description" content="シンプルで洗練されたタイマー・ストップウォッチアプリ">
+    <meta property="og:image" content="https://syncraft.dev/clocktimer/assets/images/clocktimer_lp_hero.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://syncraft.dev/clocktimer/">
+    <meta name="twitter:title" content="ClockTimer - 時間を、シンプルに。">
+    <meta name="twitter:description" content="シンプルで洗練されたタイマー・ストップウォッチアプリ">
+    <meta name="twitter:image" content="https://syncraft.dev/clocktimer/assets/images/clocktimer_lp_hero.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --ct-bg: #fafafa;
+            --ct-bg-alt: #ffffff;
+            --ct-text: #1a1a1a;
+            --ct-text-muted: #374151;
+            --ct-accent: #138a92;
+            --ct-accent-hover: #0f6d74;
+            --ct-border: #e5e7eb;
+            --ct-card-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        
+        html {
+            font-family: 'Noto Sans JP', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-color: var(--ct-bg);
+            color: var(--ct-text);
+        }
+        
+        .btn {
+            @apply font-semibold transition-all duration-300 inline-flex items-center justify-center;
+            padding: 0.5rem 2rem;
+            line-height: 1.5;
+        }
+        
+        .btn-primary {
+            background-color: white;
+            color: var(--ct-accent);
+            border: 1px solid var(--ct-accent);
+            border-radius: 9999px;
+        }
+        
+        .btn-primary:hover {
+            background-color: white;
+            color: var(--ct-accent-hover);
+            border-color: var(--ct-accent-hover);
+        }
+        
+        .section {
+            @apply pt-16 pb-16 px-4 md:px-8;
+        }
+        
+        #features,
+        #faq {
+            padding-top: 2.5rem;
+        }
+        
+        #features {
+            padding-bottom: 2.5rem;
+        }
+        
+        #features .section-title,
+        #faq .section-title {
+            margin-top: 0;
+        }
+        
+        .section-about,
+        .section-use-cases {
+            padding-bottom: 2.5rem;
+        }
+        
+        .container {
+            @apply mx-auto max-w-6xl;
+        }
+        
+        .section-title {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 2.5rem;
+            text-align: center;
+            color: var(--ct-text);
+            letter-spacing: 0.02em;
+        }
+        
+        .section:first-of-type .section-title {
+            margin-top: 0;
+        }
+        
+        @media (min-width: 768px) {
+            .section-title {
+                font-size: 2.25rem;
+                margin-top: 2.5rem;
+                margin-bottom: 3rem;
+            }
+            
+            #features,
+            #faq {
+                padding-top: 3rem;
+            }
+            
+            #features {
+                padding-bottom: 3rem;
+            }
+            
+            .section-about,
+            .section-use-cases {
+                padding-bottom: 3rem;
+            }
+        }
+        
+        .section-faq {
+            padding-bottom: 4rem;
+        }
+        
+        @media (min-width: 768px) {
+            .section-faq {
+                padding-bottom: 5rem;
+            }
+        }
+        
+        .hero-tagline {
+            white-space: nowrap;
+            font-size: clamp(0.75rem, 3.5vw, 1.25rem);
+        }
+        
+        .use-case-circle {
+            width: 6.5rem;
+            height: 6.5rem;
+            min-width: 6.5rem;
+            min-height: 6.5rem;
+            border: 1px solid #d1d5db;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--ct-text);
+        }
+        
+        .use-case-row {
+            gap: clamp(2rem, 6vw, 4rem);
+        }
+        
+        .use-cases-content {
+            padding-left: clamp(1rem, 4vw, 2rem);
+        }
+        
+        @media (min-width: 768px) {
+            .use-case-circle {
+                width: 8rem;
+                height: 8rem;
+                min-width: 8rem;
+                min-height: 8rem;
+                font-size: 2.5rem;
+            }
+        }
+        
+        .card {
+            background: var(--ct-bg-alt);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--ct-border);
+            box-shadow: var(--ct-card-shadow);
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            border-color: rgba(19, 138, 146, 0.3);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        
+        .text-accent {
+            color: var(--ct-accent);
+        }
+        
+        .text-ct-text {
+            color: var(--ct-text);
+        }
+        
+        .text-ct-text-muted {
+            color: var(--ct-text-muted);
+        }
+        
+        .hover\:text-accent:hover {
+            color: var(--ct-accent);
+        }
+        
+        .mobile-menu {
+            display: none;
+        }
+        
+        .mobile-menu.open {
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            .desktop-nav {
+                display: none;
+            }
+        }
+        
+        .faq-question {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: var(--ct-bg-alt);
+            border: 1px solid var(--ct-border);
+            border-radius: 0.5rem;
+            text-align: left;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: var(--ct-text);
+        }
+        
+        .faq-question:hover {
+            border-color: var(--ct-accent);
+            color: var(--ct-accent);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+        
+        .faq-answer.open {
+            max-height: 400px;
+            opacity: 1;
+        }
+        
+        .faq-content {
+            padding: 1.5rem;
+            background: var(--ct-bg);
+            border: 1px solid var(--ct-border);
+            border-top: none;
+            border-radius: 0 0 0.5rem 0.5rem;
+            color: var(--ct-text-muted);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 transition-all duration-300 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 max-w-7xl">
+            <div class="flex items-center justify-between py-4 min-h-[60px]">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#" class="flex items-center">
+                        <img src="assets/images/clock-timer_logotype_yoko.png" alt="ClockTimer" class="h-8 md:h-10">
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav hidden md:flex items-center space-x-6 lg:space-x-8">
+                    <a href="#hero" class="text-ct-text hover:text-accent font-medium transition-colors">ホーム</a>
+                    <a href="#features" class="text-ct-text hover:text-accent font-medium transition-colors">特徴</a>
+                    <a href="#use-cases" class="text-ct-text hover:text-accent font-medium transition-colors">利用シーン</a>
+                    <a href="#faq" class="text-ct-text hover:text-accent font-medium transition-colors">よくある質問</a>
+                    
+                    <!-- Language Dropdown -->
+                    <div class="relative group">
+                        <button class="text-ct-text hover:text-accent font-medium transition-colors flex items-center">
+                            言語
+                            <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <div class="py-2">
+                                <a href="index.html" class="block px-4 py-2 text-ct-text hover:bg-gray-50 hover:text-accent transition-colors">日本語</a>
+                                <a href="en/index.html" class="block px-4 py-2 text-ct-text hover:bg-gray-50 hover:text-accent transition-colors">English</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                
+                <!-- CTA Button -->
+                <div class="hidden lg:block">
+                    <a href="#" class="btn btn-primary">ダウンロード</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="text-ct-text hover:text-accent" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu md:hidden" id="mobileMenu">
+                <div class="pt-2 pb-4 space-y-1 border-t border-gray-100">
+                    <a href="#hero" class="block py-2 text-ct-text hover:text-accent font-medium" onclick="closeMobileMenu()">ホーム</a>
+                    <a href="#features" class="block py-2 text-ct-text hover:text-accent font-medium" onclick="closeMobileMenu()">特徴</a>
+                    <a href="#use-cases" class="block py-2 text-ct-text hover:text-accent font-medium" onclick="closeMobileMenu()">利用シーン</a>
+                    <a href="#faq" class="block py-2 text-ct-text hover:text-accent font-medium" onclick="closeMobileMenu()">よくある質問</a>
+                    <div class="border-t border-gray-100 mt-4 pt-4">
+                        <a href="index.html" class="block py-2 text-ct-text hover:text-accent font-medium">日本語</a>
+                        <a href="en/index.html" class="block py-2 text-ct-text hover:text-accent font-medium">English</a>
+                    </div>
+                    <div class="pt-4">
+                        <a href="#" class="btn btn-primary w-full text-center block">ダウンロード</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="relative min-h-[80vh] flex items-center overflow-hidden bg-white">
+            <div class="container mx-auto px-6 z-10 relative">
+                <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
+                    <div class="flex-1 flex flex-col items-center md:items-end">
+                        <div class="w-16 h-8 md:w-20 md:h-10 flex-shrink-0 mb-4"></div>
+                        <img src="assets/images/clocktimer_ui.png" alt="" class="max-h-[60vh] object-contain">
+                    </div>
+                    <div class="flex-1 flex flex-col items-center">
+                        <img src="assets/images/clocktimer_copy.png" alt="" class="max-h-[40vh] object-contain mb-4">
+                        <p class="hero-tagline text-gray-600 mb-6">毎日を、一歩進めるために</p>
+                        <div class="flex flex-col items-center mt-6">
+                            <a href="#" class="inline-block">
+                                <img src="assets/images/Download_on_the_App_Store_Badge_JP.svg" alt="Download on the App Store" class="h-12 md:h-14">
+                            </a>
+                            <p class="text-gray-500 text-sm mt-2">Coming Soon...</p>
+                        </div>
+                    </div>
+                    <div class="flex-1 flex flex-col items-center md:items-start">
+                        <div class="w-16 h-8 md:w-20 md:h-10 flex-shrink-0 mb-4"></div>
+                        <img src="assets/images/clocktimer_woman.png" alt="" class="max-h-[60vh] object-contain opacity-80">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section section-about bg-gray-50">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">ClockTimerとは</h2>
+                <div class="max-w-4xl mx-auto">
+                    <div class="card text-center">
+                        <p class="text-lg mb-6 text-ct-text-muted">
+                            ClockTimerは、タイマー・習慣管理・タスク整理を通して、毎日のリズムを整えるアプリです。
+                        </p>
+                        <p class="text-lg mb-6 text-ct-text-muted">
+                            続けるのは、難しい。<br>
+                            それでも、確かな一歩を重ねていくために。
+                        </p>
+                        <p class="text-lg text-ct-text-muted">
+                            "やり直せる人"のための、<br>
+                            シンプルな時間のパートナーです。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section bg-white">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">アプリの特徴</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                    <div class="card text-center">
+                        <div class="mb-6 flex justify-center">
+                            <img src="assets/images/CTscreen_onemore_ja.png" alt="" class="w-[36rem] h-[36rem] max-w-full object-contain">
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-accent">軽やかに、<br>次の一歩を後押し</h3>
+                        <div class="text-left">
+                            <p class="text-ct-text-muted">各タスクからワンタップでタイマーを開始し、残り時間は音声ガイド。</p>
+                            <p class="text-ct-text-muted mt-3">終了後は、完了チェック。軽やかに、次の一歩を支えます。</p>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="mb-6 flex justify-center">
+                            <img src="assets/images/CTscreen_habit_ja.png" alt="" class="w-[36rem] h-[36rem] max-w-full object-contain">
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-accent">習慣を可視化する<br>ハビットトラッカー</h3>
+                        <div class="text-left">
+                            <p class="text-ct-text-muted">小さな一歩を記録し、積み重ねを見える化。止まっても、また戻ってこられる設計です。</p>
+                            <p class="text-ct-text-muted mt-3">続ける力ではなく、立て直し続ける力を育てます。</p>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="mb-6 flex justify-center">
+                            <img src="assets/images/CTscreen_todo_ja.png" alt="" class="w-[36rem] h-[36rem] max-w-full object-contain">
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-accent">シンプルで迷わない<br>タスク管理</h3>
+                        <div class="text-left">
+                            <p class="text-ct-text-muted">タブ型の整理された画面で、今やることだけに集中できます。</p>
+                            <p class="text-ct-text-muted mt-3">クイックToDoで、思いついた瞬間を逃しません。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases Section -->
+        <section id="use-cases" class="section section-use-cases bg-gray-50">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">利用シーン</h2>
+                <div class="max-w-2xl mx-auto space-y-10 md:space-y-12 flex flex-col items-center use-cases-content">
+                    <div class="flex items-center use-case-row w-full max-w-xl">
+                        <div class="use-case-circle flex-shrink-0">朝</div>
+                        <p class="text-ct-text-muted leading-relaxed text-left">今日やることを整理し、<br>タスクを整えて最初の一歩を決める。</p>
+                    </div>
+                    <div class="flex items-center use-case-row w-full max-w-xl">
+                        <div class="use-case-circle flex-shrink-0">昼</div>
+                        <p class="text-ct-text-muted leading-relaxed text-left">集中タイマーで時間を区切り、<br>目の前の作業や勉強に向き合う。</p>
+                    </div>
+                    <div class="flex items-center use-case-row w-full max-w-xl">
+                        <div class="use-case-circle flex-shrink-0">夜</div>
+                        <p class="text-ct-text-muted leading-relaxed text-left">習慣を振り返り、<br>小さな積み重ねを記録する。</p>
+                    </div>
+                </div>
+                <div class="max-w-2xl mx-auto mt-12 md:mt-16 pt-8 md:pt-10 border-t border-gray-200 use-cases-content">
+                    <p class="text-ct-text-muted leading-relaxed mb-4">
+                        ClockTimerは、集中力を高めるタイマー機能、習慣を記録するハビットトラッカー、整理しやすいタブ型のタスク管理を備えたアプリです。
+                    </p>
+                    <p class="text-ct-text-muted leading-relaxed">
+                        仕事や勉強のポモドーロタイマーとしても使え、毎日の習慣化やタスク管理を無理なく続けられます。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section section-faq bg-white">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="section-title">よくある質問</h2>
+                <div class="max-w-3xl mx-auto mt-12 space-y-4">
+                    <div>
+                        <button class="faq-question w-full" onclick="toggleFAQ(this)">
+                            <span>無料で使えますか？</span>
+                            <span class="transform transition-transform duration-300">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-content">
+                                <p>はい。基本機能は無料で利用できます。</p>
+                                <p class="mt-2">一部のより高度なカスタム機能はプレミアムプランで提供しています。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="faq-question w-full" onclick="toggleFAQ(this)">
+                            <span>どんな人に向いていますか？</span>
+                            <span class="transform transition-transform duration-300">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-content">
+                                <p>習慣を続けたい方、タスクを整理して集中したい方、立て直しながら前に進みたい方におすすめです。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="faq-question w-full" onclick="toggleFAQ(this)">
+                            <span>どの言語に対応していますか？</span>
+                            <span class="transform transition-transform duration-300">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-content">
+                                <p>現在、アプリの表示言語は日本語と英語に対応しており、順次拡大を予定しています。</p>
+                                <p class="mt-2">音声ガイドは、日本語と英語は収録音声で提供していますが、その他の言語についても、端末の言語設定に応じてTTS（音声読み上げ）で利用できます。</p>
+                                <p class="mt-2 text-sm text-gray-600">※TTSは端末の音声エンジンを利用するため、音質や読み上げ精度は端末環境に依存します。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="faq-question w-full" onclick="toggleFAQ(this)">
+                            <span>データは保存されますか？</span>
+                            <span class="transform transition-transform duration-300">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-content">
+                                <p>現在、データは端末内に保存されます。機種変更やアプリ削除の際はデータは引き継がれません。</p>
+                                <p class="mt-2">より安心して利用いただけるよう、今後バックアップ機能への対応を検討しています。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-t border-gray-200 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <img src="assets/images/clock-timer_logotype_yoko.png" alt="ClockTimer" class="h-8 mb-4">
+                    <p class="text-ct-text-muted">毎日を前進する人のためのタイマー・習慣管理・タスク整理アプリ</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4 text-accent">リンク</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#hero" class="text-ct-text-muted hover:text-accent transition-colors">ホーム</a></li>
+                        <li><a href="#features" class="text-ct-text-muted hover:text-accent transition-colors">特徴</a></li>
+                        <li><a href="#use-cases" class="text-ct-text-muted hover:text-accent transition-colors">利用シーン</a></li>
+                        <li><a href="#faq" class="text-ct-text-muted hover:text-accent transition-colors">よくある質問</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4 text-accent">法的情報</h3>
+                    <ul class="space-y-2">
+                        <li><a href="privacy/index.html" class="text-ct-text-muted hover:text-accent transition-colors">プライバシーポリシー</a></li>
+                        <li><a href="terms/index.html" class="text-ct-text-muted hover:text-accent transition-colors">利用規約</a></li>
+                        <li><a href="mailto:hello@syncraft.dev" class="text-ct-text-muted hover:text-accent transition-colors">お問い合わせ</a></li>
+                        <li><a href="https://syncraft.dev/" target="_blank" rel="noopener noreferrer" class="text-ct-text-muted hover:text-accent transition-colors">開発・運営元</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 mt-8 pt-8 text-center">
+                <p class="text-ct-text-muted text-sm">&copy; <span id="currentYear"></span> ClockTimer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            document.getElementById('mobileMenu').classList.toggle('open');
+        }
+        function closeMobileMenu() {
+            document.getElementById('mobileMenu').classList.remove('open');
+        }
+        function toggleFAQ(button) {
+            const answer = button.nextElementSibling;
+            const arrow = button.querySelector('span:last-child');
+            answer.classList.toggle('open');
+            arrow.style.transform = answer.classList.contains('open') ? 'rotate(180deg)' : 'rotate(0deg)';
+        }
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

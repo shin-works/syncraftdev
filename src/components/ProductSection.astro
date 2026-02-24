@@ -9,6 +9,7 @@ const tsHref = lang === 'ja' ? '/timesense/' : '/timesense/en/';
 const srHref = lang === 'ja' ? '/stealthradar/' : `/stealthradar/${lang}/`;
 const tsImage = lang === 'ja' ? '/TS_OGP.png' : '/TS_OGP_en.png';
 const srImage = lang === 'ja' ? '/SR_OGP.png' : '/SR_OGP_en.png';
+const ctImage = lang === 'ja' ? '/clocktimer_OGP.png' : '/clocktimer_OGP_en.png';
 ---
 
 <section id="product" class="product">
@@ -89,6 +90,40 @@ const srImage = lang === 'ja' ? '/SR_OGP.png' : '/SR_OGP_en.png';
         <a href={srHref} class="btn btn-outline">
           {t(lang, 'product.sr.btn')}
         </a>
+      </div>
+
+      <!-- ClockTimer -->
+      <div class="product-info">
+        <div class="product-logo">ClockTimer</div>
+        <picture class="product-hero">
+          <img
+            src={ctImage}
+            alt={t(lang, 'product.ct.alt')}
+            loading="lazy"
+            decoding="async"
+            width="1200"
+            height="630"
+            fetchpriority="low"
+          />
+        </picture>
+        <p>{t(lang, 'product.ct.desc')}</p>
+        <div class="product-features">
+          <div class="feature">
+            <i class="fas fa-hand-pointer"></i>
+            <span>{t(lang, 'product.ct.feat1')}</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-volume-up"></i>
+            <span>{t(lang, 'product.ct.feat2')}</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-tasks"></i>
+            <span>{t(lang, 'product.ct.feat3')}</span>
+          </div>
+        </div>
+        <span class="btn btn-outline btn-disabled" aria-disabled="true">
+          {t(lang, 'product.ct.btn')}
+        </span>
       </div>
     </div>
   </div>

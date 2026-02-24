@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ClockTimer</title>
+    <meta name="description" content="ClockTimer Privacy Policy. Defines how we handle personal information.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --ct-bg: #fafafa;
+            --ct-text: #1a1a1a;
+            --ct-text-muted: #374151;
+            --ct-accent: #138a92;
+            --ct-border: #e5e7eb;
+        }
+        html { font-family: 'Noto Sans JP', sans-serif; scroll-behavior: smooth; }
+        body { background-color: var(--ct-bg); color: var(--ct-text); }
+        .btn { @apply font-semibold transition-all duration-300 inline-flex items-center justify-center; padding: 0.5rem 2rem; line-height: 1.5; }
+        .btn-primary { background-color: white; color: var(--ct-accent); border: 1px solid var(--ct-accent); border-radius: 9999px; }
+        .btn-primary:hover { background-color: white; color: #0f6d74; border-color: #0f6d74; }
+        .container { @apply mx-auto max-w-4xl; }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--ct-border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="border-b border-gray-200 bg-white/95 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="../../index.html" class="flex items-center">
+                    <img src="../../assets/images/clock-timer_logotype_yoko.png" alt="ClockTimer" class="h-8">
+                </a>
+                <div class="hidden md:flex items-center gap-6">
+                    <span class="font-medium text-[#138a92]">Privacy Policy</span>
+                    <a href="../terms/index.html" class="text-gray-600 hover:text-[#138a92] transition-colors">Terms of Service</a>
+                    <div class="relative group">
+                        <button class="text-gray-700 hover:text-[#138a92] font-medium flex items-center">
+                            Language
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <a href="../../privacy/index.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#138a92]">日本語</a>
+                            <a href="index.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#138a92]">English</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-[#138a92]">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="md:hidden hidden py-4 border-t border-gray-200 space-y-4">
+                <a href="../terms/index.html" class="block text-gray-600 hover:text-[#138a92]">Terms of Service</a>
+                <div class="flex gap-4">
+                    <a href="../../privacy/index.html" class="text-gray-700 hover:text-[#138a92]">日本語</a>
+                    <a href="index.html" class="text-gray-700 hover:text-[#138a92]">English</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4 text-[#138a92]">Privacy Policy</h1>
+            <p class="text-gray-500 text-sm">Last updated: February 24, 2026</p>
+        </div>
+
+        <div class="space-y-8">
+            <section class="card">
+                <p class="text-gray-600 mb-4">
+                    ClockTimer (hereinafter "the App") respects user privacy and handles information in accordance with the following policy.
+                </p>
+                <p class="text-gray-600 text-sm">* This policy applies to both iOS and Android versions.</p>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">1. Information We Do Not Obtain</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>The App does not request input of personally identifiable information such as names, addresses, phone numbers, or email addresses.</p>
+                    <ul class="list-disc list-inside space-y-1 ml-2">
+                        <li>We do not provide account registration functionality.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">2. Information We Obtain and Purpose of Use</h2>
+                <p class="text-gray-600 mb-4">The App may obtain the following information for quality improvement and service provision:</p>
+                <div class="space-y-6 text-gray-600">
+                    <div>
+                        <h3 class="font-semibold text-[#138a92] mb-2">(1) Crash Information</h3>
+                        <p class="mb-2">The App uses Firebase Crashlytics.</p>
+                        <p class="text-sm font-medium text-gray-700 mb-1">Examples of information obtained</p>
+                        <ul class="list-disc list-inside space-y-1 ml-2 mb-2">
+                            <li>Device information</li>
+                            <li>OS version</li>
+                            <li>Crash logs</li>
+                            <li>Technical information regarding usage</li>
+                        </ul>
+                        <p class="text-sm font-medium text-gray-700 mb-1">Purpose of use</p>
+                        <ul class="list-disc list-inside space-y-1 ml-2 mb-2">
+                            <li>Identifying defects</li>
+                            <li>Improving app quality</li>
+                        </ul>
+                        <p>This information is collected anonymously, and we do not identify individuals.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-[#138a92] mb-2">(2) Advertising-Related Information</h3>
+                        <p class="mb-2">The App uses Google AdMob. The following information may be obtained for ad delivery optimization:</p>
+                        <ul class="list-disc list-inside space-y-1 ml-2 mb-2">
+                            <li>Advertising ID</li>
+                            <li>Device information</li>
+                            <li>Usage-related information</li>
+                        </ul>
+                        <p>This information is managed in accordance with Google's Privacy Policy.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-[#138a92] mb-2">(3) Billing-Related Information</h3>
+                        <p class="mb-2">The App uses RevenueCat for subscription management.</p>
+                        <ul class="list-disc list-inside space-y-1 ml-2">
+                            <li>Payments are processed through the Apple App Store or Google Play.</li>
+                            <li>We do not obtain credit card information.</li>
+                            <li>Anonymous identifiers may be used for purchase status verification.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">3. Data Storage</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>Data such as tasks and habit records are stored on the user's device.</p>
+                    <p>We currently do not support cloud sync or backup features.</p>
+                    <p>Data may be lost in the following cases:</p>
+                    <ul class="list-disc list-inside space-y-1 ml-2">
+                        <li>Uninstalling the app</li>
+                        <li>Changing devices</li>
+                        <li>Device reset</li>
+                        <li>OS or storage malfunctions</li>
+                    </ul>
+                    <p>Data management is the responsibility of the user.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">4. Third-Party Services</h2>
+                <p class="text-gray-600 mb-3">The App uses the following third-party services:</p>
+                <ul class="list-disc list-inside space-y-1 text-gray-600 mb-3">
+                    <li>Google AdMob</li>
+                    <li>Firebase Crashlytics</li>
+                    <li>RevenueCat</li>
+                </ul>
+                <p class="text-gray-600">Please refer to each service's privacy policy for their information handling practices.</p>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">5. Use by Minors</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>The App is not intended for any specific age group.</p>
+                    <ul class="list-disc list-inside space-y-1 ml-2">
+                        <li>Users under 13 years of age should use the App with parental consent.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">6. Information Management and Security</h2>
+                <p class="text-gray-600">We implement reasonable security measures to prevent unauthorized access, leakage, tampering, and the like for information we obtain.</p>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">7. User Rights (Limited)</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>For information we directly manage, we will respond in a reasonable manner when disclosure, correction, deletion, or similar actions are possible under applicable law.</p>
+                    <p>For information managed by third-party services (Google, Apple, RevenueCat, etc.), please contact each service in accordance with their respective policies.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">8. Policy Changes</h2>
+                <div class="space-y-3 text-gray-600">
+                    <p>This policy may be changed when necessary.</p>
+                    <p>Revised policies take effect when posted in the App or on our official website.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="text-xl font-bold text-[#138a92] mb-4">9. Contact</h2>
+                <div class="space-y-2 text-gray-600">
+                    <p>Developer: SynCraft</p>
+                    <p>Email: <a href="mailto:hello@syncraft.dev" class="text-[#138a92] hover:underline">hello@syncraft.dev</a></p>
+                </div>
+            </section>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-gray-200 text-center">
+            <p class="text-gray-500 text-sm">Last updated: February 24, 2026</p>
+        </div>
+        <div class="mt-8 text-center">
+            <a href="../../index.html" class="btn btn-primary inline-block">Back to Main Page</a>
+        </div>
+    </main>
+</body>
+</html>
