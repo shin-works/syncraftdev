@@ -300,8 +300,14 @@
                     </div>
                 </nav>
                 
-                <div class="hidden lg:block">
-                    <a href="#" class="btn btn-primary">Download</a>
+                <div class="hidden lg:block relative group">
+                    <button class="btn btn-primary">Download</button>
+                    <div class="absolute right-0 mt-1 w-48 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                        <div class="py-2">
+                            <a href="https://apps.apple.com/app/clocktimer/id6758282693" target="_blank" rel="noopener noreferrer" class="block px-4 py-2 text-ct-text hover:bg-gray-50 hover:text-accent transition-colors">App Store</a>
+                            <a href="https://play.google.com/store/apps/details?id=dev.syncraft.clocktimer" target="_blank" rel="noopener noreferrer" class="block px-4 py-2 text-ct-text hover:bg-gray-50 hover:text-accent transition-colors">Google Play</a>
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="md:hidden">
@@ -323,8 +329,9 @@
                         <a href="../index.html" class="block py-2 text-ct-text hover:text-accent font-medium">日本語</a>
                         <a href="index.html" class="block py-2 text-ct-text hover:text-accent font-medium">English</a>
                     </div>
-                    <div class="pt-4">
-                        <a href="#" class="btn btn-primary w-full text-center block">Download</a>
+                    <div class="pt-4 space-y-2">
+                        <a href="https://apps.apple.com/app/clocktimer/id6758282693" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-center block">App Store</a>
+                        <a href="https://play.google.com/store/apps/details?id=dev.syncraft.clocktimer" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-center block">Google Play</a>
                     </div>
                 </div>
             </div>
@@ -343,11 +350,13 @@
                     <div class="flex-1 flex flex-col items-center">
                         <img src="../assets/images/clocktimer_copy_en.png" alt="" class="max-h-[40vh] object-contain mb-4">
                         <p class="hero-tagline text-gray-600 mb-6">One step forward. Every day.</p>
-                        <div class="flex flex-col items-center mt-6">
-                            <a href="#" class="inline-block">
+                        <div class="flex flex-row items-center gap-4 mt-6 flex-wrap justify-center">
+                            <a href="https://apps.apple.com/app/clocktimer/id6758282693" target="_blank" rel="noopener noreferrer" class="inline-block">
                                 <img src="../assets/images/Download_on_the_App_Store_Badge_US.svg" alt="Download on the App Store" class="h-12 md:h-14">
                             </a>
-                            <p class="text-gray-500 text-sm mt-2">Coming Soon...</p>
+                            <a href="https://play.google.com/store/apps/details?id=dev.syncraft.clocktimer" target="_blank" rel="noopener noreferrer" class="inline-block">
+                                <img src="../assets/images/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" class="h-12 md:h-14">
+                            </a>
                         </div>
                     </div>
                     <div class="flex-1 flex flex-col items-center md:items-start">
