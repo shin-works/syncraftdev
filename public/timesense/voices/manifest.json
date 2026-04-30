@@ -1,0 +1,11 @@
+{
+  "packs": {
+    "es": {
+      "version": 1,
+      "url": "https://syncraft.dev/timesense/voices/es/core_v1.zip",
+      "size": 29577711,
+      "sha256": "a924e87181654a4f781a7ee1c1a66385cdaafc783112313f024e8a7bee0a3492",
+      "minAppVersion": "2.0.8"
+    }
+  }
+}
