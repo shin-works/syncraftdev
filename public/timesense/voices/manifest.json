@@ -1,10 +1,10 @@
 {
   "packs": {
     "es": {
-      "version": 2,
-      "url": "https://syncraft.dev/timesense/voices/es/core_v2.zip",
-      "size": 29691225,
-      "sha256": "e4f4b5d707bf34da7a9ba44d6c26d630a6dea907290b34623da0dd288c1536fb",
+      "version": 3,
+      "url": "https://syncraft.dev/timesense/voices/es/core_v3.zip",
+      "size": 29691162,
+      "sha256": "585fa3561fc461b8cdeecc11e1dcc5c2daa5181eb0d61eb06eda3ce7f0fc603e",
       "minAppVersion": "2.0.8"
     }
   }
