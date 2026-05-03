@@ -8,10 +8,17 @@
       "minAppVersion": "2.0.8"
     },
     "es": {
-      "version": 3,
-      "url": "https://syncraft.dev/timesense/voices/es/core_v3.zip",
+      "version": 4,
+      "url": "https://syncraft.dev/timesense/voices/es/core_v4.zip",
       "size": 29691162,
-      "sha256": "585fa3561fc461b8cdeecc11e1dcc5c2daa5181eb0d61eb06eda3ce7f0fc603e",
+      "sha256": "35d2b6d3c49b61acbe3804eaf90262e23d03c58795eeb178cb14d2986767a247",
+      "minAppVersion": "2.0.8"
+    },
+    "fr": {
+      "version": 1,
+      "url": "https://syncraft.dev/timesense/voices/fr/core_v1.zip",
+      "size": 6514021,
+      "sha256": "6a7d9d871e4de0a2cca2cca1faafb5aec36f50a0854ff0e51641b15f571a12be",
       "minAppVersion": "2.0.8"
     }
   }
