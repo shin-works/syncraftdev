@@ -15,6 +15,7 @@
     <link rel="alternate" hreflang="ja" href="https://syncraft.dev/timesense/">
     <link rel="alternate" hreflang="en" href="https://syncraft.dev/timesense/en/">
     <link rel="alternate" hreflang="es" href="https://syncraft.dev/timesense/es/">
+    <link rel="alternate" hreflang="de" href="https://syncraft.dev/timesense/de/">
     <link rel="alternate" hreflang="x-default" href="https://syncraft.dev/timesense/">
     <link rel="icon" href="../favicon_ts.png" type="image/png">
     
@@ -72,31 +73,40 @@
             top: 20px;
             right: 20px;
             z-index: 1000;
-            display: flex;
             border-radius: 30px;
-            overflow: hidden;
             box-shadow: var(--shadow-md);
             background-color: rgba(255, 255, 255, 0.9);
             border: 1px solid rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
         
-        .language-toggle a {
-            display: inline-block;
-            padding: 6px 10px;
-            text-decoration: none;
+        .language-toggle select {
+            appearance: none;
+            -webkit-appearance: none;
+            border: none;
+            background: transparent;
+            padding: 8px 36px 8px 12px;
             font-weight: 600;
             font-size: 0.85rem;
             color: var(--dark);
+            cursor: pointer;
+            outline: none;
             transition: all 0.3s ease;
         }
         
-        .language-toggle a:hover {
-            background-color: rgba(0, 0, 0, 0.05);
+        .language-toggle::after {
+            content: "▾";
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--dark);
+            font-size: 0.8rem;
+            pointer-events: none;
         }
         
-        .language-toggle a.active {
-            background-color: var(--primary);
-            color: white;
+        .language-toggle:hover {
+            background-color: rgba(0, 0, 0, 0.05);
         }
             
         :root {
@@ -1645,9 +1655,12 @@
     
     <!-- 言語切り替えボタン -->
     <div class="language-toggle">
-        <a href="https://syncraft.dev/timesense/">日本語</a>
-        <a href="https://syncraft.dev/timesense/en/">English</a>
-        <a href="https://syncraft.dev/timesense/es/" class="active">Español</a>
+        <select aria-label="Seleccionar idioma" onchange="if (this.value) window.location.href=this.value;">
+            <option value="https://syncraft.dev/timesense/">日本語</option>
+            <option value="https://syncraft.dev/timesense/en/">English</option>
+            <option value="https://syncraft.dev/timesense/es/" selected>Español</option>
+            <option value="https://syncraft.dev/timesense/de/">Deutsch</option>
+        </select>
     </div>
     
     <!-- Preloader - シンプル化 -->

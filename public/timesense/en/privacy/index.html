@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://syncraft.dev/timesense/en/privacy/">
+  <link rel="alternate" hreflang="ja" href="https://syncraft.dev/timesense/privacy/">
+  <link rel="alternate" hreflang="en" href="https://syncraft.dev/timesense/en/privacy/">
+  <link rel="alternate" hreflang="es" href="https://syncraft.dev/timesense/es/privacy/">
+  <link rel="alternate" hreflang="de" href="https://syncraft.dev/timesense/de/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://syncraft.dev/timesense/privacy/">
   <link rel="icon" href="../../favicon_ts.png" type="image/png">
   <title>TimeSense - Privacy Policy</title>
   <style>
@@ -97,7 +103,6 @@
         top: 20px;
         right: 20px;
         z-index: 1000;
-        display: flex;
         border-radius: 30px;
         overflow: hidden;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -105,31 +110,45 @@
         border: 1px solid rgba(0, 0, 0, 0.1);
     }
     
-    .language-toggle a {
-        display: inline-block;
-        padding: 6px 10px;
-        text-decoration: none;
+    .language-toggle select {
+        appearance: none;
+        -webkit-appearance: none;
+        border: none;
+        background: transparent;
+        padding: 8px 36px 8px 12px;
         font-weight: 600;
         font-size: 0.85rem;
         color: #5a5a5a;
+        cursor: pointer;
+        outline: none;
         transition: all 0.3s ease;
     }
     
-    .language-toggle a:hover {
-        background-color: rgba(0, 0, 0, 0.05);
+    .language-toggle::after {
+        content: "▾";
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #5a5a5a;
+        font-size: 0.8rem;
+        pointer-events: none;
     }
     
-    .language-toggle a.active {
-        background-color: #ff85a2;
-        color: white;
+    .language-toggle:hover {
+        background-color: rgba(0, 0, 0, 0.05);
     }
   </style>
 </head>
 <body>
   <!-- 言語切り替えボタン -->
   <div class="language-toggle">
-      <a href="https://syncraft.dev/timesense/privacy">日本語</a>
-      <a href="https://syncraft.dev/timesense/en/privacy/" class="active">English</a>
+      <select aria-label="Select language" onchange="if (this.value) window.location.href=this.value;">
+          <option value="https://syncraft.dev/timesense/privacy/">日本語</option>
+          <option value="https://syncraft.dev/timesense/en/privacy/" selected>English</option>
+          <option value="https://syncraft.dev/timesense/es/privacy/">Español</option>
+          <option value="https://syncraft.dev/timesense/de/privacy/">Deutsch</option>
+      </select>
   </div>
   
 <header>
