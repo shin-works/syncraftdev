@@ -20,6 +20,13 @@
       "size": 6514021,
       "sha256": "6a7d9d871e4de0a2cca2cca1faafb5aec36f50a0854ff0e51641b15f571a12be",
       "minAppVersion": "2.0.8"
+    },
+    "ko": {
+      "version": 1,
+      "url": "https://syncraft.dev/timesense/voices/ko/core_v1.zip",
+      "size": 6113436,
+      "sha256": "2ce7b70e8ff8afb6b9e7d5083f5f2ac4fcb46457e8e15694de48d9ad6644f052",
+      "minAppVersion": "2.0.8"
     }
   }
 }
