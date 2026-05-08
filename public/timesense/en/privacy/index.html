@@ -9,6 +9,7 @@
   <link rel="alternate" hreflang="es" href="https://syncraft.dev/timesense/es/privacy/">
   <link rel="alternate" hreflang="de" href="https://syncraft.dev/timesense/de/privacy/">
   <link rel="alternate" hreflang="ko" href="https://syncraft.dev/timesense/ko/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://syncraft.dev/timesense/fr/privacy/">
   <link rel="alternate" hreflang="x-default" href="https://syncraft.dev/timesense/privacy/">
   <link rel="icon" href="../../favicon_ts.png" type="image/png">
   <title>TimeSense - Privacy Policy</title>
@@ -98,138 +99,145 @@
     .indent {
       padding-left: 20px;
     }
-    /* 言語切り替えボタンのスタイル */
     .language-toggle {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 1000;
-        border-radius: 30px;
-        overflow: hidden;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        background-color: rgba(255, 255, 255, 0.9);
-        border: 1px solid rgba(0, 0, 0, 0.1);
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      border-radius: 30px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(0, 0, 0, 0.1);
     }
-    
     .language-toggle select {
-        appearance: none;
-        -webkit-appearance: none;
-        border: none;
-        background: transparent;
-        padding: 8px 36px 8px 12px;
-        font-weight: 600;
-        font-size: 0.85rem;
-        color: #5a5a5a;
-        cursor: pointer;
-        outline: none;
-        transition: all 0.3s ease;
+      appearance: none;
+      -webkit-appearance: none;
+      border: none;
+      background: transparent;
+      padding: 8px 36px 8px 12px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: #5a5a5a;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.3s ease;
     }
-    
     .language-toggle::after {
-        content: "▾";
-        position: absolute;
-        right: 12px;
-        top: 50%;
-        transform: translateY(-50%);
-        color: #5a5a5a;
-        font-size: 0.8rem;
-        pointer-events: none;
+      content: "▾";
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #5a5a5a;
+      font-size: 0.8rem;
+      pointer-events: none;
     }
-    
     .language-toggle:hover {
-        background-color: rgba(0, 0, 0, 0.05);
+      background-color: rgba(0, 0, 0, 0.05);
     }
   </style>
 </head>
 <body>
-  <!-- 言語切り替えボタン -->
   <div class="language-toggle">
-      <select aria-label="Select language" onchange="if (this.value) window.location.href=this.value;">
-          <option value="https://syncraft.dev/timesense/privacy/">日本語</option>
-          <option value="https://syncraft.dev/timesense/en/privacy/" selected>English</option>
-          <option value="https://syncraft.dev/timesense/es/privacy/">Español</option>
-          <option value="https://syncraft.dev/timesense/de/privacy/">Deutsch</option>
-          <option value="https://syncraft.dev/timesense/ko/privacy/">한국어</option>
-      </select>
-  </div>
-  
-<header>
-  <h1>TimeSense Privacy Policy</h1>
-</header>
-
-<div class="container">
-  <div class="terms-content">
-    <p>TimeSense ("the App") respects your privacy. This Privacy Policy explains how we handle user data.<br>
-   <p><strong>Note:</strong> This page includes information for both iOS and Android versions. Please refer to the relevant sections according to your device.</p>
-   <p><strong>Note:</strong> Certain features and use of third-party services may vary depending on platform-specific policies or technical limitations.</p>
-    <hr>
-    <h2>1. Information Collected</h2>
-    <p><strong>The App does not collect any personally identifiable information (such as names or email addresses).</strong></p>
-    <p>However, the following information may be stored locally on your device:</p>
-    <ul>
-      <li>App settings (e.g., timer preferences, selected sounds)</li>
-      <li>Premium usage status (e.g., purchases or ad-based unlocks)</li>
-    </ul>
-    <p><strong>This information is stored solely on your device and is never transmitted to external servers.</strong></p>
-
-    <hr>
-    <h2>2. Use of Third-Party Services</h2>
-
-    <h3>■ iOS Version</h3>
-    <p><strong>The iOS version does not use any third-party services, and no data is collected or transmitted externally.</strong></p>
-    <ul>
-      <li>Google AdMob (Advertising)</li>
-      <li>Firebase Analytics (Usage Analysis)</li>
-      <li>Sentry (Crash Reporting)</li>
-    </ul>
-    <p>All operations are processed locally within the app, and no personal or usage data is ever sent to external systems.</p>
-
-    <h3>■ Android Version</h3>
-    <p>The Android version may use the following third-party services to improve functionality and experience:</p>
-
-    <h4>● Google AdMob (Advertising)</h4>
-    <ul>
-      <li>The App displays ads via Google AdMob.</li>
-      <li>As a "designed for families" app, only ads that comply with the <strong>Family Policy Requirements</strong> are shown.</li>
-      <li>We make every effort to avoid displaying inappropriate content.</li>
-    </ul>
-
-    <h4>● Firebase Analytics (Usage Analysis)</h4>
-    <ul>
-      <li>The App may use Firebase Analytics (provided by Google) to understand user behavior and improve functionality.</li>
-      <li>Data collected is limited to <strong>anonymous statistics</strong> and is never used to identify individuals.</li>
-      <li>Anonymous usage data is only sent to Firebase Analytics with user consent, requested on first launch. Users can change this setting at any time in the app.</li>
-    </ul>
-
-    <h4>● Sentry (Crash Reporting)</h4>
-    <ul>
-      <li>To improve stability, the App may use Sentry to collect crash-related data.</li>
-      <li>Collected data may include crash timestamps, OS versions, screen sizes, and running processes.</li>
-      <li><strong>This information is anonymized technical data</strong> and is never used to identify individuals.</li>
-    </ul>
-
-    <p>For more details, please refer to the privacy policies of each service:</p>
-    <ul>
-      <li><a href="https://policies.google.com/privacy" target="_blank">▶ Google Privacy Policy</a></li>
-      <li><a href="https://www.apple.com/legal/privacy/" target="_blank">▶ Apple Privacy Policy</a></li>
-      <li><a href="https://sentry.io/privacy/" target="_blank">▶ Sentry Privacy Policy</a></li>
-    </ul>
-
-    <hr>
-    <h2>3. In-App Purchases</h2>
-    <p>The App offers in-app purchases via Google Play or the App Store.</p>
-    <p><strong>All payment processing is securely handled by the respective store. The App does not collect or store any payment data.</strong></p>
-
-    <hr>
-    <h2>4. Contact</h2>
-    <p>For questions or feedback regarding the App, please contact us:</p>
-    <p><strong>📩 </strong><a href="mailto:hello@syncraft.dev">hello@syncraft.dev</a></p>
+    <select aria-label="Select language" onchange="if (this.value) window.location.href=this.value;">
+      <option value="https://syncraft.dev/timesense/privacy/">日本語</option>
+      <option value="https://syncraft.dev/timesense/en/privacy/" selected>English</option>
+      <option value="https://syncraft.dev/timesense/es/privacy/">Español</option>
+      <option value="https://syncraft.dev/timesense/de/privacy/">Deutsch</option>
+      <option value="https://syncraft.dev/timesense/ko/privacy/">한국어</option>
+      <option value="https://syncraft.dev/timesense/fr/privacy/">Français</option>
+    </select>
   </div>
 
-  <div style="text-align: center; margin-top: 30px;">
-    <a href="https://syncraft.dev/timesense/en/" class="button">Return to App Overview</a>
+  <header>
+    <h1>TimeSense Privacy Policy</h1>
+  </header>
+
+  <div class="container">
+    <div class="terms-content">
+      <p>Effective Date: April 1, 2025</p>
+      <p>Last Updated: May 7, 2026</p>
+      <p>TimeSense ("the App") respects user privacy and handles personal information in accordance with the policy below.</p>
+      <p>This page includes information for both the iOS and Android versions.</p>
+      <p>Please review the section relevant to the platform you are using.</p>
+      <p>Some features of the App and the external services it uses may vary depending on the platform or operating system.</p>
+
+      <hr>
+
+      <h2>1. Information We Collect</h2>
+      <p>The App does not collect personally identifiable information such as names, addresses, phone numbers, or email addresses.</p>
+      <p>However, the following information may be stored locally on the user's device:</p>
+      <ul>
+        <li>App settings, such as timer settings and selected voices</li>
+        <li>Routine settings</li>
+        <li>Usage records, including stamp card history</li>
+        <li>Premium usage status</li>
+      </ul>
+      <p>This information is primarily stored on the user's device.</p>
+      <p>In the Android version, anonymized statistical data may be sent to external services for usage analysis and app improvement.</p>
+
+      <hr>
+
+      <h2>2. Use of Third-Party Services</h2>
+
+      <h3>■ iOS Version</h3>
+      <p>The iOS version does not use the following external services:</p>
+      <ul>
+        <li>Google AdMob (advertising)</li>
+        <li>Firebase Analytics (usage analytics)</li>
+      </ul>
+      <p>In the iOS version, the app operates primarily on the device and does not send personal information or usage data externally.</p>
+
+      <h3>■ Android Version</h3>
+      <p>The Android version may use the following third-party services for providing and improving the App:</p>
+
+      <h4>● Google AdMob (Advertising)</h4>
+      <p>The Android version may display banner advertisements using Google AdMob.</p>
+      <p>The App is submitted to Google Play as a "Designed for Families" app, and advertisements are delivered in compliance with Google's Families policies.</p>
+      <p>We make reasonable efforts to avoid inappropriate advertisements being shown.</p>
+
+      <h4>● Firebase Analytics (Usage Analytics)</h4>
+      <p>The Android version may use Firebase Analytics to improve the App and understand usage trends.</p>
+      <p>Information collected by Firebase Analytics is anonymized statistical data and does not directly identify individuals.</p>
+      <p>Analytics data is sent only when the user has consented, such as on first launch.</p>
+      <p>This setting can be changed at any time from within the App's settings.</p>
+
+      <hr>
+
+      <h2>3. In-App Purchases</h2>
+      <p>The App offers in-app purchases through Google Play or the App Store.</p>
+      <p>Payment processing is handled securely by each store, and the App does not store or collect payment information such as credit card details.</p>
+      <p>Purchase information and premium features are tied to the account on the platform where the purchase was made, either Google Play or the App Store.</p>
+      <p>Purchase status is not shared between the iOS and Android versions.</p>
+
+      <hr>
+
+      <h2>4. Privacy Policies of External Services</h2>
+      <p>Please refer to the following for more information about each service:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+        <li><a href="https://www.apple.com/legal/privacy/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a></li>
+        <li><a href="https://firebase.google.com/support/privacy?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">Firebase Analytics</a></li>
+      </ul>
+
+      <hr>
+
+      <h2>5. Changes to This Privacy Policy</h2>
+      <p>This policy may be changed as needed.</p>
+      <p>Any changes become effective when posted in the App or on our website.</p>
+
+      <hr>
+
+      <h2>6. Contact</h2>
+      <p><strong>Developer and Operator:</strong> SynCraft</p>
+      <p><strong>Contact:</strong> <a href="mailto:hello@syncraft.dev">hello@syncraft.dev</a></p>
+    </div>
+
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="https://syncraft.dev/timesense/en/" class="button">Return to App Overview</a>
+    </div>
   </div>
-</div>
 
   <footer>
     <p>© 2025 TimeSense All Rights Reserved.</p>
