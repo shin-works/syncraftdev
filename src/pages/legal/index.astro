@@ -1,0 +1,266 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const lang = 'ja';
+---
+
+<BaseLayout
+  title="特定商取引法に基づく表記 | SynCraft"
+  description="SynCraftの特定商取引法に基づく表記です。"
+  lang={lang}
+  canonicalUrl="/legal/"
+  alternateUrls={{ ja: '/legal/' }}
+  currentPath="/legal/"
+>
+  <section class="legal-page">
+    <div class="noise-overlay"></div>
+    <div class="legal-background">
+      <div class="legal-grid"></div>
+      <div class="legal-glow legal-glow-primary"></div>
+      <div class="legal-glow legal-glow-secondary"></div>
+      <div class="legal-glow legal-glow-tertiary"></div>
+    </div>
+    <div class="container legal-shell">
+      <div class="legal-header">
+        <p class="legal-eyebrow">LEGAL</p>
+        <h1>特定商取引法に基づく表記</h1>
+        <p class="legal-lead">
+          SynCraftが提供するアプリに関する、特定商取引法に基づく表示事項を掲載しています。
+        </p>
+      </div>
+
+      <div class="legal-card">
+        <dl class="legal-list">
+          <div class="legal-row">
+            <dt>事業者名</dt>
+            <dd>SynCraft</dd>
+          </div>
+          <div class="legal-row">
+            <dt>運営責任者</dt>
+            <dd>Shinpei Ohno</dd>
+          </div>
+          <div class="legal-row">
+            <dt>連絡先</dt>
+            <dd><a href="mailto:hello@syncraft.dev">hello@syncraft.dev</a></dd>
+          </div>
+          <div class="legal-row">
+            <dt>販売価格</dt>
+            <dd>
+              各アプリ内購入画面、App Store または Google Play の表示価格に準じます。
+            </dd>
+          </div>
+          <div class="legal-row">
+            <dt>支払方法</dt>
+            <dd>App Store または Google Play による決済</dd>
+          </div>
+          <div class="legal-row">
+            <dt>支払時期</dt>
+            <dd>各プラットフォームの定める支払時期によります。</dd>
+          </div>
+          <div class="legal-row">
+            <dt>商品の提供時期</dt>
+            <dd>決済完了後、直ちに利用可能となります。</dd>
+          </div>
+          <div class="legal-row">
+            <dt>返品・返金について</dt>
+            <dd>
+              デジタルコンテンツの性質上、原則として返品・返金には対応しておりません。
+              返金については App Store または Google Play のポリシーに準じます。
+            </dd>
+          </div>
+          <div class="legal-row">
+            <dt>動作環境</dt>
+            <dd>各アプリのストアページに記載の対応OS・端末をご確認ください。</dd>
+          </div>
+        </dl>
+
+        <p class="legal-note">
+          ※住所・電話番号については、請求があった場合に遅滞なく開示いたします。
+        </p>
+
+        <div class="legal-actions">
+          <a href="/#contact" class="btn btn-outline">Contactへ戻る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .legal-page {
+    min-height: calc(100vh - 140px);
+    position: relative;
+    background:
+      radial-gradient(circle at top left, rgba(0, 85, 179, 0.22), transparent 34%),
+      radial-gradient(circle at top right, rgba(255, 75, 141, 0.16), transparent 30%),
+      linear-gradient(180deg, #121625 0%, #0d1117 55%, #101522 100%);
+    color: var(--text-light);
+    padding-top: 160px;
+  }
+
+  .legal-background {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+
+  .legal-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 32px 32px;
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.95), transparent);
+  }
+
+  .legal-glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(56px);
+    opacity: 0.42;
+  }
+
+  .legal-glow-primary {
+    width: 420px;
+    height: 420px;
+    top: 70px;
+    right: 12%;
+    background: rgba(0, 85, 179, 0.34);
+  }
+
+  .legal-glow-secondary {
+    width: 360px;
+    height: 360px;
+    bottom: 110px;
+    left: 10%;
+    background: rgba(255, 75, 141, 0.24);
+  }
+
+  .legal-glow-tertiary {
+    width: 300px;
+    height: 300px;
+    top: 38%;
+    left: 34%;
+    background: rgba(120, 213, 234, 0.14);
+  }
+
+  .legal-shell {
+    max-width: 920px;
+  }
+
+  .legal-header {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 42px;
+  }
+
+  .legal-eyebrow {
+    display: inline-block;
+    margin-bottom: 14px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--accent-color);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+
+  .legal-header h1 {
+    font-size: clamp(1.6rem, 3vw, 2.35rem);
+    color: var(--text-light);
+    margin-bottom: 14px;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  }
+
+  .legal-lead {
+    max-width: 700px;
+    margin: 0 auto;
+    color: rgba(245, 245, 247, 0.78);
+    font-size: 1.02rem;
+  }
+
+  .legal-card {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 28px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
+    padding: 38px 34px;
+  }
+
+  .legal-list {
+    display: grid;
+    gap: 0;
+  }
+
+  .legal-row {
+    display: grid;
+    grid-template-columns: minmax(180px, 220px) 1fr;
+    gap: 22px;
+    padding: 22px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .legal-row:first-child {
+    padding-top: 4px;
+  }
+
+  .legal-row:last-child {
+    border-bottom: none;
+    padding-bottom: 4px;
+  }
+
+  .legal-row dt {
+    color: var(--accent-color);
+    font-weight: 700;
+  }
+
+  .legal-row dd {
+    color: rgba(245, 245, 247, 0.9);
+    margin: 0;
+  }
+
+  .legal-row a {
+    color: var(--accent-color);
+  }
+
+  .legal-note {
+    margin-top: 26px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(245, 245, 247, 0.66);
+    font-size: 0.95rem;
+  }
+
+  .legal-actions {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .legal-page {
+      padding-top: 132px;
+    }
+
+    .legal-card {
+      padding: 28px 20px;
+      border-radius: 22px;
+    }
+
+    .legal-row {
+      grid-template-columns: 1fr;
+      gap: 8px;
+      padding: 18px 0;
+    }
+
+    .legal-lead {
+      font-size: 0.96rem;
+    }
+  }
+</style>

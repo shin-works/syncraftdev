@@ -20,7 +20,7 @@ const { lang } = Astro.props;
           style="width:100%;height:auto;transition:transform 0.3s ease;"
         />
       </div>
-      <div class="contact-info-list" style="padding-left:32px;">
+      <div class="contact-info-list">
         <div class="contact-info-item">
           <i class="fas fa-building"></i>
           <span>{t(lang, 'contact.developer')}</span>
@@ -30,6 +30,13 @@ const { lang } = Astro.props;
           <span>hello@syncraft.dev</span>
         </div>
       </div>
+      {lang === 'ja' && (
+        <div class="contact-legal-row">
+          <a href="/legal/" class="contact-legal-link">
+            特定商取引法に基づく表記
+          </a>
+        </div>
+      )}
     </div>
   </div>
 </section>
