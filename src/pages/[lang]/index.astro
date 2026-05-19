@@ -1,6 +1,6 @@
 ---
 /**
- * /en/ — English top page
+ * /{lang}/ — Non-default language top pages
  */
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Hero from '../../components/Hero.astro';
@@ -8,18 +8,33 @@ import ProductSection from '../../components/ProductSection.astro';
 import BlogSection from '../../components/BlogSection.astro';
 import ContactSection from '../../components/ContactSection.astro';
 import { t } from '../../i18n/utils';
+import {
+  blogLangs,
+  nonDefaultBlogLangs,
+  type Lang,
+} from '../../i18n/translations';
 
-const lang = 'en';
+export function getStaticPaths() {
+  return nonDefaultBlogLangs.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+const { lang } = Astro.props as { lang: Exclude<Lang, 'ja'> };
+const alternateUrls = Object.fromEntries(
+  blogLangs.map((code) => [code, code === 'ja' ? '/' : `/${code}/`]),
+);
 ---
 
 <BaseLayout
   title={t(lang, 'site.title')}
   description={t(lang, 'site.description')}
   lang={lang}
-  canonicalUrl="/en/"
-  alternateUrls={{ ja: '/', en: '/en/' }}
+  canonicalUrl={`/${lang}/`}
+  alternateUrls={alternateUrls}
   activeNav="hero"
-  currentPath="/en/"
+  currentPath={`/${lang}/`}
 >
   <Hero />
   <ProductSection lang={lang} />

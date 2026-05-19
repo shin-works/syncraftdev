@@ -6,6 +6,12 @@ image: "/blog/timesense_logovisual.png"
 imageAlt: "TimeSense Logo Visual"
 alternates:
   ja: "what-is-timesense"
+  es: "what-is-timesense"
+  de: "what-is-timesense"
+  fr: "what-is-timesense"
+  ko: "what-is-timesense"
+  zh-hans: "what-is-timesense"
+  zh-hant: "what-is-timesense"
 category: "Product"
 tags: ["timesense", "visual timer", "kids", "parenting"]
 ---
@@ -104,7 +110,7 @@ Designed to match real-life daily situations and improve engagement.
 
 <dl class="faq-section">
 <dt>Is it free?</dt>
-<dd>Yes. Core features are free. Premium voice packs are available with a low-cost subscription.</dd>
+<dd>Yes. Core features are free. TimeSense+ is also available for families who want more scene-based voice options and additional features.</dd>
 
 <dt>Do I need to register?</dt>
 <dd>No account or personal information required.</dd>

@@ -8,6 +8,7 @@ import {
   t,
   getAlternateLangPath,
   getBlogIndexPath,
+  getLocalizedPath,
 } from '../i18n/utils';
 
 interface Props {
@@ -19,7 +20,7 @@ interface Props {
 
 const { lang, currentPath, alternateUrls, activeNav } = Astro.props;
 
-const homeHref = lang === 'en' ? '/en/' : '/';
+const homeHref = getLocalizedPath('/', lang);
 const blogHref = getBlogIndexPath(lang);
 
 const navItems = [

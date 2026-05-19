@@ -6,6 +6,12 @@ image: "/blog/timesense_logovisual.png"
 imageAlt: "TimeSense ロゴビジュアル"
 alternates:
   en: "what-is-timesense"
+  es: "what-is-timesense"
+  de: "what-is-timesense"
+  fr: "what-is-timesense"
+  ko: "what-is-timesense"
+  zh-hans: "what-is-timesense"
+  zh-hant: "what-is-timesense"
 category: "プロダクト"
 tags: ["timesense", "知育", "タイマー", "子育て"]
 ---
@@ -111,7 +117,7 @@ TimeSenseをご利用いただいているご家庭から、
 
 <dl class="faq-section">
 <dt>Q. 無料で使えますか？</dt>
-<dd>基本機能は無料でご利用いただけます。より多彩なシーン別音声が使えるプレミアムプラン『TimeSense+』（月額150円）やお得な年間プラン、買い切りプランもご用意しています。</dd>
+<dd>基本機能は無料でご利用いただけます。より多彩なシーン別音声や追加機能が使えるプレミアムプラン『TimeSense+』もご用意しています。</dd>
 
 <dt>Q. 個人情報の登録は必要ですか？</dt>
 <dd>登録不要・個人情報入力なしでご利用いただけます。</dd>

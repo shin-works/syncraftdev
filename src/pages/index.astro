@@ -8,6 +8,7 @@ import ProductSection from '../components/ProductSection.astro';
 import BlogSection from '../components/BlogSection.astro';
 import ContactSection from '../components/ContactSection.astro';
 import { t } from '../i18n/utils';
+import { blogLangs } from '../i18n/translations';
 
 const lang = 'ja';
 ---
@@ -17,7 +18,9 @@ const lang = 'ja';
   description={t(lang, 'site.description')}
   lang={lang}
   canonicalUrl="/"
-  alternateUrls={{ ja: '/', en: '/en/' }}
+  alternateUrls={Object.fromEntries(
+    blogLangs.map((code) => [code, code === 'ja' ? '/' : `/${code}/`]),
+  )}
   activeNav="hero"
   currentPath="/"
 >
