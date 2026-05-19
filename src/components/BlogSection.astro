@@ -3,7 +3,7 @@
  * BlogSection — Latest posts preview on the top page
  */
 import type { Lang } from '../i18n/translations';
-import { t, getLocalizedPath } from '../i18n/utils';
+import { t, getBlogIndexPath } from '../i18n/utils';
 import BlogCard from './BlogCard.astro';
 import { getCollection } from 'astro:content';
 
@@ -18,7 +18,7 @@ const posts = allPosts
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, 3);
 
-const blogHref = getLocalizedPath('/blog/', lang);
+const blogHref = getBlogIndexPath(lang);
 ---
 
 <section id="blog" class="blog-section">

@@ -1,0 +1,73 @@
+---
+/**
+ * /{lang}/blog/ — Non-default language blog listing pages
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BlogCard from '../../../components/BlogCard.astro';
+import { getCollection } from 'astro:content';
+import {
+  blogLangs,
+  nonDefaultBlogLangs,
+  type Lang,
+} from '../../../i18n/translations';
+
+export function getStaticPaths() {
+  return nonDefaultBlogLangs.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
+const { lang } = Astro.props as { lang: Exclude<Lang, 'ja'> };
+const prefix = `${lang}/`;
+
+const posts = (await getCollection('blog', ({ id }) => id.startsWith(prefix)))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const alternateUrls = Object.fromEntries(
+  blogLangs.map((code) => [code, code === 'ja' ? '/blog/' : `/${code}/blog/`]),
+);
+const descriptions: Record<Lang, string> = {
+  ja: 'SynCraftのプロダクト開発、技術知見、お知らせを発信するブログです。',
+  en: 'Product updates, dev logs, and practical insights from SynCraft.',
+  es: 'Product updates, dev logs, and practical insights from SynCraft.',
+  de: 'Product updates, dev logs, and practical insights from SynCraft.',
+  fr: 'Product updates, dev logs, and practical insights from SynCraft.',
+  ko: 'Product updates, dev logs, and practical insights from SynCraft.',
+  'zh-hans': 'Product updates, dev logs, and practical insights from SynCraft.',
+  'zh-hant': 'Product updates, dev logs, and practical insights from SynCraft.',
+};
+---
+
+<BaseLayout
+  title="Blog - SynCraft"
+  description={descriptions[lang]}
+  lang={lang}
+  canonicalUrl={`/${lang}/blog/`}
+  alternateUrls={alternateUrls}
+  activeNav="blog"
+  currentPath={`/${lang}/blog/`}
+>
+  <div class="blog-page">
+    <div class="container">
+      <h1>Blog</h1>
+      <div class="blog-list">
+        {posts.map((post) => {
+          const slug = post.id.replace(prefix, '').replace(/\.mdx?$/, '');
+          return (
+            <BlogCard
+              lang={lang}
+              title={post.data.title}
+              date={post.data.date}
+              description={post.data.description}
+              slug={slug}
+              image={post.data.image}
+              imageAlt={post.data.imageAlt}
+            />
+          );
+        })}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

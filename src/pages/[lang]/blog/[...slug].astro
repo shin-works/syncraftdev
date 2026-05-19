@@ -1,0 +1,63 @@
+---
+/**
+ * /{lang}/blog/{slug}/ — Non-default language blog posts
+ */
+import {
+  getCollection,
+  render,
+  type CollectionEntry,
+} from 'astro:content';
+import BlogPostLayout from '../../../layouts/BlogPostLayout.astro';
+import {
+  nonDefaultBlogLangs,
+  type Lang,
+} from '../../../i18n/translations';
+
+export async function getStaticPaths() {
+  const posts = await getCollection(
+    'blog',
+    ({ id }) =>
+      nonDefaultBlogLangs.some((lang) => id.startsWith(`${lang}/`)),
+  );
+
+  return posts
+    .filter((p) => !p.data.draft)
+    .map((post) => {
+      const [lang, ...rest] = post.id.replace(/\.mdx?$/, '').split('/');
+      return {
+        params: { lang, slug: rest.join('/') },
+        props: { post, lang },
+      };
+    });
+}
+
+const { post, lang } = Astro.props as {
+  post: CollectionEntry<'blog'>;
+  lang: Exclude<Lang, 'ja'>;
+};
+const { Content } = await render(post);
+
+const stripMd = (s: string) => s.replace(/\.mdx?$/, '');
+const alternates: Record<string, string> = {
+  [lang]: stripMd(post.id.replace(`${lang}/`, '')),
+};
+
+if (post.data.alternates) {
+  for (const [altLang, altSlug] of Object.entries(post.data.alternates)) {
+    alternates[altLang] = altSlug;
+  }
+}
+---
+
+<BlogPostLayout
+  title={post.data.title}
+  description={post.data.description}
+  lang={lang}
+  date={post.data.date}
+  slug={stripMd(post.id.replace(`${lang}/`, ''))}
+  image={post.data.image}
+  imageAlt={post.data.imageAlt}
+  alternates={alternates}
+>
+  <Content />
+</BlogPostLayout>

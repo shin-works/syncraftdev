@@ -4,6 +4,12 @@ date: 2026-02-14
 description: "SynCraftの事業開発・プロダクトに関わる情報や雑記・お知らせを発信するブログを開設しました。"
 alternates:
   en: "updates-insights-page-launched"
+  es: "updates-insights-page-launched"
+  de: "updates-insights-page-launched"
+  fr: "updates-insights-page-launched"
+  ko: "updates-insights-page-launched"
+  zh-hans: "updates-insights-page-launched"
+  zh-hant: "updates-insights-page-launched"
 category: "お知らせ"
 tags: ["syncraft", "ブログ"]
 ---
@@ -35,8 +41,8 @@ SynCraftでは、プロダクト開発の裏側や、技術的な知見、事業
 <dt>Q: 記事の更新頻度はどのくらいですか？</dt>
 <dd>A: 月に数回の更新を予定しています。新機能リリースや重要なお知らせがある際には、随時更新します。</dd>
 
-<dt>Q: 英語版の記事はありますか？</dt>
-<dd>A: はい。主要な記事は英語版も用意しています。ページ上部の言語切替からご利用ください。</dd>
+<dt>Q: 他の言語版の記事はありますか？</dt>
+<dd>A: はい。主要な記事は英語、スペイン語、ドイツ語、フランス語、韓国語、簡体字、繁体字でも順次ご用意していきます。ページ上部の言語切替からご利用ください。</dd>
 
 <dt>Q: フィードバックを送りたいのですが</dt>
 <dd>A: hello@syncraft.dev までメールをお送りください。皆様のご意見をお待ちしております。</dd>

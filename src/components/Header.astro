@@ -4,7 +4,11 @@
  */
 import type { Lang } from '../i18n/translations';
 import { languages } from '../i18n/translations';
-import { t, getAlternateLangPath } from '../i18n/utils';
+import {
+  t,
+  getAlternateLangPath,
+  getBlogIndexPath,
+} from '../i18n/utils';
 
 interface Props {
   lang: Lang;
@@ -15,8 +19,8 @@ interface Props {
 
 const { lang, currentPath, alternateUrls, activeNav } = Astro.props;
 
-const homeHref = lang === 'ja' ? '/' : '/en/';
-const blogHref = lang === 'ja' ? '/blog/' : '/en/blog/';
+const homeHref = lang === 'en' ? '/en/' : '/';
+const blogHref = getBlogIndexPath(lang);
 
 const navItems = [
   { key: 'nav.home' as const, href: `${homeHref}#hero`, id: 'hero' },
@@ -26,9 +30,18 @@ const navItems = [
 ];
 
 // Build language switch URLs
-const langUrls: Record<string, string> = alternateUrls ?? {};
-if (!langUrls.ja) langUrls.ja = getAlternateLangPath(currentPath, 'ja');
-if (!langUrls.en) langUrls.en = getAlternateLangPath(currentPath, 'en');
+const langUrls: Record<string, string> = { ...(alternateUrls ?? {}) };
+if (Object.keys(langUrls).length === 0) {
+  langUrls.ja = getAlternateLangPath(currentPath, 'ja');
+  langUrls.en = getAlternateLangPath(currentPath, 'en');
+}
+if (!langUrls[lang]) {
+  langUrls[lang] = currentPath;
+}
+
+const availableLangs = (Object.keys(langUrls) as Lang[]).filter(
+  (code) => languages[code],
+);
 ---
 
 <header>
@@ -60,13 +73,13 @@ if (!langUrls.en) langUrls.en = getAlternateLangPath(currentPath, 'en');
           <span class="lang-current">{languages[lang]}</span>
         </button>
         <ul class="lang-menu">
-          {Object.entries(languages).map(([code, name]) => (
+          {availableLangs.map((code) => (
             <li>
               <a
                 href={langUrls[code] ?? '#'}
                 class={code === lang ? 'active' : ''}
               >
-                {name}
+                {languages[code]}
               </a>
             </li>
           ))}

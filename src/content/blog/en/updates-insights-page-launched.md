@@ -4,6 +4,12 @@ date: 2026-02-14
 description: "We launched a blog to share updates on business development, products, technical insights, and news from SynCraft."
 alternates:
   ja: "updates-insights-page-launched"
+  es: "updates-insights-page-launched"
+  de: "updates-insights-page-launched"
+  fr: "updates-insights-page-launched"
+  ko: "updates-insights-page-launched"
+  zh-hans: "updates-insights-page-launched"
+  zh-hant: "updates-insights-page-launched"
 category: "Announcement"
 tags: ["syncraft", "blog"]
 ---
@@ -35,8 +41,8 @@ Thank you for following along!
 <dt>Q: How often do you publish new articles?</dt>
 <dd>A: We aim for several posts per month. Major product releases and important updates will be published as they happen.</dd>
 
-<dt>Q: Is there a Japanese version of this blog?</dt>
-<dd>A: Yes. Most articles are available in Japanese as well. Use the language switcher at the top of the page.</dd>
+<dt>Q: Is this blog available in other languages?</dt>
+<dd>A: Yes. We are expanding key articles in Japanese, English, Spanish, German, French, Korean, Simplified Chinese, and Traditional Chinese. Use the language switcher at the top of the page.</dd>
 
 <dt>Q: How can I send feedback?</dt>
 <dd>A: Please email us at hello@syncraft.dev. We appreciate all feedback and suggestions.</dd>

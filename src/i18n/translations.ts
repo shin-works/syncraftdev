@@ -115,12 +115,55 @@ export const translations = {
   },
 } as const;
 
-export type Lang = keyof typeof translations;
-export type TranslationKey = keyof (typeof translations)['ja'];
+const fallbackTranslations = translations.en;
+
+export const localizedTranslations = {
+  ...translations,
+  es: fallbackTranslations,
+  de: fallbackTranslations,
+  fr: fallbackTranslations,
+  ko: fallbackTranslations,
+  'zh-hans': fallbackTranslations,
+  'zh-hant': fallbackTranslations,
+} as const;
+
+export type Lang = keyof typeof localizedTranslations;
+export type TranslationKey = keyof (typeof localizedTranslations)['ja'];
 
 export const languages: Record<Lang, string> = {
   ja: '日本語',
   en: 'ENGLISH',
+  es: 'ESPANOL',
+  de: 'DEUTSCH',
+  fr: 'FRANCAIS',
+  ko: 'KOREAN',
+  'zh-hans': '简体中文',
+  'zh-hant': '繁體中文',
 };
 
 export const defaultLang: Lang = 'ja';
+export const blogLangs: Lang[] = [
+  'ja',
+  'en',
+  'es',
+  'de',
+  'fr',
+  'ko',
+  'zh-hans',
+  'zh-hant',
+];
+
+export const nonDefaultBlogLangs = blogLangs.filter(
+  (lang): lang is Exclude<Lang, 'ja'> => lang !== defaultLang,
+);
+
+export const ogLocales: Record<Lang, string> = {
+  ja: 'ja_JP',
+  en: 'en_US',
+  es: 'es_ES',
+  de: 'de_DE',
+  fr: 'fr_FR',
+  ko: 'ko_KR',
+  'zh-hans': 'zh_CN',
+  'zh-hant': 'zh_TW',
+};

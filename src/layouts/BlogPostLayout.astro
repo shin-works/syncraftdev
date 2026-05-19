@@ -4,7 +4,7 @@
  */
 import BaseLayout from './BaseLayout.astro';
 import type { Lang } from '../i18n/translations';
-import { t, getLocalizedPath } from '../i18n/utils';
+import { t, getBlogIndexPath, getBlogPostPath } from '../i18n/utils';
 
 interface Props {
   title: string;
@@ -20,28 +20,25 @@ interface Props {
 const { title, description, lang, date, slug, image, imageAlt, alternates } =
   Astro.props;
 
-const blogBase = lang === 'ja' ? '/blog' : '/en/blog';
-const currentPath = `${blogBase}/${slug}/`;
+const currentPath = getBlogPostPath(lang, slug);
 const canonicalUrl = currentPath;
 
 const tsHref = lang === 'ja' ? '/timesense/' : '/timesense/en/';
-const srHref = lang === 'ja' ? '/stealthradar/' : `/stealthradar/${lang}/`;
+const srHref = lang === 'ja' ? '/stealthradar/' : '/stealthradar/en/';
 
 // Build hreflang alternate URLs for this article
 const alternateUrls: Record<string, string> = {};
-if (lang === 'ja') alternateUrls.ja = currentPath;
-if (lang === 'en') alternateUrls.en = currentPath;
+alternateUrls[lang] = currentPath;
 
 if (alternates) {
   for (const [altLang, altSlug] of Object.entries(alternates)) {
-    const altBase = altLang === 'ja' ? '/blog' : '/en/blog';
-    alternateUrls[altLang] = `${altBase}/${altSlug}/`;
+    alternateUrls[altLang] = getBlogPostPath(altLang as Lang, altSlug);
   }
 }
 
 const formattedDate = date.toISOString().slice(0, 10).replace(/-/g, '.');
 const isoDate = date.toISOString().slice(0, 10);
-const backHref = getLocalizedPath('/blog/', lang);
+const backHref = getBlogIndexPath(lang);
 const articleUrl = `https://syncraft.dev${currentPath}`;
 ---
 

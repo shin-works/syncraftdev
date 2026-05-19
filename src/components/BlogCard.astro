@@ -3,7 +3,7 @@
  * BlogCard — Single article card for the blog list
  */
 import type { Lang } from '../i18n/translations';
-import { t } from '../i18n/utils';
+import { getBlogPostPath, t } from '../i18n/utils';
 
 interface Props {
   lang: Lang;
@@ -17,8 +17,7 @@ interface Props {
 
 const { lang, title, date, description, slug, image, imageAlt } = Astro.props;
 
-const blogBase = lang === 'ja' ? '/blog' : '/en/blog';
-const href = `${blogBase}/${slug}/`;
+const href = getBlogPostPath(lang, slug);
 
 const formattedDate = date.toISOString().slice(0, 10).replace(/-/g, '.');
 const isoDate = date.toISOString().slice(0, 10);

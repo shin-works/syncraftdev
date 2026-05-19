@@ -2,7 +2,7 @@
 /**
  * SEOHead — canonical, hreflang, OGP, JSON-LD
  */
-import type { Lang } from '../i18n/translations';
+import { ogLocales, type Lang } from '../i18n/translations';
 
 interface Props {
   title: string;
@@ -64,7 +64,7 @@ const fullCanonical = canonicalUrl.startsWith('http')
 <meta property="og:url" content={fullCanonical} />
 {ogImage && <meta property="og:image" content={ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`} />}
 <meta property="og:site_name" content="SynCraft" />
-<meta property="og:locale" content={lang === 'ja' ? 'ja_JP' : 'en_US'} />
+<meta property="og:locale" content={ogLocales[lang]} />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
