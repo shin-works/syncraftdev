@@ -5,12 +5,37 @@ import { t } from '../i18n/utils';
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 
-const tsHref = lang === 'ja' ? '/timesense/' : '/timesense/en/';
-const srHref = lang === 'ja' ? '/stealthradar/' : `/stealthradar/${lang}/`;
+const tsSupportedLangs = new Set<Lang>([
+  'ja',
+  'en',
+  'es',
+  'de',
+  'fr',
+  'ko',
+  'zh-hans',
+  'zh-hant',
+]);
+const srSupportedLangs = new Set<Lang>(['ja', 'en', 'de']);
+const ctSupportedLangs = new Set<Lang>(['ja', 'en']);
+
+const tsHref = lang === 'ja'
+  ? '/timesense/'
+  : tsSupportedLangs.has(lang)
+    ? `/timesense/${lang}/`
+    : '/timesense/en/';
+const srHref = lang === 'ja'
+  ? '/stealthradar/'
+  : srSupportedLangs.has(lang)
+    ? `/stealthradar/${lang}/`
+    : '/stealthradar/en/';
 const tsImage = lang === 'ja' ? '/TS_OGP.png' : '/TS_OGP_en.png';
 const srImage = lang === 'ja' ? '/SR_OGP.png' : '/SR_OGP_en.png';
 const ctImage = lang === 'ja' ? '/clocktimer_OGP.png' : '/clocktimer_OGP_en.png';
-const ctHref = lang === 'ja' ? '/clocktimer/' : '/clocktimer/en/';
+const ctHref = lang === 'ja'
+  ? '/clocktimer/'
+  : ctSupportedLangs.has(lang)
+    ? `/clocktimer/${lang}/`
+    : '/clocktimer/en/';
 ---
 
 <section id="product" class="product">

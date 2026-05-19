@@ -2,6 +2,13 @@
 /**
  * Hero — Animated title with liquid background
  */
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/utils';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+
+const lines = [t(lang, 'hero.line1'), t(lang, 'hero.line2')];
 ---
 
 <section id="hero" class="hero">
@@ -16,12 +23,13 @@
   <div class="hero-content">
     <div class="mission-statement">
       <div class="dynamic-title">
-        <div class="title-line">
-          <span class="letter">C</span><span class="letter">r</span><span class="letter">a</span><span class="letter">f</span><span class="letter">t</span><span class="letter">i</span><span class="letter">n</span><span class="letter">g</span><span class="letter space"> </span><span class="letter">i</span><span class="letter">d</span><span class="letter">e</span><span class="letter">a</span><span class="letter">s</span>
-        </div>
-        <div class="title-line">
-          <span class="letter">i</span><span class="letter">n</span><span class="letter space"> </span><span class="letter">s</span><span class="letter">y</span><span class="letter">n</span><span class="letter">c</span><span class="letter">.</span>
-        </div>
+        {lines.map((line) => (
+          <div class="title-line">
+            {Array.from(line).map((char) => (
+              <span class={`letter${char === ' ' ? ' space' : ''}`}>{char}</span>
+            ))}
+          </div>
+        ))}
       </div>
     </div>
   </div>
