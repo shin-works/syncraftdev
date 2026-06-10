@@ -28,6 +28,13 @@
       "sha256": "2ce7b70e8ff8afb6b9e7d5083f5f2ac4fcb46457e8e15694de48d9ad6644f052",
       "minAppVersion": "2.0.8"
     },
+    "pt": {
+      "version": 1,
+      "url": "https://syncraft.dev/timesense/voices/pt/core_v1.zip",
+      "size": 23365578,
+      "sha256": "d982fe1cf92192558cb1e587984bbc35a66c77719476cb2d477c6919764aebb1",
+      "minAppVersion": "2.0.8"
+    },
     "zhcn": {
       "version": 1,
       "url": "https://syncraft.dev/timesense/voices/zhcn/core_v1.zip",
