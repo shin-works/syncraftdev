@@ -1,24 +1,24 @@
 {
   "packs": {
     "de": {
-      "version": 1,
-      "url": "https://syncraft.dev/timesense/voices/de/core_v1.zip",
-      "size": 7363270,
-      "sha256": "00fd09ed15c7d37983abf62b06403e1e27258da102b2d2a5f3ee112950f9f8d9",
+      "version": 2,
+      "url": "https://syncraft.dev/timesense/voices/de/core_v2.zip",
+      "size": 6266426,
+      "sha256": "5964e0d405cefeb53accf86ccc9731a1603796bd610c52509a802550b46819e1",
       "minAppVersion": "2.0.8"
     },
     "es": {
-      "version": 4,
-      "url": "https://syncraft.dev/timesense/voices/es/core_v4.zip",
-      "size": 29691162,
-      "sha256": "35d2b6d3c49b61acbe3804eaf90262e23d03c58795eeb178cb14d2986767a247",
+      "version": 5,
+      "url": "https://syncraft.dev/timesense/voices/es/core_v5.zip",
+      "size": 28586804,
+      "sha256": "f0585cf39a1debe260be9a7ec48da3f7385ded3a8d9d6669ec87d3e4b04568d1",
       "minAppVersion": "2.0.8"
     },
     "fr": {
-      "version": 1,
-      "url": "https://syncraft.dev/timesense/voices/fr/core_v1.zip",
-      "size": 6514021,
-      "sha256": "6a7d9d871e4de0a2cca2cca1faafb5aec36f50a0854ff0e51641b15f571a12be",
+      "version": 2,
+      "url": "https://syncraft.dev/timesense/voices/fr/core_v2.zip",
+      "size": 5435947,
+      "sha256": "de88fd2ae3fad844c5049c2d9414990dfe580c838aba59329f8232d5bc608720",
       "minAppVersion": "2.0.8"
     },
     "ko": {
@@ -29,10 +29,10 @@
       "minAppVersion": "2.0.8"
     },
     "pt": {
-      "version": 1,
-      "url": "https://syncraft.dev/timesense/voices/pt/core_v1.zip",
-      "size": 23365578,
-      "sha256": "d982fe1cf92192558cb1e587984bbc35a66c77719476cb2d477c6919764aebb1",
+      "version": 2,
+      "url": "https://syncraft.dev/timesense/voices/pt/core_v2.zip",
+      "size": 22259314,
+      "sha256": "976917792e21d69cdd920e2bb05d803f27f0cbfebeb176467af80ff324929259",
       "minAppVersion": "2.0.8"
     },
     "zhcn": {
