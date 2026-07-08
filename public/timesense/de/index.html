@@ -1374,6 +1374,188 @@
             font-size: 0.9rem;
         }
         
+
+        /* FAQ Section */
+        .faq {
+            background: linear-gradient(180deg, #fffdfb 0%, #fff7f2 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .faq .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .faq-intro {
+            text-align: center;
+            max-width: 760px;
+            margin: 0 auto 50px;
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: #5f6570;
+        }
+
+        .faq-category {
+            max-width: 980px;
+            margin: 0 auto 28px;
+            padding: 26px;
+            background: rgba(255, 255, 255, 0.88);
+            border: 1px solid rgba(255, 107, 138, 0.12);
+            border-radius: 28px;
+            box-shadow: var(--shadow-lg);
+            backdrop-filter: blur(6px);
+        }
+
+        .faq-category:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .faq-category-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 18px;
+            padding: 8px 16px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, rgba(255, 107, 138, 0.14), rgba(255, 207, 86, 0.22));
+            color: var(--primary-dark);
+            font-size: 0.95rem;
+            font-weight: 800;
+            letter-spacing: 0.02em;
+        }
+
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .faq-item {
+            border-radius: 22px;
+            background: #fff;
+            border: 1px solid rgba(48, 50, 56, 0.08);
+            box-shadow: var(--shadow-sm);
+            transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+            overflow: hidden;
+        }
+
+        .faq-item.is-open {
+            border-color: rgba(255, 107, 138, 0.26);
+            box-shadow: 0 12px 32px rgba(233, 72, 108, 0.12);
+            transform: translateY(-2px);
+        }
+
+        .faq-question {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 18px;
+            padding: 22px 24px;
+            border: none;
+            background: transparent;
+            text-align: left;
+            cursor: pointer;
+            color: var(--dark);
+        }
+
+        .faq-question:focus-visible {
+            outline: 3px solid rgba(58, 205, 223, 0.35);
+            outline-offset: -3px;
+        }
+
+        .faq-question-text {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 1.02rem;
+            line-height: 1.7;
+            font-weight: 700;
+        }
+
+        .faq-question-prefix {
+            color: var(--primary);
+            font-weight: 800;
+            flex-shrink: 0;
+        }
+
+        .faq-icon {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 107, 138, 0.1);
+            color: var(--primary-dark);
+            font-size: 1.3rem;
+            font-weight: 500;
+            flex-shrink: 0;
+            transition: transform var(--transition-fast), background-color var(--transition-fast), color var(--transition-fast);
+        }
+
+        .faq-item.is-open .faq-icon {
+            transform: rotate(45deg);
+            background: var(--primary);
+            color: #fff;
+        }
+
+        .faq-answer-wrap {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.35s ease, opacity 0.25s ease;
+        }
+
+        .faq-item.is-open .faq-answer-wrap {
+            max-height: 2400px;
+            opacity: 1;
+        }
+
+        .faq-answer {
+            padding: 0 24px 24px;
+            color: #4a4f57;
+            line-height: 1.9;
+        }
+
+        .faq-answer > :first-child {
+            margin-top: 0;
+        }
+
+        .faq-answer p,
+        .faq-answer ul,
+        .faq-answer ol,
+        .faq-answer h4 {
+            margin-bottom: 14px;
+        }
+
+        .faq-answer strong {
+            color: var(--dark);
+        }
+
+        .faq-answer ul,
+        .faq-answer ol {
+            padding-left: 1.4em;
+        }
+
+        .faq-answer li + li {
+            margin-top: 8px;
+        }
+
+        .faq-answer h4 {
+            margin-top: 24px;
+            font-size: 1rem;
+            color: var(--primary-dark);
+        }
+
+        .faq-note {
+            padding: 16px 18px;
+            margin-top: 18px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, rgba(255, 207, 86, 0.18), rgba(255, 143, 168, 0.12));
+        }
+
         /* Footer */
         footer {
             background-color: var(--dark);
@@ -1559,6 +1741,21 @@
                 padding: 30px 20px;
             }
             
+
+            .faq-category {
+                padding: 20px;
+                border-radius: 24px;
+            }
+
+            .faq-question {
+                padding: 18px 18px;
+                gap: 14px;
+            }
+
+            .faq-answer {
+                padding: 0 18px 20px;
+            }
+
             .testimonial-author {
                 flex-direction: column;
                 text-align: center;
@@ -1614,6 +1811,27 @@
                 height: 40px;
             }
             
+
+            .faq-intro {
+                font-size: 0.98rem;
+                margin-bottom: 36px;
+            }
+
+            .faq-category-label {
+                font-size: 0.88rem;
+            }
+
+            .faq-question-text {
+                font-size: 0.95rem;
+                gap: 10px;
+            }
+
+            .faq-icon {
+                width: 34px;
+                height: 34px;
+                font-size: 1.15rem;
+            }
+
             .chat-bubble::before {
                 width: 35px;
                 height: 35px;
@@ -1920,7 +2138,7 @@
                             <div class="voice-text">"Du hast noch 30 Minuten."</div>
                             <div class="voice-character">Alltagsbegleiterin / natuerlich und freundlich</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="luma_30min.mp3" type="audio/mpeg">
+                                <source src="/timesense/de/luma_de_30min.mp3" type="audio/mpeg">
                                 Your browser does not support audio playback
                             </audio>
                         </div>
@@ -1935,7 +2153,7 @@
                             <div class="voice-text">"Noch fuenf Minuten! Los geht's!"</div>
                             <div class="voice-character">Passt perfekt zu hektischen Morgen</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="pico_nor_5min.mp3" type="audio/mpeg">
+                                <source src="/timesense/de/pico_nor_de_5min.mp3" type="audio/mpeg">
                                 Your browser does not support audio playback
                             </audio>
                         </div>
@@ -1960,7 +2178,7 @@
                             <div class="voice-text">"Nur noch 5! Du schaffst das.<br>Zieh's bis zum Ende durch!"</div>
                             <div class="voice-character">Motivierender grosser Bruder fuer die Lernzeit</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="milo_5min.mp3" type="audio/mpeg">
+                                <source src="/timesense/de/milo_de_5min.mp3" type="audio/mpeg">
                                 Your browser does not support audio playback
                             </audio>
                         </div>
@@ -1975,7 +2193,7 @@
                             <div class="voice-text">"Okay... nur noch eine Minute.<br>Gleich ist Schlafenszeit."</div>
                             <div class="voice-character">Sanfte Stimme eines fuersorglichen Freundes</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="toto_1min.mp3" type="audio/mpeg">
+                                <source src="/timesense/de/toto_de_1min.mp3" type="audio/mpeg">
                                 Your browser does not support audio playback
                             </audio>
                         </div>
@@ -2029,6 +2247,344 @@
                     <div class="author-info">
                         <div class="author-name">TimeSense Entwicklerteam</div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            <p class="faq-intro">
+                Hier finden Sie Antworten auf die häufigsten Fragen.<br>Tippen Sie auf einen Eintrag, um die Antwort und die Prüfschritte zu öffnen.
+            </p>
+
+            <div class="faq-category">
+                <div class="faq-category-label">1. Wenn etwas nicht funktioniert</div>
+                <div class="faq-list">
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>Der Bildschirm reagiert nicht / Ich kann keine Schaltflächen antippen</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. Möglicherweise ist die Kindersicherung aktiviert.</strong></p>
+                                <p>TimeSense hat eine Kindersicherungsfunktion, mit der sich die Bedienung vorübergehend einschränken lässt, damit Kinder den Timer nicht versehentlich stoppen oder Einstellungen ändern.</p>
+                                <p>Wenn der Bildschirm nicht reagiert, prüfen Sie bitte zuerst, ob die Kindersicherung aktiviert ist.</p>
+                                <h4>So prüfen Sie es</h4>
+                                <ol>
+                                    <li>Prüfen Sie das Zahnradsymbol oben rechts auf dem Hauptbildschirm</li>
+                                    <li>Wenn unten rechts am Zahnradsymbol ein Schloss erscheint, ist die Kindersicherung aktiviert</li>
+                                </ol>
+                                <h4>So deaktivieren Sie es</h4>
+                                <ol>
+                                    <li>Halten Sie das Zahnradsymbol oben rechts gedrückt</li>
+                                    <li>Nach einigen Sekunden öffnet sich der Einstellungsbildschirm</li>
+                                    <li>Wählen Sie im Menü Kindersicherung</li>
+                                    <li>Schalten Sie die Kindersicherung auf AUS</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>Bitte beachten</strong></p>
+                                    <ul>
+                                        <li>Während die Kindersicherung aktiv ist, sind einige Bildschirmaktionen gesperrt</li>
+                                        <li>Das bedeutet nicht, dass die App defekt ist</li>
+                                    </ul>
+                                </div>
+                                <h4>Wenn es weiterhin nicht funktioniert</h4>
+                                <p>Wenn die Kindersicherung nicht aktiv ist oder das Problem weiterhin besteht, kann es sich um ein gerätespezifisches Problem handeln. Schreiben Sie uns bitte per E-Mail an <a href="mailto:hello@syncraft.dev">hello@syncraft.dev</a>.</p>
+                                <ul>
+                                    <li>Gerätemodell</li>
+                                    <li>OS-Version</li>
+                                    <li>App-Version</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>Es gibt keinen Ton / Die Sprachführung wird nicht abgespielt</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. Möglicherweise liegt es an den Geräteeinstellungen oder an den Einstellungen in der App.</strong></p>
+                                <p>TimeSense bietet Sprachführung durch Charaktere und Soundeffekte. In den meisten Fällen liegt fehlender Ton an den Geräteeinstellungen oder an den Soundeinstellungen der App.</p>
+                                <h4>Bitte prüfen</h4>
+                                <ol>
+                                    <li>Prüfen Sie, ob das Gerät nicht auf lautlos oder stumm gestellt ist</li>
+                                    <li>Prüfen Sie, ob Bluetooth-Kopfhörer oder Lautsprecher verbunden sind</li>
+                                    <li>Öffnen Sie über das Zahnradsymbol die Soundeinstellungen und prüfen Sie, ob Sprachführung und Soundeffekte nicht auf AUS stehen</li>
+                                    <li>Wenn die ausgewählte Sprache ein Sprachpaket benötigt, versuchen Sie es bitte erneut mit stabiler Internetverbindung</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>Bitte beachten</strong></p>
+                                    <ul>
+                                        <li>Einige Sprachen unterstützen möglicherweise noch keine Sprachführung</li>
+                                        <li>Zum Herunterladen des Sprachpakets ist eine Internetverbindung erforderlich</li>
+                                    </ul>
+                                </div>
+                                <h4>Wenn es weiterhin nicht funktioniert</h4>
+                                <p>Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.</p>
+                                <ul>
+                                    <li>Gerätemodell</li>
+                                    <li>OS-Version</li>
+                                    <li>App-Version</li>
+                                    <li>Aktuelle Spracheinstellung</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>Der Timer stoppt vorzeitig</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. Möglicherweise wird die App durch Energiespareinstellungen des Geräts automatisch beendet.</strong></p>
+                                <p>TimeSense ist so ausgelegt, dass der Timer möglichst stabil läuft. Auf manchen Android-Geräten können jedoch aggressive Akkueinstellungen die App im Hintergrund einschränken.</p>
+                                <h4>Bitte prüfen</h4>
+                                <ol>
+                                    <li>Prüfen Sie, ob der Energiesparmodus deaktiviert ist</li>
+                                    <li>Prüfen Sie, ob TimeSense von der Akkuoptimierung ausgenommen ist</li>
+                                    <li>Prüfen Sie, ob Hintergrundaktivität für die App erlaubt ist</li>
+                                </ol>
+                                <h4>Wenn Sie Android verwenden</h4>
+                                <p>Einige Hersteller steuern den Akku besonders streng. Das kann häufiger bei Geräten von Samsung Electronics, Xiaomi Corporation und OPPO auftreten.</p>
+                                <div class="faq-note">
+                                    <p><strong>Bitte beachten</strong></p>
+                                    <ul>
+                                        <li>Auf iPhone und iPad tritt dieses Problem seltener auf</li>
+                                        <li>Bezeichnungen der Einstellungen können je nach Hersteller unterschiedlich sein</li>
+                                    </ul>
+                                </div>
+                                <h4>Wenn es weiterhin nicht funktioniert</h4>
+                                <p>Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.</p>
+                                <ul>
+                                    <li>Gerätemodell</li>
+                                    <li>OS-Version</li>
+                                    <li>App-Version</li>
+                                    <li>Was passiert ist, als der Timer gestoppt wurde</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>Ich habe Benachrichtigungen eingestellt, aber sie kommen nicht an</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. Möglicherweise beeinflussen die Benachrichtigungs- oder Akkueinstellungen des Geräts die Zustellung.</strong></p>
+                                <p>TimeSense kann Benachrichtigungen zu den von Ihnen eingestellten Zeiten senden. Wenn sie nicht ankommen, liegt das meist an Einschränkungen auf Geräteseite.</p>
+                                <h4>Bitte prüfen</h4>
+                                <ol>
+                                    <li>Prüfen Sie, ob Benachrichtigungen für TimeSense erlaubt sind</li>
+                                    <li>Prüfen Sie, ob Nicht stören oder Fokus-Modus aktiv ist</li>
+                                    <li>Prüfen Sie, ob der Energiesparmodus deaktiviert ist</li>
+                                </ol>
+                                <h4>Wenn Sie Android verwenden</h4>
+                                <p>Akkuoptimierung oder Hintergrundbeschränkungen können Benachrichtigungen verzögern oder blockieren. Die genauen Einstellungsnamen unterscheiden sich je nach Hersteller.</p>
+                                <div class="faq-note">
+                                    <p><strong>Bitte beachten</strong></p>
+                                    <p>Benachrichtigungen von TimeSense hängen nicht nur von der App, sondern auch von den Geräteeinstellungen ab. Auf Android kann das Verhalten je nach Modell unterschiedlich sein.</p>
+                                </div>
+                                <h4>Wenn es weiterhin nicht funktioniert</h4>
+                                <p>Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.</p>
+                                <ul>
+                                    <li>Gerätemodell</li>
+                                    <li>OS-Version</li>
+                                    <li>App-Version</li>
+                                    <li>Eingestellte Uhrzeit der Benachrichtigung</li>
+                                    <li>Was passiert ist, als die Benachrichtigung nicht ankam</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>Kann ich Daten auf ein anderes Gerät übertragen? / Werden Daten synchronisiert?</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. Derzeit speichert TimeSense Daten getrennt pro Gerät und unterstützt keine Synchronisierung zwischen Geräten.</strong></p>
+                                <p>Damit die App für kleine Kinder sicher und datenschutzfreundlich bleibt, verwendet TimeSense weder Konten noch Cloud-Synchronisierung. Die Daten bleiben nur auf dem verwendeten Gerät gespeichert.</p>
+                                <h4>Daten, die derzeit nicht synchronisiert werden</h4>
+                                <ul>
+                                    <li>Profileinstellungen</li>
+                                    <li>Fortschritt der Stempelkarte</li>
+                                    <li>Routine-Einstellungen</li>
+                                    <li>Weitere App-Einstellungen</li>
+                                </ul>
+                                <div class="faq-note">
+                                    <p><strong>Bitte beachten</strong></p>
+                                    <p>In all diesen Fällen werden Daten nicht automatisch geteilt.</p>
+                                    <ul>
+                                        <li>iPhone ⇔ iPad</li>
+                                        <li>iPhone ⇔ Android</li>
+                                        <li>Android ⇔ Android (verschiedene Geräte)</li>
+                                        <li>Datenübertragung beim Gerätewechsel</li>
+                                    </ul>
+                                </div>
+                                <h4>Informationen zu Käufen</h4>
+                                <p>Wenn Sie dasselbe Store-Konto verwenden, können die Kaufinformationen für TimeSense+ möglicherweise wiederhergestellt werden. Bitte versuchen Sie In-App-Käufe wiederherstellen.</p>
+                                <p>Profile, Stempel und ähnliche Daten können nicht wiederhergestellt werden.</p>
+                                <h4>Wenn es weiterhin nicht funktioniert</h4>
+                                <p>Wenn Daten zu fehlen scheinen oder Sie unsicher sind, was passiert ist, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.</p>
+                                <ul>
+                                    <li>Gerätemodell</li>
+                                    <li>OS-Version</li>
+                                    <li>App-Version</li>
+                                    <li>Was gerade passiert</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="faq-category">
+                <div class="faq-category-label">2. Käufe und TimeSense+</div>
+                <div class="faq-list">
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>Was ist der Unterschied zwischen der kostenlosen Version und TimeSense+?</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. Sie können TimeSense kostenlos nutzen, aber einige Funktionen sind nur mit TimeSense+ verfügbar.</strong></p>
+                                <p>TimeSense enthält die grundlegenden Timer-Funktionen kostenlos. Für Familien, die mehr Flexibilität möchten, gibt es zusätzlich den kostenpflichtigen Plan TimeSense+.</p>
+                                <h4>Was Sie in der kostenlosen Version nutzen können</h4>
+                                <ul>
+                                    <li>Grundlegende Timer-Funktionen</li>
+                                    <li>Sprachführung durch Charaktere</li>
+                                    <li>Routinen (mit einigen Einschränkungen)</li>
+                                    <li>Profile (mit einigen Einschränkungen)</li>
+                                    <li>Stempelkarten-Funktion</li>
+                                </ul>
+                                <p>In der kostenlosen Version können Anzeigen angezeigt werden.</p>
+                                <h4>Was Sie mit TimeSense+ nutzen können</h4>
+                                <ul>
+                                    <li>Mehrere Profile verwenden</li>
+                                    <li>Mehr gespeicherte Routinen</li>
+                                    <li>Einige Funktionslimits freischalten</li>
+                                    <li>Werbung reduzieren oder ausblenden</li>
+                                    <li>Zugriff auf künftige Premium-Funktionen</li>
+                                </ul>
+                                <div class="faq-note">
+                                    <p><strong>Hinweis</strong></p>
+                                    <p>Wir empfehlen, zuerst die kostenlose Version auszuprobieren und TimeSense+ in Betracht zu ziehen, wenn es gut zu Ihrem Kind passt. Die neuesten Informationen finden Sie im Kaufbildschirm der App.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>Ich habe TimeSense+ gekauft, kann es aber nicht nutzen</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. Möglicherweise wurde der Kauf noch nicht übernommen oder Sie sind mit einem anderen Store-Konto angemeldet.</strong></p>
+                                <p>Wenn Premium-Funktionen nach dem Kauf nicht verfügbar sind, wurde der Kaufstatus möglicherweise noch nicht korrekt synchronisiert.</p>
+                                <h4>Bitte prüfen</h4>
+                                <ol>
+                                    <li>Prüfen Sie, ob Sie mit demselben Store-Konto angemeldet sind, mit dem der Kauf durchgeführt wurde</li>
+                                    <li>Versuchen Sie Käufe wiederherstellen im TimeSense+-Menü der App</li>
+                                    <li>Prüfen Sie die Internetverbindung, starten Sie die App neu und versuchen Sie es nach einigen Minuten erneut</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>Bitte beachten</strong></p>
+                                    <p>Da es sich um unterschiedliche Stores handelt, können Kaufinformationen nicht plattformübergreifend geteilt werden.</p>
+                                    <ul>
+                                        <li>Wechsel von iPhone zu Android</li>
+                                        <li>Wechsel von Android zu iPhone</li>
+                                    </ul>
+                                </div>
+                                <h4>Wenn es weiterhin nicht funktioniert</h4>
+                                <p>Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.</p>
+                                <ul>
+                                    <li>Gerätemodell</li>
+                                    <li>OS-Version</li>
+                                    <li>App-Version</li>
+                                    <li>Name des gekauften Plans</li>
+                                    <li>Kaufdatum und -uhrzeit, falls bekannt</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>Ich möchte mein Abonnement kündigen</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. Abonnements müssen über Ihr Store-Konto gekündigt werden, nicht innerhalb der App.</strong></p>
+                                <p>TimeSense-Abonnements werden über den App Store oder Google Play verwaltet. Sie können nicht direkt in der App gekündigt werden.</p>
+                                <h4>Wenn Sie iPhone oder iPad verwenden</h4>
+                                <ol>
+                                    <li>Öffnen Sie die Einstellungen-App</li>
+                                    <li>Tippen Sie oben auf Ihr Apple-Konto</li>
+                                    <li>Wählen Sie Abonnements</li>
+                                    <li>Wählen Sie TimeSense</li>
+                                    <li>Wählen Sie Abo kündigen</li>
+                                </ol>
+                                <h4>Wenn Sie Android verwenden</h4>
+                                <ol>
+                                    <li>Öffnen Sie den Google Play Store</li>
+                                    <li>Tippen Sie oben rechts auf Ihr Kontosymbol</li>
+                                    <li>Wählen Sie Zahlungen und Abos</li>
+                                    <li>Wählen Sie Abos</li>
+                                    <li>Wählen Sie TimeSense</li>
+                                    <li>Wählen Sie Abo kündigen</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>Bitte beachten</strong></p>
+                                    <ul>
+                                        <li>Das Löschen der App kündigt das Abo nicht</li>
+                                        <li>Nach der Kündigung können Sie es bis zum Ende des aktuellen Abrechnungszeitraums weiter nutzen</li>
+                                        <li>Nach der Kündigung wird es beim nächsten Mal nicht automatisch verlängert</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
@@ -2291,6 +2847,10 @@
         }
         
         function updateCarousel() {
+            if (!carouselInner || items.length === 0) {
+                return;
+            }
+
             const width = items[0].offsetWidth;
             carouselInner.style.transform = `translateX(-${currentIndex * width}px)`;
             
@@ -2316,13 +2876,17 @@
             updateCarousel();
         }
         
-        prevButton.addEventListener('click', function() {
-            goToSlide(currentIndex - 1);
-        });
+        if (prevButton) {
+            prevButton.addEventListener('click', function() {
+                goToSlide(currentIndex - 1);
+            });
+        }
         
-        nextButton.addEventListener('click', function() {
-            goToSlide(currentIndex + 1);
-        });
+        if (nextButton) {
+            nextButton.addEventListener('click', function() {
+                goToSlide(currentIndex + 1);
+            });
+        }
         
         // Voice Sample Player
         const voiceItems = document.querySelectorAll('.voice-item');
@@ -2370,7 +2934,41 @@
                 updateCarousel();
             }
         });
-        
+
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        function closeFaqItem(item) {
+            const button = item.querySelector('.faq-question');
+            item.classList.remove('is-open');
+            button.setAttribute('aria-expanded', 'false');
+        }
+
+        function openFaqItem(item) {
+            const button = item.querySelector('.faq-question');
+            faqItems.forEach((faqItem) => {
+                if (faqItem !== item) {
+                    closeFaqItem(faqItem);
+                }
+            });
+            item.classList.add('is-open');
+            button.setAttribute('aria-expanded', 'true');
+        }
+
+        faqItems.forEach((item) => {
+            const button = item.querySelector('.faq-question');
+            button.addEventListener('click', function() {
+                const isOpen = item.classList.contains('is-open');
+                if (isOpen) {
+                    closeFaqItem(item);
+                } else {
+                    openFaqItem(item);
+                }
+            });
+        });
+
+
         // Initialize carousel if function exists
         if (typeof updateCarousel === 'function') {
             updateCarousel();

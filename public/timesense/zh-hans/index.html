@@ -1636,6 +1636,226 @@
                 margin-right: 45px;
             }
         }
+    
+        /* FAQ Section */
+        .faq {
+            background: linear-gradient(180deg, #fffdfb 0%, #fff7f2 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .faq .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .faq-intro {
+            text-align: center;
+            max-width: 760px;
+            margin: 0 auto 50px;
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: #5f6570;
+        }
+
+        .faq-category {
+            max-width: 980px;
+            margin: 0 auto 28px;
+            padding: 26px;
+            background: rgba(255, 255, 255, 0.88);
+            border: 1px solid rgba(255, 107, 138, 0.12);
+            border-radius: 28px;
+            box-shadow: var(--shadow-lg);
+            backdrop-filter: blur(6px);
+        }
+
+        .faq-category:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .faq-category-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 18px;
+            padding: 8px 16px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, rgba(255, 107, 138, 0.14), rgba(255, 207, 86, 0.22));
+            color: var(--primary-dark);
+            font-size: 0.95rem;
+            font-weight: 800;
+            letter-spacing: 0.02em;
+        }
+
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .faq-item {
+            border-radius: 22px;
+            background: #fff;
+            border: 1px solid rgba(48, 50, 56, 0.08);
+            box-shadow: var(--shadow-sm);
+            transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+            overflow: hidden;
+        }
+
+        .faq-item.is-open {
+            border-color: rgba(255, 107, 138, 0.26);
+            box-shadow: 0 12px 32px rgba(233, 72, 108, 0.12);
+            transform: translateY(-2px);
+        }
+
+        .faq-question {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 18px;
+            padding: 22px 24px;
+            border: none;
+            background: transparent;
+            text-align: left;
+            cursor: pointer;
+            color: var(--dark);
+        }
+
+        .faq-question:focus-visible {
+            outline: 3px solid rgba(58, 205, 223, 0.35);
+            outline-offset: -3px;
+        }
+
+        .faq-question-text {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 1.02rem;
+            line-height: 1.7;
+            font-weight: 700;
+        }
+
+        .faq-question-prefix {
+            color: var(--primary);
+            font-weight: 800;
+            flex-shrink: 0;
+        }
+
+        .faq-icon {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 107, 138, 0.1);
+            color: var(--primary-dark);
+            font-size: 1.3rem;
+            font-weight: 500;
+            flex-shrink: 0;
+            transition: transform var(--transition-fast), background-color var(--transition-fast), color var(--transition-fast);
+        }
+
+        .faq-item.is-open .faq-icon {
+            transform: rotate(45deg);
+            background: var(--primary);
+            color: #fff;
+        }
+
+        .faq-answer-wrap {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.35s ease, opacity 0.25s ease;
+        }
+
+        .faq-item.is-open .faq-answer-wrap {
+            max-height: 2400px;
+            opacity: 1;
+        }
+
+        .faq-answer {
+            padding: 0 24px 24px;
+            color: #4a4f57;
+            line-height: 1.9;
+        }
+
+        .faq-answer > :first-child {
+            margin-top: 0;
+        }
+
+        .faq-answer p,
+        .faq-answer ul,
+        .faq-answer ol,
+        .faq-answer h4 {
+            margin-bottom: 14px;
+        }
+
+        .faq-answer strong {
+            color: var(--dark);
+        }
+
+        .faq-answer ul,
+        .faq-answer ol {
+            padding-left: 1.4em;
+        }
+
+        .faq-answer li + li {
+            margin-top: 8px;
+        }
+
+        .faq-answer h4 {
+            margin-top: 24px;
+            font-size: 1rem;
+            color: var(--primary-dark);
+        }
+
+        .faq-note {
+            padding: 16px 18px;
+            margin-top: 18px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, rgba(255, 207, 86, 0.18), rgba(255, 143, 168, 0.12));
+        }
+
+        @media (max-width: 768px) {
+            .faq-category {
+                padding: 20px;
+                border-radius: 24px;
+            }
+
+            .faq-question {
+                padding: 18px 18px;
+                gap: 14px;
+            }
+
+            .faq-answer {
+                padding: 0 18px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .faq-intro {
+                font-size: 0.98rem;
+                margin-bottom: 36px;
+            }
+
+            .faq-category-label {
+                font-size: 0.88rem;
+            }
+
+            .faq-question-text {
+                font-size: 0.95rem;
+                gap: 10px;
+            }
+
+            .faq-icon {
+                width: 34px;
+                height: 34px;
+                font-size: 1.15rem;
+            }
+        }
+
     </style>
     <!-- Meta Pixel Code -->
     <script>
@@ -1920,7 +2140,7 @@
                             <div class="voice-text">“还剩 30 分钟哦。”</div>
                             <div class="voice-character">日常陪伴型 / 自然又亲切</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="../en/luma_30min.mp3" type="audio/mpeg">
+                                <source src="/timesense/zh-hans/luma_zhcn_30min.mp3" type="audio/mpeg">
                                 你的浏览器不支持音频播放
                             </audio>
                         </div>
@@ -1935,7 +2155,7 @@
                             <div class="voice-text">“还剩 5 分钟，我们要快一点了！”</div>
                             <div class="voice-character">特别适合忙碌的早晨</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="../en/pico_nor_5min.mp3" type="audio/mpeg">
+                                <source src="/timesense/zh-hans/pico_nor_zhcn_5min.mp3" type="audio/mpeg">
                                 你的浏览器不支持音频播放
                             </audio>
                         </div>
@@ -1960,7 +2180,7 @@
                             <div class="voice-text">“再 5 分钟！你可以的，<br>一起冲到最后吧！”</div>
                             <div class="voice-character">像热血大哥哥一样，陪你冲刺作业</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="../en/milo_5min.mp3" type="audio/mpeg">
+                                <source src="/timesense/zh-hans/milo_zhcn_5min.mp3" type="audio/mpeg">
                                 你的浏览器不支持音频播放
                             </audio>
                         </div>
@@ -1975,7 +2195,7 @@
                             <div class="voice-text">“好哦……只剩 1 分钟了，<br>差不多该准备睡觉啦。”</div>
                             <div class="voice-character">像温柔朋友一样的暖心提醒</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="../en/toto_1min.mp3" type="audio/mpeg">
+                                <source src="/timesense/zh-hans/toto_zhcn_1min.mp3" type="audio/mpeg">
                                 你的浏览器不支持音频播放
                             </audio>
                         </div>
@@ -2029,6 +2249,344 @@
                     <div class="author-info">
                         <div class="author-name">TimeSense 开发团队</div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            <p class="faq-intro">
+                这里整理了最常见的问题。<br>点击任意项目即可展开答案与确认步骤。
+            </p>
+
+            <div class="faq-category">
+                <div class="faq-category-label">① 遇到问题时</div>
+                <div class="faq-list">
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>画面没有反应 / 按钮无法点击</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 有可能是儿童锁已开启。</strong></p>
+                                <p>TimeSense 提供儿童锁功能，可暂时限制屏幕操作，避免孩子误触停止计时器或修改设置。</p>
+                                <p>如果画面没有反应，请先确认是否已开启儿童锁。</p>
+                                <h4>确认方法</h4>
+                                <ol>
+                                    <li>请查看主界面右上角的齿轮图标</li>
+                                    <li>如果齿轮图标右下角显示锁头标记，说明儿童锁已开启</li>
+                                </ol>
+                                <h4>解除方法</h4>
+                                <ol>
+                                    <li>长按右上角的齿轮图标</li>
+                                    <li>几秒后会打开设置页面</li>
+                                    <li>在菜单中选择儿童锁</li>
+                                    <li>将儿童锁切换为 OFF</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>请注意</strong></p>
+                                    <ul>
+                                        <li>开启儿童锁时，部分屏幕操作会被限制</li>
+                                        <li>这并不代表 App 故障</li>
+                                    </ul>
+                                </div>
+                                <h4>如果仍未解决</h4>
+                                <p>如果儿童锁并未开启，或按照以上步骤后问题仍然存在，可能是设备本身的个别问题。请发送邮件至 <a href="mailto:hello@syncraft.dev">hello@syncraft.dev</a> 联系我们。</p>
+                                <ul>
+                                    <li>设备型号</li>
+                                    <li>OS 版本</li>
+                                    <li>App 版本</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>没有声音 / 语音提示无法播放</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 可能与设备设置或 App 内设置有关。</strong></p>
+                                <p>TimeSense 提供角色语音提示与音效。大多数没有声音的情况，都与设备设置或 App 内声音设置有关。</p>
+                                <h4>请确认</h4>
+                                <ol>
+                                    <li>确认设备未处于静音模式</li>
+                                    <li>确认没有连接蓝牙耳机或音箱</li>
+                                    <li>从主界面齿轮图标打开声音设置，确认语音提示和音效没有被设为 OFF</li>
+                                    <li>如果所选语言需要语音包，请在网络稳定时再次尝试</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>请注意</strong></p>
+                                    <ul>
+                                        <li>部分语言可能暂时还不支持语音</li>
+                                        <li>下载语音包需要网络连接</li>
+                                    </ul>
+                                </div>
+                                <h4>如果仍未解决</h4>
+                                <p>如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。</p>
+                                <ul>
+                                    <li>设备型号</li>
+                                    <li>OS 版本</li>
+                                    <li>App 版本</li>
+                                    <li>当前使用的语言设置</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>计时器会在中途停止</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 可能是设备的省电设置自动停止了 App。</strong></p>
+                                <p>TimeSense 已尽量设计为在计时过程中稳定运行，但某些 Android 设备的电池设置可能会限制 App 的后台运行。</p>
+                                <h4>请确认</h4>
+                                <ol>
+                                    <li>确认省电模式未开启</li>
+                                    <li>确认 TimeSense 未被加入电池优化</li>
+                                    <li>确认已允许后台运行</li>
+                                </ol>
+                                <h4>如果您使用 Android 设备</h4>
+                                <p>部分品牌对电池有更严格的限制，因此在 Samsung Electronics、Xiaomi Corporation、OPPO 等设备上可能更容易出现。</p>
+                                <div class="faq-note">
+                                    <p><strong>请注意</strong></p>
+                                    <ul>
+                                        <li>iPhone / iPad 较少出现此问题</li>
+                                        <li>Android 的设置名称会因品牌而异</li>
+                                    </ul>
+                                </div>
+                                <h4>如果仍未解决</h4>
+                                <p>如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。</p>
+                                <ul>
+                                    <li>设备型号</li>
+                                    <li>OS 版本</li>
+                                    <li>App 版本</li>
+                                    <li>计时器停止时的情况</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>已经设置了通知，但没有收到</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 可能与设备的通知设置或省电设置有关。</strong></p>
+                                <p>TimeSense 可以在您设定的时间发送通知。若没有收到通知，通常是设备端限制所造成。</p>
+                                <h4>请确认</h4>
+                                <ol>
+                                    <li>确认设备已允许 TimeSense 发送通知</li>
+                                    <li>确认勿扰模式或专注模式未开启</li>
+                                    <li>确认省电模式未开启</li>
+                                </ol>
+                                <h4>如果您使用 Android 设备</h4>
+                                <p>电池优化或后台限制可能会导致通知延迟或被拦截。设置名称会因品牌而异。</p>
+                                <div class="faq-note">
+                                    <p><strong>请注意</strong></p>
+                                    <p>TimeSense 的通知不仅会受到 App 本身影响，也会受到设备设置影响。Android 上的表现可能因机型而不同。</p>
+                                </div>
+                                <h4>如果仍未解决</h4>
+                                <p>如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。</p>
+                                <ul>
+                                    <li>设备型号</li>
+                                    <li>OS 版本</li>
+                                    <li>App 版本</li>
+                                    <li>您设置的通知时间</li>
+                                    <li>通知未送达时的情况</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>可以把数据转移到其他设备吗？ / 数据会同步吗？</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 目前 TimeSense 会将数据分别保存在每台设备上，暂不支持设备间同步。</strong></p>
+                                <p>为了让年幼孩子也能安心使用，TimeSense 不使用账号注册或云端同步。数据只会保存在当前使用的设备中。</p>
+                                <h4>目前不会同步的数据</h4>
+                                <ul>
+                                    <li>个人资料设置</li>
+                                    <li>印章卡进度</li>
+                                    <li>例行设置</li>
+                                    <li>其他 App 设置</li>
+                                </ul>
+                                <div class="faq-note">
+                                    <p><strong>请注意</strong></p>
+                                    <p>以上情况都不会自动共享数据。</p>
+                                    <ul>
+                                        <li>iPhone ⇔ iPad</li>
+                                        <li>iPhone ⇔ Android</li>
+                                        <li>Android ⇔ Android（不同设备）</li>
+                                        <li>更换设备时</li>
+                                    </ul>
+                                </div>
+                                <h4>关于购买信息</h4>
+                                <p>如果您使用相同的商店账号，付费方案（TimeSense+）的购买信息有可能可以恢复。请尝试使用 App 内的恢复购买功能。</p>
+                                <p>个人资料、印章等数据本身无法恢复。</p>
+                                <h4>如果仍未解决</h4>
+                                <p>如果看起来像是数据丢失，或您不确定发生了什么，请通过 App 内的反馈菜单联系我们。</p>
+                                <ul>
+                                    <li>设备型号</li>
+                                    <li>OS 版本</li>
+                                    <li>App 版本</li>
+                                    <li>当前发生的情况</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="faq-category">
+                <div class="faq-category-label">② 购买与 TimeSense+</div>
+                <div class="faq-list">
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>免费版和 TimeSense+（付费版）有什么区别？</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. TimeSense 可以免费使用，但部分功能需通过 TimeSense+ 使用。</strong></p>
+                                <p>TimeSense 的基础计时功能可免费使用，同时也提供付费方案 TimeSense+，适合需要更多灵活性的家庭。</p>
+                                <h4>免费版可使用的内容</h4>
+                                <ul>
+                                    <li>基础计时功能</li>
+                                    <li>角色语音提示</li>
+                                    <li>例行功能（部分限制）</li>
+                                    <li>个人资料功能（部分限制）</li>
+                                    <li>印章卡功能</li>
+                                </ul>
+                                <p>免费版可能会显示广告。</p>
+                                <h4>TimeSense+ 可使用的内容</h4>
+                                <ul>
+                                    <li>使用多个个人资料</li>
+                                    <li>增加可保存的例行数量</li>
+                                    <li>解除部分功能限制</li>
+                                    <li>减少或隐藏广告</li>
+                                    <li>使用未来新增的高级功能</li>
+                                </ul>
+                                <div class="faq-note">
+                                    <p><strong>建议</strong></p>
+                                    <p>建议先从免费版开始体验，如果觉得适合孩子，再考虑升级到 TimeSense+。最新内容请以 App 内购买页面为准。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>我已经购买了 TimeSense+，但仍然无法使用</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 购买信息可能尚未同步，或者您当前登录的是其他商店账号。</strong></p>
+                                <p>如果购买后仍无法使用高级功能，可能是购买状态尚未正确同步。</p>
+                                <h4>请确认</h4>
+                                <ol>
+                                    <li>确认您登录的是购买时使用的同一商店账号</li>
+                                    <li>请在 App 内的 TimeSense+ 菜单中尝试恢复购买</li>
+                                    <li>确认网络连接正常，重启 App，几分钟后再试一次</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>请注意</strong></p>
+                                    <p>由于商店平台不同，购买信息无法跨平台共享。</p>
+                                    <ul>
+                                        <li>从 iPhone 更换到 Android</li>
+                                        <li>从 Android 更换到 iPhone</li>
+                                    </ul>
+                                </div>
+                                <h4>如果仍未解决</h4>
+                                <p>如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。</p>
+                                <ul>
+                                    <li>设备型号</li>
+                                    <li>OS 版本</li>
+                                    <li>App 版本</li>
+                                    <li>购买的方案名称</li>
+                                    <li>如果知道的话，购买日期和时间</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>我想取消订阅</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 订阅需要在您使用的商店账号中取消，无法在 App 内直接取消。</strong></p>
+                                <p>TimeSense 的订阅由 App Store 或 Google Play 管理，因此不能直接在 App 内取消。</p>
+                                <h4>如果您使用 iPhone / iPad</h4>
+                                <ol>
+                                    <li>打开设置 App</li>
+                                    <li>点击顶部的 Apple 账号</li>
+                                    <li>选择订阅</li>
+                                    <li>选择 TimeSense</li>
+                                    <li>选择取消订阅</li>
+                                </ol>
+                                <h4>如果您使用 Android</h4>
+                                <ol>
+                                    <li>打开 Google Play Store</li>
+                                    <li>点击右上角账号图标</li>
+                                    <li>选择付款与订阅</li>
+                                    <li>选择订阅</li>
+                                    <li>选择 TimeSense</li>
+                                    <li>选择取消订阅</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>请注意</strong></p>
+                                    <ul>
+                                        <li>仅删除 App 并不会取消订阅</li>
+                                        <li>取消后仍可使用到当前计费周期结束</li>
+                                        <li>取消完成后，下次不会自动续订</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
@@ -2291,6 +2849,10 @@
         }
         
         function updateCarousel() {
+            if (!carouselInner || items.length === 0) {
+                return;
+            }
+
             const width = items[0].offsetWidth;
             carouselInner.style.transform = `translateX(-${currentIndex * width}px)`;
             
@@ -2315,14 +2877,17 @@
             
             updateCarousel();
         }
+        if (prevButton) {
+            prevButton.addEventListener('click', function() {
+                goToSlide(currentIndex - 1);
+            });
+        }
         
-        prevButton.addEventListener('click', function() {
-            goToSlide(currentIndex - 1);
-        });
-        
-        nextButton.addEventListener('click', function() {
-            goToSlide(currentIndex + 1);
-        });
+        if (nextButton) {
+            nextButton.addEventListener('click', function() {
+                goToSlide(currentIndex + 1);
+            });
+        }
         
         // Voice Sample Player
         const voiceItems = document.querySelectorAll('.voice-item');
@@ -2370,7 +2935,41 @@
                 updateCarousel();
             }
         });
-        
+
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        function closeFaqItem(item) {
+            const button = item.querySelector('.faq-question');
+            item.classList.remove('is-open');
+            button.setAttribute('aria-expanded', 'false');
+        }
+
+        function openFaqItem(item) {
+            const button = item.querySelector('.faq-question');
+            faqItems.forEach((faqItem) => {
+                if (faqItem !== item) {
+                    closeFaqItem(faqItem);
+                }
+            });
+            item.classList.add('is-open');
+            button.setAttribute('aria-expanded', 'true');
+        }
+
+        faqItems.forEach((item) => {
+            const button = item.querySelector('.faq-question');
+            button.addEventListener('click', function() {
+                const isOpen = item.classList.contains('is-open');
+                if (isOpen) {
+                    closeFaqItem(item);
+                } else {
+                    openFaqItem(item);
+                }
+            });
+        });
+
+
         // Initialize carousel if function exists
         if (typeof updateCarousel === 'function') {
             updateCarousel();

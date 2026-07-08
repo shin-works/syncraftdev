@@ -1636,6 +1636,226 @@
                 margin-right: 45px;
             }
         }
+    
+        /* FAQ Section */
+        .faq {
+            background: linear-gradient(180deg, #fffdfb 0%, #fff7f2 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .faq .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .faq-intro {
+            text-align: center;
+            max-width: 760px;
+            margin: 0 auto 50px;
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: #5f6570;
+        }
+
+        .faq-category {
+            max-width: 980px;
+            margin: 0 auto 28px;
+            padding: 26px;
+            background: rgba(255, 255, 255, 0.88);
+            border: 1px solid rgba(255, 107, 138, 0.12);
+            border-radius: 28px;
+            box-shadow: var(--shadow-lg);
+            backdrop-filter: blur(6px);
+        }
+
+        .faq-category:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .faq-category-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 18px;
+            padding: 8px 16px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, rgba(255, 107, 138, 0.14), rgba(255, 207, 86, 0.22));
+            color: var(--primary-dark);
+            font-size: 0.95rem;
+            font-weight: 800;
+            letter-spacing: 0.02em;
+        }
+
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .faq-item {
+            border-radius: 22px;
+            background: #fff;
+            border: 1px solid rgba(48, 50, 56, 0.08);
+            box-shadow: var(--shadow-sm);
+            transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+            overflow: hidden;
+        }
+
+        .faq-item.is-open {
+            border-color: rgba(255, 107, 138, 0.26);
+            box-shadow: 0 12px 32px rgba(233, 72, 108, 0.12);
+            transform: translateY(-2px);
+        }
+
+        .faq-question {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 18px;
+            padding: 22px 24px;
+            border: none;
+            background: transparent;
+            text-align: left;
+            cursor: pointer;
+            color: var(--dark);
+        }
+
+        .faq-question:focus-visible {
+            outline: 3px solid rgba(58, 205, 223, 0.35);
+            outline-offset: -3px;
+        }
+
+        .faq-question-text {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 1.02rem;
+            line-height: 1.7;
+            font-weight: 700;
+        }
+
+        .faq-question-prefix {
+            color: var(--primary);
+            font-weight: 800;
+            flex-shrink: 0;
+        }
+
+        .faq-icon {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 107, 138, 0.1);
+            color: var(--primary-dark);
+            font-size: 1.3rem;
+            font-weight: 500;
+            flex-shrink: 0;
+            transition: transform var(--transition-fast), background-color var(--transition-fast), color var(--transition-fast);
+        }
+
+        .faq-item.is-open .faq-icon {
+            transform: rotate(45deg);
+            background: var(--primary);
+            color: #fff;
+        }
+
+        .faq-answer-wrap {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.35s ease, opacity 0.25s ease;
+        }
+
+        .faq-item.is-open .faq-answer-wrap {
+            max-height: 2400px;
+            opacity: 1;
+        }
+
+        .faq-answer {
+            padding: 0 24px 24px;
+            color: #4a4f57;
+            line-height: 1.9;
+        }
+
+        .faq-answer > :first-child {
+            margin-top: 0;
+        }
+
+        .faq-answer p,
+        .faq-answer ul,
+        .faq-answer ol,
+        .faq-answer h4 {
+            margin-bottom: 14px;
+        }
+
+        .faq-answer strong {
+            color: var(--dark);
+        }
+
+        .faq-answer ul,
+        .faq-answer ol {
+            padding-left: 1.4em;
+        }
+
+        .faq-answer li + li {
+            margin-top: 8px;
+        }
+
+        .faq-answer h4 {
+            margin-top: 24px;
+            font-size: 1rem;
+            color: var(--primary-dark);
+        }
+
+        .faq-note {
+            padding: 16px 18px;
+            margin-top: 18px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, rgba(255, 207, 86, 0.18), rgba(255, 143, 168, 0.12));
+        }
+
+        @media (max-width: 768px) {
+            .faq-category {
+                padding: 20px;
+                border-radius: 24px;
+            }
+
+            .faq-question {
+                padding: 18px 18px;
+                gap: 14px;
+            }
+
+            .faq-answer {
+                padding: 0 18px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .faq-intro {
+                font-size: 0.98rem;
+                margin-bottom: 36px;
+            }
+
+            .faq-category-label {
+                font-size: 0.88rem;
+            }
+
+            .faq-question-text {
+                font-size: 0.95rem;
+                gap: 10px;
+            }
+
+            .faq-icon {
+                width: 34px;
+                height: 34px;
+                font-size: 1.15rem;
+            }
+        }
+
     </style>
     <!-- Meta Pixel Code -->
     <script>
@@ -1920,7 +2140,7 @@
                             <div class="voice-text">"You've got 30 minutes left."</div>
                             <div class="voice-character">Daily partner / natural and friendly</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="../en/luma_30min.mp3" type="audio/mpeg">
+                                <source src="/timesense/ko/luma_ko_30min.mp3" type="audio/mpeg">
                                 Your browser does not support audio playback
                             </audio>
                         </div>
@@ -1935,7 +2155,7 @@
                             <div class="voice-text">"Five minutes! We gotta hurry!"</div>
                             <div class="voice-character">A perfect fit for rushed mornings</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="../en/pico_nor_5min.mp3" type="audio/mpeg">
+                                <source src="/timesense/ko/pico_nor_ko_5min.mp3" type="audio/mpeg">
                                 Your browser does not support audio playback
                             </audio>
                         </div>
@@ -1960,7 +2180,7 @@
                             <div class="voice-text">"Just 5 more! You got this—<br>let’s blast through to the end!"</div>
                             <div class="voice-character">Hot-blooded big brother in homework mode</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="../en/milo_5min.mp3" type="audio/mpeg">
+                                <source src="/timesense/ko/milo_ko_5min.mp3" type="audio/mpeg">
                                 Your browser does not support audio playback
                             </audio>
                         </div>
@@ -1975,7 +2195,7 @@
                             <div class="voice-text">"Okay... just one more minute.<br>It’s almost bedtime."</div>
                             <div class="voice-character">Gentle voice support from a caring friend</div>
                             <audio controls controlsList="nodownload noplaybackrate" class="audio-player">
-                                <source src="../en/toto_1min.mp3" type="audio/mpeg">
+                                <source src="/timesense/ko/toto_ko_1min.mp3" type="audio/mpeg">
                                 Your browser does not support audio playback
                             </audio>
                         </div>
@@ -2029,6 +2249,344 @@
                     <div class="author-info">
                         <div class="author-name">TimeSense Developer</div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            <p class="faq-intro">
+                자주 받는 질문을 정리했습니다.<br>항목을 누르면 답변과 확인 방법이 펼쳐집니다.
+            </p>
+
+            <div class="faq-category">
+                <div class="faq-category-label">① 문제가 있을 때</div>
+                <div class="faq-list">
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>화면이 움직이지 않아요 / 버튼을 누를 수 없어요</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 차일드락이 켜져 있을 수 있습니다.</strong></p>
+                                <p>TimeSense에는 아이가 실수로 타이머를 멈추거나 설정을 바꾸지 않도록 화면 조작을 잠시 제한하는 차일드락 기능이 있습니다.</p>
+                                <p>화면이 반응하지 않는다면 먼저 차일드락이 켜져 있는지 확인해 주세요.</p>
+                                <h4>확인 방법</h4>
+                                <ol>
+                                    <li>메인 화면 오른쪽 위의 톱니바퀴 아이콘을 확인해 주세요</li>
+                                    <li>톱니바퀴 아이콘 오른쪽 아래에 자물쇠 표시가 있으면 차일드락이 켜져 있습니다</li>
+                                </ol>
+                                <h4>해제 방법</h4>
+                                <ol>
+                                    <li>오른쪽 위 톱니바퀴 아이콘을 길게 눌러 주세요</li>
+                                    <li>몇 초 후 설정 화면이 열립니다</li>
+                                    <li>메뉴에서 차일드락을 선택해 주세요</li>
+                                    <li>차일드락을 OFF로 변경해 주세요</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>주의해 주세요</strong></p>
+                                    <ul>
+                                        <li>차일드락이 켜져 있으면 일부 화면 조작이 제한됩니다</li>
+                                        <li>앱이 고장난 것은 아닙니다</li>
+                                    </ul>
+                                </div>
+                                <h4>그래도 해결되지 않으면</h4>
+                                <p>차일드락이 켜져 있지 않거나 위 방법으로도 해결되지 않으면, 기기 고유의 문제일 수 있습니다. <a href="mailto:hello@syncraft.dev">hello@syncraft.dev</a> 로 이메일을 보내 주세요.</p>
+                                <ul>
+                                    <li>사용 중인 기기명</li>
+                                    <li>OS 버전</li>
+                                    <li>앱 버전</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>소리가 나지 않아요 / 음성 안내가 재생되지 않아요</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 기기 설정이나 앱 설정의 영향일 수 있습니다.</strong></p>
+                                <p>TimeSense에서는 캐릭터 음성 안내와 효과음을 사용할 수 있습니다. 소리가 나지 않는 경우 대부분은 기기 설정이나 앱 내 사운드 설정이 원인입니다.</p>
+                                <h4>확인해 주세요</h4>
+                                <ol>
+                                    <li>기기가 무음 모드인지 확인해 주세요</li>
+                                    <li>Bluetooth 이어폰이나 스피커에 연결되어 있지 않은지 확인해 주세요</li>
+                                    <li>메인 화면 톱니바퀴 아이콘에서 사운드 설정을 열고 음성 안내와 효과음이 OFF가 아닌지 확인해 주세요</li>
+                                    <li>선택한 언어에 음성 팩이 필요하다면, 안정적인 인터넷 환경에서 다시 시도해 주세요</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>주의해 주세요</strong></p>
+                                    <ul>
+                                        <li>일부 언어는 아직 음성을 지원하지 않을 수 있습니다</li>
+                                        <li>음성 팩 다운로드에는 인터넷 연결이 필요합니다</li>
+                                    </ul>
+                                </div>
+                                <h4>그래도 해결되지 않으면</h4>
+                                <p>확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요.</p>
+                                <ul>
+                                    <li>사용 중인 기기명</li>
+                                    <li>OS 버전</li>
+                                    <li>앱 버전</li>
+                                    <li>사용 중인 언어 설정</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>타이머가 중간에 멈춰요</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 기기의 절전 설정 때문에 앱이 자동으로 중지되고 있을 수 있습니다.</strong></p>
+                                <p>TimeSense는 타이머 실행 중에도 안정적으로 동작하도록 설계되어 있지만, 일부 Android 기기에서는 배터리 설정 때문에 백그라운드 동작이 제한될 수 있습니다.</p>
+                                <h4>확인해 주세요</h4>
+                                <ol>
+                                    <li>절전 모드가 켜져 있지 않은지 확인해 주세요</li>
+                                    <li>TimeSense가 배터리 최적화 대상이 아닌지 확인해 주세요</li>
+                                    <li>백그라운드 실행이 허용되어 있는지 확인해 주세요</li>
+                                </ol>
+                                <h4>Android 기기를 사용 중이라면</h4>
+                                <p>일부 제조사는 배터리를 더 강하게 제어합니다. Samsung Electronics, Xiaomi Corporation, OPPO 기기에서 더 자주 발생할 수 있습니다.</p>
+                                <div class="faq-note">
+                                    <p><strong>주의해 주세요</strong></p>
+                                    <ul>
+                                        <li>iPhone / iPad에서는 이 문제가 비교적 적게 발생합니다</li>
+                                        <li>Android 설정 이름은 제조사마다 다를 수 있습니다</li>
+                                    </ul>
+                                </div>
+                                <h4>그래도 해결되지 않으면</h4>
+                                <p>확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요.</p>
+                                <ul>
+                                    <li>사용 중인 기기명</li>
+                                    <li>OS 버전</li>
+                                    <li>앱 버전</li>
+                                    <li>타이머가 멈췄을 때의 상황</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>알림을 설정했는데 도착하지 않아요</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 기기의 알림 설정이나 배터리 설정이 영향을 줄 수 있습니다.</strong></p>
+                                <p>TimeSense는 설정한 시간에 맞춰 알림을 보낼 수 있습니다. 알림이 오지 않는 경우 대부분은 기기 쪽 제한이 원인입니다.</p>
+                                <h4>확인해 주세요</h4>
+                                <ol>
+                                    <li>기기 설정에서 TimeSense 알림이 허용되어 있는지 확인해 주세요</li>
+                                    <li>방해 금지 모드나 집중 모드가 켜져 있지 않은지 확인해 주세요</li>
+                                    <li>절전 모드가 켜져 있지 않은지 확인해 주세요</li>
+                                </ol>
+                                <h4>Android 기기를 사용 중이라면</h4>
+                                <p>배터리 최적화나 백그라운드 제한 때문에 알림이 지연되거나 차단될 수 있습니다. 설정 이름은 제조사마다 다를 수 있습니다.</p>
+                                <div class="faq-note">
+                                    <p><strong>주의해 주세요</strong></p>
+                                    <p>TimeSense 알림은 앱뿐 아니라 기기 설정의 영향도 받습니다. Android에서는 기종에 따라 동작이 다를 수 있습니다.</p>
+                                </div>
+                                <h4>그래도 해결되지 않으면</h4>
+                                <p>확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요.</p>
+                                <ul>
+                                    <li>사용 중인 기기명</li>
+                                    <li>OS 버전</li>
+                                    <li>앱 버전</li>
+                                    <li>알림을 설정한 시간</li>
+                                    <li>알림이 오지 않았을 때의 상황</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>다른 기기로 데이터를 옮길 수 없어요 / 데이터가 동기화되나요?</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 현재 TimeSense는 기기별로 데이터를 저장하며, 기기 간 동기화를 지원하지 않습니다.</strong></p>
+                                <p>어린 아이도 안심하고 사용할 수 있도록 TimeSense는 계정 등록이나 클라우드 동기화를 사용하지 않습니다. 데이터는 사용 중인 기기 안에만 저장됩니다.</p>
+                                <h4>현재 동기화되지 않는 데이터</h4>
+                                <ul>
+                                    <li>프로필 설정</li>
+                                    <li>스탬프 카드 진행 상황</li>
+                                    <li>루틴 설정</li>
+                                    <li>기타 앱 설정</li>
+                                </ul>
+                                <div class="faq-note">
+                                    <p><strong>주의해 주세요</strong></p>
+                                    <p>이 모든 경우에 데이터는 자동으로 공유되지 않습니다.</p>
+                                    <ul>
+                                        <li>iPhone ⇔ iPad</li>
+                                        <li>iPhone ⇔ Android</li>
+                                        <li>Android ⇔ Android(다른 기기)</li>
+                                        <li>기기 변경 시 데이터 이동</li>
+                                    </ul>
+                                </div>
+                                <h4>구매 정보에 대해</h4>
+                                <p>같은 스토어 계정을 사용 중이라면 유료 플랜(TimeSense+) 구매 정보를 복원할 수 있는 경우가 있습니다. 앱 내 구매 복원을 시도해 주세요.</p>
+                                <p>프로필, 스탬프 등의 데이터 자체는 복원되지 않습니다.</p>
+                                <h4>그래도 해결되지 않으면</h4>
+                                <p>데이터가 사라진 것처럼 보이거나 상황이 불분명하면 앱 내 피드백 메뉴로 문의해 주세요.</p>
+                                <ul>
+                                    <li>사용 중인 기기명</li>
+                                    <li>OS 버전</li>
+                                    <li>앱 버전</li>
+                                    <li>현재 발생 중인 상황</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="faq-category">
+                <div class="faq-category-label">② 구매 및 TimeSense+</div>
+                <div class="faq-list">
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>무료 버전과 TimeSense+의 차이는 무엇인가요?</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. TimeSense는 무료로 사용할 수 있지만, 일부 기능은 TimeSense+에서 제공됩니다.</strong></p>
+                                <p>TimeSense는 기본 타이머 기능을 무료로 제공하며, 더 편리하게 사용하고 싶은 가족을 위해 유료 플랜 TimeSense+도 준비되어 있습니다.</p>
+                                <h4>무료 버전에서 가능한 것</h4>
+                                <ul>
+                                    <li>기본 타이머 기능</li>
+                                    <li>캐릭터 음성 안내</li>
+                                    <li>루틴 기능(일부 제한)</li>
+                                    <li>프로필 기능(일부 제한)</li>
+                                    <li>스탬프 카드 기능</li>
+                                </ul>
+                                <p>무료 버전에는 광고가 표시될 수 있습니다.</p>
+                                <h4>TimeSense+에서 가능한 것</h4>
+                                <ul>
+                                    <li>여러 프로필 사용</li>
+                                    <li>저장 가능한 루틴 수 확장</li>
+                                    <li>일부 기능 제한 해제</li>
+                                    <li>광고 제한 또는 숨기기</li>
+                                    <li>향후 프리미엄 기능 이용</li>
+                                </ul>
+                                <div class="faq-note">
+                                    <p><strong>안내</strong></p>
+                                    <p>먼저 무료 버전으로 사용해 보고, 아이에게 잘 맞는다고 느껴지면 TimeSense+를 고려해 주세요. 최신 내용은 앱 내 구매 화면에서 확인하실 수 있습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>TimeSense+를 구매했는데 사용할 수 없어요</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 구매 정보가 아직 반영되지 않았거나 다른 스토어 계정으로 로그인했을 수 있습니다.</strong></p>
+                                <p>구매 후에도 프리미엄 기능을 사용할 수 없다면 구매 상태가 아직 제대로 동기화되지 않았을 수 있습니다.</p>
+                                <h4>확인해 주세요</h4>
+                                <ol>
+                                    <li>구매에 사용한 동일한 스토어 계정으로 로그인했는지 확인해 주세요</li>
+                                    <li>앱 내 TimeSense+ 메뉴에서 구매 복원을 시도해 주세요</li>
+                                    <li>인터넷 연결을 확인하고 앱을 재시작한 뒤 몇 분 후 다시 확인해 주세요</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>주의해 주세요</strong></p>
+                                    <p>스토어가 다르기 때문에 구매 정보는 플랫폼 간에 공유되지 않습니다.</p>
+                                    <ul>
+                                        <li>iPhone에서 Android로 기기 변경</li>
+                                        <li>Android에서 iPhone으로 기기 변경</li>
+                                    </ul>
+                                </div>
+                                <h4>그래도 해결되지 않으면</h4>
+                                <p>확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요.</p>
+                                <ul>
+                                    <li>사용 중인 기기명</li>
+                                    <li>OS 버전</li>
+                                    <li>앱 버전</li>
+                                    <li>구매한 플랜 이름</li>
+                                    <li>알고 있는 경우 구매 날짜와 시간</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button" aria-expanded="false">
+                            <span class="faq-question-text">
+                                <span class="faq-question-prefix">Q.</span>
+                                <span>구독을 해지하고 싶어요</span>
+                            </span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer-wrap">
+                            <div class="faq-answer">
+                                <p><strong>A. 구독 해지는 앱 내부가 아니라 사용 중인 스토어 계정에서 진행해야 합니다.</strong></p>
+                                <p>TimeSense 구독은 App Store 또는 Google Play에서 관리됩니다. 따라서 앱 안에서 직접 해지할 수 없습니다.</p>
+                                <h4>iPhone / iPad를 사용하는 경우</h4>
+                                <ol>
+                                    <li>설정 앱을 열어 주세요</li>
+                                    <li>상단의 Apple 계정을 눌러 주세요</li>
+                                    <li>구독을 선택해 주세요</li>
+                                    <li>TimeSense를 선택해 주세요</li>
+                                    <li>구독 취소를 선택해 주세요</li>
+                                </ol>
+                                <h4>Android를 사용하는 경우</h4>
+                                <ol>
+                                    <li>Google Play Store를 열어 주세요</li>
+                                    <li>오른쪽 위 계정 아이콘을 눌러 주세요</li>
+                                    <li>결제 및 정기 결제를 선택해 주세요</li>
+                                    <li>정기 결제를 선택해 주세요</li>
+                                    <li>TimeSense를 선택해 주세요</li>
+                                    <li>정기 결제 취소를 선택해 주세요</li>
+                                </ol>
+                                <div class="faq-note">
+                                    <p><strong>주의해 주세요</strong></p>
+                                    <ul>
+                                        <li>앱을 삭제해도 구독은 해지되지 않습니다</li>
+                                        <li>해지 후에도 현재 결제 기간이 끝날 때까지 계속 사용할 수 있습니다</li>
+                                        <li>해지가 완료되면 다음 자동 갱신은 진행되지 않습니다</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
@@ -2291,6 +2849,10 @@
         }
         
         function updateCarousel() {
+            if (!carouselInner || items.length === 0) {
+                return;
+            }
+
             const width = items[0].offsetWidth;
             carouselInner.style.transform = `translateX(-${currentIndex * width}px)`;
             
@@ -2315,14 +2877,17 @@
             
             updateCarousel();
         }
+        if (prevButton) {
+            prevButton.addEventListener('click', function() {
+                goToSlide(currentIndex - 1);
+            });
+        }
         
-        prevButton.addEventListener('click', function() {
-            goToSlide(currentIndex - 1);
-        });
-        
-        nextButton.addEventListener('click', function() {
-            goToSlide(currentIndex + 1);
-        });
+        if (nextButton) {
+            nextButton.addEventListener('click', function() {
+                goToSlide(currentIndex + 1);
+            });
+        }
         
         // Voice Sample Player
         const voiceItems = document.querySelectorAll('.voice-item');
@@ -2370,7 +2935,41 @@
                 updateCarousel();
             }
         });
-        
+
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        function closeFaqItem(item) {
+            const button = item.querySelector('.faq-question');
+            item.classList.remove('is-open');
+            button.setAttribute('aria-expanded', 'false');
+        }
+
+        function openFaqItem(item) {
+            const button = item.querySelector('.faq-question');
+            faqItems.forEach((faqItem) => {
+                if (faqItem !== item) {
+                    closeFaqItem(faqItem);
+                }
+            });
+            item.classList.add('is-open');
+            button.setAttribute('aria-expanded', 'true');
+        }
+
+        faqItems.forEach((item) => {
+            const button = item.querySelector('.faq-question');
+            button.addEventListener('click', function() {
+                const isOpen = item.classList.contains('is-open');
+                if (isOpen) {
+                    closeFaqItem(item);
+                } else {
+                    openFaqItem(item);
+                }
+            });
+        });
+
+
         // Initialize carousel if function exists
         if (typeof updateCarousel === 'function') {
             updateCarousel();
