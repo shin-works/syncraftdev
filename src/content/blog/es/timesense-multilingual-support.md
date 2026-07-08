@@ -1,6 +1,6 @@
 ---
 title: "TimeSense ahora es multilingue y ya admite espanol, portugues, aleman, frances, coreano y chino"
-date: 2026-05-21
+date: 2026-06-21
 description: "TimeSense, la app de reloj educativo y temporizador visual para ninos, ahora admite espanol, portugues, aleman, frances, coreano y chino (tradicional y simplificado). Los avisos de voz de los personajes tambien estan disponibles en varios idiomas."
 image: "/blog/timesense_logovisual.png"
 imageAlt: "Anuncio de compatibilidad multilingue de TimeSense"

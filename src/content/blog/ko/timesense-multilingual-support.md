@@ -1,6 +1,6 @@
 ---
 title: "TimeSense가 다국어를 지원합니다. 스페인어, 포르투갈어, 독일어, 프랑스어, 한국어, 중국어를 사용할 수 있어요"
-date: 2026-05-21
+date: 2026-06-21
 description: "어린이를 위한 학습용 시계와 비주얼 타이머 앱 TimeSense가 스페인어, 포르투갈어, 독일어, 프랑스어, 한국어, 중국어(간체/번체)를 지원하게 되었습니다. 화면 표시뿐 아니라 캐릭터 음성 안내도 여러 언어로 사용할 수 있습니다."
 image: "/blog/timesense_logovisual.png"
 imageAlt: "TimeSense 다국어 지원 안내"

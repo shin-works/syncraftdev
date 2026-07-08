@@ -1,6 +1,6 @@
 ---
 title: "TimeSense Now Supports Multiple Languages Including Spanish, Portuguese, German, French, Korean, and Chinese"
-date: 2026-05-21
+date: 2026-06-21
 description: "TimeSense, a learning clock and visual timer app for kids, now supports Spanish, Portuguese, German, French, Korean, and Chinese (Traditional and Simplified). Character voice guidance is now multilingual too."
 image: "/blog/timesense_logovisual.png"
 imageAlt: "TimeSense multilingual support announcement"

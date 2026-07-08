@@ -1,6 +1,6 @@
 ---
 title: "TimeSense devient multilingue et prend en charge l espagnol, le portugais, l allemand, le francais, le coreen et le chinois"
-date: 2026-05-21
+date: 2026-06-21
 description: "TimeSense, l application d horloge educative et de minuteur visuel pour les enfants, prend maintenant en charge l espagnol, le portugais, l allemand, le francais, le coreen et le chinois traditionnel et simplifie. Les messages vocaux des personnages sont eux aussi disponibles en plusieurs langues."
 image: "/blog/timesense_logovisual.png"
 imageAlt: "Annonce du support multilingue de TimeSense"

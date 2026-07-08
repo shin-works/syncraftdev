@@ -1,6 +1,6 @@
 ---
 title: "TimeSense ist jetzt mehrsprachig und unterstutzt Spanisch, Portugiesisch, Deutsch, Franzosisch, Koreanisch und Chinesisch"
-date: 2026-05-21
+date: 2026-06-21
 description: "TimeSense, die Lernuhr- und visuelle Timer-App fur Kinder, unterstutzt jetzt Spanisch, Portugiesisch, Deutsch, Franzosisch, Koreanisch sowie Chinesisch in traditioneller und vereinfachter Schrift. Auch die Sprachhinweise der Charaktere sind jetzt mehrsprachig."
 image: "/blog/timesense_logovisual.png"
 imageAlt: "Ankundigung zur Mehrsprachigkeit von TimeSense"

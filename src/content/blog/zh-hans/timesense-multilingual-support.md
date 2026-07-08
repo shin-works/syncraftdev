@@ -1,6 +1,6 @@
 ---
 title: "TimeSense 现已支持多语言，包括西班牙语、葡萄牙语、德语、法语、韩语和中文"
-date: 2026-05-21
+date: 2026-06-21
 description: "面向儿童的学习时钟与可视化计时器应用 TimeSense 现已支持西班牙语、葡萄牙语、德语、法语、韩语以及中文（简体和繁体）。不仅界面支持多语言，角色语音提醒也同样支持多语言。"
 image: "/blog/timesense_logovisual.png"
 imageAlt: "TimeSense 多语言支持公告"
