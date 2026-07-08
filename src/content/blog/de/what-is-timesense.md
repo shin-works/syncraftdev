@@ -9,6 +9,7 @@ alternates:
   en: "what-is-timesense"
   es: "what-is-timesense"
   fr: "what-is-timesense"
+  pt: "what-is-timesense"
   ko: "what-is-timesense"
   zh-hans: "what-is-timesense"
   zh-hant: "what-is-timesense"

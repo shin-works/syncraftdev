@@ -8,6 +8,7 @@ alternates:
   es: "updates-insights-page-launched"
   de: "updates-insights-page-launched"
   fr: "updates-insights-page-launched"
+  pt: "updates-insights-page-launched"
   ko: "updates-insights-page-launched"
   zh-hans: "updates-insights-page-launched"
 category: "公告"

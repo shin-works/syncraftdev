@@ -10,6 +10,7 @@ alternates:
   es: "what-is-timesense"
   de: "what-is-timesense"
   fr: "what-is-timesense"
+  pt: "what-is-timesense"
   ko: "what-is-timesense"
   zh-hant: "what-is-timesense"
 category: "产品"
