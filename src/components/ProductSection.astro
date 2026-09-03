@@ -37,6 +37,24 @@ const ctHref = lang === 'ja'
   : ctSupportedLangs.has(lang)
     ? `/clocktimer/${lang}/`
     : '/clocktimer/en/';
+const scHref = lang === 'ja' ? '/swingcat/' : '/swingcat/en/';
+const scCopy = lang === 'ja'
+  ? {
+      alt: 'SwingCatの紹介画像（準備中）',
+      desc: '大切な時間を過ごすための、猫式フォーカスタイマー。',
+      feat1: '猫式タイマー',
+      feat2: '猫と暮らす',
+      feat3: '集中を記録',
+      button: 'Product Page',
+    }
+  : {
+      alt: 'SwingCat product image coming soon',
+      desc: 'A focus timer for what matters.',
+      feat1: 'Focus Timer',
+      feat2: 'Live with Cats',
+      feat3: 'Track Focus',
+      button: 'Product Page',
+    };
 ---
 
 <section id="product" class="product">
@@ -150,6 +168,32 @@ const ctHref = lang === 'ja'
         </div>
         <a href={ctHref} class="btn btn-outline">
           {t(lang, 'product.ct.btn')}
+        </a>
+      </div>
+
+      <!-- SwingCat -->
+      <div class="product-info">
+        <div class="product-logo">SwingCat</div>
+        <div class="product-hero product-placeholder" role="img" aria-label={scCopy.alt}>
+          <span>Coming Soon...</span>
+        </div>
+        <p>{scCopy.desc}</p>
+        <div class="product-features">
+          <div class="feature">
+            <i class="fas fa-cat"></i>
+            <span>{scCopy.feat1}</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-home"></i>
+            <span>{scCopy.feat2}</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-chart-line"></i>
+            <span>{scCopy.feat3}</span>
+          </div>
+        </div>
+        <a href={scHref} class="btn btn-outline">
+          {scCopy.button}
         </a>
       </div>
     </div>

@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="集中するほど、猫が増えていく。SwingCatは、ちょっと変わった集中タイマーです。" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://syncraft.dev/swingcat/" />
+    <link rel="alternate" hreflang="ja" href="https://syncraft.dev/swingcat/" />
+    <link rel="alternate" hreflang="en" href="https://syncraft.dev/swingcat/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://syncraft.dev/swingcat/" />
+    <title>SwingCat — ちょっと変わった集中タイマー</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@rive-app/canvas"></script>
+    <style>
+      :root { --sc-bg:#f3f3f1; --sc-surface:#fff; --sc-text:#111; --sc-muted:#6d6d69; --sc-line:#dfdfda; --sc-accent:#ffce35; }
+      * { box-sizing: border-box; }
+      html { scroll-behavior:smooth; }
+      body { margin:0; background:var(--sc-bg); color:var(--sc-text); font-family:"Noto Sans JP", system-ui, sans-serif; -webkit-font-smoothing:antialiased; }
+      .page-container { width:min(100% - 48px, 1120px); margin-inline:auto; }
+      .section { padding:92px 0; }
+      .section > .page-container { padding-left:1em; }
+      .section-title { font-size:clamp(30px, 4vw, 44px); line-height:1.25; letter-spacing:.01em; font-weight:700; margin:0; }
+      .section-copy { color:var(--sc-muted); font-size:16px; line-height:2; }
+      .cta { display:inline-flex; align-items:center; justify-content:center; min-height:52px; padding:0 27px; border-radius:999px; background:#111; color:#fff; font-size:15px; font-weight:700; text-decoration:none; transition:transform .2s ease, background .2s ease; }
+      .cta:hover { transform:translateY(-2px); background:#303030; }
+      .cta[data-link="appStore"] { position:relative; white-space:nowrap; }
+      .cta[data-link="appStore"]:hover, .cta[data-link="appStore"]:focus-visible { color:transparent; }
+      .cta[data-link="appStore"]:hover::after, .cta[data-link="appStore"]:focus-visible::after { content:"Comming Soon..."; position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:14px; }
+      .cta:focus-visible, .faq-question:focus-visible, .menu-button:focus-visible { outline:3px solid var(--sc-accent); outline-offset:3px; }
+      .logo { display:block; width:148px; height:auto; }
+      .hero { min-height:calc(100svh - 168px); display:flex; align-items:center; padding:128px 0 28px; }
+      .hero-grid { display:grid; grid-template-columns:minmax(0,.92fr) minmax(260px, .8fr); align-items:center; gap:clamp(48px, 8vw, 112px); }
+      .hero-content { width:min(100%, 440px); justify-self:center; text-align:center; }
+      .hero-title { font-size:clamp(43px, 5.3vw, 70px); line-height:1.22; letter-spacing:.04em; font-weight:800; margin:0 0 24px; }
+      .hero-copy { max-width:440px; font-size:17px; line-height:1.9; color:var(--sc-muted); margin:0 auto 30px; }
+      .hero-scene-cta { display:none; }
+      .swingcat-demo { --pendulum-size:min(100%, 190px); --pendulum-lift:-61px; --cat-scene-lift:-7px; --cat-seat-raise:50px; position:relative; width:min(100%, 470px); height:clamp(430px, 45vw, 560px); margin-inline:auto; transform:translateX(-20px); isolation:isolate; touch-action:manipulation; }
+      .demo-pendulum { position:absolute; z-index:1; top:var(--pendulum-lift); left:50%; width:var(--pendulum-size); aspect-ratio:1; transform-origin:50% 0; will-change:transform; pointer-events:none; }
+      .demo-pendulum img { display:block; width:100%; height:100%; }
+      .demo-cat { position:absolute; z-index:2; width:clamp(171px, 19.8vw, 245px); height:clamp(196px, 22.5vw, 281px); will-change:transform, left, top; pointer-events:none; }
+      .demo-cat canvas { display:block; width:100%; height:100%; transform:scale(2.4); transform-origin:center; }
+      .demo-fallback { position:absolute; z-index:2; width:94px; height:94px; object-fit:cover; transform:translate(-50%, -50%); filter:drop-shadow(0 7px 5px rgba(0,0,0,.12)); pointer-events:none; }
+      .swingcat-demo.is-rive-ready .demo-fallback { display:none; }
+      .swingcat-demo.is-rive-unavailable .demo-cat { display:none; }
+      .about { background:var(--sc-surface); }
+      .about-inner { display:grid; grid-template-columns:.82fr 1.18fr; gap:clamp(40px,8vw,130px); align-items:start; }
+      .about-copy p { margin:0 0 23px; }
+      .feature-list { display:flex; flex-direction:column; gap:96px; margin-top:54px; }
+      .feature { display:grid; grid-template-columns:minmax(0, .95fr) minmax(245px, .85fr); gap:clamp(40px,8vw,120px); align-items:start; }
+      .feature:nth-child(even) { grid-template-columns:minmax(245px, .85fr) minmax(0, .95fr); }
+      .feature:nth-child(even) .feature-media { order:-1; }
+      .eyebrow { font-size:14px; font-weight:700; letter-spacing:.14em; color:#8a8a84; margin:0 0 18px; }
+      .feature-title { font-size:clamp(25px,3vw,34px); line-height:1.4; margin:0 0 20px; }
+      .feature-media { width:56%; justify-self:center; border-radius:26px; overflow:hidden; background:#e7e7e2; box-shadow:0 10px 30px rgba(0,0,0,.06); }
+      .feature-media video { display:block; width:100%; aspect-ratio:9 / 13; object-fit:cover; }
+      .feature-media img { display:block; width:100%; height:auto; }
+      .feature-media--screen { width:40.5%; aspect-ratio:1 / 2; }
+      .feature-media--screen img { height:100%; object-fit:cover; object-position:center bottom; }
+      .house { background:#e9e9e5; }
+      .house-head { text-align:center; max-width:650px; margin:0 auto 44px; }
+      .house-head .section-copy { margin:21px 0 0; }
+      .house-media { width:min(100%, 350px); margin:auto; padding:8px; border-radius:25px; background:#151515; box-shadow:0 16px 35px rgba(0,0,0,.14); }
+      .house-media img { display:block; width:100%; border-radius:25px; }
+      .pro { background:var(--sc-surface); }
+      .pro-inner { display:grid; grid-template-columns:1fr .9fr; gap:clamp(40px,8vw,120px); align-items:center; max-width:950px; margin:auto; }
+      .pro-logo { width:min(100%, 350px); height:auto; }
+      .faq { background:var(--sc-bg); }
+      .faq .section-title { text-align:center; margin-bottom:42px; }
+      .faq-list { max-width:760px; margin:auto; display:grid; gap:12px; }
+      .faq-item { border-top:1px solid var(--sc-line); border-bottom:1px solid var(--sc-line); background:transparent; }
+      .faq-question { appearance:none; width:100%; display:flex; justify-content:space-between; align-items:center; gap:24px; padding:23px 4px; border:0; background:transparent; color:var(--sc-text); font:inherit; font-weight:700; text-align:left; cursor:pointer; }
+      .faq-icon { width:22px; height:22px; flex:0 0 auto; position:relative; }
+      .faq-icon::before,.faq-icon::after { content:""; position:absolute; top:10px; left:2px; width:18px; height:1.5px; background:#111; transition:transform .2s ease; }
+      .faq-icon::after { transform:rotate(90deg); }
+      .faq-item.open .faq-icon::after { transform:rotate(0); }
+      .faq-answer { display:grid; grid-template-rows:0fr; transition:grid-template-rows .25s ease; }
+      .faq-answer > div { overflow:hidden; color:var(--sc-muted); line-height:1.9; }
+      .faq-item.open .faq-answer { grid-template-rows:1fr; }
+      .faq-item.open .faq-answer > div { padding-bottom:23px; }
+      .closing { padding:92px 0 104px; text-align:center; background:var(--sc-surface); }
+      .closing-title { font-size:clamp(31px,4vw,46px); line-height:1.35; margin:0 0 29px; }
+      header { position:fixed; inset:0 0 auto; height:72px; z-index:20; border-bottom:1px solid rgba(0,0,0,.07); background:rgba(243,243,241,.88); backdrop-filter:blur(12px); }
+      .header-inner { width:min(100% - 48px, 1200px); height:100%; margin:auto; display:flex; align-items:center; justify-content:space-between; }
+      .header-tools { display:flex; align-items:center; gap:18px; }
+      nav { display:flex; align-items:center; gap:29px; }
+      nav a { color:#555; text-decoration:none; font-size:14px; font-weight:600; }
+      nav a:hover { color:#111; }
+      .language-select { appearance:none; min-width:68px; padding:8px 25px 8px 10px; border:1px solid var(--sc-line); border-radius:999px; background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='m3 4 3 3 3-3' fill='none' stroke='%23111' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 9px center; color:#333; font:600 13px inherit; cursor:pointer; }
+      .menu-button { display:none; border:0; background:transparent; padding:8px; }
+      footer { background:#171717; color:#fff; padding:48px 0 30px; }
+      .footer-main { display:flex; justify-content:space-between; gap:32px; padding-bottom:42px; }
+      .footer-brand { font-size:22px; font-weight:700; margin:0; }
+      .footer-logo { display:block; width:148px; height:auto; filter:invert(1); }
+      .footer-copy { color:#a5a5a5; margin:10px 0 0; font-size:13px; }
+      .footer-links { display:flex; flex-wrap:wrap; align-content:flex-start; justify-content:flex-end; gap:11px 25px; }
+      .footer-links a { color:#d3d3d3; font-size:13px; text-decoration:none; }
+      .footer-links a:hover { color:#fff; }
+      .footer-bottom { border-top:1px solid #373737; padding-top:22px; color:#8e8e8e; font-size:12px; }
+      @media (max-width: 700px) {
+        .page-container { width:min(100% - 40px, 1120px); }
+        header { height:64px; }
+        .header-inner { width:min(100% - 40px, 1200px); }
+        .header-tools { margin-left:auto; gap:8px; }
+        .logo { width:126px; }
+        nav { position:absolute; top:64px; left:0; right:0; display:none; flex-direction:column; align-items:stretch; gap:0; padding:12px 20px 18px; background:rgba(243,243,241,.98); border-bottom:1px solid var(--sc-line); }
+        nav.open { display:flex; }
+        nav a { padding:13px 0; }
+        .menu-button { display:block; }
+        .menu-button span { display:block; width:22px; height:1.5px; margin:5px; background:#111; }
+        .hero { min-height:auto; padding:112px 0 32px; }
+        .hero-grid { display:flex; flex-direction:column; gap:36px; }
+        .hero-content { text-align:center; }
+        .hero-title { font-size:44px; margin:0 0 19px; }
+        .hero-copy { margin-inline:auto; font-size:15px; }
+        .hero-copy-cta { display:inline-flex; }
+        .hero-scene-cta { display:none; }
+        .swingcat-demo { --pendulum-size:min(100%, 150px); --pendulum-lift:-42px; --cat-scene-lift:-3px; --cat-seat-raise:36px; width:min(100%, 350px); height:405px; transform:none; }
+        .demo-cat { width:135px; height:155px; }
+        .demo-fallback { width:74px; height:74px; }
+        .section { padding:67px 0; }
+        .section-copy { font-size:15px; line-height:1.95; }
+        .about-inner, .pro-inner { display:flex; flex-direction:column; gap:27px; }
+        .feature-list { margin-top:39px; gap:66px; }
+        .feature, .feature:nth-child(even) { display:flex; flex-direction:column; gap:27px; align-items:stretch; }
+        .feature:nth-child(even) .feature-media { order:0; }
+        .feature-title { font-size:25px; margin-bottom:14px; }
+        .feature-media { border-radius:20px; max-width:270px; width:56%; margin:auto; }
+        .feature-media--screen { width:40.5%; }
+        .house-head { text-align:left; margin-bottom:30px; }
+        .house-media { width:min(100%, 252px); border-radius:22px; padding:6px; }
+        .house-media img { border-radius:22px; }
+        .pro-logo { max-width:280px; }
+        .faq .section-title { text-align:left; margin-bottom:29px; }
+        .faq-question { padding:20px 2px; font-size:15px; }
+        .closing { padding:70px 0 75px; }
+        .footer-main { flex-direction:column; padding-bottom:31px; }
+        .footer-links { justify-content:flex-start; gap:14px 21px; }
+      }
+      @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior:auto !important; transition:none !important; animation:none !important; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <a href="#top" aria-label="SwingCat トップへ"><img class="logo" src="assets/swingcat_logo_texticonl.png" alt="SwingCat" /></a>
+        <div class="header-tools">
+          <nav id="site-nav">
+            <a href="#about">SwingCatとは</a>
+            <a href="#features">特徴</a>
+            <a href="#faq">FAQ</a>
+            <select class="language-select" aria-label="言語を選択" onchange="if (this.value) window.location.href=this.value"><option value="index.html" selected>日本語</option><option value="en/index.html">English</option></select>
+            <a class="cta" data-link="appStore" href="#">ダウンロード</a>
+          </nav>
+        </div>
+        <button class="menu-button" id="menu-button" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="page-container hero-grid">
+          <div class="hero-content">
+            <h1 class="hero-title">ゆれる猫。<br>おちる猫。<br>くらす猫。</h1>
+            <p class="hero-copy">大切な時間を過ごすための、<br>猫式フォーカスタイマー。</p>
+            <a class="cta hero-copy-cta" data-link="appStore" href="#">App Storeからダウンロード</a>
+          </div>
+          <div class="swingcat-demo" id="swingcat-demo" aria-label="振り子に飛びつき、揺れ、落ちるSwingCatの猫">
+            <div class="demo-pendulum" id="demo-pendulum" aria-hidden="true"><img src="assets/swincat_furiko_lp.svg" alt="" /></div>
+            <img class="demo-fallback" id="demo-fallback" src="assets/swingcat_buchi_icon.png" alt="" />
+            <div class="demo-cat" id="demo-cat" aria-hidden="true"><canvas id="swingcat-rive"></canvas></div>
+          </div>
+          <a class="cta hero-scene-cta" data-link="appStore" href="#">App Storeからダウンロード</a>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="page-container about-inner">
+          <h2 class="section-title">SwingCatとは</h2>
+          <div class="section-copy about-copy">
+            <p>タイマーを始めると、猫が振り子につかまります。</p>
+            <p>集中できれば、猫はあなたのハウスへ。<br>途中でやめると、猫は落ちたり、逃げたり。</p>
+            <p>集中した時間が、猫との暮らしに変わっていく。<br>SwingCatは、集中を少し楽しくするフォーカスタイマーです。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="page-container">
+          <h2 class="section-title">3つの特徴</h2>
+          <div class="feature-list">
+            <article class="feature">
+              <div>
+                <p class="eyebrow">01</p><h3 class="feature-title">途切れると、猫が逃げる</h3>
+                <p class="section-copy">集中を途中でやめると、猫が落ちたり、逃げたり。<br>ちょっとした緊張感が、もう少しだけ続ける理由になります。</p>
+              </div>
+              <div class="feature-media"><video autoplay muted loop playsinline preload="metadata"><source src="assets/fall_buchi.mp4" type="video/mp4" /></video></div>
+            </article>
+            <article class="feature">
+              <div>
+                <p class="eyebrow">02</p><h3 class="feature-title">集中して、猫を迎える</h3>
+                <p class="section-copy">タイマーを最後まで続けると、新しい猫がハウスへ。<br>集中するほど、一緒に暮らす猫が増えていきます。</p>
+              </div>
+              <div class="feature-media feature-media--screen"><img src="assets/house.png" alt="猫たちが暮らすSwingCatのハウス画面" loading="lazy" /></div>
+            </article>
+            <article class="feature">
+              <div>
+                <p class="eyebrow">03</p><h3 class="feature-title">積み重ねが、見える</h3>
+                <p class="section-copy">集中時間や回数、ストリークを記録。<br>毎日の積み重ねを振り返ることができます。</p>
+              </div>
+              <div class="feature-media feature-media--screen"><img src="assets/activity.png" alt="集中時間を振り返るSwingCatのActivity画面" loading="lazy" /></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pro">
+        <div class="page-container pro-inner">
+          <div><h2 class="section-title">もっと猫と、<br>もっと集中。</h2><p class="section-copy">SwingCatは基本無料で使えます。<br><br>SwingCat Proでは、より広い部屋、追加の猫、詳しい集中記録、広告なしのアイテムなどを利用できます。</p><p style="margin-top:30px"><a class="cta" data-link="appStore" href="#">App Storeからダウンロード</a></p></div>
+          <img class="pro-logo" src="assets/swingcatpro_text.png" alt="SwingCat Pro" loading="lazy" />
+        </div>
+      </section>
+
+      <section id="faq" class="section faq">
+        <div class="page-container"><h2 class="section-title">よくある質問</h2><div class="faq-list">
+          <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>無料で使えますか？</span><i class="faq-icon" aria-hidden="true"></i></button><div class="faq-answer"><div>はい。SwingCatは無料で始められます。より広い部屋や追加機能などを楽しめるSwingCat Proも用意しています。</div></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>集中に失敗すると猫はいなくなりますか？</span><i class="faq-icon" aria-hidden="true"></i></button><div class="faq-answer"><div>集中を途中でやめると、猫が落ちたり、逃げたりすることがあります。それもSwingCatの体験のひとつです。</div></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>SwingCat Proとは何ですか？</span><i class="faq-icon" aria-hidden="true"></i></button><div class="faq-answer"><div>より広い部屋、追加の猫、詳しい集中記録、広告なしのアイテムなどを利用できるアップグレードです。</div></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>集中時間の記録は確認できますか？</span><i class="faq-icon" aria-hidden="true"></i></button><div class="faq-answer"><div>はい。Activityから集中時間や回数、ストリークなどを振り返ることができます。</div></div></div>
+        </div></div>
+      </section>
+
+      <section class="closing"><div class="page-container"><h2 class="closing-title">猫と一緒に、集中しよう。</h2><a class="cta" data-link="appStore" href="#">App Storeからダウンロード</a></div></section>
+    </main>
+
+    <footer><div class="page-container"><div class="footer-main"><div><img class="footer-logo" src="assets/swingcat_logo_texticonl.png" alt="SwingCat" /><p class="footer-copy">大切な時間を過ごすための、<br>猫式フォーカスタイマー</p></div><div class="footer-links"><a data-link="privacy" href="#">Privacy Policy</a><a data-link="terms" href="#">Terms of Use</a><a data-link="contact" href="#">Contact</a><a data-link="syncraft" href="#">Syncraft</a></div></div><div class="footer-bottom">© <span id="year"></span> SwingCat. All rights reserved.</div></div></footer>
+
+    <script>
+      // 差し替えが必要なURLはこのオブジェクトだけを編集してください。
+      const LINKS = { appStore: '#', privacy: 'privacy/index.html', terms: 'terms/index.html', contact: 'mailto:hello@syncraft.dev', syncraft: 'https://syncraft.dev/' };
+      document.querySelectorAll('[data-link]').forEach((element) => { element.href = LINKS[element.dataset.link]; if (element.dataset.link === 'syncraft') { element.target = '_blank'; element.rel = 'noopener noreferrer'; } });
+      document.querySelectorAll('.faq-question').forEach((button) => button.addEventListener('click', () => { const item = button.closest('.faq-item'); const open = item.classList.toggle('open'); button.setAttribute('aria-expanded', open); }));
+      const nav = document.querySelector('#site-nav'); const menu = document.querySelector('#menu-button');
+      menu.addEventListener('click', () => { const open = nav.classList.toggle('open'); menu.setAttribute('aria-expanded', open); });
+      nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => { nav.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); }));
+      document.querySelector('#year').textContent = new Date().getFullYear();
+
+      (() => {
+        const STATE_MACHINE = 'State Machine';
+        const PENDULUM_PERIOD_MS = 4000; // Flutter実装: 片道2秒
+        const PENDULUM_AMPLITUDE = 20 * Math.PI / 180;
+        const FALL_DETACH_DELAY_MS = 600;
+        const CAT_RADIUS_RATIO = 0.82;
+        // Riveの手元を重りに合わせるため、猫の中心は重りより少し下に置く。
+        // （中心を重りに合わせると、竿が猫の頭に刺さって見えてしまう。）
+        const CAT_ATTACH_OFFSET_RATIO = 0.48;
+        const demo = document.querySelector('#swingcat-demo');
+        const pendulum = document.querySelector('#demo-pendulum');
+        const cat = document.querySelector('#demo-cat');
+        const fallback = document.querySelector('#demo-fallback');
+        const canvas = document.querySelector('#swingcat-rive');
+        if (!demo || !pendulum || !cat || !fallback || !canvas) return;
+
+        let riveInstance = null;
+        let riveInputs = new Map();
+        let phase = 'sit';
+        let rafId = 0;
+        let resizeObserver = null;
+        let fallMotion = null;
+        let fallDetachTimer = null;
+        let lastAttached = { x: 0, y: 0, angle: 0 };
+        let isHoverCapable = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+        const transformFor = (angle, x = 0, y = 0) =>
+          `translate(-50%, -50%) translate(${x}px, ${y}px) rotate(${angle}rad)`;
+
+        const setPhase = (nextPhase) => {
+          phase = nextPhase;
+        };
+        setPhase('sit');
+
+        const updatePhaseFromRive = (states) => {
+          const names = Array.isArray(states) ? states : [];
+          const activeState = String(names.at(-1) || '').toLowerCase();
+          if (activeState.includes('fall')) {
+            if (phase !== 'fall' && phase !== 'fall-attached') beginFall();
+            return;
+          }
+          if (activeState.includes('swing')) {
+            setPhase('swing');
+            return;
+          }
+          if (activeState.includes('jump')) {
+            setPhase('jump');
+            return;
+          }
+          // 読み込み直後に届くsitイベントが、既に発火したjumpを上書きしないようにする。
+          if (activeState.includes('sit') && phase !== 'jump') resetToSit();
+        };
+
+        const resetToSit = () => {
+          setPhase('sit');
+          window.clearTimeout(fallDetachTimer);
+          fallDetachTimer = null;
+          fallMotion?.cancel();
+          fallMotion = null;
+        };
+
+        const beginFall = () => {
+          if (phase === 'fall' || phase === 'fall-attached') return;
+          // Riveのfallはすぐ開始し、座標の追従だけ少し遅らせて解除する。
+          // これにより、接続点から画面中央へワープせず自然に落ちる。
+          setPhase('fall-attached');
+          fallMotion?.cancel();
+          window.clearTimeout(fallDetachTimer);
+          fallDetachTimer = window.setTimeout(() => {
+            if (phase !== 'fall-attached') return;
+            setPhase('fall');
+            const startTransform = transformFor(lastAttached.angle);
+            const endTransform = transformFor(lastAttached.angle, 0, 150);
+            fallMotion = cat.animate(
+              [{ transform: startTransform }, { transform: endTransform }],
+              { duration: 1900, easing: 'cubic-bezier(.24,.68,.3,1)', fill: 'forwards' },
+            );
+            fallDetachTimer = null;
+          }, FALL_DETACH_DELAY_MS);
+        };
+
+        const fire = (name) => {
+          const input = riveInputs.get(name);
+          if (!input) return false;
+          input.fire();
+          return true;
+        };
+
+        const jump = () => {
+          if (phase !== 'sit' || !fire('jumpTrigger')) return;
+          setPhase('jump');
+        };
+
+        const fall = () => {
+          if (phase !== 'swing' || !fire('fallTrigger')) return;
+          beginFall();
+        };
+
+        const renderScene = (now) => {
+          const bounds = demo.getBoundingClientRect();
+          const pendulumSize = pendulum.offsetWidth;
+          const pendulumLift = Number.parseFloat(getComputedStyle(demo).getPropertyValue('--pendulum-lift')) || 0;
+          const catSceneLift = Number.parseFloat(getComputedStyle(demo).getPropertyValue('--cat-scene-lift')) || 0;
+          const catSeatRaise = Number.parseFloat(getComputedStyle(demo).getPropertyValue('--cat-seat-raise')) || 0;
+          const elapsed = now % PENDULUM_PERIOD_MS;
+          const angle = PENDULUM_AMPLITUDE * Math.cos((elapsed / PENDULUM_PERIOD_MS) * Math.PI * 2);
+          const pivotX = bounds.width / 2;
+          const radius = pendulumSize * CAT_RADIUS_RATIO;
+          const attachedRadius = pendulumSize * (CAT_RADIUS_RATIO + CAT_ATTACH_OFFSET_RATIO);
+          // Flutter版の _attachedCenterForAngle と同じ回転式。猫の中心は重りより下にある。
+          // y軸が下向きのWeb座標では、振り子と猫のx方向は -sin(angle) になる。
+          const attachedX = pivotX - Math.sin(angle) * attachedRadius;
+          const attachedY = pendulumLift + (Math.cos(angle) * attachedRadius);
+          const seatedY = Math.min(bounds.height - 112, radius + 86) + catSceneLift - catSeatRaise;
+
+          pendulum.style.transform = `translateX(-50%) rotate(${angle}rad)`;
+          if (phase === 'swing' || phase === 'fall-attached') {
+            lastAttached = { x: attachedX, y: attachedY, angle };
+            cat.style.left = `${attachedX}px`;
+            cat.style.top = `${attachedY}px`;
+            cat.style.transform = transformFor(angle);
+          } else if (phase !== 'fall') {
+            cat.style.left = `${pivotX}px`;
+            cat.style.top = `${seatedY}px`;
+            cat.style.transform = transformFor(0);
+          }
+
+          fallback.style.left = `${pivotX}px`;
+          fallback.style.top = `${seatedY}px`;
+          rafId = requestAnimationFrame(renderScene);
+        };
+
+        const onPointerEnter = () => { if (isHoverCapable) jump(); };
+        const onClick = () => {
+          if (isHoverCapable) fall();
+          else if (phase === 'sit') jump();
+          else if (phase === 'swing') fall();
+        };
+        const onCapabilityChange = (event) => { isHoverCapable = event.matches; };
+
+        demo.addEventListener('pointerenter', onPointerEnter);
+        demo.addEventListener('click', onClick);
+        const hoverQuery = window.matchMedia('(hover: hover) and (pointer: fine)');
+        hoverQuery.addEventListener?.('change', onCapabilityChange);
+        rafId = requestAnimationFrame(renderScene);
+
+        const teardown = () => {
+          cancelAnimationFrame(rafId);
+          resizeObserver?.disconnect();
+          window.clearTimeout(fallDetachTimer);
+          fallMotion?.cancel();
+          demo.removeEventListener('pointerenter', onPointerEnter);
+          demo.removeEventListener('click', onClick);
+          hoverQuery.removeEventListener?.('change', onCapabilityChange);
+          riveInstance?.cleanup();
+        };
+        window.addEventListener('pagehide', teardown, { once: true });
+
+        if (!window.rive?.Rive) {
+          demo.classList.add('is-rive-unavailable');
+          return;
+        }
+
+        try {
+          riveInstance = new window.rive.Rive({
+            src: 'assets/swingcat1.1_lp用.riv',
+            canvas,
+            stateMachine: STATE_MACHINE,
+            autoplay: true,
+            onLoad: () => {
+              const inputs = riveInstance.stateMachineInputs(STATE_MACHINE) || [];
+              riveInputs = new Map(inputs.filter((input) => typeof input.fire === 'function').map((input) => [input.name, input]));
+              const requiredTriggers = ['jumpTrigger', 'fallTrigger', 'cancelTrigger'];
+              if (!requiredTriggers.every((name) => riveInputs.has(name))) {
+                demo.classList.add('is-rive-unavailable');
+                riveInstance.cleanup();
+                riveInstance = null;
+                return;
+              }
+              riveInstance.resizeDrawingSurfaceToCanvas();
+              resizeObserver = new ResizeObserver(() => riveInstance?.resizeDrawingSurfaceToCanvas());
+              resizeObserver.observe(demo);
+              demo.classList.add('is-rive-ready');
+              // 読み込み中から演出領域にカーソルがある場合も、準備完了後に自然に開始する。
+              if (isHoverCapable && demo.matches(':hover')) jump();
+            },
+            onLoadError: () => demo.classList.add('is-rive-unavailable'),
+            onStateChange: (event) => updatePhaseFromRive(event.data),
+          });
+        } catch (_) {
+          demo.classList.add('is-rive-unavailable');
+        }
+      })();
+    </script>
+  </body>
+</html>
