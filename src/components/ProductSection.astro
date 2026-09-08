@@ -32,6 +32,7 @@ const srHref = lang === 'ja'
 const tsImage = lang === 'ja' ? '/TS_OGP.png' : '/TS_OGP_en.png';
 const srImage = lang === 'ja' ? '/SR_OGP.png' : '/SR_OGP_en.png';
 const ctImage = lang === 'ja' ? '/clocktimer_OGP.png' : '/clocktimer_OGP_en.png';
+const scImage = lang === 'ja' ? '/swingcat_ogp_ja.png' : '/swingcat_ogp_en.png';
 const ctHref = lang === 'ja'
   ? '/clocktimer/'
   : ctSupportedLangs.has(lang)
@@ -174,9 +175,17 @@ const scCopy = lang === 'ja'
       <!-- SwingCat -->
       <div class="product-info">
         <div class="product-logo">SwingCat</div>
-        <div class="product-hero product-placeholder" role="img" aria-label={scCopy.alt}>
-          <span>Coming Soon...</span>
-        </div>
+        <picture class="product-hero">
+          <img
+            src={scImage}
+            alt={scCopy.alt}
+            loading="lazy"
+            decoding="async"
+            width="1024"
+            height="500"
+            fetchpriority="low"
+          />
+        </picture>
         <p>{scCopy.desc}</p>
         <div class="product-features">
           <div class="feature">
