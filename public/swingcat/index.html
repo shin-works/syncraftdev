@@ -27,9 +27,6 @@
       .section-copy { color:var(--sc-muted); font-size:16px; line-height:2; }
       .cta { display:inline-flex; align-items:center; justify-content:center; min-height:52px; padding:0 27px; border-radius:999px; background:#111; color:#fff; font-size:15px; font-weight:700; text-decoration:none; transition:transform .2s ease, background .2s ease; }
       .cta:hover { transform:translateY(-2px); background:#303030; }
-      .cta[data-link="appStore"] { position:relative; white-space:nowrap; }
-      .cta[data-link="appStore"]:hover, .cta[data-link="appStore"]:focus-visible { color:transparent; }
-      .cta[data-link="appStore"]:hover::after, .cta[data-link="appStore"]:focus-visible::after { content:"Comming Soon..."; position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:14px; }
       .cta:focus-visible, .faq-question:focus-visible, .menu-button:focus-visible { outline:3px solid var(--sc-accent); outline-offset:3px; }
       .logo { display:block; width:148px; height:auto; }
       .hero { min-height:calc(100svh - 168px); display:flex; align-items:center; padding:128px 0 28px; }
@@ -152,8 +149,8 @@
             <a href="#about">SwingCatとは</a>
             <a href="#features">特徴</a>
             <a href="#faq">FAQ</a>
-            <select class="language-select" aria-label="言語を選択" onchange="if (this.value) window.location.href=this.value"><option value="index.html" selected>日本語</option><option value="en/index.html">English</option></select>
-            <a class="cta" data-link="appStore" href="#">ダウンロード</a>
+            <select class="language-select" aria-label="言語を選択" onchange="if (this.value) window.location.href=this.value"><option value="index.html" selected>日本語</option><option value="en/index.html">English</option><option value="de/index.html">Deutsch</option><option value="fr/index.html">Français</option><option value="pt-BR/index.html">Português (Brasil)</option><option value="es/index.html">Español</option><option value="ko/index.html">한국어</option><option value="zh-Hant-TW/index.html">繁體中文（台灣）</option><option value="zh-Hans/index.html">简体中文</option><option value="it/index.html">Italiano</option></select>
+            <a class="cta" data-link="appStore" href="https://apps.apple.com/app/id6800948890">ダウンロード</a>
           </nav>
         </div>
         <button class="menu-button" id="menu-button" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -166,13 +163,13 @@
           <div class="hero-content">
             <h1 class="hero-title">ゆれる猫。<br>おちる猫。<br>くらす猫。</h1>
             <p class="hero-copy">大切な時間を過ごすための、<br>猫式フォーカスタイマー。</p>
-            <a class="cta hero-copy-cta" data-link="appStore" href="#">App Storeからダウンロード</a>
+            <a class="cta hero-copy-cta" data-link="appStore" href="https://apps.apple.com/app/id6800948890">App Storeからダウンロード</a>
           </div>
           <div class="swingcat-demo" id="swingcat-demo" aria-label="振り子に飛びつき、揺れ、落ちるSwingCatの猫">
             <div class="demo-pendulum" id="demo-pendulum" aria-hidden="true"><img src="assets/swincat_furiko_lp.svg" alt="" /></div>
             <div class="demo-cat" id="demo-cat" aria-hidden="true"><canvas id="swingcat-rive"></canvas></div>
           </div>
-          <a class="cta hero-scene-cta" data-link="appStore" href="#">App Storeからダウンロード</a>
+          <a class="cta hero-scene-cta" data-link="appStore" href="https://apps.apple.com/app/id6800948890">App Storeからダウンロード</a>
         </div>
       </section>
 
@@ -218,7 +215,7 @@
 
       <section class="section pro">
         <div class="page-container pro-inner">
-          <div><h2 class="section-title">もっと猫と、<br>もっと集中。</h2><p class="section-copy">SwingCatは基本無料で使えます。<br><br>SwingCat Proでは、より広い部屋、追加の猫、詳しい集中記録、広告なしのアイテムなどを利用できます。</p><p style="margin-top:30px"><a class="cta" data-link="appStore" href="#">App Storeからダウンロード</a></p></div>
+          <div><h2 class="section-title">もっと猫と、<br>もっと集中。</h2><p class="section-copy">SwingCatは基本無料で使えます。<br><br>SwingCat Proでは、より広い部屋、追加の猫、詳しい集中記録、広告なしのアイテムなどを利用できます。</p><p style="margin-top:30px"><a class="cta" data-link="appStore" href="https://apps.apple.com/app/id6800948890">App Storeからダウンロード</a></p></div>
           <img class="pro-logo" src="assets/swingcatpro_text.png" alt="SwingCat Pro" loading="lazy" />
         </div>
       </section>
@@ -232,14 +229,14 @@
         </div></div>
       </section>
 
-      <section class="closing"><div class="page-container"><h2 class="closing-title">猫と一緒に、集中しよう。</h2><a class="cta" data-link="appStore" href="#">App Storeからダウンロード</a></div></section>
+      <section class="closing"><div class="page-container"><h2 class="closing-title">猫と一緒に、集中しよう。</h2><a class="cta" data-link="appStore" href="https://apps.apple.com/app/id6800948890">App Storeからダウンロード</a></div></section>
     </main>
 
     <footer><div class="page-container"><div class="footer-main"><div><img class="footer-logo" src="assets/swingcat_logo_texticonl.png" alt="SwingCat" /><p class="footer-copy">大切な時間を過ごすための、<br>猫式フォーカスタイマー</p></div><div class="footer-links"><a data-link="privacy" href="#">Privacy Policy</a><a data-link="terms" href="#">Terms of Use</a><a data-link="contact" href="#">Contact</a><a data-link="syncraft" href="#">Syncraft</a></div></div><div class="footer-bottom">© <span id="year"></span> SwingCat. All rights reserved.</div></div></footer>
 
     <script>
       // 差し替えが必要なURLはこのオブジェクトだけを編集してください。
-      const LINKS = { appStore: '#', privacy: 'privacy/index.html', terms: 'terms/index.html', contact: 'mailto:hello@syncraft.dev', syncraft: 'https://syncraft.dev/' };
+      const LINKS = { appStore: 'https://apps.apple.com/app/id6800948890', privacy: 'privacy/index.html', terms: 'terms/index.html', contact: 'mailto:hello@syncraft.dev', syncraft: 'https://syncraft.dev/' };
       document.querySelectorAll('[data-link]').forEach((element) => { element.href = LINKS[element.dataset.link]; if (element.dataset.link === 'syncraft') { element.target = '_blank'; element.rel = 'noopener noreferrer'; } });
       document.querySelectorAll('.faq-question').forEach((button) => button.addEventListener('click', () => { const item = button.closest('.faq-item'); const open = item.classList.toggle('open'); button.setAttribute('aria-expanded', open); }));
       const nav = document.querySelector('#site-nav'); const menu = document.querySelector('#menu-button');
