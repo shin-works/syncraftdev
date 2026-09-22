@@ -1,11 +1,12 @@
 ---
-import type { Lang } from '../i18n/translations';
+import { languages, type Lang } from '../i18n/translations';
 import { getLocalizedPath, getBlogIndexPath } from '../i18n/utils';
 import { storyCopy } from '../i18n/story';
 interface Props { lang: Lang; currentPath: string; alternateUrls?: Record<string, string>; activeNav?: string; }
-const { lang, currentPath, activeNav } = Astro.props;
+const { lang, currentPath, activeNav, alternateUrls = {} } = Astro.props;
 const home = currentPath === '/preview/' ? '/preview/' : getLocalizedPath('/', lang);
 const isHome = currentPath === home;
+const choices = Object.entries(alternateUrls).filter(([code]) => code in languages);
 const nav = [
   { label: 'WORKS', href: `${isHome ? '' : home}#works`, active: false },
   { label: 'NOTES', href: isHome ? '#notes' : getBlogIndexPath(lang), active: activeNav === 'blog' },
@@ -19,4 +20,25 @@ const nav = [
   <nav aria-label={lang === 'ja' ? 'メインナビゲーション' : 'Main navigation'}>
     {nav.map(item => <a href={item.href} aria-current={item.active ? 'page' : undefined}>{item.label}</a>)}
   </nav>
+  {choices.length > 1 && <details class="language-picker">
+    <summary aria-label={lang === 'ja' ? '表示言語を選ぶ' : 'Choose language'} title={languages[lang]}>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9" /><ellipse cx="12" cy="12" rx="4" ry="9" /><path d="M3 12h18" /></svg>
+      <span class="language-name">{languages[lang]}</span><span aria-hidden="true">⌄</span>
+    </summary>
+    <ul>{choices.map(([code, href]) => <li><a href={href} lang={code} hreflang={code} aria-current={code === lang ? 'page' : undefined}>{languages[code as Lang]}</a></li>)}</ul>
+  </details>}
 </header>
+<script>
+  const picker = document.querySelector<HTMLDetailsElement>('.language-picker');
+  if (picker) {
+    document.addEventListener('click', event => {
+      if (event.target instanceof Node && !picker.contains(event.target)) picker.open = false;
+    });
+    picker.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && picker.open) {
+        picker.open = false;
+        picker.querySelector('summary')?.focus();
+      }
+    });
+  }
+</script>

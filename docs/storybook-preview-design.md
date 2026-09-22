@@ -14,7 +14,7 @@ The introduction says: “役に立つことも、遊び心も。どちらも大
 
 - `src/components/HomePage.astro` provides the Japanese and eight translated homepages. `/preview/` uses the same component, stays noindex, and is excluded from the sitemap.
 - `src/layouts/BaseLayout.astro` shares SEO, the compact giraffe header, loading indicator, and footer across the corporate site.
-- `src/styles/storybook.css` preserves the approved illustrated homepage. `src/styles/editorial.css` adds the notes list, article typography, legal disclosure layout, and accessible native language picker in the footer.
+- `src/styles/storybook.css` preserves the approved illustrated homepage. `src/styles/editorial.css` adds the notes list, article typography, legal disclosure layout, and accessible native language picker at the right edge of the header.
 - `src/i18n/story.ts` contains the new localized interface copy. Existing translated article bodies are unchanged.
 - `/brand/` contains local fonts, their OFL licenses, and the town animation. No external font or icon-library requests are needed.
 - The loader uses a leaf-headed resident and a short drawn line. It disappears when fonts are ready, has a bounded CSS fallback, and stays hidden without JavaScript or with reduced motion. There is no forced two-second wait or custom cursor.

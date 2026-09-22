@@ -3,11 +3,13 @@ body { min-width: 280px; }
 main { min-height: 50vh; }
 .site-header nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 7px; }
 .container { width: 86%; max-width: 920px; margin: 0 auto; }
-.language-picker { position: relative; font-size: 10px; margin-left: 12px; }
-.language-picker summary { cursor: pointer; list-style: none; padding: 12px 0; }
+.site-header { position: relative; z-index: 4; }
+.site-header nav { margin-left: auto; }
+.language-picker { position: relative; flex: 0 0 auto; font-size: 10px; }
+.language-picker summary { display: flex; align-items: center; gap: 6px; min-height: 44px; cursor: pointer; list-style: none; padding: 10px 0; white-space: nowrap; }
 .language-picker summary::-webkit-details-marker { display: none; }
-.language-picker summary span { margin-left: 8px; }
-.language-picker ul { position: absolute; z-index: 5; bottom: 100%; right: 0; margin: 0; padding: 12px 18px; min-width: 155px; list-style: none; background: #fff; border: 1px solid #000; border-radius: 12px; }
+.language-picker summary svg { width: 18px; height: 18px; }
+.language-picker ul { position: absolute; z-index: 5; top: calc(100% + 8px); right: 0; max-height: min(65vh, 420px); overflow-y: auto; margin: 0; padding: 12px 18px; min-width: 155px; list-style: none; background: #fff; border: 1px solid #000; border-radius: 12px; }
 .language-picker a { display: block; padding: 9px 0; }
 .language-picker a[aria-current="page"], .language-picker a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .language-picker summary:focus-visible { outline: 2px dashed #000; outline-offset: 4px; }
@@ -90,8 +92,14 @@ html[data-loading] .page-loader { position: fixed; inset: 0; z-index: 20; displa
   .article-body blockquote { padding-left: 16px; }
   .legal-title { font-size: 18px; }
   .legal-row { grid-template-columns: 1fr; gap: 7px; padding: 23px 0; font-size: 13px; }
-  .language-picker { margin-left: auto; }
+  .site-header { gap: 12px; }
+  .language-picker .language-name { display: none; }
+  .language-picker summary { gap: 3px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html[data-loading] .page-loader { display: none; }
+}
+
+@media (max-width: 370px) {
+  .site-header { gap: 6px; }
 }
