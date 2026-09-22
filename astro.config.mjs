@@ -5,6 +5,7 @@ export default defineConfig({
   site: 'https://syncraft.dev',
   integrations: [
     sitemap({
+      filter: (page) => !new URL(page).pathname.match(/^\/preview\/?$/),
       customPages: [
         'https://syncraft.dev/timesense/',
         'https://syncraft.dev/timesense/en/',

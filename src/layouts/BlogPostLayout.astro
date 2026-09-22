@@ -51,6 +51,7 @@ const articleUrl = `https://syncraft.dev${currentPath}`;
   activeNav="blog"
   currentPath={currentPath}
   ogType="article"
+  ogImage={image}
   article={{
     headline: title,
     datePublished: isoDate,
@@ -66,7 +67,7 @@ const articleUrl = `https://syncraft.dev${currentPath}`;
         <h1>{title}</h1>
         {image && (
           <div class="article-hero-large">
-            <img src={image} alt={imageAlt ?? title} />
+            <img src={image} alt={imageAlt ?? title} decoding="async" />
           </div>
         )}
       </div>

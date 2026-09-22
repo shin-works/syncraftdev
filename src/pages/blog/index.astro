@@ -2,6 +2,7 @@
 /**
  * /blog/ — Japanese blog listing page
  */
+import { storyCopy } from '../../i18n/story';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogCard from '../../components/BlogCard.astro';
 import { getCollection } from 'astro:content';
@@ -16,7 +17,7 @@ const posts = (await getCollection('blog', ({ id }) => id.startsWith(prefix)))
 ---
 
 <BaseLayout
-  title="Blog - SynCraft"
+  title="Notes — SynCraft"
   description="SynCraftのプロダクト開発、技術知見、お知らせを発信するブログです。"
   lang={lang}
   canonicalUrl="/blog/"
@@ -28,7 +29,7 @@ const posts = (await getCollection('blog', ({ id }) => id.startsWith(prefix)))
 >
   <div class="blog-page">
     <div class="container">
-      <h1>Blog</h1>
+      <div class="section-heading"><h1 class="outline-title">NOTES</h1><p>{storyCopy[lang].notes}</p></div>
       <div class="blog-list">
         {posts.map((post) => {
           const slug = post.id.replace(prefix, '').replace(/\.mdx?$/, '');

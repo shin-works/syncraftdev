@@ -1,23 +1,18 @@
 ---
 /**
- * BaseLayout — Shared shell: <head>, loading screen, cursor, header, footer
+ * BaseLayout — Shared paper-and-ink shell, SEO, loading indicator, and navigation
  */
 import type { Lang } from '../i18n/translations';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import SEOHead from '../components/SEOHead.astro';
 
-import '../styles/variables.css';
-import '../styles/base.css';
-import '../styles/animations.css';
-import '../styles/header.css';
-import '../styles/hero.css';
-import '../styles/product.css';
-import '../styles/blog.css';
-import '../styles/contact.css';
-import '../styles/footer.css';
+import '../styles/storybook.css';
+import '../styles/editorial.css';
+import { storyCopy } from '../i18n/story';
 
 interface Props {
+  preview?: boolean;
   title: string;
   description: string;
   lang: Lang;
@@ -37,6 +32,7 @@ interface Props {
 }
 
 const {
+  preview = false,
   title,
   description,
   lang,
@@ -48,88 +44,46 @@ const {
   ogImage,
   article,
 } = Astro.props;
----
 
+const copy = storyCopy[lang];
+---
 <!DOCTYPE html>
 <html lang={lang}>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
   <title>{title}</title>
   <meta name="description" content={description} />
+  {preview && <meta name="robots" content="noindex, nofollow" />}
   <link rel="icon" href="/favicon.png" type="image/png" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-  />
-  <SEOHead
-    title={title}
-    description={description}
-    canonicalUrl={canonicalUrl}
-    lang={lang}
-    alternateUrls={alternateUrls}
-    ogType={ogType}
-    ogImage={ogImage}
-    article={article}
-  />
+  <link rel="preload" href="/brand/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/brand/fonts/josefin-sans-latin.ttf" as="font" type="font/ttf" crossorigin />
+  <SEOHead title={title} description={description} canonicalUrl={canonicalUrl} lang={lang}
+    alternateUrls={alternateUrls} ogType={ogType} ogImage={ogImage} article={article} />
+  <script is:inline>document.documentElement.dataset.loading = 'true';</script>
 </head>
 <body>
-  <!-- Loading screen -->
-  <div class="loading-screen">
-    <div class="loading-icon">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-    </div>
-    <div class="loading-text">SynCraft</div>
+  <a class="skip-link" href="#main">{copy.skip}</a>
+  <div class="page-loader" aria-hidden="true">
+    <svg viewBox="0 0 160 90" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path class="loader-line" pathLength="1" d="M10 70 Q50 68 80 70 T150 70" />
+      <g class="loader-resident" transform="translate(80 69)">
+        <path class="loader-legs" d="M-4-7-9 0h-3m16-7 5 7h4" />
+        <path fill="#f5dc61" d="M-8-18q-1-12 8-12 10 0 9 13T0-7q-8 0-8-11Z" />
+        <path d="M0-29q-6-9 2-12m-1 6q9-9 12-2-6 5-12 2m-19 19-6 5m21-5 6-5m-12-1v2m5-2v2" />
+      </g>
+    </svg>
+    <span>{copy.loading}</span>
   </div>
-
-  <!-- Custom cursor -->
-  <div class="cursor"></div>
-
-  <Header
-    lang={lang}
-    currentPath={currentPath}
-    alternateUrls={alternateUrls}
-    activeNav={activeNav}
-  />
-
-  <main>
-    <slot />
-  </main>
-
-  <Footer lang={lang} />
-
+  <Header lang={lang} currentPath={currentPath} alternateUrls={alternateUrls} activeNav={activeNav} />
+  <main id="main"><slot /></main>
+  <Footer lang={lang} currentPath={currentPath} alternateUrls={alternateUrls} preview={preview} />
   <script>
-    // Loading screen hide
-    setTimeout(() => {
-      document.querySelector('.loading-screen')?.classList.add('hidden');
-    }, 2000);
-
-    // Custom cursor
-    const cursor = document.querySelector('.cursor');
-    if (cursor) {
-      document.addEventListener('mousemove', (e) => {
-        (cursor as HTMLElement).style.top = `${e.pageY}px`;
-        (cursor as HTMLElement).style.left = `${e.pageX}px`;
-      });
-
-      document.addEventListener('click', () => {
-        cursor.classList.add('cursor-expand');
-        setTimeout(() => cursor.classList.remove('cursor-expand'), 500);
-      });
-
-      document
-        .querySelectorAll('a, button, .work-card, .feature')
-        .forEach((el) => {
-          el.addEventListener('mouseenter', () =>
-            cursor.classList.add('cursor-grow'),
-          );
-          el.addEventListener('mouseleave', () =>
-            cursor.classList.remove('cursor-grow'),
-          );
-        });
-    }
+    // Reveal as soon as typography is ready; a CSS fallback also prevents blocking.
+    Promise.race([document.fonts.ready, new Promise(resolve => setTimeout(resolve, 800))])
+      .finally(() => delete document.documentElement.dataset.loading);
+    window.addEventListener('pageshow', () => delete document.documentElement.dataset.loading);
   </script>
 </body>
 </html>

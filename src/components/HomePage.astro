@@ -1,0 +1,249 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { blogLangs, type Lang } from '../i18n/translations';
+import { t, getBlogIndexPath, getBlogPostPath, getLocalizedPath } from '../i18n/utils';
+import { storyCopy } from '../i18n/story';
+interface Props { lang: Lang; preview?: boolean; }
+const { lang, preview = false } = Astro.props;
+const copy = storyCopy[lang];
+const home = getLocalizedPath('/', lang);
+const alternateUrls = Object.fromEntries(blogLangs.map(code => [code, getLocalizedPath('/', code)]));
+const links = {
+  ts: lang === 'ja' ? '/timesense/' : `/timesense/${lang === 'pt' ? 'pt-br' : lang}/`,
+  sr: lang === 'ja' ? '/stealthradar/' : `/stealthradar/${lang === 'de' ? 'de' : 'en'}/`,
+  ct: lang === 'ja' ? '/clocktimer/' : '/clocktimer/en/',
+  sc: lang === 'ja' ? '/swingcat/' : '/swingcat/en/',
+};
+const images = { ts: lang === 'ja' ? '/TS_OGP.png' : '/TS_OGP_en.png',
+  sr: lang === 'ja' ? '/SR_OGP.png' : '/SR_OGP_en.png',
+  ct: lang === 'ja' ? '/clocktimer_OGP.png' : '/clocktimer_OGP_en.png',
+  sc: lang === 'ja' ? '/swingcat_ogp_ja.png' : '/swingcat_ogp_en.png' };
+const posts = (await getCollection('blog', ({ id, data }) => id.startsWith(`${lang}/`) && !data.draft))
+  .sort((a,b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0,2);
+const shortTitles: Record<string,string> = {
+  'timesense-multilingual-support': 'TimeSenseが、いろんな国のことばを覚えました。',
+  'what-is-timesense': '「知育時計 × 声かけタイマー」TimeSenseとは？',
+};
+---
+<BaseLayout title="SynCraft — Crafting ideas in sync." description={t(lang, 'site.description')} lang={lang}
+  canonicalUrl={home} alternateUrls={alternateUrls} currentPath={preview ? '/preview/' : home} preview={preview}>
+
+      <section id="hero" class="hero" aria-labelledby="hero-title">
+        <div class="hero-heading">
+          <h1 id="hero-title">Crafting ideas<br /><span class="second-line">in sync<span class="period">.</span></span></h1>
+          <p class="hero-copy">{copy.hero[0]}<br />{copy.hero[1]}</p>
+        </div>
+
+        <div class="town-stage" id="town-stage">
+          <button type="button" class="town-playground" id="town-jump" aria-label={copy.jumpLabel}>
+            <svg class="town" viewBox="0 0 1440 310" role="img" aria-labelledby="town-title town-desc">
+              <title id="town-title">{lang === 'ja' ? '一本の線から生まれる街' : 'A town drawn in one continuous line'}</title>
+              <desc id="town-desc">{lang === 'ja' ? '一本の線で街ができ、小さな住人が走ったり跳んだりします。街をタップするとジャンプします。' : 'A single line builds a town while little residents run and jump. Tap the town to make them jump.'}</desc>
+              <defs><path id="town-route" d="M-100 254 C-20 251 65 259 135 254
+C150 253 168 253 184 254 L220 254 L219 161 L276 112 L339 158 L327 161 L327 254
+L306 254 L306 211 Q293 188 278 208 L278 254 L220 254 L220 161 L247 163 L247 184 L265 184 L265 163 L220 161
+L276 112 L288 122 L288 96 L301 96 L301 133 L339 158 L327 161 L327 254
+C348 255 363 252 383 254 L387 237 Q402 232 416 237 L420 254 L465 254
+L485 254 C485 225 488 188 487 157 C462 168 446 153 455 135 C430 122 442 95 458 93 C446 63 478 56 489 74 C511 51 536 72 531 92 C558 100 548 132 531 134 C541 154 514 169 502 156
+L500 120 L516 109 L500 120 L500 149 L480 133 L500 149 L501 254
+C552 259 610 249 672 254 L698 254 L706 273 L720 263 L733 284 L747 267 L761 277 L776 254 L842 254
+L861 254 L861 157 L850 158 L864 130 L972 130 L985 157 L974 157 L974 254
+L951 254 L951 187 L922 187 L922 254 L887 254 L887 187 L907 187 L907 208 L887 208 L887 254 L861 254 L861 157
+L874 157 Q880 174 889 157 Q897 174 907 157 Q916 174 926 157 Q935 174 945 157 Q955 174 964 157 Q973 174 981 157
+L850 158 L864 130 L890 130 L890 113 L948 113 L948 130 L972 130 L985 157 L974 157 L974 254
+C1000 255 1023 253 1047 254 L1070 254 L1070 112 L1083 112 L1083 64 L1107 36 L1130 64 L1130 112 L1144 112 L1144 254
+L1120 254 L1120 213 Q1107 195 1094 213 L1094 254 L1070 254 L1070 112 L1083 112 L1083 64 L1130 64 L1130 112 L1083 112
+L1083 90 L1092 90 C1092 70 1122 70 1122 90 C1122 110 1092 110 1092 90 L1107 90 L1107 80 L1107 90 L1114 95 L1107 90 L1092 90 L1083 90 L1083 64 L1107 36 L1107 17 L1131 23 L1107 30 L1107 36 L1130 64 L1130 112 L1144 112 L1144 254
+L1200 254 L1196 237 L1223 237 L1218 254 L1200 254 L1196 237 L1208 237 L1208 218 C1188 228 1183 203 1208 218 C1230 198 1236 225 1208 218 L1208 237 L1223 237 L1218 254
+C1260 249 1290 259 1328 254 L1350 254 L1351 176 L1411 134 L1472 175 L1459 177 L1459 254 L1434 254 L1434 207 L1409 207 L1409 254 L1350 254 L1351 176 L1371 178 L1371 197 L1390 197 L1390 178 L1351 176 L1411 134 L1472 175 L1459 177 L1459 254
+L1550 254 C1585 228 1605 209 1645 209 C1685 209 1705 228 1740 254
+C1710 229 1680 200 1645 198 C1600 200 1580 231 1550 244 L1550 228 L1550 254 C1585 228 1605 209 1645 209 C1685 209 1705 228 1740 254
+L1828 254 L1830 225 L1875 225 L1878 254 L1945 254
+L1955 254 L1955 171 C1915 175 1907 153 1923 136 C1907 111 1935 92 1951 105 C1967 80 1997 96 1997 115 C2025 120 2025 152 2001 155 C2005 175 1978 183 1968 167
+L1968 123 L1980 114 L1968 123 L1968 154 L1949 140 L1968 154 L1968 254
+L2120 254 L2120 242 L2140 242 L2140 230 L2160 230 L2160 216 L2202 216 L2202 230 L2220 230 L2220 242 L2240 242 L2240 254
+L2322 254 L2322 164 L2310 164 L2364 117 L2415 164 L2404 164 L2404 254 L2388 254 L2388 212 Q2374 197 2362 213 L2362 254 L2322 254 L2322 164 L2340 164 L2340 185 L2357 185 L2357 164 L2322 164 L2364 117 L2415 164 L2404 164 L2404 254
+C2460 250 2530 260 2610 254" />
+                <mask id="ink-progress" maskUnits="userSpaceOnUse" x="-110" y="0" width="2850" height="310"><use id="drawing-mask" href="#town-route" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></mask>
+              </defs>
+              <g class="distant-world" fill="none" stroke="#000" stroke-width="1.1" opacity=".36">
+                <path d="M55 139q9-9 18 0 8-9 17 0M601 66q8-8 16 0 9-8 18 0M1475 71q8-9 17 0 9-9 17 0"/>
+                <path d="M370 79q-17 0-15-10t17-10q5-19 20-12 18-6 20 13 18-1 18 9t-20 10Z M1530 116q-15-1-13-11t16-9q4-17 20-11 15-5 19 12 17 0 17 10t-19 9Z"/>
+              </g>
+              <g class="town-world">
+                <g class="ink-paper" mask="url(#ink-progress)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><use href="#town-route" stroke-width="2.1"/><g id="pressure-strokes"></g></g>
+                <g class="pen-tip" opacity="0"><circle r="3.5" fill="#000"/><path d="m-3-2 12-18 4 3-12 18Z" fill="#fff" stroke="#000" stroke-width="1.2"/></g>
+                <g class="runners"><g class="runner" data-runner="0" transform="translate(500 254)" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse class="runner-shadow" cx="0" cy="2" rx="10" ry="1.7" fill="#000" stroke="none" opacity=".12"/>
+      <g class="runner-pose"><path class="back-leg" d="M-4-7-9 0h-3" fill="none"/><path class="front-leg" d="m4-7 5 7h4" fill="none"/>
+      <g class="runner-body"><path class="back-arm" d="m-7-16-6 5" fill="none"/>
+      <path d="M-8-18q-1-12 8-12 10 0 9 13T0-7q-8 0-8-11Z" fill="#000"/><path d="M-10-26 0-32 10-26Z" fill="#000"/>
+      <path d="m2-22 0 2m5-2v2" stroke="#fff" stroke-width="1.5"/>
+      <path class="front-arm" d="m8-16 6-5" fill="none"/></g></g>
+      <path class="landing-dust" d="m-13 1-5-3m33 3 5-3" fill="none" opacity="0"/>
+      </g><g class="runner" data-runner="1" transform="translate(466 254)" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse class="runner-shadow" cx="0" cy="2" rx="10" ry="1.7" fill="#000" stroke="none" opacity=".12"/>
+      <g class="runner-pose"><path class="back-leg" d="M-4-7-9 0h-3" fill="none"/><path class="front-leg" d="m4-7 5 7h4" fill="none"/>
+      <g class="runner-body"><path class="back-arm" d="m-7-16-6 5" fill="none"/>
+      <path d="M-8-18q-1-12 8-12 10 0 9 13T0-7q-8 0-8-11Z" fill="#fff"/><path d="M-7-28 0-38 7-28Z" fill="#fff"/>
+      <path d="m2-22 0 2m5-2v2" stroke="#000" stroke-width="1.5"/>
+      <path class="front-arm" d="m8-16 6-5" fill="none"/></g></g>
+      <path class="landing-dust" d="m-13 1-5-3m33 3 5-3" fill="none" opacity="0"/>
+      </g><g class="runner" data-runner="2" transform="translate(432 254)" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse class="runner-shadow" cx="0" cy="2" rx="10" ry="1.7" fill="#000" stroke="none" opacity=".12"/>
+      <g class="runner-pose"><path class="back-leg" d="M-4-7-9 0h-3" fill="none"/><path class="front-leg" d="m4-7 5 7h4" fill="none"/>
+      <g class="runner-body"><path class="back-arm" d="m-7-16-6 5" fill="none"/>
+      <path d="M-8-18q-1-12 8-12 10 0 9 13T0-7q-8 0-8-11Z" fill="#f5dc61"/><path d="M0-29q-6-9 2-12m-1 6q9-9 12-2-6 5-12 2" fill="none"/>
+      <path d="m2-22 0 2m5-2v2" stroke="#000" stroke-width="1.5"/>
+      <path class="front-arm" d="m8-16 6-5" fill="none"/></g></g>
+      <path class="landing-dust" d="m-13 1-5-3m33 3 5-3" fill="none" opacity="0"/>
+      </g></g>
+              </g>
+            </svg>
+          </button>
+        </div>
+        <div class="hero-bottom">
+          <a class="scroll-note" href="#works"><span class="scroll-stroke" aria-hidden="true"></span>{copy.scroll}</a>
+          <div class="motion-controls" hidden>
+            <span class="jump-hint">{copy.jump}</span>
+            <button id="replay" type="button"><span aria-hidden="true">↻</span> {copy.replay}</button>
+            <button id="pause" type="button" aria-pressed="false" aria-label={copy.pause} data-pause={copy.pause} data-resume={copy.resume}><svg class="pause-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5v10M13 5v10"/></svg><svg class="play-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="m6 4 10 6-10 6Z"/></svg></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="works section-wrap" id="works" aria-labelledby="works-title">
+        <span id="product" aria-hidden="true"></span>
+        <div class="section-heading">
+          <h2 id="works-title" class="outline-title">WORKS</h2>
+          <p>{copy.works}</p>
+        </div>
+        <div class="works-grid">
+          <article class="work work-time">
+            <div class="work-visual" id="work-visual-time">
+              <a class="work-image-link" href={links.ts} aria-label={lang === 'ja' ? 'TimeSenseのプロダクトページ' : 'TimeSense product page'}>
+                <img class="work-ogp" src={images.ts} alt="TimeSense" width="1200" height="630" loading="lazy" decoding="async" />
+                <div class="work-drawing">
+              <svg viewBox="0 0 480 320" aria-hidden="true">
+                <g class="drawing-ink">
+                  <path d="M92 270q110-9 287 0"/>
+                  <g class="illustration-clock"><path fill="#fff" d="M180 93q-14-2-14-15t13-16l21 9m95 22q13 1 17-12t-9-18l-21 6"/><path d="m180 247-13 21m127-23 14 22"/><path fill="#fff" d="M332 168c0 61-39 93-91 93s-93-40-91-95 39-91 91-91 91 36 91 93Z"/><circle cx="241" cy="168" r="73"/><path class="clock-wedge" d="M241 168V95a73 73 0 0 1 68 100Z"/><path d="M241 107v10m61 51h-10m-51 61v-10m-62-51h10m52 0-29-26m29 26 35-25"/><circle cx="241" cy="168" r="5" fill="#000"/></g>
+                  <g transform="translate(117 267) rotate(-8) scale(2.4)" stroke-width="1.8">
+                    <path d="M-4-7-9 0h-3m16-7 5 7h4m-20-16-6 5"/>
+                    <path fill="#000" d="M-8-18q-1-12 8-12 10 0 9 13T0-7q-8 0-8-11Z"/>
+                    <path fill="#000" d="M-10-26 0-32 10-26Z"/>
+                    <path stroke="#fff" stroke-width="1.5" d="m2-22 0 2m5-2v2"/>
+                    <path d="m8-16 9-9"/>
+                  </g>
+                  <path d="m348 109 14-9m-23-5 6-16m11 43 18-1"/>
+                  <path d="m112 115 7-14 6 13 14 4-13 6-4 14-7-13-13-4Z"/>
+                </g>
+              </svg>
+            </div>
+              </a>
+            </div>
+            <a class="work-caption" href={links.ts}><div><h3>TimeSense<span class="work-dot" aria-hidden="true">.</span></h3><p>{lang === 'ja' ? '「はやくして！」が、冒険の合図になる。' : t(lang, 'product.ts.desc')}</p>{lang === 'ja' && <span class="work-kind">子どもと育つ、声かけタイマー</span>}</div><span class="drawn-arrow" aria-hidden="true">↗</span></a>
+          </article>
+          <article class="work work-cat">
+            <div class="work-visual" id="work-visual-cat">
+              <a class="work-image-link" href={links.sc} aria-label={lang === 'ja' ? 'SwingCatのプロダクトページ' : 'SwingCat product page'}>
+                <img class="work-ogp" src={images.sc} alt="SwingCat" width="1025" height="500" loading="lazy" decoding="async" />
+                <div class="work-drawing">
+              <svg viewBox="0 0 480 320" aria-hidden="true">
+                <g class="drawing-ink">
+                  <path d="M87 274q147-7 300 0M135 274l3-152m-16 12q-28 9-35-15-26-9-16-33-13-32 18-44 15-30 39-15 29-17 47 10 35 1 32 28 23 22-1 43-2 30-34 25m-24 141-1-187m0 52 24-26m-32 49-27-23m37-19q56 17 126-8"/>
+                  <path d="m199 118 54-5 41-11"/>
+                  <g class="swinging-cat"><path d="M263 107v85m38-90-7 91"/><path fill="#fff" d="m238 230 4-49 22 17q18-8 32-2l23-20 3 57q16 20 0 28-13 7-61 0-26 0-23-31Z"/><path fill="#000" d="m242 183 5 28 17-13Z"/><path d="m256 222 8 3m25-2 9-4m-24 10 3 4 4-5m-4 5q-6 10-12 2m12-2q7 8 13-1m-50 0-15-2m16 7-17 5m92-10 16-5m-17 12 19 3M320 256q40 7 40-14 0-17-13-13"/></g>
+                  <path d="m192 272 5-10 7 10m177 0 5-14 7 14"/>
+                  <path d="m356 131 12-2-10 16 12-2m14-29 17-2-13 22 17-2" stroke-width="3"/>
+                </g>
+              </svg>
+            </div>
+              </a>
+            </div>
+            <a class="work-caption" href={links.sc}><div><h3>SwingCat<span class="work-dot" aria-hidden="true">.</span></h3><p>{copy.cat}</p>{lang === 'ja' && <span class="work-kind">猫と暮らす、フォーカスタイマー</span>}</div><span class="drawn-arrow" aria-hidden="true">↗</span></a>
+          </article>
+          <article class="work work-radar">
+            <div class="work-visual" id="work-visual-radar">
+              <a class="work-image-link" href={links.sr} aria-label={lang === 'ja' ? 'Stealth Radarのプロダクトページ' : 'Stealth Radar product page'}>
+                <img class="work-ogp" src={images.sr} alt="Stealth Radar" width="1200" height="630" loading="lazy" decoding="async" />
+                <div class="work-drawing">
+              <svg viewBox="0 0 480 320" aria-hidden="true">
+                <g class="drawing-ink">
+                  <path d="M75 265q124-7 164 0m49 0h115"/>
+                  <path fill="#fff" d="m158 240 8-152 67 16 68-24 37 146-61 28-69-24Z"/><path d="m233 104-25 126m93-150-24 174"/>
+                  <path d="m189 172 5-27 24 6m36 19 4-26 22-6m21 65 7-16 13 10"/>
+                  <path d="M187 212q19-30 50-18t44-23q3-28 14-48" stroke-dasharray="5 9"/>
+                  <path d="m287 116 15 12m-14 1 12-15" stroke-width="5"/>
+                  <g transform="translate(129 263) scale(2.4)" stroke-width="1.8">
+                    <path d="M-4-7-9 0h-3m16-7 5 7h4m-20-16-6-5"/>
+                    <path fill="#fff" d="M-8-18q-1-12 8-12 10 0 9 13T0-7q-8 0-8-11Z"/>
+                    <path fill="#fff" d="M-7-28 0-38 7-28Z"/>
+                    <path stroke-width="1.5" d="m2-22 0 2m5-2v2"/>
+                    <path d="m8-16 9-8"/>
+                  </g>
+                  <path d="M374 257v-67m-24 24 24-24 22 24m-38 9 16-17 16 16m-27 10 11-12 13 11M350 258v-38m-12 14 12-15 13 13"/>
+                  <path d="m90 95 9-11m-14 25-14-2m33-31 3-12"/>
+                </g>
+              </svg>
+            </div>
+              </a>
+            </div>
+            <a class="work-caption" href={links.sr}><div><h3>Stealth Radar<span class="work-dot" aria-hidden="true">.</span></h3><p>{lang === 'ja' ? 'いつもの街を、未知のフィールドに。' : t(lang, 'product.sr.desc')}</p>{lang === 'ja' && <span class="work-kind">日常を冒険に変える、GPS探索アプリ</span>}</div><span class="drawn-arrow" aria-hidden="true">↗</span></a>
+          </article>
+          <article class="work work-clock">
+            <div class="work-visual" id="work-visual-clock">
+              <a class="work-image-link" href={links.ct} aria-label={lang === 'ja' ? 'ClockTimerのプロダクトページ' : 'ClockTimer product page'}>
+                <img class="work-ogp" src={images.ct} alt="ClockTimer" width="1200" height="630" loading="lazy" decoding="async" />
+                <div class="work-drawing">
+              <svg viewBox="0 0 480 320" aria-hidden="true">
+                <g class="drawing-ink">
+                  <path d="M82 269q174-5 317 0"/>
+                  <g class="rolling-clock"><path fill="#fff" d="M336 180q0 83-76 84-80 0-81-78t76-84q77 0 81 78Z"/><path d="M258 117v16m61 50h-14m-47 63v-14m-61-48h15m46-33v36l-28 13"/><circle cx="258" cy="186" r="5" fill="#000"/><path d="m220 135 6 10m69-9-7 9m9 78-8-9m-68 8 8-10"/></g>
+                  <g transform="translate(128 263) rotate(10) scale(2.4)" stroke-width="1.8">
+                    <path d="M-4-7-10 0h-3m17-7 5 7h4m-20-16-7 3"/>
+                    <path fill="#f5dc61" d="M-8-18q-1-12 8-12 10 0 9 13T0-7q-8 0-8-11Z"/>
+                    <path d="M0-29q-6-9 2-12m-1 6q9-9 12-2-6 5-12 2"/>
+                    <path stroke-width="1.5" d="m2-22 0 2m5-2v2"/>
+                    <path d="m8-16 16-7"/>
+                  </g>
+                  <path d="m356 128 16-8m-23-10 8-14m5 47 19 1m-281 80H79m13 13H66"/>
+                  <path d="m228 59 9 9 20-24m26 13 7 7 15-17"/>
+                </g>
+              </svg>
+            </div>
+              </a>
+            </div>
+            <a class="work-caption" href={links.ct}><div><h3>ClockTimer<span class="work-dot" aria-hidden="true">.</span></h3><p>{lang === 'ja' ? '今日の一歩を、じぶんのペースで。' : t(lang, 'product.ct.desc')}</p>{lang === 'ja' && <span class="work-kind">時間・習慣・やることを、ひとつに</span>}</div><span class="drawn-arrow" aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-wrap" id="about" aria-labelledby="about-title">
+        <svg class="about-doodle" viewBox="0 0 160 130" aria-hidden="true"><g class="drawing-ink"><path d="M22 96q46-7 116 0"/><path fill="#fff" d="m44 92-6-45 22-18 19 17 20-23 23 19-10 50Z"/><path d="m60 29 8 61m11-44 6 46m14-69 1 66m-53-42 10-8m-9 19 11-8m31-8 7-7m-4 19 7-7"/><path d="M77 17 74 5m17 10 7-12m10 18 12-5"/></g></svg>
+        <h2 id="about-title">{copy.intro[0]}<br />{copy.intro[1]}</h2>
+        <p>{copy.about[0]}<br />{copy.about[1]}</p>
+        <p>{copy.values[0]}<br />{lang === 'ja' ? <>どちらも大切にしながら、<br class="mobile-break" />SynCraftはプロダクトをつくっています。</> : copy.values[1]}</p>
+        <span class="about-signature" aria-hidden="true">Small tech. Real smiles.</span>
+      </section>
+
+      <section class="journal section-wrap" id="notes" aria-labelledby="journal-title">
+        <div class="journal-heading"><div><h2 id="journal-title" class="outline-title">NOTES</h2><p class="section-subtitle">{copy.notes}</p></div><a href={getBlogIndexPath(lang)}>{copy.allNotes} <span aria-hidden="true">↗</span></a></div>
+        {posts.map(post => {
+          const slug = post.id.replace(`${lang}/`, '').replace(/\.mdx?$/, '');
+          return <a class="journal-entry" href={getBlogPostPath(lang, slug)}>
+            <time datetime={post.data.date.toISOString().slice(0,10)}>{post.data.date.toISOString().slice(0,10).replace(/-/g,'.')}</time>
+            <h3>{lang === 'ja' ? (shortTitles[slug] ?? post.data.title) : post.data.title}</h3><span aria-hidden="true">↗</span>
+          </a>;
+        })}
+      </section>
+
+      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+        <div class="contact-heading"><h2 id="contact-title" class="outline-title">CONTACT</h2><p class="section-subtitle">{copy.contact}</p></div>
+        <div class="contact-copy"><p>{copy.contactCopy}</p><a class="email-link" href="mailto:hello@syncraft.dev">hello@syncraft.dev <span aria-hidden="true">↗</span></a></div>
+        <svg class="contact-drawing" viewBox="0 0 340 280" aria-hidden="true"><g class="drawing-ink"><path d="M43 247q117-5 261 0M218 245v-105m15 105V140"/><path fill="#fff" d="M188 145V87q0-37 35-37 39-1 39 38v55Z"/><path d="m188 91 74-1m-55 24h38m-53-44 66-2m-21-13 1-18 26 2v15h-26"/><g transform="translate(123 230)"><path fill="#fff" d="M-26-32q-1-42 23-45 28-3 29 41T0 0q-25-1-26-32Z"/><path fill="#000" d="M-32-68q29-21 61-1Zm12-8q0-18 18-18 16 0 19 18"/><path d="m6-49 0 5m11-5v5m-32 16-19 15M-8 0l-9 17h-10M10 0l12 15h10m-2-50 31-42"/><path fill="#fff" d="m35-97 44 5-4 31-44-5Zm0 0 20 21 24-16"/></g><path d="m74 114-8-12m18 6 1-16m177 145 4-11 8 12"/></g></svg>
+      </section>
+
+<script is:inline type="module" src="/brand/story.js?v=20260922-1"></script>
+</BaseLayout>

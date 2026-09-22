@@ -3,7 +3,7 @@
  * BlogCard — Single article card for the blog list
  */
 import type { Lang } from '../i18n/translations';
-import { getBlogPostPath, t } from '../i18n/utils';
+import { getBlogPostPath } from '../i18n/utils';
 
 interface Props {
   lang: Lang;
@@ -22,15 +22,10 @@ const href = getBlogPostPath(lang, slug);
 const formattedDate = date.toISOString().slice(0, 10).replace(/-/g, '.');
 const isoDate = date.toISOString().slice(0, 10);
 ---
-
-<article class="article-card">
+<article class="note-entry">
   <time datetime={isoDate}>{formattedDate}</time>
-  <h3><a href={href}>{title}</a></h3>
-  {image && (
-    <div class="article-hero">
-      <img src={image} alt={imageAlt ?? title} loading="lazy" />
-    </div>
-  )}
-  <p class="article-summary">{description}</p>
-  <a href={href} class="read-more">{t(lang, 'blog.readmore')}</a>
+  <a class="note-link" href={href}>
+    <div><h2>{title}</h2><p>{description}</p></div>
+    <span aria-hidden="true">↗</span>
+  </a>
 </article>
