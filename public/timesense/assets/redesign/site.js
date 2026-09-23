@@ -25,6 +25,7 @@ for (const card of document.querySelectorAll('.voice-item')) {
   control.type = 'button';
   control.className = 'voice-control offset-button';
   const icon = document.createElement('span');
+  icon.className = 'voice-control-icon';
   icon.setAttribute('aria-hidden', 'true');
   const label = document.createElement('span');
   control.append(icon, label);
@@ -41,7 +42,6 @@ for (const card of document.querySelectorAll('.voice-item')) {
   const update = () => {
     const playing = !audio.paused && !audio.ended;
     card.classList.toggle('is-playing', playing);
-    icon.textContent = playing ? '■' : '▶';
     label.textContent = playing ? stop : listen;
     control.setAttribute('aria-label', `${character}: ${playing ? stop : listen}`);
     control.setAttribute('aria-pressed', String(playing));

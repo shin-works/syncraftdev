@@ -65,9 +65,11 @@ html[lang='ja'] .hero-line:last-child { font-size: .82em; white-space: nowrap; l
 .app-buttons img { height: 48px; width: auto; max-width: 180px; object-fit: contain; }
 .voice-link { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; font-size: 13px; font-weight: 700; margin-top: 26px; }
 .voice-link > span:last-child { margin-left: 8px; }
-.round-play { display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid var(--ink); border-radius: 50%; font-family: Arial, sans-serif; font-size: 10px; padding-left: 2px; }
+.round-play { display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid var(--ink); border-radius: 50%; padding-left: 2px; }
+.round-play::before { content: ''; width: 0; height: 0; border-block: 4px solid transparent; border-left: 7px solid currentColor; }
 .voice-link:hover .round-play { background: var(--paper); }
-.scene-spark { position: absolute; line-height: 1; font-family: Arial, sans-serif; }
+.scene-spark { position: absolute; line-height: 1; }
+.scene-spark svg { display: block; }
 .hero-baseline { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(23,52,91,.25); padding: 17px var(--page-gutter); font-family: Arial, sans-serif; font-size: 10px; letter-spacing: .14em; }
 .hero-baseline > span:first-child { font-weight: 700; letter-spacing: -.03em; font-size: 20px; }
 .hero-baseline a { text-decoration: none; }
@@ -378,6 +380,8 @@ footer { background: var(--ink); color: white; padding: 50px var(--page-gutter) 
 .voice-content { display: flex; flex-direction: column; align-items: start; flex: 1; }
 .voice-text { font-size: 18px; font-weight: 700; line-height: 1.9; padding-block: 20px 24px; flex: 1; }
 .voice-control { min-width: 152px; min-height: 48px; padding: 11px 24px; font-size: 12px; gap: 14px; }
+.voice-control-icon { display: block; width: 10px; height: 10px; flex-shrink: 0; background: currentColor; clip-path: polygon(15% 0, 100% 50%, 15% 100%); }
+.voice-control[aria-pressed='true'] .voice-control-icon { clip-path: inset(10%); }
 .voice-control[hidden], .audio-player[hidden] { display: none; }
 .voice-item.is-playing .voice-control { background: var(--ink); box-shadow: 4px 4px 0 #0a2343; }
 .voice-item.is-playing .voice-text { color: var(--purple); }
