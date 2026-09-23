@@ -1,0 +1,1965 @@
+{
+  "ja": {
+    "h1": "知育時計アプリ 子どもが\"時間を感じて\"動く",
+    "subtitle": "知育時計 × 声かけタイマーで 子どもの「時間感覚」と「自立」を育てる",
+    "title": "TimeSense - 子どもが\"時間を感じて\"動く、知育時計 × 声かけタイマーアプリ",
+    "metadata": [
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "知育時計 × 声かけタイマーアプリ『TimeSense』。かわいいキャラと一緒に、朝の準備や宿題もスムーズに"
+      },
+      {
+        "property": "og:title",
+        "content": "知育時計アプリ『TimeSense』｜子どもの“あと◯分”を育てる声かけタイマー"
+      },
+      {
+        "property": "og:description",
+        "content": "もう『早くして！』を言わなくても大丈夫。知育時計 × 声かけタイマーで、子どもが“時間を感じて”自分で動けるように。"
+      },
+      {
+        "property": "og:image",
+        "content": "https://syncraft.dev/timesense/chiiku_tokei_timer_app_timesense_ogp.png"
+      },
+      {
+        "property": "og:url",
+        "content": "https://syncraft.dev/timesense/"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "alternates": [
+      {
+        "rel": "canonical",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ja",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "en",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "es",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "de",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "pt-BR",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ko",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hant",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hans",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": "https://syncraft.dev/timesense/"
+      }
+    ],
+    "headings": [
+      "知育時計アプリ 子どもが\"時間を感じて\"動く",
+      "TimeSenseとは？",
+      "朝のバタバタ、思わず出ちゃうこんなセリフ…",
+      "TimeSenseの特徴",
+      "今何時？あと○分？がひと目でわかる",
+      "キャラが声でサポート",
+      "朝・夜・宿題でキャラを切り替え",
+      "活用シーン",
+      "「早くして！」の代わりに",
+      "集中スイッチON",
+      "時間の切り替えに",
+      "声かけサンプル",
+      "無料で使える4体のキャラクター",
+      "TimeSense+ シーンに合わせた声かけ",
+      "アプリをダウンロード",
+      "開発者より",
+      "FAQ",
+      "確認方法",
+      "解除方法",
+      "まだ解決しない場合",
+      "確認ポイント",
+      "まだ解決しない場合",
+      "確認ポイント",
+      "Android端末をご利用の場合",
+      "まだ解決しない場合",
+      "確認ポイント",
+      "Android端末をご利用の場合",
+      "まだ解決しない場合",
+      "現在同期に対応していないデータ",
+      "購入情報について",
+      "まだ解決しない場合",
+      "無料版でできること",
+      "TimeSense+ でできること",
+      "確認ポイント",
+      "まだ解決しない場合",
+      "iPhone / iPad をご利用の場合",
+      "Android をご利用の場合",
+      "6つのカラーテーマ"
+    ],
+    "paragraphs": [
+      "知育時計 × 声かけタイマーで 子どもの「時間感覚」と「自立」を育てる",
+      "もう「早くして！」を何度も言わなくても大丈夫。 朝のバタバタもキャラクターの声かけでスムーズに。 TimeSenseは、忙しさの中でも、親子にちょっとした“余白”と“笑顔”を届ける、\"育児のパートナー\"アプリです。 『アナログ時計と残り時間の視覚的な表現』と、『個性豊かなキャラクターによる声かけ』で、子どもの\"時間感覚\"と\"自ら動く力\"を自然に育みます。",
+      "TimeSenseの画面と声かけ設計は、子どもの成長や心理学の研究結果に基づいています。",
+      "知育デザインのアナログ時計＋タイマー表示で、残り時間がパッとわかる",
+      "パパやママ・保護者の代わりに、キャラクターが残り時間や行動を声かけしてサポート",
+      "時間帯やシーンに応じたキャラや音声を選べるから、子どもも飽きずに続けられる",
+      "残り時間とキャラの声で、朝の支度がスムーズに。何度も声をかける必要がなくなり、子どもと過ごす時間がより穏やかに。",
+      "タイマーで区切ることで、やる気もメリハリもアップ。「あと5分！」というキャラクターの声かけが、子どもの集中力を高めます。",
+      "まだまだ切り替えが苦手なのは成長段階の子どもたちには当たり前。ゲーム・遊び・お片付け等の切り替えをシーンに合わせてサポートします。",
+      "お子様のお好みや性格に合わせてキャラ音声を選択できます。シンプルな残り時間アナウンスと、シーンに合わせた多彩な音声も。「あと〇分」や”行動を促す声かけ”を行ってくれます。",
+      "Luma・Pico・Milo・Totoの基本の声かけが使えます。LumaとPicoのサンプルを、下のボタンから試聴できます。",
+      "プレミアムでは、基本の声かけに加えて、朝の支度・宿題・寝る時間などのシーンに合わせた音声が使えます。",
+      "まずは無料で体験可能！プレミアムな「Timesense+」では広告なし＆シーンに合わせた多彩なキャラ音声がすべて使えます。",
+      "このアプリは、時間の切り替えが苦手な息子と忙しい朝の時間にいつもバタバタしていた私たち夫婦が、少しでも笑顔で1日を始められるように…という想いから生まれました。",
+      "「あと○分」が感覚でわかるように。かわいいキャラたちが、親の代わりにやさしく声をかけてくれます。",
+      "あなたの声を代弁してくれる\"育児の相棒\"です。",
+      "TimeSenseは、「タイマー × 教育 × 優しさ」で、子どもが\"自分で動ける\"力を、毎日少しずつ育てていくアプリです。",
+      "自分の子にも、世界中の親子にも使ってもらえたら嬉しいです。レビューやご意見もお待ちしています！",
+      "よくあるご質問をまとめました。 気になる項目をタップすると、回答と確認手順が開きます。",
+      "A. チャイルドロックが有効になっている可能性があります。",
+      "TimeSenseでは、お子さまが誤ってタイマーを停止したり設定を変更したりしないように、画面操作を一時的に制限できるチャイルドロック機能を用意しています。",
+      "画面が反応しない場合、まずチャイルドロックが有効になっていないかご確認ください。",
+      "ご注意ください",
+      "チャイルドロックが有効になっていない場合や、上記で解決しない場合は、端末固有の不具合の可能性があります。hello@syncraft.dev へメールでお問い合わせください。",
+      "A. 端末の設定、またはアプリ内の設定が影響している可能性があります。",
+      "TimeSenseでは、キャラクターによる音声ガイドや効果音を利用できます。音が出ない場合、多くは端末設定やアプリ内設定が原因となっています。",
+      "ご注意ください",
+      "上記を確認しても改善しない場合は、不具合の可能性があります。アプリ内の「アプリのフィードバック」メニューからお問い合わせください。",
+      "A. 端末の省電力設定により、アプリが自動的に停止している可能性があります。",
+      "TimeSenseでは、タイマー実行中もできるだけ安定して動作するよう設計していますが、特にAndroid端末では、端末側の省電力設定によってアプリの動作が制限される場合があります。",
+      "一部メーカーの端末では、通常より強い省電力制御が行われることがあります。特に Samsung Electronics、Xiaomi Corporation、OPPO の端末では影響を受けやすい場合があります。",
+      "ご注意ください",
+      "上記をご確認いただいても改善しない場合は、不具合の可能性があります。アプリ内の「アプリのフィードバック」メニューからお問い合わせください。",
+      "A. 端末の通知設定や省電力設定が影響している可能性があります。",
+      "TimeSenseでは、設定した時間に合わせて通知を送ることができます。通知が届かない場合、多くは端末側の設定によって通知が制限されています。",
+      "バッテリー最適化やバックグラウンド動作の制限により、通知が遅れたり正常に届かないことがあります。端末メーカーによって設定方法が異なる場合があります。",
+      "ご注意ください",
+      "TimeSenseの通知機能は、アプリだけではなく端末側の設定にも影響されます。特にAndroid端末では、機種によって通知の動作に差がある場合があります。",
+      "上記をご確認いただいても改善しない場合は、アプリ内の「アプリのフィードバック」メニューからお問い合わせください。",
+      "A. 現在、TimeSenseは端末ごとにデータを保存しており、端末間の同期には対応していません。",
+      "TimeSenseでは、お子さまが安心して利用できるよう、安全性とプライバシーを優先し、アカウント登録やクラウド同期機能を使用していません。そのため、データはご利用中の端末内にのみ保存されます。",
+      "ご注意ください",
+      "いずれの場合も、データは自動共有されません。",
+      "有料プラン（TimeSense+）の購入情報は、同じストアアカウントをご利用の場合、復元できる場合があります。アプリ内の購入復元をお試しください。",
+      "※プロフィールやスタンプなどのデータ自体は復元されません。",
+      "データが消えたように見える場合や、ご不明な点がある場合は、アプリ内の「アプリのフィードバック」メニューからお問い合わせください。",
+      "A. TimeSenseは無料でもご利用いただけますが、一部機能は TimeSense+ にてご利用いただけます。",
+      "TimeSenseでは、基本的なタイマー機能は無料でご利用いただけます。より便利にご利用いただきたい方向けに、有料プラン TimeSense+ をご用意しています。",
+      "※広告が表示される場合があります。",
+      "ご案内",
+      "まずは無料版でお試しいただき、お子さまに合っていると感じた場合に TimeSense+ をご検討ください。最新の内容はアプリ内の購入画面をご確認ください。",
+      "A. 購入情報がまだ反映されていないか、ストアアカウントが異なっている可能性があります。",
+      "TimeSense+ を購入したにもかかわらず有料機能が利用できない場合、購入情報が正常に反映されていない可能性があります。",
+      "ご注意ください",
+      "ストアが異なるため、購入情報は共有されません。",
+      "上記を確認しても改善しない場合は、アプリ内の「アプリのフィードバック」メニューからお問い合わせください。",
+      "A. サブスクリプションの解約は、アプリ内ではなく、ご利用中のストアからお手続きいただく必要があります。",
+      "TimeSenseの定期購入は、アプリではなく、各ストア（App Store / Google Play）で管理されています。そのため、TimeSenseアプリ内から解約することはできません。",
+      "ご注意ください"
+    ],
+    "audio": [
+      "luma_jap_30min.mp3",
+      "pico_nor_jap_5min.mp3",
+      "v4sar4jalm.mp3",
+      "zfqp1rrr7s.mp3"
+    ],
+    "faq": [
+      "A. チャイルドロックが有効になっている可能性があります。 TimeSenseでは、お子さまが誤ってタイマーを停止したり設定を変更したりしないように、画面操作を一時的に制限できるチャイルドロック機能を用意しています。 画面が反応しない場合、まずチャイルドロックが有効になっていないかご確認ください。 確認方法 メイン画面右上の歯車アイコンを確認してください 歯車アイコンの右下に鍵マークが表示されている場合、チャイルドロックが有効です 解除方法 右上の歯車アイコンを長押ししてください 数秒後に設定画面が開きます メニュー一覧からチャイルドロックを選択してください チャイルドロックをOFFにしてください ご注意ください チャイルドロック中は、一部の画面操作ができません アプリの故障ではありません まだ解決しない場合 チャイルドロックが有効になっていない場合や、上記で解決しない場合は、端末固有の不具合の可能性があります。hello@syncraft.dev へメールでお問い合わせください。 ご利用端末名 OSバージョン アプリバージョン",
+      "A. 端末の設定、またはアプリ内の設定が影響している可能性があります。 TimeSenseでは、キャラクターによる音声ガイドや効果音を利用できます。音が出ない場合、多くは端末設定やアプリ内設定が原因となっています。 確認ポイント 端末がマナーモードや消音モードになっていないかご確認ください Bluetoothイヤホンやスピーカーに接続されていないかご確認ください メイン画面右上の歯車アイコンからサウンド設定を開き、音声ガイドや効果音がOFFになっていないかご確認ください 選択した言語の音声パックが必要な場合は、通信環境が安定した状態で再度お試しください ご注意ください 一部言語では、まだ音声に対応していない場合があります 音声パックのダウンロードには通信環境が必要です まだ解決しない場合 上記を確認しても改善しない場合は、不具合の可能性があります。アプリ内の「アプリのフィードバック」メニューからお問い合わせください。 ご利用端末名 OSバージョン アプリバージョン ご利用中の言語設定",
+      "A. 端末の省電力設定により、アプリが自動的に停止している可能性があります。 TimeSenseでは、タイマー実行中もできるだけ安定して動作するよう設計していますが、特にAndroid端末では、端末側の省電力設定によってアプリの動作が制限される場合があります。 確認ポイント 省電力モードが有効になっていないかご確認ください TimeSenseがバッテリー最適化の対象になっていないかご確認ください バックグラウンド動作が制限されていないかご確認ください Android端末をご利用の場合 一部メーカーの端末では、通常より強い省電力制御が行われることがあります。特に Samsung Electronics、Xiaomi Corporation、OPPO の端末では影響を受けやすい場合があります。 ご注意ください iPhone / iPad ではこの問題は起こりにくくなっています Android端末では、メーカーごとに設定項目が異なる場合があります まだ解決しない場合 上記をご確認いただいても改善しない場合は、不具合の可能性があります。アプリ内の「アプリのフィードバック」メニューからお問い合わせください。 ご利用端末名 OSバージョン アプリバージョン タイマーが停止した状況（何分後に止まるかなど）",
+      "A. 端末の通知設定や省電力設定が影響している可能性があります。 TimeSenseでは、設定した時間に合わせて通知を送ることができます。通知が届かない場合、多くは端末側の設定によって通知が制限されています。 確認ポイント 端末側でTimeSenseの通知が許可されているかご確認ください おやすみモードや集中モードが有効になっていないかご確認ください 省電力モードが有効になっていないかご確認ください Android端末をご利用の場合 バッテリー最適化やバックグラウンド動作の制限により、通知が遅れたり正常に届かないことがあります。端末メーカーによって設定方法が異なる場合があります。 ご注意ください TimeSenseの通知機能は、アプリだけではなく端末側の設定にも影響されます。特にAndroid端末では、機種によって通知の動作に差がある場合があります。 まだ解決しない場合 上記をご確認いただいても改善しない場合は、アプリ内の「アプリのフィードバック」メニューからお問い合わせください。 ご利用端末名 OSバージョン アプリバージョン 通知を設定した時間 通知が届かなかった状況",
+      "A. 現在、TimeSenseは端末ごとにデータを保存しており、端末間の同期には対応していません。 TimeSenseでは、お子さまが安心して利用できるよう、安全性とプライバシーを優先し、アカウント登録やクラウド同期機能を使用していません。そのため、データはご利用中の端末内にのみ保存されます。 現在同期に対応していないデータ プロフィール設定 スタンプカードの進行状況 ルーティン設定 各種設定情報 ご注意ください iPhone ⇔ iPad iPhone ⇔ Android Android ⇔ Android（別端末） 機種変更時のデータ移行 いずれの場合も、データは自動共有されません。 購入情報について 有料プラン（TimeSense+）の購入情報は、同じストアアカウントをご利用の場合、復元できる場合があります。アプリ内の購入復元をお試しください。 ※プロフィールやスタンプなどのデータ自体は復元されません。 まだ解決しない場合 データが消えたように見える場合や、ご不明な点がある場合は、アプリ内の「アプリのフィードバック」メニューからお問い合わせください。 ご利用端末名 OSバージョン アプリバージョン 発生している状況",
+      "A. TimeSenseは無料でもご利用いただけますが、一部機能は TimeSense+ にてご利用いただけます。 TimeSenseでは、基本的なタイマー機能は無料でご利用いただけます。より便利にご利用いただきたい方向けに、有料プラン TimeSense+ をご用意しています。 無料版でできること 基本的なタイマー機能 キャラクター音声ガイド ルーティン機能（一部制限あり） プロフィール機能（一部制限あり） スタンプカード機能 ※広告が表示される場合があります。 TimeSense+ でできること 複数プロフィールの利用 ルーティン登録数の拡張 一部機能制限の解除 広告の制限 / 非表示 今後追加されるプレミアム機能へのアクセス ご案内 まずは無料版でお試しいただき、お子さまに合っていると感じた場合に TimeSense+ をご検討ください。最新の内容はアプリ内の購入画面をご確認ください。",
+      "A. 購入情報がまだ反映されていないか、ストアアカウントが異なっている可能性があります。 TimeSense+ を購入したにもかかわらず有料機能が利用できない場合、購入情報が正常に反映されていない可能性があります。 確認ポイント 購入時と同じストアアカウントでログインしているかご確認ください アプリ内の TimeSense+ メニューから購入復元をお試しください Wi-Fi または通信環境を確認し、アプリの再起動後に再度ご確認ください ご注意ください iPhone → Android への機種変更 Android → iPhone への機種変更 ストアが異なるため、購入情報は共有されません。 まだ解決しない場合 上記を確認しても改善しない場合は、アプリ内の「アプリのフィードバック」メニューからお問い合わせください。 ご利用端末名 OSバージョン アプリバージョン 購入したプラン名 購入日時（わかる範囲で問題ありません）",
+      "A. サブスクリプションの解約は、アプリ内ではなく、ご利用中のストアからお手続きいただく必要があります。 TimeSenseの定期購入は、アプリではなく、各ストア（App Store / Google Play）で管理されています。そのため、TimeSenseアプリ内から解約することはできません。 iPhone / iPad をご利用の場合 設定アプリを開いてください 一番上の Apple Account をタップしてください サブスクリプションを選択してください TimeSense を選択してください サブスクリプションをキャンセル を選択してください Android をご利用の場合 Google Play Store を開いてください 右上のアカウントアイコンをタップしてください お支払いと定期購入 を選択してください 定期購入 を選択してください TimeSense を選択してください 定期購入を解約 を選択してください ご注意ください アプリを削除しただけでは解約されません 解約後も、契約期間終了まではそのままご利用いただけます 解約が完了すると、次回の自動更新は行われません"
+    ],
+    "stores": [
+      "https://apps.apple.com/jp/app/id6747689461",
+      "https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506"
+    ]
+  },
+  "en": {
+    "h1": "Visual Timer for Kidswith Voice Reminders",
+    "subtitle": "A gentle visual timerthat helps kids manage morning routines, bedtime,and smooth transitions.",
+    "title": "TimeSense - Voice Timer for Kids",
+    "metadata": [
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "TimeSense is a smart voice timer app that helps children manage time in a fun way. Characters gently remind them of what’s next."
+      },
+      {
+        "property": "og:title",
+        "content": "TimeSense - Voice Timer for Kids"
+      },
+      {
+        "property": "og:description",
+        "content": "No more rushing! Cute characters gently guide your child through routines like getting ready, studying, and going out."
+      },
+      {
+        "property": "og:image",
+        "content": "https://syncraft.dev/timesense/timesense_ogp.png"
+      },
+      {
+        "property": "og:url",
+        "content": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "alternates": [
+      {
+        "rel": "canonical",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ja",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "en",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "es",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "de",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "pt-BR",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ko",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hant",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hans",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": "https://syncraft.dev/timesense/"
+      }
+    ],
+    "headings": [
+      "Visual Timer for Kidswith Voice Reminders",
+      "What is TimeSense?",
+      "Everyday Chaos,Familiar Words...",
+      "Features of TimeSense",
+      "See the time.Feel the countdown.",
+      "CharacterVoice Support",
+      "Character Switchingfor Morning, Evening, Homework",
+      "Use Cases",
+      "\"Hurry Up!\"Replacement",
+      "Concentration Switch ON",
+      "Smooth Transitions",
+      "Voice Samples",
+      "Four characters, free to use",
+      "TimeSense+ Voices for everyday moments",
+      "Download the App",
+      "From the Developer",
+      "FAQ",
+      "How to check",
+      "How to turn it off",
+      "If it still does not work",
+      "Things to check",
+      "If it still does not work",
+      "Things to check",
+      "If you use an Android device",
+      "If it still does not work",
+      "Things to check",
+      "If you use an Android device",
+      "If it still does not work",
+      "Data that is not currently synced",
+      "About purchases",
+      "If it still does not work",
+      "What you can do in the free version",
+      "What you can do with TimeSense+",
+      "Things to check",
+      "If it still does not work",
+      "If you use iPhone or iPad",
+      "If you use Android",
+      "Six color themes"
+    ],
+    "paragraphs": [
+      "A gentle visual timerthat helps kids manage morning routines, bedtime,and smooth transitions.",
+      "TimeSense is a visual timer for kids designed to make daily routines easier. By showing how much time is left and providing calm voice reminders, it helps children handle transitions, morning routines, and bedtime more smoothly.",
+      "TimeSense was designed with insights from child psychology and developmental research—to support kids in a way that feels natural and engaging.",
+      "The analog clock + timer display allows you to see the remaining time at a glance.",
+      "Characters speak gently in place of parents—guiding children through countdowns and next steps.",
+      "Switch characters by time of day—morning, homework, or bedtime—keeping routines fresh and fun.",
+      "Let the timer and characters take over the morning rush—no more repeating “Hurry up!”",
+      "“5 minutes left!”—hearing it from a character boosts focus and motivation.",
+      "Struggling with transitions is normal. TimeSense guides kids gently through changes—like cleaning up or moving from play to study.",
+      "Choose voice samples that match your child’s mood and needs. From basic countdowns to playful encouragement—each voice is designed to help kids take action smoothly.",
+      "Basic voice reminders from Luma, Pico, Milo and Toto are included for free. Listen to samples from Luma and Pico below.",
+      "Premium adds scene-specific voices for getting ready, homework, bedtime and more, alongside the basic reminders.",
+      "Try it for free today!Upgrade to TimeSense+ for full voice selection and an ad-free experience—designed to fit every moment of your child’s day.",
+      "This app was created from our wish to begin each morning with a smile—even during hectic routines and moments when our son found it hard to switch tasks.",
+      "With a clear display of remaining time and adorable character voices offering gentle prompts, TimeSense acts like a co-parent—speaking on your behalf.",
+      "It’s a timer app built on the ideas of education and kindness, helping kids gradually develop self-direction and time awareness.",
+      "We hope TimeSense can support children and parents all over the world. We’d love to hear your feedback!",
+      "Here are answers to the questions we hear most often.Tap any item to open the answer and troubleshooting steps.",
+      "A. Child Lock may be turned on.",
+      "TimeSense includes a Child Lock feature that can temporarily limit touch input so children do not accidentally stop the timer or change settings.",
+      "If the screen is not responding, please first check whether Child Lock is enabled.",
+      "Please note",
+      "If Child Lock is not enabled, or the issue continues after these steps, it may be a device-specific problem. Please contact us by email at hello@syncraft.dev.",
+      "A. Your device settings or the app settings may be affecting playback.",
+      "TimeSense offers character voice guidance and sound effects. In most cases, missing audio is caused by device settings or in-app sound settings.",
+      "Please note",
+      "If the issue continues after these checks, please contact us through the in-app App Feedback menu.",
+      "A. Your device power-saving settings may be stopping the app automatically.",
+      "TimeSense is designed to stay stable while a timer is running, but on some Android devices, aggressive battery settings can restrict the app in the background.",
+      "Some manufacturers apply stronger battery control than usual. This can happen more often on devices from Samsung Electronics, Xiaomi Corporation, and OPPO.",
+      "Please note",
+      "If the issue continues after these checks, please contact us through the in-app App Feedback menu.",
+      "A. Your device notification or battery settings may be affecting delivery.",
+      "TimeSense can send notifications at the times you set. In most cases, missing notifications are caused by device-side restrictions.",
+      "Battery optimization or background restrictions may delay or block notifications. The exact setting names may vary by manufacturer.",
+      "Please note",
+      "TimeSense notifications are affected not only by the app, but also by your device settings. On Android, behavior can vary by model.",
+      "If the issue continues after these checks, please contact us through the in-app App Feedback menu.",
+      "A. At the moment, TimeSense stores data separately on each device and does not support sync between devices.",
+      "To keep the app safe and privacy-friendly for young children, TimeSense does not use account registration or cloud sync. Your data is stored only on the device you are using.",
+      "Please note",
+      "In all of these cases, data is not shared automatically.",
+      "If you are using the same store account, you may be able to restore your TimeSense+ purchase. Please try Restore Purchases in the app.",
+      "Profile data, stamp progress, and similar data cannot be restored.",
+      "If your data appears to be missing or you are unsure what happened, please contact us through the in-app App Feedback menu.",
+      "A. You can use TimeSense for free, but some features are available with TimeSense+.",
+      "TimeSense includes core timer features in the free version, and we also offer the paid TimeSense+ plan for families who want more flexibility.",
+      "Ads may be shown in the free version.",
+      "Recommendation",
+      "We recommend starting with the free version and upgrading to TimeSense+ if it feels like a good fit for your child. Please check the in-app purchase screen for the latest details.",
+      "A. Your purchase may not have been reflected yet, or you may be signed in with a different store account.",
+      "If premium features are not available after purchase, the purchase status may not have synced correctly yet.",
+      "Please note",
+      "Because the stores are different, purchase information cannot be shared across platforms.",
+      "If the issue continues after these checks, please contact us through the in-app App Feedback menu.",
+      "A. Subscriptions must be canceled from your app store account, not from inside the app.",
+      "TimeSense subscriptions are managed by the App Store or Google Play. They cannot be canceled from within the TimeSense app itself.",
+      "Please note"
+    ],
+    "audio": [
+      "luma_30min.mp3",
+      "pico_nor_5min.mp3",
+      "milo_5min.mp3",
+      "toto_1min.mp3"
+    ],
+    "faq": [
+      "A. Child Lock may be turned on. TimeSense includes a Child Lock feature that can temporarily limit touch input so children do not accidentally stop the timer or change settings. If the screen is not responding, please first check whether Child Lock is enabled. How to check Check the gear icon in the top-right corner of the main screen If a lock mark appears at the lower-right of the gear icon, Child Lock is enabled How to turn it off Press and hold the gear icon in the top-right corner After a few seconds, the settings screen will open Select Child Lock from the menu Turn Child Lock OFF Please note While Child Lock is enabled, some screen actions are disabled This does not mean the app is broken If it still does not work If Child Lock is not enabled, or the issue continues after these steps, it may be a device-specific problem. Please contact us by email at hello@syncraft.dev. Device model OS version App version",
+      "A. Your device settings or the app settings may be affecting playback. TimeSense offers character voice guidance and sound effects. In most cases, missing audio is caused by device settings or in-app sound settings. Things to check Make sure your device is not in silent mode or mute mode Make sure your device is not connected to Bluetooth earphones or speakers Tap the gear icon on the main screen, open Sound Settings, and confirm that voice guidance and sound effects are not turned OFF If your selected language requires a voice pack, try again with a stable internet connection Please note Some languages may not yet support voice guidance Downloading a voice pack requires an internet connection If it still does not work If the issue continues after these checks, please contact us through the in-app App Feedback menu. Device model OS version App version Selected language",
+      "A. Your device power-saving settings may be stopping the app automatically. TimeSense is designed to stay stable while a timer is running, but on some Android devices, aggressive battery settings can restrict the app in the background. Things to check Make sure Battery Saver or Low Power Mode is not enabled Make sure TimeSense is excluded from battery optimization Make sure background activity is allowed for the app If you use an Android device Some manufacturers apply stronger battery control than usual. This can happen more often on devices from Samsung Electronics, Xiaomi Corporation, and OPPO. Please note This issue is less common on iPhone and iPad Android setting names may differ depending on the manufacturer If it still does not work If the issue continues after these checks, please contact us through the in-app App Feedback menu. Device model OS version App version What happened when the timer stopped (for example, how many minutes had passed)",
+      "A. Your device notification or battery settings may be affecting delivery. TimeSense can send notifications at the times you set. In most cases, missing notifications are caused by device-side restrictions. Things to check Make sure notifications are allowed for TimeSense in your device settings Make sure Do Not Disturb or Focus mode is not active Make sure Battery Saver or Low Power Mode is not enabled If you use an Android device Battery optimization or background restrictions may delay or block notifications. The exact setting names may vary by manufacturer. Please note TimeSense notifications are affected not only by the app, but also by your device settings. On Android, behavior can vary by model. If it still does not work If the issue continues after these checks, please contact us through the in-app App Feedback menu. Device model OS version App version The time you set for the notification What happened when the notification did not arrive",
+      "A. At the moment, TimeSense stores data separately on each device and does not support sync between devices. To keep the app safe and privacy-friendly for young children, TimeSense does not use account registration or cloud sync. Your data is stored only on the device you are using. Data that is not currently synced Profile settings Stamp card progress Routine settings Other app settings Please note In all of these cases, data is not shared automatically. iPhone ⇔ iPad iPhone ⇔ Android Android ⇔ Android (different devices) Data transfer when changing devices About purchases If you are using the same store account, you may be able to restore your TimeSense+ purchase. Please try Restore Purchases in the app. Profile data, stamp progress, and similar data cannot be restored. If it still does not work If your data appears to be missing or you are unsure what happened, please contact us through the in-app App Feedback menu. Device model OS version App version What you are seeing",
+      "A. You can use TimeSense for free, but some features are available with TimeSense+. TimeSense includes core timer features in the free version, and we also offer the paid TimeSense+ plan for families who want more flexibility. What you can do in the free version Basic timer features Character voice guidance Routine feature (with some limits) Profile feature (with some limits) Stamp card feature Ads may be shown in the free version. What you can do with TimeSense+ Use multiple profiles Increase the number of saved routines Unlock some feature limits Reduce or hide ads Access future premium features Recommendation We recommend starting with the free version and upgrading to TimeSense+ if it feels like a good fit for your child. Please check the in-app purchase screen for the latest details.",
+      "A. Your purchase may not have been reflected yet, or you may be signed in with a different store account. If premium features are not available after purchase, the purchase status may not have synced correctly yet. Things to check Make sure you are signed in with the same store account that was used for the purchase Try Restore Purchases from the TimeSense+ menu in the app Check your internet connection, restart the app, and try again after a few minutes Please note Because the stores are different, purchase information cannot be shared across platforms. iPhone → Android device change Android → iPhone device change If it still does not work If the issue continues after these checks, please contact us through the in-app App Feedback menu. Device model OS version App version Purchased plan name Purchase date and time, if known",
+      "A. Subscriptions must be canceled from your app store account, not from inside the app. TimeSense subscriptions are managed by the App Store or Google Play. They cannot be canceled from within the TimeSense app itself. If you use iPhone or iPad Open the Settings app Tap your Apple Account at the top of the screen Select Subscriptions Select TimeSense Tap Cancel Subscription If you use Android Open Google Play Store Tap your account icon in the top-right corner Select Payments & subscriptions Select Subscriptions Select TimeSense Tap Cancel subscription Please note Deleting the app does not cancel the subscription After cancellation, you can continue using it until the current billing period ends Once canceled, the subscription will not renew automatically next time"
+    ],
+    "stores": [
+      "https://apps.apple.com/jp/app/id6747689461",
+      "https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506"
+    ]
+  },
+  "es": {
+    "h1": "Temporizador visual infantilcon recordatorios de voz",
+    "subtitle": "Un apoyo amable para la rutina de la mañana,la hora de dormir y esos cambios de actividadque a veces cuestan tanto.",
+    "title": "TimeSense - Temporizador visual infantil con voz",
+    "metadata": [
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "TimeSense es un temporizador visual con recordatorios de voz que ayuda a los peques a seguir rutinas como la mañana, los deberes y la hora de dormir."
+      },
+      {
+        "property": "og:title",
+        "content": "TimeSense - Temporizador visual infantil con voz"
+      },
+      {
+        "property": "og:description",
+        "content": "Personajes adorables acompañan a tu peque con avisos suaves para que las transiciones del día a día sean más fáciles."
+      },
+      {
+        "property": "og:image",
+        "content": "https://syncraft.dev/timesense/timesense_ogp.png"
+      },
+      {
+        "property": "og:url",
+        "content": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "alternates": [
+      {
+        "rel": "canonical",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ja",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "en",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "es",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "de",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "pt-BR",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ko",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hant",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hans",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": "https://syncraft.dev/timesense/"
+      }
+    ],
+    "headings": [
+      "Temporizador visual infantilcon recordatorios de voz",
+      "¿Qué es TimeSense?",
+      "El caos de cada día,las frases de siempre...",
+      "Funciones de TimeSense",
+      "Mira el tiempo.Siente la cuenta atrás.",
+      "Apoyo con vocesde personajes",
+      "Cambio de personajespara mañana, deberes y noche",
+      "Casos de uso",
+      "Sustituye el\"¡Date prisa!\"",
+      "Concentración activada",
+      "Transiciones suaves",
+      "Muestras de voz",
+      "Cuatro personajes gratuitos",
+      "TimeSense+ Voces para cada momento",
+      "Descarga la app",
+      "Mensaje del desarrollador",
+      "FAQ",
+      "Cómo comprobarlo",
+      "Cómo desactivarlo",
+      "Si el problema continúa",
+      "Qué comprobar",
+      "Si el problema continúa",
+      "Qué comprobar",
+      "Si usas Android",
+      "Si el problema continúa",
+      "Qué comprobar",
+      "Si usas Android",
+      "Si el problema continúa",
+      "Datos que no se sincronizan actualmente",
+      "Sobre las compras",
+      "Si el problema continúa",
+      "Qué puedes hacer con la versión gratuita",
+      "Qué puedes hacer con TimeSense+",
+      "Qué comprobar",
+      "Si el problema continúa",
+      "Si usas iPhone o iPad",
+      "Si usas Android",
+      "Seis temas de color"
+    ],
+    "paragraphs": [
+      "Un apoyo amable para la rutina de la mañana,la hora de dormir y esos cambios de actividadque a veces cuestan tanto.",
+      "TimeSense es un temporizador visual para peques pensado para hacer más llevaderas las rutinas diarias. Muestra claramente cuánto tiempo queda y ofrece avisos de voz tranquilos para acompañar mejor las transiciones, la mañana y la hora de dormir.",
+      "TimeSense se diseñó tomando como referencia la psicología infantil y el desarrollo evolutivo, para apoyar a los peques de una forma natural y cercana.",
+      "El reloj analógico junto al temporizador permite entender de un vistazo cuánto falta.",
+      "Los personajes hablan con suavidad en lugar de los padres y ayudan a avanzar paso a paso con la cuenta atrás.",
+      "Puedes elegir voces distintas según el momento del día para que la rutina siga siendo fresca y entretenida.",
+      "Deja que el temporizador y los personajes acompañen la mañana para no repetir lo mismo una y otra vez.",
+      "Escuchar \"quedan 5 minutos\" con una voz de personaje ayuda a subir la motivación y el enfoque.",
+      "Cambiar de actividad cuesta, y eso es normal. TimeSense ayuda con suavidad al pasar de jugar a recoger o estudiar.",
+      "Elige las voces que mejor encajen con el momento y las necesidades de tu peque. Desde cuentas atrás básicas hasta mensajes de ánimo, cada voz está pensada para ayudar a pasar a la acción con naturalidad.",
+      "Los avisos básicos de Luma, Pico, Milo y Toto son gratuitos. Escucha las muestras de Luma y Pico a continuación.",
+      "Premium añade voces para prepararse por la mañana, hacer los deberes, irse a dormir y otras situaciones, además de los avisos básicos.",
+      "Pruébala gratis hoy mismo.Con TimeSense+ tendrás todas las voces y una experiencia sin anuncios para acompañar cada momento del día.",
+      "Esta app nació de nuestro deseo de empezar cada mañana con una sonrisa, incluso en esos momentos en los que todo va con prisa y a nuestro hijo le costaba cambiar de actividad.",
+      "Con una visualización clara del tiempo restante y voces adorables que avisan con suavidad, TimeSense funciona como un pequeño apoyo extra que habla por ti.",
+      "Es una app creada desde la educación y la amabilidad para ayudar a que los peques desarrollen poco a poco autonomía y sentido del tiempo.",
+      "Ojalá TimeSense pueda acompañar a familias de todo el mundo. Nos encantará recibir tus comentarios.",
+      "Aquí encontrarás respuestas a las preguntas más frecuentes.Toca cualquier elemento para ver la respuesta y los pasos de comprobación.",
+      "A. Es posible que el bloqueo infantil esté activado.",
+      "TimeSense incluye una función de bloqueo infantil que limita temporalmente la interacción con la pantalla para evitar que los niños detengan el temporizador o cambien la configuración por accidente.",
+      "Si la pantalla no responde, primero comprueba si el bloqueo infantil está activado.",
+      "Ten en cuenta",
+      "Si el bloqueo infantil no está activado o el problema continúa, puede tratarse de un problema específico del dispositivo. Escríbenos por correo a hello@syncraft.dev.",
+      "A. La causa puede estar en la configuración del dispositivo o de la app.",
+      "TimeSense ofrece guía de voz y efectos de sonido con personajes. En la mayoría de los casos, la falta de sonido se debe a ajustes del dispositivo o de la propia app.",
+      "Ten en cuenta",
+      "Si no mejora, contáctanos desde el menú de comentarios de la app.",
+      "A. Es posible que los ajustes de ahorro de energía del dispositivo estén cerrando la app automáticamente.",
+      "TimeSense está diseñado para funcionar de forma estable mientras el temporizador está en marcha, pero en algunos dispositivos Android la configuración de batería puede limitar la app en segundo plano.",
+      "Algunos fabricantes aplican un control de batería más agresivo. Esto puede ocurrir con más frecuencia en dispositivos de Samsung Electronics, Xiaomi Corporation y OPPO.",
+      "Ten en cuenta",
+      "Si no mejora, contáctanos desde el menú de comentarios de la app.",
+      "A. La configuración de notificaciones o batería del dispositivo puede estar afectando la entrega.",
+      "TimeSense puede enviar notificaciones a la hora que configures. En la mayoría de los casos, las notificaciones que no llegan se deben a restricciones del dispositivo.",
+      "La optimización de batería o las restricciones en segundo plano pueden retrasar o bloquear las notificaciones. Los nombres de los ajustes varían según el fabricante.",
+      "Ten en cuenta",
+      "Las notificaciones de TimeSense dependen tanto de la app como de la configuración del dispositivo. En Android, el comportamiento puede variar según el modelo.",
+      "Si no mejora, contáctanos desde el menú de comentarios de la app.",
+      "A. Actualmente, TimeSense guarda los datos por separado en cada dispositivo y no ofrece sincronización entre dispositivos.",
+      "Para mantener la app segura y respetuosa con la privacidad de los niños, TimeSense no utiliza cuentas ni sincronización en la nube. Los datos se guardan solo en el dispositivo que estás usando.",
+      "Ten en cuenta",
+      "En todos estos casos, los datos no se comparten automáticamente.",
+      "Si utilizas la misma cuenta de la tienda, es posible que puedas restaurar la compra de TimeSense+. Prueba Restaurar compras dentro de la app.",
+      "Los perfiles, los sellos y otros datos similares no se pueden restaurar.",
+      "Si parece que faltan datos o no tienes claro qué ha pasado, contáctanos desde el menú de comentarios de la app.",
+      "A. Puedes usar TimeSense gratis, pero algunas funciones están disponibles con TimeSense+.",
+      "TimeSense incluye las funciones básicas del temporizador en la versión gratuita, y también ofrecemos el plan de pago TimeSense+ para familias que necesitan más flexibilidad.",
+      "La versión gratuita puede mostrar anuncios.",
+      "Sugerencia",
+      "Te recomendamos empezar con la versión gratuita y considerar TimeSense+ si ves que encaja bien con tu hijo. Consulta la pantalla de compra dentro de la app para ver los detalles más recientes.",
+      "A. Es posible que la compra aún no se haya reflejado o que hayas iniciado sesión con otra cuenta de la tienda.",
+      "Si las funciones premium no aparecen después de la compra, es posible que el estado de la compra aún no se haya sincronizado correctamente.",
+      "Ten en cuenta",
+      "Como las tiendas son distintas, la información de compra no puede compartirse entre plataformas.",
+      "Si no mejora, contáctanos desde el menú de comentarios de la app.",
+      "A. Las suscripciones deben cancelarse desde la cuenta de tu tienda, no desde la app.",
+      "Las suscripciones de TimeSense se gestionan desde App Store o Google Play. No se pueden cancelar desde la propia app.",
+      "Ten en cuenta"
+    ],
+    "audio": [
+      "/timesense/es/luma_es_30min.mp3",
+      "/timesense/es/pico_nor_es_5min.mp3",
+      "/timesense/es/milo_es_5min.mp3",
+      "/timesense/es/toto_es_1min.mp3"
+    ],
+    "faq": [
+      "A. Es posible que el bloqueo infantil esté activado. TimeSense incluye una función de bloqueo infantil que limita temporalmente la interacción con la pantalla para evitar que los niños detengan el temporizador o cambien la configuración por accidente. Si la pantalla no responde, primero comprueba si el bloqueo infantil está activado. Cómo comprobarlo Revisa el icono de engranaje en la esquina superior derecha de la pantalla principal Si aparece un icono de candado en la parte inferior derecha del engranaje, el bloqueo infantil está activado Cómo desactivarlo Mantén pulsado el icono de engranaje de la esquina superior derecha Después de unos segundos se abrirá la pantalla de ajustes Selecciona Bloqueo infantil en el menú Pon el bloqueo infantil en OFF Ten en cuenta Mientras el bloqueo infantil esté activado, algunas acciones de la pantalla no estarán disponibles Esto no significa que la app esté averiada Si el problema continúa Si el bloqueo infantil no está activado o el problema continúa, puede tratarse de un problema específico del dispositivo. Escríbenos por correo a hello@syncraft.dev. Modelo del dispositivo Versión del sistema operativo Versión de la app",
+      "A. La causa puede estar en la configuración del dispositivo o de la app. TimeSense ofrece guía de voz y efectos de sonido con personajes. En la mayoría de los casos, la falta de sonido se debe a ajustes del dispositivo o de la propia app. Qué comprobar Comprueba que el dispositivo no esté en modo silencio Comprueba que no esté conectado a auriculares o altavoces Bluetooth Abre Ajustes de sonido desde el icono de engranaje y confirma que la guía de voz y los efectos no estén en OFF Si el idioma elegido requiere un paquete de voz, vuelve a intentarlo con una conexión estable Ten en cuenta Algunos idiomas todavía no tienen soporte de voz La descarga del paquete de voz requiere conexión a internet Si el problema continúa Si no mejora, contáctanos desde el menú de comentarios de la app. Modelo del dispositivo Versión del sistema operativo Versión de la app Idioma que estás usando",
+      "A. Es posible que los ajustes de ahorro de energía del dispositivo estén cerrando la app automáticamente. TimeSense está diseñado para funcionar de forma estable mientras el temporizador está en marcha, pero en algunos dispositivos Android la configuración de batería puede limitar la app en segundo plano. Qué comprobar Comprueba que el modo de ahorro de energía no esté activado Comprueba que TimeSense no esté sujeto a optimización de batería Comprueba que la actividad en segundo plano esté permitida Si usas Android Algunos fabricantes aplican un control de batería más agresivo. Esto puede ocurrir con más frecuencia en dispositivos de Samsung Electronics, Xiaomi Corporation y OPPO. Ten en cuenta Este problema es menos frecuente en iPhone y iPad Los nombres de los ajustes pueden variar según el fabricante Si el problema continúa Si no mejora, contáctanos desde el menú de comentarios de la app. Modelo del dispositivo Versión del sistema operativo Versión de la app Qué ocurrió cuando se detuvo el temporizador",
+      "A. La configuración de notificaciones o batería del dispositivo puede estar afectando la entrega. TimeSense puede enviar notificaciones a la hora que configures. En la mayoría de los casos, las notificaciones que no llegan se deben a restricciones del dispositivo. Qué comprobar Comprueba que TimeSense tenga permisos de notificación Comprueba que No molestar o el modo Concentración no estén activos Comprueba que el modo de ahorro de energía no esté activado Si usas Android La optimización de batería o las restricciones en segundo plano pueden retrasar o bloquear las notificaciones. Los nombres de los ajustes varían según el fabricante. Ten en cuenta Las notificaciones de TimeSense dependen tanto de la app como de la configuración del dispositivo. En Android, el comportamiento puede variar según el modelo. Si el problema continúa Si no mejora, contáctanos desde el menú de comentarios de la app. Modelo del dispositivo Versión del sistema operativo Versión de la app Hora configurada para la notificación Qué ocurrió cuando no llegó",
+      "A. Actualmente, TimeSense guarda los datos por separado en cada dispositivo y no ofrece sincronización entre dispositivos. Para mantener la app segura y respetuosa con la privacidad de los niños, TimeSense no utiliza cuentas ni sincronización en la nube. Los datos se guardan solo en el dispositivo que estás usando. Datos que no se sincronizan actualmente Ajustes de perfil Progreso de la tarjeta de sellos Rutinas guardadas Otros ajustes de la app Ten en cuenta En todos estos casos, los datos no se comparten automáticamente. iPhone ⇔ iPad iPhone ⇔ Android Android ⇔ Android (dispositivos distintos) Cambio de dispositivo Sobre las compras Si utilizas la misma cuenta de la tienda, es posible que puedas restaurar la compra de TimeSense+. Prueba Restaurar compras dentro de la app. Los perfiles, los sellos y otros datos similares no se pueden restaurar. Si el problema continúa Si parece que faltan datos o no tienes claro qué ha pasado, contáctanos desde el menú de comentarios de la app. Modelo del dispositivo Versión del sistema operativo Versión de la app Qué está ocurriendo",
+      "A. Puedes usar TimeSense gratis, pero algunas funciones están disponibles con TimeSense+. TimeSense incluye las funciones básicas del temporizador en la versión gratuita, y también ofrecemos el plan de pago TimeSense+ para familias que necesitan más flexibilidad. Qué puedes hacer con la versión gratuita Funciones básicas del temporizador Guía de voz con personajes Rutinas (con algunas limitaciones) Perfiles (con algunas limitaciones) Tarjeta de sellos La versión gratuita puede mostrar anuncios. Qué puedes hacer con TimeSense+ Usar varios perfiles Aumentar el número de rutinas guardadas Desbloquear algunos límites de funciones Reducir u ocultar anuncios Acceder a futuras funciones premium Sugerencia Te recomendamos empezar con la versión gratuita y considerar TimeSense+ si ves que encaja bien con tu hijo. Consulta la pantalla de compra dentro de la app para ver los detalles más recientes.",
+      "A. Es posible que la compra aún no se haya reflejado o que hayas iniciado sesión con otra cuenta de la tienda. Si las funciones premium no aparecen después de la compra, es posible que el estado de la compra aún no se haya sincronizado correctamente. Qué comprobar Asegúrate de usar la misma cuenta de la tienda con la que hiciste la compra Prueba Restaurar compras desde el menú TimeSense+ de la app Comprueba la conexión, reinicia la app y vuelve a intentarlo unos minutos después Ten en cuenta Como las tiendas son distintas, la información de compra no puede compartirse entre plataformas. Cambio de iPhone a Android Cambio de Android a iPhone Si el problema continúa Si no mejora, contáctanos desde el menú de comentarios de la app. Modelo del dispositivo Versión del sistema operativo Versión de la app Nombre del plan comprado Fecha y hora de la compra, si las conoces",
+      "A. Las suscripciones deben cancelarse desde la cuenta de tu tienda, no desde la app. Las suscripciones de TimeSense se gestionan desde App Store o Google Play. No se pueden cancelar desde la propia app. Si usas iPhone o iPad Abre la app Ajustes Toca tu cuenta de Apple en la parte superior Selecciona Suscripciones Selecciona TimeSense Elige Cancelar suscripción Si usas Android Abre Google Play Store Toca el icono de tu cuenta en la esquina superior derecha Selecciona Pagos y suscripciones Selecciona Suscripciones Selecciona TimeSense Elige Cancelar suscripción Ten en cuenta Eliminar la app no cancela la suscripción Tras cancelar, podrás seguir usándola hasta que termine el periodo actual Una vez cancelada, no se renovará automáticamente en el siguiente ciclo"
+    ],
+    "stores": [
+      "https://apps.apple.com/jp/app/id6747689461",
+      "https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506"
+    ]
+  },
+  "de": {
+    "h1": "Visueller Timer fuer Kindermit Sprachbegleitung",
+    "subtitle": "Ein sanfter visueller Timer,der Kinder bei Morgenroutine, Schlafenszeitund Uebergaengen begleitet.",
+    "title": "TimeSense - Visueller Timer mit Sprachbegleitung fuer Kinder",
+    "metadata": [
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "TimeSense ist eine visuelle Timer-App mit Sprachbegleitung, die Kindern spielerisch hilft, Routinen und Zeit besser zu verstehen."
+      },
+      {
+        "property": "og:title",
+        "content": "TimeSense - Visueller Timer mit Sprachbegleitung für Kinder"
+      },
+      {
+        "property": "og:description",
+        "content": "Keine ständigen Eile-Rufe mehr. Liebevolle Charaktere begleiten Kinder sanft durch Morgenroutine, Lernen und Übergänge."
+      },
+      {
+        "property": "og:image",
+        "content": "https://syncraft.dev/timesense/timesense_ogp.png"
+      },
+      {
+        "property": "og:url",
+        "content": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "alternates": [
+      {
+        "rel": "canonical",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ja",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "en",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "es",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "de",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "pt-BR",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ko",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hant",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hans",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": "https://syncraft.dev/timesense/"
+      }
+    ],
+    "headings": [
+      "Visueller Timer fuer Kindermit Sprachbegleitung",
+      "Was ist TimeSense?",
+      "Alltagschaos,das nur zu bekannt klingt...",
+      "Funktionen von TimeSense",
+      "Zeit sehen.Countdown spueren.",
+      "Sprachbegleitungdurch Charaktere",
+      "Charakterwechsel fuerMorgen, Lernen und Abend",
+      "So hilft TimeSense im Alltag",
+      "Weniger \"Beeil dich!\"am Morgen",
+      "Konzentration einschalten",
+      "Sanfte Uebergaenge",
+      "Sprachbeispiele",
+      "Vier kostenlose Charaktere",
+      "TimeSense+ Stimmen für den Alltag",
+      "App herunterladen",
+      "Von der Entwicklerin",
+      "FAQ",
+      "So prüfen Sie es",
+      "So deaktivieren Sie es",
+      "Wenn es weiterhin nicht funktioniert",
+      "Bitte prüfen",
+      "Wenn es weiterhin nicht funktioniert",
+      "Bitte prüfen",
+      "Wenn Sie Android verwenden",
+      "Wenn es weiterhin nicht funktioniert",
+      "Bitte prüfen",
+      "Wenn Sie Android verwenden",
+      "Wenn es weiterhin nicht funktioniert",
+      "Daten, die derzeit nicht synchronisiert werden",
+      "Informationen zu Käufen",
+      "Wenn es weiterhin nicht funktioniert",
+      "Was Sie in der kostenlosen Version nutzen können",
+      "Was Sie mit TimeSense+ nutzen können",
+      "Bitte prüfen",
+      "Wenn es weiterhin nicht funktioniert",
+      "Wenn Sie iPhone oder iPad verwenden",
+      "Wenn Sie Android verwenden",
+      "Sechs Farbthemen"
+    ],
+    "paragraphs": [
+      "Ein sanfter visueller Timer,der Kinder bei Morgenroutine, Schlafenszeitund Uebergaengen begleitet.",
+      "TimeSense ist ein visueller Timer fuer Kinder, der den Alltag leichter macht. Durch die sichtbare Restzeit und ruhige Sprachhinweise unterstuetzt die App Kinder bei Uebergaengen, Morgenroutinen und der Abendroutine.",
+      "TimeSense basiert auf Erkenntnissen aus Entwicklungspsychologie und Lernforschung, damit sich Unterstuetzung fuer Kinder natuerlich und motivierend anfuehlt.",
+      "Die Kombination aus Analoguhr und Timer zeigt auf einen Blick, wie viel Zeit noch bleibt.",
+      "Liebevolle Charaktere erinnern anstelle der Eltern sanft an den Countdown und den naechsten Schritt.",
+      "Je nach Tageszeit koennen passende Charaktere genutzt werden, damit Routinen frisch und motivierend bleiben.",
+      "Timer und Charaktere uebernehmen die Morgenhektik, damit staendige Aufforderungen weniger werden.",
+      "\"Noch 5 Minuten!\" aus dem Mund eines Charakters kann Fokus und Motivation staerken.",
+      "Uebergaenge fallen vielen Kindern schwer. TimeSense begleitet Wechsel wie Aufraeumen oder den Schritt vom Spielen zum Lernen behutsam.",
+      "Waehlt Sprachbeispiele passend zur Stimmung und zum Bedarf eures Kindes aus. Von klaren Countdowns bis zu spielerischer Ermutigung ist jede Stimme dafuer gemacht, den naechsten Schritt leichter zu machen.",
+      "Die einfachen Zeitansagen von Luma, Pico, Milo und Toto sind kostenlos. Hier kannst du Hörproben von Luma und Pico anhören.",
+      "Premium ergänzt die einfachen Zeitansagen um passende Ansagen für die Morgenroutine, Hausaufgaben, Schlafenszeit und weitere Situationen.",
+      "Jetzt kostenlos ausprobieren.Mit TimeSense+ erhaltet ihr alle Stimmen und eine werbefreie Nutzung fuer jede Alltagssituation eures Kindes.",
+      "Diese App entstand aus dem Wunsch, auch an hektischen Morgen mit einem Laecheln in den Tag zu starten, besonders dann, wenn unserem Sohn der Wechsel zur naechsten Aufgabe schwerfiel.",
+      "Mit einer klar sichtbaren Restzeit und liebevollen Charakterstimmen, die sanft erinnern, wirkt TimeSense wie eine zusaetzliche Begleitung im Alltag und spricht stellvertretend fuer euch.",
+      "Es ist eine Timer-App, die auf Bildung und Freundlichkeit setzt und Kindern hilft, Selbststaendigkeit und Zeitgefuehl Schritt fuer Schritt zu entwickeln.",
+      "Wir hoffen, dass TimeSense Familien auf der ganzen Welt unterstuetzen kann, und freuen uns sehr ueber Rueckmeldungen.",
+      "Hier finden Sie Antworten auf die häufigsten Fragen.Tippen Sie auf einen Eintrag, um die Antwort und die Prüfschritte zu öffnen.",
+      "A. Möglicherweise ist die Kindersicherung aktiviert.",
+      "TimeSense hat eine Kindersicherungsfunktion, mit der sich die Bedienung vorübergehend einschränken lässt, damit Kinder den Timer nicht versehentlich stoppen oder Einstellungen ändern.",
+      "Wenn der Bildschirm nicht reagiert, prüfen Sie bitte zuerst, ob die Kindersicherung aktiviert ist.",
+      "Bitte beachten",
+      "Wenn die Kindersicherung nicht aktiv ist oder das Problem weiterhin besteht, kann es sich um ein gerätespezifisches Problem handeln. Schreiben Sie uns bitte per E-Mail an hello@syncraft.dev.",
+      "A. Möglicherweise liegt es an den Geräteeinstellungen oder an den Einstellungen in der App.",
+      "TimeSense bietet Sprachführung durch Charaktere und Soundeffekte. In den meisten Fällen liegt fehlender Ton an den Geräteeinstellungen oder an den Soundeinstellungen der App.",
+      "Bitte beachten",
+      "Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.",
+      "A. Möglicherweise wird die App durch Energiespareinstellungen des Geräts automatisch beendet.",
+      "TimeSense ist so ausgelegt, dass der Timer möglichst stabil läuft. Auf manchen Android-Geräten können jedoch aggressive Akkueinstellungen die App im Hintergrund einschränken.",
+      "Einige Hersteller steuern den Akku besonders streng. Das kann häufiger bei Geräten von Samsung Electronics, Xiaomi Corporation und OPPO auftreten.",
+      "Bitte beachten",
+      "Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.",
+      "A. Möglicherweise beeinflussen die Benachrichtigungs- oder Akkueinstellungen des Geräts die Zustellung.",
+      "TimeSense kann Benachrichtigungen zu den von Ihnen eingestellten Zeiten senden. Wenn sie nicht ankommen, liegt das meist an Einschränkungen auf Geräteseite.",
+      "Akkuoptimierung oder Hintergrundbeschränkungen können Benachrichtigungen verzögern oder blockieren. Die genauen Einstellungsnamen unterscheiden sich je nach Hersteller.",
+      "Bitte beachten",
+      "Benachrichtigungen von TimeSense hängen nicht nur von der App, sondern auch von den Geräteeinstellungen ab. Auf Android kann das Verhalten je nach Modell unterschiedlich sein.",
+      "Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.",
+      "A. Derzeit speichert TimeSense Daten getrennt pro Gerät und unterstützt keine Synchronisierung zwischen Geräten.",
+      "Damit die App für kleine Kinder sicher und datenschutzfreundlich bleibt, verwendet TimeSense weder Konten noch Cloud-Synchronisierung. Die Daten bleiben nur auf dem verwendeten Gerät gespeichert.",
+      "Bitte beachten",
+      "In all diesen Fällen werden Daten nicht automatisch geteilt.",
+      "Wenn Sie dasselbe Store-Konto verwenden, können die Kaufinformationen für TimeSense+ möglicherweise wiederhergestellt werden. Bitte versuchen Sie In-App-Käufe wiederherstellen.",
+      "Profile, Stempel und ähnliche Daten können nicht wiederhergestellt werden.",
+      "Wenn Daten zu fehlen scheinen oder Sie unsicher sind, was passiert ist, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.",
+      "A. Sie können TimeSense kostenlos nutzen, aber einige Funktionen sind nur mit TimeSense+ verfügbar.",
+      "TimeSense enthält die grundlegenden Timer-Funktionen kostenlos. Für Familien, die mehr Flexibilität möchten, gibt es zusätzlich den kostenpflichtigen Plan TimeSense+.",
+      "In der kostenlosen Version können Anzeigen angezeigt werden.",
+      "Hinweis",
+      "Wir empfehlen, zuerst die kostenlose Version auszuprobieren und TimeSense+ in Betracht zu ziehen, wenn es gut zu Ihrem Kind passt. Die neuesten Informationen finden Sie im Kaufbildschirm der App.",
+      "A. Möglicherweise wurde der Kauf noch nicht übernommen oder Sie sind mit einem anderen Store-Konto angemeldet.",
+      "Wenn Premium-Funktionen nach dem Kauf nicht verfügbar sind, wurde der Kaufstatus möglicherweise noch nicht korrekt synchronisiert.",
+      "Bitte beachten",
+      "Da es sich um unterschiedliche Stores handelt, können Kaufinformationen nicht plattformübergreifend geteilt werden.",
+      "Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback.",
+      "A. Abonnements müssen über Ihr Store-Konto gekündigt werden, nicht innerhalb der App.",
+      "TimeSense-Abonnements werden über den App Store oder Google Play verwaltet. Sie können nicht direkt in der App gekündigt werden.",
+      "Bitte beachten"
+    ],
+    "audio": [
+      "/timesense/de/luma_de_30min.mp3",
+      "/timesense/de/pico_nor_de_5min.mp3",
+      "/timesense/de/milo_de_5min.mp3",
+      "/timesense/de/toto_de_1min.mp3"
+    ],
+    "faq": [
+      "A. Möglicherweise ist die Kindersicherung aktiviert. TimeSense hat eine Kindersicherungsfunktion, mit der sich die Bedienung vorübergehend einschränken lässt, damit Kinder den Timer nicht versehentlich stoppen oder Einstellungen ändern. Wenn der Bildschirm nicht reagiert, prüfen Sie bitte zuerst, ob die Kindersicherung aktiviert ist. So prüfen Sie es Prüfen Sie das Zahnradsymbol oben rechts auf dem Hauptbildschirm Wenn unten rechts am Zahnradsymbol ein Schloss erscheint, ist die Kindersicherung aktiviert So deaktivieren Sie es Halten Sie das Zahnradsymbol oben rechts gedrückt Nach einigen Sekunden öffnet sich der Einstellungsbildschirm Wählen Sie im Menü Kindersicherung Schalten Sie die Kindersicherung auf AUS Bitte beachten Während die Kindersicherung aktiv ist, sind einige Bildschirmaktionen gesperrt Das bedeutet nicht, dass die App defekt ist Wenn es weiterhin nicht funktioniert Wenn die Kindersicherung nicht aktiv ist oder das Problem weiterhin besteht, kann es sich um ein gerätespezifisches Problem handeln. Schreiben Sie uns bitte per E-Mail an hello@syncraft.dev. Gerätemodell OS-Version App-Version",
+      "A. Möglicherweise liegt es an den Geräteeinstellungen oder an den Einstellungen in der App. TimeSense bietet Sprachführung durch Charaktere und Soundeffekte. In den meisten Fällen liegt fehlender Ton an den Geräteeinstellungen oder an den Soundeinstellungen der App. Bitte prüfen Prüfen Sie, ob das Gerät nicht auf lautlos oder stumm gestellt ist Prüfen Sie, ob Bluetooth-Kopfhörer oder Lautsprecher verbunden sind Öffnen Sie über das Zahnradsymbol die Soundeinstellungen und prüfen Sie, ob Sprachführung und Soundeffekte nicht auf AUS stehen Wenn die ausgewählte Sprache ein Sprachpaket benötigt, versuchen Sie es bitte erneut mit stabiler Internetverbindung Bitte beachten Einige Sprachen unterstützen möglicherweise noch keine Sprachführung Zum Herunterladen des Sprachpakets ist eine Internetverbindung erforderlich Wenn es weiterhin nicht funktioniert Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback. Gerätemodell OS-Version App-Version Aktuelle Spracheinstellung",
+      "A. Möglicherweise wird die App durch Energiespareinstellungen des Geräts automatisch beendet. TimeSense ist so ausgelegt, dass der Timer möglichst stabil läuft. Auf manchen Android-Geräten können jedoch aggressive Akkueinstellungen die App im Hintergrund einschränken. Bitte prüfen Prüfen Sie, ob der Energiesparmodus deaktiviert ist Prüfen Sie, ob TimeSense von der Akkuoptimierung ausgenommen ist Prüfen Sie, ob Hintergrundaktivität für die App erlaubt ist Wenn Sie Android verwenden Einige Hersteller steuern den Akku besonders streng. Das kann häufiger bei Geräten von Samsung Electronics, Xiaomi Corporation und OPPO auftreten. Bitte beachten Auf iPhone und iPad tritt dieses Problem seltener auf Bezeichnungen der Einstellungen können je nach Hersteller unterschiedlich sein Wenn es weiterhin nicht funktioniert Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback. Gerätemodell OS-Version App-Version Was passiert ist, als der Timer gestoppt wurde",
+      "A. Möglicherweise beeinflussen die Benachrichtigungs- oder Akkueinstellungen des Geräts die Zustellung. TimeSense kann Benachrichtigungen zu den von Ihnen eingestellten Zeiten senden. Wenn sie nicht ankommen, liegt das meist an Einschränkungen auf Geräteseite. Bitte prüfen Prüfen Sie, ob Benachrichtigungen für TimeSense erlaubt sind Prüfen Sie, ob Nicht stören oder Fokus-Modus aktiv ist Prüfen Sie, ob der Energiesparmodus deaktiviert ist Wenn Sie Android verwenden Akkuoptimierung oder Hintergrundbeschränkungen können Benachrichtigungen verzögern oder blockieren. Die genauen Einstellungsnamen unterscheiden sich je nach Hersteller. Bitte beachten Benachrichtigungen von TimeSense hängen nicht nur von der App, sondern auch von den Geräteeinstellungen ab. Auf Android kann das Verhalten je nach Modell unterschiedlich sein. Wenn es weiterhin nicht funktioniert Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback. Gerätemodell OS-Version App-Version Eingestellte Uhrzeit der Benachrichtigung Was passiert ist, als die Benachrichtigung nicht ankam",
+      "A. Derzeit speichert TimeSense Daten getrennt pro Gerät und unterstützt keine Synchronisierung zwischen Geräten. Damit die App für kleine Kinder sicher und datenschutzfreundlich bleibt, verwendet TimeSense weder Konten noch Cloud-Synchronisierung. Die Daten bleiben nur auf dem verwendeten Gerät gespeichert. Daten, die derzeit nicht synchronisiert werden Profileinstellungen Fortschritt der Stempelkarte Routine-Einstellungen Weitere App-Einstellungen Bitte beachten In all diesen Fällen werden Daten nicht automatisch geteilt. iPhone ⇔ iPad iPhone ⇔ Android Android ⇔ Android (verschiedene Geräte) Datenübertragung beim Gerätewechsel Informationen zu Käufen Wenn Sie dasselbe Store-Konto verwenden, können die Kaufinformationen für TimeSense+ möglicherweise wiederhergestellt werden. Bitte versuchen Sie In-App-Käufe wiederherstellen. Profile, Stempel und ähnliche Daten können nicht wiederhergestellt werden. Wenn es weiterhin nicht funktioniert Wenn Daten zu fehlen scheinen oder Sie unsicher sind, was passiert ist, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback. Gerätemodell OS-Version App-Version Was gerade passiert",
+      "A. Sie können TimeSense kostenlos nutzen, aber einige Funktionen sind nur mit TimeSense+ verfügbar. TimeSense enthält die grundlegenden Timer-Funktionen kostenlos. Für Familien, die mehr Flexibilität möchten, gibt es zusätzlich den kostenpflichtigen Plan TimeSense+. Was Sie in der kostenlosen Version nutzen können Grundlegende Timer-Funktionen Sprachführung durch Charaktere Routinen (mit einigen Einschränkungen) Profile (mit einigen Einschränkungen) Stempelkarten-Funktion In der kostenlosen Version können Anzeigen angezeigt werden. Was Sie mit TimeSense+ nutzen können Mehrere Profile verwenden Mehr gespeicherte Routinen Einige Funktionslimits freischalten Werbung reduzieren oder ausblenden Zugriff auf künftige Premium-Funktionen Hinweis Wir empfehlen, zuerst die kostenlose Version auszuprobieren und TimeSense+ in Betracht zu ziehen, wenn es gut zu Ihrem Kind passt. Die neuesten Informationen finden Sie im Kaufbildschirm der App.",
+      "A. Möglicherweise wurde der Kauf noch nicht übernommen oder Sie sind mit einem anderen Store-Konto angemeldet. Wenn Premium-Funktionen nach dem Kauf nicht verfügbar sind, wurde der Kaufstatus möglicherweise noch nicht korrekt synchronisiert. Bitte prüfen Prüfen Sie, ob Sie mit demselben Store-Konto angemeldet sind, mit dem der Kauf durchgeführt wurde Versuchen Sie Käufe wiederherstellen im TimeSense+-Menü der App Prüfen Sie die Internetverbindung, starten Sie die App neu und versuchen Sie es nach einigen Minuten erneut Bitte beachten Da es sich um unterschiedliche Stores handelt, können Kaufinformationen nicht plattformübergreifend geteilt werden. Wechsel von iPhone zu Android Wechsel von Android zu iPhone Wenn es weiterhin nicht funktioniert Wenn das Problem danach weiter besteht, kontaktieren Sie uns bitte über das In-App-Menü für App-Feedback. Gerätemodell OS-Version App-Version Name des gekauften Plans Kaufdatum und -uhrzeit, falls bekannt",
+      "A. Abonnements müssen über Ihr Store-Konto gekündigt werden, nicht innerhalb der App. TimeSense-Abonnements werden über den App Store oder Google Play verwaltet. Sie können nicht direkt in der App gekündigt werden. Wenn Sie iPhone oder iPad verwenden Öffnen Sie die Einstellungen-App Tippen Sie oben auf Ihr Apple-Konto Wählen Sie Abonnements Wählen Sie TimeSense Wählen Sie Abo kündigen Wenn Sie Android verwenden Öffnen Sie den Google Play Store Tippen Sie oben rechts auf Ihr Kontosymbol Wählen Sie Zahlungen und Abos Wählen Sie Abos Wählen Sie TimeSense Wählen Sie Abo kündigen Bitte beachten Das Löschen der App kündigt das Abo nicht Nach der Kündigung können Sie es bis zum Ende des aktuellen Abrechnungszeitraums weiter nutzen Nach der Kündigung wird es beim nächsten Mal nicht automatisch verlängert"
+    ],
+    "stores": [
+      "https://apps.apple.com/jp/app/id6747689461",
+      "https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506"
+    ]
+  },
+  "fr": {
+    "h1": "Minuterie visuelle pour enfantsavec rappels vocaux",
+    "subtitle": "Un soutien doux pour la routine du matin,l'heure du coucher et ces transitions d'activitéqui sont parfois si difficiles.",
+    "title": "TimeSense - Minuterie visuelle pour enfants avec voix",
+    "metadata": [
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "TimeSense est une minuterie visuelle avec rappels vocaux qui aide les enfants à suivre leurs routines comme le matin, les devoirs et l'heure du coucher."
+      },
+      {
+        "property": "og:title",
+        "content": "TimeSense - Minuterie visuelle pour enfants avec voix"
+      },
+      {
+        "property": "og:description",
+        "content": "Des personnages adorables accompagnent votre enfant avec des rappels doux pour rendre les transitions du quotidien plus faciles."
+      },
+      {
+        "property": "og:image",
+        "content": "https://syncraft.dev/timesense/timesense_ogp.png"
+      },
+      {
+        "property": "og:url",
+        "content": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "alternates": [
+      {
+        "rel": "canonical",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ja",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "en",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "es",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "de",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "pt-BR",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ko",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hant",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hans",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": "https://syncraft.dev/timesense/"
+      }
+    ],
+    "headings": [
+      "Minuterie visuelle pour enfantsavec rappels vocaux",
+      "Qu'est-ce que TimeSense ?",
+      "Le chaos de chaque jour,les mêmes phrases...",
+      "Fonctionnalités de TimeSense",
+      "Visualise le temps.Ressens le compte à rebours.",
+      "Soutien avec les voixdes personnages",
+      "Changer de personnagespour le matin, les devoirs et le soir",
+      "Cas d'utilisation",
+      "Remplace le« Dépêche-toi ! »",
+      "Concentration activée",
+      "Transitions en douceur",
+      "Extraits vocaux",
+      "Quatre personnages gratuits",
+      "TimeSense+ Des voix pour chaque moment",
+      "Télécharger l'app",
+      "Message du développeur",
+      "FAQ",
+      "Comment vérifier",
+      "Comment le désactiver",
+      "Si le problème persiste",
+      "Points à vérifier",
+      "Si le problème persiste",
+      "Points à vérifier",
+      "Si vous utilisez Android",
+      "Si le problème persiste",
+      "Points à vérifier",
+      "Si vous utilisez Android",
+      "Si le problème persiste",
+      "Données qui ne sont pas synchronisées actuellement",
+      "À propos des achats",
+      "Si le problème persiste",
+      "Ce que vous pouvez faire avec la version gratuite",
+      "Ce que vous pouvez faire avec TimeSense+",
+      "Points à vérifier",
+      "Si le problème persiste",
+      "Si vous utilisez iPhone ou iPad",
+      "Si vous utilisez Android",
+      "Six thèmes de couleur"
+    ],
+    "paragraphs": [
+      "Un soutien doux pour la routine du matin,l'heure du coucher et ces transitions d'activitéqui sont parfois si difficiles.",
+      "TimeSense est une minuterie visuelle pour enfants conçue pour rendre les routines quotidiennes plus sereines. Elle affiche clairement le temps restant et propose des rappels vocaux doux pour mieux accompagner les transitions, la routine du matin et l'heure du coucher.",
+      "TimeSense a été conçu en s'appuyant sur la psychologie de l'enfant et le développement cognitif, pour soutenir les enfants de manière naturelle et bienveillante.",
+      "L'horloge analogique avec le minuteur permet de comprendre d'un coup d'œil combien de temps il reste.",
+      "Les personnages parlent doucement à la place des parents et aident à avancer pas à pas avec le compte à rebours.",
+      "Vous pouvez choisir des voix différentes selon le moment de la journée pour que la routine reste fraîche et amusante.",
+      "Laissez le minuteur et les personnages accompagner le matin pour ne plus avoir à répéter toujours la même chose.",
+      "Entendre « il reste 5 minutes » avec une voix de personnage aide à augmenter la motivation et la concentration.",
+      "Changer d'activité est difficile, et c'est normal. TimeSense aide doucement à passer du jeu au rangement ou aux devoirs.",
+      "Choisissez les voix qui correspondent le mieux au moment et aux besoins de votre enfant. Des comptes à rebours simples aux messages d'encouragement, chaque voix est pensée pour aider à passer à l'action naturellement.",
+      "Les rappels de base de Luma, Pico, Milo et Toto sont gratuits. Écoutez les exemples de Luma et Pico ci-dessous.",
+      "Premium ajoute aux rappels de base des voix adaptées aux préparatifs du matin, aux devoirs, au coucher et à d’autres moments du quotidien.",
+      "Essayez-la gratuitement dès aujourd'hui.Avec TimeSense+, profitez de toutes les voix et d'une expérience sans publicité pour accompagner chaque moment de la journée.",
+      "Cette application est née de notre envie de commencer chaque matin avec le sourire, même dans ces moments où tout va vite et où notre enfant avait du mal à changer d'activité.",
+      "Grâce à un affichage clair du temps restant et à des voix adorables qui préviennent tout en douceur, TimeSense joue le rôle d'un petit soutien bienveillant qui parle à votre place.",
+      "C'est une application créée avec éducation et bienveillance, pour aider les enfants à développer progressivement leur autonomie et leur sens du temps.",
+      "Nous espérons que TimeSense pourra accompagner des familles du monde entier. Vos retours nous touchent profondément.",
+      "Voici les réponses aux questions les plus fréquentes.Appuyez sur un élément pour afficher la réponse et les étapes de vérification.",
+      "A. Le verrou enfant est peut-être activé.",
+      "TimeSense propose une fonction de verrou enfant qui limite temporairement les actions sur l’écran afin d’éviter qu’un enfant n’arrête le minuteur ou ne modifie les réglages par erreur.",
+      "Si l’écran ne répond pas, vérifiez d’abord si le verrou enfant est activé.",
+      "À noter",
+      "Si le verrou enfant n’est pas activé ou si le problème continue, il peut s’agir d’un souci propre à l’appareil. Merci de nous écrire à hello@syncraft.dev.",
+      "A. Les réglages de l’appareil ou de l’application peuvent bloquer la lecture.",
+      "TimeSense propose des guidages vocaux de personnages et des effets sonores. Dans la plupart des cas, l’absence de son vient des réglages du téléphone ou de l’application.",
+      "À noter",
+      "Si cela ne s’améliore pas, contactez-nous via le menu de retour d’expérience dans l’application.",
+      "A. Les réglages d’économie d’énergie de l’appareil ferment peut-être l’application automatiquement.",
+      "TimeSense est conçu pour rester stable pendant l’exécution du minuteur, mais certains appareils Android limitent fortement l’activité en arrière-plan.",
+      "Certains fabricants appliquent un contrôle de batterie plus strict que la normale. Cela peut arriver plus souvent sur les appareils Samsung Electronics, Xiaomi Corporation et OPPO.",
+      "À noter",
+      "Si cela ne s’améliore pas, contactez-nous via le menu de retour d’expérience dans l’application.",
+      "A. Les réglages de notification ou de batterie de l’appareil peuvent en être la cause.",
+      "TimeSense peut envoyer des notifications à l’heure prévue. Lorsqu’elles n’arrivent pas, cela est généralement lié aux restrictions du système.",
+      "L’optimisation de batterie ou les restrictions en arrière-plan peuvent retarder ou bloquer les notifications. Les noms des réglages varient selon le fabricant.",
+      "À noter",
+      "Les notifications TimeSense dépendent non seulement de l’application, mais aussi des réglages de l’appareil. Sur Android, le comportement peut varier selon le modèle.",
+      "Si cela ne s’améliore pas, contactez-nous via le menu de retour d’expérience dans l’application.",
+      "A. Pour le moment, TimeSense enregistre les données séparément sur chaque appareil et ne prend pas en charge la synchronisation.",
+      "Afin de rester sûr et respectueux de la vie privée pour les jeunes enfants, TimeSense n’utilise ni compte utilisateur ni synchronisation cloud. Les données restent uniquement sur l’appareil utilisé.",
+      "À noter",
+      "Dans tous ces cas, les données ne sont pas partagées automatiquement.",
+      "Si vous utilisez le même compte de boutique, il est parfois possible de restaurer les informations d’achat de TimeSense+. Essayez Restaurer les achats dans l’application.",
+      "Les profils, tampons et autres données du même type ne peuvent pas être restaurés.",
+      "Si certaines données semblent avoir disparu ou si vous avez un doute, contactez-nous via le menu de retour d’expérience dans l’application.",
+      "A. Vous pouvez utiliser TimeSense gratuitement, mais certaines fonctions sont réservées à TimeSense+.",
+      "TimeSense inclut les fonctions principales du minuteur dans la version gratuite, et nous proposons aussi le forfait payant TimeSense+ pour les familles qui veulent plus de souplesse.",
+      "La version gratuite peut afficher des publicités.",
+      "Conseil",
+      "Nous vous conseillons de commencer par la version gratuite, puis d’envisager TimeSense+ si cela convient bien à votre enfant. Consultez l’écran d’achat dans l’application pour les informations les plus récentes.",
+      "A. Il est possible que l’achat ne soit pas encore reflété ou que vous utilisiez un autre compte de boutique.",
+      "Si les fonctions premium n’apparaissent pas après l’achat, l’état de l’achat n’a peut-être pas encore été synchronisé correctement.",
+      "À noter",
+      "Comme les boutiques sont différentes, les informations d’achat ne peuvent pas être partagées entre plateformes.",
+      "Si cela ne s’améliore pas, contactez-nous via le menu de retour d’expérience dans l’application.",
+      "A. Les abonnements doivent être résiliés depuis votre compte de boutique, et non depuis l’application.",
+      "Les abonnements TimeSense sont gérés par l’App Store ou Google Play. Ils ne peuvent pas être annulés directement depuis l’application.",
+      "À noter"
+    ],
+    "audio": [
+      "/timesense/fr/luma_fr_30min.mp3",
+      "/timesense/fr/pico_nor_fr_5min.mp3",
+      "/timesense/fr/milo_fr_5min.mp3",
+      "/timesense/fr/toto_fr_1min.mp3"
+    ],
+    "faq": [
+      "A. Le verrou enfant est peut-être activé. TimeSense propose une fonction de verrou enfant qui limite temporairement les actions sur l’écran afin d’éviter qu’un enfant n’arrête le minuteur ou ne modifie les réglages par erreur. Si l’écran ne répond pas, vérifiez d’abord si le verrou enfant est activé. Comment vérifier Vérifiez l’icône d’engrenage en haut à droite de l’écran principal Si un symbole de cadenas apparaît en bas à droite de cette icône, le verrou enfant est activé Comment le désactiver Maintenez appuyée l’icône d’engrenage en haut à droite Après quelques secondes, l’écran des réglages s’ouvrira Choisissez Verrou enfant dans le menu Mettez le verrou enfant sur OFF À noter Lorsque le verrou enfant est activé, certaines actions sur l’écran sont désactivées Cela ne signifie pas que l’application est en panne Si le problème persiste Si le verrou enfant n’est pas activé ou si le problème continue, il peut s’agir d’un souci propre à l’appareil. Merci de nous écrire à hello@syncraft.dev. Modèle de l’appareil Version du système Version de l’application",
+      "A. Les réglages de l’appareil ou de l’application peuvent bloquer la lecture. TimeSense propose des guidages vocaux de personnages et des effets sonores. Dans la plupart des cas, l’absence de son vient des réglages du téléphone ou de l’application. Points à vérifier Vérifiez que l’appareil n’est pas en mode silencieux Vérifiez qu’aucun casque ou haut-parleur Bluetooth n’est connecté Ouvrez les Réglages du son depuis l’icône d’engrenage et vérifiez que le guidage vocal et les effets sonores ne sont pas désactivés Si la langue choisie nécessite un pack vocal, réessayez avec une connexion internet stable À noter Certaines langues ne prennent peut-être pas encore en charge le guidage vocal Le téléchargement du pack vocal nécessite une connexion internet Si le problème persiste Si cela ne s’améliore pas, contactez-nous via le menu de retour d’expérience dans l’application. Modèle de l’appareil Version du système Version de l’application Langue actuellement utilisée",
+      "A. Les réglages d’économie d’énergie de l’appareil ferment peut-être l’application automatiquement. TimeSense est conçu pour rester stable pendant l’exécution du minuteur, mais certains appareils Android limitent fortement l’activité en arrière-plan. Points à vérifier Vérifiez que le mode économie d’énergie n’est pas activé Vérifiez que TimeSense n’est pas soumis à l’optimisation de batterie Vérifiez que l’activité en arrière-plan est autorisée Si vous utilisez Android Certains fabricants appliquent un contrôle de batterie plus strict que la normale. Cela peut arriver plus souvent sur les appareils Samsung Electronics, Xiaomi Corporation et OPPO. À noter Ce problème est moins fréquent sur iPhone et iPad Le nom des réglages peut varier selon le fabricant Si le problème persiste Si cela ne s’améliore pas, contactez-nous via le menu de retour d’expérience dans l’application. Modèle de l’appareil Version du système Version de l’application Ce qui s’est passé lorsque le minuteur s’est arrêté",
+      "A. Les réglages de notification ou de batterie de l’appareil peuvent en être la cause. TimeSense peut envoyer des notifications à l’heure prévue. Lorsqu’elles n’arrivent pas, cela est généralement lié aux restrictions du système. Points à vérifier Vérifiez que les notifications sont autorisées pour TimeSense Vérifiez que Ne pas déranger ou le mode Concentration n’est pas activé Vérifiez que le mode économie d’énergie n’est pas activé Si vous utilisez Android L’optimisation de batterie ou les restrictions en arrière-plan peuvent retarder ou bloquer les notifications. Les noms des réglages varient selon le fabricant. À noter Les notifications TimeSense dépendent non seulement de l’application, mais aussi des réglages de l’appareil. Sur Android, le comportement peut varier selon le modèle. Si le problème persiste Si cela ne s’améliore pas, contactez-nous via le menu de retour d’expérience dans l’application. Modèle de l’appareil Version du système Version de l’application Heure configurée pour la notification Ce qui s’est passé lorsque la notification n’est pas arrivée",
+      "A. Pour le moment, TimeSense enregistre les données séparément sur chaque appareil et ne prend pas en charge la synchronisation. Afin de rester sûr et respectueux de la vie privée pour les jeunes enfants, TimeSense n’utilise ni compte utilisateur ni synchronisation cloud. Les données restent uniquement sur l’appareil utilisé. Données qui ne sont pas synchronisées actuellement Réglages du profil Progression de la carte de tampons Réglages des routines Autres réglages de l’application À noter Dans tous ces cas, les données ne sont pas partagées automatiquement. iPhone ⇔ iPad iPhone ⇔ Android Android ⇔ Android (appareils différents) Transfert lors d’un changement d’appareil À propos des achats Si vous utilisez le même compte de boutique, il est parfois possible de restaurer les informations d’achat de TimeSense+. Essayez Restaurer les achats dans l’application. Les profils, tampons et autres données du même type ne peuvent pas être restaurés. Si le problème persiste Si certaines données semblent avoir disparu ou si vous avez un doute, contactez-nous via le menu de retour d’expérience dans l’application. Modèle de l’appareil Version du système Version de l’application Ce qui se passe",
+      "A. Vous pouvez utiliser TimeSense gratuitement, mais certaines fonctions sont réservées à TimeSense+. TimeSense inclut les fonctions principales du minuteur dans la version gratuite, et nous proposons aussi le forfait payant TimeSense+ pour les familles qui veulent plus de souplesse. Ce que vous pouvez faire avec la version gratuite Fonctions de base du minuteur Guidage vocal des personnages Fonction routines (avec certaines limites) Fonction profils (avec certaines limites) Carte de tampons La version gratuite peut afficher des publicités. Ce que vous pouvez faire avec TimeSense+ Utiliser plusieurs profils Augmenter le nombre de routines enregistrées Lever certaines limitations Réduire ou masquer les publicités Accéder à de futures fonctions premium Conseil Nous vous conseillons de commencer par la version gratuite, puis d’envisager TimeSense+ si cela convient bien à votre enfant. Consultez l’écran d’achat dans l’application pour les informations les plus récentes.",
+      "A. Il est possible que l’achat ne soit pas encore reflété ou que vous utilisiez un autre compte de boutique. Si les fonctions premium n’apparaissent pas après l’achat, l’état de l’achat n’a peut-être pas encore été synchronisé correctement. Points à vérifier Vérifiez que vous utilisez le même compte de boutique que lors de l’achat Essayez Restaurer les achats depuis le menu TimeSense+ dans l’application Vérifiez votre connexion, redémarrez l’application et réessayez quelques minutes plus tard À noter Comme les boutiques sont différentes, les informations d’achat ne peuvent pas être partagées entre plateformes. Passage d’iPhone à Android Passage d’Android à iPhone Si le problème persiste Si cela ne s’améliore pas, contactez-nous via le menu de retour d’expérience dans l’application. Modèle de l’appareil Version du système Version de l’application Nom du forfait acheté Date et heure de l’achat, si vous les connaissez",
+      "A. Les abonnements doivent être résiliés depuis votre compte de boutique, et non depuis l’application. Les abonnements TimeSense sont gérés par l’App Store ou Google Play. Ils ne peuvent pas être annulés directement depuis l’application. Si vous utilisez iPhone ou iPad Ouvrez l’application Réglages Touchez votre compte Apple en haut Choisissez Abonnements Choisissez TimeSense Choisissez Annuler l’abonnement Si vous utilisez Android Ouvrez Google Play Store Touchez l’icône de votre compte en haut à droite Choisissez Paiements et abonnements Choisissez Abonnements Choisissez TimeSense Choisissez Annuler l’abonnement À noter Supprimer l’application n’annule pas l’abonnement Après résiliation, vous pouvez continuer à l’utiliser jusqu’à la fin de la période en cours Une fois résilié, il ne sera pas renouvelé automatiquement la fois suivante"
+    ],
+    "stores": [
+      "https://apps.apple.com/jp/app/id6747689461",
+      "https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506"
+    ]
+  },
+  "pt-br": {
+    "h1": "Timer visual para criancascom lembretes por voz",
+    "subtitle": "Um timer visual acolhedorque ajuda as criancas com a rotina da manha, a hora de dormire as transicoes do dia a dia.",
+    "title": "TimeSense - Timer visual com voz para criancas",
+    "metadata": [
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "TimeSense e um timer visual com lembretes por voz que ajuda criancas a acompanhar a rotina com mais tranquilidade e autonomia."
+      },
+      {
+        "property": "og:title",
+        "content": "TimeSense - Timer visual com voz para criancas"
+      },
+      {
+        "property": "og:description",
+        "content": "Personagens fofos ajudam seu filho a acompanhar a rotina, estudar e sair de casa com avisos gentis."
+      },
+      {
+        "property": "og:image",
+        "content": "https://syncraft.dev/timesense/timesense_ogp.png"
+      },
+      {
+        "property": "og:url",
+        "content": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "alternates": [
+      {
+        "rel": "canonical",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ja",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "en",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "es",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "de",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "pt-BR",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ko",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hant",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hans",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": "https://syncraft.dev/timesense/"
+      }
+    ],
+    "headings": [
+      "Timer visual para criancascom lembretes por voz",
+      "O que e o TimeSense?",
+      "Correria de todo dia,frases que voce conhece bem...",
+      "Recursos do TimeSense",
+      "Veja o tempo.Sinta a contagem.",
+      "Personagens comavisos por voz",
+      "Troque de personagempara manha, tarefas e noite",
+      "Quando usar",
+      "Um aliado para substituiro \"anda logo!\"",
+      "Modo foco ativado",
+      "Transicoes mais suaves",
+      "Amostras de voz",
+      "Quatro personagens gratuitos",
+      "TimeSense+ Vozes para cada momento",
+      "Baixe o app",
+      "Uma palavra da equipe",
+      "FAQ",
+      "Como verificar",
+      "Como desativar",
+      "Se ainda não resolver",
+      "O que verificar",
+      "Se ainda não resolver",
+      "O que verificar",
+      "Se você usa Android",
+      "Se ainda não resolver",
+      "O que verificar",
+      "Se você usa Android",
+      "Se ainda não resolver",
+      "Dados que não são sincronizados no momento",
+      "Sobre compras",
+      "Se ainda não resolver",
+      "O que a versão gratuita oferece",
+      "O que o TimeSense+ oferece",
+      "O que verificar",
+      "Se ainda não resolver",
+      "Se você usa iPhone ou iPad",
+      "Se você usa Android",
+      "Seis temas de cores"
+    ],
+    "paragraphs": [
+      "Um timer visual acolhedorque ajuda as criancas com a rotina da manha, a hora de dormire as transicoes do dia a dia.",
+      "TimeSense e um timer visual infantil criado para deixar a rotina mais leve. Ao mostrar quanto tempo falta e usar lembretes por voz com calma, ele ajuda as criancas a lidar melhor com transicoes, rotina da manha e hora de dormir.",
+      "TimeSense foi pensado com base em psicologia infantil e estudos do desenvolvimento, para apoiar as criancas de um jeito natural e envolvente.",
+      "O relogio analogico junto com o timer ajuda a entender rapidamente quanto tempo ainda falta.",
+      "Os personagens falam com carinho no lugar dos adultos, guiando a crianca na contagem e no proximo passo.",
+      "Voce pode trocar o personagem conforme o momento do dia, como manha, tarefa ou hora de dormir, para manter a rotina leve e divertida.",
+      "Deixe o timer e os personagens assumirem a correria da manha, sem precisar repetir \"anda logo!\" o tempo todo.",
+      "\"Faltam 5 minutos!\" dito por um personagem ajuda a aumentar a concentracao e a motivacao.",
+      "Ter dificuldade para mudar de atividade e normal. TimeSense ajuda com carinho na passagem da brincadeira para guardar as coisas ou estudar.",
+      "Escolha as vozes que mais combinam com o momento e com a personalidade da crianca. De contagens simples a mensagens de incentivo, cada voz foi pensada para ajudar a agir com mais naturalidade.",
+      "Os avisos básicos de Luma, Pico, Milo e Toto são gratuitos. Ouça as amostras de Luma e Pico abaixo.",
+      "O Premium acrescenta aos avisos básicos vozes para a rotina da manhã, o dever de casa, a hora de dormir e outras situações.",
+      "Experimente gratis hoje mesmo.Com TimeSense+, voce libera todas as vozes e uma experiencia sem anuncios para acompanhar cada momento do dia.",
+      "Este app nasceu do desejo de comecar cada manha com mais leveza, mesmo nos dias corridos e nos momentos em que nosso filho tinha dificuldade para mudar de atividade.",
+      "Com o tempo restante mostrado de forma clara e personagens fofos dando avisos gentis, o TimeSense funciona como um parceiro da rotina, falando por voce quando necessario.",
+      "E um app de timer construido com cuidado e intencao educativa, ajudando as criancas a desenvolver autonomia e nocao de tempo aos poucos.",
+      "Esperamos que o TimeSense possa apoiar familias do mundo todo. Vamos adorar ouvir seu feedback!",
+      "Reunimos aqui as respostas para as perguntas mais comuns.Toque em qualquer item para abrir a resposta e as etapas de verificação.",
+      "A. O bloqueio infantil pode estar ativado.",
+      "O TimeSense tem uma função de bloqueio infantil que limita temporariamente o toque na tela para evitar que a criança pare o timer ou altere as configurações por engano.",
+      "Se a tela não estiver respondendo, primeiro verifique se o bloqueio infantil está ativado.",
+      "Importante",
+      "Se o bloqueio infantil não estiver ativado, ou se o problema continuar, pode ser uma falha específica do aparelho. Envie um e-mail para hello@syncraft.dev.",
+      "A. A causa pode estar nas configurações do aparelho ou do aplicativo.",
+      "O TimeSense oferece orientação por voz com personagens e efeitos sonoros. Na maioria dos casos, a falta de som está relacionada às configurações do aparelho ou do próprio app.",
+      "Importante",
+      "Se o problema continuar, entre em contato pelo menu de feedback dentro do app.",
+      "A. As configurações de economia de energia do aparelho podem estar encerrando o app automaticamente.",
+      "O TimeSense foi projetado para funcionar com estabilidade enquanto o timer estiver em execução, mas alguns aparelhos Android limitam bastante a atividade em segundo plano.",
+      "Alguns fabricantes aplicam um controle de bateria mais agressivo. Isso pode acontecer com mais frequência em aparelhos da Samsung Electronics, Xiaomi Corporation e OPPO.",
+      "Importante",
+      "Se o problema continuar, entre em contato pelo menu de feedback dentro do app.",
+      "A. As configurações de notificação ou bateria do aparelho podem estar afetando o envio.",
+      "O TimeSense pode enviar notificações no horário configurado. Quando elas não chegam, normalmente há alguma restrição do próprio aparelho.",
+      "A otimização de bateria ou as restrições em segundo plano podem atrasar ou bloquear notificações. Os nomes das configurações variam conforme o fabricante.",
+      "Importante",
+      "As notificações do TimeSense dependem não só do app, mas também das configurações do aparelho. No Android, o comportamento pode variar conforme o modelo.",
+      "Se o problema continuar, entre em contato pelo menu de feedback dentro do app.",
+      "A. No momento, o TimeSense salva os dados separadamente em cada aparelho e não oferece sincronização entre dispositivos.",
+      "Para manter o app seguro e respeitoso com a privacidade das crianças, o TimeSense não usa conta nem sincronização em nuvem. Os dados ficam apenas no aparelho em uso.",
+      "Importante",
+      "Em todos esses casos, os dados não são compartilhados automaticamente.",
+      "As informações de compra do plano pago (TimeSense+) podem ser restauradas se você usar a mesma conta da loja. Tente Restaurar compras dentro do app.",
+      "Perfis, selos e dados semelhantes não podem ser restaurados.",
+      "Se parecer que os dados sumiram ou você não souber o que aconteceu, entre em contato pelo menu de feedback dentro do app.",
+      "A. Você pode usar o TimeSense gratuitamente, mas alguns recursos estão disponíveis no TimeSense+.",
+      "O TimeSense inclui os recursos principais do timer na versão gratuita, e também oferece o plano pago TimeSense+ para famílias que querem mais flexibilidade.",
+      "A versão gratuita pode exibir anúncios.",
+      "Sugestão",
+      "Recomendamos começar pela versão gratuita e considerar o TimeSense+ se fizer sentido para a sua criança. Consulte a tela de compra dentro do app para ver as informações mais recentes.",
+      "A. A compra pode ainda não ter sido refletida ou você pode estar usando outra conta da loja.",
+      "Se os recursos premium não aparecerem após a compra, o status da compra pode ainda não ter sido sincronizado corretamente.",
+      "Importante",
+      "Como as lojas são diferentes, as informações de compra não podem ser compartilhadas entre plataformas.",
+      "Se o problema continuar, entre em contato pelo menu de feedback dentro do app.",
+      "A. As assinaturas precisam ser canceladas pela conta da loja, e não dentro do app.",
+      "As assinaturas do TimeSense são gerenciadas pela App Store ou Google Play. Não é possível cancelá-las diretamente dentro do app.",
+      "Importante"
+    ],
+    "audio": [
+      "luma_pt_30min.mp3",
+      "pico_nor_pt_5min.mp3",
+      "milo_pt_5min.mp3",
+      "toto_pt_1min.mp3"
+    ],
+    "faq": [
+      "A. O bloqueio infantil pode estar ativado. O TimeSense tem uma função de bloqueio infantil que limita temporariamente o toque na tela para evitar que a criança pare o timer ou altere as configurações por engano. Se a tela não estiver respondendo, primeiro verifique se o bloqueio infantil está ativado. Como verificar Confira o ícone de engrenagem no canto superior direito da tela principal Se aparecer um cadeado no canto inferior direito da engrenagem, o bloqueio infantil está ativado Como desativar Pressione e segure o ícone de engrenagem no canto superior direito Depois de alguns segundos, a tela de configurações será aberta Selecione Bloqueio infantil no menu Desative o bloqueio infantil Importante Enquanto o bloqueio infantil estiver ativado, algumas ações na tela ficarão indisponíveis Isso não significa que o app esteja com defeito Se ainda não resolver Se o bloqueio infantil não estiver ativado, ou se o problema continuar, pode ser uma falha específica do aparelho. Envie um e-mail para hello@syncraft.dev. Modelo do aparelho Versão do sistema operacional Versão do app",
+      "A. A causa pode estar nas configurações do aparelho ou do aplicativo. O TimeSense oferece orientação por voz com personagens e efeitos sonoros. Na maioria dos casos, a falta de som está relacionada às configurações do aparelho ou do próprio app. O que verificar Veja se o aparelho não está no modo silencioso Veja se não há fones ou caixas Bluetooth conectados Abra as Configurações de som pelo ícone de engrenagem e confirme se a orientação por voz e os efeitos não estão em OFF Se o idioma escolhido exigir um pacote de voz, tente novamente com internet estável Importante Alguns idiomas podem ainda não ter suporte a voz O download do pacote de voz exige conexão com a internet Se ainda não resolver Se o problema continuar, entre em contato pelo menu de feedback dentro do app. Modelo do aparelho Versão do sistema operacional Versão do app Idioma em uso",
+      "A. As configurações de economia de energia do aparelho podem estar encerrando o app automaticamente. O TimeSense foi projetado para funcionar com estabilidade enquanto o timer estiver em execução, mas alguns aparelhos Android limitam bastante a atividade em segundo plano. O que verificar Veja se o modo de economia de energia está desativado Veja se o TimeSense está fora da otimização de bateria Veja se a atividade em segundo plano está permitida Se você usa Android Alguns fabricantes aplicam um controle de bateria mais agressivo. Isso pode acontecer com mais frequência em aparelhos da Samsung Electronics, Xiaomi Corporation e OPPO. Importante Esse problema é menos comum no iPhone e no iPad O nome das configurações pode variar conforme o fabricante Se ainda não resolver Se o problema continuar, entre em contato pelo menu de feedback dentro do app. Modelo do aparelho Versão do sistema operacional Versão do app O que aconteceu quando o timer parou",
+      "A. As configurações de notificação ou bateria do aparelho podem estar afetando o envio. O TimeSense pode enviar notificações no horário configurado. Quando elas não chegam, normalmente há alguma restrição do próprio aparelho. O que verificar Veja se o TimeSense tem permissão para enviar notificações Veja se Não perturbe ou Foco não estão ativados Veja se o modo de economia de energia está desativado Se você usa Android A otimização de bateria ou as restrições em segundo plano podem atrasar ou bloquear notificações. Os nomes das configurações variam conforme o fabricante. Importante As notificações do TimeSense dependem não só do app, mas também das configurações do aparelho. No Android, o comportamento pode variar conforme o modelo. Se ainda não resolver Se o problema continuar, entre em contato pelo menu de feedback dentro do app. Modelo do aparelho Versão do sistema operacional Versão do app Horário configurado para a notificação O que aconteceu quando ela não chegou",
+      "A. No momento, o TimeSense salva os dados separadamente em cada aparelho e não oferece sincronização entre dispositivos. Para manter o app seguro e respeitoso com a privacidade das crianças, o TimeSense não usa conta nem sincronização em nuvem. Os dados ficam apenas no aparelho em uso. Dados que não são sincronizados no momento Configurações de perfil Progresso do cartão de selos Rotinas salvas Outras configurações do app Importante Em todos esses casos, os dados não são compartilhados automaticamente. iPhone ⇔ iPad iPhone ⇔ Android Android ⇔ Android (aparelhos diferentes) Troca de aparelho Sobre compras As informações de compra do plano pago (TimeSense+) podem ser restauradas se você usar a mesma conta da loja. Tente Restaurar compras dentro do app. Perfis, selos e dados semelhantes não podem ser restaurados. Se ainda não resolver Se parecer que os dados sumiram ou você não souber o que aconteceu, entre em contato pelo menu de feedback dentro do app. Modelo do aparelho Versão do sistema operacional Versão do app O que você está vendo",
+      "A. Você pode usar o TimeSense gratuitamente, mas alguns recursos estão disponíveis no TimeSense+. O TimeSense inclui os recursos principais do timer na versão gratuita, e também oferece o plano pago TimeSense+ para famílias que querem mais flexibilidade. O que a versão gratuita oferece Recursos básicos do timer Orientação por voz com personagens Rotinas (com algumas limitações) Perfis (com algumas limitações) Cartão de selos A versão gratuita pode exibir anúncios. O que o TimeSense+ oferece Usar vários perfis Aumentar o número de rotinas salvas Desbloquear alguns limites de recurso Reduzir ou esconder anúncios Acesso a futuros recursos premium Sugestão Recomendamos começar pela versão gratuita e considerar o TimeSense+ se fizer sentido para a sua criança. Consulte a tela de compra dentro do app para ver as informações mais recentes.",
+      "A. A compra pode ainda não ter sido refletida ou você pode estar usando outra conta da loja. Se os recursos premium não aparecerem após a compra, o status da compra pode ainda não ter sido sincronizado corretamente. O que verificar Confirme se você está usando a mesma conta da loja usada na compra Tente Restaurar compras no menu TimeSense+ do app Verifique a conexão, reinicie o app e tente novamente após alguns minutos Importante Como as lojas são diferentes, as informações de compra não podem ser compartilhadas entre plataformas. Mudança de iPhone para Android Mudança de Android para iPhone Se ainda não resolver Se o problema continuar, entre em contato pelo menu de feedback dentro do app. Modelo do aparelho Versão do sistema operacional Versão do app Nome do plano comprado Data e hora da compra, se você souber",
+      "A. As assinaturas precisam ser canceladas pela conta da loja, e não dentro do app. As assinaturas do TimeSense são gerenciadas pela App Store ou Google Play. Não é possível cancelá-las diretamente dentro do app. Se você usa iPhone ou iPad Abra o app Ajustes Toque na sua conta Apple no topo Selecione Assinaturas Selecione TimeSense Escolha Cancelar assinatura Se você usa Android Abra a Google Play Store Toque no ícone da sua conta no canto superior direito Selecione Pagamentos e assinaturas Selecione Assinaturas Selecione TimeSense Escolha Cancelar assinatura Importante Excluir o app não cancela a assinatura Após o cancelamento, você poderá continuar usando até o fim do período atual Depois de cancelada, ela não será renovada automaticamente no próximo ciclo"
+    ],
+    "stores": [
+      "https://apps.apple.com/jp/app/id6747689461",
+      "https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506"
+    ]
+  },
+  "ko": {
+    "h1": "Visual Timer for Kidswith Voice Reminders",
+    "subtitle": "A gentle visual timerthat helps kids manage morning routines, bedtime,and smooth transitions.",
+    "title": "TimeSense - 아이를 위한 음성 타이머",
+    "metadata": [
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "TimeSense는 아이들이 시간을 재미있게 익히도록 돕는 음성 안내 타이머 앱입니다. 귀여운 캐릭터가 부드럽게 다음 행동을 알려줘요."
+      },
+      {
+        "property": "og:title",
+        "content": "TimeSense - 아이를 위한 음성 타이머"
+      },
+      {
+        "property": "og:description",
+        "content": "재촉 대신 부드러운 안내. TimeSense가 등교 준비, 공부, 일상 전환을 도와줍니다."
+      },
+      {
+        "property": "og:image",
+        "content": "https://syncraft.dev/timesense/timesense_ogp.png"
+      },
+      {
+        "property": "og:url",
+        "content": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "alternates": [
+      {
+        "rel": "canonical",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ja",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "en",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "es",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "de",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "pt-BR",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ko",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hant",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hans",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": "https://syncraft.dev/timesense/"
+      }
+    ],
+    "headings": [
+      "Visual Timer for Kidswith Voice Reminders",
+      "What is TimeSense?",
+      "Everyday Chaos,Familiar Words...",
+      "Features of TimeSense",
+      "See the time.Feel the countdown.",
+      "CharacterVoice Support",
+      "Character Switchingfor Morning, Evening, Homework",
+      "Use Cases",
+      "\"Hurry Up!\"Replacement",
+      "Concentration Switch ON",
+      "Smooth Transitions",
+      "Voice Samples",
+      "무료로 만나는 네 캐릭터",
+      "TimeSense+ 상황에 맞는 음성",
+      "Download the App",
+      "From the Developer",
+      "FAQ",
+      "확인 방법",
+      "해제 방법",
+      "그래도 해결되지 않으면",
+      "확인해 주세요",
+      "그래도 해결되지 않으면",
+      "확인해 주세요",
+      "Android 기기를 사용 중이라면",
+      "그래도 해결되지 않으면",
+      "확인해 주세요",
+      "Android 기기를 사용 중이라면",
+      "그래도 해결되지 않으면",
+      "현재 동기화되지 않는 데이터",
+      "구매 정보에 대해",
+      "그래도 해결되지 않으면",
+      "무료 버전에서 가능한 것",
+      "TimeSense+에서 가능한 것",
+      "확인해 주세요",
+      "그래도 해결되지 않으면",
+      "iPhone / iPad를 사용하는 경우",
+      "Android를 사용하는 경우",
+      "6가지 컬러 테마"
+    ],
+    "paragraphs": [
+      "A gentle visual timerthat helps kids manage morning routines, bedtime,and smooth transitions.",
+      "TimeSense is a visual timer for kids designed to make daily routines easier. By showing how much time is left and providing calm voice reminders, it helps children handle transitions, morning routines, and bedtime more smoothly.",
+      "TimeSense was designed with insights from child psychology and developmental research—to support kids in a way that feels natural and engaging.",
+      "The analog clock + timer display allows you to see the remaining time at a glance.",
+      "Characters speak gently in place of parents—guiding children through countdowns and next steps.",
+      "Switch characters by time of day—morning, homework, or bedtime—keeping routines fresh and fun.",
+      "Let the timer and characters take over the morning rush—no more repeating “Hurry up!”",
+      "“5 minutes left!”—hearing it from a character boosts focus and motivation.",
+      "Struggling with transitions is normal. TimeSense guides kids gently through changes—like cleaning up or moving from play to study.",
+      "Choose voice samples that match your child’s mood and needs. From basic countdowns to playful encouragement—each voice is designed to help kids take action smoothly.",
+      "Luma, Pico, Milo, Toto의 기본 음성 알림을 무료로 이용할 수 있어요. 아래에서 Luma와 Pico의 샘플을 들어보세요.",
+      "프리미엄에서는 기본 알림에 더해 아침 준비, 숙제, 취침 등 상황에 맞는 음성을 이용할 수 있어요.",
+      "Try it for free today!Upgrade to TimeSense+ for full voice selection and an ad-free experience—designed to fit every moment of your child’s day.",
+      "This app was created from our wish to begin each morning with a smile—even during hectic routines and moments when our son found it hard to switch tasks.",
+      "With a clear display of remaining time and adorable character voices offering gentle prompts, TimeSense acts like a co-parent—speaking on your behalf.",
+      "It’s a timer app built on the ideas of education and kindness, helping kids gradually develop self-direction and time awareness.",
+      "We hope TimeSense can support children and parents all over the world. We’d love to hear your feedback!",
+      "자주 받는 질문을 정리했습니다.항목을 누르면 답변과 확인 방법이 펼쳐집니다.",
+      "A. 차일드락이 켜져 있을 수 있습니다.",
+      "TimeSense에는 아이가 실수로 타이머를 멈추거나 설정을 바꾸지 않도록 화면 조작을 잠시 제한하는 차일드락 기능이 있습니다.",
+      "화면이 반응하지 않는다면 먼저 차일드락이 켜져 있는지 확인해 주세요.",
+      "주의해 주세요",
+      "차일드락이 켜져 있지 않거나 위 방법으로도 해결되지 않으면, 기기 고유의 문제일 수 있습니다. hello@syncraft.dev 로 이메일을 보내 주세요.",
+      "A. 기기 설정이나 앱 설정의 영향일 수 있습니다.",
+      "TimeSense에서는 캐릭터 음성 안내와 효과음을 사용할 수 있습니다. 소리가 나지 않는 경우 대부분은 기기 설정이나 앱 내 사운드 설정이 원인입니다.",
+      "주의해 주세요",
+      "확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요.",
+      "A. 기기의 절전 설정 때문에 앱이 자동으로 중지되고 있을 수 있습니다.",
+      "TimeSense는 타이머 실행 중에도 안정적으로 동작하도록 설계되어 있지만, 일부 Android 기기에서는 배터리 설정 때문에 백그라운드 동작이 제한될 수 있습니다.",
+      "일부 제조사는 배터리를 더 강하게 제어합니다. Samsung Electronics, Xiaomi Corporation, OPPO 기기에서 더 자주 발생할 수 있습니다.",
+      "주의해 주세요",
+      "확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요.",
+      "A. 기기의 알림 설정이나 배터리 설정이 영향을 줄 수 있습니다.",
+      "TimeSense는 설정한 시간에 맞춰 알림을 보낼 수 있습니다. 알림이 오지 않는 경우 대부분은 기기 쪽 제한이 원인입니다.",
+      "배터리 최적화나 백그라운드 제한 때문에 알림이 지연되거나 차단될 수 있습니다. 설정 이름은 제조사마다 다를 수 있습니다.",
+      "주의해 주세요",
+      "TimeSense 알림은 앱뿐 아니라 기기 설정의 영향도 받습니다. Android에서는 기종에 따라 동작이 다를 수 있습니다.",
+      "확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요.",
+      "A. 현재 TimeSense는 기기별로 데이터를 저장하며, 기기 간 동기화를 지원하지 않습니다.",
+      "어린 아이도 안심하고 사용할 수 있도록 TimeSense는 계정 등록이나 클라우드 동기화를 사용하지 않습니다. 데이터는 사용 중인 기기 안에만 저장됩니다.",
+      "주의해 주세요",
+      "이 모든 경우에 데이터는 자동으로 공유되지 않습니다.",
+      "같은 스토어 계정을 사용 중이라면 유료 플랜(TimeSense+) 구매 정보를 복원할 수 있는 경우가 있습니다. 앱 내 구매 복원을 시도해 주세요.",
+      "프로필, 스탬프 등의 데이터 자체는 복원되지 않습니다.",
+      "데이터가 사라진 것처럼 보이거나 상황이 불분명하면 앱 내 피드백 메뉴로 문의해 주세요.",
+      "A. TimeSense는 무료로 사용할 수 있지만, 일부 기능은 TimeSense+에서 제공됩니다.",
+      "TimeSense는 기본 타이머 기능을 무료로 제공하며, 더 편리하게 사용하고 싶은 가족을 위해 유료 플랜 TimeSense+도 준비되어 있습니다.",
+      "무료 버전에는 광고가 표시될 수 있습니다.",
+      "안내",
+      "먼저 무료 버전으로 사용해 보고, 아이에게 잘 맞는다고 느껴지면 TimeSense+를 고려해 주세요. 최신 내용은 앱 내 구매 화면에서 확인하실 수 있습니다.",
+      "A. 구매 정보가 아직 반영되지 않았거나 다른 스토어 계정으로 로그인했을 수 있습니다.",
+      "구매 후에도 프리미엄 기능을 사용할 수 없다면 구매 상태가 아직 제대로 동기화되지 않았을 수 있습니다.",
+      "주의해 주세요",
+      "스토어가 다르기 때문에 구매 정보는 플랫폼 간에 공유되지 않습니다.",
+      "확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요.",
+      "A. 구독 해지는 앱 내부가 아니라 사용 중인 스토어 계정에서 진행해야 합니다.",
+      "TimeSense 구독은 App Store 또는 Google Play에서 관리됩니다. 따라서 앱 안에서 직접 해지할 수 없습니다.",
+      "주의해 주세요"
+    ],
+    "audio": [
+      "/timesense/ko/luma_ko_30min.mp3",
+      "/timesense/ko/pico_nor_ko_5min.mp3",
+      "/timesense/ko/milo_ko_5min.mp3",
+      "/timesense/ko/toto_ko_1min.mp3"
+    ],
+    "faq": [
+      "A. 차일드락이 켜져 있을 수 있습니다. TimeSense에는 아이가 실수로 타이머를 멈추거나 설정을 바꾸지 않도록 화면 조작을 잠시 제한하는 차일드락 기능이 있습니다. 화면이 반응하지 않는다면 먼저 차일드락이 켜져 있는지 확인해 주세요. 확인 방법 메인 화면 오른쪽 위의 톱니바퀴 아이콘을 확인해 주세요 톱니바퀴 아이콘 오른쪽 아래에 자물쇠 표시가 있으면 차일드락이 켜져 있습니다 해제 방법 오른쪽 위 톱니바퀴 아이콘을 길게 눌러 주세요 몇 초 후 설정 화면이 열립니다 메뉴에서 차일드락을 선택해 주세요 차일드락을 OFF로 변경해 주세요 주의해 주세요 차일드락이 켜져 있으면 일부 화면 조작이 제한됩니다 앱이 고장난 것은 아닙니다 그래도 해결되지 않으면 차일드락이 켜져 있지 않거나 위 방법으로도 해결되지 않으면, 기기 고유의 문제일 수 있습니다. hello@syncraft.dev 로 이메일을 보내 주세요. 사용 중인 기기명 OS 버전 앱 버전",
+      "A. 기기 설정이나 앱 설정의 영향일 수 있습니다. TimeSense에서는 캐릭터 음성 안내와 효과음을 사용할 수 있습니다. 소리가 나지 않는 경우 대부분은 기기 설정이나 앱 내 사운드 설정이 원인입니다. 확인해 주세요 기기가 무음 모드인지 확인해 주세요 Bluetooth 이어폰이나 스피커에 연결되어 있지 않은지 확인해 주세요 메인 화면 톱니바퀴 아이콘에서 사운드 설정을 열고 음성 안내와 효과음이 OFF가 아닌지 확인해 주세요 선택한 언어에 음성 팩이 필요하다면, 안정적인 인터넷 환경에서 다시 시도해 주세요 주의해 주세요 일부 언어는 아직 음성을 지원하지 않을 수 있습니다 음성 팩 다운로드에는 인터넷 연결이 필요합니다 그래도 해결되지 않으면 확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요. 사용 중인 기기명 OS 버전 앱 버전 사용 중인 언어 설정",
+      "A. 기기의 절전 설정 때문에 앱이 자동으로 중지되고 있을 수 있습니다. TimeSense는 타이머 실행 중에도 안정적으로 동작하도록 설계되어 있지만, 일부 Android 기기에서는 배터리 설정 때문에 백그라운드 동작이 제한될 수 있습니다. 확인해 주세요 절전 모드가 켜져 있지 않은지 확인해 주세요 TimeSense가 배터리 최적화 대상이 아닌지 확인해 주세요 백그라운드 실행이 허용되어 있는지 확인해 주세요 Android 기기를 사용 중이라면 일부 제조사는 배터리를 더 강하게 제어합니다. Samsung Electronics, Xiaomi Corporation, OPPO 기기에서 더 자주 발생할 수 있습니다. 주의해 주세요 iPhone / iPad에서는 이 문제가 비교적 적게 발생합니다 Android 설정 이름은 제조사마다 다를 수 있습니다 그래도 해결되지 않으면 확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요. 사용 중인 기기명 OS 버전 앱 버전 타이머가 멈췄을 때의 상황",
+      "A. 기기의 알림 설정이나 배터리 설정이 영향을 줄 수 있습니다. TimeSense는 설정한 시간에 맞춰 알림을 보낼 수 있습니다. 알림이 오지 않는 경우 대부분은 기기 쪽 제한이 원인입니다. 확인해 주세요 기기 설정에서 TimeSense 알림이 허용되어 있는지 확인해 주세요 방해 금지 모드나 집중 모드가 켜져 있지 않은지 확인해 주세요 절전 모드가 켜져 있지 않은지 확인해 주세요 Android 기기를 사용 중이라면 배터리 최적화나 백그라운드 제한 때문에 알림이 지연되거나 차단될 수 있습니다. 설정 이름은 제조사마다 다를 수 있습니다. 주의해 주세요 TimeSense 알림은 앱뿐 아니라 기기 설정의 영향도 받습니다. Android에서는 기종에 따라 동작이 다를 수 있습니다. 그래도 해결되지 않으면 확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요. 사용 중인 기기명 OS 버전 앱 버전 알림을 설정한 시간 알림이 오지 않았을 때의 상황",
+      "A. 현재 TimeSense는 기기별로 데이터를 저장하며, 기기 간 동기화를 지원하지 않습니다. 어린 아이도 안심하고 사용할 수 있도록 TimeSense는 계정 등록이나 클라우드 동기화를 사용하지 않습니다. 데이터는 사용 중인 기기 안에만 저장됩니다. 현재 동기화되지 않는 데이터 프로필 설정 스탬프 카드 진행 상황 루틴 설정 기타 앱 설정 주의해 주세요 이 모든 경우에 데이터는 자동으로 공유되지 않습니다. iPhone ⇔ iPad iPhone ⇔ Android Android ⇔ Android(다른 기기) 기기 변경 시 데이터 이동 구매 정보에 대해 같은 스토어 계정을 사용 중이라면 유료 플랜(TimeSense+) 구매 정보를 복원할 수 있는 경우가 있습니다. 앱 내 구매 복원을 시도해 주세요. 프로필, 스탬프 등의 데이터 자체는 복원되지 않습니다. 그래도 해결되지 않으면 데이터가 사라진 것처럼 보이거나 상황이 불분명하면 앱 내 피드백 메뉴로 문의해 주세요. 사용 중인 기기명 OS 버전 앱 버전 현재 발생 중인 상황",
+      "A. TimeSense는 무료로 사용할 수 있지만, 일부 기능은 TimeSense+에서 제공됩니다. TimeSense는 기본 타이머 기능을 무료로 제공하며, 더 편리하게 사용하고 싶은 가족을 위해 유료 플랜 TimeSense+도 준비되어 있습니다. 무료 버전에서 가능한 것 기본 타이머 기능 캐릭터 음성 안내 루틴 기능(일부 제한) 프로필 기능(일부 제한) 스탬프 카드 기능 무료 버전에는 광고가 표시될 수 있습니다. TimeSense+에서 가능한 것 여러 프로필 사용 저장 가능한 루틴 수 확장 일부 기능 제한 해제 광고 제한 또는 숨기기 향후 프리미엄 기능 이용 안내 먼저 무료 버전으로 사용해 보고, 아이에게 잘 맞는다고 느껴지면 TimeSense+를 고려해 주세요. 최신 내용은 앱 내 구매 화면에서 확인하실 수 있습니다.",
+      "A. 구매 정보가 아직 반영되지 않았거나 다른 스토어 계정으로 로그인했을 수 있습니다. 구매 후에도 프리미엄 기능을 사용할 수 없다면 구매 상태가 아직 제대로 동기화되지 않았을 수 있습니다. 확인해 주세요 구매에 사용한 동일한 스토어 계정으로 로그인했는지 확인해 주세요 앱 내 TimeSense+ 메뉴에서 구매 복원을 시도해 주세요 인터넷 연결을 확인하고 앱을 재시작한 뒤 몇 분 후 다시 확인해 주세요 주의해 주세요 스토어가 다르기 때문에 구매 정보는 플랫폼 간에 공유되지 않습니다. iPhone에서 Android로 기기 변경 Android에서 iPhone으로 기기 변경 그래도 해결되지 않으면 확인 후에도 개선되지 않으면 앱 내 피드백 메뉴로 문의해 주세요. 사용 중인 기기명 OS 버전 앱 버전 구매한 플랜 이름 알고 있는 경우 구매 날짜와 시간",
+      "A. 구독 해지는 앱 내부가 아니라 사용 중인 스토어 계정에서 진행해야 합니다. TimeSense 구독은 App Store 또는 Google Play에서 관리됩니다. 따라서 앱 안에서 직접 해지할 수 없습니다. iPhone / iPad를 사용하는 경우 설정 앱을 열어 주세요 상단의 Apple 계정을 눌러 주세요 구독을 선택해 주세요 TimeSense를 선택해 주세요 구독 취소를 선택해 주세요 Android를 사용하는 경우 Google Play Store를 열어 주세요 오른쪽 위 계정 아이콘을 눌러 주세요 결제 및 정기 결제를 선택해 주세요 정기 결제를 선택해 주세요 TimeSense를 선택해 주세요 정기 결제 취소를 선택해 주세요 주의해 주세요 앱을 삭제해도 구독은 해지되지 않습니다 해지 후에도 현재 결제 기간이 끝날 때까지 계속 사용할 수 있습니다 해지가 완료되면 다음 자동 갱신은 진행되지 않습니다"
+    ],
+    "stores": [
+      "https://apps.apple.com/jp/app/id6747689461",
+      "https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506"
+    ]
+  },
+  "zh-hant": {
+    "h1": "給孩子的視覺計時器搭配語音提醒",
+    "subtitle": "用溫柔的視覺計時器幫助孩子面對早晨準備、睡前流程，以及日常轉換更順利。",
+    "title": "TimeSense - 給孩子的語音視覺計時器",
+    "metadata": [
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "TimeSense 是一款給孩子使用的視覺計時器，搭配語音提醒，幫助孩子更順利地完成早晨準備、就寢與日常轉換。"
+      },
+      {
+        "property": "og:title",
+        "content": "TimeSense - 給孩子的語音視覺計時器"
+      },
+      {
+        "property": "og:description",
+        "content": "用可愛角色溫柔提醒孩子，讓每天的轉換時刻更順暢。"
+      },
+      {
+        "property": "og:image",
+        "content": "https://syncraft.dev/timesense/timesense_ogp.png"
+      },
+      {
+        "property": "og:url",
+        "content": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "alternates": [
+      {
+        "rel": "canonical",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ja",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "en",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "es",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "de",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "pt-BR",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ko",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hant",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hans",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": "https://syncraft.dev/timesense/"
+      }
+    ],
+    "headings": [
+      "給孩子的視覺計時器搭配語音提醒",
+      "什麼是 TimeSense？",
+      "每天都兵荒馬亂，這些話是不是很熟悉……",
+      "TimeSense 的特色",
+      "看得見時間，也感受得到倒數。",
+      "角色語音溫柔提醒",
+      "依照早晨、夜晚、作業時段切換角色",
+      "使用情境",
+      "取代「快一點！」的早晨助手",
+      "專注模式啟動",
+      "平順切換下一件事",
+      "語音示範",
+      "免費使用的 4 位角色",
+      "TimeSense+ 配合生活情境的語音",
+      "下載 App",
+      "開發者的話",
+      "FAQ",
+      "確認方式",
+      "解除方式",
+      "若仍未解決",
+      "請確認",
+      "若仍未解決",
+      "請確認",
+      "若您使用 Android 裝置",
+      "若仍未解決",
+      "請確認",
+      "若您使用 Android 裝置",
+      "若仍未解決",
+      "目前不會同步的資料",
+      "關於購買資訊",
+      "若仍未解決",
+      "免費版可使用的內容",
+      "TimeSense+ 可使用的內容",
+      "請確認",
+      "若仍未解決",
+      "若您使用 iPhone / iPad",
+      "若您使用 Android",
+      "6 種色彩主題"
+    ],
+    "paragraphs": [
+      "用溫柔的視覺計時器幫助孩子面對早晨準備、睡前流程，以及日常轉換更順利。",
+      "TimeSense 是一款專為孩子設計的視覺計時器，讓每天的例行流程更輕鬆。它透過清楚顯示剩餘時間，並搭配平靜溫柔的語音提醒，幫助孩子更順利地面對轉換、早晨準備與睡前時光。",
+      "TimeSense 融合了兒童心理與發展研究的觀點，讓支援孩子這件事，自然又有吸引力。",
+      "類比時鐘搭配計時器顯示，讓孩子一眼就能看懂還剩多少時間。",
+      "角色會代替家長用溫柔的語氣提醒孩子，陪伴倒數與下一步行動。",
+      "可以依時段切換不同角色，無論是早晨、作業還是睡前，都讓日常流程保持新鮮有趣。",
+      "把早晨的催促交給計時器與角色，不必一再重複說「快一點！」。",
+      "「還剩 5 分鐘喔！」當這句話由角色說出口，更能提升孩子的專注力與動力。",
+      "孩子不擅長轉換節奏很正常。TimeSense 會溫柔陪伴，幫助孩子從玩耍切換到收拾、學習等下一步。",
+      "依照孩子的個性與情境，挑選適合的語音風格。 以下為語音風格示意，目前示例音檔為英文，但能幫助你先感受每個角色的陪伴感。",
+      "Luma、Pico、Milo、Toto 的基本語音提醒都能免費使用。下方可試聽 Luma 和 Pico 的語音範例。",
+      "升級 Premium 後，除了基本提醒，還能使用適合早晨準備、寫作業、睡覺時間等情境的語音。",
+      "今天就免費試用看看吧！升級為 TimeSense+ 後，可解鎖完整語音選擇與無廣告體驗，陪伴孩子每一個日常時刻。",
+      "這款 App 的起點，是我們希望即使在忙碌的早晨、即使孩子一時切換不了下一件事，也能帶著笑容開始一天。",
+      "透過清楚可見的剩餘時間，以及可愛角色溫柔的提醒聲音，TimeSense 就像一位貼心的夥伴，替你把話好好說出口。",
+      "這是一款建立在教育與善意理念上的計時器 App，幫助孩子一步一步培養自主性與時間感。",
+      "我們希望 TimeSense 能陪伴世界各地的孩子與家長，也很期待收到你的回饋。",
+      "這裡整理了最常見的問題。點選任一項目即可展開答案與確認步驟。",
+      "A. 有可能是兒童鎖已啟用。",
+      "TimeSense 提供兒童鎖功能，可暫時限制螢幕操作，避免孩子誤觸停止計時器或變更設定。",
+      "如果畫面沒有反應，請先確認是否已啟用兒童鎖。",
+      "請注意",
+      "若兒童鎖未啟用，或依照上述步驟後問題仍存在，可能是裝置本身的個別狀況。請寄信至 hello@syncraft.dev 聯絡我們。",
+      "A. 可能與裝置設定或 App 內設定有關。",
+      "TimeSense 提供角色語音提示與音效。大多數沒有聲音的情況，都與裝置設定或 App 內音效設定有關。",
+      "請注意",
+      "若確認後仍未改善，請透過 App 內的意見回饋選單與我們聯絡。",
+      "A. 可能是裝置的省電設定自動停止了 App。",
+      "TimeSense 已盡量設計為在計時進行中穩定運作，但某些 Android 裝置的電池設定可能會限制 App 在背景執行。",
+      "部分品牌對電池有更嚴格的限制，因此在 Samsung Electronics、Xiaomi Corporation、OPPO 等裝置上可能較容易發生。",
+      "請注意",
+      "若確認後仍未改善，請透過 App 內的意見回饋選單與我們聯絡。",
+      "A. 可能與裝置的通知設定或省電設定有關。",
+      "TimeSense 可以在您設定的時間發送通知。若沒有收到通知，多半是裝置端的限制所造成。",
+      "電池最佳化或背景限制可能會延遲或阻擋通知。設定名稱會因品牌而異。",
+      "請注意",
+      "TimeSense 的通知不只受到 App 本身影響，也會受到裝置設定影響。Android 上的表現可能因機型而不同。",
+      "若確認後仍未改善，請透過 App 內的意見回饋選單與我們聯絡。",
+      "A. 目前 TimeSense 會將資料分別儲存在每台裝置上，尚未支援裝置間同步。",
+      "為了讓年幼的孩子也能安心使用，TimeSense 不採用帳號註冊或雲端同步。資料只會保存在目前使用的裝置中。",
+      "請注意",
+      "以上情況都不會自動共享資料。",
+      "若您使用相同的商店帳號，付費方案（TimeSense+）的購買資訊有可能可以恢復。請嘗試使用 App 內的恢復購買功能。",
+      "個人檔案、印章等資料本身無法恢復。",
+      "若看起來像是資料遺失，或您不確定發生了什麼事，請透過 App 內的意見回饋選單與我們聯絡。",
+      "A. TimeSense 可免費使用，但部分功能需透過 TimeSense+ 使用。",
+      "TimeSense 的基本計時功能可免費使用，另外也提供付費方案 TimeSense+，適合需要更多彈性的家庭。",
+      "免費版可能會顯示廣告。",
+      "建議",
+      "建議先從免費版開始體驗，若您覺得適合孩子，再考慮升級到 TimeSense+。最新內容請以 App 內購買畫面為準。",
+      "A. 購買資訊可能尚未同步，或您目前登入的是不同的商店帳號。",
+      "如果購買後仍無法使用進階功能，可能是購買狀態尚未正確同步。",
+      "請注意",
+      "由於商店平台不同，購買資訊無法跨平台共享。",
+      "若確認後仍未改善，請透過 App 內的意見回饋選單與我們聯絡。",
+      "A. 訂閱需要從您使用的商店帳號取消，不能在 App 內直接取消。",
+      "TimeSense 的訂閱由 App Store 或 Google Play 管理，因此無法直接在 App 內取消。",
+      "請注意"
+    ],
+    "audio": [
+      "/timesense/zh-hant/luma_zhcn_30min.mp3",
+      "/timesense/zh-hant/pico_nor_zhcn_5min.mp3",
+      "/timesense/zh-hant/milo_zhcn_5min.mp3",
+      "/timesense/zh-hant/toto_zhcn_1min.mp3"
+    ],
+    "faq": [
+      "A. 有可能是兒童鎖已啟用。 TimeSense 提供兒童鎖功能，可暫時限制螢幕操作，避免孩子誤觸停止計時器或變更設定。 如果畫面沒有反應，請先確認是否已啟用兒童鎖。 確認方式 請確認主畫面右上角的齒輪圖示 若齒輪圖示右下角顯示鎖頭標記，表示兒童鎖已啟用 解除方式 長按右上角的齒輪圖示 幾秒後會開啟設定畫面 請在選單中選擇兒童鎖 將兒童鎖切換為 OFF 請注意 兒童鎖啟用時，部分螢幕操作會受限 這不代表 App 故障 若仍未解決 若兒童鎖未啟用，或依照上述步驟後問題仍存在，可能是裝置本身的個別狀況。請寄信至 hello@syncraft.dev 聯絡我們。 裝置型號 OS 版本 App 版本",
+      "A. 可能與裝置設定或 App 內設定有關。 TimeSense 提供角色語音提示與音效。大多數沒有聲音的情況，都與裝置設定或 App 內音效設定有關。 請確認 確認裝置未處於靜音模式 確認未連接藍牙耳機或喇叭 從主畫面齒輪圖示開啟聲音設定，確認語音提示與音效未被設為 OFF 若所選語言需要語音包，請在穩定的網路環境下再試一次 請注意 部分語言可能尚未支援語音 下載語音包需要網路連線 若仍未解決 若確認後仍未改善，請透過 App 內的意見回饋選單與我們聯絡。 裝置型號 OS 版本 App 版本 目前使用的語言設定",
+      "A. 可能是裝置的省電設定自動停止了 App。 TimeSense 已盡量設計為在計時進行中穩定運作，但某些 Android 裝置的電池設定可能會限制 App 在背景執行。 請確認 確認省電模式未開啟 確認 TimeSense 未被加入電池最佳化 確認已允許背景執行 若您使用 Android 裝置 部分品牌對電池有更嚴格的限制，因此在 Samsung Electronics、Xiaomi Corporation、OPPO 等裝置上可能較容易發生。 請注意 iPhone / iPad 較少發生此問題 Android 的設定名稱會因品牌而異 若仍未解決 若確認後仍未改善，請透過 App 內的意見回饋選單與我們聯絡。 裝置型號 OS 版本 App 版本 計時器停止時的情況",
+      "A. 可能與裝置的通知設定或省電設定有關。 TimeSense 可以在您設定的時間發送通知。若沒有收到通知，多半是裝置端的限制所造成。 請確認 確認裝置已允許 TimeSense 發送通知 確認勿擾模式或專注模式未開啟 確認省電模式未開啟 若您使用 Android 裝置 電池最佳化或背景限制可能會延遲或阻擋通知。設定名稱會因品牌而異。 請注意 TimeSense 的通知不只受到 App 本身影響，也會受到裝置設定影響。Android 上的表現可能因機型而不同。 若仍未解決 若確認後仍未改善，請透過 App 內的意見回饋選單與我們聯絡。 裝置型號 OS 版本 App 版本 您設定的通知時間 通知未送達時的情況",
+      "A. 目前 TimeSense 會將資料分別儲存在每台裝置上，尚未支援裝置間同步。 為了讓年幼的孩子也能安心使用，TimeSense 不採用帳號註冊或雲端同步。資料只會保存在目前使用的裝置中。 目前不會同步的資料 個人檔案設定 印章卡進度 例行設定 其他 App 設定 請注意 以上情況都不會自動共享資料。 iPhone ⇔ iPad iPhone ⇔ Android Android ⇔ Android（不同裝置） 更換裝置時 關於購買資訊 若您使用相同的商店帳號，付費方案（TimeSense+）的購買資訊有可能可以恢復。請嘗試使用 App 內的恢復購買功能。 個人檔案、印章等資料本身無法恢復。 若仍未解決 若看起來像是資料遺失，或您不確定發生了什麼事，請透過 App 內的意見回饋選單與我們聯絡。 裝置型號 OS 版本 App 版本 目前發生的狀況",
+      "A. TimeSense 可免費使用，但部分功能需透過 TimeSense+ 使用。 TimeSense 的基本計時功能可免費使用，另外也提供付費方案 TimeSense+，適合需要更多彈性的家庭。 免費版可使用的內容 基本計時功能 角色語音提示 例行功能（部分限制） 個人檔案功能（部分限制） 印章卡功能 免費版可能會顯示廣告。 TimeSense+ 可使用的內容 使用多個個人檔案 增加可儲存的例行數量 解除部分功能限制 減少或隱藏廣告 使用未來新增的進階功能 建議 建議先從免費版開始體驗，若您覺得適合孩子，再考慮升級到 TimeSense+。最新內容請以 App 內購買畫面為準。",
+      "A. 購買資訊可能尚未同步，或您目前登入的是不同的商店帳號。 如果購買後仍無法使用進階功能，可能是購買狀態尚未正確同步。 請確認 確認您登入的是購買時使用的同一個商店帳號 請從 App 內的 TimeSense+ 選單嘗試恢復購買 確認網路連線正常，重新啟動 App，幾分鐘後再試一次 請注意 由於商店平台不同，購買資訊無法跨平台共享。 從 iPhone 換到 Android 從 Android 換到 iPhone 若仍未解決 若確認後仍未改善，請透過 App 內的意見回饋選單與我們聯絡。 裝置型號 OS 版本 App 版本 購買的方案名稱 若知道的話，購買日期與時間",
+      "A. 訂閱需要從您使用的商店帳號取消，不能在 App 內直接取消。 TimeSense 的訂閱由 App Store 或 Google Play 管理，因此無法直接在 App 內取消。 若您使用 iPhone / iPad 開啟設定 App 點選最上方的 Apple 帳號 選擇訂閱 選擇 TimeSense 選擇取消訂閱 若您使用 Android 開啟 Google Play Store 點選右上角帳號圖示 選擇付款與訂閱 選擇訂閱 選擇 TimeSense 選擇取消訂閱 請注意 僅刪除 App 並不會取消訂閱 取消後仍可使用到目前計費週期結束 取消完成後，下次不會自動續訂"
+    ],
+    "stores": [
+      "https://apps.apple.com/jp/app/id6747689461",
+      "https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506"
+    ]
+  },
+  "zh-hans": {
+    "h1": "给孩子的视觉计时器搭配语音提醒",
+    "subtitle": "用温柔的视觉计时器帮助孩子面对晨间准备、睡前流程，以及日常切换更顺利。",
+    "title": "TimeSense - 给孩子的语音视觉计时器",
+    "metadata": [
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "name": "description",
+        "content": "TimeSense 是一款给孩子使用的视觉计时器，搭配语音提醒，帮助孩子更顺利地完成晨间准备、睡前流程和日常切换。"
+      },
+      {
+        "property": "og:title",
+        "content": "TimeSense - 给孩子的语音视觉计时器"
+      },
+      {
+        "property": "og:description",
+        "content": "用可爱角色温柔提醒孩子，让每天的切换时刻更顺畅。"
+      },
+      {
+        "property": "og:image",
+        "content": "https://syncraft.dev/timesense/timesense_ogp.png"
+      },
+      {
+        "property": "og:url",
+        "content": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "alternates": [
+      {
+        "rel": "canonical",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ja",
+        "href": "https://syncraft.dev/timesense/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "en",
+        "href": "https://syncraft.dev/timesense/en/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "es",
+        "href": "https://syncraft.dev/timesense/es/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "de",
+        "href": "https://syncraft.dev/timesense/de/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "fr",
+        "href": "https://syncraft.dev/timesense/fr/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "pt-BR",
+        "href": "https://syncraft.dev/timesense/pt-br/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "ko",
+        "href": "https://syncraft.dev/timesense/ko/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hant",
+        "href": "https://syncraft.dev/timesense/zh-hant/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "zh-Hans",
+        "href": "https://syncraft.dev/timesense/zh-hans/"
+      },
+      {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": "https://syncraft.dev/timesense/"
+      }
+    ],
+    "headings": [
+      "给孩子的视觉计时器搭配语音提醒",
+      "什么是 TimeSense？",
+      "每天都兵荒马乱，这些话是不是很熟悉……",
+      "TimeSense 的特色",
+      "看得见时间，也感受得到倒计时。",
+      "角色语音温柔提醒",
+      "按早晨、夜晚、作业时段切换角色",
+      "使用场景",
+      "替代“快一点！”的晨间助手",
+      "专注模式启动",
+      "顺畅切换下一件事",
+      "语音示范",
+      "免费使用的 4 位角色",
+      "TimeSense+ 配合生活场景的语音",
+      "下载 App",
+      "开发者的话",
+      "FAQ",
+      "确认方法",
+      "解除方法",
+      "如果仍未解决",
+      "请确认",
+      "如果仍未解决",
+      "请确认",
+      "如果您使用 Android 设备",
+      "如果仍未解决",
+      "请确认",
+      "如果您使用 Android 设备",
+      "如果仍未解决",
+      "目前不会同步的数据",
+      "关于购买信息",
+      "如果仍未解决",
+      "免费版可使用的内容",
+      "TimeSense+ 可使用的内容",
+      "请确认",
+      "如果仍未解决",
+      "如果您使用 iPhone / iPad",
+      "如果您使用 Android",
+      "6 种色彩主题"
+    ],
+    "paragraphs": [
+      "用温柔的视觉计时器帮助孩子面对晨间准备、睡前流程，以及日常切换更顺利。",
+      "TimeSense 是一款专为孩子设计的视觉计时器，让每天的日常流程更轻松。它通过清楚显示剩余时间，并搭配平静温柔的语音提醒，帮助孩子更顺利地面对切换、晨间准备与睡前时光。",
+      "TimeSense 融合了儿童心理与发展研究的洞察，让支持孩子这件事，自然又有吸引力。",
+      "模拟时钟搭配计时器显示，让孩子一眼就能看懂还剩多少时间。",
+      "角色会代替家长用温柔的语气提醒孩子，陪伴倒计时与下一步行动。",
+      "可以按时段切换不同角色，无论是早晨、作业还是睡前，都让日常流程保持新鲜有趣。",
+      "把早晨的催促交给计时器和角色，不必一遍又一遍地说“快一点！”。",
+      "“还剩 5 分钟哦！”当这句话由角色说出来，更能提升孩子的专注力与动力。",
+      "孩子不擅长切换节奏很正常。TimeSense 会温柔陪伴，帮助孩子从玩耍切换到收拾、学习等下一步。",
+      "按照孩子的个性与情境，挑选合适的语音风格。 以下为语音风格示意，目前示例音频为英文，但能帮助你先感受每个角色的陪伴感。",
+      "Luma、Pico、Milo、Toto 的基本语音提醒都能免费使用。下方可试听 Luma 和 Pico 的语音示例。",
+      "升级 Premium 后，除了基本提醒，还能使用适合早晨准备、写作业、睡觉时间等场景的语音。",
+      "今天就免费试试看吧！升级为 TimeSense+ 后，可解锁完整语音选择与无广告体验，陪伴孩子每一个日常时刻。",
+      "这款 App 的起点，是我们希望即使在忙碌的早晨、即使孩子一时切换不了下一件事，也能带着笑容开始一天。",
+      "通过清楚可见的剩余时间，以及可爱角色温柔的提醒声音，TimeSense 就像一位贴心的伙伴，替你把话好好说出口。",
+      "这是一款建立在教育与善意理念上的计时器 App，帮助孩子一步一步培养自主性与时间感。",
+      "我们希望 TimeSense 能陪伴世界各地的孩子与家长，也很期待收到你的反馈。",
+      "这里整理了最常见的问题。点击任意项目即可展开答案与确认步骤。",
+      "A. 有可能是儿童锁已开启。",
+      "TimeSense 提供儿童锁功能，可暂时限制屏幕操作，避免孩子误触停止计时器或修改设置。",
+      "如果画面没有反应，请先确认是否已开启儿童锁。",
+      "请注意",
+      "如果儿童锁并未开启，或按照以上步骤后问题仍然存在，可能是设备本身的个别问题。请发送邮件至 hello@syncraft.dev 联系我们。",
+      "A. 可能与设备设置或 App 内设置有关。",
+      "TimeSense 提供角色语音提示与音效。大多数没有声音的情况，都与设备设置或 App 内声音设置有关。",
+      "请注意",
+      "如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。",
+      "A. 可能是设备的省电设置自动停止了 App。",
+      "TimeSense 已尽量设计为在计时过程中稳定运行，但某些 Android 设备的电池设置可能会限制 App 的后台运行。",
+      "部分品牌对电池有更严格的限制，因此在 Samsung Electronics、Xiaomi Corporation、OPPO 等设备上可能更容易出现。",
+      "请注意",
+      "如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。",
+      "A. 可能与设备的通知设置或省电设置有关。",
+      "TimeSense 可以在您设定的时间发送通知。若没有收到通知，通常是设备端限制所造成。",
+      "电池优化或后台限制可能会导致通知延迟或被拦截。设置名称会因品牌而异。",
+      "请注意",
+      "TimeSense 的通知不仅会受到 App 本身影响，也会受到设备设置影响。Android 上的表现可能因机型而不同。",
+      "如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。",
+      "A. 目前 TimeSense 会将数据分别保存在每台设备上，暂不支持设备间同步。",
+      "为了让年幼孩子也能安心使用，TimeSense 不使用账号注册或云端同步。数据只会保存在当前使用的设备中。",
+      "请注意",
+      "以上情况都不会自动共享数据。",
+      "如果您使用相同的商店账号，付费方案（TimeSense+）的购买信息有可能可以恢复。请尝试使用 App 内的恢复购买功能。",
+      "个人资料、印章等数据本身无法恢复。",
+      "如果看起来像是数据丢失，或您不确定发生了什么，请通过 App 内的反馈菜单联系我们。",
+      "A. TimeSense 可以免费使用，但部分功能需通过 TimeSense+ 使用。",
+      "TimeSense 的基础计时功能可免费使用，同时也提供付费方案 TimeSense+，适合需要更多灵活性的家庭。",
+      "免费版可能会显示广告。",
+      "建议",
+      "建议先从免费版开始体验，如果觉得适合孩子，再考虑升级到 TimeSense+。最新内容请以 App 内购买页面为准。",
+      "A. 购买信息可能尚未同步，或者您当前登录的是其他商店账号。",
+      "如果购买后仍无法使用高级功能，可能是购买状态尚未正确同步。",
+      "请注意",
+      "由于商店平台不同，购买信息无法跨平台共享。",
+      "如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。",
+      "A. 订阅需要在您使用的商店账号中取消，无法在 App 内直接取消。",
+      "TimeSense 的订阅由 App Store 或 Google Play 管理，因此不能直接在 App 内取消。",
+      "请注意"
+    ],
+    "audio": [
+      "/timesense/zh-hans/luma_zhcn_30min.mp3",
+      "/timesense/zh-hans/pico_nor_zhcn_5min.mp3",
+      "/timesense/zh-hans/milo_zhcn_5min.mp3",
+      "/timesense/zh-hans/toto_zhcn_1min.mp3"
+    ],
+    "faq": [
+      "A. 有可能是儿童锁已开启。 TimeSense 提供儿童锁功能，可暂时限制屏幕操作，避免孩子误触停止计时器或修改设置。 如果画面没有反应，请先确认是否已开启儿童锁。 确认方法 请查看主界面右上角的齿轮图标 如果齿轮图标右下角显示锁头标记，说明儿童锁已开启 解除方法 长按右上角的齿轮图标 几秒后会打开设置页面 在菜单中选择儿童锁 将儿童锁切换为 OFF 请注意 开启儿童锁时，部分屏幕操作会被限制 这并不代表 App 故障 如果仍未解决 如果儿童锁并未开启，或按照以上步骤后问题仍然存在，可能是设备本身的个别问题。请发送邮件至 hello@syncraft.dev 联系我们。 设备型号 OS 版本 App 版本",
+      "A. 可能与设备设置或 App 内设置有关。 TimeSense 提供角色语音提示与音效。大多数没有声音的情况，都与设备设置或 App 内声音设置有关。 请确认 确认设备未处于静音模式 确认没有连接蓝牙耳机或音箱 从主界面齿轮图标打开声音设置，确认语音提示和音效没有被设为 OFF 如果所选语言需要语音包，请在网络稳定时再次尝试 请注意 部分语言可能暂时还不支持语音 下载语音包需要网络连接 如果仍未解决 如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。 设备型号 OS 版本 App 版本 当前使用的语言设置",
+      "A. 可能是设备的省电设置自动停止了 App。 TimeSense 已尽量设计为在计时过程中稳定运行，但某些 Android 设备的电池设置可能会限制 App 的后台运行。 请确认 确认省电模式未开启 确认 TimeSense 未被加入电池优化 确认已允许后台运行 如果您使用 Android 设备 部分品牌对电池有更严格的限制，因此在 Samsung Electronics、Xiaomi Corporation、OPPO 等设备上可能更容易出现。 请注意 iPhone / iPad 较少出现此问题 Android 的设置名称会因品牌而异 如果仍未解决 如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。 设备型号 OS 版本 App 版本 计时器停止时的情况",
+      "A. 可能与设备的通知设置或省电设置有关。 TimeSense 可以在您设定的时间发送通知。若没有收到通知，通常是设备端限制所造成。 请确认 确认设备已允许 TimeSense 发送通知 确认勿扰模式或专注模式未开启 确认省电模式未开启 如果您使用 Android 设备 电池优化或后台限制可能会导致通知延迟或被拦截。设置名称会因品牌而异。 请注意 TimeSense 的通知不仅会受到 App 本身影响，也会受到设备设置影响。Android 上的表现可能因机型而不同。 如果仍未解决 如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。 设备型号 OS 版本 App 版本 您设置的通知时间 通知未送达时的情况",
+      "A. 目前 TimeSense 会将数据分别保存在每台设备上，暂不支持设备间同步。 为了让年幼孩子也能安心使用，TimeSense 不使用账号注册或云端同步。数据只会保存在当前使用的设备中。 目前不会同步的数据 个人资料设置 印章卡进度 例行设置 其他 App 设置 请注意 以上情况都不会自动共享数据。 iPhone ⇔ iPad iPhone ⇔ Android Android ⇔ Android（不同设备） 更换设备时 关于购买信息 如果您使用相同的商店账号，付费方案（TimeSense+）的购买信息有可能可以恢复。请尝试使用 App 内的恢复购买功能。 个人资料、印章等数据本身无法恢复。 如果仍未解决 如果看起来像是数据丢失，或您不确定发生了什么，请通过 App 内的反馈菜单联系我们。 设备型号 OS 版本 App 版本 当前发生的情况",
+      "A. TimeSense 可以免费使用，但部分功能需通过 TimeSense+ 使用。 TimeSense 的基础计时功能可免费使用，同时也提供付费方案 TimeSense+，适合需要更多灵活性的家庭。 免费版可使用的内容 基础计时功能 角色语音提示 例行功能（部分限制） 个人资料功能（部分限制） 印章卡功能 免费版可能会显示广告。 TimeSense+ 可使用的内容 使用多个个人资料 增加可保存的例行数量 解除部分功能限制 减少或隐藏广告 使用未来新增的高级功能 建议 建议先从免费版开始体验，如果觉得适合孩子，再考虑升级到 TimeSense+。最新内容请以 App 内购买页面为准。",
+      "A. 购买信息可能尚未同步，或者您当前登录的是其他商店账号。 如果购买后仍无法使用高级功能，可能是购买状态尚未正确同步。 请确认 确认您登录的是购买时使用的同一商店账号 请在 App 内的 TimeSense+ 菜单中尝试恢复购买 确认网络连接正常，重启 App，几分钟后再试一次 请注意 由于商店平台不同，购买信息无法跨平台共享。 从 iPhone 更换到 Android 从 Android 更换到 iPhone 如果仍未解决 如果确认后仍未改善，请通过 App 内的反馈菜单联系我们。 设备型号 OS 版本 App 版本 购买的方案名称 如果知道的话，购买日期和时间",
+      "A. 订阅需要在您使用的商店账号中取消，无法在 App 内直接取消。 TimeSense 的订阅由 App Store 或 Google Play 管理，因此不能直接在 App 内取消。 如果您使用 iPhone / iPad 打开设置 App 点击顶部的 Apple 账号 选择订阅 选择 TimeSense 选择取消订阅 如果您使用 Android 打开 Google Play Store 点击右上角账号图标 选择付款与订阅 选择订阅 选择 TimeSense 选择取消订阅 请注意 仅删除 App 并不会取消订阅 取消后仍可使用到当前计费周期结束 取消完成后，下次不会自动续订"
+    ],
+    "stores": [
+      "https://apps.apple.com/jp/app/id6747689461",
+      "https://play.google.com/store/apps/details?id=jp.shinapps.timesense&utm_source=lp&utm_medium=button&utm_campaign=launch202506"
+    ]
+  }
+}

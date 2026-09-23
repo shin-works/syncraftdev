@@ -304,6 +304,9 @@ function writeFile(relativePath, content) {
 }
 
 const baseIndex = readFileSync(join(root, 'en/index.html'), 'utf8');
+if (baseIndex.includes('data-design="lagoon-offset"')) {
+  throw new Error('This legacy translator targets the old LP markup. Edit public/timesense/pt-br/index.html directly; the new layout uses shared assets/redesign/site.css and site.js. Run python3 scripts/check-timesense-pages.py to verify protected copy. See docs/timesense-redesign-implementation.md.');
+}
 const baseTerms = readFileSync(join(root, 'en/terms/index.html'), 'utf8');
 const basePrivacy = readFileSync(join(root, 'en/privacy/index.html'), 'utf8');
 
