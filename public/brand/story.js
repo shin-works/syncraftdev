@@ -1,4 +1,4 @@
-import { WORLD_END, groundAt, runnerAt, cameraAt } from './town-model.mjs?v=20260922-3';
+import { WORLD_END, groundAt, runnerAt, runnerPositionAt, cameraAt } from './town-model.mjs?v=20260923-1';
 
 const stage = document.querySelector('#town-stage');
 const svg = document.querySelector('.town');
@@ -56,23 +56,26 @@ function paint(still = false) {
   world.setAttribute('transform', `translate(${-camera} 0)`);
   distance.setAttribute('transform', `translate(${-camera * .35} 0)`);
   runners.forEach((r, index) => {
-    const x = leadX - r.offset;
+    const x = still ? leadX - r.offset : runnerPositionAt(leadX - r.offset);
     const pose = runnerAt(x);
     const age = elapsed - manualJumpAt - index * .13;
     const manual = !still && age > 0 && age < .82 ? 4 * (age/.82) * (1-age/.82) * 62 : 0;
     const jump = still ? 0 : Math.max(pose.jump, manual);
     const airborne = jump > .5;
+    const slide = still || manual > pose.jump ? 0 : pose.slide;
+    const mix = (walk, seated) => walk + (seated - walk) * slide;
     const stride = still || airborne ? 0 : Math.sin(x * .33);
-    const bounce = still || airborne ? 0 : -Math.abs(Math.sin(x * .33)) * 1.7;
+    const bounce = still || airborne ? 0 : -Math.abs(Math.sin(x * .33)) * 1.7 * (1 - slide);
     const squash = still || manual > 0 ? 1 : pose.squash;
     r.el.setAttribute('transform', `translate(${x} ${groundAt(x)}) scale(${r.scale})`);
     // Scaling the pose inversely keeps every runner's feet above the same obstacles.
-    r.pose.setAttribute('transform', `translate(0 ${(-jump + bounce) / r.scale}) scale(${1 / Math.sqrt(squash)} ${squash})`);
-    r.body.setAttribute('transform', `rotate(${airborne ? -8 : stride*3} 0 -12)`);
-    r.frontLeg.setAttribute('d', airborne ? 'M3-8 9-6 12-9' : `M3-8 ${3+stride*7} -3 ${5+stride*8} 0 h3`);
-    r.backLeg.setAttribute('d', airborne ? 'M-3-8-8-5-10-8' : `M-3-8 ${-3-stride*7} -3 ${-5-stride*8} 0 h-3`);
-    r.frontArm.setAttribute('d', airborne ? 'M8-18 12-26' : `M8-18 ${12-stride*3} ${-15-stride*4}`);
-    r.backArm.setAttribute('d', airborne ? 'M-8-18-12-25' : `M-8-18 ${-12+stride*3} ${-15+stride*4}`);
+    // Lower the hips onto the ink and rotate around the seat, with feet forward.
+    r.pose.setAttribute('transform', `translate(0 ${(-jump + bounce) / r.scale + 7 * slide * squash}) scale(${1 / Math.sqrt(squash)} ${squash}) rotate(${pose.slideTilt * slide} 0 -7)`);
+    r.body.setAttribute('transform', `rotate(${(airborne ? -8 : stride*3) * (1 - slide)} 0 -12)`);
+    r.frontLeg.setAttribute('d', `M3-8 ${mix(airborne ? 9 : 3+stride*7, 12)} ${mix(airborne ? -6 : -3, -9)} ${mix(airborne ? 12 : 5+stride*8, 18)} ${mix(airborne ? -9 : 0, -15)} h${mix(airborne ? 0 : 3, 3)}`);
+    r.backLeg.setAttribute('d', `M-3-8 ${mix(airborne ? -8 : -3-stride*7, 6)} ${mix(airborne ? -5 : -3, -8)} ${mix(airborne ? -10 : -5-stride*8, 12)} ${mix(airborne ? -8 : 0, -13)} h${mix(airborne ? 0 : -3, 3)}`);
+    r.frontArm.setAttribute('d', `M8-18 ${mix(airborne ? 12 : 12-stride*3, 13)} ${mix(airborne ? -26 : -15-stride*4, -25)}`);
+    r.backArm.setAttribute('d', `M-8-18 ${mix(airborne ? -12 : -12+stride*3, -13)} ${mix(airborne ? -25 : -15+stride*4, -12)}`);
     r.shadow.setAttribute('rx', String(10 - Math.min(6, jump*.07)));
     r.shadow.style.opacity = String(.12 - Math.min(.07, jump*.001));
     r.dust.style.opacity = still ? '0' : String(pose.dust * .6);

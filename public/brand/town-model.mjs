@@ -1,8 +1,16 @@
 export const WORLD_END = 2600;
+const smooth = (start, end, x) => {
+  const u = Math.max(0, Math.min(1, (x - start) / (end - start)));
+  return u * u * (3 - 2 * u);
+};
+// A little acceleration downhill, then a gentle return to the walking pace.
+// Apply this to each resident's own position so they take turns at the crest.
+export const runnerPositionAt = x => x + 16 * smooth(1650, 1738, x) * (1 - smooth(1740, 1790, x));
 export const JUMPS = [
   { start: 359, end: 449, height: 51 },
   { start: 679, end: 801, height: 74 },
   { start: 1170, end: 1252, height: 48 },
+  { start: 1625, end: 1667, height: 17 },
   { start: 1805, end: 1902, height: 64 },
   { start: 2094, end: 2268, height: 95 },
 ];
@@ -35,6 +43,8 @@ export function runnerAt(x) {
       dust = Math.sin(Math.PI * landed);
     }
   }
-  return { y: groundAt(x) - jump, jump, squash, airborne, dust };
+  const slide = smooth(1645, 1670, x) * (1 - smooth(1742, 1778, x));
+  const slope = Math.atan2(groundAt(x + 1) - groundAt(x - 1), 2) * 180 / Math.PI;
+  return { y: groundAt(x) - jump, jump, squash, airborne, dust, slide, slideTilt: slope - 28 };
 }
 export const cameraAt = (x, width) => Math.max(0, Math.min(WORLD_END - width, x - width * .38));
