@@ -18,7 +18,7 @@
     {
       "id": "section-01",
       "heading": "1. Maklumat yang kami kumpul dan simpan",
-      "html": "<p>Aplikasi ini secara amnya tidak memerlukan pengguna memasukkan nama, alamat, nombor telefon atau alamat e-mel secara langsung untuk mendaftar.</p>\n      <p>Bergantung pada penggunaan Aplikasi, maklumat berikut mungkin disimpan pada peranti anda: tetapan pemasa; masa fokus dan sejarah pemasa; tugasan yang dimasukkan oleh anda; kucing, item, gelaran dan kandungan dalam aplikasi lain serta penggunaannya; Tetapan Aplikasi; maklumat profil pilihan seperti nama; dan status ciri berbayar.</p>\n      <p>Kami juga mungkin mengumpul atau memproses maklumat melalui perkhidmatan pihak ketiga untuk analisis penggunaan, penambahbaikan kualiti, diagnostik dan pengiklanan. Ini mungkin termasuk jenis peranti, OS, tetapan bahasa, versi Apl, peristiwa pelancaran dan penggunaan ciri, data ranap dan prestasi, alamat IP dan maklumat rangkaian lain, interaksi pengiklanan dan pengecam peranti atau pengiklanan. Maklumat yang sebenarnya diproses boleh berbeza-beza dengan versi iOS anda, tetapan peranti, pilihan privasi, status persetujuan dan spesifikasi perkhidmatan pihak ketiga.</p>"
+      "html": "<p>Aplikasi ini secara amnya tidak memerlukan pengguna memasukkan nama, alamat, nombor telefon atau alamat e-mel secara langsung untuk mendaftar.</p>\n      <p>Bergantung pada penggunaan Aplikasi, maklumat berikut mungkin disimpan pada peranti anda: tetapan pemasa; masa fokus dan sejarah pemasa; tugasan yang dimasukkan oleh anda; kucing, item, gelaran dan kandungan lain dalam aplikasi serta penggunaannya; Tetapan Aplikasi; maklumat profil pilihan seperti nama; dan status ciri berbayar.</p>\n      <p>Kami juga mungkin mengumpul atau memproses maklumat melalui perkhidmatan pihak ketiga untuk analisis penggunaan, penambahbaikan kualiti, diagnostik dan pengiklanan. Ini mungkin termasuk jenis peranti, OS, tetapan bahasa, versi Apl, peristiwa pelancaran dan penggunaan ciri, data ranap dan prestasi, alamat IP dan maklumat rangkaian lain, interaksi pengiklanan dan pengecam peranti atau pengiklanan. Maklumat yang sebenarnya diproses boleh berbeza-beza dengan versi iOS anda, tetapan peranti, pilihan privasi, status persetujuan dan spesifikasi perkhidmatan pihak ketiga.</p>"
     },
     {
       "id": "section-02",
@@ -73,7 +73,7 @@
     {
       "id": "section-12",
       "heading": "12. Hubungi",
-      "html": "<div class=\"contact\">\n       <p>Untuk soalan tentang Dasar ini atau pengendalian maklumat dalam Aplikasi:</p>\n       <p>Pembangun dan pengendali: SynCraft</p>\n       <p>Hubungi: <a href=\"mailto:hello@syncraft.dev\">hello@synccraft.dev</a></p>\n      </div>"
+      "html": "<div class=\"contact\">\n       <p>Untuk soalan tentang Dasar ini atau pengendalian maklumat dalam Aplikasi:</p>\n       <p>Pembangun dan pengendali: SynCraft</p>\n       <p>Hubungi: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
     }
   ],
   "translation": {

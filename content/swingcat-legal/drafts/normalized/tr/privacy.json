@@ -18,7 +18,7 @@
     {
       "id": "section-01",
       "heading": "1. Topladığımız ve sakladığımız bilgiler",
-      "html": "<p>Uygulama, kayıt olmak için kullanıcıların doğrudan ad, adres, telefon numarası veya e-posta adresi girmesini genellikle gerektirmez.</p>\n      <p>Uygulamanın kullanımına bağlı olarak, cihazınızda aşağıdaki bilgiler saklanabilir: zamanlayıcı ayarları; odaklanma süresi ve zamanlayıcı geçmişi; sizin girdiğiniz görevler; kediler, öğeler, başlıklar ve diğer uygulama içi içerikler ve bunların kullanımı; uygulama ayarları; ad gibi isteğe bağlı profil bilgileri; ve ücretli özelliklerin durumu.</p>\n      <p>Ayrıca, kullanım analizi, kalite iyileştirmeleri, teşhis ve reklamcılık amacıyla üçüncü taraf hizmetler aracılığıyla bilgi toplayabilir veya işleyebiliriz. Bu, cihaz türü, işletim sistemi, dil ayarları, uygulama sürümü, başlatma ve özellik kullanım olayları, çökme ve performans verileri, IP adresi ve diğer ağ bilgileri, reklam etkileşimleri ve cihaz veya reklam tanımlayıcılarını içerebilir. Gerçekte işlenen bilgiler, iOS sürümünüze, cihaz ayarlarınıza, gizlilik tercihlerinize, onay durumunuza ve üçüncü taraf hizmet özelliklerine göre değişiklik gösterebilir.</p>"
+      "html": "<p>Uygulama, kayıt olmak için kullanıcıların doğrudan ad, adres, telefon numarası veya e-posta adresi girmesini genellikle gerektirmez.</p>\n      <p>Uygulamanın kullanımına bağlı olarak, cihazınızda aşağıdaki bilgiler saklanabilir: zamanlayıcı ayarları; odaklanma süresi ve zamanlayıcı geçmişi; sizin girdiğiniz görevler; kediler, öğeler, unvanlar ve diğer uygulama içi içerikler ve bunların kullanımı; uygulama ayarları; ad gibi isteğe bağlı profil bilgileri; ve ücretli özelliklerin durumu.</p>\n      <p>Ayrıca, kullanım analizi, kalite iyileştirmeleri, teşhis ve reklamcılık amacıyla üçüncü taraf hizmetler aracılığıyla bilgi toplayabilir veya işleyebiliriz. Bu, cihaz türü, işletim sistemi, dil ayarları, uygulama sürümü, başlatma ve özellik kullanım olayları, çökme ve performans verileri, IP adresi ve diğer ağ bilgileri, reklam etkileşimleri ve cihaz veya reklam tanımlayıcılarını içerebilir. Gerçekte işlenen bilgiler, iOS sürümünüze, cihaz ayarlarınıza, gizlilik tercihlerinize, onay durumunuza ve üçüncü taraf hizmet özelliklerine göre değişiklik gösterebilir.</p>"
     },
     {
       "id": "section-02",
@@ -48,7 +48,7 @@
     {
       "id": "section-07",
       "heading": "7. Veri saklama ve silme",
-      "html": "<p>Zamanlayıcı geçmişi, kediler, öğeler, başlıklar, ayarlar ve diğer uygulama verileri cihazınızda saklanabilir. Yalnızca cihazda saklanan veriler, uygulama silindiğinde, cihaz sıfırlandığında, cihaz arızalandığında veya diğer nedenlerle kaybolabilir. Üçüncü taraf hizmetler tarafından işlenen veriler, ilgili saklama süreleri ve politikalarına göre yönetilir.</p>\n      <p>Uygulamayı kaldırmak, tek başına satın alma kayıtlarını veya üçüncü taraf hizmetler tarafından tutulan diğer bilgileri silmez. Bilgilerinize erişim veya silme ile ilgili sorularınız veya talepleriniz için lütfen <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> adresinden bizimle iletişime geçin . Talepleri ilgili yasalara uygun olarak ele alacağız; bazı kayıtların yasal yükümlülükleri yerine getirmek veya satın alımları doğrulamak için saklanması gerekebilir.</p>"
+      "html": "<p>Zamanlayıcı geçmişi, kediler, öğeler, unvanlar, ayarlar ve diğer uygulama verileri cihazınızda saklanabilir. Yalnızca cihazda saklanan veriler, uygulama silindiğinde, cihaz sıfırlandığında, cihaz arızalandığında veya diğer nedenlerle kaybolabilir. Üçüncü taraf hizmetler tarafından işlenen veriler, ilgili saklama süreleri ve politikalarına göre yönetilir.</p>\n      <p>Uygulamayı kaldırmak, tek başına satın alma kayıtlarını veya üçüncü taraf hizmetler tarafından tutulan diğer bilgileri silmez. Bilgilerinize erişim veya silme ile ilgili sorularınız veya talepleriniz için lütfen <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> adresinden bizimle iletişime geçin . Talepleri ilgili yasalara uygun olarak ele alacağız; bazı kayıtların yasal yükümlülükleri yerine getirmek veya satın alımları doğrulamak için saklanması gerekebilir.</p>"
     },
     {
       "id": "section-08",
@@ -58,7 +58,7 @@
     {
       "id": "section-09",
       "heading": "9. Çocuklar",
-      "html": "<p>Küçüklerin uygulamayı kullanması gerektiğinde ebeveyn veya yasal vasinin izniyle yapılmalıdır. Uygulama, çocuğun adı, adresi, telefon numarası veya e-posta adresi gibi kişisel bilgileri aktif olarak toplamak üzere tasarlanmamıştır.</p>"
+      "html": "<p>Reşit olmayan kişiler, gerekli durumlarda ebeveynlerinin veya yasal vasilerinin izniyle Uygulamayı kullanmalıdır. Uygulama, çocuğun adı, adresi, telefon numarası veya e-posta adresi gibi kişisel bilgileri aktif olarak toplamak üzere tasarlanmamıştır.</p>"
     },
     {
       "id": "section-10",

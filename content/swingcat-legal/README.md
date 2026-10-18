@@ -27,3 +27,11 @@ English-prevails notice overrides mandatory local consumer protections.
 App Store's Apple standard EULA remains separate from these service terms.
 The 2026-10-18 privacy revision adds RevenueCat and clarifies deletion requests;
 it does not change SDK configuration or App Store privacy declarations.
+
+The second Codex review on 2026-10-18 compared all 86 draft documents (43
+languages) against the English source in full. Corrections include purchase and
+liability conditions, data-processing qualifications, visible contact addresses,
+and earned-title terminology matched to the app. Drafts remain unpublished;
+this self-review does not certify native-language quality or local legal compliance.
+Evidence, exact before/after edits, and reviewed document hashes are in the sibling
+repository `syncraft-store-metadata/legal/20261018-second-review/`.

@@ -43,12 +43,12 @@
     {
       "id": "section-06",
       "heading": "6. Megosztás harmadik felekkel",
-      "html": "<p>Nem értékesítjük a felhasználókkal kapcsolatos információkat. Az információkat a Firebase, a Google AdMob, az Apple, a RevenueCat és más szolgáltatásoknak küldhetjük, illetve feldolgozhatják, amennyiben az alkalmazás biztosításához szükséges. Az információkat akkor is közzétehetjük, ha Ön hozzájárul, ha a közzétételt törvény írja elő, ha az élet, a testi épség vagy a vagyon védelme érdekében szükséges, vagy ha a törvény egyébként engedélyezi.</p>"
+      "html": "<p>Nem értékesítjük a felhasználókkal kapcsolatos információkat. Az információkat elküldhetjük a Firebase, a Google AdMob, az Apple, a RevenueCat és más szolgáltatások részére, illetve ezek a szolgáltatások feldolgozhatják azokat, amennyiben ez az alkalmazás biztosításához szükséges. Az információkat akkor is közzétehetjük, ha Ön hozzájárul, ha a közzétételt törvény írja elő, ha az élet, a testi épség vagy a vagyon védelme érdekében szükséges, vagy ha a törvény egyébként engedélyezi.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Adatmegőrzés és -törlés",
-      "html": "<p>Az időzítő előzményei, macskák, elemek, címek, beállítások és egyéb alkalmazásadatok tárolhatók az eszközén. Az eszközön tárolt adatok elveszhetnek, ha az alkalmazást törlik, az eszközt visszaállítják, az eszköz meghibásodik, vagy egyéb okok miatt. A harmadik féltől származó szolgáltatások által feldolgozott adatokat a megfelelő megőrzési időszakok és szabályzatok szerint kezeljük.</p>\n      <p>Az alkalmazás eltávolítása önmagában nem törli a vásárlási adatokat vagy a harmadik féltől származó szolgáltatások által tárolt egyéb információkat. Az adataihoz való hozzáféréssel vagy azok törlésével kapcsolatos kérdéseivel vagy kéréseivel vegye fel velünk a kapcsolatot a <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> címen . A kérelmeket a vonatkozó jogszabályoknak megfelelően kezeljük; egyes adatokat meg kell őrizni jogi kötelezettségek teljesítése vagy a vásárlások ellenőrzése érdekében.</p>"
+      "html": "<p>Az időzítő előzményei, macskák, elemek, címek, beállítások és egyéb alkalmazásadatok tárolhatók az eszközén. Az eszközön tárolt adatok elveszhetnek, ha az alkalmazást törlik, az eszközt visszaállítják, az eszköz meghibásodik, vagy egyéb okok miatt. A harmadik féltől származó szolgáltatások által feldolgozott adatokat a megfelelő megőrzési időszakok és szabályzatok szerint kezeljük.</p>\n      <p>Az alkalmazás eltávolítása önmagában nem törli a vásárlási adatokat vagy a harmadik féltől származó szolgáltatások által tárolt egyéb információkat. Az adataihoz való hozzáféréssel vagy azok törlésével kapcsolatos kérdéseivel vagy kéréseivel vegye fel velünk a kapcsolatot a <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> címen . A kérelmeket a vonatkozó jogszabályoknak megfelelően kezeljük; egyes adatok megőrzésére szükség lehet jogi kötelezettségek teljesítése vagy a vásárlások ellenőrzése érdekében.</p>"
     },
     {
       "id": "section-08",
@@ -58,12 +58,12 @@
     {
       "id": "section-09",
       "heading": "9. Gyermekek",
-      "html": "<p>Kiskorúak szükség esetén szülőjük vagy törvényes gyámjuk beleegyezésével használhatják az Alkalmazást. Az Alkalmazás nem alkalmas személyes adatok, például gyermek nevének, címének, telefonszámának vagy e-mail címének aktív gyűjtésére.</p>"
+      "html": "<p>Kiskorúak szükség esetén szülőjük vagy törvényes gyámjuk beleegyezésével használhatják az Alkalmazást. Az Alkalmazást nem arra terveztük, hogy aktívan gyűjtse a gyermekek személyes adatait, például nevét, címét, telefonszámát vagy e-mail címét.</p>"
     },
     {
       "id": "section-10",
       "heading": "10. Biztonság",
-      "html": "<p>Minden tőlünk telhetőt megteszünk az Alkalmazáson keresztül kezelt információkkal kapcsolatos jogosulatlan hozzáférés, szivárgás, módosítás, elvesztés és hasonló események megelőzése érdekében.</p>"
+      "html": "<p>Arra törekszünk, hogy észszerű védelmi intézkedésekkel megelőzzük az Alkalmazáson keresztül kezelt információkhoz való jogosulatlan hozzáférést, azok kiszivárgását, módosítását, elvesztését és a hasonló eseményeket.</p>"
     },
     {
       "id": "section-11",

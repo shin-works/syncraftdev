@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. Uygulama içi içerik",
-      "html": "<ol>\n       <li>Uygulamada bulunan kediler, öğeler, başlıklar ve diğer dijital içerikler, yalnızca uygulama içinde kullanılmak üzere tasarlanmıştır.</li>\n       <li>Bunların gerçek dünyada parasal bir değeri yoktur ve nakit veya başka bir mülkle takas edilemezler.</li>\n       <li>İyileştirmeler, denge ayarlamaları, teknik özellik değişiklikleri veya operasyonel ihtiyaçlar nedeniyle isimleri, içeriği, satın alma koşullarını, kullanım koşullarını, gösterimi ve diğer özellikleri değiştirebiliriz.</li>\n       <li>Güncellemeler sırasında kullanıcı verilerini mümkün olduğunca korumaya çalışıyoruz, ancak her cihazda, işletim sisteminde veya ortamda tam koruma veya geri yükleme garantisi vermiyoruz.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Uygulamada bulunan kediler, öğeler, unvanlar ve diğer dijital içerikler, yalnızca uygulama içinde kullanılmak üzere tasarlanmıştır.</li>\n       <li>Bunların gerçek dünyada parasal bir değeri yoktur ve nakit veya başka bir mülkle takas edilemezler.</li>\n       <li>İyileştirmeler, denge ayarlamaları, teknik özellik değişiklikleri veya operasyonel ihtiyaçlar nedeniyle isimleri, içeriği, satın alma koşullarını, kullanım koşullarını, gösterimi ve diğer özellikleri değiştirebiliriz.</li>\n       <li>Güncellemeler sırasında kullanıcı verilerini mümkün olduğunca korumaya çalışıyoruz, ancak her cihazda, işletim sisteminde veya ortamda tam koruma veya geri yükleme garantisi vermiyoruz.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -58,12 +58,12 @@
     {
       "id": "section-09",
       "heading": "9. Veri depolama",
-      "html": "<p>Ayarlar, zamanlayıcı geçmişi, kategoriler, öğeler, başlıklar ve diğer veriler cihazınızda saklanabilir. Uygulamanın silinmesi, cihaz arızası veya değiştirilmesi, işletim sistemi güncellemeleri, uygulama hataları veya diğer durumlar nedeniyle veriler kaybolabilir. Verileri mümkün olduğunca korumaya çalışıyoruz, ancak tüm verilerin her zaman kaydedilebileceğini veya geri yüklenebileceğini garanti etmiyoruz.</p>"
+      "html": "<p>Ayarlar, zamanlayıcı geçmişi, kediler, öğeler, unvanlar ve diğer veriler cihazınızda saklanabilir. Uygulamanın silinmesi, cihaz arızası veya değiştirilmesi, işletim sistemi güncellemeleri, uygulama hataları veya diğer durumlar nedeniyle veriler kaybolabilir. Verileri mümkün olduğunca korumaya çalışıyoruz, ancak tüm verilerin her zaman kaydedilebileceğini veya geri yüklenebileceğini garanti etmiyoruz.</p>"
     },
     {
       "id": "section-10",
       "heading": "10. Yasal Uyarılar",
-      "html": "<p>Uygulamanın her cihazda ve işletim sistemi ortamında her zaman doğru şekilde çalışacağını veya doğru, eksiksiz, güvenli, belirli bir amaca uygun veya sürekli olarak kullanılabilir olacağını garanti etmiyoruz. Zamanlayıcılar, bildirimler ve diğer özellikler, cihaz ayarları, iOS özellikleri, güç tasarrufu özellikleri, ağ koşulları veya diğer koşullar nedeniyle beklendiği gibi çalışmayabilir. Kasıtlı kötü niyetimiz, ağır ihmalimiz veya kanunen hariç tutulamayan bir sorumluluk durumu dışında, uygulamanın kullanımından veya kullanılamamasından kaynaklanan zararlardan sorumlu değiliz.</p>"
+      "html": "<p>Uygulamanın her cihazda ve işletim sistemi ortamında her zaman doğru şekilde çalışacağını veya doğru, eksiksiz, güvenli, belirli bir amaca uygun veya sürekli olarak kullanılabilir olacağını garanti etmiyoruz. Zamanlayıcılar, bildirimler ve diğer özellikler, cihaz ayarları, iOS özellikleri, güç tasarrufu özellikleri, ağ koşulları veya diğer koşullar nedeniyle beklendiği gibi çalışmayabilir. Kasıtlı hukuka aykırı davranışımız, ağır ihmalimiz veya kanunen hariç tutulamayan bir sorumluluk durumu dışında, uygulamanın kullanımından veya kullanılamamasından kaynaklanan zararlardan sorumlu değiliz.</p>"
     },
     {
       "id": "section-11",

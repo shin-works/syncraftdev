@@ -58,7 +58,7 @@
     {
       "id": "section-09",
       "heading": "9. Emmagatzematge de dades",
-      "html": "<p>La configuració, l'historial del temporitzador, els gats, els elements, els títols i altres dades es poden emmagatzemar al dispositiu. Les dades es poden perdre si s'elimina l'aplicació, si falla o es substitueix el dispositiu, si s'actualitzen el sistema operatiu, si hi ha defectes de l'aplicació o si hi ha altres circumstàncies. Ens esforcem per preservar les dades sempre que sigui raonablement possible, però no garantim que totes les dades es puguin desar o restaurar sempre.</p>"
+      "html": "<p>La configuració, l'historial del temporitzador, els gats, els elements, els títols i altres dades es poden emmagatzemar al dispositiu. Les dades es poden perdre si s'elimina l'aplicació, si falla o es substitueix el dispositiu, si s'actualitza el sistema operatiu, si hi ha defectes de l'aplicació o si hi ha altres circumstàncies. Ens esforcem per preservar les dades sempre que sigui raonablement possible, però no garantim que totes les dades es puguin desar o restaurar sempre.</p>"
     },
     {
       "id": "section-10",

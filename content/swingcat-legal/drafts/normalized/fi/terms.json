@@ -18,7 +18,7 @@
     {
       "id": "section-01",
       "heading": "1. Sovellus",
-      "html": "<ol>\n       <li>Sovellus auttaa käyttäjiä hallitsemaan keskittymistä ja työaikaa ajastimen avulla.</li>\n       <li>Ajastimen käytöstä riippuen sovellus voi tarjota ominaisuuksia, joiden kautta käyttäjät voivat hankkia tai käyttää kissoja, esineitä, nimikkeitä ja muuta sisältöä.</li>\n       <li>Sovellus ei takaa keskittymistä, tuottavuutta, oppimistuloksia, työtuloksia tai mitään muuta tiettyä tulosta.</li>\n       <li>Ominaisuudet voivat vaihdella iOS:n, laitteen ja muiden käyttöolosuhteiden mukaan.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Sovellus auttaa käyttäjiä hallitsemaan keskittymistä ja työaikaa ajastimen avulla.</li>\n       <li>Ajastimen käytöstä riippuen sovellus voi tarjota ominaisuuksia, joiden kautta käyttäjät voivat hankkia tai käyttää kissoja, esineitä, arvonimiä ja muuta sisältöä.</li>\n       <li>Sovellus ei takaa keskittymistä, tuottavuutta, oppimistuloksia, työtuloksia tai mitään muuta tiettyä tulosta.</li>\n       <li>Ominaisuudet voivat vaihdella iOS:n, laitteen ja muiden käyttöolosuhteiden mukaan.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. Sovelluksen sisäinen sisältö",
-      "html": "<ol>\n       <li>Sovelluksessa saatavilla olevat kissat, esineet, nimikkeet ja muu digitaalinen sisältö on tarkoitettu käytettäväksi sovelluksen sisällä.</li>\n       <li>Niillä ei ole todellista rahallista arvoa, eikä niitä voi vaihtaa rahaksi tai muuksi omaisuudeksi.</li>\n       <li>Saatamme muuttaa nimiä, sisältöä, hankintaehtoja, käyttöehtoja, näyttöä ja muita tietoja parannusten, pelitasapainon säätöjen, teknisten määritysten muutosten tai operatiivisten tarpeiden vuoksi.</li>\n       <li>Pyrimme säilyttämään käyttäjätiedot päivitysten aikana aina kun se on kohtuudella mahdollista, mutta emme takaa täydellistä säilymistä tai palauttamista kaikilla laitteilla, käyttöjärjestelmillä tai ympäristöillä.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Sovelluksessa saatavilla olevat kissat, esineet, arvonimet ja muu digitaalinen sisältö on tarkoitettu käytettäväksi sovelluksen sisällä.</li>\n       <li>Niillä ei ole todellista rahallista arvoa, eikä niitä voi vaihtaa rahaksi tai muuksi omaisuudeksi.</li>\n       <li>Saatamme muuttaa nimiä, sisältöä, hankintaehtoja, käyttöehtoja, näyttöä ja muita tietoja parannusten, pelitasapainon säätöjen, teknisten määritysten muutosten tai operatiivisten tarpeiden vuoksi.</li>\n       <li>Pyrimme säilyttämään käyttäjätiedot päivitysten aikana aina kun se on kohtuudella mahdollista, mutta emme takaa täydellistä säilymistä tai palauttamista kaikilla laitteilla, käyttöjärjestelmillä tai ympäristöillä.</li>\n      </ol>"
     },
     {
       "id": "section-05",

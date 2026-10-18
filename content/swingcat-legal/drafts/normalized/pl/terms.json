@@ -18,7 +18,7 @@
     {
       "id": "section-01",
       "heading": "1. Aplikacja",
-      "html": "<ol>\n       <li>Aplikacja pomaga użytkownikom zarządzać koncentracją i czasem pracy za pomocą timera.</li>\n       <li>W zależności od użytego timera, aplikacja może udostępniać funkcje, dzięki którym użytkownicy mogą zdobywać lub wykorzystywać koty, przedmioty, tytuły i inną zawartość.</li>\n       <li>Aplikacja nie gwarantuje koncentracji, produktywności, efektów nauki, efektów pracy ani żadnych innych konkretnych rezultatów.</li>\n       <li>Funkcje mogą się różnić w zależności od systemu iOS, urządzenia i innych warunków użytkowania.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Aplikacja pomaga użytkownikom zarządzać koncentracją i czasem pracy za pomocą timera.</li>\n       <li>W zależności od sposobu korzystania z timera, aplikacja może udostępniać funkcje, dzięki którym użytkownicy mogą zdobywać lub wykorzystywać koty, przedmioty, tytuły i inną zawartość.</li>\n       <li>Aplikacja nie gwarantuje koncentracji, produktywności, efektów nauki, efektów pracy ani żadnych innych konkretnych rezultatów.</li>\n       <li>Funkcje mogą się różnić w zależności od systemu iOS, urządzenia i innych warunków użytkowania.</li>\n      </ol>"
     },
     {
       "id": "section-02",

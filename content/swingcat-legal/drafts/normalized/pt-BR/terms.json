@@ -18,7 +18,7 @@
     {
       "id": "section-01",
       "heading": "1. O aplicativo",
-      "html": "<ol>\n       <li>O aplicativo ajuda os usuários a gerenciar o foco e o tempo de trabalho usando um cronômetro.</li>\n       <li>Dependendo do tempo de uso, o aplicativo pode fornecer recursos por meio dos quais os usuários podem obter ou usar gatos, itens, títulos e outros conteúdos.</li>\n       <li>O aplicativo não garante concentração, produtividade, resultados de aprendizagem, resultados de trabalho ou qualquer outro resultado específico.</li>\n       <li>Os recursos podem variar dependendo do iOS, do dispositivo e de outras condições de uso.</li>\n      </ol>"
+      "html": "<ol>\n       <li>O aplicativo ajuda os usuários a gerenciar o foco e o tempo de trabalho usando um cronômetro.</li>\n       <li>Dependendo do uso do cronômetro, o aplicativo pode fornecer recursos por meio dos quais os usuários podem obter ou usar gatos, itens, títulos e outros conteúdos.</li>\n       <li>O aplicativo não garante concentração, produtividade, resultados de aprendizagem, resultados de trabalho ou qualquer outro resultado específico.</li>\n       <li>Os recursos podem variar dependendo do iOS, do dispositivo e de outras condições de uso.</li>\n      </ol>"
     },
     {
       "id": "section-02",

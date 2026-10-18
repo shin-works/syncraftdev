@@ -17,13 +17,13 @@
     },
     {
       "id": "section-01",
-      "heading": "1. O aplicativo",
-      "html": "<ol>\n       <li>A aplicação ajuda os utilizadores a gerir o foco e o tempo de trabalho usando um cronómetro.</li>\n       <li>Dependendo do tempo de utilização, a aplicação pode fornecer recursos através dos quais os utilizadores podem obter ou utilizar gatos, itens, títulos e outros conteúdos.</li>\n       <li>A aplicação não garante concentração, produtividade, resultados de aprendizagem, resultados de trabalho ou qualquer outro resultado específico.</li>\n       <li>As funcionalidades podem variar consoante o iOS, o dispositivo e outras condições de utilização.</li>\n      </ol>"
+      "heading": "1. A aplicação",
+      "html": "<ol>\n       <li>A aplicação ajuda os utilizadores a gerir o foco e o tempo de trabalho usando um cronómetro.</li>\n       <li>Dependendo da utilização do temporizador, a aplicação pode fornecer recursos através dos quais os utilizadores podem obter ou utilizar gatos, itens, títulos e outros conteúdos.</li>\n       <li>A aplicação não garante concentração, produtividade, resultados de aprendizagem, resultados de trabalho ou qualquer outro resultado específico.</li>\n       <li>As funcionalidades podem variar consoante o iOS, o dispositivo e outras condições de utilização.</li>\n      </ol>"
     },
     {
       "id": "section-02",
       "heading": "2. Condições de utilização e condutas proibidas",
-      "html": "<p>Utiliza o Aplicação por sua conta e risco e não deve: modificar, descompilar, realizar engenharia reversa ou executar atos semelhantes na Aplicação; reproduzir, redistribuir, vender ou utilizar a Aplicação de qualquer outra forma sem autorização; obter recursos pagos, recompensas pela visualização de anúncios ou outros conteúdos por meios indevidos; interferir com o funcionamento normal da Aplicação; violar as leis aplicáveis ou a ordem pública; ou envolver-se em condutas que consideremos razoavelmente inapropriadas. Os menores de idade devem obter o consentimento de um dos pais ou de um responsável legal, quando necessário, antes de adquirirem os serviços pagos.</p>"
+      "html": "<p>Utiliza a Aplicação por sua conta e risco e não deve: modificar, descompilar, realizar engenharia reversa ou executar atos semelhantes na Aplicação; reproduzir, redistribuir, vender ou utilizar a Aplicação de qualquer outra forma sem autorização; obter recursos pagos, recompensas pela visualização de anúncios ou outros conteúdos por meios indevidos; interferir com o funcionamento normal da Aplicação; violar as leis aplicáveis ou a ordem pública; ou envolver-se em condutas que consideremos razoavelmente inapropriadas. Os menores de idade devem obter o consentimento de um dos pais ou de um responsável legal, quando necessário, antes de adquirirem os serviços pagos.</p>"
     },
     {
       "id": "section-03",
@@ -63,7 +63,7 @@
     {
       "id": "section-10",
       "heading": "10.º Isenções de responsabilidade",
-      "html": "<p>Não garantimos que a Aplicação funcione sempre corretamente em todos os dispositivos e sistemas operativos, ou que será preciso, completo, seguro, adequado a um fim específico ou disponível continuamente. Os temporizadores, notificações e outras funcionalidades podem não funcionar como esperado devido às definições do dispositivo, especificações do iOS, características de poupança de energia, condições da rede ou outras circunstâncias. Exceto em casos de dolo, negligência grave ou responsabilidade que não possa ser excluída por lei, não nos responsabilizamos por danos decorrentes da utilização ou da impossibilidade de utilização da Aplicação.</p>"
+      "html": "<p>Não garantimos que a Aplicação funcione sempre corretamente em todos os dispositivos e sistemas operativos, ou que seja exata, completa, segura, adequada a um fim específico ou esteja continuamente disponível. Os temporizadores, notificações e outras funcionalidades podem não funcionar como esperado devido às definições do dispositivo, especificações do iOS, características de poupança de energia, condições da rede ou outras circunstâncias. Exceto em casos de dolo, negligência grave ou responsabilidade que não possa ser excluída por lei, não nos responsabilizamos por danos decorrentes da utilização ou da impossibilidade de utilização da Aplicação.</p>"
     },
     {
       "id": "section-11",
@@ -72,7 +72,7 @@
     },
     {
       "id": "section-12",
-      "heading": "12.As alterações a estes Termos",
+      "heading": "12. Alterações a estes Termos",
       "html": "<p>Poderemos alterar estes Termos conforme necessário devido a alterações na legislação, alterações na Aplicação ou outros motivos. Os Termos revistos entram em vigor quando publicados na Aplicação ou no nosso website. Notificaremos sobre alterações substanciais quando apropriado.</p>"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "id": "section-14",
-      "heading": "14.º Contato",
+      "heading": "14. Contacto",
       "html": "<div class=\"contact\">\n       <p>Programador e operador: SynCraft</p>\n       <p>Contacto: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
     }
   ],

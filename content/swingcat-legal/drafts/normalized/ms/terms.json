@@ -38,7 +38,7 @@
     {
       "id": "section-05",
       "heading": "5. Pengiklanan dan ganjaran",
-      "html": "<p>Aplikasi ini mungkin memaparkan iklan melalui perkhidmatan seperti Google AdMob dan mungkin menawarkan iklan ganjaran yang menyediakan item atau faedah dalam aplikasi lain. Syarat untuk ganjaran adalah yang dipaparkan dalam Aplikasi. Kandungan iklan, pembentangan, kekerapan dan faedah mungkin berubah mengikut keperluan. Pengiklan dan penyedia iklan bertanggungjawab terhadap kandungan iklan; kami tidak menjamin produk atau perkhidmatan yang diiklankan.</p>"
+      "html": "<p>Aplikasi ini mungkin memaparkan iklan melalui perkhidmatan seperti Google AdMob dan mungkin menawarkan iklan ganjaran yang menyediakan item atau faedah lain dalam aplikasi. Syarat untuk ganjaran adalah yang dipaparkan dalam Aplikasi. Kandungan iklan, pembentangan, kekerapan dan faedah mungkin berubah mengikut keperluan. Pengiklan dan penyedia iklan bertanggungjawab terhadap kandungan iklan; kami tidak menjamin produk atau perkhidmatan yang diiklankan.</p>"
     },
     {
       "id": "section-06",
@@ -83,7 +83,7 @@
     {
       "id": "section-14",
       "heading": "14. Hubungi",
-      "html": "<div class=\"contact\">\n       <p>Pembangun dan pengendali: SynCraft</p>\n       <p>Hubungi: <a href=\"mailto:hello@syncraft.dev\">hello@synccraft.dev</a></p>\n      </div>"
+      "html": "<div class=\"contact\">\n       <p>Pembangun dan pengendali: SynCraft</p>\n       <p>Hubungi: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
     }
   ],
   "translation": {
