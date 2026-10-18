@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "kind": "terms",
+  "title": "Terms of Use",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Effective date: August 28, 2026<br>Last updated: September 8, 2026",
+  "status": "source-reviewed",
+  "sourceLocale": "en",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>These Terms of Use (\"Terms\") set forth the terms and conditions for using SwingCat (the \"App\"), an iOS application provided by SynCraft (\"we,\" \"us,\" or \"our\").</p>\n<p>In addition to these Terms, your use of the App is subject to Apple's Standard End User License Agreement (EULA).</p>\n<p>Apple Standard End User License Agreement:<br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n<p>Please review these Terms and the Apple Standard End User License Agreement before using the App.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. The App",
+      "html": "<ol><li>The App helps users manage focus and work time using a timer.</li><li>Depending on timer use, the App may provide features through which users can obtain or use cats, items, titles, and other content.</li><li>The App does not guarantee concentration, productivity, learning outcomes, work outcomes, or any other specific result.</li><li>Features may differ depending on iOS, the device, and other conditions of use.</li></ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Conditions of use and prohibited conduct",
+      "html": "<p>You use the App at your own risk and must not: modify, decompile, reverse engineer, or perform similar acts on the App; reproduce, redistribute, sell, or otherwise use the App without authorization; obtain paid features, ad-viewing rewards, or other content through improper means; interfere with normal App operation; violate applicable laws or public policy; or engage in conduct we reasonably consider inappropriate. Minors should obtain consent from a parent or legal guardian where required before purchasing paid services.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Intellectual property",
+      "html": "<p>Copyrights and other intellectual-property rights in names, logos, characters, cat designs, illustrations, animations, images, text, audio, programs, and other content in the App belong to us or to third parties with legitimate rights. Except as permitted by law, you may not use, reproduce, publish, modify, redistribute, or sell them without permission. Content generated through a sharing feature provided by the App may be posted to social media and other services for ordinary sharing purposes contemplated by the App.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. In-app content",
+      "html": "<ol><li>Cats, items, titles, and other digital content available in the App are intended for use within the App.</li><li>They have no real-world monetary value and cannot be exchanged for cash or other property.</li><li>We may change names, content, acquisition conditions, use conditions, display, and other specifications for improvements, balance adjustments, specification changes, or operational needs.</li><li>We endeavor to preserve user data where reasonably possible during updates, but do not guarantee complete preservation or restoration on every device, OS, or environment.</li></ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Advertising and rewards",
+      "html": "<p>The App may display ads through services such as Google AdMob and may offer rewarded ads that provide items or other in-app benefits. The conditions for rewards are those displayed in the App. Ad content, presentation, frequency, and benefits may change as needed. Advertisers and ad providers are responsible for ad content; we do not guarantee advertised products or services.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Paid services and purchases",
+      "html": "<p>In addition to free features, the App may offer paid features or content, including monthly subscriptions, annual subscriptions, and one-time purchase plans. Products, prices, periods, and available features shown in the App and App Store at the time of purchase apply. Purchases and payments are made through Apple's App Store; we do not directly collect or store payment-card information.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Subscriptions",
+      "html": "<p>Subscription fees are charged to your Apple Account. A subscription automatically renews for each applicable period unless you turn off auto-renewal in App Store settings. After auto-renewal is turned off, the relevant features generally remain available through the end of the current paid term. Apple and App Store terms, conditions, and policies govern subscription management, cancellation of automatic renewal, refunds, and other payment matters.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. One-time purchase plans",
+      "html": "<p>A one-time purchase plan provides the right to use the relevant paid features without recurring subscription payments. It does not guarantee perpetual provision of the App, every feature, third-party integrations, or compatibility with all future iOS versions or devices. Restoration of purchase information and related matters are subject to Apple and App Store systems and policies.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Data storage",
+      "html": "<p>Settings, timer history, cats, items, titles, and other data may be stored on your device. Data may be lost through deletion of the App, device failure or replacement, OS updates, App defects, or other circumstances. We endeavor to preserve data where reasonably possible but do not guarantee that all data can always be saved or restored.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Disclaimers",
+      "html": "<p>We do not guarantee that the App will always operate correctly on every device and OS environment, or that it will be accurate, complete, secure, suitable for a particular purpose, or continuously available. Timers, notifications, and other features may not operate as expected because of device settings, iOS specifications, power-saving features, network conditions, or other circumstances. Except in cases of our intentional misconduct, gross negligence, or liability that cannot be excluded by law, we are not liable for damages arising from use of, or inability to use, the App.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Changes or discontinuation",
+      "html": "<p>We may add, change, review, reduce, suspend, or end features or all or part of the App as needed, taking account of development and operational circumstances, supported devices, iOS specifications, third-party services, and other factors. We will provide notice of material changes or discontinuation where reasonably possible.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Changes to these Terms",
+      "html": "<p>We may change these Terms as needed because of legal changes, App changes, or other reasons. Revised Terms take effect when posted in the App or on our website. We will provide notice of material changes where appropriate.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Governing law",
+      "html": "<p>These Terms are governed by and interpreted in accordance with the laws of Japan. Disputes related to the App or these Terms will be resolved in accordance with Japanese law.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Contact",
+      "html": "<div class=\"contact\"><p>Developer and operator: SynCraft</p><p>Contact: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p></div>"
+    }
+  ]
+}

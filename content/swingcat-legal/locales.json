@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 1,
+  "appId": "6800948890",
+  "revision": "2026-10-18",
+  "fallback": "en",
+  "notes": [
+    "Existing routes do not imply translated bodies.",
+    "Only source-ready or translation-reviewed documents can be rendered as localized pages.",
+    "Spanish ES/MX share a generic translation; country-specific legal questions are tracked separately."
+  ],
+  "locales": [
+    {
+      "appLocale": "en",
+      "name": "English",
+      "storeLocales": [
+        "en-US",
+        "en-AU",
+        "en-CA",
+        "en-GB"
+      ],
+      "webLocale": "en",
+      "path": "/swingcat/en/",
+      "direction": "ltr",
+      "state": "source-ready",
+      "legacyEnglishBodyRoute": false,
+      "published": true
+    },
+    {
+      "appLocale": "ja",
+      "name": "日本語",
+      "storeLocales": [
+        "ja"
+      ],
+      "webLocale": "ja",
+      "path": "/swingcat/",
+      "direction": "ltr",
+      "state": "source-ready",
+      "legacyEnglishBodyRoute": false,
+      "published": true
+    },
+    {
+      "appLocale": "it",
+      "name": "Italiano",
+      "storeLocales": [
+        "it"
+      ],
+      "webLocale": "it",
+      "path": "/swingcat/it/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": true,
+      "published": false
+    },
+    {
+      "appLocale": "nl",
+      "name": "Nederlands",
+      "storeLocales": [
+        "nl-NL"
+      ],
+      "webLocale": "nl",
+      "path": "/swingcat/nl/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "ca",
+      "name": "Català",
+      "storeLocales": [
+        "ca"
+      ],
+      "webLocale": "ca",
+      "path": "/swingcat/ca/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "de",
+      "name": "Deutsch",
+      "storeLocales": [
+        "de-DE"
+      ],
+      "webLocale": "de",
+      "path": "/swingcat/de/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": true,
+      "published": false
+    },
+    {
+      "appLocale": "fr",
+      "name": "Français",
+      "storeLocales": [
+        "fr-FR",
+        "fr-CA"
+      ],
+      "webLocale": "fr",
+      "path": "/swingcat/fr/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": true,
+      "published": false
+    },
+    {
+      "appLocale": "es-ES",
+      "name": "Español (España)",
+      "storeLocales": [
+        "es-ES"
+      ],
+      "webLocale": "es",
+      "path": "/swingcat/es/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": true,
+      "published": false
+    },
+    {
+      "appLocale": "es-MX",
+      "name": "Español (México)",
+      "storeLocales": [
+        "es-MX"
+      ],
+      "webLocale": "es",
+      "path": "/swingcat/es/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": true,
+      "published": false
+    },
+    {
+      "appLocale": "pt-BR",
+      "name": "Português (Brasil)",
+      "storeLocales": [
+        "pt-BR"
+      ],
+      "webLocale": "pt-BR",
+      "path": "/swingcat/pt-BR/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": true,
+      "published": false
+    },
+    {
+      "appLocale": "pt-PT",
+      "name": "Português (Portugal)",
+      "storeLocales": [
+        "pt-PT"
+      ],
+      "webLocale": "pt-PT",
+      "path": "/swingcat/pt-PT/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "sv",
+      "name": "Svenska",
+      "storeLocales": [
+        "sv"
+      ],
+      "webLocale": "sv",
+      "path": "/swingcat/sv/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "da",
+      "name": "Dansk",
+      "storeLocales": [
+        "da"
+      ],
+      "webLocale": "da",
+      "path": "/swingcat/da/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "nb",
+      "name": "Norsk bokmål",
+      "storeLocales": [
+        "no"
+      ],
+      "webLocale": "nb",
+      "path": "/swingcat/nb/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "fi",
+      "name": "Suomi",
+      "storeLocales": [
+        "fi"
+      ],
+      "webLocale": "fi",
+      "path": "/swingcat/fi/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "uk",
+      "name": "Українська",
+      "storeLocales": [
+        "uk"
+      ],
+      "webLocale": "uk",
+      "path": "/swingcat/uk/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "hr",
+      "name": "Hrvatski",
+      "storeLocales": [
+        "hr"
+      ],
+      "webLocale": "hr",
+      "path": "/swingcat/hr/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "cs",
+      "name": "Čeština",
+      "storeLocales": [
+        "cs"
+      ],
+      "webLocale": "cs",
+      "path": "/swingcat/cs/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "sk",
+      "name": "Slovenčina",
+      "storeLocales": [
+        "sk"
+      ],
+      "webLocale": "sk",
+      "path": "/swingcat/sk/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "sl",
+      "name": "Slovenščina",
+      "storeLocales": [
+        "sl-SI"
+      ],
+      "webLocale": "sl",
+      "path": "/swingcat/sl/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "hu",
+      "name": "Magyar",
+      "storeLocales": [
+        "hu"
+      ],
+      "webLocale": "hu",
+      "path": "/swingcat/hu/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "pl",
+      "name": "Polski",
+      "storeLocales": [
+        "pl"
+      ],
+      "webLocale": "pl",
+      "path": "/swingcat/pl/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "ro",
+      "name": "Română",
+      "storeLocales": [
+        "ro"
+      ],
+      "webLocale": "ro",
+      "path": "/swingcat/ro/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "el",
+      "name": "Ελληνικά",
+      "storeLocales": [
+        "el"
+      ],
+      "webLocale": "el",
+      "path": "/swingcat/el/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "ru",
+      "name": "Русский",
+      "storeLocales": [
+        "ru"
+      ],
+      "webLocale": "ru",
+      "path": "/swingcat/ru/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "tr",
+      "name": "Türkçe",
+      "storeLocales": [
+        "tr"
+      ],
+      "webLocale": "tr",
+      "path": "/swingcat/tr/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "id",
+      "name": "Bahasa Indonesia",
+      "storeLocales": [
+        "id"
+      ],
+      "webLocale": "id",
+      "path": "/swingcat/id/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "ms",
+      "name": "Bahasa Melayu",
+      "storeLocales": [
+        "ms"
+      ],
+      "webLocale": "ms",
+      "path": "/swingcat/ms/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "vi",
+      "name": "Tiếng Việt",
+      "storeLocales": [
+        "vi"
+      ],
+      "webLocale": "vi",
+      "path": "/swingcat/vi/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "ko",
+      "name": "한국어",
+      "storeLocales": [
+        "ko"
+      ],
+      "webLocale": "ko",
+      "path": "/swingcat/ko/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": true,
+      "published": false
+    },
+    {
+      "appLocale": "zh-Hans",
+      "name": "简体中文",
+      "storeLocales": [
+        "zh-Hans"
+      ],
+      "webLocale": "zh-Hans",
+      "path": "/swingcat/zh-Hans/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": true,
+      "published": false
+    },
+    {
+      "appLocale": "zh-Hant",
+      "name": "繁體中文",
+      "storeLocales": [
+        "zh-Hant"
+      ],
+      "webLocale": "zh-Hant-TW",
+      "path": "/swingcat/zh-Hant-TW/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": true,
+      "published": false
+    },
+    {
+      "appLocale": "th",
+      "name": "ไทย",
+      "storeLocales": [
+        "th"
+      ],
+      "webLocale": "th",
+      "path": "/swingcat/th/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "ar",
+      "name": "العربية",
+      "storeLocales": [
+        "ar-SA"
+      ],
+      "webLocale": "ar",
+      "path": "/swingcat/ar/",
+      "direction": "rtl",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "he",
+      "name": "עברית",
+      "storeLocales": [
+        "he"
+      ],
+      "webLocale": "he",
+      "path": "/swingcat/he/",
+      "direction": "rtl",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "ur",
+      "name": "اردو",
+      "storeLocales": [
+        "ur-PK"
+      ],
+      "webLocale": "ur",
+      "path": "/swingcat/ur/",
+      "direction": "rtl",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "hi",
+      "name": "हिन्दी",
+      "storeLocales": [
+        "hi"
+      ],
+      "webLocale": "hi",
+      "path": "/swingcat/hi/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "bn",
+      "name": "বাংলা",
+      "storeLocales": [
+        "bn-BD"
+      ],
+      "webLocale": "bn",
+      "path": "/swingcat/bn/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "gu",
+      "name": "ગુજરાતી",
+      "storeLocales": [
+        "gu-IN"
+      ],
+      "webLocale": "gu",
+      "path": "/swingcat/gu/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "kn",
+      "name": "ಕನ್ನಡ",
+      "storeLocales": [
+        "kn-IN"
+      ],
+      "webLocale": "kn",
+      "path": "/swingcat/kn/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "ml",
+      "name": "മലയാളം",
+      "storeLocales": [
+        "ml-IN"
+      ],
+      "webLocale": "ml",
+      "path": "/swingcat/ml/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "mr",
+      "name": "मराठी",
+      "storeLocales": [
+        "mr-IN"
+      ],
+      "webLocale": "mr",
+      "path": "/swingcat/mr/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "or",
+      "name": "ଓଡ଼ିଆ",
+      "storeLocales": [
+        "or-IN"
+      ],
+      "webLocale": "or",
+      "path": "/swingcat/or/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "pa",
+      "name": "ਪੰਜਾਬੀ",
+      "storeLocales": [
+        "pa-IN"
+      ],
+      "webLocale": "pa",
+      "path": "/swingcat/pa/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "ta",
+      "name": "தமிழ்",
+      "storeLocales": [
+        "ta-IN"
+      ],
+      "webLocale": "ta",
+      "path": "/swingcat/ta/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    },
+    {
+      "appLocale": "te",
+      "name": "తెలుగు",
+      "storeLocales": [
+        "te-IN"
+      ],
+      "webLocale": "te",
+      "path": "/swingcat/te/",
+      "direction": "ltr",
+      "state": "translation-required",
+      "legacyEnglishBodyRoute": false,
+      "published": false
+    }
+  ]
+}
