@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "da",
+  "kind": "privacy",
+  "title": "Privatlivspolitik",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Ikrafttrædelsesdato: 28. august 2026 <br>\n     Sidst opdateret: 18. oktober 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Denne privatlivspolitik forklarer, hvordan SynCraft (\"vi\", \"os\" eller \"vores\") håndterer brugeroplysninger i iOS-applikationen SwingCat (\"Appen\").</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Oplysninger vi indsamler og opbevarer",
+      "html": "<p>Appen kræver generelt ikke, at brugerne direkte indtaster et navn, en adresse, et telefonnummer eller en e-mailadresse for at registrere sig.</p>\n      <p>Afhængigt af brugen af ​​appen kan følgende oplysninger blive gemt på din enhed: timerindstillinger; fokustid og timerhistorik; opgaver indtastet af dig; katte, genstande, titler og andet indhold i appen og deres brug; appindstillinger; valgfri profiloplysninger såsom et navn; og status for betalte funktioner.</p>\n      <p>Vi kan også indsamle eller behandle oplysninger via tredjepartstjenester med henblik på brugsanalyse, kvalitetsforbedringer, diagnosticering og annoncering. Dette kan omfatte enhedstype, operativsystem, sprogindstillinger, appversion, start- og brugshændelser, nedbruds- og ydeevnedata, IP-adresse og andre netværksoplysninger, annonceringsinteraktioner og enheds- eller annonceringsidentifikatorer. De oplysninger, der faktisk behandles, kan variere afhængigt af din iOS-version, enhedsindstillinger, privatlivsvalg, samtykkestatus og specifikationer for tredjepartstjenester.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Sådan bruger vi oplysninger",
+      "html": "<ol>\n       <li>At levere appen og dens funktioner.</li>\n       <li>At forstå og analysere app-brug.</li>\n       <li>For at forbedre funktioner, brugervenlighed og brugeroplevelsen.</li>\n       <li>At undersøge og rette fejl, nedbrud og andre problemer.</li>\n       <li>At vise reklamer og levere reklamerelaterede funktioner.</li>\n       <li>At levere belønninger i appen i forbindelse med annoncering.</li>\n       <li>For at forhindre misbrug.</li>\n       <li>For at levere betalte funktioner og bekræfte købsstatus.</li>\n       <li>At besvare henvendelser.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>Vi kan bruge tjenester leveret af Google LLC, herunder Firebase Analytics, til at forstå appbrug og forbedre funktioner, og Firebase Crashlytics til at identificere nedbrud og forbedre stabiliteten. Disse tjenester kan indsamle eller behandle brugsoplysninger, enheds- og operativsystemoplysninger, nedbrudslogfiler, appens tilstand og andre diagnostiske oplysninger.</p>\n      <p>Googles privatlivspolitik og andre gældende vilkår gælder for oplysninger, der håndteres af Firebase. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googles privatlivspolitik </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase privatliv og sikkerhed</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>Vi kan bruge Google AdMob til at vise annoncer. Appen kan tilbyde belønnede annoncer, hvorigennem brugerne kan modtage varer eller andre fordele i appen. AdMob og Google Mobile Ads SDK kan indsamle eller behandle IP-adresser, enhedsoplysninger, enheds- eller annonce-id'er, annoncevisninger og -interaktioner, interaktioner i appen og oplysninger om nedbrud eller ydeevne med henblik på annoncelevering, måling, forebyggelse af svindel og forbedring af tjenester.</p>\n      <p>Tilgængeligheden af ​​annonce-id'er kan afhænge af enhedsindstillinger, Apples privatlivsfunktioner og brugerens samtykke. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googles privatlivspolitik </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Sådan bruger Google data fra partnerwebsteder eller -apps</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Køb i appen",
+      "html": "<p>Vi kan tilbyde abonnementer og engangskøb via App Store. Apple behandler betalinger, og vi indsamler eller gemmer ikke direkte kreditkortnumre eller andre betalingsoplysninger. For at levere betalte funktioner kan appen tilgå eller verificere oplysninger om købte produkter og abonnementsstatus. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apples privatlivspolitik</a></p>\n      <p>Vi bruger RevenueCat, Inc. til at verificere køb, administrere adgang til abonnementer og betalte funktioner, gendanne køb og forstå købs- og abonnementsaktivitet. RevenueCat behandler et app-bruger-ID genereret af dets SDK, købte produkt-id'er, oplysninger om transaktioner og købshistorik, abonnementsstatus og udløbsdatoer samt tekniske oplysninger såsom enhedens operativsystem og app-version.</p>\n      <p>Vi bruger RevenueCats automatisk genererede anonyme app-bruger-ID i stedet for at angive et navn eller en e-mailadresse som din købsidentifikator. Vi sender ikke dit profilnavn eller din e-mailadresse i appen til RevenueCat som kundeattributter. Brugen af ​​et anonymt ID betyder ikke, at der ikke behandles oplysninger, eller at købsregistreringer slettes, når du afinstallerer appen.</p>\n      <p>For yderligere information, se <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat's privatlivspolitik</a> og <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCats oplysninger om købsdata</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Deling med tredjeparter",
+      "html": "<p>Vi sælger ikke oplysninger om brugere. Oplysninger kan sendes til eller behandles af Firebase, Google AdMob, Apple, RevenueCat og andre tjenester, som er nødvendige for at levere appen. Vi kan også videregive oplysninger, hvor du giver samtykke, hvor videregivelse er påkrævet ved lov, hvor det er nødvendigt for at beskytte liv, krop eller ejendom, eller som ellers tilladt ved lov.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Dataopbevaring og -sletning",
+      "html": "<p>Timerhistorik, katte, elementer, titler, indstillinger og andre appdata kan blive gemt på din enhed. Data, der kun er gemt på en enhed, kan gå tabt, hvis appen slettes, enheden nulstilles, enheden fejler eller af andre årsager. Data, der behandles af tredjepartstjenester, administreres i henhold til deres respektive opbevaringsperioder og politikker.</p>\n      <p>Afinstallation af appen sletter ikke i sig selv købsregistre eller andre oplysninger, der opbevares af tredjepartstjenester. Hvis du har spørgsmål eller anmodninger om adgang til eller sletning af dine oplysninger, kan du kontakte os på <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Vi håndterer anmodninger i overensstemmelse med gældende lov; nogle registreringer skal muligvis opbevares for at opfylde juridiske forpligtelser eller verificere køb.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Reklame og privatlivsvalg",
+      "html": "<p>Måden, hvorpå annoncer leveres, kan variere afhængigt af region, enhedsindstillinger, Apples privatlivsfunktioner, samtykkestatus og andre betingelser. Hvor det er nødvendigt, kan vi vise en skærm, der anmoder om samtykke eller et valg vedrørende annoncer eller anden databrug. Du kan administrere brugen af ​​​​annonce-id'er og andre oplysninger i det omfang, det er muligt via iOS' privatlivsindstillinger.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Børn",
+      "html": "<p>Mindreårige skal bruge appen med samtykke fra en forælder eller værge, hvor det er nødvendigt. Appen er ikke designet til aktivt at indsamle personlige oplysninger såsom et barns navn, adresse, telefonnummer eller e-mailadresse.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Sikkerhed",
+      "html": "<p>Vi bestræber os på at træffe rimelige sikkerhedsforanstaltninger for at forhindre uautoriseret adgang, lækage, ændring, tab og lignende hændelser, der involverer oplysninger, der håndteres via appen.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Ændringer af denne politik",
+      "html": "<p>Vi kan ændre denne politik efter behov på grund af juridiske ændringer, ændringer i appens funktioner, ændringer i tredjepartstjenester eller andre årsager. Den reviderede politik træder i kraft, når den offentliggøres i appen eller på vores hjemmeside. Vi vil give besked om væsentlige ændringer, hvor det er relevant.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Kontakt",
+      "html": "<div class=\"contact\">\n       <p>For spørgsmål om denne politik eller informationshåndtering i appen:</p>\n       <p>Udvikler og operatør: SynCraft</p>\n       <p>Kontakt: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "da",
+    "capturedAt": "2026-10-18T07:37:38.203Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "4d3d331b1c185f2477058f5396d00f1ced00856c51027c33e9459b8168cc9e2a",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Brugsbetingelser",
+      "SwingCat",
+      "Kontakte"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Vælg sprog"
+  }
+}

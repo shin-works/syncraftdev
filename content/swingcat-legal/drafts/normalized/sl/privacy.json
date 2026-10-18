@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "sl",
+  "kind": "privacy",
+  "title": "Pravilnik o zasebnosti",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Datum začetka veljavnosti: 28. avgust 2026 <br>\n     Zadnja posodobitev: 18. oktober 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Ta politika zasebnosti pojasnjuje, kako SynCraft (»mi«, »nas« ali »naš«) obravnava uporabniške podatke v aplikaciji iOS SwingCat (»aplikacija«).</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Podatki, ki jih zbiramo in shranjujemo",
+      "html": "<p>Aplikacija običajno ne zahteva, da uporabniki za registracijo neposredno vnesejo ime, naslov, telefonsko številko ali e-poštni naslov.</p>\n      <p>Glede na uporabo aplikacije se lahko v vaši napravi shranijo naslednji podatki: nastavitve časovnika; čas fokusa in zgodovina časovnika; opravila, ki ste jih vnesli; mačke, predmeti, naslovi in ​​druga vsebina v aplikaciji ter njihova uporaba; nastavitve aplikacije; izbirni podatki o profilu, kot je ime; in stanje plačljivih funkcij.</p>\n      <p>Podatke lahko zbiramo ali obdelujemo tudi prek storitev tretjih oseb za analizo uporabe, izboljšave kakovosti, diagnostiko in oglaševanje. To lahko vključuje vrsto naprave, operacijski sistem, jezikovne nastavitve, različico aplikacije, dogodke zagona in uporabe funkcij, podatke o zrušitvah in delovanju, naslov IP in druge omrežne podatke, oglaševalske interakcije ter identifikatorje naprave ali oglaševanja. Dejansko obdelani podatki se lahko razlikujejo glede na vašo različico sistema iOS, nastavitve naprave, možnosti zasebnosti, stanje soglasja in specifikacije storitev tretjih oseb.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Kako uporabljamo informacije",
+      "html": "<ol>\n       <li>Za zagotavljanje aplikacije in njenih funkcij.</li>\n       <li>Za razumevanje in analizo uporabe aplikacije.</li>\n       <li>Za izboljšanje funkcij, uporabnosti in uporabniške izkušnje.</li>\n       <li>Za raziskovanje in odpravljanje napak, zrušitev in drugih težav.</li>\n       <li>Za prikazovanje oglasov in zagotavljanje funkcij, povezanih z oglaševanjem.</li>\n       <li>Za zagotavljanje nagrad v aplikaciji, povezanih z oglaševanjem.</li>\n       <li>Da bi preprečili zlorabo.</li>\n       <li>Za zagotavljanje plačljivih funkcij in potrditev stanja nakupa.</li>\n       <li>Za odgovor na poizvedbe.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Ognjena baza",
+      "html": "<p>Za razumevanje uporabe aplikacij in izboljšanje funkcij lahko uporabljamo storitve, ki jih ponuja Google LLC, vključno s storitvijo Firebase Analytics, ter storitvijo Firebase Crashlytics za prepoznavanje zrušitev in izboljšanje stabilnosti. Te storitve lahko zbirajo ali obdelujejo podatke o uporabi, podatke o napravi in ​​operacijskem sistemu, dnevnike zrušitev, stanje aplikacije in druge diagnostične podatke.</p>\n      <p>Za podatke, ki jih obdeluje Firebase, velja Googlov pravilnik o zasebnosti in drugi veljavni pogoji. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlov pravilnik o zasebnosti </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Zasebnost in varnost Firebase</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>Za prikazovanje oglasov lahko uporabljamo Google AdMob. Aplikacija lahko ponuja nagrajene oglase, prek katerih lahko uporabniki prejmejo izdelke ali druge ugodnosti v aplikaciji. AdMob in komplet za razvoj programske opreme za mobilne oglase Google lahko zbirata ali obdelujeta naslove IP, podatke o napravah, identifikatorje naprav ali oglasov, prikaze in interakcije oglasov, interakcije v aplikaciji ter podatke o zrušitvah ali učinkovitosti delovanja za namene prikazovanja oglasov, merjenja, preprečevanja goljufij in izboljšanja storitev.</p>\n      <p>Razpoložljivost oglaševalskih identifikatorjev je lahko odvisna od nastavitev naprave, funkcij zasebnosti Apple in soglasja uporabnika. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlov pravilnik o zasebnosti </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Kako Google uporablja podatke s partnerskih spletnih mest ali aplikacij</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Nakupi v aplikaciji",
+      "html": "<p>V trgovini App Store lahko ponujamo naročnine in pakete za enkratni nakup. Apple obdeluje plačila in neposredno ne zbiramo ali shranjujemo številk kreditnih kartic ali drugih podatkov o plačilu. Za zagotavljanje plačljivih funkcij lahko aplikacija dostopa do podatkov o kupljenih izdelkih in stanju naročnine ali jih preverja. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Pravilnik o zasebnosti družbe Apple</a></p>\n      <p>Za preverjanje nakupov, upravljanje dostopa do naročnin in plačljivih funkcij, obnavljanje nakupov ter razumevanje dejavnosti nakupov in naročnin uporabljamo RevenueCat, Inc. RevenueCat obdeluje ID uporabnika aplikacije, ki ga ustvari njegov SDK, identifikatorje kupljenih izdelkov, podatke o zgodovini transakcij in nakupov, stanje in datume poteka naročnine ter tehnične podatke, kot sta operacijski sistem naprave in različica aplikacije.</p>\n      <p>Namesto imena ali e-poštnega naslova kot identifikatorja nakupa uporabljamo samodejno ustvarjen anonimni uporabniški ID aplikacije RevenueCat. Vašega imena profila v aplikaciji ali e-poštnega naslova ne pošiljamo RevenueCatu kot atributov stranke. Tudi pri uporabi anonimnega ID-ja se lahko obdelujejo podatki. Odstranitev aplikacije sama po sebi ne pomeni izbrisa zapisov o nakupih.</p>\n      <p>Za več informacij glejte <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">pravilnik o zasebnosti RevenueCat</a> in <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informacije RevenueCat o podatkih o nakupih</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Deljenje s tretjimi osebami",
+      "html": "<p>Ne prodajamo informacij o uporabnikih. Informacije se lahko pošljejo ali obdelujejo storitvam Firebase, Google AdMob, Apple, RevenueCat in drugim, če je to potrebno za zagotavljanje aplikacije. Informacije lahko razkrijemo tudi, če s tem soglašate, če je razkritje potrebno po zakonu, če je to potrebno za zaščito življenja, telesa ali premoženja ali če to drugače dovoljuje zakon.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Hramba in izbris podatkov",
+      "html": "<p>Zgodovina časovnika, mačke, predmeti, naslovi, nastavitve in drugi podatki aplikacije so lahko shranjeni v vaši napravi. Podatki, shranjeni samo v napravi, se lahko izgubijo, če aplikacijo izbrišete, napravo ponastavite, če naprava odpove ali iz drugih razlogov. Podatki, ki jih obdelujejo storitve tretjih oseb, se upravljajo v skladu z njihovimi ustreznimi obdobji hrambe in pravilniki.</p>\n      <p>Odstranitev aplikacije sama po sebi ne izbriše zapisov o nakupih ali drugih podatkov, ki jih hranijo storitve tretjih oseb. Za vprašanja ali zahteve glede dostopa do vaših podatkov ali njihovega izbrisa nas kontaktirajte na <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Zahteve bomo obravnavali v skladu z veljavno zakonodajo; nekatere zapise bo morda treba hraniti za izpolnjevanje zakonskih obveznosti ali preverjanje nakupov.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Izbire oglaševanja in zasebnosti",
+      "html": "<p>Način prikazovanja oglasov se lahko razlikuje glede na regijo, nastavitve naprave, funkcije zasebnosti Apple, stanje soglasja in druge pogoje. Po potrebi lahko prikažemo zaslon z zahtevo po soglasju ali izbiri glede oglasov ali druge uporabe podatkov. Uporabo oglaševalskih identifikatorjev in drugih informacij lahko upravljate v obsegu, ki je na voljo v nastavitvah zasebnosti sistema iOS.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Otroci",
+      "html": "<p>Mladoletniki naj aplikacijo uporabljajo s soglasjem staršev ali zakonitega skrbnika, kjer je to potrebno. Aplikacija ni zasnovana za aktivno zbiranje osebnih podatkov, kot so otrokovo ime, naslov, telefonska številka ali e-poštni naslov.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Varnost",
+      "html": "<p>Prizadevamo si za razumne zaščitne ukrepe za preprečevanje nepooblaščenega dostopa, uhajanja, spreminjanja, izgube in podobnih dogodkov, povezanih s podatki, ki se obdelujejo prek aplikacije.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Spremembe te politike",
+      "html": "<p>To politiko lahko po potrebi spremenimo zaradi pravnih sprememb, sprememb funkcij aplikacije, sprememb storitev tretjih oseb ali drugih razlogov. Revidirana politika začne veljati, ko je objavljena v aplikaciji ali na naši spletni strani. O bistvenih spremembah vas bomo po potrebi obvestili.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Kontakt",
+      "html": "<div class=\"contact\">\n       <p>Za vprašanja o tej politiki ali ravnanju s podatki v aplikaciji:</p>\n       <p>Razvijalec in upravljavec: SynCraft</p>\n       <p>Kontakt: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "sl",
+    "capturedAt": "2026-10-18T07:44:39.879Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "32a055c722f8c0aed5d2524c531a6bd1b2f9b567dd143af01cb5bb5460485c8f",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Pogoji uporabe",
+      "SwingCat",
+      "Kontakt"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Izberite jezik"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "locale": "es",
+  "kind": "terms",
+  "title": "Condiciones de uso",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Fecha de entrada en vigor: 28 de agosto de 2026. <br>\n     Última actualización: 8 de septiembre de 2026.",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Estas Condiciones de uso (\"Condiciones\") establecen los términos y condiciones para el uso de SwingCat (\"la Aplicación\"), una aplicación para iOS proporcionada por SynCraft (\"nosotros\", \"nos\" o \"nuestro\").</p>\n      <p>Además de estos Términos, el uso que usted haga de la Aplicación está sujeto al Acuerdo de Licencia de Usuario Final (EULA) estándar de Apple.</p>\n      <p>Acuerdo de licencia de usuario final estándar de Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Por favor, revise estos Términos y el Acuerdo de Licencia de Usuario Final Estándar de Apple antes de usar la aplicación.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. La aplicación",
+      "html": "<ol>\n       <li>La aplicación ayuda a los usuarios a gestionar su concentración y su tiempo de trabajo mediante un temporizador.</li>\n       <li>Dependiendo del uso del temporizador, la aplicación puede ofrecer funciones a través de las cuales los usuarios pueden obtener o usar gatos, objetos, títulos y otro contenido.</li>\n       <li>La aplicación no garantiza la concentración, la productividad, los resultados del aprendizaje, los resultados laborales ni ningún otro resultado específico.</li>\n       <li>Las características pueden variar según la versión de iOS, el dispositivo y otras condiciones de uso.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Condiciones de uso y conducta prohibida",
+      "html": "<p>Usted utiliza la aplicación bajo su propio riesgo y no debe: modificar, descompilar, aplicar ingeniería inversa ni realizar acciones similares en la aplicación; reproducir, redistribuir, vender ni utilizar la aplicación sin autorización; obtener funciones de pago, recompensas por visualización de anuncios u otro contenido por medios indebidos; interferir con el funcionamiento normal de la aplicación; infringir las leyes aplicables o las políticas públicas; ni participar en conductas que consideremos razonablemente inapropiadas. Los menores de edad deben obtener el consentimiento de sus padres o tutores legales, cuando sea necesario, antes de adquirir servicios de pago.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Propiedad intelectual",
+      "html": "<p>Los derechos de autor y demás derechos de propiedad intelectual sobre nombres, logotipos, personajes, diseños de gatos, ilustraciones, animaciones, imágenes, texto, audio, programas y demás contenido de la aplicación nos pertenecen a nosotros o a terceros con derechos legítimos. Salvo que lo permita la ley, no podrá utilizarlos, reproducirlos, publicarlos, modificarlos, redistribuirlos ni venderlos sin autorización. El contenido generado mediante la función para compartir de la aplicación podrá publicarse en redes sociales y otros servicios para los fines habituales de difusión previstos por la aplicación.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Contenido dentro de la aplicación",
+      "html": "<ol>\n       <li>Los gatos, objetos, títulos y demás contenido digital disponible en la aplicación están destinados a ser utilizados dentro de la aplicación.</li>\n       <li>No tienen valor monetario en el mundo real y no se pueden canjear por dinero en efectivo ni por otros bienes.</li>\n       <li>Podemos modificar nombres, contenido, condiciones de adquisición, condiciones de uso, visualización y otras especificaciones para realizar mejoras, ajustes de saldo, cambios en las especificaciones o necesidades operativas.</li>\n       <li>Nos esforzamos por preservar los datos del usuario en la medida de lo posible durante las actualizaciones, pero no garantizamos su preservación o restauración completa en todos los dispositivos, sistemas operativos o entornos.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Publicidad y recompensas",
+      "html": "<p>La aplicación puede mostrar anuncios a través de servicios como Google AdMob y ofrecer anuncios con recompensas que otorgan artículos u otros beneficios dentro de la aplicación. Las condiciones para obtener recompensas son las que se muestran en la aplicación. El contenido, la presentación, la frecuencia y los beneficios de los anuncios pueden cambiar según sea necesario. Los anunciantes y proveedores de publicidad son responsables del contenido de los anuncios; no garantizamos los productos o servicios anunciados.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Servicios y compras de pago",
+      "html": "<p>Además de las funciones gratuitas, la aplicación puede ofrecer contenido o funciones de pago, como suscripciones mensuales, anuales y planes de compra única. Se aplican los productos, precios, periodos y funciones disponibles que se muestran en la aplicación y en la App Store en el momento de la compra. Las compras y los pagos se realizan a través de la App Store de Apple; no recopilamos ni almacenamos directamente información de tarjetas de pago.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Suscripciones",
+      "html": "<p>Las tarifas de suscripción se cargan a tu cuenta de Apple. La suscripción se renueva automáticamente por cada período aplicable, a menos que desactives la renovación automática en la configuración de la App Store. Una vez desactivada la renovación automática, las funciones correspondientes generalmente permanecen disponibles hasta el final del período de suscripción pagado. Los términos, condiciones y políticas de Apple y la App Store rigen la gestión de suscripciones, la cancelación de la renovación automática, los reembolsos y otros asuntos relacionados con los pagos.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Planes de compra única",
+      "html": "<p>La compra única permite usar las funciones de pago correspondientes sin suscripciones recurrentes. No garantiza el uso permanente de la app, todas sus funciones, integraciones con terceros ni compatibilidad con futuras versiones o dispositivos iOS. La recuperación de la información de compra y otros asuntos relacionados están sujetos a las políticas y sistemas de Apple y la App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Almacenamiento de datos",
+      "html": "<p>En tu dispositivo se pueden almacenar ajustes, historial de temporizadores, gatos, objetos, títulos y otros datos. Los datos pueden perderse al desinstalar la aplicación, por fallos o sustitución del dispositivo, actualizaciones del sistema operativo, defectos de la aplicación u otras circunstancias. Nos esforzamos por conservar los datos siempre que sea posible, pero no garantizamos que todos los datos puedan guardarse o recuperarse en todo momento.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Exenciones de responsabilidad",
+      "html": "<p>No garantizamos que la aplicación funcione siempre correctamente en todos los dispositivos y sistemas operativos, ni que sea precisa, completa, segura, adecuada para un propósito específico o esté disponible de forma continua. Los temporizadores, las notificaciones y otras funciones pueden no funcionar como se espera debido a la configuración del dispositivo, las especificaciones de iOS, las funciones de ahorro de energía, las condiciones de la red u otras circunstancias. Salvo en casos de mala conducta intencional, negligencia grave o responsabilidad que no pueda excluirse por ley, no nos hacemos responsables de los daños derivados del uso o la imposibilidad de usar la aplicación.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Cambios o interrupción",
+      "html": "<p>Podemos añadir, modificar, revisar, reducir, suspender o eliminar funciones, total o parcialmente, de la aplicación según sea necesario, teniendo en cuenta las circunstancias de desarrollo y operación, los dispositivos compatibles, las especificaciones de iOS, los servicios de terceros y otros factores. Notificaremos los cambios importantes o la interrupción del servicio siempre que sea razonablemente posible.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Modificaciones a estos Términos",
+      "html": "<p>Podemos modificar estos Términos según sea necesario debido a cambios legales, cambios en la aplicación u otros motivos. Los Términos revisados ​​entrarán en vigor al publicarse en la aplicación o en nuestro sitio web. Notificaremos los cambios importantes cuando corresponda.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Ley aplicable",
+      "html": "<p>Estos Términos se rigen e interpretan de conformidad con las leyes de Japón. Las disputas relacionadas con la aplicación o estos Términos se resolverán de acuerdo con la legislación japonesa.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Contacto",
+      "html": "<div class=\"contact\">\n       <p>Desarrollador y operador: SynCraft</p>\n       <p>Contacto: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "es",
+    "capturedAt": "2026-10-18T07:37:21.455Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "ed598bf844e8d684c975c159d6076697e1f622a653d251197b977400843c9ae7",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "política de privacidad",
+      "Columpio",
+      "Contacto"
+    ],
+    "home": "Columpio",
+    "selectLanguage": "Seleccionar idioma"
+  }
+}

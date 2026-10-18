@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "sk",
+  "kind": "privacy",
+  "title": "Zásady ochrany osobných údajov",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Dátum účinnosti: 28. augusta 2026 <br>\n     Posledná aktualizácia: 18. októbra 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Tieto Zásady ochrany osobných údajov vysvetľujú, ako spoločnosť SynCraft („my“, „nás“ alebo „naše“) nakladá s používateľskými informáciami v aplikácii SwingCat pre systém iOS („Aplikácia“).</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Informácie, ktoré zhromažďujeme a uchovávame",
+      "html": "<p>Aplikácia vo všeobecnosti nevyžaduje, aby používatelia pri registrácii priamo zadali meno, adresu, telefónne číslo alebo e-mailovú adresu.</p>\n      <p>V závislosti od používania aplikácie sa vo vašom zariadení môžu ukladať nasledujúce informácie: nastavenia časovača; čas sústredenia a história časovača; úlohy, ktoré ste zadali; mačky, položky, tituly a iný obsah v aplikácii a ich používanie; nastavenia aplikácie; voliteľné informácie o profile, ako napríklad meno; a stav platených funkcií.</p>\n      <p>Môžeme tiež zhromažďovať alebo spracovávať informácie prostredníctvom služieb tretích strán na účely analýzy používania, zlepšenia kvality, diagnostiky a reklamy. Môže ísť o typ zariadenia, operačný systém, nastavenia jazyka, verziu aplikácie, udalosti spustenia a používania funkcií, údaje o zlyhaní a výkone, IP adresu a ďalšie sieťové informácie, reklamné interakcie a identifikátory zariadenia alebo reklamy. Skutočne spracované informácie sa môžu líšiť v závislosti od verzie vášho systému iOS, nastavení zariadenia, možností ochrany osobných údajov, stavu súhlasu a špecifikácií služieb tretích strán.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Ako používame informácie",
+      "html": "<ol>\n       <li>Poskytovať aplikáciu a jej funkcie.</li>\n       <li>Pochopiť a analyzovať používanie aplikácie.</li>\n       <li>Na zlepšenie funkcií, použiteľnosti a používateľského zážitku.</li>\n       <li>Na preskúmanie a opravu chýb, zlyhaní a iných problémov.</li>\n       <li>Na zobrazovanie reklamy a poskytovanie funkcií súvisiacich s reklamou.</li>\n       <li>Poskytovať odmeny v aplikácii spojené s reklamou.</li>\n       <li>Aby sa predišlo zneužitiu.</li>\n       <li>Na poskytovanie platených funkcií a potvrdenie stavu nákupu.</li>\n       <li>Odpovedať na otázky.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>Na pochopenie používania aplikácie a zlepšenie funkcií môžeme používať služby poskytované spoločnosťou Google LLC vrátane služby Firebase Analytics a na identifikáciu zlyhaní a zlepšenie stability služby Firebase Crashlytics. Tieto služby môžu zhromažďovať alebo spracovávať informácie o používaní, informácie o zariadení a operačnom systéme, protokoly zlyhaní, stav aplikácie a ďalšie diagnostické informácie.</p>\n      <p>Na informácie spracovávané službou Firebase sa vzťahujú Zásady ochrany osobných údajov spoločnosti Google a ďalšie príslušné podmienky. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobných údajov spoločnosti Google </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Ochrana osobných údajov a zabezpečenie služby Firebase</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>Na zobrazovanie reklám môžeme použiť službu Google AdMob. Aplikácia môže ponúkať odmenené reklamy, prostredníctvom ktorých môžu používatelia získavať položky alebo iné výhody v aplikácii. AdMob a súprava Google Mobile Ads SDK môžu zhromažďovať alebo spracovávať IP adresy, informácie o zariadení, identifikátory zariadení alebo reklám, zobrazenia reklám a interakcie s nimi, interakcie v aplikácii a informácie o zlyhaniach alebo výkonnosti na účely zobrazovania reklám, merania, predchádzania podvodom a zlepšovania služieb.</p>\n      <p>Dostupnosť reklamných identifikátorov môže závisieť od nastavení zariadenia, funkcií ochrany osobných údajov spoločnosti Apple a súhlasu používateľa. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobných údajov spoločnosti Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Ako spoločnosť Google používa údaje z partnerských webových stránok alebo aplikácií</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Nákupy v aplikácii",
+      "html": "<p>Prostredníctvom App Store môžeme ponúkať predplatné a jednorazové nákupné plány. Platby spracováva spoločnosť Apple a my priamo nezhromažďujeme ani neukladáme čísla kreditných kariet ani iné platobné údaje. Aby mohla aplikácia poskytovať platené funkcie, môže pristupovať k informáciám o zakúpených produktoch a stave predplatného alebo ich overovať. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobných údajov spoločnosti Apple</a></p>\n      <p>Na overovanie nákupov, správu predplatného a prístupu k plateným funkciám, obnovenie nákupov a pochopenie aktivity nákupov a predplatného používame spoločnosť RevenueCat, Inc. Spoločnosť RevenueCat spracováva ID používateľa aplikácie vygenerované jej súpravou SDK, identifikátory zakúpených produktov, informácie o histórii transakcií a nákupov, stav a dátumy expirácie predplatného a technické informácie, ako je operačný systém zariadenia a verzia aplikácie.</p>\n      <p>Ako identifikátor nákupu používame anonymné ID používateľa aplikácie, ktoré automaticky generuje RevenueCat, nie meno ani e-mailovú adresu. Ako atribúty zákazníka neodosielame spoločnosti RevenueCat vaše meno z profilu v aplikácii ani e-mailovú adresu. Aj pri používaní anonymného ID môže dochádzať k spracúvaniu informácií. Odinštalovanie aplikácie samo osebe neznamená vymazanie záznamov o nákupoch.</p>\n      <p>Viac informácií nájdete v <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Zásadách ochrany osobných údajov spoločnosti RevenueCat</a> a <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">v informáciách spoločnosti RevenueCat o údajoch o nákupoch</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Zdieľanie s tretími stranami",
+      "html": "<p>Nepredávame informácie o používateľoch. Informácie môžu byť odosielané alebo spracovávané spoločnosťami Firebase, Google AdMob, Apple, RevenueCat a inými službami, ak je to potrebné na poskytovanie aplikácie. Informácie môžeme tiež zverejniť, ak s tým súhlasíte, ak je zverejnenie vyžadované zákonom, ak je to potrebné na ochranu života, tela alebo majetku alebo ak to inak povoľuje zákon.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Uchovávanie a vymazanie údajov",
+      "html": "<p>História časovača, mačky, položky, názvy, nastavenia a ďalšie údaje aplikácie môžu byť uložené vo vašom zariadení. Údaje uložené iba v zariadení sa môžu stratiť, ak sa aplikácia odstráni, zariadenie sa resetuje, zariadenie zlyhá alebo z iných dôvodov. Údaje spracovávané službami tretích strán sú spravované v súlade s ich príslušnými dobami uchovávania a zásadami.</p>\n      <p>Odinštalovanie aplikácie samo o sebe neodstráni záznamy o nákupoch ani iné informácie uchovávané službami tretích strán. V prípade otázok alebo žiadostí týkajúcich sa prístupu k vašim informáciám alebo ich vymazania nás kontaktujte na adrese <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Žiadosti budeme vybavovať v súlade s platnými právnymi predpismi; niektoré záznamy môže byť potrebné uchovať na splnenie zákonných povinností alebo overenie nákupov.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Možnosti reklamy a ochrany súkromia",
+      "html": "<p>Spôsob zobrazovania reklám sa môže líšiť v závislosti od regiónu, nastavení zariadenia, funkcií ochrany osobných údajov spoločnosti Apple, stavu súhlasu a ďalších podmienok. V prípade potreby môžeme zobraziť obrazovku so žiadosťou o súhlas alebo možnosť voľby týkajúcu sa reklám alebo iného použitia údajov. Používanie reklamných identifikátorov a ďalších informácií môžete spravovať v rozsahu, ktorý je k dispozícii prostredníctvom nastavení ochrany osobných údajov v systéme iOS.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Deti",
+      "html": "<p>Maloletí by mali používať aplikáciu so súhlasom rodiča alebo zákonného zástupcu, ak je to potrebné. Aplikácia nie je určená na aktívne zhromažďovanie osobných údajov, ako je meno dieťaťa, adresa, telefónne číslo alebo e-mailová adresa.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Bezpečnosť",
+      "html": "<p>Snažíme sa prijať primerané bezpečnostné opatrenia, aby sme predišli neoprávnenému prístupu, úniku, zmene, strate a podobným udalostiam týkajúcim sa informácií spracovaných prostredníctvom aplikácie.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Zmeny týchto zásad",
+      "html": "<p>Tieto Zásady môžeme podľa potreby zmeniť z dôvodu právnych zmien, zmien funkcií Aplikácie, zmien služieb tretích strán alebo z iných dôvodov. Revidované Zásady nadobúdajú účinnosť ich zverejnením v Aplikácii alebo na našej webovej stránke. V prípade potreby vás budeme informovať o podstatných zmenách.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Kontakt",
+      "html": "<div class=\"contact\">\n       <p>V prípade otázok týkajúcich sa týchto Zásad alebo spracovania informácií v Aplikácii:</p>\n       <p>Vývojár a prevádzkovateľ: SynCraft</p>\n       <p>Kontakt: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "sk",
+    "capturedAt": "2026-10-18T07:44:15.349Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "6c6ab15286b4bca121695ca46991971fabbd391cb6c6fb3bee16db885815a14e",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Podmienky používania",
+      "SwingCat",
+      "Kontakt"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Vyberte jazyk"
+  }
+}

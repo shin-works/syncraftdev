@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "fr",
+  "kind": "privacy",
+  "title": "Politique de confidentialité",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Date d'entrée en vigueur : 28 août 2026. <br>\n     Dernière mise à jour : 18 octobre 2026.",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Cette politique de confidentialité explique comment SynCraft (« nous », « notre » ou « nos ») traite les informations des utilisateurs dans l’application iOS SwingCat (l’« App »).</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Informations que nous recueillons et stockons",
+      "html": "<p>L'application ne requiert généralement pas que les utilisateurs saisissent directement leur nom, adresse, numéro de téléphone ou adresse électronique pour s'inscrire.</p>\n      <p>Selon votre utilisation de l'application, les informations suivantes peuvent être stockées sur votre appareil : paramètres du minuteur ; temps de concentration et historique du minuteur ; tâches que vous avez saisies ; chats, objets, titres et autres contenus de l'application et leur utilisation ; paramètres de l'application ; informations de profil facultatives telles qu'un nom ; et l'état des fonctionnalités payantes.</p>\n      <p>Nous pouvons également collecter ou traiter des informations via des services tiers à des fins d'analyse d'utilisation, d'amélioration de la qualité, de diagnostic et de publicité. Ces informations peuvent inclure le type d'appareil, le système d'exploitation, les paramètres de langue, la version de l'application, les événements de lancement et d'utilisation des fonctionnalités, les données de plantage et de performance, l'adresse IP et d'autres informations réseau, les interactions publicitaires, ainsi que les identifiants de l'appareil ou de la publicité. Les informations effectivement traitées peuvent varier en fonction de votre version d'iOS, des paramètres de votre appareil, de vos choix de confidentialité, de votre niveau de consentement et des spécifications du service tiers.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Comment nous utilisons les informations",
+      "html": "<ol>\n       <li>Fournir l'application et ses fonctionnalités.</li>\n       <li>Comprendre et analyser l'utilisation de l'application.</li>\n       <li>Améliorer les fonctionnalités, la facilité d'utilisation et l'expérience utilisateur.</li>\n       <li>Pour enquêter sur les erreurs, les plantages et autres problèmes et les corriger.</li>\n       <li>Afficher de la publicité et fournir des fonctionnalités liées à la publicité.</li>\n       <li>Offrir des récompenses intégrées à l'application, liées à la publicité.</li>\n       <li>Pour éviter toute utilisation abusive.</li>\n       <li>Pour fournir les fonctionnalités payantes et confirmer le statut de l'achat.</li>\n       <li>Pour répondre aux demandes de renseignements.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>Nous pouvons utiliser les services fournis par Google LLC, notamment Firebase Analytics pour analyser l'utilisation de l'application et en améliorer les fonctionnalités, et Firebase Crashlytics pour identifier les plantages et en améliorer la stabilité. Ces services peuvent collecter et traiter des informations d'utilisation, des informations sur l'appareil et le système d'exploitation, les journaux de plantage, l'état de l'application et d'autres informations de diagnostic.</p>\n      <p>La politique de confidentialité de Google et les autres conditions applicables s'appliquent aux informations traitées par Firebase. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politique de confidentialité de Google ; </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Confidentialité et sécurité de Firebase</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>Nous pouvons utiliser Google AdMob pour diffuser des publicités. L'application peut proposer des publicités récompensées permettant aux utilisateurs de recevoir des objets ou d'autres avantages. AdMob et le kit de développement logiciel (SDK) Google pour les annonces mobiles peuvent collecter et traiter les adresses IP, les informations relatives à l'appareil, les identifiants de l'appareil ou de la publicité, les impressions et interactions publicitaires, les interactions au sein de l'application, ainsi que les informations de performance ou de plantage, à des fins de diffusion et de mesure des publicités, de prévention de la fraude et d'amélioration du service.</p>\n      <p>La disponibilité des identifiants publicitaires peut dépendre des paramètres de l'appareil, des fonctionnalités de confidentialité d'Apple et du consentement de l'utilisateur. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politique de confidentialité de Google : </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Comment Google utilise les données provenant de sites ou d'applications partenaires</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Achats intégrés",
+      "html": "<p>Nous proposons des abonnements et des achats ponctuels via l'App Store. Apple traite les paiements ; nous ne collectons ni ne stockons directement les numéros de carte bancaire ou autres informations de paiement. Pour fournir les fonctionnalités payantes, l'application peut accéder aux informations relatives aux produits achetés et à l'état des abonnements, ou les vérifier. Consultez <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">la politique de confidentialité d'Apple.</a></p>\n      <p>Nous utilisons les services de RevenueCat, Inc. pour vérifier les achats, gérer les abonnements et l'accès aux fonctionnalités payantes, restaurer les achats et analyser l'activité liée aux achats et aux abonnements. RevenueCat traite un identifiant utilisateur généré par son SDK, les identifiants des produits achetés, l'historique des transactions et des achats, le statut et les dates d'expiration des abonnements, ainsi que des informations techniques telles que le système d'exploitation de l'appareil et la version de l'application.</p>\n      <p>Nous utilisons l'identifiant utilisateur anonyme généré automatiquement par RevenueCat plutôt que votre nom ou adresse e-mail comme identifiant d'achat. Nous ne transmettons ni votre nom de profil ni votre adresse e-mail à RevenueCat en tant qu'attributs client. L'utilisation d'un identifiant anonyme ne signifie pas qu'aucune information n'est traitée ni que l'historique de vos achats est supprimé lorsque vous désinstallez l'application.</p>\n      <p>Pour plus d'informations, consultez la <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">politique de confidentialité de RevenueCat</a> et <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">les informations de RevenueCat concernant les données d'achat</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Partage avec des tiers",
+      "html": "<p>Nous ne vendons pas les informations concernant les utilisateurs. Ces informations peuvent être transmises ou traitées par Firebase, Google AdMob, Apple, RevenueCat et d'autres services, selon les besoins pour le fonctionnement de l'application. Nous pouvons également divulguer des informations avec votre consentement, lorsque la loi l'exige, lorsque cela est nécessaire pour protéger la vie, l'intégrité physique ou les biens, ou dans les autres cas autorisés par la loi.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Conservation et suppression des données",
+      "html": "<p>L’historique du minuteur, les chats, les objets, les titres, les paramètres et autres données de l’application peuvent être stockés sur votre appareil. Les données stockées uniquement sur un appareil peuvent être perdues si l’application est supprimée, si l’appareil est réinitialisé, en cas de panne de l’appareil ou pour d’autres raisons. Les données traitées par des services tiers sont gérées conformément à leurs politiques et durées de conservation respectives.</p>\n      <p>La désinstallation de l'application ne supprime pas automatiquement l'historique de vos achats ni les autres informations détenues par des services tiers. Pour toute question ou demande d'accès ou de suppression de vos informations, veuillez nous contacter à l'adresse <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Nous traiterons les demandes conformément à la législation en vigueur ; certaines données peuvent être conservées pour répondre à des obligations légales ou pour vérifier les achats.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Choix en matière de publicité et de confidentialité",
+      "html": "<p>La diffusion des publicités peut varier selon la région, les réglages de l'appareil, les paramètres de confidentialité d'Apple, le niveau de consentement et d'autres conditions. Le cas échéant, nous pouvons afficher un écran vous demandant votre consentement ou un choix concernant les publicités ou l'utilisation de vos données. Vous pouvez gérer l'utilisation des identifiants publicitaires et autres informations dans les limites des réglages de confidentialité d'iOS.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Enfants",
+      "html": "<p>Les mineurs doivent utiliser l'application avec le consentement d'un parent ou d'un tuteur légal lorsque cela est nécessaire. L'application n'est pas conçue pour collecter activement des informations personnelles telles que le nom, l'adresse, le numéro de téléphone ou l'adresse électronique d'un enfant.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Sécurité",
+      "html": "<p>Nous nous efforçons de prendre des mesures de sécurité raisonnables pour empêcher tout accès non autorisé, fuite, altération, perte et autres événements similaires concernant les informations traitées via l'application.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Modifications de la présente politique",
+      "html": "<p>Nous pouvons modifier la présente Politique en fonction des besoins, notamment en raison de changements législatifs, de modifications apportées aux fonctionnalités de l'Application, aux services de tiers ou pour d'autres raisons. La Politique révisée entre en vigueur dès sa publication dans l'Application ou sur notre site web. Nous vous informerons des modifications importantes le cas échéant.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Contact",
+      "html": "<div class=\"contact\">\n       <p>Pour toute question concernant cette politique ou le traitement des informations dans l'application :</p>\n       <p>Développeur et exploitant : SynCraft</p>\n       <p>Contact : <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "fr",
+    "capturedAt": "2026-10-18T07:32:03.668Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "e486d7ebe5a49b9d9c420af24b4a62547059fc9f5295142df3bae67203c7b6df",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Conditions d'utilisation",
+      "SwingCat",
+      "Contact"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Sélectionnez la langue"
+  }
+}

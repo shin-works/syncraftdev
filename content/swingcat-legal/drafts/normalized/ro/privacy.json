@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "kind": "privacy",
+  "title": "Politica de confidențialitate",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Data intrării în vigoare: 28 august 2026 <br>\n     Ultima actualizare: 18 octombrie 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Această Politică de confidențialitate explică modul în care SynCraft („noi”, „nouă” sau „al nostru/a noastră/ai noștri/ale noastre”) gestionează informațiile utilizatorilor în aplicația iOS SwingCat („Aplicația”).</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Informațiile pe care le colectăm și le stocăm",
+      "html": "<p>Aplicația nu solicită, în general, utilizatorilor să introducă direct un nume, o adresă, un număr de telefon sau o adresă de e-mail pentru a se înregistra.</p>\n      <p>În funcție de utilizarea Aplicației, următoarele informații pot fi stocate pe dispozitivul dvs.: setările temporizatorului; timpul de concentrare și istoricul temporizatorului; sarcinile introduse de dvs.; pisici, obiecte, titluri și alt conținut din aplicație, precum și utilizarea acestora; setările aplicației; informații opționale despre profil, cum ar fi numele; și starea funcțiilor plătite.</p>\n      <p>De asemenea, putem colecta sau prelucra informații prin intermediul serviciilor terțe pentru analiza utilizării, îmbunătățirea calității, diagnosticare și publicitate. Acestea pot include tipul dispozitivului, sistemul de operare, setările de limbă, versiunea aplicației, evenimentele de lansare și de utilizare a funcțiilor, datele privind blocarea și performanța, adresa IP și alte informații despre rețea, interacțiunile publicitare și identificatorii dispozitivului sau ai reclamei. Informațiile prelucrate efectiv pot varia în funcție de versiunea iOS, setările dispozitivului, opțiunile de confidențialitate, starea consimțământului și specificațiile serviciilor terțe.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Cum utilizăm informațiile",
+      "html": "<ol>\n       <li>Pentru a furniza Aplicația și funcțiile acesteia.</li>\n       <li>Pentru a înțelege și analiza utilizarea aplicației.</li>\n       <li>Pentru a îmbunătăți caracteristicile, ușurința în utilizare și experiența utilizatorului.</li>\n       <li>Pentru a investiga și remedia erori, blocări și alte probleme.</li>\n       <li>Pentru a afișa reclame și a oferi funcții legate de publicitate.</li>\n       <li>Pentru a oferi recompense în aplicație asociate cu publicitatea.</li>\n       <li>Pentru a preveni utilizarea greșită.</li>\n       <li>Pentru a oferi funcții plătite și a confirma starea achiziției.</li>\n       <li>Pentru a răspunde la întrebări.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>Este posibil să folosim servicii furnizate de Google LLC, inclusiv Firebase Analytics pentru a înțelege utilizarea aplicației și a îmbunătăți funcțiile, precum și Firebase Crashlytics pentru a identifica blocările și a îmbunătăți stabilitatea. Aceste servicii pot colecta sau procesa informații despre utilizare, informații despre dispozitiv și sistem de operare, jurnale de blocări, starea aplicației și alte informații de diagnosticare.</p>\n      <p>Politica de confidențialitate Google și alți termeni aplicabili se aplică informațiilor gestionate de Firebase. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate Google </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Confidențialitate și securitate Firebase</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>Este posibil să folosim Google AdMob pentru a afișa reclame. Aplicația poate oferi reclame cu recompensă prin intermediul cărora utilizatorii pot primi articole sau alte beneficii în aplicație. AdMob și SDK-ul Google Mobile Ads pot colecta sau procesa adrese IP, informații despre dispozitive, identificatori de dispozitive sau reclame, afișări și interacțiuni cu anunțurile, interacțiuni în aplicație și informații despre erori sau performanță pentru difuzarea anunțurilor, măsurare, prevenirea fraudelor și îmbunătățirea serviciilor.</p>\n      <p>Disponibilitatea identificatorilor publicitari poate depinde de setările dispozitivului, de funcțiile de confidențialitate Apple și de consimțământul utilizatorului. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Cum utilizează Google datele de pe site-urile sau aplicațiile partenere</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Achiziții în aplicație",
+      "html": "<p>Este posibil să oferim abonamente și planuri de achiziție unică prin App Store. Apple procesează plățile și nu colectăm sau stocăm direct numerele cardurilor de credit sau alte detalii de plată. Pentru a oferi funcții plătite, Aplicația poate accesa sau verifica informații despre produsele achiziționate și starea abonamentului. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate Apple</a></p>\n      <p>Folosim RevenueCat, Inc. pentru a verifica achizițiile, a gestiona accesul la abonamente și funcții cu plată, a restaura achizițiile și a înțelege activitatea de achiziții și abonamente. RevenueCat procesează un ID de utilizator al aplicației generat de SDK-ul său, identificatori de produse achiziționate, informații despre tranzacții și istoricul achizițiilor, starea abonamentului și datele de expirare, precum și informații tehnice, cum ar fi sistemul de operare al dispozitivului și versiunea aplicației.</p>\n      <p>Folosim ID-ul de utilizator anonim al aplicației generat automat de RevenueCat, în loc să setăm un nume sau o adresă de e-mail ca identificator al achiziției. Nu trimitem numele sau adresa de e-mail a profilului dvs. din aplicație către RevenueCat ca atribute ale clientului. Utilizarea unui ID anonim nu înseamnă că nu sunt procesate informații sau că înregistrările achizițiilor sunt șterse atunci când dezinstalați aplicația.</p>\n      <p>Pentru mai multe informații, consultați <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate RevenueCat</a> și <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informațiile RevenueCat despre datele de achiziție</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Partajarea cu terți",
+      "html": "<p>Nu vindem informații despre utilizatori. Informațiile pot fi trimise către sau procesate de Firebase, Google AdMob, Apple, RevenueCat și alte servicii, după cum este necesar pentru furnizarea Aplicației. De asemenea, putem divulga informații în cazul în care vă dați consimțământul, în cazul în care divulgarea este impusă de lege, în cazul în care este necesar pentru a proteja viața, corpul sau proprietatea sau în orice alt mod permis de lege.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Păstrarea și ștergerea datelor",
+      "html": "<p>Istoricul temporizatorului, pisicile, articolele, titlurile, setările și alte date din aplicație pot fi stocate pe dispozitiv. Datele stocate doar pe un dispozitiv se pot pierde dacă aplicația este ștearsă, dispozitivul este resetat, dispozitivul se defectează sau din alte motive. Datele procesate de servicii terțe sunt gestionate în conformitate cu perioadele și politicile de păstrare respective.</p>\n      <p>Dezinstalarea aplicației nu șterge în sine înregistrările achizițiilor sau alte informații deținute de servicii terțe. Pentru întrebări sau solicitări privind accesul la sau ștergerea informațiilor dvs., contactați-ne la <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Vom gestiona solicitările în conformitate cu legislația aplicabilă; este posibil să fie necesară păstrarea unor înregistrări pentru a îndeplini obligațiile legale sau a verifica achizițiile.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Opțiuni privind publicitatea și confidențialitatea",
+      "html": "<p>Modul în care sunt difuzate reclamele poate varia în funcție de regiune, setările dispozitivului, funcțiile de confidențialitate Apple, starea consimțământului și alte condiții. Acolo unde este necesar, este posibil să afișăm un ecran care solicită consimțământul sau o opțiune privind reclamele sau alte utilizări ale datelor. Puteți gestiona utilizarea identificatorilor publicitari și a altor informații în măsura în care acest lucru este disponibil prin setările de confidențialitate iOS.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Copii",
+      "html": "<p>Minorii ar trebui să utilizeze Aplicația cu consimțământul unui părinte sau tutore legal, acolo unde este necesar. Aplicația nu este concepută pentru a colecta în mod activ informații personale, cum ar fi numele, adresa, numărul de telefon sau adresa de e-mail a unui copil.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Securitate",
+      "html": "<p>Ne străduim să luăm măsuri de siguranță rezonabile pentru a preveni accesul neautorizat, scurgerea, modificarea, pierderea și evenimente similare care implică informații gestionate prin intermediul Aplicației.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Modificări ale prezentei Politici",
+      "html": "<p>Este posibil să modificăm această Politică după cum este necesar, din cauza unor modificări legislative, modificări ale funcțiilor Aplicației, modificări ale serviciilor terțe sau din alte motive. Politica revizuită intră în vigoare la data publicării în Aplicație sau pe site-ul nostru web. Vom notifica modificările semnificative, acolo unde este cazul.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Contact",
+      "html": "<div class=\"contact\">\n       <p>Pentru întrebări despre această Politică sau despre gestionarea informațiilor în Aplicație:</p>\n       <p>Dezvoltator și operator: SynCraft</p>\n       <p>Contact: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "ro",
+    "capturedAt": "2026-10-18T07:46:14.691Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "21ecf219064ccd71ebfc408b5ee3c6c342a573815d54112f8798bd0bcb0123a7",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Termeni de utilizare",
+      "SwingCat",
+      "Contact"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Selectați limba"
+  }
+}

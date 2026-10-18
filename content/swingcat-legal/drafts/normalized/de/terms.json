@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "locale": "de",
+  "kind": "terms",
+  "title": "Nutzungsbedingungen",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Gültig ab: 28. August 2026 <br>\n     Letzte Aktualisierung: 8. September 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Diese Nutzungsbedingungen („Bedingungen“) legen die Bedingungen für die Nutzung von SwingCat (die „App“), einer iOS-Anwendung von SynCraft („wir“, „uns“ oder „unser“), fest.</p>\n      <p>Zusätzlich zu diesen Nutzungsbedingungen unterliegt Ihre Nutzung der App der Standard-Endbenutzer-Lizenzvereinbarung (EULA) von Apple.</p>\n      <p>Standard-Endbenutzer-Lizenzvereinbarung von Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Bitte lesen Sie diese Nutzungsbedingungen und die Apple Standard-Endbenutzer-Lizenzvereinbarung, bevor Sie die App verwenden.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Die App",
+      "html": "<ol>\n       <li>Die App hilft Nutzern mithilfe eines Timers, ihre Konzentration und Arbeitszeit besser zu steuern.</li>\n       <li>Je nach Timer-Nutzung kann die App Funktionen bereitstellen, mit denen Benutzer Katzen, Gegenstände, Titel und andere Inhalte erhalten oder verwenden können.</li>\n       <li>Die App garantiert weder Konzentration, Produktivität, Lernerfolge, Arbeitsergebnisse noch irgendein anderes spezifisches Ergebnis.</li>\n       <li>Die Funktionen können je nach iOS, Gerät und sonstigen Nutzungsbedingungen variieren.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Nutzungsbedingungen und verbotenes Verhalten",
+      "html": "<p>Die Nutzung der App erfolgt auf eigene Gefahr. Es ist Ihnen untersagt: die App zu verändern, zu dekompilieren, zurückzuentwickeln oder ähnliche Handlungen daran vorzunehmen; die App ohne Genehmigung zu vervielfältigen, weiterzuverbreiten, zu verkaufen oder anderweitig zu nutzen; kostenpflichtige Funktionen, Belohnungen für das Ansehen von Werbung oder andere Inhalte auf unzulässige Weise zu erlangen; den normalen Betrieb der App zu stören; gegen geltende Gesetze oder die öffentliche Ordnung zu verstoßen; oder sich in einer Weise zu verhalten, die wir als unangemessen erachten. Minderjährige sollten, sofern erforderlich, vor dem Kauf kostenpflichtiger Dienste die Zustimmung eines Elternteils oder Erziehungsberechtigten einholen.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Geistiges Eigentum",
+      "html": "<p>Urheberrechte und sonstige geistige Eigentumsrechte an Namen, Logos, Charakteren, Katzenmotiven, Illustrationen, Animationen, Bildern, Texten, Audiodateien, Programmen und anderen Inhalten der App liegen bei uns oder bei Dritten mit entsprechenden Rechten. Sofern gesetzlich nicht anders zulässig, ist die Nutzung, Vervielfältigung, Veröffentlichung, Änderung, Weiterverbreitung oder der Verkauf dieser Inhalte ohne unsere Genehmigung untersagt. Inhalte, die über die von der App bereitgestellte Teilen-Funktion generiert werden, können in sozialen Medien und anderen Diensten für die von der App vorgesehenen üblichen Zwecke geteilt werden.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. In-App-Inhalte",
+      "html": "<ol>\n       <li>Katzen, Gegenstände, Titel und andere digitale Inhalte, die in der App verfügbar sind, sind ausschließlich zur Verwendung innerhalb der App bestimmt.</li>\n       <li>Sie haben keinen realen Geldwert und können nicht gegen Bargeld oder andere Güter eingetauscht werden.</li>\n       <li>Wir behalten uns das Recht vor, Namen, Inhalte, Erwerbsbedingungen, Nutzungsbedingungen, Darstellung und andere Spezifikationen im Rahmen von Verbesserungen, zur Anpassung des Geschäftsgleichgewichts, zur Änderung von Spezifikationen oder aus betrieblichen Gründen zu ändern.</li>\n       <li>Wir bemühen uns, Benutzerdaten bei Aktualisierungen so weit wie möglich zu erhalten, können jedoch keine vollständige Erhaltung oder Wiederherstellung auf jedem Gerät, Betriebssystem oder in jeder Umgebung garantieren.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Werbung und Belohnungen",
+      "html": "<p>Die App kann Werbung über Dienste wie Google AdMob einblenden und Prämienanzeigen mit Artikeln oder anderen In-App-Vorteilen anbieten. Die Bedingungen für die Prämien werden in der App angezeigt. Werbeinhalte, Darstellung, Häufigkeit und Vorteile können sich bei Bedarf ändern. Werbetreibende und Werbeanbieter sind für die Werbeinhalte verantwortlich; wir übernehmen keine Garantie für beworbene Produkte oder Dienstleistungen.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Bezahlte Dienstleistungen und Käufe",
+      "html": "<p>Zusätzlich zu den kostenlosen Funktionen bietet die App möglicherweise kostenpflichtige Funktionen oder Inhalte an, darunter Monats-, Jahres- und Einmalabonnements. Es gelten die zum Zeitpunkt des Kaufs in der App und im App Store angezeigten Produkte, Preise, Laufzeiten und verfügbaren Funktionen. Käufe und Zahlungen erfolgen über den Apple App Store; wir erfassen oder speichern keine Zahlungskarteninformationen direkt.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Abonnements",
+      "html": "<p>Abonnementgebühren werden über Ihr Apple-Konto abgerechnet. Ihr Abonnement verlängert sich automatisch für jeden Abrechnungszeitraum, sofern Sie die automatische Verlängerung nicht in den App Store-Einstellungen deaktivieren. Nach Deaktivierung der automatischen Verlängerung bleiben die entsprechenden Funktionen in der Regel bis zum Ende des aktuellen Abrechnungszeitraums verfügbar. Die Abonnementverwaltung, die Kündigung der automatischen Verlängerung, Rückerstattungen und sonstige Zahlungsangelegenheiten unterliegen den Nutzungsbedingungen und Richtlinien von Apple und dem App Store.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Einmalkaufpläne",
+      "html": "<p>Ein einmaliger Kauf berechtigt zur Nutzung der entsprechenden kostenpflichtigen Funktionen ohne wiederkehrende Abonnementzahlungen. Er garantiert jedoch nicht die dauerhafte Verfügbarkeit der App, aller Funktionen, Integrationen von Drittanbietern oder die Kompatibilität mit allen zukünftigen iOS-Versionen oder Geräten. Die Wiederherstellung von Kaufdaten und damit verbundene Angelegenheiten unterliegen den Systemen und Richtlinien von Apple und dem App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Datenspeicherung",
+      "html": "<p>Einstellungen, Timerverlauf, Katzen, Gegenstände, Titel und andere Daten können auf Ihrem Gerät gespeichert werden. Datenverlust kann durch das Löschen der App, Geräteausfall oder -austausch, Betriebssystemaktualisierungen, App-Fehler oder andere Umstände auftreten. Wir bemühen uns, Daten nach Möglichkeit zu sichern, können jedoch nicht garantieren, dass alle Daten jederzeit gespeichert oder wiederhergestellt werden können.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Haftungsausschlüsse",
+      "html": "<p>Wir garantieren nicht, dass die App auf jedem Gerät und in jeder Betriebssystemumgebung einwandfrei funktioniert oder dass sie fehlerfrei, vollständig, sicher, für einen bestimmten Zweck geeignet oder ständig verfügbar ist. Timer, Benachrichtigungen und andere Funktionen funktionieren möglicherweise aufgrund von Geräteeinstellungen, iOS-Spezifikationen, Energiesparfunktionen, Netzwerkbedingungen oder anderen Umständen nicht wie erwartet. Außer im Falle von Vorsatz, grober Fahrlässigkeit oder einer gesetzlich nicht ausschließbaren Haftung unsererseits haften wir nicht für Schäden, die durch die Nutzung oder die Unmöglichkeit der Nutzung der App entstehen.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Änderungen oder Einstellung",
+      "html": "<p>Wir behalten uns das Recht vor, Funktionen der App oder Teile davon je nach Bedarf hinzuzufügen, zu ändern, zu überprüfen, einzuschränken, auszusetzen oder einzustellen. Dabei berücksichtigen wir Entwicklungs- und Betriebsbedingungen, unterstützte Geräte, iOS-Spezifikationen, Dienste von Drittanbietern und andere Faktoren. Wesentliche Änderungen oder die Einstellung der App werden wir, soweit möglich, ankündigen.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Änderungen dieser Bedingungen",
+      "html": "<p>Wir behalten uns das Recht vor, diese Nutzungsbedingungen bei Bedarf aufgrund von Gesetzesänderungen, App-Änderungen oder anderen Gründen anzupassen. Die geänderten Nutzungsbedingungen treten mit ihrer Veröffentlichung in der App oder auf unserer Website in Kraft. Wesentliche Änderungen werden wir gegebenenfalls ankündigen.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Anwendbares Recht",
+      "html": "<p>Diese Nutzungsbedingungen unterliegen japanischem Recht und werden entsprechend ausgelegt. Streitigkeiten im Zusammenhang mit der App oder diesen Nutzungsbedingungen werden nach japanischem Recht beigelegt.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Kontakt",
+      "html": "<div class=\"contact\">\n       <p>Entwickler und Betreiber: SynCraft</p>\n       <p>Kontakt: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "de",
+    "capturedAt": "2026-10-18T07:37:15.357Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "55f96e312d99531a363d003e9c1b8a5bdc9c1be0dee286a4c0c040e3e22d92fe",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Datenschutzrichtlinie",
+      "SwingCat",
+      "Kontakt"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Sprache auswählen"
+  }
+}

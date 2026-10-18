@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "zh-Hans",
+  "kind": "privacy",
+  "title": "隐私政策",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "生效日期：2026年8月28日<br>\n     最后更新日期：2026年10月18日",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>本隐私政策解释了 SynCraft（“我们”）如何处理 iOS 应用程序 SwingCat（“应用程序”）中的用户信息。</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. 我们收集和存储的信息",
+      "html": "<p>该应用程序通常不要求用户直接输入姓名、地址、电话号码或电子邮件地址进行注册。</p>\n      <p>根据您对应用程序的使用情况，以下信息可能会存储在您的设备上：计时器设置；专注时间和计时器历史记录；您输入的任务；猫、物品、标题和其他应用程序内内容及其使用情况；应用程序设置；可选的个人资料信息，例如姓名；以及付费功能的状态。</p>\n      <p>我们可能还会通过第三方服务收集或处理信息，用于使用情况分析、质量改进、诊断和广告投放。这些信息可能包括设备类型、操作系统、语言设置、应用版本、启动和功能使用事件、崩溃和性能数据、IP 地址和其他网络信息、广告互动以及设备或广告标识符。实际处理的信息可能因您的 iOS 版本、设备设置、隐私选项、同意状态和第三方服务规范而异。</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. 我们如何使用信息",
+      "html": "<ol>\n       <li>提供该应用程序及其功能。</li>\n       <li>了解和分析应用程序使用情况。</li>\n       <li>为了改进功能、可用性和用户体验。</li>\n       <li>调查并修复错误、崩溃和其他问题。</li>\n       <li>用于展示广告和提供广告相关功能。</li>\n       <li>提供与广告相关的应用内奖励。</li>\n       <li>为防止滥用。</li>\n       <li>提供付费功能并确认购买状态。</li>\n       <li>回复问询。</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>我们可能会使用 Google LLC 提供的服务，包括 Firebase Analytics（用于了解应用使用情况并改进功能）和 Firebase Crashlytics（用于识别崩溃并提高稳定性）。这些服务可能会收集或处理使用信息、设备和操作系统信息、崩溃日志、应用状态以及其他诊断信息。</p>\n      <p>Google 隐私权政策及其他适用条款适用于 Firebase 处理的信息。Google<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隐私权政策</a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase 隐私和安全</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>我们可能会使用 Google AdMob 来展示广告。本应用可能会提供激励广告，用户可以通过这些广告获得物品或其他应用内福利。AdMob 和 Google 移动广告 SDK 可能会收集或处理 IP 地址、设备信息、设备或广告标识符、广告展示次数和互动次数、应用内互动次数以及崩溃或性能信息，用于广告投放、效果衡量、欺诈防范和服务改进。</p>\n      <p>广告标识符的可用性可能取决于设备设置、Apple 隐私功能和用户同意。Google<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隐私权政策：</a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google 如何使用来自合作伙伴网站或应用的数据</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. 应用内购买",
+      "html": "<p>我们可能会通过 App Store 提供订阅和一次性购买方案。Apple 会处理付款，我们不会直接收集或存储信用卡号或其他付款信息。为了提供付费功能，App 可能会访问或验证有关已购产品和订阅状态的信息。Apple<a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">隐私政策</a></p>\n      <p>我们使用 RevenueCat, Inc. 来验证购买、管理订阅和付费功能访问权限、恢复购买以及了解购买和订阅活动。RevenueCat 会处理由其 SDK 生成的应用用户 ID、已购产品标识符、交易和购买历史记录信息、订阅状态和到期日期，以及设备操作系统和应用版本等技术信息。</p>\n      <p>我们使用 RevenueCat 自动生成的匿名应用用户 ID，而不是设置您的姓名或电子邮件地址作为购买标识符。我们不会将您的应用内个人资料名称或电子邮件地址作为客户属性发送给 RevenueCat。使用匿名 ID 并不意味着不会处理任何信息，也不意味着当您卸载应用时购买记录会被删除。</p>\n      <p>有关更多信息，请参阅<a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 隐私政策</a>和<a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 关于购买数据的信息</a>。</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. 与第三方共享",
+      "html": "<p>我们不会出售用户信息。为提供本应用服务，我们可能会将信息发送至 Firebase、Google AdMob、Apple、RevenueCat 及其他服务提供商或由其处理。在获得您的同意、法律要求、为保护生命、身体或财产安全所必需，或法律允许的其他情况下，我们也可能披露信息。</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. 数据保留和删除",
+      "html": "<p>计时器历史记录、猫咪、物品、标题、设置和其他应用数据可能会存储在您的设备上。仅存储在设备上的数据可能会因应用被删除、设备重置、设备故障或其他原因而丢失。第三方服务处理的数据将根据其各自的保留期限和政策进行管理。</p>\n      <p>卸载应用本身并不会删除购买记录或第三方服务中保存的其他信息。如有任何关于访问或删除您的信息的问题或请求，请联系我们：<a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a>。我们将根据适用法律处理您的请求；某些记录可能需要保留以履行法律义务或核实购买信息。</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. 广告和隐私选择",
+      "html": "<p>广告投放方式可能因地区、设备设置、Apple隐私功能、同意状态和其他条件而异。在必要时，我们可能会显示一个屏幕，请求您同意或选择有关广告或其他数据用途的选项。您可以通过iOS隐私设置管理广告标识符和其他信息的使用。</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. 儿童",
+      "html": "<p>未成年人使用本应用程序时，如有必要，应征得父母或法定监护人的同意。本应用程序并非旨在主动收集儿童的姓名、地址、电话号码或电子邮件地址等个人信息。</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. 安全性",
+      "html": "<p>我们努力采取合理的安全措施，防止未经授权的访问、泄露、篡改、丢失以及类似事件，这些事件涉及通过应用程序处理的信息。</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. 本政策的变更",
+      "html": "<p>我们可能会因法律变更、应用程序功能变更、第三方服务变更或其他原因而对本政策进行必要的修改。修订后的政策将在应用程序或我们的网站上发布后生效。对于重大变更，我们将酌情发出通知。</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. 联系方式",
+      "html": "<div class=\"contact\">\n       <p>如果您对本政策或应用程序中的信息处理有任何疑问：</p>\n       <p>开发商和运营商：SynCraft</p>\n       <p>联系方式：<a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "zh-CN",
+    "capturedAt": "2026-10-18T07:49:32.797Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "d59ef96fbbfb2194b1619d3d093dad905da99b8e2749deeb369acc42fa1d8f2f",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "使用条款",
+      "摇摆猫",
+      "接触"
+    ],
+    "home": "摇摆猫",
+    "selectLanguage": "选择语言"
+  }
+}

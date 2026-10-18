@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "vi",
+  "kind": "privacy",
+  "title": "Chính sách bảo mật",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Ngày có hiệu lực: 28 tháng 8 năm 2026. <br>\n     Cập nhật lần cuối: 18 tháng 10 năm 2026.",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Chính sách bảo mật này giải thích cách SynCraft (\"chúng tôi\") xử lý thông tin người dùng trong ứng dụng iOS SwingCat (\"Ứng dụng\").</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Thông tin chúng tôi thu thập và lưu trữ",
+      "html": "<p>Ứng dụng này thường không yêu cầu người dùng nhập trực tiếp tên, địa chỉ, số điện thoại hoặc địa chỉ email để đăng ký.</p>\n      <p>Tùy thuộc vào cách sử dụng ứng dụng, các thông tin sau có thể được lưu trữ trên thiết bị của bạn: cài đặt hẹn giờ; thời gian tập trung và lịch sử hẹn giờ; các tác vụ bạn đã nhập; mèo, vật phẩm, danh hiệu và các nội dung khác trong ứng dụng cùng cách sử dụng chúng; cài đặt ứng dụng; thông tin hồ sơ tùy chọn như tên; và trạng thái của các tính năng trả phí.</p>\n      <p>Chúng tôi cũng có thể thu thập hoặc xử lý thông tin thông qua các dịch vụ của bên thứ ba để phân tích việc sử dụng, cải thiện chất lượng, chẩn đoán và quảng cáo. Điều này có thể bao gồm loại thiết bị, hệ điều hành, cài đặt ngôn ngữ, phiên bản ứng dụng, sự kiện khởi chạy và sử dụng tính năng, dữ liệu sự cố và hiệu suất, địa chỉ IP và thông tin mạng khác, tương tác quảng cáo và mã định danh thiết bị hoặc quảng cáo. Thông tin thực tế được xử lý có thể khác nhau tùy thuộc vào phiên bản iOS của bạn, cài đặt thiết bị, lựa chọn quyền riêng tư, trạng thái đồng ý và thông số kỹ thuật của dịch vụ bên thứ ba.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Cách chúng ta sử dụng thông tin",
+      "html": "<ol>\n       <li>Cung cấp ứng dụng và các tính năng của nó.</li>\n       <li>Để hiểu và phân tích việc sử dụng ứng dụng.</li>\n       <li>Nhằm cải thiện các tính năng, khả năng sử dụng và trải nghiệm người dùng.</li>\n       <li>Điều tra và khắc phục lỗi, sự cố và các vấn đề khác.</li>\n       <li>Hiển thị quảng cáo và cung cấp các tính năng liên quan đến quảng cáo.</li>\n       <li>Cung cấp phần thưởng trong ứng dụng liên quan đến quảng cáo.</li>\n       <li>Để ngăn chặn việc lạm dụng.</li>\n       <li>Cung cấp các tính năng trả phí và xác nhận trạng thái mua hàng.</li>\n       <li>Để trả lời các câu hỏi.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>Chúng tôi có thể sử dụng các dịch vụ do Google LLC cung cấp, bao gồm Firebase Analytics để hiểu rõ hơn về cách sử dụng ứng dụng và cải thiện các tính năng, cũng như Firebase Crashlytics để xác định các sự cố và cải thiện tính ổn định. Các dịch vụ này có thể thu thập hoặc xử lý thông tin sử dụng, thông tin thiết bị và hệ điều hành, nhật ký sự cố, trạng thái ứng dụng và các thông tin chẩn đoán khác.</p>\n      <p>Chính sách bảo mật của Google và các điều khoản áp dụng khác áp dụng cho thông tin được Firebase xử lý. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Chính sách bảo mật của Google </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Chính sách bảo mật và an ninh của Firebase</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>Chúng tôi có thể sử dụng Google AdMob để hiển thị quảng cáo. Ứng dụng có thể cung cấp các quảng cáo có thưởng, thông qua đó người dùng có thể nhận được vật phẩm hoặc các lợi ích khác trong ứng dụng. AdMob và Google Mobile Ads SDK có thể thu thập hoặc xử lý địa chỉ IP, thông tin thiết bị, mã định danh thiết bị hoặc quảng cáo, số lượt hiển thị và tương tác quảng cáo, tương tác trong ứng dụng và thông tin về sự cố hoặc hiệu suất để phân phối quảng cáo, đo lường, ngăn chặn gian lận và cải thiện dịch vụ.</p>\n      <p>Việc có hiển thị mã định danh quảng cáo hay không có thể phụ thuộc vào cài đặt thiết bị, các tính năng bảo mật của Apple và sự đồng ý của người dùng. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Chính sách bảo mật của Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Cách Google sử dụng dữ liệu từ các trang web hoặc ứng dụng đối tác</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Mua hàng trong ứng dụng",
+      "html": "<p>Chúng tôi có thể cung cấp các gói đăng ký và gói mua một lần thông qua App Store. Apple xử lý các khoản thanh toán và chúng tôi không trực tiếp thu thập hoặc lưu trữ số thẻ tín dụng hoặc các chi tiết thanh toán khác. Để cung cấp các tính năng trả phí, Ứng dụng có thể truy cập hoặc xác minh thông tin về các sản phẩm đã mua và trạng thái đăng ký. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Chính sách bảo mật của Apple</a></p>\n      <p>Chúng tôi sử dụng RevenueCat, Inc. để xác minh các giao dịch mua hàng, quản lý quyền truy cập vào các tính năng trả phí và đăng ký, khôi phục các giao dịch mua hàng và hiểu rõ hoạt động mua hàng và đăng ký. RevenueCat xử lý ID người dùng ứng dụng được tạo bởi SDK của họ, mã định danh sản phẩm đã mua, thông tin giao dịch và lịch sử mua hàng, trạng thái đăng ký và ngày hết hạn, cũng như thông tin kỹ thuật như hệ điều hành thiết bị và phiên bản ứng dụng.</p>\n      <p>Chúng tôi sử dụng ID người dùng ứng dụng ẩn danh được tạo tự động bởi RevenueCat thay vì đặt tên hoặc địa chỉ email làm mã định danh giao dịch mua hàng của bạn. Chúng tôi không gửi tên hồ sơ hoặc địa chỉ email của bạn trong ứng dụng cho RevenueCat dưới dạng thuộc tính khách hàng. Việc sử dụng ID ẩn danh không có nghĩa là không có thông tin nào được xử lý hoặc hồ sơ giao dịch mua hàng bị xóa khi bạn gỡ cài đặt ứng dụng.</p>\n      <p>Để biết thêm thông tin chi tiết, vui lòng xem <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Chính sách bảo mật của RevenueCat</a> và <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">thông tin của RevenueCat về dữ liệu mua hàng</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Chia sẻ với bên thứ ba",
+      "html": "<p>Chúng tôi không bán thông tin về người dùng. Thông tin có thể được gửi đến hoặc xử lý bởi Firebase, Google AdMob, Apple, RevenueCat và các dịch vụ khác khi cần thiết để cung cấp Ứng dụng. Chúng tôi cũng có thể tiết lộ thông tin khi bạn đồng ý, khi việc tiết lộ được yêu cầu bởi pháp luật, khi cần thiết để bảo vệ tính mạng, thân thể hoặc tài sản, hoặc theo các trường hợp khác được pháp luật cho phép.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Lưu trữ và xóa dữ liệu",
+      "html": "<p>Lịch sử hẹn giờ, hình ảnh mèo, vật phẩm, tiêu đề, cài đặt và dữ liệu khác của ứng dụng có thể được lưu trữ trên thiết bị của bạn. Dữ liệu chỉ được lưu trữ trên thiết bị có thể bị mất nếu ứng dụng bị xóa, thiết bị được đặt lại, thiết bị bị lỗi hoặc vì các lý do khác. Dữ liệu được xử lý bởi các dịch vụ của bên thứ ba được quản lý theo thời hạn và chính sách lưu giữ tương ứng của họ.</p>\n      <p>Việc gỡ cài đặt ứng dụng không tự động xóa hồ sơ mua hàng hoặc thông tin khác do các dịch vụ bên thứ ba lưu giữ. Nếu có thắc mắc hoặc yêu cầu về việc truy cập hoặc xóa thông tin của bạn, vui lòng liên hệ với chúng tôi qua địa chỉ <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Chúng tôi sẽ xử lý các yêu cầu theo luật hiện hành; một số hồ sơ có thể cần được giữ lại để đáp ứng các nghĩa vụ pháp lý hoặc xác minh giao dịch mua hàng.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Lựa chọn về quảng cáo và quyền riêng tư",
+      "html": "<p>Cách thức hiển thị quảng cáo có thể khác nhau tùy theo khu vực, cài đặt thiết bị, tính năng bảo mật của Apple, trạng thái đồng ý và các điều kiện khác. Khi cần thiết, chúng tôi có thể hiển thị màn hình yêu cầu sự đồng ý hoặc lựa chọn liên quan đến quảng cáo hoặc các cách sử dụng dữ liệu khác. Bạn có thể quản lý việc sử dụng mã định danh quảng cáo và các thông tin khác trong phạm vi cho phép thông qua cài đặt quyền riêng tư của iOS.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Trẻ em",
+      "html": "<p>Trẻ vị thành niên nên sử dụng Ứng dụng với sự đồng ý của cha mẹ hoặc người giám hộ hợp pháp khi cần thiết. Ứng dụng không được thiết kế để chủ động thu thập thông tin cá nhân như tên, địa chỉ, số điện thoại hoặc địa chỉ email của trẻ em.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. An ninh",
+      "html": "<p>Chúng tôi nỗ lực thực hiện các biện pháp bảo vệ hợp lý để ngăn chặn việc truy cập trái phép, rò rỉ, sửa đổi, mất mát và các sự kiện tương tự liên quan đến thông tin được xử lý thông qua Ứng dụng.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Những thay đổi đối với Chính sách này",
+      "html": "<p>Chúng tôi có thể thay đổi Chính sách này khi cần thiết do những thay đổi về luật pháp, thay đổi về tính năng của Ứng dụng, thay đổi về dịch vụ của bên thứ ba hoặc các lý do khác. Chính sách sửa đổi sẽ có hiệu lực khi được đăng tải trên Ứng dụng hoặc trên trang web của chúng tôi. Chúng tôi sẽ thông báo về những thay đổi quan trọng khi cần thiết.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Liên hệ",
+      "html": "<div class=\"contact\">\n       <p>Nếu bạn có thắc mắc về Chính sách này hoặc cách xử lý thông tin trong Ứng dụng, vui lòng liên hệ:</p>\n       <p>Nhà phát triển và vận hành: SynCraft</p>\n       <p>Liên hệ: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "vi",
+    "capturedAt": "2026-10-18T07:49:04.673Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "1cde21e1577b657848fdffe926ad9d5fd2a85eb219ec785b208e8e42db47a45b",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Điều khoản sử dụng",
+      "SwingCat",
+      "Liên hệ"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Chọn ngôn ngữ"
+  }
+}

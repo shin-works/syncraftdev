@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "pl",
+  "kind": "privacy",
+  "title": "Polityka prywatności",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Data wejścia w życie: 28 sierpnia 2026 r. <br>\n     Ostatnia aktualizacja: 18 października 2026 r.",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Niniejsza Polityka prywatności wyjaśnia, w jaki sposób SynCraft („my”, „nas” lub „nasz”) przetwarza informacje o użytkownikach w aplikacji iOS SwingCat („Aplikacja”).</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Informacje, które zbieramy i przechowujemy",
+      "html": "<p>Aplikacja zazwyczaj nie wymaga od użytkowników bezpośredniego podawania imienia, adresu, numeru telefonu ani adresu e-mail w celu rejestracji.</p>\n      <p>W zależności od sposobu korzystania z aplikacji, na urządzeniu mogą być przechowywane następujące informacje: ustawienia timera; historia czasu skupienia i timera; wprowadzone przez Ciebie zadania; koty, przedmioty, tytuły i inne treści w aplikacji oraz ich wykorzystanie; ustawienia aplikacji; opcjonalne informacje profilowe, takie jak nazwa; a także status płatnych funkcji.</p>\n      <p>Możemy również gromadzić lub przetwarzać informacje za pośrednictwem usług stron trzecich w celu analizy użytkowania, poprawy jakości, diagnostyki i reklam. Informacje te mogą obejmować typ urządzenia, system operacyjny, ustawienia językowe, wersję aplikacji, zdarzenia związane z uruchomieniem i korzystaniem z funkcji, dane dotyczące awarii i wydajności, adres IP i inne informacje sieciowe, interakcje reklamowe oraz identyfikatory urządzeń lub reklam. Zakres przetwarzanych informacji może się różnić w zależności od wersji systemu iOS, ustawień urządzenia, ustawień prywatności, statusu zgody oraz specyfikacji usług stron trzecich.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Jak wykorzystujemy informacje",
+      "html": "<ol>\n       <li>Aby udostępnić Aplikację i jej funkcje.</li>\n       <li>Aby zrozumieć i przeanalizować sposób korzystania z aplikacji.</li>\n       <li>Aby udoskonalić funkcje, użyteczność i doświadczenie użytkownika.</li>\n       <li>Aby zbadać i naprawić błędy, awarie i inne problemy.</li>\n       <li>Wyświetlanie reklam i udostępnianie funkcji związanych z reklamą.</li>\n       <li>Aby zapewnić nagrody w aplikacji powiązane z reklamami.</li>\n       <li>Aby zapobiec niewłaściwemu użyciu.</li>\n       <li>Aby zapewnić płatne funkcje i potwierdzić status zakupu.</li>\n       <li>Aby odpowiedzieć na zapytania.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Baza ogniowa",
+      "html": "<p>Możemy korzystać z usług świadczonych przez Google LLC, w tym Firebase Analytics, aby analizować sposób korzystania z aplikacji i ulepszać jej funkcje, a także Firebase Crashlytics, aby identyfikować awarie i poprawiać stabilność. Usługi te mogą gromadzić lub przetwarzać informacje o użytkowaniu, informacje o urządzeniu i systemie operacyjnym, dzienniki awarii, stan aplikacji oraz inne informacje diagnostyczne.</p>\n      <p>Polityka prywatności Google i inne obowiązujące warunki mają zastosowanie do informacji przetwarzanych przez Firebase. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Polityka prywatności Google </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Prywatność i bezpieczeństwo Firebase</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>Możemy korzystać z Google AdMob do wyświetlania reklam. Aplikacja może oferować reklamy z nagrodami, dzięki którym użytkownicy mogą otrzymywać przedmioty lub inne korzyści w aplikacji. AdMob i pakiet Google Mobile Ads SDK mogą gromadzić lub przetwarzać adresy IP, informacje o urządzeniu, identyfikatory urządzenia lub reklam, wyświetlenia reklam i interakcje z nimi, interakcje w aplikacji oraz informacje o awariach i wydajności w celu wyświetlania reklam, pomiaru, zapobiegania oszustwom i ulepszania usług.</p>\n      <p>Dostępność identyfikatorów reklamowych może zależeć od ustawień urządzenia, funkcji prywatności Apple i zgody użytkownika. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Polityka prywatności Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Jak Google wykorzystuje dane z witryn lub aplikacji partnerskich</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Zakupy w aplikacji",
+      "html": "<p>Możemy oferować subskrypcje i plany zakupów jednorazowych za pośrednictwem App Store. Apple przetwarza płatności i nie gromadzimy ani nie przechowujemy bezpośrednio numerów kart kredytowych ani innych danych dotyczących płatności. Aby zapewnić płatne funkcje, aplikacja może uzyskiwać dostęp do informacji o zakupionych produktach i statusie subskrypcji lub weryfikować je. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Polityka prywatności Apple</a></p>\n      <p>Korzystamy z usług RevenueCat, Inc. w celu weryfikacji zakupów, zarządzania subskrypcjami i dostępem do funkcji płatnych, przywracania zakupów oraz analizy aktywności związanej z zakupami i subskrypcjami. RevenueCat przetwarza identyfikator użytkownika aplikacji wygenerowany przez pakiet SDK, identyfikatory zakupionych produktów, informacje o transakcjach i historii zakupów, status i daty ważności subskrypcji oraz informacje techniczne, takie jak system operacyjny urządzenia i wersja aplikacji.</p>\n      <p>Używamy anonimowego identyfikatora użytkownika aplikacji generowanego automatycznie przez RevenueCat, zamiast ustawiać imię lub adres e-mail jako identyfikator zakupu. Nie przekazujemy RevenueCat nazwy profilu w aplikacji ani adresu e-mail jako atrybutów klienta. Użycie anonimowego identyfikatora nie oznacza, że żadne informacje nie są przetwarzane ani że zapisy dotyczące zakupów są usuwane po odinstalowaniu aplikacji.</p>\n      <p>Aby uzyskać więcej informacji, zapoznaj się z <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Polityką prywatności RevenueCat</a> i <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informacjami RevenueCat na temat danych zakupowych</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Udostępnianie osobom trzecim",
+      "html": "<p>Nie sprzedajemy informacji o użytkownikach. Informacje mogą być przesyłane do Firebase, Google AdMob, Apple, RevenueCat i innych usług lub przetwarzane przez nie w zakresie niezbędnym do udostępniania Aplikacji. Możemy również ujawnić informacje za Twoją zgodą, gdy jest to wymagane przez prawo, gdy jest to konieczne dla ochrony życia, ciała lub mienia lub w inny sposób dozwolony przez prawo.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Przechowywanie i usuwanie danych",
+      "html": "<p>Historia timera, koty, przedmioty, tytuły, ustawienia i inne dane aplikacji mogą być przechowywane na Twoim urządzeniu. Dane przechowywane wyłącznie na urządzeniu mogą zostać utracone w przypadku usunięcia aplikacji, zresetowania urządzenia, awarii urządzenia lub z innych przyczyn. Dane przetwarzane przez usługi stron trzecich są zarządzane zgodnie z ich odpowiednimi okresami przechowywania i zasadami.</p>\n      <p>Samo odinstalowanie aplikacji nie powoduje usunięcia danych zakupów ani innych informacji przechowywanych przez usługi stron trzecich. W przypadku pytań lub próśb dotyczących dostępu do danych lub ich usunięcia prosimy o kontakt pod adresem <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Będziemy rozpatrywać prośby zgodnie z obowiązującym prawem; niektóre dane mogą wymagać zachowania w celu wypełnienia obowiązków prawnych lub weryfikacji zakupów.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Wybory dotyczące reklam i prywatności",
+      "html": "<p>Sposób wyświetlania reklam może się różnić w zależności od regionu, ustawień urządzenia, funkcji prywatności Apple, statusu zgody i innych warunków. W razie potrzeby możemy wyświetlić ekran z prośbą o wyrażenie zgody lub dokonanie wyboru dotyczącego reklam lub innych zastosowań danych. Możesz zarządzać wykorzystaniem identyfikatorów reklamowych i innych informacji w zakresie dostępnym w ustawieniach prywatności systemu iOS.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Dzieci",
+      "html": "<p>Osoby niepełnoletnie powinny korzystać z Aplikacji za zgodą rodzica lub opiekuna prawnego, jeśli jest to konieczne. Aplikacja nie została zaprojektowana do aktywnego gromadzenia danych osobowych, takich jak imię i nazwisko, adres, numer telefonu czy adres e-mail dziecka.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Bezpieczeństwo",
+      "html": "<p>Dokładamy wszelkich starań, aby podjąć odpowiednie środki bezpieczeństwa w celu zapobiegania nieautoryzowanemu dostępowi, wyciekom, zmianom, utracie i podobnym zdarzeniom dotyczącym informacji przetwarzanych za pośrednictwem Aplikacji.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Zmiany w niniejszej Polityce",
+      "html": "<p>Możemy zmieniać niniejszą Politykę w razie potrzeby ze względu na zmiany prawne, zmiany funkcji Aplikacji, zmiany usług stron trzecich lub z innych przyczyn. Zmieniona Polityka wchodzi w życie z chwilą jej opublikowania w Aplikacji lub na naszej stronie internetowej. W stosownych przypadkach powiadomimy o istotnych zmianach.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Kontakt",
+      "html": "<div class=\"contact\">\n       <p>W przypadku pytań dotyczących niniejszej Polityki lub przetwarzania informacji w Aplikacji:</p>\n       <p>Deweloper i operator: SynCraft</p>\n       <p>Kontakt: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "pl",
+    "capturedAt": "2026-10-18T07:45:07.081Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "8068cefff6610fb00fbf60cab2902962a57d202b0800cdac03c29689d83c3bbd",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Warunki korzystania",
+      "SwingCat",
+      "Kontakt"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Wybierz język"
+  }
+}

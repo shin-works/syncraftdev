@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "locale": "cs",
+  "kind": "terms",
+  "title": "Podmínky použití",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Datum účinnosti: 28. srpna 2026 <br>\n     Poslední aktualizace: 8. září 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Tyto Podmínky použití („Podmínky“) stanoví podmínky pro používání aplikace SwingCat („Aplikace“), aplikace pro iOS poskytované společností SynCraft („my“, „nás“ nebo „naše“).</p>\n      <p>Kromě těchto Podmínek se na vaše používání Aplikace vztahuje Standardní licenční smlouva s koncovým uživatelem (EULA) společnosti Apple.</p>\n      <p>Standardní licenční smlouva s koncovým uživatelem společnosti Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Před použitím aplikace si prosím prostudujte tyto podmínky a standardní licenční smlouvu s koncovým uživatelem společnosti Apple.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Aplikace",
+      "html": "<ol>\n       <li>Aplikace pomáhá uživatelům spravovat soustředění a pracovní čas pomocí časovače.</li>\n       <li>V závislosti na používání časovače může aplikace poskytovat funkce, pomocí kterých mohou uživatelé získávat nebo používat kočky, předměty, tituly a další obsah.</li>\n       <li>Aplikace nezaručuje soustředění, produktivitu, studijní výsledky, pracovní výsledky ani žádný jiný konkrétní výsledek.</li>\n       <li>Funkce se mohou lišit v závislosti na systému iOS, zařízení a dalších podmínkách používání.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Podmínky použití a zakázané chování",
+      "html": "<p>Aplikaci používáte na vlastní nebezpečí a nesmíte: upravovat, dekompilovat, zpětně analyzovat ani provádět podobné úkony v Aplikaci; reprodukovat, dále distribuovat, prodávat ani jinak používat Aplikaci bez povolení; získávat placené funkce, odměny za zhlédnutí reklam nebo jiný obsah nevhodnými prostředky; zasahovat do běžného provozu Aplikace; porušovat platné zákony nebo veřejné zásady; ani se dopouštět chování, které důvodně považujeme za nevhodné. Nezletilí by měli před zakoupením placených služeb získat souhlas rodiče nebo zákonného zástupce, pokud je to vyžadováno.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Duševní vlastnictví",
+      "html": "<p>Autorská práva a další práva duševního vlastnictví k názvům, logům, postavám, designu koček, ilustracím, animacím, obrázkům, textu, zvuku, programům a dalšímu obsahu v Aplikaci patří nám nebo třetím stranám s oprávněnými právy. S výjimkou případů povolených zákonem je nesmíte bez svolení používat, reprodukovat, publikovat, upravovat, dále distribuovat ani prodávat. Obsah vygenerovaný prostřednictvím funkce sdílení poskytované Aplikací může být zveřejněn na sociálních sítích a dalších službách pro běžné účely sdílení, které Aplikace zamýšlí.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Obsah v aplikaci",
+      "html": "<ol>\n       <li>Kočky, předměty, tituly a další digitální obsah dostupný v Aplikaci jsou určeny k použití v Aplikaci.</li>\n       <li>Nemají žádnou reálnou peněžní hodnotu a nelze je směnit za hotovost ani jiný majetek.</li>\n       <li>Z důvodu vylepšení, úpravy vyváženosti, změn specifikací nebo provozních potřeb si vyhrazujeme právo změnit názvy, obsah, podmínky získání, podmínky použití, zobrazení a další specifikace.</li>\n       <li>Snažíme se během aktualizací zachovat uživatelská data, kde je to přiměřeně možné, ale nezaručujeme jejich úplné zachování nebo obnovení na každém zařízení, operačním systému nebo prostředí.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Reklama a odměny",
+      "html": "<p>Aplikace může zobrazovat reklamy prostřednictvím služeb, jako je Google AdMob, a může nabízet odměny v podobě položek nebo jiných výhod v aplikaci. Podmínky pro odměny jsou ty, které jsou zobrazeny v aplikaci. Obsah, prezentace, frekvence a výhody reklamy se mohou dle potřeby měnit. Za obsah reklam odpovídají inzerenti a poskytovatelé reklamy; neručíme za inzerované produkty ani služby.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Placené služby a nákupy",
+      "html": "<p>Kromě bezplatných funkcí může aplikace nabízet placené funkce nebo obsah, včetně měsíčních předplatných, ročních předplatných a jednorázových nákupních plánů. Platí produkty, ceny, období a dostupné funkce uvedené v aplikaci a App Storu v době nákupu. Nákupy a platby se provádějí prostřednictvím App Storu společnosti Apple; přímo neshromažďujeme ani neukládáme informace o platebních kartách.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Předplatné",
+      "html": "<p>Poplatky za předplatné jsou účtovány z vašeho účtu Apple. Předplatné se automaticky obnovuje pro každé příslušné období, pokud automatické obnovení nevypnete v nastavení App Storu. Po vypnutí automatického obnovení zůstávají příslušné funkce obvykle k dispozici až do konce aktuálního placeného období. Správu předplatného, ​​zrušení automatického obnovení, vrácení peněz a další platební záležitosti upravují obchodní podmínky a zásady společností Apple a App Storu.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Jednorázové nákupní plány",
+      "html": "<p>Jednorázový nákupní plán poskytuje právo používat příslušné placené funkce bez opakovaných plateb předplatného. Nezaručuje trvalé poskytování aplikace, všech funkcí, integrací třetích stran ani kompatibilitu se všemi budoucími verzemi nebo zařízeními iOS. Obnovení informací o nákupu a související záležitosti podléhají systémům a zásadám společností Apple a App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Ukládání dat",
+      "html": "<p>Nastavení, historie časovače, kočky, položky, tituly a další data mohou být uložena ve vašem zařízení. Data mohou být ztracena v důsledku smazání aplikace, selhání nebo výměny zařízení, aktualizací operačního systému, vad aplikace nebo jiných okolností. Snažíme se data uchovávat, kde je to přiměřeně možné, ale nezaručujeme, že všechna data lze vždy uložit nebo obnovit.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Prohlášení o vyloučení odpovědnosti",
+      "html": "<p>Nezaručujeme, že Aplikace bude vždy správně fungovat na každém zařízení a v každém operačním prostředí, ani že bude přesná, úplná, bezpečná, vhodná pro konkrétní účel nebo nepřetržitě dostupná. Časovače, oznámení a další funkce nemusí fungovat podle očekávání kvůli nastavení zařízení, specifikacím systému iOS, funkcím úspory energie, stavu sítě nebo jiným okolnostem. S výjimkou případů našeho úmyslného pochybení, hrubé nedbalosti nebo odpovědnosti, kterou nelze ze zákona vyloučit, neneseme odpovědnost za škody vzniklé v důsledku používání nebo nemožnosti používat Aplikaci.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Změny nebo ukončení",
+      "html": "<p>Můžeme přidávat, měnit, kontrolovat, omezovat, pozastavovat nebo ukončovat funkce nebo celou Aplikaci nebo její část dle potřeby s přihlédnutím k vývojovým a provozním okolnostem, podporovaným zařízením, specifikacím iOS, službám třetích stran a dalším faktorům. O podstatných změnách nebo ukončení budeme informovat, pokud je to přiměřeně možné.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Změny těchto Podmínek",
+      "html": "<p>Tyto Podmínky můžeme v případě potřeby změnit z důvodu právních změn, změn Aplikace nebo z jiných důvodů. Revidované Podmínky nabývají účinnosti zveřejněním v Aplikaci nebo na našich webových stránkách. V případě potřeby vás o podstatných změnách budeme informovat.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Rozhodné právo",
+      "html": "<p>Tyto Podmínky se řídí a vykládají v souladu s japonskými zákony. Spory týkající se Aplikace nebo těchto Podmínek budou řešeny v souladu s japonskými zákony.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Kontakt",
+      "html": "<div class=\"contact\">\n       <p>Vývojář a provozovatel: SynCraft</p>\n       <p>Kontakt: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "cs",
+    "capturedAt": "2026-10-18T07:44:01.778Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "875f38b8e470cbdbf5e5f983989cf4b95a4da2db4b96ff6a68f3eeb98423161b",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Zásady ochrany osobních údajů",
+      "SwingCat",
+      "Kontakt"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Vyberte jazyk"
+  }
+}

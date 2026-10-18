@@ -1,0 +1,19 @@
+{
+  "sourceWebsiteCommit": "51dda0ad6017da95d639dc93203a29ee512f2d7f",
+  "verifiedPublicSourceHashes": {
+    "privacy": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+    "terms": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1"
+  },
+  "sources": {
+    "privacy": {
+      "sectionsHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+      "fileSha256": "ac973f5142f179b1c96bfa45c51bc1c62ff806350205903ed49f135f4e81c7e3",
+      "updatedDate": "2026-10-18"
+    },
+    "terms": {
+      "sectionsHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+      "fileSha256": "8d88e88c860d2fe0fdd6d6377bf912f36d402f80816b691d8d21c5e881bc7147",
+      "updatedDate": "2026-09-08"
+    }
+  }
+}

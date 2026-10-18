@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "locale": "fi",
+  "kind": "terms",
+  "title": "Käyttöehdot",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Voimaantulopäivä: 28. elokuuta 2026 <br>\n     Viimeksi päivitetty: 8. syyskuuta 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Nämä käyttöehdot (\"Ehdot\") määrittelevät SwingCatin (\"Sovellus\") käyttöehdot. SwingCat on SynCraftin (\"me\", \"meitä\" tai \"meidän\") tarjoama iOS-sovellus.</p>\n      <p>Näiden Ehtojen lisäksi Sovelluksen käyttöön sovelletaan Applen vakiokäyttöoikeussopimusta (EULA).</p>\n      <p>Applen vakiokäyttöoikeussopimus: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Lue nämä ehdot ja Applen vakiokäyttöoikeussopimus ennen sovelluksen käyttöä.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Sovellus",
+      "html": "<ol>\n       <li>Sovellus auttaa käyttäjiä hallitsemaan keskittymistä ja työaikaa ajastimen avulla.</li>\n       <li>Ajastimen käytöstä riippuen sovellus voi tarjota ominaisuuksia, joiden kautta käyttäjät voivat hankkia tai käyttää kissoja, esineitä, nimikkeitä ja muuta sisältöä.</li>\n       <li>Sovellus ei takaa keskittymistä, tuottavuutta, oppimistuloksia, työtuloksia tai mitään muuta tiettyä tulosta.</li>\n       <li>Ominaisuudet voivat vaihdella iOS:n, laitteen ja muiden käyttöolosuhteiden mukaan.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Käyttöehdot ja kielletty toiminta",
+      "html": "<p>Käytät Sovellusta omalla vastuullasi, etkä saa: muokata, purkaa, takaisinmallintaa tai suorittaa vastaavia toimia Sovelluksessa; jäljentää, jakaa, myydä tai muuten käyttää Sovellusta ilman lupaa; hankkia maksullisia ominaisuuksia, mainosten katselupalkkioita tai muuta sisältöä sopimattomin keinoin; häiritä Sovelluksen normaalia toimintaa; rikkoa sovellettavia lakeja tai julkista politiikkaa; tai syyllistyä toimintaan, jota kohtuudella pidämme sopimattomana. Alaikäisten tulee pyytää vanhemman tai laillisen huoltajan suostumus, jos se on tarpeen, ennen maksullisten palveluiden ostamista.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Immateriaalioikeudet",
+      "html": "<p>Tekijänoikeudet ja muut immateriaalioikeudet nimiin, logoihin, hahmoihin, kissakuvioihin, kuviin, animaatioihin, teksteihin, ääniin, ohjelmiin ja muuhun sovelluksen sisältöön kuuluvat meille tai kolmansille osapuolille, joilla on niihin lailliset oikeudet. Ellei laki sitä salli, et saa käyttää, kopioida, julkaista, muokata, jakaa edelleen tai myydä niitä ilman lupaa. Sovelluksen tarjoaman jakamisominaisuuden kautta luotua sisältöä voidaan julkaista sosiaalisessa mediassa ja muissa palveluissa sovelluksen tarkoittamissa tavanomaisissa jakamistarkoituksissa.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Sovelluksen sisäinen sisältö",
+      "html": "<ol>\n       <li>Sovelluksessa saatavilla olevat kissat, esineet, nimikkeet ja muu digitaalinen sisältö on tarkoitettu käytettäväksi sovelluksen sisällä.</li>\n       <li>Niillä ei ole todellista rahallista arvoa, eikä niitä voi vaihtaa rahaksi tai muuksi omaisuudeksi.</li>\n       <li>Saatamme muuttaa nimiä, sisältöä, hankintaehtoja, käyttöehtoja, näyttöä ja muita tietoja parannusten, saldomuutosten, tietojen muutosten tai operatiivisten tarpeiden vuoksi.</li>\n       <li>Pyrimme säilyttämään käyttäjätiedot päivitysten aikana aina kun se on kohtuudella mahdollista, mutta emme takaa täydellistä säilymistä tai palauttamista kaikilla laitteilla, käyttöjärjestelmillä tai ympäristöillä.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Mainonta ja palkinnot",
+      "html": "<p>Sovellus voi näyttää mainoksia palveluiden, kuten Google AdMobin, kautta ja tarjota palkittuja mainoksia, jotka tarjoavat tuotteita tai muita sovelluksen sisäisiä etuja. Palkintojen ehdot ovat samat kuin sovelluksessa näkyvät. Mainosten sisältö, esitystapa, tiheys ja edut voivat muuttua tarpeen mukaan. Mainostajat ja mainosten tarjoajat ovat vastuussa mainosten sisällöstä; emme takaa mainostettuja tuotteita tai palveluita.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Maksulliset palvelut ja ostot",
+      "html": "<p>Ilmaisten ominaisuuksien lisäksi sovellus voi tarjota maksullisia ominaisuuksia tai sisältöä, kuten kuukausitilauksia, vuositilauksia ja kertaostoksia. Sovelluksessa ja App Storessa ostohetkellä näkyvät tuotteet, hinnat, jaksot ja käytettävissä olevat ominaisuudet ovat voimassa. Ostokset ja maksut tehdään Applen App Storen kautta; emme kerää tai tallenna maksukorttitietoja suoraan.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Tilaukset",
+      "html": "<p>Tilausmaksut veloitetaan Apple-tililtäsi. Tilaus uusiutuu automaattisesti kullekin sovellettavalle jaksolle, ellet poista automaattista uusimista käytöstä App Storen asetuksissa. Kun automaattinen uusiminen on poistettu käytöstä, kyseiset ominaisuudet pysyvät yleensä käytettävissä nykyisen maksetun kauden loppuun asti. Applen ja App Storen käyttöehdot ja käytännöt koskevat tilausten hallintaa, automaattisen uusimisen peruuttamista, hyvityksiä ja muita maksuasioita.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Kertaluonteiset ostosuunnitelmat",
+      "html": "<p>Kertaostospaketti antaa oikeuden käyttää asiaankuuluvia maksullisia ominaisuuksia ilman toistuvia tilausmaksuja. Se ei takaa sovelluksen, kaikkien ominaisuuksien, kolmansien osapuolten integraatioiden tai yhteensopivuuden jatkuvaa saatavuutta kaikkien tulevien iOS-versioiden tai -laitteiden kanssa. Ostotietojen palauttaminen ja siihen liittyvät asiat ovat Applen ja App Storen järjestelmien ja käytäntöjen alaisia.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Tiedon tallennus",
+      "html": "<p>Laitteellesi voidaan tallentaa asetuksia, ajastinhistoriaa, kissoja, kohteita, otsikoita ja muita tietoja. Tietoja voi kadota sovelluksen poistamisen, laitteen vian tai vaihdon, käyttöjärjestelmän päivitysten, sovellusvirheiden tai muiden olosuhteiden vuoksi. Pyrimme säilyttämään tiedot aina kun se on kohtuudella mahdollista, mutta emme takaa, että kaikki tiedot voidaan aina tallentaa tai palauttaa.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Vastuuvapauslausekkeet",
+      "html": "<p>Emme takaa, että sovellus toimii aina oikein kaikilla laitteilla ja käyttöjärjestelmissä tai että se on tarkka, täydellinen, turvallinen, sopii tiettyyn tarkoitukseen tai on jatkuvasti käytettävissä. Ajastimet, ilmoitukset ja muut ominaisuudet eivät välttämättä toimi odotetulla tavalla laiteasetusten, iOS:n teknisten tietojen, virransäästöominaisuuksien, verkko-olosuhteiden tai muiden olosuhteiden vuoksi. Emme ole vastuussa vahingoista, jotka johtuvat sovelluksen käytöstä tai käyttökyvyttömyydestä, lukuun ottamatta tapauksia, joissa kyseessä on tahallinen väärinkäytös, törkeä huolimattomuus tai vastuu, jota ei voida lain mukaan sulkea pois.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Muutokset tai lopettaminen",
+      "html": "<p>Voimme lisätä, muuttaa, tarkistaa, vähentää, keskeyttää tai lopettaa ominaisuuksia tai koko Sovelluksen tai sen osan tarpeen mukaan ottaen huomioon kehitys- ja toimintaolosuhteet, tuetut laitteet, iOS-määritykset, kolmansien osapuolten palvelut ja muut tekijät. Ilmoitamme olennaisista muutoksista tai lopettamisesta, jos se on kohtuudella mahdollista.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Näiden ehtojen muutokset",
+      "html": "<p>Voimme muuttaa näitä ehtoja tarvittaessa lakisääteisten muutosten, sovelluksen muutosten tai muiden syiden vuoksi. Tarkistetut ehdot tulevat voimaan, kun ne julkaistaan ​​sovelluksessa tai verkkosivustollamme. Ilmoitamme olennaisista muutoksista tarvittaessa.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Sovellettava laki",
+      "html": "<p>Näihin ehtoihin sovelletaan Japanin lakia, ja niitä tulkitaan Japanin lakien mukaisesti. Sovellukseen tai näihin ehtoihin liittyvät riidat ratkaistaan ​​Japanin lain mukaisesti.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Yhteystiedot",
+      "html": "<div class=\"contact\">\n       <p>Kehittäjä ja operaattori: SynCraft</p>\n       <p>Yhteystiedot: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "fi",
+    "capturedAt": "2026-10-18T07:40:18.581Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "282d4c23f377e1447116068d5caa493f05879e6242a9bdbbcbaee8a19808ce2c",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Tietosuojakäytäntö",
+      "SwingCat",
+      "Yhteystiedot"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Valitse kieli"
+  }
+}

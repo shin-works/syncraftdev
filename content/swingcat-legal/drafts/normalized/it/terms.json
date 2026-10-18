@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "locale": "it",
+  "kind": "terms",
+  "title": "Termini di utilizzo",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Data di entrata in vigore: 28 agosto 2026 <br>\n     Ultimo aggiornamento: 8 settembre 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Le presenti Condizioni d'uso (“Condizioni”) stabiliscono i termini e le condizioni per l'utilizzo di SwingCat (l'“App”), un'applicazione iOS fornita da SynCraft (“noi”, “ci” o “nostro”).</p>\n      <p>Oltre ai presenti Termini, l'utilizzo dell'App è soggetto al Contratto di licenza standard per l'utente finale (EULA) di Apple.</p>\n      <p>Contratto di licenza standard per l'utente finale di Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Prima di utilizzare l'App, si prega di leggere attentamente i presenti Termini e il Contratto di licenza standard per l'utente finale di Apple.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. L'app",
+      "html": "<ol>\n       <li>L'app aiuta gli utenti a gestire la concentrazione e il tempo di lavoro tramite un timer.</li>\n       <li>A seconda dell'utilizzo del timer, l'App potrebbe fornire funzionalità tramite le quali gli utenti possono ottenere o utilizzare gatti, oggetti, titoli e altri contenuti.</li>\n       <li>L'app non garantisce concentrazione, produttività, risultati di apprendimento, risultati lavorativi o qualsiasi altro risultato specifico.</li>\n       <li>Le funzionalità possono variare a seconda di iOS, del dispositivo e di altre condizioni di utilizzo.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Condizioni d'uso e condotte vietate",
+      "html": "<p>L'utilizzo dell'App è a vostro esclusivo rischio e non dovete: modificare, decompilare, decodificare o eseguire azioni simili sull'App; riprodurre, ridistribuire, vendere o utilizzare in altro modo l'App senza autorizzazione; ottenere funzionalità a pagamento, ricompense per la visualizzazione di annunci pubblicitari o altri contenuti con mezzi impropri; interferire con il normale funzionamento dell'App; violare le leggi applicabili o l'ordine pubblico; o intraprendere comportamenti che riteniamo ragionevolmente inappropriati. I minori devono ottenere il consenso di un genitore o tutore legale, ove richiesto, prima di acquistare servizi a pagamento.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Proprietà intellettuale",
+      "html": "<p>I diritti d'autore e altri diritti di proprietà intellettuale relativi a nomi, loghi, personaggi, disegni di gatti, illustrazioni, animazioni, immagini, testi, audio, programmi e altri contenuti dell'App appartengono a noi o a terze parti titolari di diritti legittimi. Salvo quanto consentito dalla legge, non è consentito utilizzare, riprodurre, pubblicare, modificare, ridistribuire o vendere tali contenuti senza autorizzazione. I contenuti generati tramite la funzione di condivisione fornita dall'App possono essere pubblicati sui social media e altri servizi per le normali finalità di condivisione previste dall'App stessa.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Contenuti in-app",
+      "html": "<ol>\n       <li>Gatti, oggetti, titoli e altri contenuti digitali disponibili nell'App sono destinati all'utilizzo all'interno dell'App stessa.</li>\n       <li>Non hanno alcun valore monetario reale e non possono essere scambiati con denaro contante o altri beni.</li>\n       <li>Potremmo modificare nomi, contenuti, condizioni di acquisizione, condizioni d'uso, visualizzazione e altre specifiche per apportare miglioramenti, bilanciamenti, modifiche alle specifiche o esigenze operative.</li>\n       <li>Ci impegniamo a preservare i dati degli utenti ove ragionevolmente possibile durante gli aggiornamenti, ma non garantiamo la completa conservazione o il ripristino su ogni dispositivo, sistema operativo o ambiente.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Pubblicità e premi",
+      "html": "<p>L'App potrebbe visualizzare annunci pubblicitari tramite servizi come Google AdMob e potrebbe offrire annunci con premio che forniscono oggetti o altri vantaggi all'interno dell'App. Le condizioni per ottenere i premi sono quelle indicate nell'App. Il contenuto, la presentazione, la frequenza e i vantaggi degli annunci possono variare in base alle necessità. Gli inserzionisti e i fornitori di annunci sono responsabili del contenuto degli annunci; non garantiamo i prodotti o i servizi pubblicizzati.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Servizi a pagamento e acquisti",
+      "html": "<p>Oltre alle funzionalità gratuite, l'App potrebbe offrire funzionalità o contenuti a pagamento, inclusi abbonamenti mensili, abbonamenti annuali e piani di acquisto una tantum. Si applicano i prodotti, i prezzi, i periodi e le funzionalità disponibili mostrati nell'App e nell'App Store al momento dell'acquisto. Gli acquisti e i pagamenti vengono effettuati tramite l'App Store di Apple; non raccogliamo né memorizziamo direttamente i dati delle carte di pagamento.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Abbonamenti",
+      "html": "<p>Le quote di abbonamento vengono addebitate sul tuo account Apple. L'abbonamento si rinnova automaticamente per ogni periodo applicabile, a meno che tu non disattivi il rinnovo automatico nelle impostazioni dell'App Store. Dopo aver disattivato il rinnovo automatico, le relative funzionalità rimangono generalmente disponibili fino alla fine del periodo di abbonamento in corso. La gestione degli abbonamenti, la disattivazione del rinnovo automatico, i rimborsi e altre questioni relative ai pagamenti sono regolati dai termini, dalle condizioni e dalle politiche di Apple e dell'App Store.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Piani di acquisto una tantum",
+      "html": "<p>Un piano di acquisto una tantum dà diritto a utilizzare le relative funzionalità a pagamento senza pagamenti di abbonamento ricorrenti. Non garantisce la disponibilità perpetua dell'App, di tutte le funzionalità, delle integrazioni di terze parti o la compatibilità con tutte le future versioni di iOS o dispositivi. Il ripristino delle informazioni di acquisto e le questioni correlate sono soggette ai sistemi e alle politiche di Apple e dell'App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Archiviazione dei dati",
+      "html": "<p>Le impostazioni, la cronologia del timer, i gatti, gli oggetti, i titoli e altri dati possono essere memorizzati sul dispositivo. I dati potrebbero andare persi a causa della disinstallazione dell'app, di guasti o sostituzioni del dispositivo, di aggiornamenti del sistema operativo, di difetti dell'app o di altre circostanze. Ci impegniamo a preservare i dati laddove ragionevolmente possibile, ma non garantiamo che tutti i dati possano essere sempre salvati o ripristinati.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Dichiarazioni di non responsabilità",
+      "html": "<p>Non garantiamo che l'App funzioni sempre correttamente su ogni dispositivo e sistema operativo, né che sia accurata, completa, sicura, adatta a uno scopo specifico o continuamente disponibile. Timer, notifiche e altre funzionalità potrebbero non funzionare come previsto a causa delle impostazioni del dispositivo, delle specifiche iOS, delle funzionalità di risparmio energetico, delle condizioni di rete o di altre circostanze. Salvo in caso di dolo, colpa grave o responsabilità non escludibile per legge, non saremo responsabili per danni derivanti dall'utilizzo o dall'impossibilità di utilizzare l'App.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Modifiche o interruzione",
+      "html": "<p>Potremmo aggiungere, modificare, rivedere, ridurre, sospendere o interrompere funzionalità o l'App, in tutto o in parte, a seconda delle necessità, tenendo conto delle circostanze di sviluppo e operative, dei dispositivi supportati, delle specifiche iOS, dei servizi di terze parti e di altri fattori. Forniremo un preavviso di modifiche sostanziali o di interruzione laddove ragionevolmente possibile.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Modifiche alle presenti Condizioni",
+      "html": "<p>Potremmo modificare i presenti Termini in base alle necessità, a seguito di modifiche legislative, modifiche all'App o per altri motivi. I Termini modificati entreranno in vigore al momento della loro pubblicazione nell'App o sul nostro sito web. Forniremo un avviso di eventuali modifiche sostanziali, ove opportuno.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Legge applicabile",
+      "html": "<p>Le presenti Condizioni sono regolate e interpretate in conformità con le leggi del Giappone. Le controversie relative all'App o alle presenti Condizioni saranno risolte in conformità con la legge giapponese.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Contatto",
+      "html": "<div class=\"contact\">\n       <p>Sviluppatore e gestore: SynCraft</p>\n       <p>Contatto: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "it",
+    "capturedAt": "2026-10-18T07:33:15.585Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "99d133f2c70a0519df137bc23c04ce1faa2dadb14a686f135dc33ce4daa1d5c5",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "politica sulla riservatezza",
+      "SwingCat",
+      "Contatto"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Seleziona la lingua"
+  }
+}

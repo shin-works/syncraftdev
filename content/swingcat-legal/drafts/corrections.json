@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "notes": "Codex editorial corrections to machine drafts; these do not establish full native or legal review.",
+  "documents": {
+    "fr/privacy": {
+      "title": "Politique de confidentialité"
+    },
+    "es/privacy": {
+      "title": "Política de privacidad"
+    },
+    "it/privacy": {
+      "title": "Informativa sulla privacy"
+    },
+    "pt-BR/privacy": {
+      "title": "Política de Privacidade"
+    },
+    "pt-PT/privacy": {
+      "title": "Política de Privacidade"
+    },
+    "ru/privacy": {
+      "title": "Политика конфиденциальности"
+    },
+    "ru/terms": {
+      "title": "Условия использования"
+    },
+    "ml/terms": {
+      "title": "ഉപയോഗ നിബന്ധനകൾ"
+    },
+    "pa/privacy": {
+      "title": "ਗੋਪਨੀਯਤਾ ਨੀਤੀ"
+    },
+    "pa/terms": {
+      "title": "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ"
+    },
+    "sl/terms": {
+      "sections": {
+        "section-13": {
+          "html": "<p>Za te pogoje se uporablja japonsko pravo, v skladu s katerim se tudi razlagajo. Spori v zvezi z aplikacijo ali temi pogoji se rešujejo v skladu z japonskim pravom.</p>"
+        },
+        "section-10": {
+          "html": "<p>Ne zagotavljamo, da bo aplikacija vedno pravilno delovala na vsaki napravi in ​​operacijskem okolju ali da bo natančna, popolna, varna, primerna za določen namen ali neprekinjeno na voljo. Časovniki, obvestila in druge funkcije morda ne bodo delovali po pričakovanjih zaradi nastavitev naprave, specifikacij sistema iOS, funkcij za varčevanje z energijo, omrežnih razmer ali drugih okoliščin. Razen v primerih našega namernega protipravnega ravnanja, hude malomarnosti ali odgovornosti, ki je po zakonu ni mogoče izključiti, ne odgovarjamo za škodo, ki nastane zaradi uporabe ali nezmožnosti uporabe aplikacije.</p>"
+        }
+      }
+    },
+    "kn/privacy": {
+      "textReplacements": [
+        {
+          "from": "ಸಿನ್‌ಕ್ರಾಫ್ಟ್",
+          "to": "SynCraft"
+        },
+        {
+          "from": "ಸ್ವಿಂಗ್‌ಕ್ಯಾಟ್",
+          "to": "SwingCat"
+        }
+      ],
+      "sections": {
+        "section-05": {
+          "html": "<p>ನಾವು ಆಪ್ ಸ್ಟೋರ್ ಮೂಲಕ ಚಂದಾದಾರಿಕೆಗಳು ಮತ್ತು ಒಂದು-ಬಾರಿಯ ಖರೀದಿ ಯೋಜನೆಗಳನ್ನು ನೀಡಬಹುದು. ಆಪಲ್ ಪಾವತಿಗಳನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ನಾವು ಕ್ರೆಡಿಟ್-ಕಾರ್ಡ್ ಸಂಖ್ಯೆಗಳು ಅಥವಾ ಇತರ ಪಾವತಿ ವಿವರಗಳನ್ನು ನೇರವಾಗಿ ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ ಅಥವಾ ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ. ಪಾವತಿಸಿದ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಒದಗಿಸಲು, ಅಪ್ಲಿಕೇಶನ್ ಖರೀದಿಸಿದ ಉತ್ಪನ್ನಗಳು ಮತ್ತು ಚಂದಾದಾರಿಕೆ ಸ್ಥಿತಿಯ ಕುರಿತು ಮಾಹಿತಿಯನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಅಥವಾ ಪರಿಶೀಲಿಸಬಹುದು. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">ಆಪಲ್ ಗೌಪ್ಯತಾ ನೀತಿ</a></p>\n      <p>ಖರೀದಿಗಳನ್ನು ಪರಿಶೀಲಿಸಲು, ಚಂದಾದಾರಿಕೆ ಮತ್ತು ಪಾವತಿಸಿದ-ವೈಶಿಷ್ಟ್ಯದ ಪ್ರವೇಶವನ್ನು ನಿರ್ವಹಿಸಲು, ಖರೀದಿಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಮತ್ತು ಖರೀದಿ ಮತ್ತು ಚಂದಾದಾರಿಕೆ ಚಟುವಟಿಕೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನಾವು RevenueCat, Inc. ಅನ್ನು ಬಳಸುತ್ತೇವೆ. RevenueCat ತನ್ನ SDK ಯಿಂದ ಉತ್ಪತ್ತಿಯಾಗುವ ಅಪ್ಲಿಕೇಶನ್ ಬಳಕೆದಾರ ID, ಖರೀದಿಸಿದ ಉತ್ಪನ್ನ ಗುರುತಿಸುವಿಕೆಗಳು, ವಹಿವಾಟು ಮತ್ತು ಖರೀದಿ-ಇತಿಹಾಸದ ಮಾಹಿತಿ, ಚಂದಾದಾರಿಕೆ ಸ್ಥಿತಿ ಮತ್ತು ಮುಕ್ತಾಯ ದಿನಾಂಕಗಳು ಮತ್ತು ಸಾಧನ ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಆವೃತ್ತಿಯಂತಹ ತಾಂತ್ರಿಕ ಮಾಹಿತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>ನಿಮ್ಮ ಖರೀದಿ ಗುರುತಿಸುವಿಕೆಯಾಗಿ ಹೆಸರು ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಹೊಂದಿಸುವ ಬದಲು ನಾವು RevenueCat ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಚಿಸುವ ಅನಾಮಧೇಯ ಅಪ್ಲಿಕೇಶನ್ ಬಳಕೆದಾರ ID ಅನ್ನು ಬಳಸುತ್ತೇವೆ. ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿನ ಪ್ರೊಫೈಲ್ ಹೆಸರು ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಗ್ರಾಹಕರ ಗುಣಲಕ್ಷಣಗಳಾಗಿ ನಾವು RevenueCat ಗೆ ಕಳುಹಿಸುವುದಿಲ್ಲ. ಅನಾಮಧೇಯ ID ಬಳಸಿದರೂ ಮಾಹಿತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಬಹುದು. ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಅಸ್ಥಾಪಿಸುವುದರಿಂದ ಮಾತ್ರ ಖರೀದಿ ದಾಖಲೆಗಳು ಅಳಿಸಲ್ಪಡುವುದಿಲ್ಲ.</p>\n      <p>ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ, <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat ಗೌಪ್ಯತಾ ನೀತಿ</a> ಮತ್ತು <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">ಖರೀದಿ ಡೇಟಾದ ಕುರಿತು RevenueCat ನ ಮಾಹಿತಿಯನ್ನು</a> ನೋಡಿ .</p>"
+        }
+      }
+    },
+    "kn/terms": {
+      "textReplacements": [
+        {
+          "from": "ಸಿನ್‌ಕ್ರಾಫ್ಟ್",
+          "to": "SynCraft"
+        },
+        {
+          "from": "ಸ್ವಿಂಗ್‌ಕ್ಯಾಟ್",
+          "to": "SwingCat"
+        }
+      ]
+    },
+    "te/privacy": {
+      "textReplacements": [
+        {
+          "from": "రెవెన్యూక్యాట్",
+          "to": "RevenueCat"
+        }
+      ]
+    },
+    "gu/terms": {
+      "sections": {
+        "section-10": {
+          "html": "<p>અમે ગેરંટી આપતા નથી કે એપ્લિકેશન હંમેશા દરેક ઉપકરણ અને OS વાતાવરણ પર યોગ્ય રીતે કાર્ય કરશે, અથવા તે સચોટ, સંપૂર્ણ, સુરક્ષિત, ચોક્કસ હેતુ માટે યોગ્ય, અથવા સતત ઉપલબ્ધ રહેશે. ઉપકરણ સેટિંગ્સ, iOS સ્પષ્ટીકરણો, પાવર-સેવિંગ સુવિધાઓ, નેટવર્ક પરિસ્થિતિઓ અથવા અન્ય પરિસ્થિતિઓને કારણે ટાઈમર, સૂચનાઓ અને અન્ય સુવિધાઓ અપેક્ષા મુજબ કાર્ય કરી શકશે નહીં. અમારી ઇરાદાપૂર્વકની ગેરવર્તણૂક, ઘોર બેદરકારી અથવા કાયદા મુજબ બાકાત રાખી ન શકાય તેવી જવાબદારીના કિસ્સાઓ સિવાય, એપ્લિકેશનનો ઉપયોગ કરવાથી અથવા તેનો ઉપયોગ ન કરી શકવાથી થતા નુકસાન માટે અમે જવાબદાર નથી.</p>"
+        }
+      }
+    },
+    "hi/terms": {
+      "sections": {
+        "section-10": {
+          "html": "<p>हम इस बात की गारंटी नहीं देते कि ऐप हर डिवाइस और ऑपरेटिंग सिस्टम पर हमेशा सही ढंग से काम करेगा, या यह सटीक, पूर्ण, सुरक्षित, किसी विशेष उद्देश्य के लिए उपयुक्त या लगातार उपलब्ध रहेगा। डिवाइस सेटिंग्स, iOS स्पेसिफिकेशन्स, पावर-सेविंग फीचर्स, नेटवर्क की स्थिति या अन्य परिस्थितियों के कारण टाइमर, नोटिफिकेशन और अन्य सुविधाएं अपेक्षा के अनुरूप काम नहीं कर सकती हैं। हमारे जानबूझकर किए गए कदाचार, घोर लापरवाही या ऐसी ज़िम्मेदारी के मामलों को छोड़कर जिसे कानून के तहत बाहर नहीं किया जा सकता, हम ऐप के उपयोग या उसका उपयोग न कर पाने से होने वाले नुकसान के लिए ज़िम्मेदार नहीं हैं।</p>"
+        }
+      }
+    },
+    "pl/terms": {
+      "sections": {
+        "section-10": {
+          "html": "<p>Nie gwarantujemy, że Aplikacja będzie zawsze działać poprawnie na każdym urządzeniu i w każdym systemie operacyjnym, ani że będzie dokładna, kompletna, bezpieczna, odpowiednia do określonego celu lub stale dostępna. Timery, powiadomienia i inne funkcje mogą nie działać zgodnie z oczekiwaniami z powodu ustawień urządzenia, specyfikacji systemu iOS, funkcji oszczędzania energii, warunków sieciowych lub innych okoliczności. Z wyjątkiem przypadków naszej winy umyślnej, rażącego niedbalstwa lub odpowiedzialności, której zgodnie z prawem nie można wyłączyć, nie ponosimy odpowiedzialności za szkody wynikające z korzystania z Aplikacji lub niemożności korzystania z niej.</p>"
+        }
+      }
+    },
+    "th/terms": {
+      "sections": {
+        "section-10": {
+          "html": "<p>เราไม่รับประกันว่าแอปพลิเคชันจะทำงานได้อย่างถูกต้องบนทุกอุปกรณ์และระบบปฏิบัติการ หรือจะมีความถูกต้อง ครบถ้วน ปลอดภัย เหมาะสมกับวัตถุประสงค์เฉพาะ หรือพร้อมใช้งานอย่างต่อเนื่อง ตัวจับเวลา การแจ้งเตือน และคุณสมบัติอื่นๆ อาจไม่ทำงานตามที่คาดหวังเนื่องจากการตั้งค่าอุปกรณ์ ข้อกำหนดของ iOS คุณสมบัติการประหยัดพลังงาน สภาพเครือข่าย หรือสถานการณ์อื่นๆ ยกเว้นในกรณีที่เรากระทำผิดโดยเจตนา หรือประมาทเลินเล่ออย่างร้ายแรง หรือมีความรับผิดที่กฎหมายไม่อนุญาตให้ยกเว้น เราจะไม่รับผิดชอบต่อความเสียหายที่เกิดจากการใช้หรือการไม่สามารถใช้แอปได้</p>"
+        }
+      }
+    },
+    "cs/privacy": {
+      "sections": {
+        "section-05": {
+          "html": "<p>Prostřednictvím App Storu můžeme nabízet předplatné a jednorázové nákupní plány. Apple zpracovává platby a my přímo neshromažďujeme ani neukládáme čísla kreditních karet ani jiné platební údaje. Aby mohla aplikace poskytovat placené funkce, může přistupovat k informacím o zakoupených produktech a stavu předplatného nebo je ověřovat. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobních údajů společnosti Apple</a></p>\n      <p>Společnost RevenueCat, Inc. používáme k ověřování nákupů, správě předplatného a přístupu k placeným funkcím, obnovování nákupů a porozumění aktivitě nákupů a předplatného. RevenueCat zpracovává ID uživatele aplikace generované její sadou SDK, identifikátory zakoupených produktů, informace o historii transakcí a nákupů, stav a data vypršení platnosti předplatného a technické informace, jako je operační systém zařízení a verze aplikace.</p>\n      <p>Jako identifikátor nákupu používáme anonymní ID uživatele aplikace, které automaticky generuje RevenueCat, nikoli jméno nebo e-mailovou adresu. Nezasíláme společnosti RevenueCat vaše jméno z profilu v aplikaci ani e-mailovou adresu jako atributy zákazníka. I při použití anonymního ID může docházet ke zpracování informací. Odinstalace aplikace sama o sobě neznamená smazání záznamů o nákupech.</p>\n      <p>Další informace naleznete v <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">zásadách ochrany osobních údajů RevenueCat</a> a <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">v informacích RevenueCat o datech o nákupech</a> .</p>"
+        }
+      }
+    },
+    "sk/privacy": {
+      "sections": {
+        "section-05": {
+          "html": "<p>Prostredníctvom App Store môžeme ponúkať predplatné a jednorazové nákupné plány. Platby spracováva spoločnosť Apple a my priamo nezhromažďujeme ani neukladáme čísla kreditných kariet ani iné platobné údaje. Aby mohla aplikácia poskytovať platené funkcie, môže pristupovať k informáciám o zakúpených produktoch a stave predplatného alebo ich overovať. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobných údajov spoločnosti Apple</a></p>\n      <p>Na overovanie nákupov, správu predplatného a prístupu k plateným funkciám, obnovenie nákupov a pochopenie aktivity nákupov a predplatného používame spoločnosť RevenueCat, Inc. Spoločnosť RevenueCat spracováva ID používateľa aplikácie vygenerované jej súpravou SDK, identifikátory zakúpených produktov, informácie o histórii transakcií a nákupov, stav a dátumy expirácie predplatného a technické informácie, ako je operačný systém zariadenia a verzia aplikácie.</p>\n      <p>Ako identifikátor nákupu používame anonymné ID používateľa aplikácie, ktoré automaticky generuje RevenueCat, nie meno ani e-mailovú adresu. Ako atribúty zákazníka neodosielame spoločnosti RevenueCat vaše meno z profilu v aplikácii ani e-mailovú adresu. Aj pri používaní anonymného ID môže dochádzať k spracúvaniu informácií. Odinštalovanie aplikácie samo osebe neznamená vymazanie záznamov o nákupoch.</p>\n      <p>Viac informácií nájdete v <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Zásadách ochrany osobných údajov spoločnosti RevenueCat</a> a <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">v informáciách spoločnosti RevenueCat o údajoch o nákupoch</a> .</p>"
+        }
+      }
+    },
+    "sl/privacy": {
+      "sections": {
+        "section-05": {
+          "html": "<p>V trgovini App Store lahko ponujamo naročnine in pakete za enkratni nakup. Apple obdeluje plačila in neposredno ne zbiramo ali shranjujemo številk kreditnih kartic ali drugih podatkov o plačilu. Za zagotavljanje plačljivih funkcij lahko aplikacija dostopa do podatkov o kupljenih izdelkih in stanju naročnine ali jih preverja. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Pravilnik o zasebnosti družbe Apple</a></p>\n      <p>Za preverjanje nakupov, upravljanje dostopa do naročnin in plačljivih funkcij, obnavljanje nakupov ter razumevanje dejavnosti nakupov in naročnin uporabljamo RevenueCat, Inc. RevenueCat obdeluje ID uporabnika aplikacije, ki ga ustvari njegov SDK, identifikatorje kupljenih izdelkov, podatke o zgodovini transakcij in nakupov, stanje in datume poteka naročnine ter tehnične podatke, kot sta operacijski sistem naprave in različica aplikacije.</p>\n      <p>Namesto imena ali e-poštnega naslova kot identifikatorja nakupa uporabljamo samodejno ustvarjen anonimni uporabniški ID aplikacije RevenueCat. Vašega imena profila v aplikaciji ali e-poštnega naslova ne pošiljamo RevenueCatu kot atributov stranke. Tudi pri uporabi anonimnega ID-ja se lahko obdelujejo podatki. Odstranitev aplikacije sama po sebi ne pomeni izbrisa zapisov o nakupih.</p>\n      <p>Za več informacij glejte <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">pravilnik o zasebnosti RevenueCat</a> in <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informacije RevenueCat o podatkih o nakupih</a> .</p>"
+        }
+      }
+    },
+    "pl/privacy": {
+      "sections": {
+        "section-05": {
+          "html": "<p>Możemy oferować subskrypcje i plany zakupów jednorazowych za pośrednictwem App Store. Apple przetwarza płatności i nie gromadzimy ani nie przechowujemy bezpośrednio numerów kart kredytowych ani innych danych dotyczących płatności. Aby zapewnić płatne funkcje, aplikacja może uzyskiwać dostęp do informacji o zakupionych produktach i statusie subskrypcji lub weryfikować je. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Polityka prywatności Apple</a></p>\n      <p>Korzystamy z usług RevenueCat, Inc. w celu weryfikacji zakupów, zarządzania subskrypcjami i dostępem do funkcji płatnych, przywracania zakupów oraz analizy aktywności związanej z zakupami i subskrypcjami. RevenueCat przetwarza identyfikator użytkownika aplikacji wygenerowany przez pakiet SDK, identyfikatory zakupionych produktów, informacje o transakcjach i historii zakupów, status i daty ważności subskrypcji oraz informacje techniczne, takie jak system operacyjny urządzenia i wersja aplikacji.</p>\n      <p>Używamy anonimowego identyfikatora użytkownika aplikacji generowanego automatycznie przez RevenueCat, zamiast ustawiać imię lub adres e-mail jako identyfikator zakupu. Nie przekazujemy RevenueCat nazwy profilu w aplikacji ani adresu e-mail jako atrybutów klienta. Użycie anonimowego identyfikatora nie oznacza, że żadne informacje nie są przetwarzane ani że zapisy dotyczące zakupów są usuwane po odinstalowaniu aplikacji.</p>\n      <p>Aby uzyskać więcej informacji, zapoznaj się z <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Polityką prywatności RevenueCat</a> i <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informacjami RevenueCat na temat danych zakupowych</a> .</p>"
+        }
+      }
+    },
+    "sv/privacy": {
+      "textReplacements": [
+        {
+          "from": "ditt köpidentifierare",
+          "to": "din köpidentifierare"
+        }
+      ]
+    },
+    "da/privacy": {
+      "textReplacements": [
+        {
+          "from": "dit købsidentifikator",
+          "to": "din købsidentifikator"
+        }
+      ]
+    },
+    "zh-Hant-TW/privacy": {
+      "textReplacements": [
+        {
+          "from": "信息",
+          "to": "資訊"
+        },
+        {
+          "from": "卸載",
+          "to": "解除安裝"
+        },
+        {
+          "from": "設備",
+          "to": "裝置"
+        },
+        {
+          "from": "用戶",
+          "to": "使用者"
+        },
+        {
+          "from": "賬戶",
+          "to": "帳號"
+        },
+        {
+          "from": "網絡",
+          "to": "網路"
+        },
+        {
+          "from": "存儲",
+          "to": "儲存"
+        },
+        {
+          "from": "鏈接",
+          "to": "連結"
+        },
+        {
+          "from": "數據",
+          "to": "資料"
+        },
+        {
+          "from": "應用程序",
+          "to": "應用程式"
+        }
+      ]
+    },
+    "zh-Hant-TW/terms": {
+      "textReplacements": [
+        {
+          "from": "信息",
+          "to": "資訊"
+        },
+        {
+          "from": "卸載",
+          "to": "解除安裝"
+        },
+        {
+          "from": "設備",
+          "to": "裝置"
+        },
+        {
+          "from": "用戶",
+          "to": "使用者"
+        },
+        {
+          "from": "賬戶",
+          "to": "帳號"
+        },
+        {
+          "from": "網絡",
+          "to": "網路"
+        },
+        {
+          "from": "存儲",
+          "to": "儲存"
+        },
+        {
+          "from": "鏈接",
+          "to": "連結"
+        },
+        {
+          "from": "數據",
+          "to": "資料"
+        },
+        {
+          "from": "應用程序",
+          "to": "應用程式"
+        }
+      ]
+    }
+  }
+}

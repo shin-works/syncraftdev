@@ -1,0 +1,696 @@
+{
+  "status": "drafts-only",
+  "appLanguageOptions": 44,
+  "expectedDocumentPairs": 43,
+  "documents": [
+    {
+      "locale": "ar",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "0158785765fde4f8fa713a8b877164da9a785a0f9147b2d450e84f3dc7ab3b60"
+    },
+    {
+      "locale": "ar",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "1f7c2b6f77e1b92b718c8c3db80fb7d389b5fe058c776f869e1fa963eabe8283"
+    },
+    {
+      "locale": "bn",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "22befc1f951557359715aa78f63374dda349ea324be7ac9106f20ee9cd7923d7"
+    },
+    {
+      "locale": "bn",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "79ab097f832c4462f213b7ddd2b3feb0655d1b57ce30b68e17416ab1f32fc7b0"
+    },
+    {
+      "locale": "ca",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "ce042c81831f0de1438628d74100d86e96c3a9b95e34fee71e7234fecd761a06"
+    },
+    {
+      "locale": "ca",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "68c984d4044bbd5742dca14aed4aa10027b13a6ec9ee2251175d6da8899b1e89"
+    },
+    {
+      "locale": "cs",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "4ddfea1746d0970b361bf54a95501b352fb2d577c1fefa02b39c756107ded4d3"
+    },
+    {
+      "locale": "cs",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "05ac3e17676fc674345f11436bf83cec68060a8a289834c35236f78e92c9661d"
+    },
+    {
+      "locale": "da",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "cc4ed7188cc98ce22545d0f51039466fdeb08fcf1d0df8bfc2381f84be261a2a"
+    },
+    {
+      "locale": "da",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "d0a51f560d67fc7c52c666db5029858695c1cb29fa95423f9ee92ace160bd0f9"
+    },
+    {
+      "locale": "de",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "caef0a19352bca41e7d09d07b9de79540f692e7040828908930f1a0ff31ba802"
+    },
+    {
+      "locale": "de",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "c695d102418a7b23917e13b67e1b757a3434945e1f84692fae4f5387bec2c2e5"
+    },
+    {
+      "locale": "el",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "0b6af937fedc29b4bee618bf6219d398c4baba1fb69aa207a864c241c20fa99d"
+    },
+    {
+      "locale": "el",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "d41a1e516356ef8a008b59be30790d64df7ebb53b5cd88b468f32cd2eebe9450"
+    },
+    {
+      "locale": "es",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "b90984e589196fcb5cd159d06092ce161fbfec0b1fbaa18940a8e9689aa98662"
+    },
+    {
+      "locale": "es",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "b394fc244d8efb970abcbf70cb6cb4f11b882b6fe0ab7b67b7c8fe416f8e6b73"
+    },
+    {
+      "locale": "fi",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "54bc8a47b78d4f1f6f58a34c61b45245582eaadb3bb50680be67c1c28e9ecf8d"
+    },
+    {
+      "locale": "fi",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "2a19079035e1b5efc61a113c474b94c31b57455dfb0777fe2c3800ae4c9d802e"
+    },
+    {
+      "locale": "fr",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "586d0da97506741e6cd55c51eaa22dad9fae77f9b074474b323c4437426663b0"
+    },
+    {
+      "locale": "fr",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "83b579dfb29420ecebb3b939b72d16e2dbdf095c37a0f51af1c855555fb29dd8"
+    },
+    {
+      "locale": "gu",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "80339648d2b4d77c9081da56ceefc3e4dec20cb12138f89c949836770c20f2a3"
+    },
+    {
+      "locale": "gu",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "3341627adaf50e0b2628f12f1fa45ea83ffc74d1bfa7f054b72b6bc89688b5bb"
+    },
+    {
+      "locale": "he",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "ea027eb5ac620c55e5030fb7ff96af80d4ca94a11f00e9bb94386203baa4bae0"
+    },
+    {
+      "locale": "he",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "76f72b7852bbcf183efe2a6e85eb0ff3395846eac1c308dd97cd8869591ea525"
+    },
+    {
+      "locale": "hi",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "f817c0eae9a5c2f8c363d9fe7e390ff9dfda26ef8d6a8be9ac94a8243b5573ca"
+    },
+    {
+      "locale": "hi",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "ed1ba6a5693085ddc54600cd8aa5f0ec8d17497109bccd1502ff4429bd81b606"
+    },
+    {
+      "locale": "hr",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "a4e0e67c8e130aa372ac1397a71d4fbe8b8c4512f1693eec00f5b9a6e240f4b5"
+    },
+    {
+      "locale": "hr",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "eecf92f62ac6b5a8e62ff540a1cdb94b2f25c070712421766bd1dc12a50d523e"
+    },
+    {
+      "locale": "hu",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "dae9f19017a2c6ec0817ab37f2e91cb802e573a15b7d15fcac2faa13f16721a8"
+    },
+    {
+      "locale": "hu",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "45fd306c8a371a02fe612456292661e2da1e42d5dcb80c2fa679f160d59d3ef6"
+    },
+    {
+      "locale": "id",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "51ce89e76a6057e4d37704792507635fc068ad79ef618971b89ae833c67fdcc6"
+    },
+    {
+      "locale": "id",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "af68b78093dafb0ba81ed4d5b6a98390767629cee3c56506a708c3c15a47410f"
+    },
+    {
+      "locale": "it",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "36b7f85fcafceed88a81d3857c88561edb1fe73dceb77c5b210608d5979f4b0a"
+    },
+    {
+      "locale": "it",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "45936adbf9c595a8a8508df72a8e3617bc7e2b75386f5131de98a5095ef1fc25"
+    },
+    {
+      "locale": "kn",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "e024a498f5a39c1bdbb49d7474104d4011155124eb913b5be08d11c328a096f2"
+    },
+    {
+      "locale": "kn",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "8ab8347b622d6fba0e30563287f0f039e7b6ba0d715375b74674797c8de434c7"
+    },
+    {
+      "locale": "ko",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "87bc45d055e10fa331a1a392bcc6fabac9597f9d278d33c394603c942ba6d7b3"
+    },
+    {
+      "locale": "ko",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "27a9aad5eeaa9a5be28aa34afd551463980183ae0db6aff98651629005a3e2cd"
+    },
+    {
+      "locale": "ml",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "83d032b9fc7b56558c334569622a8f47ea74a1e4df940af77f58618a67b52c19"
+    },
+    {
+      "locale": "ml",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "190918856291502152764bc13233a0e546b496c2067e56fce68b0b3b659ddb2c"
+    },
+    {
+      "locale": "mr",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "f395664fedbfbe80b2dd72286107c46546fbb752956eaf321f9c1f29001fcf59"
+    },
+    {
+      "locale": "mr",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "d786ee013c6ddd9289a78fbbe121e04e4e5af5e0bca7b02f591a23972a79d5b9"
+    },
+    {
+      "locale": "ms",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "b2e57db61cb7a229c15dd710b001a3e280aa55f4f5be941989d56d59e9478323"
+    },
+    {
+      "locale": "ms",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "e0ef6b20729ff73528846ce7b5f93489f3c5eb6b48c4e43eb148b1ca79f62f07"
+    },
+    {
+      "locale": "nb",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "7beb66dfba70cb95f98ae84524048e107bb7e8bc4e19a342e96cbe3615ae5130"
+    },
+    {
+      "locale": "nb",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "a220680e2c8cf01eaf92d58cbaab01f0d61929b4b24698908dc00057ab9b6436"
+    },
+    {
+      "locale": "nl",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "be8ac658833f5363ea5a8fbd2eb87fc930582eb716f85d912c48215d4edbb711"
+    },
+    {
+      "locale": "nl",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "21a80800cc8962a018b44e318f5fa5b08a79dc929c10d8780530be02a2315b22"
+    },
+    {
+      "locale": "or",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "bf5f9edd5c994581af0a94669c188ffebaf98ff384959497dd00b492cb3a8acf"
+    },
+    {
+      "locale": "or",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "3cb7f6e118ac56b5340c3387e5214596b29fad44b2cb89f7bd1e3e62d59a7ef0"
+    },
+    {
+      "locale": "pa",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "eade7f42a71cad3fe3f1b39ffe9ec1649af0b73cc1d2f6a7710d91680119f992"
+    },
+    {
+      "locale": "pa",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "9e677e80e909a28fd4ba47053f5901b28a3e4e02419f3608f23dd79c9bfae6d9"
+    },
+    {
+      "locale": "pl",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "9e86e56972bbb305be67b43c39c44e3bd44b0118d857e494c88cdd8bff569017"
+    },
+    {
+      "locale": "pl",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "01821a889f694fe958cb4c30bb1567dd7d3803640962e2775f45f2d1eeb70d73"
+    },
+    {
+      "locale": "pt-BR",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "014bca410da686fa900e44a012c4ebfd8c1c2b9a9b785abbad6d52af8526c9ce"
+    },
+    {
+      "locale": "pt-BR",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "695f6f7674e91f35380e0ebe9142b47653bce750da1827e2634929cb5c3aba2c"
+    },
+    {
+      "locale": "pt-PT",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "b756c79ff6abc79f4757e16daafc0ccdd20f1aac00d4fdb6b0b0cae80074da9b"
+    },
+    {
+      "locale": "pt-PT",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "3e4e7290b751cb6f180debbed64d4277cf8bc33b23f3ae3d421727b9fe340c3b"
+    },
+    {
+      "locale": "ro",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "9f077cd454720280270202ad6a5aeba9d58ed0908dd038ca17491c705f40cae5"
+    },
+    {
+      "locale": "ro",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "3f1ab7a3d9eabb38e827890f6a00b0c99461b681bfed98dc30095b30f0477ad7"
+    },
+    {
+      "locale": "ru",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "32fe3dbe734c7ffe6f87cfc4513724782741342f119b43b6131c3a14f4dfb6ff"
+    },
+    {
+      "locale": "ru",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "13da9bb27d6a1c999a1fcdb339003bb6a66b26496cc83d9e7ad4bf9c0f04f567"
+    },
+    {
+      "locale": "sk",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "9120ad5764e552a8d84c855d62d622955237c72d1ec6472a6f9f32ee2e87f6dc"
+    },
+    {
+      "locale": "sk",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "4716929b11df2a077f9cd56f3ca853d332a47f05cf41038a28f7295417e9d28a"
+    },
+    {
+      "locale": "sl",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "1da938990868477978efab13fdbe655bd81fde45e689ddeac8f106cc04953b04"
+    },
+    {
+      "locale": "sl",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "588a1a9e541c272ca806921fa6fc15d630e93ab76af42bf61118dd324686f9ee"
+    },
+    {
+      "locale": "sv",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "0b9ceb435f5e5eb8358a1ffc1fd623a52895bbb87713ea602c6dcbbf1796fb28"
+    },
+    {
+      "locale": "sv",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "52ce33b61153cb1848ca0c0805bd358273b071b7d2096ddd067c380430f82b50"
+    },
+    {
+      "locale": "ta",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "700382165cf369e896aba9ab0e275782aaf162a01d874ea166ed27051e4c3710"
+    },
+    {
+      "locale": "ta",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "07f17143962a0840ea3838439b59c9a3e504b1b843ca7aa90f669cba07e7d581"
+    },
+    {
+      "locale": "te",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "db6fc8d4e0f1d8f5427b560c49619075ec91385deb2b8bc702cf23ec97a6a7ce"
+    },
+    {
+      "locale": "te",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "b8817ed185f52643e8d1fbaf23977729a7ef4d3bbb251829c5853e508d96e6b8"
+    },
+    {
+      "locale": "th",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "32f9882bfa084dd35828b89932d493f70a80f53670db6cb9515e2e410dd4a0a5"
+    },
+    {
+      "locale": "th",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "341e96cc34fc00600ac3c3b231dbb71965c9b7b5c1aedc283c69aadaab7cbf3b"
+    },
+    {
+      "locale": "tr",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "7f95c47db7d73fb96a9ebc40f3db73c4a3ca85de74be94721faa82fb3868ac9d"
+    },
+    {
+      "locale": "tr",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "e083f4ebf521b5470fb6ed939a58f1c15898190e324367b7be5a92b8aca57b5d"
+    },
+    {
+      "locale": "uk",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "9b82246b32e8ef30cb5a3adc49274d2b8379caf59273e0c2e1bcb17d475006a8"
+    },
+    {
+      "locale": "uk",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "a90eecb562f8b9a652bf27c98c30b2123e775134a1229d4e220bb407d78c1c7a"
+    },
+    {
+      "locale": "ur",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "d617d778cbff4914762dedb88d9e3f8e7fa51fe4022175f8129bcf0a9b719d3d"
+    },
+    {
+      "locale": "ur",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "d1d7dcc4bbcb731cda72206a5b3a1a84430f60d7b193b404902bb8234e93f6ff"
+    },
+    {
+      "locale": "vi",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "9655d3f3c27c16906f58489a535674054994e00278c8a1891a137772b895c317"
+    },
+    {
+      "locale": "vi",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "477f67e623c9cf9e5cb9101b1f6358e62e0b818a3f9c47a490728096fb214806"
+    },
+    {
+      "locale": "zh-Hans",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "126b89c05c0fcb99fdc250ed5b266e87b74a8dac7f810fafcba1ca84b0482548"
+    },
+    {
+      "locale": "zh-Hans",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "be7284c40e6b39005cb3e651351e25d9d28e1b7e62569227312c0dbdcafc70c3"
+    },
+    {
+      "locale": "zh-Hant-TW",
+      "kind": "privacy",
+      "sections": 13,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "10c1d5812ee9e68b4f6eb07153ad8787da27f6dc9a9b158b92baaccebd7ce459"
+    },
+    {
+      "locale": "zh-Hant-TW",
+      "kind": "terms",
+      "sections": 15,
+      "issues": [],
+      "unchangedEnglishBlocks": [],
+      "sha256": "9578457332eaf0b84851df5ef3a68d368a1f6a026d93c1237654f9ad819748d3"
+    }
+  ],
+  "missing": []
+}

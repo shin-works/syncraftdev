@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "locale": "fr",
+  "kind": "terms",
+  "title": "Conditions d'utilisation",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Date d'entrée en vigueur : 28 août 2026. <br>\n     Dernière mise à jour : 8 septembre 2026.",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Les présentes Conditions d’utilisation (« Conditions ») définissent les modalités d’utilisation de SwingCat (l’« App »), une application iOS fournie par SynCraft (« nous », « notre » ou « nos »).</p>\n      <p>En plus des présentes conditions générales, votre utilisation de l'application est soumise au contrat de licence utilisateur final standard d'Apple (EULA).</p>\n      <p>Contrat de licence utilisateur final standard d'Apple : <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Veuillez consulter les présentes conditions d'utilisation et le contrat de licence utilisateur final standard d'Apple avant d'utiliser l'application.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. L'application",
+      "html": "<ol>\n       <li>L'application aide les utilisateurs à gérer leur concentration et leur temps de travail grâce à un minuteur.</li>\n       <li>En fonction de l'utilisation du minuteur, l'application peut proposer des fonctionnalités permettant aux utilisateurs d'obtenir ou d'utiliser des chats, des objets, des titres et d'autres contenus.</li>\n       <li>L'application ne garantit ni la concentration, ni la productivité, ni les résultats d'apprentissage, ni les résultats professionnels, ni aucun autre résultat spécifique.</li>\n       <li>Les fonctionnalités peuvent varier en fonction d'iOS, de l'appareil et d'autres conditions d'utilisation.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Conditions d'utilisation et comportements interdits",
+      "html": "<p>Vous utilisez l'Application à vos propres risques et vous vous engagez à ne pas : modifier, décompiler, désosser ou effectuer des opérations similaires sur l'Application ; reproduire, redistribuer, vendre ou utiliser l'Application sans autorisation ; obtenir des fonctionnalités payantes, des récompenses publicitaires ou tout autre contenu par des moyens illégaux ; perturber le fonctionnement normal de l'Application ; enfreindre les lois ou l'ordre public applicables ; ou adopter un comportement que nous jugeons raisonnablement inapproprié. Les mineurs doivent obtenir le consentement d'un parent ou tuteur légal, le cas échéant, avant d'acheter des services payants.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Propriété intellectuelle",
+      "html": "<p>Les droits d'auteur et autres droits de propriété intellectuelle relatifs aux noms, logos, personnages, illustrations de chats, animations, images, textes, fichiers audio, programmes et autres contenus de l'Application nous appartiennent ou appartiennent à des tiers titulaires de droits légitimes. Sauf autorisation légale, vous n'êtes pas autorisé à les utiliser, les reproduire, les publier, les modifier, les redistribuer ou les vendre sans autorisation. Les contenus générés via la fonction de partage de l'Application peuvent être publiés sur les réseaux sociaux et autres services à des fins de partage habituelles, conformément aux modalités prévues par l'Application.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Contenu intégré à l'application",
+      "html": "<ol>\n       <li>Les chats, objets, titres et autres contenus numériques disponibles dans l'application sont destinés à être utilisés au sein de l'application.</li>\n       <li>Elles n'ont aucune valeur monétaire réelle et ne peuvent être échangées contre de l'argent liquide ou d'autres biens.</li>\n       <li>Nous pouvons modifier les noms, le contenu, les conditions d'acquisition, les conditions d'utilisation, l'affichage et d'autres spécifications pour des améliorations, des ajustements d'équilibre, des changements de spécifications ou des besoins opérationnels.</li>\n       <li>Nous nous efforçons de préserver les données des utilisateurs dans la mesure du possible lors des mises à jour, mais nous ne garantissons pas une préservation ou une restauration complète sur tous les appareils, systèmes d'exploitation ou environnements.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Publicité et récompenses",
+      "html": "<p>L'application peut afficher des publicités via des services tels que Google AdMob et proposer des publicités récompensées offrant des articles ou d'autres avantages au sein de l'application. Les conditions d'obtention de ces récompenses sont celles affichées dans l'application. Le contenu, la présentation, la fréquence et les avantages des publicités peuvent être modifiés. Les annonceurs et les fournisseurs de publicité sont responsables du contenu de leurs annonces ; nous ne garantissons pas les produits ou services annoncés.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Services et achats payants",
+      "html": "<p>Outre les fonctionnalités gratuites, l'application peut proposer des fonctionnalités ou du contenu payants, notamment des abonnements mensuels, annuels et des achats uniques. Les produits, prix, durées et fonctionnalités disponibles affichés dans l'application et sur l'App Store au moment de l'achat sont applicables. Les achats et les paiements sont effectués via l'App Store d'Apple ; nous ne collectons ni ne stockons directement les informations relatives aux cartes de paiement.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Abonnements",
+      "html": "<p>Les frais d’abonnement sont facturés sur votre compte Apple. L’abonnement est automatiquement renouvelé pour chaque période applicable, sauf si vous désactivez le renouvellement automatique dans les réglages de l’App Store. Une fois le renouvellement automatique désactivé, les fonctionnalités restent généralement disponibles jusqu’à la fin de la période d’abonnement en cours. Les conditions générales et politiques d’Apple et de l’App Store régissent la gestion des abonnements, l’annulation du renouvellement automatique, les remboursements et les autres modalités de paiement.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Plans d'achat unique",
+      "html": "<p>L’achat unique vous donne le droit d’utiliser les fonctionnalités payantes concernées sans abonnement. Il ne garantit pas la disponibilité permanente de l’application, de toutes ses fonctionnalités, des intégrations tierces ni la compatibilité avec toutes les futures versions d’iOS ou tous les appareils. La restauration des informations d’achat et les questions connexes sont soumises aux systèmes et politiques d’Apple et de l’App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Stockage des données",
+      "html": "<p>Vos paramètres, l'historique du minuteur, vos chats, vos objets, vos titres et autres données peuvent être stockés sur votre appareil. Ces données peuvent être perdues suite à la suppression de l'application, une panne ou un remplacement de votre appareil, une mise à jour du système d'exploitation, un bug de l'application ou d'autres circonstances. Nous nous efforçons de préserver les données dans la mesure du possible, mais nous ne pouvons garantir leur sauvegarde ou leur restauration systématique.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Clauses de non-responsabilité",
+      "html": "<p>Nous ne garantissons pas que l'Application fonctionnera toujours correctement sur tous les appareils et systèmes d'exploitation, ni qu'elle sera exacte, complète, sécurisée, adaptée à un usage particulier ou disponible en permanence. Les minuteurs, notifications et autres fonctionnalités peuvent ne pas fonctionner comme prévu en raison des paramètres de l'appareil, des spécifications iOS, des fonctions d'économie d'énergie, des conditions du réseau ou d'autres circonstances. Sauf en cas de faute intentionnelle, de négligence grave ou de responsabilité ne pouvant être exclue par la loi, nous ne sommes pas responsables des dommages résultant de l'utilisation ou de l'impossibilité d'utiliser l'Application.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Modifications ou interruption",
+      "html": "<p>Nous pouvons ajouter, modifier, réviser, réduire, suspendre ou supprimer des fonctionnalités, voire tout ou partie de l'application, selon les besoins, en tenant compte des conditions de développement et d'exploitation, des appareils compatibles, des spécifications iOS, des services tiers et d'autres facteurs. Nous vous informerons de toute modification importante ou interruption dans la mesure du possible.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Modifications des présentes conditions",
+      "html": "<p>Nous pouvons modifier les présentes Conditions d'utilisation en fonction des besoins, notamment en raison de changements législatifs, de modifications apportées à l'Application ou pour d'autres raisons. Les Conditions d'utilisation révisées entrent en vigueur dès leur publication dans l'Application ou sur notre site web. Nous vous informerons des modifications importantes le cas échéant.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Droit applicable",
+      "html": "<p>Les présentes conditions générales sont régies et interprétées conformément au droit japonais. Tout litige relatif à l'application ou aux présentes conditions générales sera résolu conformément au droit japonais.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Contact",
+      "html": "<div class=\"contact\">\n       <p>Développeur et exploitant : SynCraft</p>\n       <p>Contact : <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "fr",
+    "capturedAt": "2026-10-18T07:32:22.622Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "bc0a6229ce8d66d3f159ea96a0d7ff90dbd1d5fe3144199749ff354151f69153",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "politique de confidentialité",
+      "SwingCat",
+      "Contact"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Sélectionnez la langue"
+  }
+}

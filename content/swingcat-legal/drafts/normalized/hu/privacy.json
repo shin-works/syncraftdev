@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "kind": "privacy",
+  "title": "Adatvédelmi irányelvek",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Hatálybalépés dátuma: 2026. augusztus 28. <br>\n     Utolsó frissítés: 2026. október 18.",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Ez az Adatvédelmi Szabályzat elmagyarázza, hogy a SynCraft („mi”, „minket” vagy „miénk”) hogyan kezeli a felhasználói adatokat a SwingCat iOS alkalmazásban („Alkalmazás”).</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Az általunk gyűjtött és tárolt információk",
+      "html": "<p>Az alkalmazás általában nem igényli a felhasználóktól, hogy közvetlenül megadják a nevüket, címüket, telefonszámukat vagy e-mail címüket a regisztrációhoz.</p>\n      <p>Az Alkalmazás használatától függően a következő információk tárolódhatnak az eszközén: időzítő beállításai; fókuszidő és időzítő előzmények; az Ön által megadott feladatok; macskák, tárgyak, címek és egyéb alkalmazáson belüli tartalmak, valamint azok használata; Alkalmazásbeállítások; opcionális profilinformációk, például név; és a fizetős funkciók állapota.</p>\n      <p>Harmadik féltől származó szolgáltatásokon keresztül is gyűjthetünk vagy dolgozhatunk fel információkat használatelemzés, minőségfejlesztés, diagnosztika és hirdetések céljából. Ez magában foglalhatja az eszköztípust, az operációs rendszert, a nyelvi beállításokat, az alkalmazás verzióját, az indítási és funkcióhasználati eseményeket, a hiba- és teljesítményadatokat, az IP-címet és egyéb hálózati információkat, a hirdetési interakciókat, valamint az eszköz- vagy hirdetési azonosítókat. A ténylegesen feldolgozott információk az iOS verziójától, az eszközbeállításoktól, az adatvédelmi beállításoktól, a hozzájárulási állapottól és a harmadik féltől származó szolgáltatásspecifikációktól függően változhatnak.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Hogyan használjuk fel az információkat",
+      "html": "<ol>\n       <li>Az Alkalmazás és annak funkcióinak biztosítása.</li>\n       <li>Az alkalmazáshasználat megértése és elemzése.</li>\n       <li>A funkciók, a használhatóság és a felhasználói élmény javítása érdekében.</li>\n       <li>Hibák, összeomlások és egyéb problémák kivizsgálása és javítása.</li>\n       <li>Reklámok megjelenítése és hirdetésekkel kapcsolatos funkciók biztosítása.</li>\n       <li>Reklámokhoz kapcsolódó alkalmazáson belüli jutalmak biztosítása.</li>\n       <li>A visszaélések megelőzése érdekében.</li>\n       <li>Fizetős funkciók biztosítása és a vásárlás állapotának megerősítése.</li>\n       <li>Hogy válaszoljunk a kérdésekre.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>A Google LLC által biztosított szolgáltatásokat, beleértve a Firebase Analytics szolgáltatást is, felhasználhatjuk az alkalmazáshasználat megértéséhez és a funkciók fejlesztéséhez, valamint a Firebase Crashlytics szolgáltatást az összeomlások azonosításához és a stabilitás javításához. Ezek a szolgáltatások gyűjthetnek vagy feldolgozhatnak használati információkat, eszköz- és operációsrendszer-információkat, összeomlási naplókat, alkalmazásállapotot és egyéb diagnosztikai információkat.</p>\n      <p>A Google adatvédelmi irányelvei és egyéb vonatkozó feltételek vonatkoznak a Firebase által kezelt információkra. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google adatvédelmi irányelvek </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase adatvédelem és biztonság</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>A Google AdMob szolgáltatást használhatjuk hirdetések megjelenítésére. Az alkalmazás jutalmazott hirdetéseket kínálhat, amelyeken keresztül a felhasználók tételeket vagy más alkalmazáson belüli előnyöket kaphatnak. Az AdMob és a Google Mobile Ads SDK gyűjthet vagy feldolgozhat IP-címeket, eszközinformációkat, eszköz- vagy hirdetési azonosítókat, hirdetésmegjelenítéseket és interakciókat, alkalmazáson belüli interakciókat, valamint összeomlási vagy teljesítményinformációkat a hirdetések megjelenítése, mérése, csalásmegelőzése és a szolgáltatásfejlesztés céljából.</p>\n      <p>A hirdetési azonosítók elérhetősége az eszközbeállításoktól, az Apple adatvédelmi funkcióitól és a felhasználó beleegyezésétől függhet. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google adatvédelmi irányelvek </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Hogyan használja fel a Google a partner webhelyekről vagy alkalmazásokból származó adatokat?</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Alkalmazáson belüli vásárlások",
+      "html": "<p>Előfizetéseket és egyszeri vásárlási csomagokat kínálhatunk az App Store-on keresztül. Az Apple dolgozza fel a fizetéseket, és nem gyűjtünk és nem tárolunk közvetlenül hitelkártyaszámokat vagy egyéb fizetési adatokat. A fizetős funkciók biztosítása érdekében az alkalmazás hozzáférhet a megvásárolt termékekkel és az előfizetés állapotával kapcsolatos információkhoz, vagy ellenőrizheti azokat. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple adatvédelmi szabályzat</a></p>\n      <p>A RevenueCat, Inc. szolgáltatásait használjuk a vásárlások ellenőrzésére, az előfizetések és fizetős funkciókhoz való hozzáférés kezelésére, a vásárlások visszaállítására, valamint a vásárlási és előfizetési tevékenységek megértésére. A RevenueCat feldolgozza az SDK által generált alkalmazásfelhasználói azonosítót, a megvásárolt termék azonosítóit, a tranzakciós és vásárlási előzményeket, az előfizetés állapotát és lejárati dátumát, valamint a technikai információkat, például az eszköz operációs rendszerét és az alkalmazás verzióját.</p>\n      <p>A RevenueCat automatikusan generált, anonim alkalmazásfelhasználói azonosítóját használjuk a vásárlási azonosítóként megadott név vagy e-mail cím helyett. Az alkalmazáson belüli profilnevét vagy e-mail címét nem küldjük el a RevenueCatnek ügyfélattribútumként. Az anonim azonosító használata nem jelenti azt, hogy nem kerül sor információk feldolgozására, vagy hogy a vásárlási adatok törlődnek az alkalmazás eltávolításakor.</p>\n      <p>További információkért lásd a <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat adatvédelmi irányelveit</a> és <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">a RevenueCat vásárlási adatokkal kapcsolatos tájékoztatóját</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Megosztás harmadik felekkel",
+      "html": "<p>Nem értékesítjük a felhasználókkal kapcsolatos információkat. Az információkat a Firebase, a Google AdMob, az Apple, a RevenueCat és más szolgáltatásoknak küldhetjük, illetve feldolgozhatják, amennyiben az alkalmazás biztosításához szükséges. Az információkat akkor is közzétehetjük, ha Ön hozzájárul, ha a közzétételt törvény írja elő, ha az élet, a testi épség vagy a vagyon védelme érdekében szükséges, vagy ha a törvény egyébként engedélyezi.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Adatmegőrzés és -törlés",
+      "html": "<p>Az időzítő előzményei, macskák, elemek, címek, beállítások és egyéb alkalmazásadatok tárolhatók az eszközén. Az eszközön tárolt adatok elveszhetnek, ha az alkalmazást törlik, az eszközt visszaállítják, az eszköz meghibásodik, vagy egyéb okok miatt. A harmadik féltől származó szolgáltatások által feldolgozott adatokat a megfelelő megőrzési időszakok és szabályzatok szerint kezeljük.</p>\n      <p>Az alkalmazás eltávolítása önmagában nem törli a vásárlási adatokat vagy a harmadik féltől származó szolgáltatások által tárolt egyéb információkat. Az adataihoz való hozzáféréssel vagy azok törlésével kapcsolatos kérdéseivel vagy kéréseivel vegye fel velünk a kapcsolatot a <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> címen . A kérelmeket a vonatkozó jogszabályoknak megfelelően kezeljük; egyes adatokat meg kell őrizni jogi kötelezettségek teljesítése vagy a vásárlások ellenőrzése érdekében.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Hirdetési és adatvédelmi beállítások",
+      "html": "<p>A hirdetések megjelenítésének módja régiónként, eszközbeállításoktól, az Apple adatvédelmi funkcióitól, a hozzájárulási állapottól és egyéb feltételektől függően változhat. Szükség esetén megjeleníthetünk egy képernyőt, amelyen hozzájárulást kérünk, vagy választási lehetőséget kínálunk a hirdetésekkel vagy egyéb adatfelhasználással kapcsolatban. A hirdetési azonosítók és egyéb információk felhasználását az iOS adatvédelmi beállításain keresztül kezelheti, amennyiben ez lehetséges.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Gyermekek",
+      "html": "<p>Kiskorúak szükség esetén szülőjük vagy törvényes gyámjuk beleegyezésével használhatják az Alkalmazást. Az Alkalmazás nem alkalmas személyes adatok, például gyermek nevének, címének, telefonszámának vagy e-mail címének aktív gyűjtésére.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Biztonság",
+      "html": "<p>Minden tőlünk telhetőt megteszünk az Alkalmazáson keresztül kezelt információkkal kapcsolatos jogosulatlan hozzáférés, szivárgás, módosítás, elvesztés és hasonló események megelőzése érdekében.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. A jelen szabályzat módosításai",
+      "html": "<p>Ezt a Szabályzatot szükség szerint módosíthatjuk jogi változások, az Alkalmazás funkcióinak változásai, harmadik féltől származó szolgáltatások változásai vagy egyéb okok miatt. A módosított Szabályzat az Alkalmazásban vagy a weboldalunkon történő közzétételkor lép hatályba. A lényeges változásokról adott esetben értesítést küldünk.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Kapcsolat",
+      "html": "<div class=\"contact\">\n       <p>A jelen Szabályzattal vagy az Alkalmazásban történő adatkezeléssel kapcsolatos kérdések esetén:</p>\n       <p>Fejlesztő és üzemeltető: SynCraft</p>\n       <p>Kapcsolat: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "hu",
+    "capturedAt": "2026-10-18T07:45:01.044Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "d19106c96dcb2dd9875e8e93c34b51aca3c8172ae6b844961372f153fa8deb62",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Felhasználási feltételek",
+      "SwingCat",
+      "Érintkezés"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Nyelv kiválasztása"
+  }
+}

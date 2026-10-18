@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "kind": "privacy",
+  "title": "Kebijakan Privasi",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Tanggal berlaku: 28 Agustus 2026 <br>\n     Terakhir diperbarui: 18 Oktober 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Kebijakan Privasi ini menjelaskan bagaimana SynCraft (\"kami,\" \"kita,\" atau \"milik kami\") menangani informasi pengguna dalam aplikasi iOS SwingCat (\"Aplikasi\").</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Informasi yang kami kumpulkan dan simpan",
+      "html": "<p>Aplikasi ini umumnya tidak mengharuskan pengguna untuk memasukkan nama, alamat, nomor telepon, atau alamat email secara langsung untuk mendaftar.</p>\n      <p>Tergantung pada penggunaan Aplikasi, informasi berikut dapat disimpan di perangkat Anda: pengaturan pengatur waktu; waktu fokus dan riwayat pengatur waktu; tugas yang Anda masukkan; kucing, item, judul, dan konten dalam aplikasi lainnya serta penggunaannya; pengaturan Aplikasi; informasi profil opsional seperti nama; dan status fitur berbayar.</p>\n      <p>Kami juga dapat mengumpulkan atau memproses informasi melalui layanan pihak ketiga untuk analisis penggunaan, peningkatan kualitas, diagnostik, dan periklanan. Ini dapat mencakup jenis perangkat, sistem operasi, pengaturan bahasa, versi aplikasi, peristiwa peluncuran dan penggunaan fitur, data kerusakan dan kinerja, alamat IP dan informasi jaringan lainnya, interaksi iklan, dan pengidentifikasi perangkat atau iklan. Informasi yang sebenarnya diproses dapat bervariasi tergantung pada versi iOS Anda, pengaturan perangkat, pilihan privasi, status persetujuan, dan spesifikasi layanan pihak ketiga.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Bagaimana kita menggunakan informasi",
+      "html": "<ol>\n       <li>Untuk menyediakan Aplikasi dan fitur-fiturnya.</li>\n       <li>Untuk memahami dan menganalisis penggunaan aplikasi.</li>\n       <li>Untuk meningkatkan fitur, kemudahan penggunaan, dan pengalaman pengguna.</li>\n       <li>Untuk menyelidiki dan memperbaiki kesalahan, kerusakan, dan masalah lainnya.</li>\n       <li>Untuk menampilkan iklan dan menyediakan fitur terkait iklan.</li>\n       <li>Untuk memberikan hadiah dalam aplikasi yang terkait dengan iklan.</li>\n       <li>Untuk mencegah penyalahgunaan.</li>\n       <li>Untuk menyediakan fitur berbayar dan mengkonfirmasi status pembelian.</li>\n       <li>Untuk menanggapi pertanyaan.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>Kami dapat menggunakan layanan yang disediakan oleh Google LLC, termasuk Firebase Analytics untuk memahami penggunaan Aplikasi dan meningkatkan fitur, serta Firebase Crashlytics untuk mengidentifikasi kerusakan dan meningkatkan stabilitas. Layanan ini dapat mengumpulkan atau memproses informasi penggunaan, informasi perangkat dan sistem operasi, log kerusakan, status Aplikasi, dan informasi diagnostik lainnya.</p>\n      <p>Kebijakan Privasi Google dan ketentuan lain yang berlaku berlaku untuk informasi yang ditangani oleh Firebase. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi Google </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Privasi dan Keamanan Firebase</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>Kami dapat menggunakan Google AdMob untuk menampilkan iklan. Aplikasi ini mungkin menawarkan iklan berhadiah yang memungkinkan pengguna menerima item atau manfaat dalam aplikasi lainnya. AdMob dan Google Mobile Ads SDK dapat mengumpulkan atau memproses alamat IP, informasi perangkat, pengenal perangkat atau iklan, tayangan dan interaksi iklan, interaksi dalam aplikasi, serta informasi kerusakan atau kinerja untuk pengiriman iklan, pengukuran, pencegahan penipuan, dan peningkatan layanan.</p>\n      <p>Ketersediaan pengidentifikasi iklan mungkin bergantung pada pengaturan perangkat, fitur privasi Apple, dan persetujuan pengguna. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Cara Google menggunakan data dari situs atau aplikasi mitra</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Pembelian dalam aplikasi",
+      "html": "<p>Kami mungkin menawarkan langganan dan paket pembelian satu kali melalui App Store. Apple memproses pembayaran, dan kami tidak secara langsung mengumpulkan atau menyimpan nomor kartu kredit atau detail pembayaran lainnya. Untuk menyediakan fitur berbayar, Aplikasi dapat mengakses atau memverifikasi informasi tentang produk yang dibeli dan status langganan. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi Apple</a></p>\n      <p>Kami menggunakan RevenueCat, Inc. untuk memverifikasi pembelian, mengelola langganan dan akses fitur berbayar, memulihkan pembelian, dan memahami aktivitas pembelian dan langganan. RevenueCat memproses ID Pengguna Aplikasi yang dihasilkan oleh SDK-nya, pengidentifikasi produk yang dibeli, informasi riwayat transaksi dan pembelian, status langganan dan tanggal kedaluwarsa, serta informasi teknis seperti sistem operasi perangkat dan versi Aplikasi.</p>\n      <p>Kami menggunakan ID Pengguna Aplikasi anonim yang dihasilkan secara otomatis oleh RevenueCat, bukan nama atau alamat email sebagai pengenal pembelian Anda. Kami tidak mengirimkan nama profil dalam aplikasi atau alamat email Anda ke RevenueCat sebagai atribut pelanggan. Penggunaan ID anonim bukan berarti tidak ada informasi yang diproses atau catatan pembelian dihapus saat Anda menghapus instalasi Aplikasi.</p>\n      <p>Untuk informasi selengkapnya, lihat <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi RevenueCat</a> dan <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informasi RevenueCat tentang data pembelian</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Berbagi dengan pihak ketiga",
+      "html": "<p>Kami tidak menjual informasi tentang pengguna. Informasi dapat dikirim ke atau diproses oleh Firebase, Google AdMob, Apple, RevenueCat, dan layanan lain yang diperlukan untuk menyediakan Aplikasi. Kami juga dapat mengungkapkan informasi jika Anda memberikan persetujuan, jika pengungkapan diwajibkan oleh hukum, jika diperlukan untuk melindungi kehidupan, tubuh, atau harta benda, atau sebagaimana diizinkan oleh hukum.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Penyimpanan dan penghapusan data",
+      "html": "<p>Riwayat pengatur waktu, kucing, item, judul, pengaturan, dan data Aplikasi lainnya dapat disimpan di perangkat Anda. Data yang hanya disimpan di perangkat dapat hilang jika Aplikasi dihapus, perangkat direset, perangkat mengalami kerusakan, atau karena alasan lain. Data yang diproses oleh layanan pihak ketiga dikelola sesuai dengan periode penyimpanan dan kebijakan masing-masing.</p>\n      <p>Menghapus instalasi aplikasi tidak dengan sendirinya menghapus catatan pembelian atau informasi lain yang disimpan oleh layanan pihak ketiga. Untuk pertanyaan atau permintaan tentang akses ke atau penghapusan informasi Anda, hubungi kami di <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Kami akan menangani permintaan sesuai dengan hukum yang berlaku; beberapa catatan mungkin perlu disimpan untuk memenuhi kewajiban hukum atau memverifikasi pembelian.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Pilihan periklanan dan privasi",
+      "html": "<p>Cara penayangan iklan dapat bervariasi tergantung wilayah, pengaturan perangkat, fitur privasi Apple, status persetujuan, dan ketentuan lainnya. Jika diperlukan, kami dapat menampilkan layar yang meminta persetujuan atau pilihan terkait iklan atau penggunaan data lainnya. Anda dapat mengelola penggunaan pengidentifikasi iklan dan informasi lainnya sejauh yang tersedia melalui pengaturan privasi iOS.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Anak-anak",
+      "html": "<p>Anak di bawah umur harus menggunakan Aplikasi ini dengan persetujuan orang tua atau wali sah jika diperlukan. Aplikasi ini tidak dirancang untuk secara aktif mengumpulkan informasi pribadi seperti nama, alamat, nomor telepon, atau alamat email anak.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Keamanan",
+      "html": "<p>Kami berupaya mengambil langkah-langkah pengamanan yang wajar untuk mencegah akses tanpa izin, kebocoran, perubahan, kehilangan, dan kejadian serupa yang melibatkan informasi yang ditangani melalui Aplikasi.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Perubahan pada Kebijakan ini",
+      "html": "<p>Kami dapat mengubah Kebijakan ini sesuai kebutuhan karena perubahan hukum, perubahan fitur Aplikasi, perubahan layanan pihak ketiga, atau alasan lainnya. Kebijakan yang direvisi akan berlaku setelah diposting di Aplikasi atau di situs web kami. Kami akan memberikan pemberitahuan tentang perubahan penting jika diperlukan.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Kontak",
+      "html": "<div class=\"contact\">\n       <p>Untuk pertanyaan mengenai Kebijakan ini atau penanganan informasi di Aplikasi:</p>\n       <p>Pengembang dan operator: SynCraft</p>\n       <p>Kontak: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "id",
+    "capturedAt": "2026-10-18T07:47:20.791Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "76e0b37f68a8e4cb80c7355fdf844952e5ad2eae96bf79486d94e898a983b02d",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Syarat Penggunaan",
+      "SwingCat",
+      "Kontak"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Pilih bahasa"
+  }
+}

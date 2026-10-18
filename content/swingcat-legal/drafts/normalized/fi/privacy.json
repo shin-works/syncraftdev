@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "fi",
+  "kind": "privacy",
+  "title": "Tietosuojakäytäntö",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Voimaantulopäivä: 28. elokuuta 2026 <br>\n     Viimeksi päivitetty: 18. lokakuuta 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Tässä tietosuojakäytännössä selitetään, miten SynCraft (\"me\", \"meitä\" tai \"meidän\") käsittelee käyttäjätietoja iOS-sovelluksessa SwingCat (\"Sovellus\").</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Keräämämme ja tallentamamme tiedot",
+      "html": "<p>Sovellus ei yleensä vaadi käyttäjiä antamaan suoraan nimeä, osoitetta, puhelinnumeroa tai sähköpostiosoitetta rekisteröityäkseen.</p>\n      <p>Sovelluksen käytöstä riippuen laitteellesi voidaan tallentaa seuraavat tiedot: ajastinasetukset; keskittymisaika ja ajastinhistoria; itse syöttämäsi tehtävät; kissat, esineet, otsikot ja muu sovelluksen sisäinen sisältö sekä niiden käyttö; sovellusasetukset; valinnaiset profiilitiedot, kuten nimi; ja maksullisten ominaisuuksien tila.</p>\n      <p>Voimme myös kerätä tai käsitellä tietoja kolmansien osapuolten palveluiden kautta käyttöanalyysiä, laadunparannusta, diagnostiikkaa ja mainontaa varten. Näitä voivat olla esimerkiksi laitetyyppi, käyttöjärjestelmä, kieliasetukset, sovellusversio, käynnistys- ja ominaisuuksien käyttötapahtumat, kaatumis- ja suorituskykytiedot, IP-osoite ja muut verkkotiedot, mainosvuorovaikutukset sekä laite- tai mainostunnisteet. Käsiteltävät tiedot voivat vaihdella iOS-versiosi, laiteasetusten, tietosuoja-asetusten, suostumustilan ja kolmannen osapuolen palvelumääritysten mukaan.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Kuinka käytämme tietoja",
+      "html": "<ol>\n       <li>Sovelluksen ja sen ominaisuuksien tarjoamiseksi.</li>\n       <li>Ymmärtääksemme ja analysoidaksemme sovelluksen käyttöä.</li>\n       <li>Parantaaksemme ominaisuuksia, käytettävyyttä ja käyttökokemusta.</li>\n       <li>Virheiden, kaatumisten ja muiden ongelmien tutkimiseen ja korjaamiseen.</li>\n       <li>Mainosten näyttämiseen ja mainontaan liittyvien ominaisuuksien tarjoamiseen.</li>\n       <li>Tarjotakseen mainontaan liittyviä sovelluksen sisäisiä palkintoja.</li>\n       <li>Väärinkäytösten estämiseksi.</li>\n       <li>Maksullisten ominaisuuksien tarjoaminen ja ostotilan vahvistaminen.</li>\n       <li>Vastatakseen tiedusteluihin.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>Saatamme käyttää Google LLC:n tarjoamia palveluita, kuten Firebase Analyticsia, sovelluksen käytön ymmärtämiseen ja ominaisuuksien parantamiseen sekä Firebase Crashlyticsia kaatumisten tunnistamiseen ja vakauden parantamiseen. Nämä palvelut voivat kerätä tai käsitellä käyttötietoja, laite- ja käyttöjärjestelmätietoja, kaatumislokeja, sovelluksen tilaa ja muita diagnostiikkatietoja.</p>\n      <p>Googlen tietosuojakäytäntö ja muut sovellettavat ehdot koskevat Firebasen käsittelemiä tietoja. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlen tietosuojakäytäntö </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebasen tietosuoja ja tietoturva</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>Saatamme käyttää Google AdMobia mainosten näyttämiseen. Sovellus voi tarjota palkittuja mainoksia, joiden kautta käyttäjät voivat saada tuotteita tai muita sovelluksen sisäisiä etuja. AdMob ja Google Mobile Ads SDK voivat kerätä tai käsitellä IP-osoitteita, laitetietoja, laite- tai mainostunnisteita, mainosten näyttökertoja ja vuorovaikutusta, sovelluksen sisäisiä vuorovaikutuksia sekä kaatumis- tai suorituskykytietoja mainosten näyttämistä, mittaamista, petosten estämistä ja palvelun parantamista varten.</p>\n      <p>Mainostunnisteiden saatavuus voi riippua laiteasetuksista, Applen tietosuojaominaisuuksista ja käyttäjän suostumuksesta. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlen tietosuojakäytäntö </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Miten Google käyttää tietoja kumppanisivustoilta tai sovelluksista</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Sovelluksen sisäiset ostot",
+      "html": "<p>Saatamme tarjota tilauksia ja kertaostoksia App Storen kautta. Apple käsittelee maksuja, emmekä kerää tai tallenna suoraan luottokorttinumeroita tai muita maksutietoja. Maksullisten ominaisuuksien tarjoamiseksi sovellus voi käyttää tai tarkistaa tietoja ostetuista tuotteista ja tilauksen tilasta. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Applen tietosuojakäytäntö</a></p>\n      <p>Käytämme RevenueCat, Inc:iä ostosten vahvistamiseen, tilausten ja maksullisten ominaisuuksien käytön hallintaan, ostosten palauttamiseen sekä osto- ja tilaustoiminnan ymmärtämiseen. RevenueCat käsittelee SDK:nsa luomaa sovelluksen käyttäjätunnusta, ostettujen tuotteiden tunnisteita, tapahtuma- ja ostohistoriatietoja, tilauksen tilaa ja vanhenemispäiviä sekä teknisiä tietoja, kuten laitteen käyttöjärjestelmän ja sovelluksen version.</p>\n      <p>Käytämme RevenueCatin automaattisesti luomaa anonyymiä sovelluksen käyttäjätunnusta nimen tai sähköpostiosoitteen sijaan ostotunnisteena. Emme lähetä sovelluksen sisäistä profiilinimeäsi tai sähköpostiosoitettasi RevenueCatille asiakasattribuutteina. Anonyymin tunnuksen käyttö ei tarkoita, ettei tietoja käsitellä tai että ostotiedot poistetaan, kun poistat sovelluksen asennuksen.</p>\n      <p>Lisätietoja on <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tietosuojakäytännössä</a> ja <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tiedoissa ostotiedoista</a> .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Jakaminen kolmansille osapuolille",
+      "html": "<p>Emme myy käyttäjien tietoja. Tietoja voidaan lähettää Firebaselle, Google AdMobille, Applelle, RevenueCatille ja muille palveluille tai käsitellä niiden toimesta tarvittaessa sovelluksen tarjoamiseksi. Voimme myös luovuttaa tietoja, jos annat suostumuksesi, jos laki sitä edellyttää, jos se on tarpeen hengen, ruumiin tai omaisuuden suojelemiseksi tai jos laki muutoin sallii.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Tietojen säilyttäminen ja poistaminen",
+      "html": "<p>Ajastimen historia, kissat, kohteet, otsikot, asetukset ja muut sovellustiedot voidaan tallentaa laitteellesi. Vain laitteelle tallennetut tiedot voivat kadota, jos sovellus poistetaan, laite nollataan, laite lakkaa toimimasta tai muista syistä. Kolmannen osapuolen palveluiden käsittelemiä tietoja hallinnoidaan niiden omien säilytysaikojen ja käytäntöjen mukaisesti.</p>\n      <p>Sovelluksen poistaminen ei sinänsä poista ostotietoja tai muita kolmansien osapuolten palveluiden hallussa olevia tietoja. Jos sinulla on kysyttävää tai pyyntöjä tietojesi käytöstä tai poistamisesta, ota meihin yhteyttä osoitteeseen <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Käsittelemme pyynnöt sovellettavan lain mukaisesti; joitakin tietoja saatetaan joutua säilyttämään lakisääteisten velvoitteiden täyttämiseksi tai ostosten varmentamiseksi.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Mainonta- ja tietosuojavalinnat",
+      "html": "<p>Mainosten näyttämistapa voi vaihdella alueen, laiteasetusten, Applen tietosuoja-asetusten, suostumuksen tilan ja muiden ehtojen mukaan. Tarvittaessa voimme näyttää näytön, jossa pyydetään suostumusta tai valintaa mainoksiin tai muuhun datan käyttöön liittyen. Voit hallita mainostunnisteiden ja muiden tietojen käyttöä siinä määrin kuin se on mahdollista iOS:n tietosuoja-asetuksissa.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Lapset",
+      "html": "<p>Alaikäisten tulee käyttää sovellusta tarvittaessa vanhemman tai laillisen huoltajan suostumuksella. Sovellusta ei ole suunniteltu keräämään aktiivisesti henkilötietoja, kuten lapsen nimeä, osoitetta, puhelinnumeroa tai sähköpostiosoitetta.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Turvallisuus",
+      "html": "<p>Pyrimme kohtuullisiin suojatoimiin estääksemme luvattoman pääsyn, vuotamisen, muuttamisen, katoamisen ja vastaavat tapahtumat, jotka liittyvät sovelluksen kautta käsiteltyihin tietoihin.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Muutokset tähän käytäntöön",
+      "html": "<p>Voimme muuttaa tätä käytäntöä tarvittaessa lakisääteisten muutosten, sovelluksen ominaisuuksien muutosten, kolmansien osapuolten palveluiden muutosten tai muiden syiden vuoksi. Tarkistettu käytäntö tulee voimaan, kun se julkaistaan ​​sovelluksessa tai verkkosivustollamme. Ilmoitamme olennaisista muutoksista tarvittaessa.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Yhteystiedot",
+      "html": "<div class=\"contact\">\n       <p>Jos sinulla on kysyttävää tästä käytännöstä tai tietojen käsittelystä sovelluksessa:</p>\n       <p>Kehittäjä ja operaattori: SynCraft</p>\n       <p>Yhteystiedot: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "fi",
+    "capturedAt": "2026-10-18T07:40:24.053Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "2d0fc86d3a182c451987b60aaf0a13721d7185a09b28aea1ecd899824489400a",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Käyttöehdot",
+      "SwingCat",
+      "Yhteystiedot"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Valitse kieli"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "locale": "nl",
+  "kind": "privacy",
+  "title": "Privacybeleid",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "Ingangsdatum: 28 augustus 2026 <br>\n     Laatst bijgewerkt: 18 oktober 2026",
+  "status": "translation-draft",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Dit privacybeleid legt uit hoe SynCraft (\"wij,\" \"ons\" of \"onze\") omgaat met gebruikersinformatie in de iOS-applicatie SwingCat (de \"App\").</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Informatie die we verzamelen en opslaan",
+      "html": "<p>De app vereist over het algemeen niet dat gebruikers direct een naam, adres, telefoonnummer of e-mailadres invoeren om zich te registreren.</p>\n      <p>Afhankelijk van uw gebruik van de app kan de volgende informatie op uw apparaat worden opgeslagen: timerinstellingen; focustijd en timergeschiedenis; door u ingevoerde taken; katten, items, titels en andere in-app-content en het gebruik ervan; app-instellingen; optionele profielinformatie zoals een naam; en de status van betaalde functies.</p>\n      <p>We kunnen ook informatie verzamelen of verwerken via diensten van derden voor gebruiksanalyses, kwaliteitsverbeteringen, diagnostiek en reclame. Dit kan onder andere het apparaattype, het besturingssysteem, de taalinstellingen, de appversie, opstart- en gebruiksgebeurtenissen, crash- en prestatiegegevens, het IP-adres en andere netwerkinformatie, interacties met advertenties en apparaat- of advertentie-identificaties omvatten. De daadwerkelijk verwerkte informatie kan variëren afhankelijk van uw iOS-versie, apparaatinstellingen, privacyvoorkeuren, toestemmingsstatus en specificaties van de dienst van derden.</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Hoe we informatie gebruiken",
+      "html": "<ol>\n       <li>Het doel is om de app en de bijbehorende functies te leveren.</li>\n       <li>Om het app-gebruik te begrijpen en te analyseren.</li>\n       <li>Om de functionaliteit, gebruiksvriendelijkheid en gebruikerservaring te verbeteren.</li>\n       <li>Het onderzoeken en verhelpen van fouten, vastlopers en andere problemen.</li>\n       <li>Om advertenties weer te geven en advertentiegerelateerde functies aan te bieden.</li>\n       <li>Het doel is om in-app beloningen te bieden die gekoppeld zijn aan advertenties.</li>\n       <li>Om misbruik te voorkomen.</li>\n       <li>Om betaalde functies aan te bieden en de aankoopstatus te bevestigen.</li>\n       <li>Om vragen te beantwoorden.</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>We kunnen gebruikmaken van diensten van Google LLC, waaronder Firebase Analytics om inzicht te krijgen in het app-gebruik en functies te verbeteren, en Firebase Crashlytics om crashes te identificeren en de stabiliteit te verbeteren. Deze diensten kunnen gebruiksgegevens, apparaat- en besturingssysteeminformatie, crashlogboeken, app-status en andere diagnostische gegevens verzamelen of verwerken.</p>\n      <p>Het privacybeleid van Google en andere toepasselijke voorwaarden zijn van toepassing op informatie die door Firebase wordt verwerkt. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacybeleid </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase Privacy en beveiliging</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>We kunnen Google AdMob gebruiken om advertenties weer te geven. De app kan beloningsadvertenties aanbieden waarmee gebruikers items of andere voordelen binnen de app kunnen ontvangen. AdMob en de Google Mobile Ads SDK kunnen IP-adressen, apparaatinformatie, apparaat- of advertentie-ID's, advertentievertoningen en -interacties, interacties binnen de app en crash- of prestatiegegevens verzamelen of verwerken voor advertentieweergave, meting, fraudepreventie en serviceverbetering.</p>\n      <p>De beschikbaarheid van advertentie-ID's kan afhangen van apparaatinstellingen, Apple-privacyfuncties en gebruikerstoestemming. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google-privacybeleid: </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Hoe Google gegevens van partnersites of -apps gebruikt.</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. In-app aankopen",
+      "html": "<p>We kunnen abonnementen en eenmalige aankoopplannen aanbieden via de App Store. Apple verwerkt de betalingen en wij verzamelen of bewaren geen creditcardnummers of andere betaalgegevens. Om betaalde functies te kunnen aanbieden, kan de app informatie over gekochte producten en de abonnementsstatus opvragen of verifiëren. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple Privacybeleid</a></p>\n      <p>We gebruiken RevenueCat, Inc. om aankopen te verifiëren, abonnementen en toegang tot betaalde functies te beheren, aankopen te herstellen en inzicht te krijgen in aankoop- en abonnementsactiviteiten. RevenueCat verwerkt een app-gebruikers-ID die is gegenereerd door de SDK, identificatiegegevens van gekochte producten, transactie- en aankoopgeschiedenis, abonnementsstatus en vervaldatums, en technische informatie zoals het besturingssysteem van het apparaat en de app-versie.</p>\n      <p>We gebruiken de automatisch gegenereerde anonieme app-gebruikers-ID van RevenueCat in plaats van een naam of e-mailadres als aankoopidentificatie. We sturen uw in-app-profielnaam of e-mailadres niet als klantgegevens naar RevenueCat. Het gebruik van een anonieme ID betekent niet dat er geen informatie wordt verwerkt of dat aankoopgegevens worden verwijderd wanneer u de app verwijdert.</p>\n      <p>Voor meer informatie kunt u het <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">privacybeleid van RevenueCat</a> en <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">de informatie van RevenueCat over aankoopgegevens</a> raadplegen .</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Delen met derden",
+      "html": "<p>Wij verkopen geen informatie over gebruikers. Informatie kan worden verzonden naar of verwerkt door Firebase, Google AdMob, Apple, RevenueCat en andere diensten, voor zover nodig om de app te kunnen leveren. We kunnen ook informatie openbaar maken wanneer u daar toestemming voor geeft, wanneer openbaarmaking wettelijk verplicht is, wanneer dit nodig is om leven, lichaam of eigendom te beschermen, of zoals anderszins wettelijk is toegestaan.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Gegevensbewaring en -verwijdering",
+      "html": "<p>Timergeschiedenis, katten, items, titels, instellingen en andere app-gegevens kunnen op uw apparaat worden opgeslagen. Gegevens die alleen op een apparaat zijn opgeslagen, kunnen verloren gaan als de app wordt verwijderd, het apparaat wordt gereset, het apparaat defect raakt of om andere redenen. Gegevens die door externe services worden verwerkt, worden beheerd volgens hun respectievelijke bewaartermijnen en -beleid.</p>\n      <p>Het verwijderen van de app verwijdert op zichzelf geen aankoopgegevens of andere informatie die door externe diensten wordt bewaard. Voor vragen of verzoeken met betrekking tot de inzage in of verwijdering van uw gegevens kunt u contact met ons opnemen via <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . We zullen verzoeken behandelen in overeenstemming met de toepasselijke wetgeving; sommige gegevens moeten mogelijk worden bewaard om te voldoen aan wettelijke verplichtingen of om aankopen te verifiëren.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Keuzes met betrekking tot reclame en privacy.",
+      "html": "<p>De manier waarop advertenties worden weergegeven, kan variëren afhankelijk van de regio, apparaatinstellingen, privacyfuncties van Apple, toestemmingsstatus en andere omstandigheden. Indien nodig kunnen we een scherm weergeven waarin om toestemming of een keuze met betrekking tot advertenties of ander gegevensgebruik wordt gevraagd. U kunt het gebruik van advertentie-ID's en andere informatie beheren via de privacyinstellingen van iOS.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Kinderen",
+      "html": "<p>Minderjarigen dienen de app te gebruiken met toestemming van een ouder of wettelijke voogd, indien nodig. De app is niet ontworpen om actief persoonlijke informatie te verzamelen, zoals de naam, het adres, het telefoonnummer of het e-mailadres van een kind.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Beveiliging",
+      "html": "<p>We doen ons best om redelijke voorzorgsmaatregelen te treffen om ongeautoriseerde toegang, lekkage, wijziging, verlies en soortgelijke gebeurtenissen met betrekking tot informatie die via de app wordt verwerkt, te voorkomen.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Wijzigingen in dit beleid",
+      "html": "<p>We kunnen dit beleid naar behoefte wijzigen vanwege wetswijzigingen, wijzigingen in app-functies, wijzigingen in diensten van derden of andere redenen. Het herziene beleid treedt in werking zodra het in de app of op onze website wordt gepubliceerd. We zullen waar nodig melding maken van belangrijke wijzigingen.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Contact",
+      "html": "<div class=\"contact\">\n       <p>Voor vragen over dit beleid of de verwerking van gegevens in de app:</p>\n       <p>Ontwikkelaar en exploitant: SynCraft</p>\n       <p>Contact: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "nl",
+    "capturedAt": "2026-10-18T07:33:33.164Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "6b53c8149ca82fb914f579931a8b4ab9fc211223b6c6b2062ffaf27765a44775",
+    "editorialCorrection": false
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "uiDraft": {
+    "footer": [
+      "Gebruiksvoorwaarden",
+      "SwingCat",
+      "Contact"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Selecteer taal"
+  }
+}
