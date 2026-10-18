@@ -27,7 +27,7 @@
     },
     {
       "id": "section-03",
-      "heading": "3. ਫਾਇਰਬੇਸ",
+      "heading": "3. Firebase",
       "html": "<p>ਅਸੀਂ Google LLC ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤੀਆਂ ਸੇਵਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹਾਂ, ਜਿਸ ਵਿੱਚ ਐਪ ਵਰਤੋਂ ਨੂੰ ਸਮਝਣ ਅਤੇ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ Firebase Analytics, ਅਤੇ ਕਰੈਸ਼ਾਂ ਦੀ ਪਛਾਣ ਕਰਨ ਅਤੇ ਸਥਿਰਤਾ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ Firebase Crashlytics ਸ਼ਾਮਲ ਹਨ। ਇਹ ਸੇਵਾਵਾਂ ਵਰਤੋਂ ਜਾਣਕਾਰੀ, ਡਿਵਾਈਸ ਅਤੇ OS ਜਾਣਕਾਰੀ, ਕਰੈਸ਼ ਲੌਗ, ਐਪ ਸਥਿਤੀ, ਅਤੇ ਹੋਰ ਡਾਇਗਨੌਸਟਿਕ ਜਾਣਕਾਰੀ ਇਕੱਠੀ ਜਾਂ ਪ੍ਰਕਿਰਿਆ ਕਰ ਸਕਦੀਆਂ ਹਨ।</p>\n      <p>Google ਦੀ ਗੋਪਨੀਯਤਾ ਨੀਤੀ ਅਤੇ ਹੋਰ ਲਾਗੂ ਹੋਣ ਵਾਲੀਆਂ ਸ਼ਰਤਾਂ Firebase ਦੁਆਰਾ ਸੰਭਾਲੀ ਗਈ ਜਾਣਕਾਰੀ 'ਤੇ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ। <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google ਗੋਪਨੀਯਤਾ ਨੀਤੀ </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase ਗੋਪਨੀਯਤਾ ਅਤੇ ਸੁਰੱਖਿਆ</a></p>"
     },
     {
@@ -90,11 +90,11 @@
   },
   "uiDraft": {
     "footer": [
-      "ਵਰਤੋ ਦੀਆਂ ਸ਼ਰਤਾਂ",
-      "ਸਵਿੰਗਕੈਟ",
+      "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ",
+      "SwingCat",
       "ਸੰਪਰਕ"
     ],
-    "home": "ਸਵਿੰਗਕੈਟ",
+    "home": "SwingCat",
     "selectLanguage": "ਭਾਸ਼ਾ ਚੁਣੋ"
   }
 }

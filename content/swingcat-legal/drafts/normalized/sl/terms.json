@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Pogoji uporabe in prepovedano ravnanje",
-      "html": "<p>Aplikacijo uporabljate na lastno odgovornost in ne smete: spreminjati, dekompilirati, izvajati obratnega inženiringa ali izvajati podobnih dejanj v aplikaciji; reproducirati, distribuirati, prodajati ali kako drugače uporabljati aplikacije brez dovoljenja; pridobivati ​​plačljivih funkcij, nagrad za ogled oglasov ali druge vsebine na neprimeren način; motiti normalno delovanje aplikacije; kršiti veljavne zakone ali javne politike; ali se ukvarjati z vedenjem, ki ga razumno štejemo za neprimerno. Mladoletniki morajo pred nakupom plačljivih storitev pridobiti soglasje staršev ali zakonitega skrbnika, kjer je to potrebno.</p>"
+      "html": "<p>Aplikacijo uporabljate na lastno odgovornost in ne smete: spreminjati, dekompilirati, izvajati obratnega inženiringa ali izvajati podobnih dejanj v aplikaciji; reproducirati, distribuirati, prodajati ali kako drugače uporabljati aplikacije brez dovoljenja; pridobivati plačljivih funkcij, nagrad za ogled oglasov ali druge vsebine na neprimeren način; motiti normalno delovanje aplikacije; kršiti veljavne zakone ali javni red; ali se ukvarjati z vedenjem, ki ga razumno štejemo za neprimerno. Mladoletniki morajo pred nakupom plačljivih storitev pridobiti soglasje staršev ali zakonitega skrbnika, kjer je to potrebno.</p>"
     },
     {
       "id": "section-03",
@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. Vsebina v aplikaciji",
-      "html": "<ol>\n       <li>Mačke, predmeti, naslovi in ​​druge digitalne vsebine, ki so na voljo v aplikaciji, so namenjene uporabi znotraj aplikacije.</li>\n       <li>Nimajo dejanske denarne vrednosti in jih ni mogoče zamenjati za gotovino ali drugo premoženje.</li>\n       <li>Imena, vsebino, pogoje pridobitve, pogoje uporabe, prikaz in druge specifikacije lahko spremenimo zaradi izboljšav, prilagoditev ravnotežja, sprememb specifikacij ali operativnih potreb.</li>\n       <li>Pri posodabljanju si prizadevamo ohraniti uporabniške podatke, kjer je to razumno mogoče, vendar ne zagotavljamo popolne ohranitve ali obnovitve v vsaki napravi, operacijskem sistemu ali okolju.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Mačke, predmeti, naslovi in druge digitalne vsebine, ki so na voljo v aplikaciji, so namenjene uporabi znotraj aplikacije.</li>\n       <li>Nimajo dejanske denarne vrednosti in jih ni mogoče zamenjati za gotovino ali drugo premoženje.</li>\n       <li>Imena, vsebino, pogoje pridobitve, pogoje uporabe, prikaz in druge specifikacije lahko spremenimo zaradi izboljšav, prilagoditev ravnotežja, sprememb specifikacij ali operativnih potreb.</li>\n       <li>Pri posodabljanju si prizadevamo ohraniti uporabniške podatke, kjer je to razumno mogoče, vendar ne zagotavljamo popolne ohranitve ali obnovitve v vsaki napravi, operacijskem sistemu ali okolju.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -43,7 +43,7 @@
     {
       "id": "section-06",
       "heading": "6. Plačljive storitve in nakupi",
-      "html": "<p>Poleg brezplačnih funkcij lahko aplikacija ponuja plačljive funkcije ali vsebino, vključno z mesečnimi naročninami, letnimi naročninami in paketi za enkratni nakup. Veljajo izdelki, cene, obdobja in razpoložljive funkcije, prikazane v trgovini App Store in App Store v času nakupa. Nakupi in plačila se izvajajo prek trgovine Apple App Store; podatkov o plačilnih karticah ne zbiramo ali shranjujemo neposredno.</p>"
+      "html": "<p>Poleg brezplačnih funkcij lahko aplikacija ponuja plačljive funkcije ali vsebino, vključno z mesečnimi naročninami, letnimi naročninami in paketi za enkratni nakup. Veljajo izdelki, cene, obdobja in razpoložljive funkcije, prikazane v aplikaciji in trgovini App Store v času nakupa. Nakupi in plačila se izvajajo prek trgovine Apple App Store; podatkov o plačilnih karticah ne zbiramo ali shranjujemo neposredno.</p>"
     },
     {
       "id": "section-07",
@@ -58,12 +58,12 @@
     {
       "id": "section-09",
       "heading": "9. Shranjevanje podatkov",
-      "html": "<p>Nastavitve, zgodovina časovnika, mačke, predmeti, naslovi in ​​drugi podatki so lahko shranjeni v vaši napravi. Podatki se lahko izgubijo zaradi brisanja aplikacije, okvare ali zamenjave naprave, posodobitev operacijskega sistema, napak aplikacije ali drugih okoliščin. Prizadevamo si ohraniti podatke, kjer je to razumno mogoče, vendar ne zagotavljamo, da je mogoče vse podatke vedno shraniti ali obnoviti.</p>"
+      "html": "<p>Nastavitve, zgodovina časovnika, mačke, predmeti, naslovi in drugi podatki so lahko shranjeni v vaši napravi. Podatki se lahko izgubijo zaradi brisanja aplikacije, okvare ali zamenjave naprave, posodobitev operacijskega sistema, napak aplikacije ali drugih okoliščin. Prizadevamo si ohraniti podatke, kjer je to razumno mogoče, vendar ne zagotavljamo, da je mogoče vse podatke vedno shraniti ali obnoviti.</p>"
     },
     {
       "id": "section-10",
       "heading": "10. Izjave o omejitvi odgovornosti",
-      "html": "<p>Ne zagotavljamo, da bo aplikacija vedno pravilno delovala na vsaki napravi in ​​operacijskem okolju ali da bo natančna, popolna, varna, primerna za določen namen ali neprekinjeno na voljo. Časovniki, obvestila in druge funkcije morda ne bodo delovali po pričakovanjih zaradi nastavitev naprave, specifikacij sistema iOS, funkcij za varčevanje z energijo, omrežnih razmer ali drugih okoliščin. Razen v primerih našega namernega protipravnega ravnanja, hude malomarnosti ali odgovornosti, ki je po zakonu ni mogoče izključiti, ne odgovarjamo za škodo, ki nastane zaradi uporabe ali nezmožnosti uporabe aplikacije.</p>"
+      "html": "<p>Ne zagotavljamo, da bo aplikacija vedno pravilno delovala na vsaki napravi in operacijskem okolju ali da bo natančna, popolna, varna, primerna za določen namen ali neprekinjeno na voljo. Časovniki, obvestila in druge funkcije morda ne bodo delovali po pričakovanjih zaradi nastavitev naprave, specifikacij sistema iOS, funkcij za varčevanje z energijo, omrežnih razmer ali drugih okoliščin. Razen v primerih našega namernega protipravnega ravnanja, hude malomarnosti ali odgovornosti, ki je po zakonu ni mogoče izključiti, ne odgovarjamo za škodo, ki nastane zaradi uporabe ali nezmožnosti uporabe aplikacije.</p>"
     },
     {
       "id": "section-11",

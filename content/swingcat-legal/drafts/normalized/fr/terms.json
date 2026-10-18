@@ -23,22 +23,22 @@
     {
       "id": "section-02",
       "heading": "2. Conditions d'utilisation et comportements interdits",
-      "html": "<p>Vous utilisez l'Application à vos propres risques et vous vous engagez à ne pas : modifier, décompiler, désosser ou effectuer des opérations similaires sur l'Application ; reproduire, redistribuer, vendre ou utiliser l'Application sans autorisation ; obtenir des fonctionnalités payantes, des récompenses publicitaires ou tout autre contenu par des moyens illégaux ; perturber le fonctionnement normal de l'Application ; enfreindre les lois ou l'ordre public applicables ; ou adopter un comportement que nous jugeons raisonnablement inapproprié. Les mineurs doivent obtenir le consentement d'un parent ou tuteur légal, le cas échéant, avant d'acheter des services payants.</p>"
+      "html": "<p>Vous utilisez l'Application à vos propres risques et vous vous engagez à ne pas : modifier, décompiler, effectuer de l’ingénierie inverse ou effectuer des opérations similaires sur l'Application ; reproduire, redistribuer, vendre ou utiliser l'Application sans autorisation ; obtenir des fonctionnalités payantes, des récompenses publicitaires ou tout autre contenu par des moyens indus ; perturber le fonctionnement normal de l'Application ; enfreindre les lois ou l'ordre public applicables ; ou adopter un comportement que nous jugeons raisonnablement inapproprié. Les mineurs doivent obtenir le consentement d'un parent ou tuteur légal, le cas échéant, avant d'acheter des services payants.</p>"
     },
     {
       "id": "section-03",
       "heading": "3. Propriété intellectuelle",
-      "html": "<p>Les droits d'auteur et autres droits de propriété intellectuelle relatifs aux noms, logos, personnages, illustrations de chats, animations, images, textes, fichiers audio, programmes et autres contenus de l'Application nous appartiennent ou appartiennent à des tiers titulaires de droits légitimes. Sauf autorisation légale, vous n'êtes pas autorisé à les utiliser, les reproduire, les publier, les modifier, les redistribuer ou les vendre sans autorisation. Les contenus générés via la fonction de partage de l'Application peuvent être publiés sur les réseaux sociaux et autres services à des fins de partage habituelles, conformément aux modalités prévues par l'Application.</p>"
+      "html": "<p>Les droits d'auteur et autres droits de propriété intellectuelle relatifs aux noms, logos, personnages, dessins de chats, illustrations, animations, images, textes, fichiers audio, programmes et autres contenus de l'Application nous appartiennent ou appartiennent à des tiers titulaires de droits légitimes. Sauf autorisation légale, vous n'êtes pas autorisé à les utiliser, les reproduire, les publier, les modifier, les redistribuer ou les vendre sans autorisation. Les contenus générés via la fonction de partage de l'Application peuvent être publiés sur les réseaux sociaux et autres services à des fins de partage habituelles, conformément aux modalités prévues par l'Application.</p>"
     },
     {
       "id": "section-04",
       "heading": "4. Contenu intégré à l'application",
-      "html": "<ol>\n       <li>Les chats, objets, titres et autres contenus numériques disponibles dans l'application sont destinés à être utilisés au sein de l'application.</li>\n       <li>Elles n'ont aucune valeur monétaire réelle et ne peuvent être échangées contre de l'argent liquide ou d'autres biens.</li>\n       <li>Nous pouvons modifier les noms, le contenu, les conditions d'acquisition, les conditions d'utilisation, l'affichage et d'autres spécifications pour des améliorations, des ajustements d'équilibre, des changements de spécifications ou des besoins opérationnels.</li>\n       <li>Nous nous efforçons de préserver les données des utilisateurs dans la mesure du possible lors des mises à jour, mais nous ne garantissons pas une préservation ou une restauration complète sur tous les appareils, systèmes d'exploitation ou environnements.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Les chats, objets, titres et autres contenus numériques disponibles dans l'application sont destinés à être utilisés au sein de l'application.</li>\n       <li>Ils n'ont aucune valeur monétaire réelle et ne peuvent être échangés contre de l'argent liquide ou d'autres biens.</li>\n       <li>Nous pouvons modifier les noms, le contenu, les conditions d'acquisition, les conditions d'utilisation, l'affichage et d'autres spécifications pour des améliorations, des ajustements d'équilibre, des changements de spécifications ou des besoins opérationnels.</li>\n       <li>Nous nous efforçons de préserver les données des utilisateurs dans la mesure du possible lors des mises à jour, mais nous ne garantissons pas une préservation ou une restauration complète sur tous les appareils, systèmes d'exploitation ou environnements.</li>\n      </ol>"
     },
     {
       "id": "section-05",
       "heading": "5. Publicité et récompenses",
-      "html": "<p>L'application peut afficher des publicités via des services tels que Google AdMob et proposer des publicités récompensées offrant des articles ou d'autres avantages au sein de l'application. Les conditions d'obtention de ces récompenses sont celles affichées dans l'application. Le contenu, la présentation, la fréquence et les avantages des publicités peuvent être modifiés. Les annonceurs et les fournisseurs de publicité sont responsables du contenu de leurs annonces ; nous ne garantissons pas les produits ou services annoncés.</p>"
+      "html": "<p>L'application peut afficher des publicités via des services tels que Google AdMob et proposer des publicités récompensées offrant des objets ou d'autres avantages au sein de l'application. Les conditions d'obtention de ces récompenses sont celles affichées dans l'application. Le contenu, la présentation, la fréquence et les avantages des publicités peuvent être modifiés. Les annonceurs et les fournisseurs de publicité sont responsables du contenu de leurs annonces ; nous ne garantissons pas les produits ou services annoncés.</p>"
     },
     {
       "id": "section-06",
@@ -48,12 +48,12 @@
     {
       "id": "section-07",
       "heading": "7. Abonnements",
-      "html": "<p>Les frais d’abonnement sont facturés sur votre compte Apple. L’abonnement est automatiquement renouvelé pour chaque période applicable, sauf si vous désactivez le renouvellement automatique dans les réglages de l’App Store. Une fois le renouvellement automatique désactivé, les fonctionnalités restent généralement disponibles jusqu’à la fin de la période d’abonnement en cours. Les conditions générales et politiques d’Apple et de l’App Store régissent la gestion des abonnements, l’annulation du renouvellement automatique, les remboursements et les autres modalités de paiement.</p>"
+      "html": "<p>Les frais d’abonnement sont facturés sur votre compte Apple. L’abonnement est automatiquement renouvelé pour chaque période applicable, sauf si vous désactivez le renouvellement automatique dans les réglages de l’App Store. Une fois le renouvellement automatique désactivé, les fonctionnalités restent généralement disponibles jusqu’à la fin de la période d’abonnement payée en cours. Les conditions générales et politiques d’Apple et de l’App Store régissent la gestion des abonnements, l’annulation du renouvellement automatique, les remboursements et les autres modalités de paiement.</p>"
     },
     {
       "id": "section-08",
-      "heading": "8. Plans d'achat unique",
-      "html": "<p>L’achat unique vous donne le droit d’utiliser les fonctionnalités payantes concernées sans abonnement. Il ne garantit pas la disponibilité permanente de l’application, de toutes ses fonctionnalités, des intégrations tierces ni la compatibilité avec toutes les futures versions d’iOS ou tous les appareils. La restauration des informations d’achat et les questions connexes sont soumises aux systèmes et politiques d’Apple et de l’App Store.</p>"
+      "heading": "8. Achats uniques",
+      "html": "<p>L’achat unique vous donne le droit d’utiliser les fonctionnalités payantes concernées sans paiements d’abonnement récurrents. Il ne garantit pas la disponibilité permanente de l’application, de toutes ses fonctionnalités, des intégrations tierces ni la compatibilité avec toutes les futures versions d’iOS ou tous les appareils. La restauration des informations d’achat et les questions connexes sont soumises aux systèmes et politiques d’Apple et de l’App Store.</p>"
     },
     {
       "id": "section-09",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:32:22.622Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "bc0a6229ce8d66d3f159ea96a0d7ff90dbd1d5fe3144199749ff354151f69153",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -100,7 +100,7 @@
   },
   "uiDraft": {
     "footer": [
-      "politique de confidentialité",
+      "Politique de confidentialité",
       "SwingCat",
       "Contact"
     ],

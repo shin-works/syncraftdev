@@ -18,12 +18,12 @@
     {
       "id": "section-01",
       "heading": "1. Aplikasi",
-      "html": "<ol>\n       <li>Aplikasi ini membantu pengguna mengurus fokus dan masa kerja menggunakan pemasa.</li>\n       <li>Bergantung pada penggunaan pemasa, Aplikasi ini mungkin menyediakan ciri-ciri yang membolehkan pengguna mendapatkan atau menggunakan kucing, item, tajuk dan kandungan lain.</li>\n       <li>Aplikasi ini tidak menjamin tumpuan, produktiviti, hasil pembelajaran, hasil kerja atau sebarang hasil khusus yang lain.</li>\n       <li>Ciri-ciri mungkin berbeza bergantung pada iOS, peranti dan syarat penggunaan yang lain.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Aplikasi ini membantu pengguna mengurus fokus dan masa kerja menggunakan pemasa.</li>\n       <li>Bergantung pada penggunaan pemasa, Aplikasi ini mungkin menyediakan ciri-ciri yang membolehkan pengguna mendapatkan atau menggunakan kucing, item, gelaran dan kandungan lain.</li>\n       <li>Aplikasi ini tidak menjamin tumpuan, produktiviti, hasil pembelajaran, hasil kerja atau sebarang hasil khusus yang lain.</li>\n       <li>Ciri-ciri mungkin berbeza bergantung pada iOS, peranti dan syarat penggunaan yang lain.</li>\n      </ol>"
     },
     {
       "id": "section-02",
       "heading": "2. Syarat penggunaan dan kelakuan yang dilarang",
-      "html": "<p>Anda menggunakan Aplikasi ini atas risiko anda sendiri dan tidak boleh: mengubah suai, menyahkompil, merekayasa balik atau melakukan tindakan serupa pada Aplikasi; menghasilkan semula, mengedarkan semula, menjual atau menggunakan Aplikasi tanpa kebenaran; mendapatkan ciri berbayar, ganjaran tontonan iklan atau kandungan lain melalui cara yang tidak betul; mengganggu operasi Aplikasi biasa; melanggar undang-undang atau dasar awam yang terpakai; atau terlibat dalam tingkah laku yang kami anggap tidak sesuai secara munasabah. Kanak-kanak bawah umur harus mendapatkan persetujuan daripada ibu bapa atau penjaga sah jika diperlukan sebelum membeli perkhidmatan berbayar.</p>"
+      "html": "<p>Anda menggunakan Aplikasi ini atas risiko anda sendiri dan tidak boleh: mengubah suai, menyahkompil, merekayasa balik atau melakukan tindakan serupa pada Aplikasi; menghasilkan semula, mengedarkan semula, menjual atau menggunakan Aplikasi tanpa kebenaran; mendapatkan ciri berbayar, ganjaran tontonan iklan atau kandungan lain melalui cara yang tidak betul; mengganggu operasi Aplikasi biasa; melanggar undang-undang atau ketenteraman awam yang terpakai; atau terlibat dalam tingkah laku yang kami anggap tidak sesuai secara munasabah. Kanak-kanak bawah umur harus mendapatkan persetujuan daripada ibu bapa atau penjaga sah jika diperlukan sebelum membeli perkhidmatan berbayar.</p>"
     },
     {
       "id": "section-03",
@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. Kandungan dalam aplikasi",
-      "html": "<ol>\n       <li>Kucing, barang, tajuk dan kandungan digital lain yang tersedia dalam Aplikasi adalah bertujuan untuk digunakan dalam Aplikasi.</li>\n       <li>Ia tidak mempunyai nilai kewangan dunia sebenar dan tidak boleh ditukar dengan wang tunai atau harta lain.</li>\n       <li>Kami mungkin mengubah nama, kandungan, syarat pemerolehan, syarat penggunaan, paparan dan spesifikasi lain untuk penambahbaikan, pelarasan imbangan, perubahan spesifikasi atau keperluan operasi.</li>\n       <li>Kami berusaha untuk memelihara data pengguna di mana yang munasabah mungkin semasa kemas kini, tetapi tidak menjamin pemeliharaan atau pemulihan sepenuhnya pada setiap peranti, OS atau persekitaran.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Kucing, barang, gelaran dan kandungan digital lain yang tersedia dalam Aplikasi adalah bertujuan untuk digunakan dalam Aplikasi.</li>\n       <li>Ia tidak mempunyai nilai kewangan dunia sebenar dan tidak boleh ditukar dengan wang tunai atau harta lain.</li>\n       <li>Kami mungkin mengubah nama, kandungan, syarat pemerolehan, syarat penggunaan, paparan dan spesifikasi lain untuk penambahbaikan, pelarasan imbangan, perubahan spesifikasi atau keperluan operasi.</li>\n       <li>Kami berusaha untuk memelihara data pengguna di mana yang munasabah mungkin semasa kemas kini, tetapi tidak menjamin pemeliharaan atau pemulihan sepenuhnya pada setiap peranti, OS atau persekitaran.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -58,7 +58,7 @@
     {
       "id": "section-09",
       "heading": "9. Penyimpanan data",
-      "html": "<p>Tetapan, sejarah pemasa, kucing, item, tajuk dan data lain mungkin disimpan pada peranti anda. Data mungkin hilang melalui pemadaman Aplikasi, kegagalan atau penggantian peranti, kemas kini OS, kecacatan Aplikasi atau keadaan lain. Kami berusaha untuk memelihara data jika boleh tetapi tidak menjamin bahawa semua data sentiasa boleh disimpan atau dipulihkan.</p>"
+      "html": "<p>Tetapan, sejarah pemasa, kucing, item, gelaran dan data lain mungkin disimpan pada peranti anda. Data mungkin hilang melalui pemadaman Aplikasi, kegagalan atau penggantian peranti, kemas kini OS, kecacatan Aplikasi atau keadaan lain. Kami berusaha untuk memelihara data jika boleh tetapi tidak menjamin bahawa semua data sentiasa boleh disimpan atau dipulihkan.</p>"
     },
     {
       "id": "section-10",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:48:51.353Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "cd4c52eaab91a5ed8c6fdfa0c61c2631ed158d63753fb77a73270313e5423d4c",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

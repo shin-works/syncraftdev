@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. Treści w aplikacji",
-      "html": "<ol>\n       <li>Koty, przedmioty, tytuły i inna treść cyfrowa dostępna w Aplikacji są przeznaczone do użytku w Aplikacji.</li>\n       <li>Nie mają one żadnej realnej wartości pieniężnej i nie można ich wymienić na gotówkę ani inną własność.</li>\n       <li>Możemy zmieniać nazwy, treści, warunki nabycia, warunki użytkowania, sposób wyświetlania i inne specyfikacje w celu wprowadzenia ulepszeń, dostosowania salda, zmiany specyfikacji lub ze względu na potrzeby operacyjne.</li>\n       <li>Dokładamy wszelkich starań, aby w miarę możliwości zachować dane użytkowników podczas aktualizacji, jednak nie gwarantujemy całkowitego zachowania lub przywrócenia danych na każdym urządzeniu, systemie operacyjnym lub w każdym środowisku.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Koty, przedmioty, tytuły i inna treść cyfrowa dostępna w Aplikacji są przeznaczone do użytku w Aplikacji.</li>\n       <li>Nie mają one żadnej realnej wartości pieniężnej i nie można ich wymienić na gotówkę ani inną własność.</li>\n       <li>Możemy zmieniać nazwy, treści, warunki nabycia, warunki użytkowania, sposób wyświetlania i inne specyfikacje w celu wprowadzenia ulepszeń, dostosowania balansu rozgrywki, zmiany specyfikacji lub ze względu na potrzeby operacyjne.</li>\n       <li>Dokładamy wszelkich starań, aby w miarę możliwości zachować dane użytkowników podczas aktualizacji, jednak nie gwarantujemy całkowitego zachowania lub przywrócenia danych na każdym urządzeniu, systemie operacyjnym lub w każdym środowisku.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Plany zakupów jednorazowych",
-      "html": "<p>Plan jednorazowego zakupu daje prawo do korzystania z odpowiednich płatnych funkcji bez konieczności dokonywania cyklicznych płatności abonamentowych. Nie gwarantuje on bezterminowego dostępu do Aplikacji, wszystkich funkcji, integracji z aplikacjami stron trzecich ani kompatybilności ze wszystkimi przyszłymi wersjami systemu iOS lub urządzeniami. Przywracanie informacji o zakupie i związane z tym kwestie podlegają zasadom i regulaminom Apple Store i App Store.</p>"
+      "html": "<p>Plan jednorazowego zakupu daje prawo do korzystania z odpowiednich płatnych funkcji bez konieczności dokonywania cyklicznych płatności abonamentowych. Nie gwarantuje on bezterminowego udostępniania Aplikacji, wszystkich funkcji, integracji z aplikacjami stron trzecich ani kompatybilności ze wszystkimi przyszłymi wersjami systemu iOS lub urządzeniami. Przywracanie informacji o zakupie i związane z tym kwestie podlegają systemom i zasadom Apple i App Store.</p>"
     },
     {
       "id": "section-09",

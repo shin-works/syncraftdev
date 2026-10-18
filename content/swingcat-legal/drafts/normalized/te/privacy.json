@@ -27,7 +27,7 @@
     },
     {
       "id": "section-03",
-      "heading": "3. ఫైర్‌బేస్",
+      "heading": "3. Firebase",
       "html": "<p>యాప్ వినియోగాన్ని అర్థం చేసుకోవడానికి మరియు ఫీచర్‌లను మెరుగుపరచడానికి Firebase Analyticsతో సహా, మరియు క్రాష్‌లను గుర్తించడానికి మరియు స్థిరత్వాన్ని మెరుగుపరచడానికి Firebase Crashlyticsతో సహా Google LLC అందించిన సేవలను మేము ఉపయోగించవచ్చు. ఈ సేవలు వినియోగ సమాచారం, పరికరం మరియు OS సమాచారం, క్రాష్ లాగ్‌లు, యాప్ స్థితి మరియు ఇతర డయాగ్నస్టిక్ సమాచారాన్ని సేకరించవచ్చు లేదా ప్రాసెస్ చేయవచ్చు.</p>\n      <p>Firebase ద్వారా నిర్వహించబడే సమాచారానికి Google గోప్యతా విధానం మరియు ఇతర వర్తించే నిబంధనలు వర్తిస్తాయి. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google గోప్యతా విధానం </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase గోప్యత మరియు భద్రత</a></p>"
     },
     {
@@ -91,10 +91,10 @@
   "uiDraft": {
     "footer": [
       "వినియోగ నిబంధనలు",
-      "స్వింగ్‌క్యాట్",
+      "SwingCat",
       "సంప్రదించండి"
     ],
-    "home": "స్వింగ్‌క్యాట్",
+    "home": "SwingCat",
     "selectLanguage": "భాషను ఎంచుకోండి"
   }
 }

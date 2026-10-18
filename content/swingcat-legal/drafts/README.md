@@ -14,7 +14,13 @@ Drafts have **not** completed full language editing or native legal review.
 Codex checked all governing-law clauses, liability-exception sentences, the
 anonymous-ID/customer-attribute paragraphs and the uninstall/deletion statements,
 and corrected detected errors. Structural checks do not prove semantic accuracy.
-UI labels, dates and link labels also need final review before publication.
+The 2026-10-18 follow-up review corrected additional errors in payment types,
+third-party transfer direction, conditional wording, game balance and product
+names, and reviewed footer labels and provider-link labels for all 86 documents.
+Full-body reading in that pass covered fr/de/es/it/nl; other languages received
+selected-clause review. Full language editing of all documents is still pending.
+Localized dates are shown in the offline viewer but have not all been linguistically
+reviewed. None of these checks changes the draft status or activates routes.
 
 These files are outside `public/`, have `translation-draft` status, and are not
 activated in `locales.json` or the Flutter mapping. The live generator rejects
@@ -33,3 +39,9 @@ The standalone review HTML compares the English source and each draft without
 network access. See `syncraft-store-metadata/legal/20261018-translations/REPORT.md`
 for review scope, evidence and remaining work. No App Store metadata or app
 release action is part of preparing these drafts.
+
+The latest source-bound review scope, before/after edits and structural audit are
+in `syncraft-store-metadata/legal/20261018-final-review/REPORT.md`. UI corrections
+are stored as `uiDraft` overrides alongside the body corrections, so regeneration
+preserves their reviewed wording. `audit_legal_translation_drafts.py` verifies
+idempotence and integrity without certifying semantic quality or publishing.

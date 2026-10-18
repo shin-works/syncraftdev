@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:46:38.325Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "1d1077cd65c8f2c31feee65f8ca0b13ea02431f6a04d45668df5ce25d95a84cd",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -102,7 +102,7 @@
     "footer": [
       "Πολιτική Απορρήτου",
       "SwingCat",
-      "Επαφή"
+      "Επικοινωνία"
     ],
     "home": "SwingCat",
     "selectLanguage": "Επιλογή γλώσσας"

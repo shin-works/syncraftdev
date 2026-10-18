@@ -27,8 +27,8 @@
     },
     {
       "id": "section-03",
-      "heading": "3. फायरबेस",
-      "html": "<p>हम Google LLC द्वारा प्रदान की गई सेवाओं का उपयोग कर सकते हैं, जिनमें Firebase Analytics शामिल है, ताकि ऐप के उपयोग को समझा जा सके और सुविधाओं को बेहतर बनाया जा सके, और Firebase Crashlytics का उपयोग क्रैश की पहचान करने और स्थिरता में सुधार करने के लिए किया जा सके। ये सेवाएं उपयोग संबंधी जानकारी, डिवाइस और ऑपरेटिंग सिस्टम की जानकारी, क्रैश लॉग, ऐप की स्थिति और अन्य नैदानिक ​​जानकारी एकत्र या संसाधित कर सकती हैं।</p>\n      <p>फायरबेस द्वारा संसाधित की जाने वाली जानकारी पर Google की गोपनीयता नीति और अन्य लागू शर्तें लागू होती हैं। <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google गोपनीयता नीति, </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">फायरबेस गोपनीयता और सुरक्षा</a></p>"
+      "heading": "3. Firebase",
+      "html": "<p>हम Google LLC द्वारा प्रदान की गई सेवाओं का उपयोग कर सकते हैं, जिनमें Firebase Analytics शामिल है, ताकि ऐप के उपयोग को समझा जा सके और सुविधाओं को बेहतर बनाया जा सके, और Firebase Crashlytics का उपयोग क्रैश की पहचान करने और स्थिरता में सुधार करने के लिए किया जा सके। ये सेवाएं उपयोग संबंधी जानकारी, डिवाइस और ऑपरेटिंग सिस्टम की जानकारी, क्रैश लॉग, ऐप की स्थिति और अन्य नैदानिक जानकारी एकत्र या संसाधित कर सकती हैं।</p>\n      <p>फायरबेस द्वारा संसाधित की जाने वाली जानकारी पर Google की गोपनीयता नीति और अन्य लागू शर्तें लागू होती हैं। <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google गोपनीयता नीति, </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">फायरबेस गोपनीयता और सुरक्षा</a></p>"
     },
     {
       "id": "section-04",
@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:52:10.704Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "d5eac9066327efae62ae38cc399237c934a0cc176fa64d41fa49c3d390a23dfe",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -91,10 +91,10 @@
   "uiDraft": {
     "footer": [
       "उपयोग की शर्तें",
-      "स्विंगकैट",
+      "SwingCat",
       "संपर्क"
     ],
-    "home": "स्विंगकैट",
-    "selectLanguage": "भाषा चुने"
+    "home": "SwingCat",
+    "selectLanguage": "भाषा चुनें"
   }
 }

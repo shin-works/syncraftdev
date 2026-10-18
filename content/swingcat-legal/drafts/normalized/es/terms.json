@@ -13,7 +13,7 @@
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Estas Condiciones de uso (\"Condiciones\") establecen los términos y condiciones para el uso de SwingCat (\"la Aplicación\"), una aplicación para iOS proporcionada por SynCraft (\"nosotros\", \"nos\" o \"nuestro\").</p>\n      <p>Además de estos Términos, el uso que usted haga de la Aplicación está sujeto al Acuerdo de Licencia de Usuario Final (EULA) estándar de Apple.</p>\n      <p>Acuerdo de licencia de usuario final estándar de Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Por favor, revise estos Términos y el Acuerdo de Licencia de Usuario Final Estándar de Apple antes de usar la aplicación.</p>"
+      "html": "<p>Estas Condiciones de uso (\"Condiciones\") establecen los términos y condiciones para el uso de SwingCat (\"la Aplicación\"), una aplicación para iOS proporcionada por SynCraft (\"nosotros\", \"nos\" o \"nuestro\").</p>\n      <p>Además de estas Condiciones, el uso que usted haga de la Aplicación está sujeto al Acuerdo de Licencia de Usuario Final (EULA) estándar de Apple.</p>\n      <p>Acuerdo de licencia de usuario final estándar de Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Por favor, revise estas Condiciones y el Acuerdo de Licencia de Usuario Final Estándar de Apple antes de usar la aplicación.</p>"
     },
     {
       "id": "section-01",
@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Condiciones de uso y conducta prohibida",
-      "html": "<p>Usted utiliza la aplicación bajo su propio riesgo y no debe: modificar, descompilar, aplicar ingeniería inversa ni realizar acciones similares en la aplicación; reproducir, redistribuir, vender ni utilizar la aplicación sin autorización; obtener funciones de pago, recompensas por visualización de anuncios u otro contenido por medios indebidos; interferir con el funcionamiento normal de la aplicación; infringir las leyes aplicables o las políticas públicas; ni participar en conductas que consideremos razonablemente inapropiadas. Los menores de edad deben obtener el consentimiento de sus padres o tutores legales, cuando sea necesario, antes de adquirir servicios de pago.</p>"
+      "html": "<p>Usted utiliza la aplicación bajo su propio riesgo y no debe: modificar, descompilar, aplicar ingeniería inversa ni realizar acciones similares en la aplicación; reproducir, redistribuir, vender ni utilizar la aplicación sin autorización; obtener funciones de pago, recompensas por visualización de anuncios u otro contenido por medios indebidos; interferir con el funcionamiento normal de la aplicación; infringir las leyes aplicables o el orden público; ni participar en conductas que consideremos razonablemente inapropiadas. Los menores de edad deben obtener el consentimiento de sus padres o tutores legales, cuando sea necesario, antes de adquirir servicios de pago.</p>"
     },
     {
       "id": "section-03",
@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. Contenido dentro de la aplicación",
-      "html": "<ol>\n       <li>Los gatos, objetos, títulos y demás contenido digital disponible en la aplicación están destinados a ser utilizados dentro de la aplicación.</li>\n       <li>No tienen valor monetario en el mundo real y no se pueden canjear por dinero en efectivo ni por otros bienes.</li>\n       <li>Podemos modificar nombres, contenido, condiciones de adquisición, condiciones de uso, visualización y otras especificaciones para realizar mejoras, ajustes de saldo, cambios en las especificaciones o necesidades operativas.</li>\n       <li>Nos esforzamos por preservar los datos del usuario en la medida de lo posible durante las actualizaciones, pero no garantizamos su preservación o restauración completa en todos los dispositivos, sistemas operativos o entornos.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Los gatos, objetos, títulos y demás contenido digital disponible en la aplicación están destinados a ser utilizados dentro de la aplicación.</li>\n       <li>No tienen valor monetario en el mundo real y no se pueden canjear por dinero en efectivo ni por otros bienes.</li>\n       <li>Podemos modificar nombres, contenido, condiciones de adquisición, condiciones de uso, visualización y otras especificaciones para realizar mejoras, ajustes de equilibrio, cambios en las especificaciones o necesidades operativas.</li>\n       <li>Nos esforzamos por preservar los datos del usuario en la medida de lo posible durante las actualizaciones, pero no garantizamos su preservación o restauración completa en todos los dispositivos, sistemas operativos o entornos.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -48,17 +48,17 @@
     {
       "id": "section-07",
       "heading": "7. Suscripciones",
-      "html": "<p>Las tarifas de suscripción se cargan a tu cuenta de Apple. La suscripción se renueva automáticamente por cada período aplicable, a menos que desactives la renovación automática en la configuración de la App Store. Una vez desactivada la renovación automática, las funciones correspondientes generalmente permanecen disponibles hasta el final del período de suscripción pagado. Los términos, condiciones y políticas de Apple y la App Store rigen la gestión de suscripciones, la cancelación de la renovación automática, los reembolsos y otros asuntos relacionados con los pagos.</p>"
+      "html": "<p>Las tarifas de suscripción se cargan a su cuenta de Apple. La suscripción se renueva automáticamente por cada período aplicable, a menos que desactive la renovación automática en la configuración de la App Store. Una vez desactivada la renovación automática, las funciones correspondientes generalmente permanecen disponibles hasta el final del período de suscripción pagado. Los términos, condiciones y políticas de Apple y la App Store rigen la gestión de suscripciones, la cancelación de la renovación automática, los reembolsos y otros asuntos relacionados con los pagos.</p>"
     },
     {
       "id": "section-08",
       "heading": "8. Planes de compra única",
-      "html": "<p>La compra única permite usar las funciones de pago correspondientes sin suscripciones recurrentes. No garantiza el uso permanente de la app, todas sus funciones, integraciones con terceros ni compatibilidad con futuras versiones o dispositivos iOS. La recuperación de la información de compra y otros asuntos relacionados están sujetos a las políticas y sistemas de Apple y la App Store.</p>"
+      "html": "<p>La compra única permite usar las funciones de pago correspondientes sin pagos periódicos de suscripción. No garantiza la prestación indefinida de la aplicación, de todas sus funciones ni de las integraciones con terceros, ni la compatibilidad con todas las versiones futuras de iOS o con todos los dispositivos. La recuperación de la información de compra y otros asuntos relacionados están sujetos a las políticas y sistemas de Apple y la App Store.</p>"
     },
     {
       "id": "section-09",
       "heading": "9. Almacenamiento de datos",
-      "html": "<p>En tu dispositivo se pueden almacenar ajustes, historial de temporizadores, gatos, objetos, títulos y otros datos. Los datos pueden perderse al desinstalar la aplicación, por fallos o sustitución del dispositivo, actualizaciones del sistema operativo, defectos de la aplicación u otras circunstancias. Nos esforzamos por conservar los datos siempre que sea posible, pero no garantizamos que todos los datos puedan guardarse o recuperarse en todo momento.</p>"
+      "html": "<p>En su dispositivo se pueden almacenar ajustes, historial de temporizadores, gatos, objetos, títulos y otros datos. Los datos pueden perderse al desinstalar la aplicación, por fallos o sustitución del dispositivo, actualizaciones del sistema operativo, defectos de la aplicación u otras circunstancias. Nos esforzamos por conservar los datos siempre que sea posible, pero no garantizamos que todos los datos puedan guardarse o recuperarse en todo momento.</p>"
     },
     {
       "id": "section-10",
@@ -72,13 +72,13 @@
     },
     {
       "id": "section-12",
-      "heading": "12. Modificaciones a estos Términos",
-      "html": "<p>Podemos modificar estos Términos según sea necesario debido a cambios legales, cambios en la aplicación u otros motivos. Los Términos revisados ​​entrarán en vigor al publicarse en la aplicación o en nuestro sitio web. Notificaremos los cambios importantes cuando corresponda.</p>"
+      "heading": "12. Modificaciones a estas Condiciones",
+      "html": "<p>Podemos modificar estas Condiciones según sea necesario debido a cambios legales, cambios en la aplicación u otros motivos. Las Condiciones revisadas entrarán en vigor al publicarse en la aplicación o en nuestro sitio web. Notificaremos los cambios importantes cuando corresponda.</p>"
     },
     {
       "id": "section-13",
       "heading": "13. Ley aplicable",
-      "html": "<p>Estos Términos se rigen e interpretan de conformidad con las leyes de Japón. Las disputas relacionadas con la aplicación o estos Términos se resolverán de acuerdo con la legislación japonesa.</p>"
+      "html": "<p>Estas Condiciones se rigen e interpretan de conformidad con las leyes de Japón. Las disputas relacionadas con la aplicación o estas Condiciones se resolverán de acuerdo con la legislación japonesa.</p>"
     },
     {
       "id": "section-14",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:37:21.455Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "ed598bf844e8d684c975c159d6076697e1f622a653d251197b977400843c9ae7",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -100,11 +100,11 @@
   },
   "uiDraft": {
     "footer": [
-      "política de privacidad",
-      "Columpio",
+      "Política de privacidad",
+      "SwingCat",
       "Contacto"
     ],
-    "home": "Columpio",
+    "home": "SwingCat",
     "selectLanguage": "Seleccionar idioma"
   }
 }

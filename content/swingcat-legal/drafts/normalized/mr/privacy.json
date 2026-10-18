@@ -27,7 +27,7 @@
     },
     {
       "id": "section-03",
-      "heading": "३. फायरबेस",
+      "heading": "३. Firebase",
       "html": "<p>आम्ही Google LLC द्वारे प्रदान केलेल्या सेवांचा वापर करू शकतो, ज्यामध्ये ॲपचा वापर समजून घेण्यासाठी आणि वैशिष्ट्ये सुधारण्यासाठी फायरबेस ॲनालिटिक्स, तसेच क्रॅश ओळखण्यासाठी आणि स्थिरता सुधारण्यासाठी फायरबेस क्रॅशलिटिक्स यांचा समावेश आहे. या सेवा वापराची माहिती, डिव्हाइस आणि ओएसची माहिती, क्रॅश लॉग, ॲपची स्थिती आणि इतर निदानविषयक माहिती गोळा किंवा प्रक्रिया करू शकतात.</p>\n      <p>फायरबेसद्वारे हाताळल्या जाणाऱ्या माहितीला गूगलचे गोपनीयता धोरण आणि इतर लागू अटी लागू होतात. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">गूगल गोपनीयता धोरण, </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">फायरबेस गोपनीयता आणि सुरक्षा</a></p>"
     },
     {
@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:53:43.732Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "eac9ce8efe79e34c32a8dd762d36061dd1809fd574c87923fbd10326b1c71955",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -91,10 +91,10 @@
   "uiDraft": {
     "footer": [
       "वापराच्या अटी",
-      "स्विंगकॅट",
+      "SwingCat",
       "संपर्क"
     ],
-    "home": "स्विंगकॅट",
+    "home": "SwingCat",
     "selectLanguage": "भाषा निवडा"
   }
 }

@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Kullanım koşulları ve yasaklanmış davranışlar",
-      "html": "<p>Uygulamayı kendi sorumluluğunuzda kullanırsınız ve şunları yapmamalısınız: Uygulamayı değiştirmek, derlemek, tersine mühendislik yapmak veya benzer işlemler gerçekleştirmek; Uygulamayı yetkisiz olarak çoğaltmak, yeniden dağıtmak, satmak veya başka şekilde kullanmak; ücretli özellikler, reklam izleme ödülleri veya diğer içerikleri uygunsuz yollarla elde etmek; Uygulamanın normal işleyişine müdahale etmek; geçerli yasalara veya kamu politikasına aykırı davranmak; veya makul olarak uygunsuz kabul ettiğimiz davranışlarda bulunmak. Küçükler, ücretli hizmetleri satın almadan önce gerektiğinde bir ebeveyn veya yasal vasiden izin almalıdır.</p>"
+      "html": "<p>Uygulamayı kendi sorumluluğunuzda kullanırsınız ve şunları yapmamalısınız: Uygulamayı değiştirmek, kaynak koda dönüştürmek, tersine mühendislik yapmak veya benzer işlemler gerçekleştirmek; Uygulamayı yetkisiz olarak çoğaltmak, yeniden dağıtmak, satmak veya başka şekilde kullanmak; ücretli özellikler, reklam izleme ödülleri veya diğer içerikleri uygunsuz yollarla elde etmek; Uygulamanın normal işleyişine müdahale etmek; geçerli yasalara veya kamu düzenine aykırı davranmak; veya makul olarak uygunsuz kabul ettiğimiz davranışlarda bulunmak. Küçükler, ücretli hizmetleri satın almadan önce gerektiğinde bir ebeveyn veya yasal vasiden izin almalıdır.</p>"
     },
     {
       "id": "section-03",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:47:06.933Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "a15cbf54de274f8f8c5a12e1d71fb1813e4bcd9a7b64be381911310ae580b809",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -101,10 +101,10 @@
   "uiDraft": {
     "footer": [
       "Gizlilik Politikası",
-      "Salıncak Kedi",
-      "Temas etmek"
+      "SwingCat",
+      "İletişim"
     ],
-    "home": "Salıncak Kedi",
+    "home": "SwingCat",
     "selectLanguage": "Dil seçin"
   }
 }

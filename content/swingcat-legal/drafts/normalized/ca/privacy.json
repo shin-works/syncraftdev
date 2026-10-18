@@ -38,17 +38,17 @@
     {
       "id": "section-05",
       "heading": "5. Compres des de l'aplicació",
-      "html": "<p>Podem oferir subscripcions i plans de compra única a través de l'App Store. Apple processa els pagaments i no recopilem ni emmagatzemem directament números de targetes de crèdit ni altres dades de pagament. Per proporcionar funcions de pagament, l'aplicació pot accedir o verificar informació sobre els productes comprats i l'estat de la subscripció. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Política de privacitat d'Apple</a></p>\n      <p>Fem servir RevenueCat, Inc. per verificar les compres, gestionar l'accés a subscripcions i funcions de pagament, restaurar les compres i comprendre l'activitat de compra i subscripció. RevenueCat processa un ID d'usuari de l'aplicació generat pel seu SDK, identificadors de productes comprats, informació sobre l'historial de transaccions i compres, estat de la subscripció i dates de caducitat, i informació tècnica com ara el sistema operatiu del dispositiu i la versió de l'aplicació.</p>\n      <p>Fem servir l'ID d'usuari de l'aplicació anònim generat automàticament per RevenueCat en comptes de definir un nom o una adreça electrònica com a identificador de compra. No enviem el nom del perfil ni l'adreça electrònica de l'aplicació a RevenueCat com a atributs del client. L'ús d'un ID anònim no vol dir que no es processi cap informació ni que s'eliminin els registres de compra quan desinstal·leu l'aplicació.</p>\n      <p>Per obtenir més informació, consulteu la <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de privadesa de RevenueCat</a> i <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">la informació de RevenueCat sobre les dades de compra</a> .</p>"
+      "html": "<p>Podem oferir subscripcions i plans de compra única a través de l'App Store. Apple processa els pagaments i no recopilem ni emmagatzemem directament números de targetes de crèdit ni altres dades de pagament. Per proporcionar funcions de pagament, l'aplicació pot accedir o verificar informació sobre els productes comprats i l'estat de la subscripció. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Política de privacitat d'Apple</a></p>\n      <p>Fem servir RevenueCat, Inc. per verificar les compres, gestionar l'accés a subscripcions i funcions de pagament, restaurar les compres i comprendre l'activitat de compra i subscripció. RevenueCat processa un ID d'usuari de l'aplicació generat pel seu SDK, identificadors de productes comprats, informació sobre l'historial de transaccions i compres, estat de la subscripció i dates de caducitat, i informació tècnica com ara el sistema operatiu del dispositiu i la versió de l'aplicació.</p>\n      <p>Fem servir l'ID d'usuari de l'aplicació anònim generat automàticament per RevenueCat en comptes de definir un nom o una adreça electrònica com a identificador de compra. No enviem el nom del perfil ni l'adreça electrònica de l'aplicació a RevenueCat com a atributs del client. L'ús d'un ID anònim no vol dir que no es processi cap informació ni que s'eliminin els registres de compra quan desinstal·leu l'aplicació.</p>\n      <p>Per obtenir més informació, consulteu la <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de privadesa de RevenueCat</a> i <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">la informació de RevenueCat sobre les dades de compra</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Compartir amb tercers",
-      "html": "<p>No venem informació sobre els usuaris. Firebase, Google AdMob, Apple, RevenueCat i altres serveis poden enviar o processar informació segons sigui necessari per proporcionar l'aplicació. També podem divulgar informació quan ens doneu el vostre consentiment, quan la llei ho exigeixi, quan sigui necessari per protegir la vida, el cos o els béns, o segons ho permeti la llei.</p>"
+      "html": "<p>No venem informació sobre els usuaris. La informació es pot enviar a Firebase, Google AdMob, Apple, RevenueCat i altres serveis, o ser tractada per aquests serveis, segons sigui necessari per proporcionar l'aplicació. També podem divulgar informació quan ens doneu el vostre consentiment, quan la llei ho exigeixi, quan sigui necessari per protegir la vida, el cos o els béns, o segons ho permeti la llei.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Retenció i supressió de dades",
-      "html": "<p>L'historial del temporitzador, els gats, els elements, els títols, la configuració i altres dades de l'aplicació es poden emmagatzemar al dispositiu. Les dades emmagatzemades només en un dispositiu es poden perdre si s'elimina l'aplicació, es reinicia el dispositiu, el dispositiu falla o per altres motius. Les dades processades per serveis de tercers es gestionen d'acord amb els seus respectius períodes i polítiques de retenció.</p>\n      <p>La desinstal·lació de l'aplicació no elimina per si mateixa els registres de compra ni altra informació que tinguin els serveis de tercers. Si teniu preguntes o sol·licituds sobre l'accés o l'eliminació de la vostra informació, poseu-vos en contacte amb nosaltres a <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Gestionarem les sol·licituds d'acord amb la legislació aplicable; pot ser que calgui conservar alguns registres per complir amb les obligacions legals o verificar les compres.</p>"
+      "html": "<p>L'historial del temporitzador, els gats, els elements, els títols, la configuració i altres dades de l'aplicació es poden emmagatzemar al dispositiu. Les dades emmagatzemades només en un dispositiu es poden perdre si s'elimina l'aplicació, es reinicia el dispositiu, el dispositiu falla o per altres motius. Les dades processades per serveis de tercers es gestionen d'acord amb els seus respectius períodes i polítiques de retenció.</p>\n      <p>La desinstal·lació de l'aplicació no elimina per si mateixa els registres de compra ni altra informació que tinguin els serveis de tercers. Si teniu preguntes o sol·licituds sobre l'accés o l'eliminació de la vostra informació, poseu-vos en contacte amb nosaltres a <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a>. Gestionarem les sol·licituds d'acord amb la legislació aplicable; pot ser que calgui conservar alguns registres per complir amb les obligacions legals o verificar les compres.</p>"
     },
     {
       "id": "section-08",
@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:33:44.503Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "955403c3672f875caf6d17edacf0fafb7d5bb309a936c405d4ce5a0eae2d27ef",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -91,10 +91,10 @@
   "uiDraft": {
     "footer": [
       "Condicions d'ús",
-      "SwingGat",
+      "SwingCat",
       "Contacte"
     ],
-    "home": "SwingGat",
+    "home": "SwingCat",
     "selectLanguage": "Selecciona l'idioma"
   }
 }

@@ -27,7 +27,7 @@
     },
     {
       "id": "section-03",
-      "heading": "3. ફાયરબેઝ",
+      "heading": "3. Firebase",
       "html": "<p>અમે Google LLC દ્વારા પૂરી પાડવામાં આવતી સેવાઓનો ઉપયોગ કરી શકીએ છીએ, જેમાં એપ્લિકેશનના ઉપયોગને સમજવા અને સુવિધાઓ સુધારવા માટે Firebase Analytics અને ક્રેશ ઓળખવા અને સ્થિરતા સુધારવા માટે Firebase Crashlyticsનો સમાવેશ થાય છે. આ સેવાઓ ઉપયોગ માહિતી, ઉપકરણ અને OS માહિતી, ક્રેશ લોગ, એપ્લિકેશન સ્થિતિ અને અન્ય ડાયગ્નોસ્ટિક માહિતી એકત્રિત અથવા પ્રક્રિયા કરી શકે છે.</p>\n      <p>Google ની ગોપનીયતા નીતિ અને અન્ય લાગુ પડતી શરતો Firebase દ્વારા સંચાલિત માહિતી પર લાગુ થાય છે. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google ગોપનીયતા નીતિ </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase ગોપનીયતા અને સુરક્ષા</a></p>"
     },
     {
@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:52:39.150Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "a29aaa762b1181b5a46f08136870288a220c6e0bb76919bd21d11a78fc50c685",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -91,10 +91,10 @@
   "uiDraft": {
     "footer": [
       "ઉપયોગની શરતો",
-      "સ્વિંગકેટ",
+      "SwingCat",
       "સંપર્ક કરો"
     ],
-    "home": "સ્વિંગકેટ",
+    "home": "SwingCat",
     "selectLanguage": "ભાષા પસંદ કરો"
   }
 }

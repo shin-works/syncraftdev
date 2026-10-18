@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Brugsbetingelser og forbudt adfærd",
-      "html": "<p>Du bruger appen på egen risiko og må ikke: ændre, dekompilere, foretage reverse engineering eller udføre lignende handlinger på appen; reproducere, videredistribuere, sælge eller på anden måde bruge appen uden tilladelse; indhente betalte funktioner, reklamebelønninger eller andet indhold på upassende måder; forstyrre den normale drift af appen; overtræde gældende love eller offentlig politik; eller udvise adfærd, som vi med rimelighed anser for upassende. Mindreårige bør indhente samtykke fra en forælder eller værge, hvor det er nødvendigt, før de køber betalte tjenester.</p>"
+      "html": "<p>Du bruger appen på egen risiko og må ikke: ændre, dekompilere, foretage reverse engineering eller udføre lignende handlinger på appen; reproducere, videredistribuere, sælge eller på anden måde bruge appen uden tilladelse; indhente betalte funktioner, reklamebelønninger eller andet indhold på upassende måder; forstyrre den normale drift af appen; overtræde gældende love eller den offentlige orden; eller udvise adfærd, som vi med rimelighed anser for upassende. Mindreårige bør indhente samtykke fra en forælder eller værge, hvor det er nødvendigt, før de køber betalte tjenester.</p>"
     },
     {
       "id": "section-03",
@@ -48,7 +48,7 @@
     {
       "id": "section-07",
       "heading": "7. Abonnementer",
-      "html": "<p>Abonnementsgebyrer opkræves på din Apple-konto. Et abonnement fornyes automatisk for hver relevant periode, medmindre du deaktiverer automatisk fornyelse i App Store-indstillingerne. Når automatisk fornyelse er deaktiveret, forbliver de relevante funktioner generelt tilgængelige indtil udgangen af ​​den aktuelle betalte periode. Apples og App Stores vilkår, betingelser og politikker regulerer abonnementsadministration, annullering af automatisk fornyelse, refusioner og andre betalingsforhold.</p>"
+      "html": "<p>Abonnementsgebyrer opkræves på din Apple-konto. Et abonnement fornyes automatisk for hver relevant periode, medmindre du deaktiverer automatisk fornyelse i App Store-indstillingerne. Når automatisk fornyelse er deaktiveret, forbliver de relevante funktioner generelt tilgængelige indtil udgangen af den aktuelle betalte periode. Apples og App Stores vilkår, betingelser og politikker regulerer abonnementsadministration, annullering af automatisk fornyelse, refusioner og andre betalingsforhold.</p>"
     },
     {
       "id": "section-08",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:37:43.941Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "8c4de7df9080fa0fa6631e974f9c4974b5ff67e09803a4169404fd1f57d2a303",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -102,7 +102,7 @@
     "footer": [
       "Privatlivspolitik",
       "SwingCat",
-      "Kontakte"
+      "Kontakt"
     ],
     "home": "SwingCat",
     "selectLanguage": "Vælg sprog"

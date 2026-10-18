@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Engångsköpsplaner",
-      "html": "<p>Ett engångsköpsplan ger rätten att använda relevanta betalda funktioner utan återkommande prenumerationsavgifter. Det garanterar inte permanent tillhandahållande av appen, alla funktioner, tredjepartsintegrationer eller kompatibilitet med alla framtida iOS-versioner eller enheter. Återställning av köpinformation och relaterade frågor omfattas av Apples och App Stores system och policyer.</p>"
+      "html": "<p>Ett engångsköp ger rätten att använda relevanta betalda funktioner utan återkommande prenumerationsavgifter. Det garanterar inte permanent tillhandahållande av appen, alla funktioner, tredjepartsintegrationer eller kompatibilitet med alla framtida iOS-versioner eller enheter. Återställning av köpinformation och relaterade frågor omfattas av Apples och App Stores system och policyer.</p>"
     },
     {
       "id": "section-09",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:37:32.831Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "2a595f3f7ac74b14f64fcef7f1d49ac3211b8dc4ef238799c890a9c11a798803",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

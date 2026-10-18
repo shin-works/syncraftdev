@@ -27,7 +27,7 @@
     },
     {
       "id": "section-03",
-      "heading": "৩. ফায়ারবেস",
+      "heading": "৩. Firebase",
       "html": "<p>আমরা অ্যাপের ব্যবহার বুঝতে ও ফিচার উন্নত করতে ফায়ারবেস অ্যানালিটিক্স এবং ক্র্যাশ শনাক্ত ও স্থিতিশীলতা বাড়াতে ফায়ারবেস ক্র্যাশলিটিক্স সহ গুগল এলএলসি (Google LLC) দ্বারা প্রদত্ত পরিষেবাগুলি ব্যবহার করতে পারি। এই পরিষেবাগুলি ব্যবহারের তথ্য, ডিভাইস ও ওএস-এর তথ্য, ক্র্যাশ লগ, অ্যাপের অবস্থা এবং অন্যান্য ডায়াগনস্টিক তথ্য সংগ্রহ বা প্রক্রিয়া করতে পারে।</p>\n      <p>ফায়ারবেস দ্বারা পরিচালিত তথ্যের ক্ষেত্রে গুগলের গোপনীয়তা নীতি এবং অন্যান্য প্রযোজ্য শর্তাবলী প্রযোজ্য হবে। <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">গুগল গোপনীয়তা নীতি </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">ফায়ারবেস গোপনীয়তা ও নিরাপত্তা</a></p>"
     },
     {
@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:52:32.947Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "319b8a442336fa6b492bc95cd0fa01ea4267694da03952e35674e02cb307a67a",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -91,10 +91,10 @@
   "uiDraft": {
     "footer": [
       "ব্যবহারের শর্তাবলী",
-      "সুইংক্যাট",
+      "SwingCat",
       "যোগাযোগ করুন"
     ],
-    "home": "সুইংক্যাট",
+    "home": "SwingCat",
     "selectLanguage": "ভাষা নির্বাচন করুন"
   }
 }

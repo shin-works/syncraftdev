@@ -23,12 +23,12 @@
     {
       "id": "section-02",
       "heading": "2. Uvjeti korištenja i zabranjeno ponašanje",
-      "html": "<p>Aplikaciju koristite na vlastitu odgovornost i ne smijete: mijenjati, dekompilirati, vršiti obrnuti inženjering ili izvoditi slične radnje na Aplikaciji; reproducirati, distribuirati, prodavati ili na drugi način koristiti Aplikaciju bez ovlaštenja; pribavljati plaćene značajke, nagrade za gledanje oglasa ili drugi sadržaj na neprimjeren način; ometati normalan rad Aplikacije; kršiti primjenjive zakone ili javne politike; ili se upuštati u ponašanje koje razumno smatramo neprikladnim. Maloljetnici bi trebali dobiti privolu roditelja ili zakonskog skrbnika gdje je to potrebno prije kupnje plaćenih usluga.</p>"
+      "html": "<p>Aplikaciju koristite na vlastitu odgovornost i ne smijete: mijenjati, dekompilirati, vršiti obrnuti inženjering ili izvoditi slične radnje na Aplikaciji; reproducirati, distribuirati, prodavati ili na drugi način koristiti Aplikaciju bez ovlaštenja; pribavljati plaćene značajke, nagrade za gledanje oglasa ili drugi sadržaj na neprimjeren način; ometati normalan rad Aplikacije; kršiti primjenjive zakone ili javni poredak; ili se upuštati u ponašanje koje razumno smatramo neprikladnim. Maloljetnici bi trebali dobiti privolu roditelja ili zakonskog skrbnika gdje je to potrebno prije kupnje plaćenih usluga.</p>"
     },
     {
       "id": "section-03",
       "heading": "3. Intelektualno vlasništvo",
-      "html": "<p>Autorska prava i druga prava intelektualnog vlasništva nad imenima, logotipima, likovima, dizajnom mačaka, ilustracijama, animacijama, slikama, tekstom, zvukom, programima i drugim sadržajem u Aplikaciji pripadaju nama ili trećim stranama s legitimnim pravima. Osim ako nije dopušteno zakonom, ne smijete ih koristiti, reproducirati, objavljivati, mijenjati, distribuirati ili prodavati bez dopuštenja. Sadržaj generiran putem značajke dijeljenja koju pruža Aplikacija može se objavljivati ​​na društvenim mrežama i drugim uslugama u uobičajene svrhe dijeljenja koje predviđa Aplikacija.</p>"
+      "html": "<p>Autorska prava i druga prava intelektualnog vlasništva nad imenima, logotipima, likovima, dizajnom mačaka, ilustracijama, animacijama, slikama, tekstom, zvukom, programima i drugim sadržajem u Aplikaciji pripadaju nama ili trećim stranama s legitimnim pravima. Osim ako nije dopušteno zakonom, ne smijete ih koristiti, reproducirati, objavljivati, mijenjati, distribuirati ili prodavati bez dopuštenja. Sadržaj generiran putem značajke dijeljenja koju pruža Aplikacija može se objavljivati na društvenim mrežama i drugim uslugama u uobičajene svrhe dijeljenja koje predviđa Aplikacija.</p>"
     },
     {
       "id": "section-04",
@@ -38,7 +38,7 @@
     {
       "id": "section-05",
       "heading": "5. Oglašavanje i nagrade",
-      "html": "<p>Aplikacija može prikazivati ​​oglase putem usluga kao što je Google AdMob i može nuditi nagradne oglase koji pružaju artikle ili druge pogodnosti unutar aplikacije. Uvjeti za nagrade su oni koji su prikazani u aplikaciji. Sadržaj oglasa, prezentacija, učestalost i pogodnosti mogu se mijenjati prema potrebi. Oglašivači i pružatelji oglasa odgovorni su za sadržaj oglasa; ne jamčimo za oglašene proizvode ili usluge.</p>"
+      "html": "<p>Aplikacija može prikazivati oglase putem usluga kao što je Google AdMob i može nuditi nagradne oglase koji pružaju artikle ili druge pogodnosti unutar aplikacije. Uvjeti za nagrade su oni koji su prikazani u aplikaciji. Sadržaj oglasa, prezentacija, učestalost i pogodnosti mogu se mijenjati prema potrebi. Oglašivači i pružatelji oglasa odgovorni su za sadržaj oglasa; ne jamčimo za oglašene proizvode ili usluge.</p>"
     },
     {
       "id": "section-06",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:43:40.216Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "e74c962e7efca6a3808c33a0d9bc84aacf73fcd4ee123e2890c703ace945e658",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

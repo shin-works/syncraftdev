@@ -23,12 +23,12 @@
     {
       "id": "section-02",
       "heading": "2. Condições de utilização e condutas proibidas",
-      "html": "<p>Utiliza o Aplicativo por sua conta e risco e não deve: modificar, descompilar, realizar engenharia reversa ou executar atos semelhantes no Aplicativo; reproduzir, redistribuir, vender ou utilizar a Aplicação de qualquer outra forma sem autorização; obter recursos pagos, recompensas pela visualização de anúncios ou outros conteúdos por meios ilícitos; interferir com o funcionamento normal do Aplicativo; violar as leis aplicáveis ​​ou as políticas públicas; ou envolver-se em condutas que consideremos razoavelmente inapropriadas. Os menores de idade devem obter o consentimento de um dos pais ou de um responsável legal, quando necessário, antes de adquirirem os serviços pagos.</p>"
+      "html": "<p>Utiliza o Aplicação por sua conta e risco e não deve: modificar, descompilar, realizar engenharia reversa ou executar atos semelhantes na Aplicação; reproduzir, redistribuir, vender ou utilizar a Aplicação de qualquer outra forma sem autorização; obter recursos pagos, recompensas pela visualização de anúncios ou outros conteúdos por meios indevidos; interferir com o funcionamento normal da Aplicação; violar as leis aplicáveis ou a ordem pública; ou envolver-se em condutas que consideremos razoavelmente inapropriadas. Os menores de idade devem obter o consentimento de um dos pais ou de um responsável legal, quando necessário, antes de adquirirem os serviços pagos.</p>"
     },
     {
       "id": "section-03",
       "heading": "3. Propriedade intelectual",
-      "html": "<p>Os direitos de autor e outros direitos de propriedade intelectual relativos a nomes, logótipos, personagens, desenhos de gatos, ilustrações, animações, imagens, textos, áudios, programas e outros conteúdos da Aplicação pertencem-nos ou a terceiros com direitos legítimos. Exceto quando permitido por lei, não pode utilizar, reproduzir, publicar, modificar, redistribuir ou vender estes conteúdos sem permissão. O conteúdo gerado através de um recurso de partilha fornecido pelo Aplicativo pode ser publicado nas redes sociais e outros serviços para fins de partilha comuns previstos pelo Aplicativo.</p>"
+      "html": "<p>Os direitos de autor e outros direitos de propriedade intelectual relativos a nomes, logótipos, personagens, desenhos de gatos, ilustrações, animações, imagens, textos, áudios, programas e outros conteúdos da Aplicação pertencem-nos ou a terceiros com direitos legítimos. Exceto quando permitido por lei, não pode utilizar, reproduzir, publicar, modificar, redistribuir ou vender estes conteúdos sem permissão. O conteúdo gerado através de um recurso de partilha fornecido pela Aplicação pode ser publicado nas redes sociais e outros serviços para fins de partilha comuns previstos pela Aplicação.</p>"
     },
     {
       "id": "section-04",
@@ -38,7 +38,7 @@
     {
       "id": "section-05",
       "heading": "5. Publicidade e recompensas",
-      "html": "<p>A aplicação pode exibir anúncios através de serviços como o Google AdMob e pode oferecer anúncios premiados que concedem itens ou outros benefícios dentro da aplicação. As condições para receber as recompensas são as que são apresentadas na aplicação. O conteúdo, a apresentação, a frequência e os benefícios dos anúncios podem ser alterados conforme necessário. Os anunciantes e os fornecedores de anúncios são responsáveis ​​pelo conteúdo dos anúncios; não garantimos os produtos ou serviços anunciados.</p>"
+      "html": "<p>A aplicação pode exibir anúncios através de serviços como o Google AdMob e pode oferecer anúncios premiados que concedem itens ou outros benefícios dentro da aplicação. As condições para receber as recompensas são as que são apresentadas na aplicação. O conteúdo, a apresentação, a frequência e os benefícios dos anúncios podem ser alterados conforme necessário. Os anunciantes e os fornecedores de anúncios são responsáveis pelo conteúdo dos anúncios; não garantimos os produtos ou serviços anunciados.</p>"
     },
     {
       "id": "section-06",
@@ -47,13 +47,13 @@
     },
     {
       "id": "section-07",
-      "heading": "7. Assinaturas",
+      "heading": "7. Subscrições",
       "html": "<p>As taxas de subscrição são cobradas na sua conta Apple. A subscrição é renovada automaticamente para cada período aplicável, a menos que desative a renovação automática nas definições da App Store. Após a desativação da renovação automática, as funcionalidades relevantes permanecem geralmente disponíveis até ao final do período pago atual. Os termos, condições e políticas da Apple e da App Store regem a gestão de subscrições, o cancelamento da renovação automática, os reembolsos e outras questões de pagamento.</p>"
     },
     {
       "id": "section-08",
       "heading": "8. Planos de compra única",
-      "html": "<p>Um plano de compra única concede o direito de utilizar os recursos pagos relevantes sem pagamentos recorrentes de subscrição. Não garante o fornecimento perpétuo da aplicação, de todas as características, integrações de terceiros ou compatibilidade com todas as versões ou dispositivos iOS futuros. A restauração das informações de compra e assuntos relacionados estão sujeitos aos sistemas e políticas da Apple e da App Store.</p>"
+      "html": "<p>Um plano de compra única concede o direito de utilizar as funcionalidades pagas relevantes sem pagamentos recorrentes de subscrição. Não garante o fornecimento perpétuo da aplicação, de todas as características, integrações de terceiros ou compatibilidade com todas as versões ou dispositivos iOS futuros. A restauração das informações de compra e assuntos relacionados estão sujeitos aos sistemas e políticas da Apple e da App Store.</p>"
     },
     {
       "id": "section-09",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:34:12.298Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "e9c1baf1b36d79aea321d4af7f3e938b6114f2c748900b7b0ef6d9e4617959ec",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -100,7 +100,7 @@
   },
   "uiDraft": {
     "footer": [
-      "política de Privacidade",
+      "Política de Privacidade",
       "SwingCat",
       "Contacto"
     ],

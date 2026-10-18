@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:54:46.709Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "4bbb4a09f1cb574686ed393dc8225556fa73327640449dbb21bf50d537e95e18",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -101,10 +101,10 @@
   "uiDraft": {
     "footer": [
       "గోప్యతా విధానం",
-      "స్వింగ్‌క్యాట్",
+      "SwingCat",
       "సంప్రదించండి"
     ],
-    "home": "స్వింగ్‌క్యాట్",
+    "home": "SwingCat",
     "selectLanguage": "భాషను ఎంచుకోండి"
   }
 }

@@ -13,7 +13,7 @@
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Le presenti Condizioni d'uso (“Condizioni”) stabiliscono i termini e le condizioni per l'utilizzo di SwingCat (l'“App”), un'applicazione iOS fornita da SynCraft (“noi”, “ci” o “nostro”).</p>\n      <p>Oltre ai presenti Termini, l'utilizzo dell'App è soggetto al Contratto di licenza standard per l'utente finale (EULA) di Apple.</p>\n      <p>Contratto di licenza standard per l'utente finale di Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Prima di utilizzare l'App, si prega di leggere attentamente i presenti Termini e il Contratto di licenza standard per l'utente finale di Apple.</p>"
+      "html": "<p>Le presenti Condizioni d'uso (“Condizioni”) stabiliscono i termini e le condizioni per l'utilizzo di SwingCat (l'“App”), un'applicazione iOS fornita da SynCraft (“noi”, “ci” o “nostro”).</p>\n      <p>Oltre ale presenti Condizioni, l'utilizzo dell'App è soggetto al Contratto di licenza standard per l'utente finale (EULA) di Apple.</p>\n      <p>Contratto di licenza standard per l'utente finale di Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Prima di utilizzare l'App, si prega di leggere attentamente le presenti Condizioni e il Contratto di licenza standard per l'utente finale di Apple.</p>"
     },
     {
       "id": "section-01",
@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Condizioni d'uso e condotte vietate",
-      "html": "<p>L'utilizzo dell'App è a vostro esclusivo rischio e non dovete: modificare, decompilare, decodificare o eseguire azioni simili sull'App; riprodurre, ridistribuire, vendere o utilizzare in altro modo l'App senza autorizzazione; ottenere funzionalità a pagamento, ricompense per la visualizzazione di annunci pubblicitari o altri contenuti con mezzi impropri; interferire con il normale funzionamento dell'App; violare le leggi applicabili o l'ordine pubblico; o intraprendere comportamenti che riteniamo ragionevolmente inappropriati. I minori devono ottenere il consenso di un genitore o tutore legale, ove richiesto, prima di acquistare servizi a pagamento.</p>"
+      "html": "<p>L'utilizzo dell'App è a tuo esclusivo rischio e non dovete: modificare, decompilare, effettuare operazioni di ingegneria inversa o eseguire azioni simili sull'App; riprodurre, ridistribuire, vendere o utilizzare in altro modo l'App senza autorizzazione; ottenere funzionalità a pagamento, ricompense per la visualizzazione di annunci pubblicitari o altri contenuti con mezzi impropri; interferire con il normale funzionamento dell'App; violare le leggi applicabili o l'ordine pubblico; o intraprendere comportamenti che riteniamo ragionevolmente inappropriati. I minori devono ottenere il consenso di un genitore o tutore legale, ove richiesto, prima di acquistare servizi a pagamento.</p>"
     },
     {
       "id": "section-03",
@@ -48,7 +48,7 @@
     {
       "id": "section-07",
       "heading": "7. Abbonamenti",
-      "html": "<p>Le quote di abbonamento vengono addebitate sul tuo account Apple. L'abbonamento si rinnova automaticamente per ogni periodo applicabile, a meno che tu non disattivi il rinnovo automatico nelle impostazioni dell'App Store. Dopo aver disattivato il rinnovo automatico, le relative funzionalità rimangono generalmente disponibili fino alla fine del periodo di abbonamento in corso. La gestione degli abbonamenti, la disattivazione del rinnovo automatico, i rimborsi e altre questioni relative ai pagamenti sono regolati dai termini, dalle condizioni e dalle politiche di Apple e dell'App Store.</p>"
+      "html": "<p>Le quote di abbonamento vengono addebitate sul tuo account Apple. L'abbonamento si rinnova automaticamente per ogni periodo applicabile, a meno che tu non disattivi il rinnovo automatico nelle impostazioni dell'App Store. Dopo aver disattivato il rinnovo automatico, le relative funzionalità rimangono generalmente disponibili fino alla fine del periodo di abbonamento già pagato in corso. La gestione degli abbonamenti, la disattivazione del rinnovo automatico, i rimborsi e altre questioni relative ai pagamenti sono regolati dai termini, dalle condizioni e dalle politiche di Apple e dell'App Store.</p>"
     },
     {
       "id": "section-08",
@@ -73,7 +73,7 @@
     {
       "id": "section-12",
       "heading": "12. Modifiche alle presenti Condizioni",
-      "html": "<p>Potremmo modificare i presenti Termini in base alle necessità, a seguito di modifiche legislative, modifiche all'App o per altri motivi. I Termini modificati entreranno in vigore al momento della loro pubblicazione nell'App o sul nostro sito web. Forniremo un avviso di eventuali modifiche sostanziali, ove opportuno.</p>"
+      "html": "<p>Potremmo modificare le presenti Condizioni in base alle necessità, a seguito di modifiche legislative, modifiche all'App o per altri motivi. Le Condizioni modificate entreranno in vigore al momento della loro pubblicazione nell'App o sul nostro sito web. Forniremo un avviso di eventuali modifiche sostanziali, ove opportuno.</p>"
     },
     {
       "id": "section-13",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:33:15.585Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "99d133f2c70a0519df137bc23c04ce1faa2dadb14a686f135dc33ce4daa1d5c5",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -100,9 +100,9 @@
   },
   "uiDraft": {
     "footer": [
-      "politica sulla riservatezza",
+      "Informativa sulla privacy",
       "SwingCat",
-      "Contatto"
+      "Contatti"
     ],
     "home": "SwingCat",
     "selectLanguage": "Seleziona la lingua"

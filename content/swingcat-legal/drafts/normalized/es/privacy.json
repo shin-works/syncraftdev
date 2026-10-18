@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Cómo utilizamos la información",
-      "html": "<ol>\n       <li>Proporcionar la aplicación y sus funciones.</li>\n       <li>Para comprender y analizar el uso de la aplicación.</li>\n       <li>Para mejorar las funcionalidades, la usabilidad y la experiencia del usuario.</li>\n       <li>Para investigar y corregir errores, fallos y otros problemas.</li>\n       <li>Para mostrar publicidad y proporcionar funciones relacionadas con la publicidad.</li>\n       <li>Para ofrecer recompensas dentro de la aplicación asociadas a la publicidad.</li>\n       <li>Para evitar el mal uso.</li>\n       <li>Para ofrecer funciones de pago y confirmar el estado de la compra.</li>\n       <li>Para responder a las consultas.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Proporcionar la aplicación y sus funciones.</li>\n       <li>Comprender y analizar el uso de la aplicación.</li>\n       <li>Mejorar las funcionalidades, la usabilidad y la experiencia del usuario.</li>\n       <li>Investigar y corregir errores, fallos y otros problemas.</li>\n       <li>Mostrar publicidad y proporcionar funciones relacionadas con la publicidad.</li>\n       <li>Ofrecer recompensas dentro de la aplicación asociadas a la publicidad.</li>\n       <li>Evitar el mal uso.</li>\n       <li>Ofrecer funciones de pago y confirmar el estado de la compra.</li>\n       <li>Responder a las consultas.</li>\n      </ol>"
     },
     {
       "id": "section-03",
@@ -38,17 +38,17 @@
     {
       "id": "section-05",
       "heading": "5. Compras dentro de la aplicación",
-      "html": "<p>Podemos ofrecer suscripciones y planes de compra única a través de la App Store. Apple procesa los pagos y nosotros no recopilamos ni almacenamos directamente números de tarjetas de crédito ni otros datos de pago. Para ofrecer funciones de pago, la app puede acceder o verificar información sobre los productos comprados y el estado de la suscripción. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Política de privacidad de Apple</a></p>\n      <p>Utilizamos RevenueCat, Inc. para verificar las compras, gestionar las suscripciones y el acceso a funciones de pago, restaurar compras y comprender la actividad de compra y suscripción. RevenueCat procesa un ID de usuario de la aplicación generado por su SDK, identificadores de productos comprados, información del historial de transacciones y compras, estado de la suscripción y fechas de vencimiento, e información técnica como el sistema operativo del dispositivo y la versión de la aplicación.</p>\n      <p>Utilizamos el ID de usuario anónimo generado automáticamente por RevenueCat en lugar de un nombre o dirección de correo electrónico como identificador de compra. No enviamos el nombre de perfil ni la dirección de correo electrónico de su aplicación a RevenueCat como atributos de cliente. El uso de un ID anónimo no implica que no se procese información ni que se eliminen los registros de compra al desinstalar la aplicación.</p>\n      <p>Para obtener más información, consulte la <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de privacidad de RevenueCat</a> y <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">la información de RevenueCat sobre los datos de compra</a> .</p>"
+      "html": "<p>Podemos ofrecer suscripciones y planes de compra única a través de la App Store. Apple procesa los pagos y nosotros no recopilamos ni almacenamos directamente números de tarjetas de crédito ni otros datos de pago. Para ofrecer funciones de pago, la app puede acceder o verificar información sobre los productos comprados y el estado de la suscripción. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Política de privacidad de Apple</a></p>\n      <p>Utilizamos RevenueCat, Inc. para verificar las compras, gestionar las suscripciones y el acceso a funciones de pago, restaurar compras y comprender la actividad de compra y suscripción. RevenueCat procesa un ID de usuario de la aplicación generado por su SDK, identificadores de productos comprados, información del historial de transacciones y compras, estado de la suscripción y fechas de vencimiento, e información técnica como el sistema operativo del dispositivo y la versión de la aplicación.</p>\n      <p>Utilizamos el ID de usuario anónimo generado automáticamente por RevenueCat en lugar de un nombre o dirección de correo electrónico como identificador de compra. No enviamos el nombre de perfil ni la dirección de correo electrónico de su aplicación a RevenueCat como atributos de cliente. El uso de un ID anónimo no implica que no se procese información ni que se eliminen los registros de compra al desinstalar la aplicación.</p>\n      <p>Para obtener más información, consulte la <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de privacidad de RevenueCat</a> y <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">la información de RevenueCat sobre los datos de compra</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Compartir con terceros",
-      "html": "<p>No vendemos información sobre los usuarios. La información puede ser enviada o procesada por Firebase, Google AdMob, Apple, RevenueCat y otros servicios según sea necesario para el funcionamiento de la aplicación. También podemos divulgar información cuando usted lo autorice, cuando la ley lo exija, cuando sea necesario para proteger la vida, la integridad física o la propiedad, o según lo permita la ley.</p>"
+      "html": "<p>No vendemos información sobre los usuarios. La información puede enviarse a Firebase, Google AdMob, Apple, RevenueCat y otros servicios, o ser procesada por estos según sea necesario para el funcionamiento de la aplicación. También podemos divulgar información cuando usted lo autorice, cuando la ley lo exija, cuando sea necesario para proteger la vida, la integridad física o la propiedad, o según lo permita la ley.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Retención y eliminación de datos",
-      "html": "<p>El historial del temporizador, los gatos, los objetos, los títulos, la configuración y otros datos de la aplicación pueden almacenarse en tu dispositivo. Los datos almacenados únicamente en el dispositivo pueden perderse si se elimina la aplicación, se reinicia el dispositivo, este falla o por otros motivos. Los datos procesados ​​por servicios de terceros se gestionan de acuerdo con sus respectivos periodos de retención y políticas.</p>\n      <p>Desinstalar la aplicación no elimina automáticamente los registros de compra ni otra información almacenada por servicios de terceros. Si tiene preguntas o desea acceder a su información o solicitar su eliminación, contáctenos en <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Tramitaremos las solicitudes de acuerdo con la legislación vigente; es posible que debamos conservar algunos registros para cumplir con obligaciones legales o verificar las compras.</p>"
+      "html": "<p>El historial del temporizador, los gatos, los objetos, los títulos, la configuración y otros datos de la aplicación pueden almacenarse en su dispositivo. Los datos almacenados únicamente en el dispositivo pueden perderse si se elimina la aplicación, se restablece el dispositivo, este falla o por otros motivos. Los datos procesados por servicios de terceros se gestionan de acuerdo con sus respectivos periodos de retención y políticas.</p>\n      <p>Desinstalar la aplicación no elimina automáticamente los registros de compra ni otra información almacenada por servicios de terceros. Si tiene preguntas o desea acceder a su información o solicitar su eliminación, contáctenos en <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a>. Tramitaremos las solicitudes de acuerdo con la legislación vigente; es posible que debamos conservar algunos registros para cumplir con obligaciones legales o verificar las compras.</p>"
     },
     {
       "id": "section-08",
@@ -58,7 +58,7 @@
     {
       "id": "section-09",
       "heading": "9. Niños",
-      "html": "<p>Los menores de edad deben usar la aplicación con el consentimiento de sus padres o tutores legales, cuando sea necesario. La aplicación no está diseñada para recopilar información personal como el nombre, la dirección, el número de teléfono o la dirección de correo electrónico del menor.</p>"
+      "html": "<p>Los menores de edad deben usar la aplicación con el consentimiento de sus padres o tutores legales, cuando sea necesario. La aplicación no está diseñada para recopilar activamente información personal como el nombre, la dirección, el número de teléfono o la dirección de correo electrónico del menor.</p>"
     },
     {
       "id": "section-10",
@@ -91,10 +91,10 @@
   "uiDraft": {
     "footer": [
       "Condiciones de uso",
-      "Columpio",
+      "SwingCat",
       "Contacto"
     ],
-    "home": "Columpio",
+    "home": "SwingCat",
     "selectLanguage": "Seleccionar idioma"
   }
 }

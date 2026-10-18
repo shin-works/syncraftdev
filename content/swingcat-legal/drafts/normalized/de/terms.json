@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Nutzungsbedingungen und verbotenes Verhalten",
-      "html": "<p>Die Nutzung der App erfolgt auf eigene Gefahr. Es ist Ihnen untersagt: die App zu verändern, zu dekompilieren, zurückzuentwickeln oder ähnliche Handlungen daran vorzunehmen; die App ohne Genehmigung zu vervielfältigen, weiterzuverbreiten, zu verkaufen oder anderweitig zu nutzen; kostenpflichtige Funktionen, Belohnungen für das Ansehen von Werbung oder andere Inhalte auf unzulässige Weise zu erlangen; den normalen Betrieb der App zu stören; gegen geltende Gesetze oder die öffentliche Ordnung zu verstoßen; oder sich in einer Weise zu verhalten, die wir als unangemessen erachten. Minderjährige sollten, sofern erforderlich, vor dem Kauf kostenpflichtiger Dienste die Zustimmung eines Elternteils oder Erziehungsberechtigten einholen.</p>"
+      "html": "<p>Die Nutzung der App erfolgt auf eigene Gefahr. Es ist Ihnen untersagt: die App zu verändern, zu dekompilieren, zurückzuentwickeln oder ähnliche Handlungen daran vorzunehmen; die App ohne Genehmigung zu vervielfältigen, weiterzuverbreiten, zu verkaufen oder anderweitig zu nutzen; kostenpflichtige Funktionen, Belohnungen für das Ansehen von Werbung oder andere Inhalte auf unzulässige Weise zu erlangen; den normalen Betrieb der App zu stören; gegen geltende Gesetze oder die öffentliche Ordnung zu verstoßen; oder sich in einer Weise zu verhalten, die wir bei vernünftiger Beurteilung als unangemessen erachten. Minderjährige sollten, sofern erforderlich, vor dem Kauf kostenpflichtiger Dienste die Zustimmung eines Elternteils oder Erziehungsberechtigten einholen.</p>"
     },
     {
       "id": "section-03",
@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. In-App-Inhalte",
-      "html": "<ol>\n       <li>Katzen, Gegenstände, Titel und andere digitale Inhalte, die in der App verfügbar sind, sind ausschließlich zur Verwendung innerhalb der App bestimmt.</li>\n       <li>Sie haben keinen realen Geldwert und können nicht gegen Bargeld oder andere Güter eingetauscht werden.</li>\n       <li>Wir behalten uns das Recht vor, Namen, Inhalte, Erwerbsbedingungen, Nutzungsbedingungen, Darstellung und andere Spezifikationen im Rahmen von Verbesserungen, zur Anpassung des Geschäftsgleichgewichts, zur Änderung von Spezifikationen oder aus betrieblichen Gründen zu ändern.</li>\n       <li>Wir bemühen uns, Benutzerdaten bei Aktualisierungen so weit wie möglich zu erhalten, können jedoch keine vollständige Erhaltung oder Wiederherstellung auf jedem Gerät, Betriebssystem oder in jeder Umgebung garantieren.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Katzen, Gegenstände, Titel und andere digitale Inhalte, die in der App verfügbar sind, sind ausschließlich zur Verwendung innerhalb der App bestimmt.</li>\n       <li>Sie haben keinen realen Geldwert und können nicht gegen Bargeld oder andere Güter eingetauscht werden.</li>\n       <li>Wir behalten uns das Recht vor, Namen, Inhalte, Erwerbsbedingungen, Nutzungsbedingungen, Darstellung und andere Spezifikationen im Rahmen von Verbesserungen, zur Anpassung der Spielbalance, zur Änderung von Spezifikationen oder aus betrieblichen Gründen zu ändern.</li>\n       <li>Wir bemühen uns, Benutzerdaten bei Aktualisierungen so weit wie möglich zu erhalten, können jedoch keine vollständige Erhaltung oder Wiederherstellung auf jedem Gerät, Betriebssystem oder in jeder Umgebung garantieren.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -43,16 +43,16 @@
     {
       "id": "section-06",
       "heading": "6. Bezahlte Dienstleistungen und Käufe",
-      "html": "<p>Zusätzlich zu den kostenlosen Funktionen bietet die App möglicherweise kostenpflichtige Funktionen oder Inhalte an, darunter Monats-, Jahres- und Einmalabonnements. Es gelten die zum Zeitpunkt des Kaufs in der App und im App Store angezeigten Produkte, Preise, Laufzeiten und verfügbaren Funktionen. Käufe und Zahlungen erfolgen über den Apple App Store; wir erfassen oder speichern keine Zahlungskarteninformationen direkt.</p>"
+      "html": "<p>Zusätzlich zu den kostenlosen Funktionen bietet die App möglicherweise kostenpflichtige Funktionen oder Inhalte an, darunter monatliche und jährliche Abonnements sowie Einmalkäufe. Es gelten die zum Zeitpunkt des Kaufs in der App und im App Store angezeigten Produkte, Preise, Laufzeiten und verfügbaren Funktionen. Käufe und Zahlungen erfolgen über den Apple App Store; wir erfassen oder speichern keine Zahlungskarteninformationen direkt.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Abonnements",
-      "html": "<p>Abonnementgebühren werden über Ihr Apple-Konto abgerechnet. Ihr Abonnement verlängert sich automatisch für jeden Abrechnungszeitraum, sofern Sie die automatische Verlängerung nicht in den App Store-Einstellungen deaktivieren. Nach Deaktivierung der automatischen Verlängerung bleiben die entsprechenden Funktionen in der Regel bis zum Ende des aktuellen Abrechnungszeitraums verfügbar. Die Abonnementverwaltung, die Kündigung der automatischen Verlängerung, Rückerstattungen und sonstige Zahlungsangelegenheiten unterliegen den Nutzungsbedingungen und Richtlinien von Apple und dem App Store.</p>"
+      "html": "<p>Abonnementgebühren werden über Ihr Apple-Konto abgerechnet. Ihr Abonnement verlängert sich automatisch für jeden Abrechnungszeitraum, sofern Sie die automatische Verlängerung nicht in den App Store-Einstellungen deaktivieren. Nach Deaktivierung der automatischen Verlängerung bleiben die entsprechenden Funktionen in der Regel bis zum Ende des aktuellen bezahlten Zeitraums verfügbar. Die Abonnementverwaltung, die Kündigung der automatischen Verlängerung, Rückerstattungen und sonstige Zahlungsangelegenheiten unterliegen den Nutzungsbedingungen und Richtlinien von Apple und dem App Store.</p>"
     },
     {
       "id": "section-08",
-      "heading": "8. Einmalkaufpläne",
+      "heading": "8. Einmalkäufe",
       "html": "<p>Ein einmaliger Kauf berechtigt zur Nutzung der entsprechenden kostenpflichtigen Funktionen ohne wiederkehrende Abonnementzahlungen. Er garantiert jedoch nicht die dauerhafte Verfügbarkeit der App, aller Funktionen, Integrationen von Drittanbietern oder die Kompatibilität mit allen zukünftigen iOS-Versionen oder Geräten. Die Wiederherstellung von Kaufdaten und damit verbundene Angelegenheiten unterliegen den Systemen und Richtlinien von Apple und dem App Store.</p>"
     },
     {
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:37:15.357Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "55f96e312d99531a363d003e9c1b8a5bdc9c1be0dee286a4c0c040e3e22d92fe",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

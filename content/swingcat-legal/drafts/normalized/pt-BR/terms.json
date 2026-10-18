@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Condições de utilização e condutas proibidas",
-      "html": "<p>Você utiliza o Aplicativo por sua conta e risco e não deve: modificar, descompilar, realizar engenharia reversa ou executar atos semelhantes no Aplicativo; reproduzir, redistribuir, vender ou utilizar o Aplicativo de qualquer outra forma sem autorização; obter recursos pagos, recompensas por visualização de anúncios ou outros conteúdos por meios ilícitos; interferir no funcionamento normal do Aplicativo; violar as leis aplicáveis ​​ou as políticas públicas; ou se envolver em condutas que consideremos razoavelmente inapropriadas. Menores de idade devem obter o consentimento de um dos pais ou responsável legal, quando necessário, antes de adquirir serviços pagos.</p>"
+      "html": "<p>Você utiliza o Aplicativo por sua conta e risco e não deve: modificar, descompilar, realizar engenharia reversa ou executar atos semelhantes no Aplicativo; reproduzir, redistribuir, vender ou utilizar o Aplicativo de qualquer outra forma sem autorização; obter recursos pagos, recompensas por visualização de anúncios ou outros conteúdos por meios indevidos; interferir no funcionamento normal do Aplicativo; violar as leis aplicáveis ou a ordem pública; ou se envolver em condutas que consideremos razoavelmente inapropriadas. Menores de idade devem obter o consentimento de um dos pais ou responsável legal, quando necessário, antes de adquirir serviços pagos.</p>"
     },
     {
       "id": "section-03",
@@ -38,7 +38,7 @@
     {
       "id": "section-05",
       "heading": "5. Publicidade e recompensas",
-      "html": "<p>O aplicativo pode exibir anúncios por meio de serviços como o Google AdMob e pode oferecer anúncios premiados que concedem itens ou outros benefícios dentro do aplicativo. As condições para receber as recompensas são aquelas exibidas no aplicativo. O conteúdo, a apresentação, a frequência e os benefícios dos anúncios podem ser alterados conforme necessário. Os anunciantes e provedores de anúncios são responsáveis ​​pelo conteúdo dos anúncios; não garantimos os produtos ou serviços anunciados.</p>"
+      "html": "<p>O aplicativo pode exibir anúncios por meio de serviços como o Google AdMob e pode oferecer anúncios premiados que concedem itens ou outros benefícios dentro do aplicativo. As condições para receber as recompensas são aquelas exibidas no aplicativo. O conteúdo, a apresentação, a frequência e os benefícios dos anúncios podem ser alterados conforme necessário. Os anunciantes e provedores de anúncios são responsáveis pelo conteúdo dos anúncios; não garantimos os produtos ou serviços anunciados.</p>"
     },
     {
       "id": "section-06",
@@ -73,7 +73,7 @@
     {
       "id": "section-12",
       "heading": "12. Alterações a estes Termos",
-      "html": "<p>Podemos alterar estes Termos conforme necessário devido a mudanças na legislação, alterações no Aplicativo ou outros motivos. Os Termos revisados ​​entram em vigor quando publicados no Aplicativo ou em nosso site. Notificaremos sobre alterações substanciais quando apropriado.</p>"
+      "html": "<p>Podemos alterar estes Termos conforme necessário devido a mudanças na legislação, alterações no Aplicativo ou outros motivos. Os Termos revisados entram em vigor quando publicados no Aplicativo ou em nosso site. Notificaremos sobre alterações substanciais quando apropriado.</p>"
     },
     {
       "id": "section-13",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:34:01.013Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "f0b72f77fb6c91f14ab6840c2f51ca4465b0754e52ddaffd47e7851e31727afe",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -100,7 +100,7 @@
   },
   "uiDraft": {
     "footer": [
-      "política de Privacidade",
+      "Política de Privacidade",
       "SwingCat",
       "Contato"
     ],

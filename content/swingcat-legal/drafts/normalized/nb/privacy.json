@@ -27,7 +27,7 @@
     },
     {
       "id": "section-03",
-      "heading": "3. Brannbase",
+      "heading": "3. Firebase",
       "html": "<p>Vi kan bruke tjenester levert av Google LLC, inkludert Firebase Analytics for å forstå appbruk og forbedre funksjoner, og Firebase Crashlytics for å identifisere krasj og forbedre stabiliteten. Disse tjenestene kan samle inn eller behandle bruksinformasjon, enhets- og operativsysteminformasjon, krasjlogger, appstatus og annen diagnostisk informasjon.</p>\n      <p>Googles personvernregler og andre gjeldende vilkår gjelder for informasjon som håndteres av Firebase. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googles personvernregler </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase personvern og sikkerhet</a></p>"
     },
     {
@@ -38,7 +38,7 @@
     {
       "id": "section-05",
       "heading": "5. Kjøp i appen",
-      "html": "<p>Vi kan tilby abonnementer og engangskjøp gjennom App Store. Apple behandler betalinger, og vi samler ikke inn eller lagrer kredittkortnumre eller andre betalingsdetaljer direkte. For å tilby betalte funksjoner kan appen få tilgang til eller bekrefte informasjon om kjøpte produkter og abonnementsstatus. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apples personvernregler</a></p>\n      <p>Vi bruker RevenueCat, Inc. til å bekrefte kjøp, administrere tilgang til abonnementer og betalte funksjoner, gjenopprette kjøp og forstå kjøps- og abonnementsaktivitet. RevenueCat behandler en appbruker-ID generert av SDK-en, kjøpte produktidentifikatorer, transaksjons- og kjøpshistorikkinformasjon, abonnementsstatus og utløpsdatoer, og teknisk informasjon som enhetens operativsystem og appversjon.</p>\n      <p>Vi bruker RevenueCats automatisk genererte anonyme bruker-ID for appen i stedet for å angi et navn eller en e-postadresse som kjøpsidentifikator. Vi sender ikke profilnavnet eller e-postadressen din i appen til RevenueCat som kundeattributter. Bruk av en anonym ID betyr ikke at ingen informasjon behandles eller at kjøpsposter slettes når du avinstallerer appen.</p>\n      <p>For mer informasjon, se <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat sin personvernerklæring</a> og <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCats informasjon om kjøpsdata</a> .</p>"
+      "html": "<p>Vi kan tilby abonnementer og engangskjøp gjennom App Store. Apple behandler betalinger, og vi samler ikke inn eller lagrer kredittkortnumre eller andre betalingsdetaljer direkte. For å tilby betalte funksjoner kan appen få tilgang til eller bekrefte informasjon om kjøpte produkter og abonnementsstatus. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apples personvernregler</a></p>\n      <p>Vi bruker RevenueCat, Inc. til å bekrefte kjøp, administrere tilgang til abonnementer og betalte funksjoner, gjenopprette kjøp og forstå kjøps- og abonnementsaktivitet. RevenueCat behandler en appbruker-ID generert av SDK-en, kjøpte produktidentifikatorer, transaksjons- og kjøpshistorikkinformasjon, abonnementsstatus og utløpsdatoer, og teknisk informasjon som enhetens operativsystem og appversjon.</p>\n      <p>Vi bruker RevenueCats automatisk genererte anonyme bruker-ID for appen i stedet for å angi et navn eller en e-postadresse som kjøpsidentifikator. Vi sender ikke profilnavnet eller e-postadressen din i appen til RevenueCat som kundeattributter. Bruk av en anonym ID betyr ikke at ingen informasjon behandles eller at kjøpsposter slettes når du avinstallerer appen.</p>\n      <p>For mer informasjon, se <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat sin personvernerklæring</a> og <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCats informasjon om kjøpsdata</a>.</p>"
     },
     {
       "id": "section-06",
@@ -48,7 +48,7 @@
     {
       "id": "section-07",
       "heading": "7. Oppbevaring og sletting av data",
-      "html": "<p>Timerhistorikk, katter, elementer, titler, innstillinger og andre appdata kan lagres på enheten din. Data som bare er lagret på en enhet kan gå tapt hvis appen slettes, enheten tilbakestilles, enheten svikter eller av andre årsaker. Data behandlet av tredjepartstjenester administreres i henhold til deres respektive oppbevaringsperioder og retningslinjer.</p>\n      <p>Avinstallering av appen sletter ikke i seg selv kjøpsregistreringer eller annen informasjon som tredjepartstjenester oppbevarer. Hvis du har spørsmål eller forespørsler om tilgang til eller sletting av informasjonen din, kan du kontakte oss på <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Vi vil håndtere forespørsler i samsvar med gjeldende lov. Noen registre må kanskje oppbevares for å oppfylle juridiske forpliktelser eller bekrefte kjøp.</p>"
+      "html": "<p>Timerhistorikk, katter, elementer, titler, innstillinger og andre appdata kan lagres på enheten din. Data som bare er lagret på en enhet kan gå tapt hvis appen slettes, enheten tilbakestilles, enheten svikter eller av andre årsaker. Data behandlet av tredjepartstjenester administreres i henhold til deres respektive oppbevaringsperioder og retningslinjer.</p>\n      <p>Avinstallering av appen sletter ikke i seg selv kjøpsregistreringer eller annen informasjon som tredjepartstjenester oppbevarer. Hvis du har spørsmål eller forespørsler om tilgang til eller sletting av informasjonen din, kan du kontakte oss på <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a>. Vi vil håndtere forespørsler i samsvar med gjeldende lov. Noen registre må kanskje oppbevares for å oppfylle juridiske forpliktelser eller bekrefte kjøp.</p>"
     },
     {
       "id": "section-08",
@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:39:47.606Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "3c2f0c3415d63d8d25c8342c9ebf61ce0dd0fe176bbfcd941690b463c41c6824",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

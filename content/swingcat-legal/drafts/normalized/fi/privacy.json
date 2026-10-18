@@ -38,7 +38,7 @@
     {
       "id": "section-05",
       "heading": "5. Sovelluksen sisäiset ostot",
-      "html": "<p>Saatamme tarjota tilauksia ja kertaostoksia App Storen kautta. Apple käsittelee maksuja, emmekä kerää tai tallenna suoraan luottokorttinumeroita tai muita maksutietoja. Maksullisten ominaisuuksien tarjoamiseksi sovellus voi käyttää tai tarkistaa tietoja ostetuista tuotteista ja tilauksen tilasta. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Applen tietosuojakäytäntö</a></p>\n      <p>Käytämme RevenueCat, Inc:iä ostosten vahvistamiseen, tilausten ja maksullisten ominaisuuksien käytön hallintaan, ostosten palauttamiseen sekä osto- ja tilaustoiminnan ymmärtämiseen. RevenueCat käsittelee SDK:nsa luomaa sovelluksen käyttäjätunnusta, ostettujen tuotteiden tunnisteita, tapahtuma- ja ostohistoriatietoja, tilauksen tilaa ja vanhenemispäiviä sekä teknisiä tietoja, kuten laitteen käyttöjärjestelmän ja sovelluksen version.</p>\n      <p>Käytämme RevenueCatin automaattisesti luomaa anonyymiä sovelluksen käyttäjätunnusta nimen tai sähköpostiosoitteen sijaan ostotunnisteena. Emme lähetä sovelluksen sisäistä profiilinimeäsi tai sähköpostiosoitettasi RevenueCatille asiakasattribuutteina. Anonyymin tunnuksen käyttö ei tarkoita, ettei tietoja käsitellä tai että ostotiedot poistetaan, kun poistat sovelluksen asennuksen.</p>\n      <p>Lisätietoja on <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tietosuojakäytännössä</a> ja <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tiedoissa ostotiedoista</a> .</p>"
+      "html": "<p>Saatamme tarjota tilauksia ja kertaostoksia App Storen kautta. Apple käsittelee maksuja, emmekä kerää tai tallenna suoraan luottokorttinumeroita tai muita maksutietoja. Maksullisten ominaisuuksien tarjoamiseksi sovellus voi käyttää tai tarkistaa tietoja ostetuista tuotteista ja tilauksen tilasta. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Applen tietosuojakäytäntö</a></p>\n      <p>Käytämme RevenueCat, Inc:iä ostosten vahvistamiseen, tilausten ja maksullisten ominaisuuksien käytön hallintaan, ostosten palauttamiseen sekä osto- ja tilaustoiminnan ymmärtämiseen. RevenueCat käsittelee SDK:nsa luomaa sovelluksen käyttäjätunnusta, ostettujen tuotteiden tunnisteita, tapahtuma- ja ostohistoriatietoja, tilauksen tilaa ja vanhenemispäiviä sekä teknisiä tietoja, kuten laitteen käyttöjärjestelmän ja sovelluksen version.</p>\n      <p>Käytämme RevenueCatin automaattisesti luomaa anonyymiä sovelluksen käyttäjätunnusta nimen tai sähköpostiosoitteen sijaan ostotunnisteena. Emme lähetä sovelluksen sisäistä profiilinimeäsi tai sähköpostiosoitettasi RevenueCatille asiakasattribuutteina. Anonyymin tunnuksen käyttö ei tarkoita, ettei tietoja käsitellä tai että ostotiedot poistetaan, kun poistat sovelluksen asennuksen.</p>\n      <p>Lisätietoja on <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tietosuojakäytännössä</a> ja <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tiedoissa ostotiedoista</a>.</p>"
     },
     {
       "id": "section-06",
@@ -48,7 +48,7 @@
     {
       "id": "section-07",
       "heading": "7. Tietojen säilyttäminen ja poistaminen",
-      "html": "<p>Ajastimen historia, kissat, kohteet, otsikot, asetukset ja muut sovellustiedot voidaan tallentaa laitteellesi. Vain laitteelle tallennetut tiedot voivat kadota, jos sovellus poistetaan, laite nollataan, laite lakkaa toimimasta tai muista syistä. Kolmannen osapuolen palveluiden käsittelemiä tietoja hallinnoidaan niiden omien säilytysaikojen ja käytäntöjen mukaisesti.</p>\n      <p>Sovelluksen poistaminen ei sinänsä poista ostotietoja tai muita kolmansien osapuolten palveluiden hallussa olevia tietoja. Jos sinulla on kysyttävää tai pyyntöjä tietojesi käytöstä tai poistamisesta, ota meihin yhteyttä osoitteeseen <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a> . Käsittelemme pyynnöt sovellettavan lain mukaisesti; joitakin tietoja saatetaan joutua säilyttämään lakisääteisten velvoitteiden täyttämiseksi tai ostosten varmentamiseksi.</p>"
+      "html": "<p>Ajastimen historia, kissat, kohteet, otsikot, asetukset ja muut sovellustiedot voidaan tallentaa laitteellesi. Vain laitteelle tallennetut tiedot voivat kadota, jos sovellus poistetaan, laite nollataan, laite lakkaa toimimasta tai muista syistä. Kolmannen osapuolen palveluiden käsittelemiä tietoja hallinnoidaan niiden omien säilytysaikojen ja käytäntöjen mukaisesti.</p>\n      <p>Sovelluksen poistaminen ei sinänsä poista ostotietoja tai muita kolmansien osapuolten palveluiden hallussa olevia tietoja. Jos sinulla on kysyttävää tai pyyntöjä tietojesi käytöstä tai poistamisesta, ota meihin yhteyttä osoitteeseen <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a>. Käsittelemme pyynnöt sovellettavan lain mukaisesti; joitakin tietoja saatetaan joutua säilyttämään lakisääteisten velvoitteiden täyttämiseksi tai ostosten varmentamiseksi.</p>"
     },
     {
       "id": "section-08",
@@ -68,7 +68,7 @@
     {
       "id": "section-11",
       "heading": "11. Muutokset tähän käytäntöön",
-      "html": "<p>Voimme muuttaa tätä käytäntöä tarvittaessa lakisääteisten muutosten, sovelluksen ominaisuuksien muutosten, kolmansien osapuolten palveluiden muutosten tai muiden syiden vuoksi. Tarkistettu käytäntö tulee voimaan, kun se julkaistaan ​​sovelluksessa tai verkkosivustollamme. Ilmoitamme olennaisista muutoksista tarvittaessa.</p>"
+      "html": "<p>Voimme muuttaa tätä käytäntöä tarvittaessa lakisääteisten muutosten, sovelluksen ominaisuuksien muutosten, kolmansien osapuolten palveluiden muutosten tai muiden syiden vuoksi. Tarkistettu käytäntö tulee voimaan, kun se julkaistaan sovelluksessa tai verkkosivustollamme. Ilmoitamme olennaisista muutoksista tarvittaessa.</p>"
     },
     {
       "id": "section-12",
@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:40:24.053Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "2d0fc86d3a182c451987b60aaf0a13721d7185a09b28aea1ecd899824489400a",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:53:57.482Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "6eee1b819d5c6406dd4350ff7b664a865d6759ad7168886967580cd02405cc29",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -101,10 +101,10 @@
   "uiDraft": {
     "footer": [
       "ଗୋପନୀୟତା ନୀତି",
-      "ସ୍ୱିଙ୍ଗକ୍ୟାଟ୍",
+      "SwingCat",
       "ଯୋଗାଯୋଗ"
     ],
-    "home": "ସ୍ୱିଙ୍ଗକ୍ୟାଟ୍",
+    "home": "SwingCat",
     "selectLanguage": "ଭାଷା ଚୟନ କରନ୍ତୁ"
   }
 }

@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Condiții de utilizare și conduită interzisă",
-      "html": "<p>Utilizați Aplicația pe propriul risc și nu aveți dreptul să: modificați, decompilați, efectuați inginerie inversă sau efectuați acțiuni similare asupra Aplicației; reproduceți, redistribuiți, vindeți sau utilizați în alt mod Aplicația fără autorizație; obțineți funcții plătite, recompense pentru vizionarea de reclame sau alt conținut prin mijloace necorespunzătoare; interferați cu funcționarea normală a Aplicației; încălcați legile aplicabile sau politicile publice; sau să vă angajați într-un comportament pe care îl considerăm în mod rezonabil neadecvat. Minorii trebuie să obțină consimțământul unui părinte sau tutore legal, acolo unde este necesar, înainte de a achiziționa servicii plătite.</p>"
+      "html": "<p>Utilizați Aplicația pe propriul risc și nu aveți dreptul să: modificați, decompilați, efectuați inginerie inversă sau efectuați acțiuni similare asupra Aplicației; reproduceți, redistribuiți, vindeți sau utilizați în alt mod Aplicația fără autorizație; obțineți funcții plătite, recompense pentru vizionarea de reclame sau alt conținut prin mijloace necorespunzătoare; interferați cu funcționarea normală a Aplicației; încălcați legile aplicabile sau ordinea publică; sau să vă angajați într-un comportament pe care îl considerăm în mod rezonabil neadecvat. Minorii trebuie să obțină consimțământul unui părinte sau tutore legal, acolo unde este necesar, înainte de a achiziționa servicii plătite.</p>"
     },
     {
       "id": "section-03",
@@ -43,7 +43,7 @@
     {
       "id": "section-06",
       "heading": "6. Servicii și achiziții plătite",
-      "html": "<p>Pe lângă funcțiile gratuite, Aplicația poate oferi funcții sau conținut plătit, inclusiv abonamente lunare, abonamente anuale și planuri de achiziție unică. Se aplică produsele, prețurile, perioadele și funcțiile disponibile afișate în App Store și App Store la momentul achiziției. Achizițiile și plățile se efectuează prin intermediul App Store-ului Apple; nu colectăm sau stocăm direct informații despre cardurile de plată.</p>"
+      "html": "<p>Pe lângă funcțiile gratuite, Aplicația poate oferi funcții sau conținut plătit, inclusiv abonamente lunare, abonamente anuale și planuri de achiziție unică. Se aplică produsele, prețurile, perioadele și funcțiile disponibile afișate în Aplicație și în App Store la momentul achiziției. Achizițiile și plățile se efectuează prin intermediul App Store-ului Apple; nu colectăm sau stocăm direct informații despre cardurile de plată.</p>"
     },
     {
       "id": "section-07",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:45:21.438Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "0e1ee0d89bc8cb6e48db9eabdf7be01f93ed9d025c2b78382fd9741a42edeff4",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

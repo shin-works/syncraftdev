@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Điều kiện sử dụng và hành vi bị cấm",
-      "html": "<p>Bạn sử dụng Ứng dụng này với rủi ro của riêng mình và không được phép: sửa đổi, dịch ngược mã nguồn, phân tích ngược mã nguồn hoặc thực hiện các hành vi tương tự trên Ứng dụng; sao chép, phân phối lại, bán hoặc sử dụng Ứng dụng theo bất kỳ cách nào khác mà không được phép; có được các tính năng trả phí, phần thưởng xem quảng cáo hoặc nội dung khác thông qua các phương tiện không đúng đắn; can thiệp vào hoạt động bình thường của Ứng dụng; vi phạm luật pháp hoặc chính sách công hiện hành; hoặc tham gia vào các hành vi mà chúng tôi cho là không phù hợp. Người chưa thành niên cần có sự đồng ý của cha mẹ hoặc người giám hộ hợp pháp nếu được yêu cầu trước khi mua các dịch vụ trả phí.</p>"
+      "html": "<p>Bạn sử dụng Ứng dụng này với rủi ro của riêng mình và không được phép: sửa đổi, dịch ngược mã nguồn, phân tích ngược mã nguồn hoặc thực hiện các hành vi tương tự trên Ứng dụng; sao chép, phân phối lại, bán hoặc sử dụng Ứng dụng theo bất kỳ cách nào khác mà không được phép; có được các tính năng trả phí, phần thưởng xem quảng cáo hoặc nội dung khác thông qua các phương tiện không đúng đắn; can thiệp vào hoạt động bình thường của Ứng dụng; vi phạm luật pháp hoặc trật tự công cộng; hoặc tham gia vào các hành vi mà chúng tôi đánh giá một cách hợp lý là không phù hợp. Người chưa thành niên cần có sự đồng ý của cha mẹ hoặc người giám hộ hợp pháp nếu được yêu cầu trước khi mua các dịch vụ trả phí.</p>"
     },
     {
       "id": "section-03",
@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. Nội dung trong ứng dụng",
-      "html": "<ol>\n       <li>Mèo, vật phẩm, tiêu đề và nội dung kỹ thuật số khác có trong Ứng dụng chỉ được sử dụng trong phạm vi Ứng dụng.</li>\n       <li>Chúng không có giá trị tiền tệ thực tế và không thể đổi lấy tiền mặt hoặc tài sản khác.</li>\n       <li>Chúng tôi có thể thay đổi tên, nội dung, điều kiện mua lại, điều kiện sử dụng, cách hiển thị và các thông số kỹ thuật khác để cải tiến, điều chỉnh cân bằng, thay đổi thông số kỹ thuật hoặc đáp ứng nhu cầu hoạt động.</li>\n       <li>Chúng tôi nỗ lực bảo toàn dữ liệu người dùng trong quá trình cập nhật ở mức độ hợp lý nhất có thể, nhưng không đảm bảo việc bảo toàn hoặc khôi phục hoàn toàn trên mọi thiết bị, hệ điều hành hoặc môi trường.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Mèo, vật phẩm, danh hiệu và nội dung kỹ thuật số khác có trong Ứng dụng chỉ được sử dụng trong phạm vi Ứng dụng.</li>\n       <li>Chúng không có giá trị tiền tệ thực tế và không thể đổi lấy tiền mặt hoặc tài sản khác.</li>\n       <li>Chúng tôi có thể thay đổi tên, nội dung, điều kiện nhận được nội dung, điều kiện sử dụng, cách hiển thị và các thông số kỹ thuật khác để cải tiến, điều chỉnh cân bằng, thay đổi thông số kỹ thuật hoặc đáp ứng nhu cầu hoạt động.</li>\n       <li>Chúng tôi nỗ lực bảo toàn dữ liệu người dùng trong quá trình cập nhật ở mức độ hợp lý nhất có thể, nhưng không đảm bảo việc bảo toàn hoặc khôi phục hoàn toàn trên mọi thiết bị, hệ điều hành hoặc môi trường.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -52,13 +52,13 @@
     },
     {
       "id": "section-08",
-      "heading": "8. Kế hoạch mua hàng một lần",
+      "heading": "8. Gói mua một lần",
       "html": "<p>Gói mua một lần cung cấp quyền sử dụng các tính năng trả phí tương ứng mà không cần thanh toán phí đăng ký định kỳ. Nó không đảm bảo việc cung cấp ứng dụng vĩnh viễn, mọi tính năng, tích hợp bên thứ ba hoặc khả năng tương thích với tất cả các phiên bản iOS hoặc thiết bị trong tương lai. Việc khôi phục thông tin mua hàng và các vấn đề liên quan tuân theo hệ thống và chính sách của Apple và App Store.</p>"
     },
     {
       "id": "section-09",
       "heading": "9. Lưu trữ dữ liệu",
-      "html": "<p>Cài đặt, lịch sử hẹn giờ, mèo, vật phẩm, tiêu đề và các dữ liệu khác có thể được lưu trữ trên thiết bị của bạn. Dữ liệu có thể bị mất do xóa ứng dụng, thiết bị bị hỏng hoặc thay thế, cập nhật hệ điều hành, lỗi ứng dụng hoặc các trường hợp khác. Chúng tôi cố gắng bảo toàn dữ liệu trong phạm vi hợp lý nhưng không đảm bảo rằng tất cả dữ liệu luôn có thể được lưu hoặc khôi phục.</p>"
+      "html": "<p>Cài đặt, lịch sử hẹn giờ, mèo, vật phẩm, danh hiệu và các dữ liệu khác có thể được lưu trữ trên thiết bị của bạn. Dữ liệu có thể bị mất do xóa ứng dụng, thiết bị bị hỏng hoặc thay thế, cập nhật hệ điều hành, lỗi ứng dụng hoặc các trường hợp khác. Chúng tôi cố gắng bảo toàn dữ liệu trong phạm vi hợp lý nhưng không đảm bảo rằng tất cả dữ liệu luôn có thể được lưu hoặc khôi phục.</p>"
     },
     {
       "id": "section-10",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:49:12.028Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "3ea41778f17713f83041a05c95cc8c6f610919b96db6a9fc2e708aae79c2978f",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

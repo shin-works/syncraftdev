@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Condicions d'ús i conductes prohibides",
-      "html": "<p>L'ús de l'aplicació és responsabilitat vostra i no podeu: modificar, descompilar, aplicar enginyeria inversa ni realitzar actes similars a l'aplicació; reproduir, redistribuir, vendre o utilitzar de cap altra manera l'aplicació sense autorització; obtenir funcions de pagament, recompenses per visualitzar anuncis o altre contingut a través de mitjans inadequats; interferir amb el funcionament normal de l'aplicació; violar les lleis o les polítiques públiques aplicables; o participar en conductes que considerem raonablement inapropiades. Els menors d'edat han d'obtenir el consentiment d'un pare o tutor legal quan sigui necessari abans de comprar serveis de pagament.</p>"
+      "html": "<p>L'ús de l'aplicació és responsabilitat vostra i no podeu: modificar, descompilar, aplicar enginyeria inversa ni realitzar actes similars a l'aplicació; reproduir, redistribuir, vendre o utilitzar de cap altra manera l'aplicació sense autorització; obtenir funcions de pagament, recompenses per visualitzar anuncis o altre contingut a través de mitjans inadequats; interferir amb el funcionament normal de l'aplicació; violar les lleis o l'ordre públic; o participar en conductes que considerem raonablement inapropiades. Els menors d'edat han d'obtenir el consentiment d'un pare o tutor legal quan sigui necessari abans de comprar serveis de pagament.</p>"
     },
     {
       "id": "section-03",
@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. Contingut dins de l'aplicació",
-      "html": "<ol>\n       <li>Els gats, els objectes, els títols i altres continguts digitals disponibles a l'aplicació estan pensats per al seu ús dins de l'aplicació.</li>\n       <li>No tenen valor monetari en el món real i no es poden canviar per diners en efectiu o altres béns.</li>\n       <li>Podem canviar noms, contingut, condicions d'adquisició, condicions d'ús, visualització i altres especificacions per a millores, ajustos de balanç, canvis d'especificacions o necessitats operatives.</li>\n       <li>Ens esforcem per preservar les dades dels usuaris sempre que sigui raonablement possible durant les actualitzacions, però no garantim la preservació o restauració completa en tots els dispositius, sistemes operatius o entorns.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Els gats, els objectes, els títols i altres continguts digitals disponibles a l'aplicació estan pensats per al seu ús dins de l'aplicació.</li>\n       <li>No tenen valor monetari en el món real i no es poden canviar per diners en efectiu o altres béns.</li>\n       <li>Podem canviar noms, contingut, condicions d'adquisició, condicions d'ús, visualització i altres especificacions per a millores, ajustos d'equilibri, canvis d'especificacions o necessitats operatives.</li>\n       <li>Ens esforcem per preservar les dades dels usuaris sempre que sigui raonablement possible durant les actualitzacions, però no garantim la preservació o restauració completa en tots els dispositius, sistemes operatius o entorns.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:33:50.435Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "b330b4e9b12f038c5e789cd87574c86e9cc2971e895f9fc7a2b127deb90a6bac",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -101,10 +101,10 @@
   "uiDraft": {
     "footer": [
       "Política de privacitat",
-      "SwingGat",
+      "SwingCat",
       "Contacte"
     ],
-    "home": "SwingGat",
+    "home": "SwingCat",
     "selectLanguage": "Selecciona l'idioma"
   }
 }

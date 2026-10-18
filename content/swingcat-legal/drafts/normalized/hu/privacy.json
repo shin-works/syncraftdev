@@ -38,7 +38,7 @@
     {
       "id": "section-05",
       "heading": "5. Alkalmazáson belüli vásárlások",
-      "html": "<p>Előfizetéseket és egyszeri vásárlási csomagokat kínálhatunk az App Store-on keresztül. Az Apple dolgozza fel a fizetéseket, és nem gyűjtünk és nem tárolunk közvetlenül hitelkártyaszámokat vagy egyéb fizetési adatokat. A fizetős funkciók biztosítása érdekében az alkalmazás hozzáférhet a megvásárolt termékekkel és az előfizetés állapotával kapcsolatos információkhoz, vagy ellenőrizheti azokat. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple adatvédelmi szabályzat</a></p>\n      <p>A RevenueCat, Inc. szolgáltatásait használjuk a vásárlások ellenőrzésére, az előfizetések és fizetős funkciókhoz való hozzáférés kezelésére, a vásárlások visszaállítására, valamint a vásárlási és előfizetési tevékenységek megértésére. A RevenueCat feldolgozza az SDK által generált alkalmazásfelhasználói azonosítót, a megvásárolt termék azonosítóit, a tranzakciós és vásárlási előzményeket, az előfizetés állapotát és lejárati dátumát, valamint a technikai információkat, például az eszköz operációs rendszerét és az alkalmazás verzióját.</p>\n      <p>A RevenueCat automatikusan generált, anonim alkalmazásfelhasználói azonosítóját használjuk a vásárlási azonosítóként megadott név vagy e-mail cím helyett. Az alkalmazáson belüli profilnevét vagy e-mail címét nem küldjük el a RevenueCatnek ügyfélattribútumként. Az anonim azonosító használata nem jelenti azt, hogy nem kerül sor információk feldolgozására, vagy hogy a vásárlási adatok törlődnek az alkalmazás eltávolításakor.</p>\n      <p>További információkért lásd a <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat adatvédelmi irányelveit</a> és <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">a RevenueCat vásárlási adatokkal kapcsolatos tájékoztatóját</a> .</p>"
+      "html": "<p>Előfizetéseket és egyszeri vásárlási csomagokat kínálhatunk az App Store-on keresztül. Az Apple dolgozza fel a fizetéseket, és nem gyűjtünk és nem tárolunk közvetlenül hitelkártyaszámokat vagy egyéb fizetési adatokat. A fizetős funkciók biztosítása érdekében az alkalmazás hozzáférhet a megvásárolt termékekkel és az előfizetés állapotával kapcsolatos információkhoz, vagy ellenőrizheti azokat. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple adatvédelmi szabályzat</a></p>\n      <p>A RevenueCat, Inc. szolgáltatásait használjuk a vásárlások ellenőrzésére, az előfizetések és fizetős funkciókhoz való hozzáférés kezelésére, a vásárlások visszaállítására, valamint a vásárlási és előfizetési tevékenységek megértésére. A RevenueCat feldolgozza az SDK által generált alkalmazásfelhasználói azonosítót, a megvásárolt termék azonosítóit, a tranzakciós és vásárlási előzményeket, az előfizetés állapotát és lejárati dátumát, valamint a technikai információkat, például az eszköz operációs rendszerét és az alkalmazás verzióját.</p>\n      <p>A RevenueCat automatikusan generált, anonim alkalmazásfelhasználói azonosítóját használjuk a vásárlási azonosítóként megadott név vagy e-mail cím helyett. Az alkalmazáson belüli profilnevét vagy e-mail címét nem küldjük el a RevenueCatnek ügyfélattribútumként. Az anonim azonosító használata nem jelenti azt, hogy nem kerül sor információk feldolgozására, vagy hogy a vásárlási adatok törlődnek az alkalmazás eltávolításakor.</p>\n      <p>További információkért lásd a <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat adatvédelmi irányelveit</a> és <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">a RevenueCat vásárlási adatokkal kapcsolatos tájékoztatóját</a>.</p>"
     },
     {
       "id": "section-06",
@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:45:01.044Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "d19106c96dcb2dd9875e8e93c34b51aca3c8172ae6b844961372f153fa8deb62",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -92,7 +92,7 @@
     "footer": [
       "Felhasználási feltételek",
       "SwingCat",
-      "Érintkezés"
+      "Kapcsolat"
     ],
     "home": "SwingCat",
     "selectLanguage": "Nyelv kiválasztása"

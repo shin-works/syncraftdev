@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Podmienky používania a zakázané správanie",
-      "html": "<p>Aplikáciu používate na vlastné riziko a nesmiete: upravovať, dekompilovať, spätne analyzovať ani vykonávať podobné činnosti v Aplikácii; reprodukovať, distribuovať, predávať ani inak používať Aplikáciu bez povolenia; získavať platené funkcie, odmeny za sledovanie reklám alebo iný obsah nevhodnými prostriedkami; zasahovať do bežnej prevádzky Aplikácie; porušovať platné zákony alebo verejnú politiku; ani sa zapájať do správania, ktoré odôvodnene považujeme za nevhodné. Maloletí by mali pred zakúpením platených služieb získať súhlas rodiča alebo zákonného zástupcu, ak je to potrebné.</p>"
+      "html": "<p>Aplikáciu používate na vlastné riziko a nesmiete: upravovať, dekompilovať, spätne analyzovať ani vykonávať podobné činnosti v Aplikácii; reprodukovať, distribuovať, predávať ani inak používať Aplikáciu bez povolenia; získavať platené funkcie, odmeny za sledovanie reklám alebo iný obsah nevhodnými prostriedkami; zasahovať do bežnej prevádzky Aplikácie; porušovať platné zákony alebo verejný poriadok; ani sa zapájať do správania, ktoré odôvodnene považujeme za nevhodné. Maloletí by mali pred zakúpením platených služieb získať súhlas rodiča alebo zákonného zástupcu, ak je to potrebné.</p>"
     },
     {
       "id": "section-03",
@@ -43,12 +43,12 @@
     {
       "id": "section-06",
       "heading": "6. Platené služby a nákupy",
-      "html": "<p>Okrem bezplatných funkcií môže aplikácia ponúkať platené funkcie alebo obsah vrátane mesačného predplatného, ​​ročného predplatného a jednorazových nákupných plánov. Platia produkty, ceny, obdobia a dostupné funkcie zobrazené v aplikácii a obchode App Store v čase nákupu. Nákupy a platby sa uskutočňujú prostredníctvom obchodu Apple App Store; informácie o platobných kartách priamo nezhromažďujeme ani neukladáme.</p>"
+      "html": "<p>Okrem bezplatných funkcií môže aplikácia ponúkať platené funkcie alebo obsah vrátane mesačného predplatného, ročného predplatného a jednorazových nákupných plánov. Platia produkty, ceny, obdobia a dostupné funkcie zobrazené v aplikácii a obchode App Store v čase nákupu. Nákupy a platby sa uskutočňujú prostredníctvom obchodu Apple App Store; informácie o platobných kartách priamo nezhromažďujeme ani neukladáme.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Predplatné",
-      "html": "<p>Poplatky za predplatné sa účtujú na váš účet Apple. Predplatné sa automaticky obnovuje na každé príslušné obdobie, pokiaľ nevypnete automatické obnovenie v nastaveniach obchodu App Store. Po vypnutí automatického obnovenia zostávajú príslušné funkcie vo všeobecnosti k dispozícii až do konca aktuálneho plateného obdobia. Správu predplatného, ​​zrušenie automatického obnovenia, vrátenie peňazí a ďalšie platobné záležitosti upravujú zmluvné podmienky a pravidlá spoločností Apple a App Store.</p>"
+      "html": "<p>Poplatky za predplatné sa účtujú na váš účet Apple. Predplatné sa automaticky obnovuje na každé príslušné obdobie, pokiaľ nevypnete automatické obnovenie v nastaveniach obchodu App Store. Po vypnutí automatického obnovenia zostávajú príslušné funkcie vo všeobecnosti k dispozícii až do konca aktuálneho plateného obdobia. Správu predplatného, zrušenie automatického obnovenia, vrátenie peňazí a ďalšie platobné záležitosti upravujú zmluvné podmienky a pravidlá spoločností Apple a App Store.</p>"
     },
     {
       "id": "section-08",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:44:08.609Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "41c13aa985edd7187ac45a9bc5d6448f199f558f85a250066f2ce81e1bf90b6e",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

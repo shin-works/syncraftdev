@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Ketentuan penggunaan dan perilaku yang dilarang",
-      "html": "<p>Anda menggunakan Aplikasi ini dengan risiko Anda sendiri dan tidak boleh: memodifikasi, mendekompilasi, merekayasa balik, atau melakukan tindakan serupa pada Aplikasi; mereproduksi, mendistribusikan, menjual, atau menggunakan Aplikasi dengan cara lain tanpa izin; memperoleh fitur berbayar, hadiah menonton iklan, atau konten lain melalui cara yang tidak semestinya; mengganggu pengoperasian Aplikasi secara normal; melanggar hukum yang berlaku atau kebijakan publik; atau terlibat dalam perilaku yang menurut kami tidak pantas. Anak di bawah umur harus mendapatkan persetujuan dari orang tua atau wali sah jika diperlukan sebelum membeli layanan berbayar.</p>"
+      "html": "<p>Anda menggunakan Aplikasi ini dengan risiko Anda sendiri dan tidak boleh: memodifikasi, mendekompilasi, merekayasa balik, atau melakukan tindakan serupa pada Aplikasi; mereproduksi, mendistribusikan, menjual, atau menggunakan Aplikasi dengan cara lain tanpa izin; memperoleh fitur berbayar, hadiah menonton iklan, atau konten lain melalui cara yang tidak semestinya; mengganggu pengoperasian Aplikasi secara normal; melanggar hukum yang berlaku atau ketertiban umum; atau terlibat dalam perilaku yang secara wajar kami anggap tidak pantas. Anak di bawah umur harus mendapatkan persetujuan dari orang tua atau wali sah jika diperlukan sebelum membeli layanan berbayar.</p>"
     },
     {
       "id": "section-03",
@@ -33,7 +33,7 @@
     {
       "id": "section-04",
       "heading": "4. Konten dalam aplikasi",
-      "html": "<ol>\n       <li>Kucing, barang, judul, dan konten digital lainnya yang tersedia di Aplikasi ini dimaksudkan untuk digunakan di dalam Aplikasi.</li>\n       <li>Mereka tidak memiliki nilai moneter di dunia nyata dan tidak dapat ditukar dengan uang tunai atau properti lainnya.</li>\n       <li>Kami dapat mengubah nama, konten, ketentuan akuisisi, ketentuan penggunaan, tampilan, dan spesifikasi lainnya untuk peningkatan, penyesuaian saldo, perubahan spesifikasi, atau kebutuhan operasional.</li>\n       <li>Kami berupaya untuk menjaga data pengguna sebisa mungkin selama pembaruan, tetapi tidak menjamin pelestarian atau pemulihan sepenuhnya pada setiap perangkat, sistem operasi, atau lingkungan.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Kucing, barang, gelar, dan konten digital lainnya yang tersedia di Aplikasi ini dimaksudkan untuk digunakan di dalam Aplikasi.</li>\n       <li>Mereka tidak memiliki nilai moneter di dunia nyata dan tidak dapat ditukar dengan uang tunai atau properti lainnya.</li>\n       <li>Kami dapat mengubah nama, konten, ketentuan akuisisi, ketentuan penggunaan, tampilan, dan spesifikasi lainnya untuk peningkatan, penyesuaian keseimbangan permainan, perubahan spesifikasi, atau kebutuhan operasional.</li>\n       <li>Kami berupaya untuk menjaga data pengguna sebisa mungkin selama pembaruan, tetapi tidak menjamin pelestarian atau pemulihan sepenuhnya pada setiap perangkat, sistem operasi, atau lingkungan.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -58,7 +58,7 @@
     {
       "id": "section-09",
       "heading": "9. Penyimpanan data",
-      "html": "<p>Pengaturan, riwayat pengatur waktu, kucing, item, judul, dan data lainnya dapat disimpan di perangkat Anda. Data dapat hilang karena penghapusan Aplikasi, kerusakan atau penggantian perangkat, pembaruan OS, kerusakan Aplikasi, atau keadaan lainnya. Kami berupaya untuk menyimpan data sebisa mungkin, tetapi tidak menjamin bahwa semua data selalu dapat disimpan atau dipulihkan.</p>"
+      "html": "<p>Pengaturan, riwayat pengatur waktu, kucing, item, gelar, dan data lainnya dapat disimpan di perangkat Anda. Data dapat hilang karena penghapusan Aplikasi, kerusakan atau penggantian perangkat, pembaruan OS, kerusakan Aplikasi, atau keadaan lainnya. Kami berupaya untuk menyimpan data sebisa mungkin, tetapi tidak menjamin bahwa semua data selalu dapat disimpan atau dipulihkan.</p>"
     },
     {
       "id": "section-10",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:47:13.558Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "203bc12c5ef99b5624027b02f01960583b1543eb6bdad0596dabc782cd730cc2",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

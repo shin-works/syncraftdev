@@ -27,7 +27,7 @@
     },
     {
       "id": "section-03",
-      "heading": "3. 파이어베이스",
+      "heading": "3. Firebase",
       "html": "<p>당사는 앱 사용 현황을 파악하고 기능을 개선하기 위해 Firebase Analytics를, 앱 충돌을 식별하고 안정성을 향상시키기 위해 Firebase Crashlytics를 포함한 Google LLC에서 제공하는 서비스를 이용할 수 있습니다. 이러한 서비스는 사용 정보, 기기 및 운영체제 정보, 충돌 로그, 앱 상태 및 기타 진단 정보를 수집하거나 처리할 수 있습니다.</p>\n      <p>Firebase에서 처리하는 정보에는 Google의 개인정보처리방침 및 기타 관련 약관이 적용됩니다. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 개인정보처리방침 </a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase 개인정보 및 보안</a></p>"
     },
     {
@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:49:26.187Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "0737f6e273a62aab783b0679441249b270052ff7ff00104cda020073a99de9d6",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -91,10 +91,10 @@
   "uiDraft": {
     "footer": [
       "이용약관",
-      "스윙캣",
-      "연락하다"
+      "SwingCat",
+      "문의"
     ],
-    "home": "스윙캣",
+    "home": "SwingCat",
     "selectLanguage": "언어를 선택하세요"
   }
 }

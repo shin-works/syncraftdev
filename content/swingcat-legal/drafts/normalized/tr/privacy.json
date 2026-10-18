@@ -82,7 +82,7 @@
     "capturedAt": "2026-10-18T07:46:59.458Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "9046b1f49988f23246236ef7ac5919262911d1be5fbac95dd867d1712ba91d34",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
@@ -91,10 +91,10 @@
   "uiDraft": {
     "footer": [
       "Kullanım Şartları",
-      "Salıncak Kedi",
-      "Temas etmek"
+      "SwingCat",
+      "İletişim"
     ],
-    "home": "Salıncak Kedi",
+    "home": "SwingCat",
     "selectLanguage": "Dil seçin"
   }
 }

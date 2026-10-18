@@ -23,17 +23,17 @@
     {
       "id": "section-02",
       "heading": "2. Käyttöehdot ja kielletty toiminta",
-      "html": "<p>Käytät Sovellusta omalla vastuullasi, etkä saa: muokata, purkaa, takaisinmallintaa tai suorittaa vastaavia toimia Sovelluksessa; jäljentää, jakaa, myydä tai muuten käyttää Sovellusta ilman lupaa; hankkia maksullisia ominaisuuksia, mainosten katselupalkkioita tai muuta sisältöä sopimattomin keinoin; häiritä Sovelluksen normaalia toimintaa; rikkoa sovellettavia lakeja tai julkista politiikkaa; tai syyllistyä toimintaan, jota kohtuudella pidämme sopimattomana. Alaikäisten tulee pyytää vanhemman tai laillisen huoltajan suostumus, jos se on tarpeen, ennen maksullisten palveluiden ostamista.</p>"
+      "html": "<p>Käytät Sovellusta omalla vastuullasi, etkä saa: muokata, purkaa, takaisinmallintaa tai suorittaa vastaavia toimia Sovelluksessa; jäljentää, jakaa, myydä tai muuten käyttää Sovellusta ilman lupaa; hankkia maksullisia ominaisuuksia, mainosten katselupalkkioita tai muuta sisältöä sopimattomin keinoin; häiritä Sovelluksen normaalia toimintaa; rikkoa sovellettavia lakeja tai yleistä järjestystä; tai syyllistyä toimintaan, jota kohtuudella pidämme sopimattomana. Alaikäisten tulee pyytää vanhemman tai laillisen huoltajan suostumus, jos se on tarpeen, ennen maksullisten palveluiden ostamista.</p>"
     },
     {
       "id": "section-03",
       "heading": "3. Immateriaalioikeudet",
-      "html": "<p>Tekijänoikeudet ja muut immateriaalioikeudet nimiin, logoihin, hahmoihin, kissakuvioihin, kuviin, animaatioihin, teksteihin, ääniin, ohjelmiin ja muuhun sovelluksen sisältöön kuuluvat meille tai kolmansille osapuolille, joilla on niihin lailliset oikeudet. Ellei laki sitä salli, et saa käyttää, kopioida, julkaista, muokata, jakaa edelleen tai myydä niitä ilman lupaa. Sovelluksen tarjoaman jakamisominaisuuden kautta luotua sisältöä voidaan julkaista sosiaalisessa mediassa ja muissa palveluissa sovelluksen tarkoittamissa tavanomaisissa jakamistarkoituksissa.</p>"
+      "html": "<p>Tekijänoikeudet ja muut immateriaalioikeudet nimiin, logoihin, hahmoihin, kissahahmojen malleihin, kuvituksiin, animaatioihin, kuviin, teksteihin, ääniin, ohjelmiin ja muuhun sovelluksen sisältöön kuuluvat meille tai kolmansille osapuolille, joilla on niihin lailliset oikeudet. Ellei laki sitä salli, et saa käyttää, kopioida, julkaista, muokata, jakaa edelleen tai myydä niitä ilman lupaa. Sovelluksen tarjoaman jakamisominaisuuden kautta luotua sisältöä voidaan julkaista sosiaalisessa mediassa ja muissa palveluissa sovelluksen tarkoittamissa tavanomaisissa jakamistarkoituksissa.</p>"
     },
     {
       "id": "section-04",
       "heading": "4. Sovelluksen sisäinen sisältö",
-      "html": "<ol>\n       <li>Sovelluksessa saatavilla olevat kissat, esineet, nimikkeet ja muu digitaalinen sisältö on tarkoitettu käytettäväksi sovelluksen sisällä.</li>\n       <li>Niillä ei ole todellista rahallista arvoa, eikä niitä voi vaihtaa rahaksi tai muuksi omaisuudeksi.</li>\n       <li>Saatamme muuttaa nimiä, sisältöä, hankintaehtoja, käyttöehtoja, näyttöä ja muita tietoja parannusten, saldomuutosten, tietojen muutosten tai operatiivisten tarpeiden vuoksi.</li>\n       <li>Pyrimme säilyttämään käyttäjätiedot päivitysten aikana aina kun se on kohtuudella mahdollista, mutta emme takaa täydellistä säilymistä tai palauttamista kaikilla laitteilla, käyttöjärjestelmillä tai ympäristöillä.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Sovelluksessa saatavilla olevat kissat, esineet, nimikkeet ja muu digitaalinen sisältö on tarkoitettu käytettäväksi sovelluksen sisällä.</li>\n       <li>Niillä ei ole todellista rahallista arvoa, eikä niitä voi vaihtaa rahaksi tai muuksi omaisuudeksi.</li>\n       <li>Saatamme muuttaa nimiä, sisältöä, hankintaehtoja, käyttöehtoja, näyttöä ja muita tietoja parannusten, pelitasapainon säätöjen, teknisten määritysten muutosten tai operatiivisten tarpeiden vuoksi.</li>\n       <li>Pyrimme säilyttämään käyttäjätiedot päivitysten aikana aina kun se on kohtuudella mahdollista, mutta emme takaa täydellistä säilymistä tai palauttamista kaikilla laitteilla, käyttöjärjestelmillä tai ympäristöillä.</li>\n      </ol>"
     },
     {
       "id": "section-05",
@@ -58,7 +58,7 @@
     {
       "id": "section-09",
       "heading": "9. Tiedon tallennus",
-      "html": "<p>Laitteellesi voidaan tallentaa asetuksia, ajastinhistoriaa, kissoja, kohteita, otsikoita ja muita tietoja. Tietoja voi kadota sovelluksen poistamisen, laitteen vian tai vaihdon, käyttöjärjestelmän päivitysten, sovellusvirheiden tai muiden olosuhteiden vuoksi. Pyrimme säilyttämään tiedot aina kun se on kohtuudella mahdollista, mutta emme takaa, että kaikki tiedot voidaan aina tallentaa tai palauttaa.</p>"
+      "html": "<p>Laitteellesi voidaan tallentaa asetuksia, ajastinhistoriaa, kissoja, esineitä, arvonimiä ja muita tietoja. Tietoja voi kadota sovelluksen poistamisen, laitteen vian tai vaihdon, käyttöjärjestelmän päivitysten, sovellusvirheiden tai muiden olosuhteiden vuoksi. Pyrimme säilyttämään tiedot aina kun se on kohtuudella mahdollista, mutta emme takaa, että kaikki tiedot voidaan aina tallentaa tai palauttaa.</p>"
     },
     {
       "id": "section-10",
@@ -73,12 +73,12 @@
     {
       "id": "section-12",
       "heading": "12. Näiden ehtojen muutokset",
-      "html": "<p>Voimme muuttaa näitä ehtoja tarvittaessa lakisääteisten muutosten, sovelluksen muutosten tai muiden syiden vuoksi. Tarkistetut ehdot tulevat voimaan, kun ne julkaistaan ​​sovelluksessa tai verkkosivustollamme. Ilmoitamme olennaisista muutoksista tarvittaessa.</p>"
+      "html": "<p>Voimme muuttaa näitä ehtoja tarvittaessa lakisääteisten muutosten, sovelluksen muutosten tai muiden syiden vuoksi. Tarkistetut ehdot tulevat voimaan, kun ne julkaistaan sovelluksessa tai verkkosivustollamme. Ilmoitamme olennaisista muutoksista tarvittaessa.</p>"
     },
     {
       "id": "section-13",
       "heading": "13. Sovellettava laki",
-      "html": "<p>Näihin ehtoihin sovelletaan Japanin lakia, ja niitä tulkitaan Japanin lakien mukaisesti. Sovellukseen tai näihin ehtoihin liittyvät riidat ratkaistaan ​​Japanin lain mukaisesti.</p>"
+      "html": "<p>Näihin ehtoihin sovelletaan Japanin lakia, ja niitä tulkitaan Japanin lakien mukaisesti. Sovellukseen tai näihin ehtoihin liittyvät riidat ratkaistaan Japanin lain mukaisesti.</p>"
     },
     {
       "id": "section-14",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:40:18.581Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "282d4c23f377e1447116068d5caa493f05879e6242a9bdbbcbaee8a19808ce2c",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

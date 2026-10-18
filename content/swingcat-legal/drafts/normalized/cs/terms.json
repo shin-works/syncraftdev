@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Podmínky použití a zakázané chování",
-      "html": "<p>Aplikaci používáte na vlastní nebezpečí a nesmíte: upravovat, dekompilovat, zpětně analyzovat ani provádět podobné úkony v Aplikaci; reprodukovat, dále distribuovat, prodávat ani jinak používat Aplikaci bez povolení; získávat placené funkce, odměny za zhlédnutí reklam nebo jiný obsah nevhodnými prostředky; zasahovat do běžného provozu Aplikace; porušovat platné zákony nebo veřejné zásady; ani se dopouštět chování, které důvodně považujeme za nevhodné. Nezletilí by měli před zakoupením placených služeb získat souhlas rodiče nebo zákonného zástupce, pokud je to vyžadováno.</p>"
+      "html": "<p>Aplikaci používáte na vlastní nebezpečí a nesmíte: upravovat, dekompilovat, zpětně analyzovat ani provádět podobné úkony v Aplikaci; reprodukovat, dále distribuovat, prodávat ani jinak používat Aplikaci bez povolení; získávat placené funkce, odměny za zhlédnutí reklam nebo jiný obsah nevhodnými prostředky; zasahovat do běžného provozu Aplikace; porušovat platné zákony nebo veřejný pořádek; ani se dopouštět chování, které důvodně považujeme za nevhodné. Nezletilí by měli před zakoupením placených služeb získat souhlas rodiče nebo zákonného zástupce, pokud je to vyžadováno.</p>"
     },
     {
       "id": "section-03",
@@ -48,7 +48,7 @@
     {
       "id": "section-07",
       "heading": "7. Předplatné",
-      "html": "<p>Poplatky za předplatné jsou účtovány z vašeho účtu Apple. Předplatné se automaticky obnovuje pro každé příslušné období, pokud automatické obnovení nevypnete v nastavení App Storu. Po vypnutí automatického obnovení zůstávají příslušné funkce obvykle k dispozici až do konce aktuálního placeného období. Správu předplatného, ​​zrušení automatického obnovení, vrácení peněz a další platební záležitosti upravují obchodní podmínky a zásady společností Apple a App Storu.</p>"
+      "html": "<p>Poplatky za předplatné jsou účtovány z vašeho účtu Apple. Předplatné se automaticky obnovuje pro každé příslušné období, pokud automatické obnovení nevypnete v nastavení App Storu. Po vypnutí automatického obnovení zůstávají příslušné funkce obvykle k dispozici až do konce aktuálního placeného období. Správu předplatného, zrušení automatického obnovení, vrácení peněz a další platební záležitosti upravují obchodní podmínky a zásady společností Apple a App Storu.</p>"
     },
     {
       "id": "section-08",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:44:01.778Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "875f38b8e470cbdbf5e5f983989cf4b95a4da2db4b96ff6a68f3eeb98423161b",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],

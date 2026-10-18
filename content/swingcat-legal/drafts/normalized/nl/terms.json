@@ -23,7 +23,7 @@
     {
       "id": "section-02",
       "heading": "2. Gebruiksvoorwaarden en verboden gedrag",
-      "html": "<p>U gebruikt de app op eigen risico en mag niet: de app wijzigen, decompileren, reverse-engineeren of soortgelijke handelingen uitvoeren; de app reproduceren, herverdelen, verkopen of anderszins gebruiken zonder toestemming; betaalde functies, beloningen voor het bekijken van advertenties of andere content verkrijgen via oneigenlijke middelen; de normale werking van de app verstoren; toepasselijke wetten of het openbaar beleid overtreden; of gedrag vertonen dat wij redelijkerwijs ongepast achten. Minderjarigen dienen, indien vereist, toestemming van een ouder of wettelijke voogd te verkrijgen alvorens betaalde diensten aan te schaffen.</p>"
+      "html": "<p>U gebruikt de app op eigen risico en mag niet: de app wijzigen, decompileren, reverse-engineeren of soortgelijke handelingen uitvoeren; de app reproduceren, herverdelen, verkopen of anderszins gebruiken zonder toestemming; betaalde functies, beloningen voor het bekijken van advertenties of andere content verkrijgen via oneigenlijke middelen; de normale werking van de app verstoren; toepasselijke wetten of de openbare orde overtreden; of gedrag vertonen dat wij redelijkerwijs ongepast achten. Minderjarigen dienen, indien vereist, toestemming van een ouder of wettelijke voogd te verkrijgen alvorens betaalde diensten aan te schaffen.</p>"
     },
     {
       "id": "section-03",
@@ -43,7 +43,7 @@
     {
       "id": "section-06",
       "heading": "6. Betaalde diensten en aankopen",
-      "html": "<p>Naast gratis functies kan de app ook betaalde functies of content aanbieden, zoals maandabonnementen, jaarabonnementen en eenmalige aankopen. De producten, prijzen, periodes en beschikbare functies die op het moment van aankoop in de app en de App Store worden weergegeven, zijn van toepassing. Aankopen en betalingen verlopen via de App Store van Apple; wij verzamelen of bewaren geen betaalkaartgegevens.</p>"
+      "html": "<p>Naast gratis functies kan de app ook betaalde functies of content aanbieden, zoals maandabonnementen, jaarabonnementen en eenmalige aankopen. De producten, prijzen, periodes en beschikbare functies die op het moment van aankoop in de app en de App Store worden weergegeven, zijn van toepassing. Aankopen en betalingen verlopen via de App Store van Apple; wij verzamelen of bewaren niet rechtstreeks betaalkaartgegevens.</p>"
     },
     {
       "id": "section-07",
@@ -92,7 +92,7 @@
     "capturedAt": "2026-10-18T07:33:39.327Z",
     "nativeLegalReview": false,
     "rawCaptureSha256": "92fe68f0de9de351bef40b90bbbdede3d8c7c4bd470ebb10bd30f525cbef6684",
-    "editorialCorrection": false
+    "editorialCorrection": true
   },
   "checks": {
     "issues": [],
