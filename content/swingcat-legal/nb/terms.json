@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "locale": "nb",
+  "kind": "terms",
+  "title": "Bruksvilkår",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Ikrafttredelsesdato: 28. august 2026 <br>\n     Sist oppdatert: 8. september 2026",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Disse bruksvilkårene («vilkår») angir vilkårene og betingelsene for bruk av SwingCat («appen»), en iOS-applikasjon levert av SynCraft («vi», «oss» eller «vår»).</p>\n      <p>I tillegg til disse vilkårene er din bruk av appen underlagt Apples standard sluttbrukerlisensavtale (EULA).</p>\n      <p>Apples standard lisensavtale for sluttbrukere: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Vennligst les disse vilkårene og Apples standard sluttbrukeravtale før du bruker appen.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Appen",
+      "html": "<ol>\n       <li>Appen hjelper brukere med å administrere fokus og arbeidstid ved hjelp av en timer.</li>\n       <li>Avhengig av timerbruk kan appen tilby funksjoner som brukere kan bruke til å skaffe eller bruke katter, gjenstander, titler og annet innhold.</li>\n       <li>Appen garanterer ikke konsentrasjon, produktivitet, læringsutbytte, arbeidsutbytte eller andre spesifikke resultater.</li>\n       <li>Funksjonene kan variere avhengig av iOS, enheten og andre bruksforhold.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Bruksvilkår og forbudt oppførsel",
+      "html": "<p>Du bruker appen på egen risiko og må ikke: endre, dekompilere, utføre omvendt utvikling eller utføre lignende handlinger på appen; reprodusere, redistribuere, selge eller på annen måte bruke appen uten autorisasjon; skaffe betalte funksjoner, belønninger for annonsevisning eller annet innhold på upassende måter; forstyrre normal drift av appen; bryte gjeldende lover eller offentlig orden; eller delta i oppførsel vi med rimelighet anser som upassende. Mindreårige bør innhente samtykke fra en forelder eller verge der det er nødvendig før de kjøper betalte tjenester.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Immaterielle rettigheter",
+      "html": "<p>Opphavsrett og andre immaterielle rettigheter til navn, logoer, figurer, kattedesign, illustrasjoner, animasjoner, bilder, tekst, lyd, programmer og annet innhold i appen tilhører oss eller tredjeparter med legitime rettigheter. Med mindre det er tillatt ved lov, kan du ikke bruke, reprodusere, publisere, endre, redistribuere eller selge dem uten tillatelse. Innhold generert gjennom en delingsfunksjon levert av appen kan legges ut på sosiale medier og andre tjenester for vanlige delingsformål som er planlagt av appen.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Innhold i appen",
+      "html": "<ol>\n       <li>Katter, gjenstander, titler og annet digitalt innhold som er tilgjengelig i appen, er ment for bruk i appen.</li>\n       <li>De har ingen reell pengeverdi og kan ikke byttes mot kontanter eller annen eiendom.</li>\n       <li>Vi kan endre navn, innhold, anskaffelsesbetingelser, bruksbetingelser, visning og andre spesifikasjoner for forbedringer, balansejusteringer, spesifikasjonsendringer eller driftsbehov.</li>\n       <li>Vi bestreber oss på å bevare brukerdata der det er rimelig mulig under oppdateringer, men garanterer ikke fullstendig bevaring eller gjenoppretting på alle enheter, operativsystemer eller miljøer.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Reklame og belønninger",
+      "html": "<p>Appen kan vise annonser gjennom tjenester som Google AdMob og kan tilby belønnede annonser som gir varer eller andre fordeler i appen. Vilkårene for belønninger er de som vises i appen. Annonseinnhold, presentasjon, hyppighet og fordeler kan endres etter behov. Annonsører og annonseleverandører er ansvarlige for annonseinnhold; vi garanterer ikke annonserte produkter eller tjenester.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Betalte tjenester og kjøp",
+      "html": "<p>I tillegg til gratisfunksjoner kan appen tilby betalte funksjoner eller innhold, inkludert månedlige abonnementer, årsabonnementer og engangskjøp. Produkter, priser, perioder og tilgjengelige funksjoner som vises i appen og App Store på kjøpstidspunktet gjelder. Kjøp og betalinger gjøres via Apples App Store; vi verken samler inn eller lagrer betalingskortinformasjon direkte.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Abonnementer",
+      "html": "<p>Abonnementsavgifter belastes Apple-kontoen din. Et abonnement fornyes automatisk for hver gjeldende periode med mindre du slår av automatisk fornyelse i App Store-innstillingene. Etter at automatisk fornyelse er slått av, forblir de relevante funksjonene vanligvis tilgjengelige til slutten av den gjeldende betalte perioden. Apples og App Stores vilkår, betingelser og retningslinjer regulerer abonnementsadministrasjon, kansellering av automatisk fornyelse, refusjoner og andre betalingssaker.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Engangskjøpsplaner",
+      "html": "<p>En engangskjøpsplan gir retten til å bruke de relevante betalte funksjonene uten gjentakende abonnementsbetalinger. Den garanterer ikke evig tilgjengelighet av appen, alle funksjoner, tredjepartsintegrasjoner eller kompatibilitet med alle fremtidige iOS-versjoner eller -enheter. Gjenoppretting av kjøpsinformasjon og relaterte saker er underlagt Apples og App Stores systemer og retningslinjer.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Datalagring",
+      "html": "<p>Innstillinger, timerhistorikk, katter, elementer, titler og andre data kan lagres på enheten din. Data kan gå tapt ved sletting av appen, enhetsfeil eller utskifting, OS-oppdateringer, appfeil eller andre omstendigheter. Vi bestreber oss på å bevare data der det er rimelig mulig, men garanterer ikke at alle data alltid kan lagres eller gjenopprettes.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Ansvarsfraskrivelser",
+      "html": "<p>Vi garanterer ikke at appen alltid vil fungere korrekt på alle enheter og operativsystemmiljøer, eller at den vil være nøyaktig, fullstendig, sikker, egnet for et bestemt formål eller kontinuerlig tilgjengelig. Tidtakere, varsler og andre funksjoner fungerer kanskje ikke som forventet på grunn av enhetsinnstillinger, iOS-spesifikasjoner, strømsparingsfunksjoner, nettverksforhold eller andre omstendigheter. Med unntak av tilfeller av forsettlig urettmessig opptreden fra vår side, grov uaktsomhet eller ansvar som ikke kan utelukkes ved lov, er vi ikke ansvarlige for skader som følge av bruk av, eller manglende evne til å bruke, appen.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Endringer eller avslutning",
+      "html": "<p>Vi kan legge til, endre, gjennomgå, redusere, suspendere eller avslutte funksjoner eller hele eller deler av appen etter behov, tatt hensyn til utviklings- og driftsforhold, støttede enheter, iOS-spesifikasjoner, tredjepartstjenester og andre faktorer. Vi vil varsle om vesentlige endringer eller avvikling der det er rimelig mulig.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Endringer i disse vilkårene",
+      "html": "<p>Vi kan endre disse vilkårene etter behov på grunn av juridiske endringer, endringer i appen eller andre årsaker. Reviderte vilkår trer i kraft når de publiseres i appen eller på nettstedet vårt. Vi vil varsle om vesentlige endringer der det er aktuelt.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Gjeldende lov",
+      "html": "<p>Disse vilkårene er underlagt og tolkes i samsvar med japansk lov. Tvister knyttet til appen eller disse vilkårene skal løses i samsvar med japansk lov.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Kontakt",
+      "html": "<div class=\"contact\">\n       <p>Utvikler og operatør: SynCraft</p>\n       <p>Kontakt: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "no",
+    "capturedAt": "2026-10-18T07:39:53.864Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "66187bacf452a5c7de21685b0586237ec352fe6b2519a0a21dd397791a65f398",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "Personvernerklæring",
+      "SwingCat",
+      "Kontakt"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Velg språk"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "dfd8e2eadc57d8823ff5399ed4b0c929a2af36952d755d6ac47ee09e298c61b7",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}

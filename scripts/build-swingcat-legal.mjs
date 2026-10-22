@@ -27,6 +27,7 @@ function validate(doc, source) {
     if (/<(?:script|iframe|object|embed)\b|\bon\w+\s*=|javascript:/i.test(s.html)) throw new Error(`Unsafe HTML: ${doc.locale}/${s.id}`);
   }
   if (doc.locale !== 'en' && doc.locale !== 'ja') {
+    if (!doc.ui?.selectLanguage?.trim() || !Array.isArray(doc.ui?.footer) || doc.ui.footer.length !== 3 || doc.ui.footer.some((s) => typeof s !== 'string' || !s.trim())) throw new Error(`Missing localized navigation: ${doc.locale}/${doc.kind}`);
     const untranslated = doc.sections.filter((s, i) => s.html === source.sections[i].html);
     if (untranslated.length) throw new Error(`Untranslated body: ${doc.locale}/${untranslated.map((s) => s.id)}`);
   }
@@ -45,15 +46,16 @@ function render(row, doc, fallback = false) {
   const home = row.webLocale === 'ja' ? '/swingcat/' : (['en','de','fr','es','it','ko','pt-BR','zh-Hans','zh-Hant-TW'].includes(row.webLocale) ? row.path : '/swingcat/en/');
   const other = doc.kind === 'privacy' ? 'terms' : 'privacy';
   const title = doc.title;
-  const options = ready.map((r) => `<option value="${r.path}${doc.kind}/"${r.webLocale === target.webLocale ? ' selected' : ''}>${esc(r.name)}</option>`).join('');
+  const ui = doc.ui ?? { selectLanguage: ja ? '言語を選択' : 'Select language', footer: [ja ? (other === 'privacy' ? 'プライバシーポリシー' : '利用規約') : (other === 'privacy' ? 'Privacy Policy' : 'Terms of Use'), 'SwingCat', ja ? 'お問い合わせ' : 'Contact'] };
+  const options = ready.map((r) => `<option value="${r.path}${doc.kind}/"${r.webLocale === target.webLocale ? ' selected' : ''}>${esc(r.webLocale === 'es' ? 'Español' : r.name)}</option>`).join('');
   const alternates = ready.map((r) => `<link rel="alternate" hreflang="${r.webLocale === 'zh-Hant-TW' ? 'zh-Hant' : r.webLocale}" href="https://syncraft.dev${r.path}${doc.kind}/">`).join('');
   const content = doc.sections.map((s) => `<section id="${s.id}">${s.heading ? `<h2>${esc(s.heading)}</h2>` : ''}${s.html}</section>`).join('\n');
   const notice = fallback ? `<p class="translation-notice" role="note">${esc(row.name)}: A full translation of this document is being prepared. The English text is shown below. <a href="${english.path}${doc.kind}/">Read the English document</a>.</p>` : '';
   return `<!doctype html>
 <html lang="${locale}" dir="${fallback ? 'ltr' : row.direction}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="SwingCat ${esc(title)}"><meta name="robots" content="${fallback ? 'noindex, follow' : 'index, follow'}"><link rel="canonical" href="https://syncraft.dev${target.path}${doc.kind}/">${alternates}<title>SwingCat ${esc(title)}</title><link rel="stylesheet" href="/swingcat/legal.css"><style>.content{overflow-wrap:anywhere}.content ol,.content ul{padding-inline-start:1.55em;padding-inline-end:0}.language-select{max-width:40vw}.translation-notice{padding:16px;border:1px solid #dfdfda;border-radius:12px;line-height:1.7}[dir=rtl] .back-link::before{content:'→'}@media(max-width:400px){.back-link{display:none}.legal-sheet{padding:24px 18px}}</style></head><body>
-<header><div class="header-inner"><a href="${home}" aria-label="SwingCat"><img class="logo" src="/swingcat/assets/swingcat_logo_texticonl.png" alt="SwingCat"></a><div class="legal-actions"><select class="language-select" aria-label="${ja ? '言語を選択' : 'Select language'}" onchange="if(this.value)window.location.href=this.value">${options}</select><a class="back-link" href="${home}">${ja ? 'SwingCatへ戻る' : 'SwingCat'}</a></div></div></header>
+<header><div class="header-inner"><a href="${home}" aria-label="SwingCat"><img class="logo" src="/swingcat/assets/swingcat_logo_texticonl.png" alt="SwingCat"></a><div class="legal-actions"><select class="language-select" aria-label="${esc(ui.selectLanguage)}" onchange="if(this.value)window.location.href=this.value">${options}</select><a class="back-link" href="${home}">${ja ? 'SwingCatへ戻る' : 'SwingCat'}</a></div></div></header>
 <main><article class="container legal-sheet" data-document-version="${doc.updatedDate}" data-source-hash="${hash(doc.sections)}"><p class="eyebrow">SWINGCAT</p><h1>${esc(title)}</h1><p class="dates">${doc.datesHtml}</p>${notice}<hr class="rule"><div class="content">${content}</div></article></main>
-<footer><div class="footer-inner"><span>© ${new Date().getUTCFullYear()} SwingCat</span><div class="footer-links"><a href="${target.path}${other}/">${ja ? (other === 'privacy' ? 'プライバシーポリシー' : '利用規約') : (other === 'privacy' ? 'Privacy Policy' : 'Terms of Use')}</a><a href="${home}">SwingCat</a><a href="mailto:hello@syncraft.dev">${ja ? 'お問い合わせ' : 'Contact'}</a></div></div></footer></body></html>
+<footer><div class="footer-inner"><span>© ${new Date().getUTCFullYear()} SwingCat</span><div class="footer-links"><a href="${target.path}${other}/">${esc(ui.footer[0])}</a><a href="${home}">${esc(ui.footer[1])}</a><a href="mailto:hello@syncraft.dev">${esc(ui.footer[2])}</a></div></div></footer></body></html>
 `;
 }
 

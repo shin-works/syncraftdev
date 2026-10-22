@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "kind": "terms",
+  "title": "Termeni de utilizare",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Data intrării în vigoare: 28 august 2026 <br>\n     Ultima actualizare: 8 septembrie 2026",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Prezentele Condiții de utilizare („Condiții”) stabilesc termenii și condițiile de utilizare a SwingCat („Aplicația”), o aplicație iOS furnizată de SynCraft („noi”, „nouă” sau „al nostru/a noastră/ai noștri/ale noastre”).</p>\n      <p>Pe lângă acești Termeni, utilizarea Aplicației de către dvs. este supusă Acordului standard de licență pentru utilizatorul final (EULA) al Apple.</p>\n      <p>Acordul de licență standard pentru utilizatorul final Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Vă rugăm să consultați acești Termeni și Acordul de licență standard pentru utilizatorul final Apple înainte de a utiliza Aplicația.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Aplicația",
+      "html": "<ol>\n       <li>Aplicația ajută utilizatorii să își gestioneze concentrarea și timpul de lucru folosind un cronometru.</li>\n       <li>În funcție de utilizarea cronometrului, Aplicația poate oferi funcții prin care utilizatorii pot obține sau utiliza pisici, obiecte, titluri și alt conținut.</li>\n       <li>Aplicația nu garantează concentrarea, productivitatea, rezultatele învățării, rezultatele muncii sau orice alt rezultat specific.</li>\n       <li>Caracteristicile pot diferi în funcție de iOS, dispozitiv și alte condiții de utilizare.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Condiții de utilizare și conduită interzisă",
+      "html": "<p>Utilizați Aplicația pe propriul risc și nu aveți dreptul să: modificați, decompilați, efectuați inginerie inversă sau efectuați acțiuni similare asupra Aplicației; reproduceți, redistribuiți, vindeți sau utilizați în alt mod Aplicația fără autorizație; obțineți funcții plătite, recompense pentru vizionarea de reclame sau alt conținut prin mijloace necorespunzătoare; interferați cu funcționarea normală a Aplicației; încălcați legile aplicabile sau ordinea publică; sau să vă angajați într-un comportament pe care îl considerăm în mod rezonabil neadecvat. Minorii trebuie să obțină consimțământul unui părinte sau tutore legal, acolo unde este necesar, înainte de a achiziționa servicii plătite.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Proprietatea intelectuală",
+      "html": "<p>Drepturile de autor și alte drepturi de proprietate intelectuală asupra numelor, logo-urilor, personajelor, desenelor cu pisici, ilustrațiilor, animațiilor, imaginilor, textului, fișierelor audio, programelor și alt conținut din Aplicație ne aparțin nouă sau unor terțe părți cu drepturi legitime. Cu excepția cazurilor permise de lege, nu aveți dreptul să le utilizați, să le reproduceți, să le publicați, să le modificați, să le redistribuiți sau să le vindeți fără permisiune. Conținutul generat prin intermediul unei funcții de partajare oferite de Aplicație poate fi postat pe rețelele sociale și alte servicii în scopuri obișnuite de partajare prevăzute de Aplicație.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Conținut în aplicație",
+      "html": "<ol>\n       <li>Pisicile, obiectele, titlurile și alte conținuturi digitale disponibile în Aplicație sunt destinate utilizării în cadrul Aplicației.</li>\n       <li>Nu au valoare monetară în lumea reală și nu pot fi schimbate pe bani sau alte bunuri.</li>\n       <li>Este posibil să modificăm numele, conținutul, condițiile de achiziție, condițiile de utilizare, afișajul și alte specificații pentru îmbunătățiri, ajustări ale echilibrului, modificări ale specificațiilor sau nevoi operaționale.</li>\n       <li>Ne străduim să păstrăm datele utilizatorilor acolo unde este posibil în mod rezonabil în timpul actualizărilor, dar nu garantăm păstrarea sau restaurarea completă pe fiecare dispozitiv, sistem de operare sau mediu.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Publicitate și recompense",
+      "html": "<p>Aplicația poate afișa reclame prin intermediul unor servicii precum Google AdMob și poate oferi reclame cu recompense care oferă articole sau alte beneficii în aplicație. Condițiile pentru recompense sunt cele afișate în Aplicație. Conținutul, prezentarea, frecvența și beneficiile reclamelor se pot modifica după cum este necesar. Agenții de publicitate și furnizorii de reclame sunt responsabili pentru conținutul reclamelor; nu garantăm produsele sau serviciile promovate.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Servicii și achiziții plătite",
+      "html": "<p>Pe lângă funcțiile gratuite, Aplicația poate oferi funcții sau conținut plătit, inclusiv abonamente lunare, abonamente anuale și planuri de achiziție unică. Se aplică produsele, prețurile, perioadele și funcțiile disponibile afișate în Aplicație și în App Store la momentul achiziției. Achizițiile și plățile se efectuează prin intermediul App Store-ului Apple; nu colectăm sau stocăm direct informații despre cardurile de plată.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Abonamente",
+      "html": "<p>Taxele de abonament sunt percepute din contul dvs. Apple. Un abonament se reînnoiește automat pentru fiecare perioadă aplicabilă, cu excepția cazului în care dezactivați reînnoirea automată în setările App Store. După dezactivarea reînnoirii automate, funcțiile relevante rămân, în general, disponibile până la sfârșitul perioadei de plată curente. Termenii, condițiile și politicile Apple și App Store reglementează gestionarea abonamentelor, anularea reînnoirii automate, rambursările și alte aspecte legate de plată.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Planuri de achiziție unică",
+      "html": "<p>Un plan de achiziție unică oferă dreptul de a utiliza funcțiile plătite relevante fără a fi nevoie de abonamente recurente. Nu garantează furnizarea perpetuă a Aplicației, a fiecărei funcții, a integrărilor cu terți sau a compatibilității cu toate versiunile sau dispozitivele iOS viitoare. Restaurarea informațiilor despre achiziție și aspectele conexe sunt supuse sistemelor și politicilor Apple și App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Stocarea datelor",
+      "html": "<p>Setările, istoricul cronometrului, pisicile, articolele, titlurile și alte date pot fi stocate pe dispozitivul dvs. Datele se pot pierde prin ștergerea aplicației, defectarea sau înlocuirea dispozitivului, actualizări ale sistemului de operare, defecte ale aplicației sau alte circumstanțe. Ne străduim să păstrăm datele acolo unde este posibil în mod rezonabil, dar nu garantăm că toate datele pot fi întotdeauna salvate sau restaurate.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Declinarea responsabilității",
+      "html": "<p>Nu garantăm că Aplicația va funcționa întotdeauna corect pe fiecare dispozitiv și sistem de operare sau că va fi precisă, completă, sigură, potrivită pentru un anumit scop sau disponibilă în permanență. Este posibil ca temporizatoarele, notificările și alte funcții să nu funcționeze conform așteptărilor din cauza setărilor dispozitivului, a specificațiilor iOS, a funcțiilor de economisire a energiei, a condițiilor de rețea sau a altor circumstanțe. Cu excepția cazurilor de abatere intenționată, neglijență gravă sau răspundere care nu poate fi exclusă prin lege, nu suntem răspunzători pentru daunele rezultate din utilizarea sau incapacitatea de a utiliza Aplicația.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Modificări sau întrerupere",
+      "html": "<p>Putem adăuga, modifica, revizui, reduce, suspenda sau încheia funcții sau întreaga Aplicație sau o parte din aceasta, după cum este necesar, ținând cont de circumstanțele de dezvoltare și operaționale, dispozitivele acceptate, specificațiile iOS, serviciile terțe și alți factori. Vom notifica modificările semnificative sau întreruperea furnizării, acolo unde este posibil în mod rezonabil.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Modificări ale acestor Termeni",
+      "html": "<p>Este posibil să modificăm acești Termeni după cum este necesar, din cauza unor modificări legislative, a modificărilor Aplicației sau a altor motive. Termenii revizuiți intră în vigoare la data publicării în Aplicație sau pe site-ul nostru web. Vom notifica modificările semnificative, acolo unde este cazul.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Legea aplicabilă",
+      "html": "<p>Prezentele Condiții sunt guvernate și interpretate în conformitate cu legile Japoniei. Litigiile legate de Aplicație sau de prezentele Condiții vor fi soluționate în conformitate cu legislația japoneză.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Contact",
+      "html": "<div class=\"contact\">\n       <p>Dezvoltator și operator: SynCraft</p>\n       <p>Contact: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "ro",
+    "capturedAt": "2026-10-18T07:45:21.438Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "0e1ee0d89bc8cb6e48db9eabdf7be01f93ed9d025c2b78382fd9741a42edeff4",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "Politica de confidențialitate",
+      "SwingCat",
+      "Contact"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Selectați limba"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "30a4ffc2a99fb38d3421a0e07b6efed8b771ea0538c04f5f30283fbb8a987758",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}

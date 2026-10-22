@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "kind": "terms",
+  "title": "Felhasználási feltételek",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Hatálybalépés dátuma: 2026. augusztus 28. <br>\n     Utolsó frissítés: 2026. szeptember 8.",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Jelen Felhasználási Feltételek („Feltételek”) határozzák meg a SwingCat („Alkalmazás”), a SynCraft („mi”, „minket” vagy „miénk”) által biztosított iOS-alkalmazás („Alkalmazás”) használatának feltételeit.</p>\n      <p>Jelen Feltételeken túlmenően az Alkalmazás Ön általi használatára az Apple Standard Végfelhasználói Licencszerződése (EULA) is vonatkozik.</p>\n      <p>Apple Standard Végfelhasználói Licencszerződés: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Kérjük, az Alkalmazás használata előtt tekintse át ezeket a Feltételeket és az Apple Standard Végfelhasználói Licencszerződést.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Az alkalmazás",
+      "html": "<ol>\n       <li>Az alkalmazás segít a felhasználóknak a fókusz és a munkaidő kezelésében egy időzítő segítségével.</li>\n       <li>Az időzítő használatától függően az alkalmazás olyan funkciókat kínálhat, amelyeken keresztül a felhasználók macskákat, tárgyakat, címeket és egyéb tartalmakat szerezhetnek be vagy használhatnak.</li>\n       <li>Az alkalmazás nem garantálja a koncentrációt, a termelékenységet, a tanulási eredményeket, a munkaeredményeket vagy bármilyen más konkrét eredményt.</li>\n       <li>A funkciók az iOS-től, az eszköztől és egyéb használati körülményektől függően eltérőek lehetnek.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Felhasználási feltételek és tiltott magatartás",
+      "html": "<p>Az Alkalmazást saját felelősségére használja, és tilos: módosítania, dekompilálnia, visszafejtenie vagy hasonló műveleteket végeznie az Alkalmazáson; reprodukálnia, újraterjesztenie, eladnia vagy más módon használnia az Alkalmazást engedély nélkül; fizetős funkciókat, hirdetésmegtekintési jutalmakat vagy egyéb tartalmat nem megfelelő eszközökkel beszerezni; megzavarnia az Alkalmazás normál működését; megsérteni a vonatkozó törvényeket vagy a közrendet; vagy olyan magatartást tanúsítania, amelyet ésszerűen nem megfelelőnek tartunk. A kiskorúaknak szükség esetén szülőjük vagy törvényes gyámjuk beleegyezését kell kérniük a fizetős szolgáltatások megvásárlása előtt.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Szellemi tulajdon",
+      "html": "<p>A nevek, logók, karakterek, macskaminták, illusztrációk, animációk, képek, szövegek, hanganyagok, programok és az Alkalmazásban található egyéb tartalmak szerzői jogai és egyéb szellemi tulajdonjogai a miénk vagy jogos jogokkal rendelkező harmadik felek tulajdonát képezik. A törvény által megengedett eseteken kívül ezeket nem használhatja, reprodukálhatja, teheti közzé, módosíthatja, terjesztheti újra vagy értékesítheti engedély nélkül. Az Alkalmazás által biztosított megosztási funkción keresztül létrehozott tartalom közzétehető a közösségi médiában és más szolgáltatásokban az Alkalmazás által meghatározott szokásos megosztási célokra.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Alkalmazáson belüli tartalom",
+      "html": "<ol>\n       <li>Az alkalmazásban elérhető macskák, tárgyak, címek és egyéb digitális tartalmak az alkalmazáson belüli használatra szolgálnak.</li>\n       <li>Nincs valós pénzügyi értékük, és nem válthatók készpénzre vagy más tulajdonra.</li>\n       <li>A neveket, a tartalmat, a beszerzési feltételeket, a felhasználási feltételeket, a megjelenítést és egyéb specifikációkat fejlesztések, egyensúlykiigazítások, specifikációváltozások vagy működési igények esetén módosíthatjuk.</li>\n       <li>Arra törekszünk, hogy a frissítések során amennyire ez ésszerűen lehetséges, megőrizzük a felhasználói adatokat, de nem garantáljuk a teljes megőrzést vagy visszaállítást minden eszközön, operációs rendszeren vagy környezetben.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Reklám és jutalmak",
+      "html": "<p>Az Alkalmazás megjeleníthet hirdetéseket olyan szolgáltatásokon keresztül, mint a Google AdMob, és jutalmazott hirdetéseket kínálhat, amelyek termékeket vagy egyéb alkalmazáson belüli előnyöket biztosítanak. A jutalmak feltételei megegyeznek az Alkalmazásban megjelenített feltételekkel. A hirdetések tartalma, megjelenítése, gyakorisága és előnyei szükség szerint változhatnak. A hirdetők és a hirdetésszolgáltatók felelősek a hirdetések tartalmáért; nem garantáljuk a hirdetett termékeket vagy szolgáltatásokat.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Fizetős szolgáltatások és vásárlások",
+      "html": "<p>Az ingyenes funkciók mellett az alkalmazás fizetős funkciókat vagy tartalmakat is kínálhat, beleértve a havi előfizetéseket, az éves előfizetéseket és az egyszeri vásárlási csomagokat. Az alkalmazásban és az App Store-ban a vásárlás időpontjában megjelenített termékek, árak, időszakok és elérhető funkciók érvényesek. A vásárlások és a fizetések az Apple App Store-on keresztül történnek; közvetlenül nem gyűjtünk és nem tárolunk bankkártya-adatokat.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Előfizetések",
+      "html": "<p>Az előfizetési díjakat az Apple-fiókjára terheljük. Az előfizetés automatikusan megújul minden vonatkozó időszakra, kivéve, ha kikapcsolja az automatikus megújítást az App Store beállításaiban. Az automatikus megújítás kikapcsolása után a vonatkozó funkciók általában az aktuális fizetett időszak végéig elérhetők maradnak. Az Apple és az App Store feltételei, kikötései és szabályzatai szabályozzák az előfizetések kezelését, az automatikus megújítás lemondását, a visszatérítéseket és az egyéb fizetési kérdéseket.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Egyszeri vásárlási csomagok",
+      "html": "<p>Az egyszeri vásárlási csomag jogot biztosít a vonatkozó fizetős funkciók használatára rendszeres előfizetési díjak nélkül. Nem garantálja az Alkalmazás, minden funkció, harmadik féltől származó integrációk vagy az összes jövőbeli iOS-verzióval vagy eszközzel való kompatibilitás állandó biztosítását. A vásárlási információk visszaállítása és a kapcsolódó kérdések az Apple és az App Store rendszereinek és szabályzatainak hatálya alá tartoznak.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Adattárolás",
+      "html": "<p>Beállítások, időzítő előzmények, macskák, elemek, címek és egyéb adatok tárolódhatnak az eszközén. Az adatok elveszhetnek az alkalmazás törlése, az eszköz meghibásodása vagy cseréje, operációs rendszer frissítései, alkalmazáshibák vagy egyéb körülmények miatt. Törekszünk az adatok megőrzésére, ahol ez ésszerűen lehetséges, de nem garantáljuk, hogy minden adat mindig menthető vagy visszaállítható.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Jogi nyilatkozatok",
+      "html": "<p>Nem garantáljuk, hogy az Alkalmazás minden eszközön és operációs rendszeren mindig megfelelően fog működni, illetve hogy pontos, teljes, biztonságos, egy adott célra alkalmas vagy folyamatosan elérhető lesz. Az időzítők, értesítések és egyéb funkciók a készülékbeállítások, az iOS specifikációi, az energiatakarékos funkciók, a hálózati feltételek vagy egyéb körülmények miatt nem feltétlenül működnek a várt módon. Szándékos jogsértő magatartásunk, súlyos gondatlanság vagy törvény által ki nem zárható felelősség esetének kivételével nem vállalunk felelősséget az Alkalmazás használatából vagy használatának lehetetlenségéből eredő károkért.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Változások vagy megszüntetés",
+      "html": "<p>Szükség szerint hozzáadhatunk, módosíthatunk, felülvizsgálhatunk, csökkenthetünk, felfüggeszthetünk vagy megszüntethetünk funkciókat, vagy az Alkalmazás egészét vagy annak egy részét, figyelembe véve a fejlesztési és működési körülményeket, a támogatott eszközöket, az iOS specifikációit, a harmadik féltől származó szolgáltatásokat és egyéb tényezőket. Ahol ez ésszerűen lehetséges, értesítjük a lényeges változásokról vagy a megszüntetésről.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. A jelen Feltételek módosításai",
+      "html": "<p>A jelen Feltételeket szükség szerint módosíthatjuk jogi változások, az Alkalmazásban bekövetkező változások vagy egyéb okok miatt. A módosított Feltételek az Alkalmazásban vagy a weboldalunkon való közzétételükkor lépnek hatályba. A lényeges változásokról adott esetben értesítést küldünk.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Irányadó jog",
+      "html": "<p>Ezeket a Feltételeket Japán törvényei szabályozzák, és azok szerint kell értelmezni. Az Alkalmazással vagy a jelen Feltételekkel kapcsolatos vitákat a japán törvények szerint rendezik.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Kapcsolat",
+      "html": "<div class=\"contact\">\n       <p>Fejlesztő és üzemeltető: SynCraft</p>\n       <p>Kapcsolat: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "hu",
+    "capturedAt": "2026-10-18T07:44:54.219Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "2b525ce434a80a4ec2239a48dcaf1224f285cc1bb82e7d4078c970c78bc4c47b",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "Adatvédelmi irányelvek",
+      "SwingCat",
+      "Kapcsolat"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Nyelv kiválasztása"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "6bc7deb1b295315ecda080aa4529c466f773debf5dc7fd30b5801f5fec2d665f",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}

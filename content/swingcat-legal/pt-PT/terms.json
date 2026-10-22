@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "locale": "pt-PT",
+  "kind": "terms",
+  "title": "Termos de Utilização",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Data de entrada em vigor: 28 de agosto de 2026. <br>\n     Última atualização: 8 de setembro de 2026.",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Os presentes Termos de Utilização (\"Termos\") estabelecem os termos e condições para a utilização do SwingCat (a \"Aplicação\"), uma aplicação iOS fornecida pela SynCraft (\"nós\", \"nos\" ou \"nossos\").</p>\n      <p>Além destes Termos, a sua utilização da Aplicação está sujeita ao Contrato de Licença de Utilizador Final (EULA) padrão da Apple.</p>\n      <p>Contrato de Licença de Utilizador Final Padrão da Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Leia atentamente estes Termos e o Contrato de Licença de Utilizador Final Padrão da Apple antes de utilizar a aplicação.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. A aplicação",
+      "html": "<ol>\n       <li>A aplicação ajuda os utilizadores a gerir o foco e o tempo de trabalho usando um cronómetro.</li>\n       <li>Dependendo da utilização do temporizador, a aplicação pode fornecer recursos através dos quais os utilizadores podem obter ou utilizar gatos, itens, títulos e outros conteúdos.</li>\n       <li>A aplicação não garante concentração, produtividade, resultados de aprendizagem, resultados de trabalho ou qualquer outro resultado específico.</li>\n       <li>As funcionalidades podem variar consoante o iOS, o dispositivo e outras condições de utilização.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Condições de utilização e condutas proibidas",
+      "html": "<p>Utiliza a Aplicação por sua conta e risco e não deve: modificar, descompilar, realizar engenharia reversa ou executar atos semelhantes na Aplicação; reproduzir, redistribuir, vender ou utilizar a Aplicação de qualquer outra forma sem autorização; obter recursos pagos, recompensas pela visualização de anúncios ou outros conteúdos por meios indevidos; interferir com o funcionamento normal da Aplicação; violar as leis aplicáveis ou a ordem pública; ou envolver-se em condutas que consideremos razoavelmente inapropriadas. Os menores de idade devem obter o consentimento de um dos pais ou de um responsável legal, quando necessário, antes de adquirirem os serviços pagos.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Propriedade intelectual",
+      "html": "<p>Os direitos de autor e outros direitos de propriedade intelectual relativos a nomes, logótipos, personagens, desenhos de gatos, ilustrações, animações, imagens, textos, áudios, programas e outros conteúdos da Aplicação pertencem-nos ou a terceiros com direitos legítimos. Exceto quando permitido por lei, não pode utilizar, reproduzir, publicar, modificar, redistribuir ou vender estes conteúdos sem permissão. O conteúdo gerado através de um recurso de partilha fornecido pela Aplicação pode ser publicado nas redes sociais e outros serviços para fins de partilha comuns previstos pela Aplicação.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Conteúdo na aplicação",
+      "html": "<ol>\n       <li>Gatos, itens, títulos e outros conteúdos digitais disponíveis na aplicação destinam-se a ser utilizados dentro da própria aplicação.</li>\n       <li>Não possuem valor monetário no mundo real e não podem ser trocados por dinheiro ou outros bens.</li>\n       <li>Podemos alterar os nomes, conteúdo, condições de aquisição, condições de utilização, visualização e outras especificações para melhorias, ajustes de equilíbrio, alterações de especificações ou necessidades operacionais.</li>\n       <li>Esforçamo-nos por preservar os dados do utilizador sempre que razoavelmente possível durante as atualizações, mas não garantimos a preservação ou restauro completo em todos os dispositivos, sistemas operativos ou ambientes.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Publicidade e recompensas",
+      "html": "<p>A aplicação pode exibir anúncios através de serviços como o Google AdMob e pode oferecer anúncios premiados que concedem itens ou outros benefícios dentro da aplicação. As condições para receber as recompensas são as que são apresentadas na aplicação. O conteúdo, a apresentação, a frequência e os benefícios dos anúncios podem ser alterados conforme necessário. Os anunciantes e os fornecedores de anúncios são responsáveis pelo conteúdo dos anúncios; não garantimos os produtos ou serviços anunciados.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Serviços e compras pagos",
+      "html": "<p>Além das funcionalidades gratuitas, a aplicação pode oferecer funcionalidades ou conteúdos pagos, incluindo subscrições mensais, subscrições anuais e planos de compra única. Os produtos, preços, períodos e características disponíveis apresentados na aplicação e na App Store no momento da compra são os que se aplicam. As compras e os pagamentos são feitos através da App Store da Apple; não recolhemos nem armazenamos informações de cartões de pagamento diretamente.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Subscrições",
+      "html": "<p>As taxas de subscrição são cobradas na sua conta Apple. A subscrição é renovada automaticamente para cada período aplicável, a menos que desative a renovação automática nas definições da App Store. Após a desativação da renovação automática, as funcionalidades relevantes permanecem geralmente disponíveis até ao final do período pago atual. Os termos, condições e políticas da Apple e da App Store regem a gestão de subscrições, o cancelamento da renovação automática, os reembolsos e outras questões de pagamento.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Planos de compra única",
+      "html": "<p>Um plano de compra única concede o direito de utilizar as funcionalidades pagas relevantes sem pagamentos recorrentes de subscrição. Não garante o fornecimento perpétuo da aplicação, de todas as características, integrações de terceiros ou compatibilidade com todas as versões ou dispositivos iOS futuros. A restauração das informações de compra e assuntos relacionados estão sujeitos aos sistemas e políticas da Apple e da App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Armazenamento de dados",
+      "html": "<p>As definições, o histórico do cronómetro, os gatos, os itens, os títulos e outros dados podem ser armazenados no seu dispositivo. Os dados podem ser perdidos devido à eliminação da aplicação, falha ou substituição do dispositivo, atualizações do sistema operativo, defeitos da aplicação ou outras circunstâncias. Esforçamo-nos por preservar os dados sempre que razoavelmente possível, mas não garantimos que todos os dados possam ser guardados ou restaurados.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10.º Isenções de responsabilidade",
+      "html": "<p>Não garantimos que a Aplicação funcione sempre corretamente em todos os dispositivos e sistemas operativos, ou que seja exata, completa, segura, adequada a um fim específico ou esteja continuamente disponível. Os temporizadores, notificações e outras funcionalidades podem não funcionar como esperado devido às definições do dispositivo, especificações do iOS, características de poupança de energia, condições da rede ou outras circunstâncias. Exceto em casos de dolo, negligência grave ou responsabilidade que não possa ser excluída por lei, não nos responsabilizamos por danos decorrentes da utilização ou da impossibilidade de utilização da Aplicação.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Alterações ou descontinuação",
+      "html": "<p>Podemos adicionar, alterar, rever, reduzir, suspender ou terminar funcionalidades, ou toda ou parte da aplicação, conforme necessário, tendo em conta as circunstâncias de desenvolvimento e funcionamento, os dispositivos compatíveis, as especificações do iOS, os serviços de terceiros e outros fatores. Sempre que razoavelmente possível, iremos notificá-lo sobre alterações significativas ou descontinuação.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Alterações a estes Termos",
+      "html": "<p>Poderemos alterar estes Termos conforme necessário devido a alterações na legislação, alterações na Aplicação ou outros motivos. Os Termos revistos entram em vigor quando publicados na Aplicação ou no nosso website. Notificaremos sobre alterações substanciais quando apropriado.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13.º Lei aplicável",
+      "html": "<p>Estes Termos são regidos e interpretados de acordo com as leis do Japão. Quaisquer litígios relacionados com a Aplicação ou com estes Termos serão resolvidos de acordo com a legislação japonesa.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Contacto",
+      "html": "<div class=\"contact\">\n       <p>Programador e operador: SynCraft</p>\n       <p>Contacto: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "pt-PT",
+    "capturedAt": "2026-10-18T07:34:12.298Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "e9c1baf1b36d79aea321d4af7f3e938b6114f2c748900b7b0ef6d9e4617959ec",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "Política de Privacidade",
+      "SwingCat",
+      "Contacto"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Selecione o idioma"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "e51351c8b22a952d1eadd4ddb765eb33a8cfa2dd4493731cd4031c6539c0ab42",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}

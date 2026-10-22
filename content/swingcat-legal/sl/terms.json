@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "locale": "sl",
+  "kind": "terms",
+  "title": "Pogoji uporabe",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Datum začetka veljavnosti: 28. avgust 2026 <br>\n     Zadnja posodobitev: 8. september 2026",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Ti pogoji uporabe (»pogoji«) določajo pogoje uporabe aplikacije SwingCat (»aplikacija«), aplikacije za iOS, ki jo ponuja SynCraft (»mi«, »nas« ali »naš«).</p>\n      <p>Poleg teh pogojev vašo uporabo aplikacije ureja standardna licenčna pogodba za končnega uporabnika (EULA) družbe Apple.</p>\n      <p>Standardna licenčna pogodba za končnega uporabnika družbe Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Pred uporabo aplikacije preglejte te pogoje in standardno licenčno pogodbo za končnega uporabnika Apple.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Aplikacija",
+      "html": "<ol>\n       <li>Aplikacija uporabnikom pomaga upravljati osredotočenost in delovni čas s pomočjo časovnika.</li>\n       <li>Glede na uporabo časovnika lahko aplikacija ponuja funkcije, prek katerih lahko uporabniki pridobijo ali uporabljajo mačke, predmete, naslove in drugo vsebino.</li>\n       <li>Aplikacija ne zagotavlja koncentracije, produktivnosti, učnih izidov, delovnih izidov ali katerega koli drugega specifičnega rezultata.</li>\n       <li>Funkcije se lahko razlikujejo glede na iOS, napravo in druge pogoje uporabe.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Pogoji uporabe in prepovedano ravnanje",
+      "html": "<p>Aplikacijo uporabljate na lastno odgovornost in ne smete: spreminjati, dekompilirati, izvajati obratnega inženiringa ali izvajati podobnih dejanj v aplikaciji; reproducirati, distribuirati, prodajati ali kako drugače uporabljati aplikacije brez dovoljenja; pridobivati plačljivih funkcij, nagrad za ogled oglasov ali druge vsebine na neprimeren način; motiti normalno delovanje aplikacije; kršiti veljavne zakone ali javni red; ali se ukvarjati z vedenjem, ki ga razumno štejemo za neprimerno. Mladoletniki morajo pred nakupom plačljivih storitev pridobiti soglasje staršev ali zakonitega skrbnika, kjer je to potrebno.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Intelektualna lastnina",
+      "html": "<p>Avtorske pravice in druge pravice intelektualne lastnine za imena, logotipe, like, mačje motive, ilustracije, animacije, slike, besedilo, zvok, programe in drugo vsebino v aplikaciji pripadajo nam ali tretjim osebam z zakonitimi pravicami. Razen če to dovoljuje zakon, jih ne smete uporabljati, reproducirati, objavljati, spreminjati, distribuirati ali prodajati brez dovoljenja. Vsebina, ustvarjena s funkcijo deljenja, ki jo zagotavlja aplikacija, se lahko objavi na družbenih omrežjih in drugih storitvah za običajne namene deljenja, ki jih predvideva aplikacija.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Vsebina v aplikaciji",
+      "html": "<ol>\n       <li>Mačke, predmeti, naslovi in druge digitalne vsebine, ki so na voljo v aplikaciji, so namenjene uporabi znotraj aplikacije.</li>\n       <li>Nimajo dejanske denarne vrednosti in jih ni mogoče zamenjati za gotovino ali drugo premoženje.</li>\n       <li>Imena, vsebino, pogoje pridobitve, pogoje uporabe, prikaz in druge specifikacije lahko spremenimo zaradi izboljšav, prilagoditev ravnotežja, sprememb specifikacij ali operativnih potreb.</li>\n       <li>Pri posodabljanju si prizadevamo ohraniti uporabniške podatke, kjer je to razumno mogoče, vendar ne zagotavljamo popolne ohranitve ali obnovitve v vsaki napravi, operacijskem sistemu ali okolju.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Oglaševanje in nagrade",
+      "html": "<p>Aplikacija lahko prikazuje oglase prek storitev, kot je Google AdMob, in lahko ponuja nagradne oglase, ki zagotavljajo izdelke ali druge ugodnosti v aplikaciji. Pogoji za nagrade so tisti, ki so prikazani v aplikaciji. Vsebina oglasa, predstavitev, pogostost in ugodnosti se lahko po potrebi spremenijo. Oglaševalci in ponudniki oglasov so odgovorni za vsebino oglasov; ne jamčimo za oglaševane izdelke ali storitve.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Plačljive storitve in nakupi",
+      "html": "<p>Poleg brezplačnih funkcij lahko aplikacija ponuja plačljive funkcije ali vsebino, vključno z mesečnimi naročninami, letnimi naročninami in paketi za enkratni nakup. Veljajo izdelki, cene, obdobja in razpoložljive funkcije, prikazane v aplikaciji in trgovini App Store v času nakupa. Nakupi in plačila se izvajajo prek trgovine Apple App Store; podatkov o plačilnih karticah ne zbiramo ali shranjujemo neposredno.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Naročnine",
+      "html": "<p>Naročnine se zaračunavajo vašemu Apple računu. Naročnina se samodejno podaljša za vsako ustrezno obdobje, razen če v nastavitvah trgovine App Store izklopite samodejno podaljšanje. Ko je samodejno podaljšanje izklopljeno, ustrezne funkcije običajno ostanejo na voljo do konca trenutnega plačanega obdobja. Upravljanje naročnin, preklic samodejnega podaljšanja, vračila denarja in druge zadeve v zvezi s plačili urejajo pogoji, določila in pravilniki trgovin Apple in App Store.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Enkratni nakupni načrti",
+      "html": "<p>Enkratni nakupni paket zagotavlja pravico do uporabe ustreznih plačljivih funkcij brez ponavljajočih se plačil naročnine. Ne zagotavlja trajne razpoložljivosti aplikacije, vseh funkcij, integracij tretjih oseb ali združljivosti z vsemi prihodnjimi različicami ali napravami iOS. Obnovitev podatkov o nakupu in sorodne zadeve so predmet sistemov in pravilnikov Apple in App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Shranjevanje podatkov",
+      "html": "<p>Nastavitve, zgodovina časovnika, mačke, predmeti, naslovi in drugi podatki so lahko shranjeni v vaši napravi. Podatki se lahko izgubijo zaradi brisanja aplikacije, okvare ali zamenjave naprave, posodobitev operacijskega sistema, napak aplikacije ali drugih okoliščin. Prizadevamo si ohraniti podatke, kjer je to razumno mogoče, vendar ne zagotavljamo, da je mogoče vse podatke vedno shraniti ali obnoviti.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Izjave o omejitvi odgovornosti",
+      "html": "<p>Ne zagotavljamo, da bo aplikacija vedno pravilno delovala na vsaki napravi in operacijskem okolju ali da bo natančna, popolna, varna, primerna za določen namen ali neprekinjeno na voljo. Časovniki, obvestila in druge funkcije morda ne bodo delovali po pričakovanjih zaradi nastavitev naprave, specifikacij sistema iOS, funkcij za varčevanje z energijo, omrežnih razmer ali drugih okoliščin. Razen v primerih našega namernega protipravnega ravnanja, hude malomarnosti ali odgovornosti, ki je po zakonu ni mogoče izključiti, ne odgovarjamo za škodo, ki nastane zaradi uporabe ali nezmožnosti uporabe aplikacije.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Spremembe ali ukinitev",
+      "html": "<p>Funkcije ali celotno aplikacijo ali njen del lahko po potrebi dodamo, spremenimo, pregledamo, zmanjšamo, začasno ustavimo ali ukinemo, pri čemer upoštevamo razvojne in operativne okoliščine, podprte naprave, specifikacije sistema iOS, storitve tretjih oseb in druge dejavnike. O bistvenih spremembah ali ukinitvi vas bomo obvestili, kadar je to razumno mogoče.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Spremembe teh pogojev",
+      "html": "<p>Te pogoje lahko po potrebi spremenimo zaradi zakonskih sprememb, sprememb aplikacije ali drugih razlogov. Spremenjeni pogoji začnejo veljati, ko so objavljeni v aplikaciji ali na naši spletni strani. O bistvenih spremembah vas bomo po potrebi obvestili.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Veljavno pravo",
+      "html": "<p>Za te pogoje se uporablja japonsko pravo, v skladu s katerim se tudi razlagajo. Spori v zvezi z aplikacijo ali temi pogoji se rešujejo v skladu z japonskim pravom.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Kontakt",
+      "html": "<div class=\"contact\">\n       <p>Razvijalec in upravljavec: SynCraft</p>\n       <p>Kontakt: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "sl",
+    "capturedAt": "2026-10-18T07:44:47.403Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "9cbe707e813c2cc8706f35d22604bc3ef3ebb2dc58ccfdd258648b09244b30c1",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "Pravilnik o zasebnosti",
+      "SwingCat",
+      "Kontakt"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Izberite jezik"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "1df244440106475081e983fb28ec9767c611ebf41a4c9fcf6ecd35b769b2bfef",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}

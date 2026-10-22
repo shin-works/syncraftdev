@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "locale": "pl",
+  "kind": "terms",
+  "title": "Warunki korzystania",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Data wejścia w życie: 28 sierpnia 2026 r. <br>\n     Ostatnia aktualizacja: 8 września 2026 r.",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Niniejsze Warunki korzystania („Warunki”) określają zasady i warunki korzystania z aplikacji SwingCat („Aplikacja”), aplikacji na system iOS udostępnianej przez firmę SynCraft („my”, „nas” lub „nasz”).</p>\n      <p>Oprócz niniejszych Warunków korzystanie z Aplikacji podlega Standardowej Umowie Licencyjnej Użytkownika Końcowego (EULA) firmy Apple.</p>\n      <p>Standardowa umowa licencyjna użytkownika końcowego Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Przed rozpoczęciem korzystania z Aplikacji należy zapoznać się z niniejszymi Warunkami oraz Standardową Umową Licencyjną Użytkownika Końcowego Apple.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Aplikacja",
+      "html": "<ol>\n       <li>Aplikacja pomaga użytkownikom zarządzać koncentracją i czasem pracy za pomocą timera.</li>\n       <li>W zależności od sposobu korzystania z timera, aplikacja może udostępniać funkcje, dzięki którym użytkownicy mogą zdobywać lub wykorzystywać koty, przedmioty, tytuły i inną zawartość.</li>\n       <li>Aplikacja nie gwarantuje koncentracji, produktywności, efektów nauki, efektów pracy ani żadnych innych konkretnych rezultatów.</li>\n       <li>Funkcje mogą się różnić w zależności od systemu iOS, urządzenia i innych warunków użytkowania.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Warunki korzystania i zakazane zachowania",
+      "html": "<p>Korzystasz z Aplikacji na własne ryzyko i nie możesz: modyfikować, dekompilować, stosować inżynierii wstecznej ani wykonywać podobnych czynności w Aplikacji; reprodukować, redystrybuować, sprzedawać ani w inny sposób wykorzystywać Aplikacji bez zezwolenia; uzyskiwać płatnych funkcji, nagród za oglądanie reklam lub innych treści w niewłaściwy sposób; zakłócać normalnego działania Aplikacji; naruszać obowiązującego prawa lub porządku publicznego; ani angażować się w działania, które zasadnie uznamy za niewłaściwe. Osoby niepełnoletnie powinny uzyskać zgodę rodzica lub opiekuna prawnego, jeśli jest wymagana, przed zakupem płatnych usług.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Własność intelektualna",
+      "html": "<p>Prawa autorskie i inne prawa własności intelektualnej do nazw, logotypów, postaci, rysunków kotów, ilustracji, animacji, obrazów, tekstu, dźwięku, programów i innych treści w Aplikacji należą do nas lub do osób trzecich posiadających uzasadnione prawa. Z wyjątkiem przypadków dozwolonych przez prawo, nie wolno ich używać, reprodukować, publikować, modyfikować, redystrybuować ani sprzedawać bez zezwolenia. Treści generowane za pośrednictwem funkcji udostępniania udostępnianej przez Aplikację mogą być publikowane w mediach społecznościowych i innych serwisach w standardowych celach udostępniania przewidzianych przez Aplikację.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Treści w aplikacji",
+      "html": "<ol>\n       <li>Koty, przedmioty, tytuły i inna treść cyfrowa dostępna w Aplikacji są przeznaczone do użytku w Aplikacji.</li>\n       <li>Nie mają one żadnej realnej wartości pieniężnej i nie można ich wymienić na gotówkę ani inną własność.</li>\n       <li>Możemy zmieniać nazwy, treści, warunki nabycia, warunki użytkowania, sposób wyświetlania i inne specyfikacje w celu wprowadzenia ulepszeń, dostosowania balansu rozgrywki, zmiany specyfikacji lub ze względu na potrzeby operacyjne.</li>\n       <li>Dokładamy wszelkich starań, aby w miarę możliwości zachować dane użytkowników podczas aktualizacji, jednak nie gwarantujemy całkowitego zachowania lub przywrócenia danych na każdym urządzeniu, systemie operacyjnym lub w każdym środowisku.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Reklama i nagrody",
+      "html": "<p>Aplikacja może wyświetlać reklamy za pośrednictwem usług takich jak Google AdMob i oferować reklamy z nagrodami, które zapewniają przedmioty lub inne korzyści w aplikacji. Warunki przyznawania nagród są takie same, jak te wyświetlane w Aplikacji. Treść reklam, sposób ich prezentacji, częstotliwość i korzyści mogą ulegać zmianie w razie potrzeby. Reklamodawcy i dostawcy reklam ponoszą odpowiedzialność za treść reklam; nie gwarantujemy reklamowanych produktów ani usług.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Usługi i zakupy płatne",
+      "html": "<p>Oprócz funkcji bezpłatnych, Aplikacja może oferować funkcje lub treści płatne, w tym subskrypcje miesięczne, roczne oraz jednorazowe plany zakupu. Obowiązują produkty, ceny, okresy obowiązywania i dostępne funkcje widoczne w Aplikacji i App Store w momencie zakupu. Zakupy i płatności są dokonywane za pośrednictwem App Store firmy Apple; nie gromadzimy ani nie przechowujemy bezpośrednio danych kart płatniczych.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Subskrypcje",
+      "html": "<p>Opłaty za subskrypcję są pobierane z Twojego konta Apple. Subskrypcja odnawia się automatycznie na każdy obowiązujący okres, chyba że wyłączysz automatyczne odnawianie w ustawieniach App Store. Po wyłączeniu automatycznego odnawiania, odpowiednie funkcje zazwyczaj pozostają dostępne do końca bieżącego opłaconego okresu. Zarządzanie subskrypcją, anulowanie automatycznego odnawiania, zwroty pieniędzy i inne kwestie związane z płatnościami regulują warunki i zasady Apple i App Store.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Plany zakupów jednorazowych",
+      "html": "<p>Plan jednorazowego zakupu daje prawo do korzystania z odpowiednich płatnych funkcji bez konieczności dokonywania cyklicznych płatności abonamentowych. Nie gwarantuje on bezterminowego udostępniania Aplikacji, wszystkich funkcji, integracji z aplikacjami stron trzecich ani kompatybilności ze wszystkimi przyszłymi wersjami systemu iOS lub urządzeniami. Przywracanie informacji o zakupie i związane z tym kwestie podlegają systemom i zasadom Apple i App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Przechowywanie danych",
+      "html": "<p>Ustawienia, historia timera, koty, przedmioty, tytuły i inne dane mogą być przechowywane na Twoim urządzeniu. Dane mogą zostać utracone w wyniku usunięcia aplikacji, awarii lub wymiany urządzenia, aktualizacji systemu operacyjnego, usterek aplikacji lub innych okoliczności. Dokładamy wszelkich starań, aby zachować dane w miarę możliwości, ale nie gwarantujemy, że wszystkie dane zawsze będzie można zapisać lub przywrócić.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Zastrzeżenia",
+      "html": "<p>Nie gwarantujemy, że Aplikacja będzie zawsze działać poprawnie na każdym urządzeniu i w każdym systemie operacyjnym, ani że będzie dokładna, kompletna, bezpieczna, odpowiednia do określonego celu lub stale dostępna. Timery, powiadomienia i inne funkcje mogą nie działać zgodnie z oczekiwaniami z powodu ustawień urządzenia, specyfikacji systemu iOS, funkcji oszczędzania energii, warunków sieciowych lub innych okoliczności. Z wyjątkiem przypadków naszej winy umyślnej, rażącego niedbalstwa lub odpowiedzialności, której zgodnie z prawem nie można wyłączyć, nie ponosimy odpowiedzialności za szkody wynikające z korzystania z Aplikacji lub niemożności korzystania z niej.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Zmiany lub zaprzestanie",
+      "html": "<p>Możemy dodawać, zmieniać, weryfikować, ograniczać, zawieszać lub kończyć działanie funkcji, całości lub części Aplikacji, w zależności od potrzeb, biorąc pod uwagę okoliczności związane z rozwojem i działaniem Aplikacji, obsługiwane urządzenia, specyfikacje systemu iOS, usługi stron trzecich oraz inne czynniki. Poinformujemy o istotnych zmianach lub zaprzestaniu świadczenia usługi, gdy będzie to zasadnie możliwe.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Zmiany niniejszych Warunków",
+      "html": "<p>Możemy zmieniać niniejsze Warunki w razie potrzeby ze względu na zmiany prawne, zmiany w Aplikacji lub z innych przyczyn. Zmienione Warunki wchodzą w życie z chwilą ich opublikowania w Aplikacji lub na naszej stronie internetowej. W stosownych przypadkach powiadomimy o istotnych zmianach.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Prawo właściwe",
+      "html": "<p>Niniejsze Warunki podlegają prawu japońskiemu i zgodnie z nim są interpretowane. Spory związane z Aplikacją lub niniejszymi Warunkami będą rozstrzygane zgodnie z prawem japońskim.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Kontakt",
+      "html": "<div class=\"contact\">\n       <p>Deweloper i operator: SynCraft</p>\n       <p>Kontakt: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "pl",
+    "capturedAt": "2026-10-18T07:45:14.719Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "7a6fa0e7b2322a2e9c049bb61f016fafdc7192602fe668a4f1f1f362aeca5358",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "Polityka prywatności",
+      "SwingCat",
+      "Kontakt"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Wybierz język"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "fe4672ecc7bc28f682068c23747f5fe85e2c2150072edd1da9c414095bba5a6f",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}

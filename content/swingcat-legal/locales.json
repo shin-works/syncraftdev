@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "appId": "6800948890",
-  "revision": "2026-10-18",
+  "revision": "2026-10-22",
   "fallback": "en",
   "notes": [
     "Existing routes do not imply translated bodies.",
@@ -47,9 +47,9 @@
       "webLocale": "it",
       "path": "/swingcat/it/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": true,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "nl",
@@ -60,9 +60,9 @@
       "webLocale": "nl",
       "path": "/swingcat/nl/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "ca",
@@ -73,9 +73,9 @@
       "webLocale": "ca",
       "path": "/swingcat/ca/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "de",
@@ -86,9 +86,9 @@
       "webLocale": "de",
       "path": "/swingcat/de/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": true,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "fr",
@@ -100,9 +100,9 @@
       "webLocale": "fr",
       "path": "/swingcat/fr/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": true,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "es-ES",
@@ -113,9 +113,9 @@
       "webLocale": "es",
       "path": "/swingcat/es/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": true,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "es-MX",
@@ -126,9 +126,9 @@
       "webLocale": "es",
       "path": "/swingcat/es/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": true,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "pt-BR",
@@ -139,9 +139,9 @@
       "webLocale": "pt-BR",
       "path": "/swingcat/pt-BR/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": true,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "pt-PT",
@@ -152,9 +152,9 @@
       "webLocale": "pt-PT",
       "path": "/swingcat/pt-PT/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "sv",
@@ -165,9 +165,9 @@
       "webLocale": "sv",
       "path": "/swingcat/sv/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "da",
@@ -178,9 +178,9 @@
       "webLocale": "da",
       "path": "/swingcat/da/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "nb",
@@ -191,9 +191,9 @@
       "webLocale": "nb",
       "path": "/swingcat/nb/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "fi",
@@ -204,9 +204,9 @@
       "webLocale": "fi",
       "path": "/swingcat/fi/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "uk",
@@ -217,9 +217,9 @@
       "webLocale": "uk",
       "path": "/swingcat/uk/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "hr",
@@ -230,9 +230,9 @@
       "webLocale": "hr",
       "path": "/swingcat/hr/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "cs",
@@ -243,9 +243,9 @@
       "webLocale": "cs",
       "path": "/swingcat/cs/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "sk",
@@ -256,9 +256,9 @@
       "webLocale": "sk",
       "path": "/swingcat/sk/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "sl",
@@ -269,9 +269,9 @@
       "webLocale": "sl",
       "path": "/swingcat/sl/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "hu",
@@ -282,9 +282,9 @@
       "webLocale": "hu",
       "path": "/swingcat/hu/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "pl",
@@ -295,9 +295,9 @@
       "webLocale": "pl",
       "path": "/swingcat/pl/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "ro",
@@ -308,9 +308,9 @@
       "webLocale": "ro",
       "path": "/swingcat/ro/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "el",
@@ -321,9 +321,9 @@
       "webLocale": "el",
       "path": "/swingcat/el/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "ru",
@@ -334,9 +334,9 @@
       "webLocale": "ru",
       "path": "/swingcat/ru/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "tr",
@@ -347,9 +347,9 @@
       "webLocale": "tr",
       "path": "/swingcat/tr/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "id",
@@ -360,9 +360,9 @@
       "webLocale": "id",
       "path": "/swingcat/id/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "ms",
@@ -373,9 +373,9 @@
       "webLocale": "ms",
       "path": "/swingcat/ms/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "vi",
@@ -386,9 +386,9 @@
       "webLocale": "vi",
       "path": "/swingcat/vi/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "ko",
@@ -399,9 +399,9 @@
       "webLocale": "ko",
       "path": "/swingcat/ko/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": true,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "zh-Hans",
@@ -412,9 +412,9 @@
       "webLocale": "zh-Hans",
       "path": "/swingcat/zh-Hans/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": true,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "zh-Hant",
@@ -425,9 +425,9 @@
       "webLocale": "zh-Hant-TW",
       "path": "/swingcat/zh-Hant-TW/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": true,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "th",
@@ -438,9 +438,9 @@
       "webLocale": "th",
       "path": "/swingcat/th/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "ar",
@@ -451,9 +451,9 @@
       "webLocale": "ar",
       "path": "/swingcat/ar/",
       "direction": "rtl",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "he",
@@ -464,9 +464,9 @@
       "webLocale": "he",
       "path": "/swingcat/he/",
       "direction": "rtl",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "ur",
@@ -477,9 +477,9 @@
       "webLocale": "ur",
       "path": "/swingcat/ur/",
       "direction": "rtl",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "hi",
@@ -490,9 +490,9 @@
       "webLocale": "hi",
       "path": "/swingcat/hi/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "bn",
@@ -503,9 +503,9 @@
       "webLocale": "bn",
       "path": "/swingcat/bn/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "gu",
@@ -516,9 +516,9 @@
       "webLocale": "gu",
       "path": "/swingcat/gu/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "kn",
@@ -529,9 +529,9 @@
       "webLocale": "kn",
       "path": "/swingcat/kn/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "ml",
@@ -542,9 +542,9 @@
       "webLocale": "ml",
       "path": "/swingcat/ml/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "mr",
@@ -555,9 +555,9 @@
       "webLocale": "mr",
       "path": "/swingcat/mr/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "or",
@@ -568,9 +568,9 @@
       "webLocale": "or",
       "path": "/swingcat/or/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "pa",
@@ -581,9 +581,9 @@
       "webLocale": "pa",
       "path": "/swingcat/pa/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "ta",
@@ -594,9 +594,9 @@
       "webLocale": "ta",
       "path": "/swingcat/ta/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     },
     {
       "appLocale": "te",
@@ -607,9 +607,9 @@
       "webLocale": "te",
       "path": "/swingcat/te/",
       "direction": "ltr",
-      "state": "translation-required",
+      "state": "translation-reviewed",
       "legacyEnglishBodyRoute": false,
-      "published": false
+      "published": true
     }
   ]
 }

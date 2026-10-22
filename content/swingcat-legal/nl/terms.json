@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "locale": "nl",
+  "kind": "terms",
+  "title": "Gebruiksvoorwaarden",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Ingangsdatum: 28 augustus 2026 <br>\n     Laatst bijgewerkt: 8 september 2026",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Deze Gebruiksvoorwaarden (\"Voorwaarden\") beschrijven de voorwaarden voor het gebruik van SwingCat (de \"App\"), een iOS-applicatie van SynCraft (\"wij,\" \"ons\" of \"onze\").</p>\n      <p>Naast deze voorwaarden is uw gebruik van de app onderworpen aan de standaardlicentieovereenkomst voor eindgebruikers (EULA) van Apple.</p>\n      <p>Standaardlicentieovereenkomst voor eindgebruikers van Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Lees deze voorwaarden en de standaardlicentieovereenkomst voor eindgebruikers van Apple door voordat u de app gebruikt.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. De app",
+      "html": "<ol>\n       <li>De app helpt gebruikers hun concentratie en werktijd te beheren met behulp van een timer.</li>\n       <li>Afhankelijk van het timergebruik kan de app functies bieden waarmee gebruikers katten, items, titels en andere content kunnen verkrijgen of gebruiken.</li>\n       <li>De app garandeert geen concentratie, productiviteit, leerresultaten, werkresultaten of enig ander specifiek resultaat.</li>\n       <li>De functies kunnen verschillen afhankelijk van iOS, het apparaat en andere gebruiksomstandigheden.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Gebruiksvoorwaarden en verboden gedrag",
+      "html": "<p>U gebruikt de app op eigen risico en mag niet: de app wijzigen, decompileren, reverse-engineeren of soortgelijke handelingen uitvoeren; de app reproduceren, herverdelen, verkopen of anderszins gebruiken zonder toestemming; betaalde functies, beloningen voor het bekijken van advertenties of andere content verkrijgen via oneigenlijke middelen; de normale werking van de app verstoren; toepasselijke wetten of de openbare orde overtreden; of gedrag vertonen dat wij redelijkerwijs ongepast achten. Minderjarigen dienen, indien vereist, toestemming van een ouder of wettelijke voogd te verkrijgen alvorens betaalde diensten aan te schaffen.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Intellectueel eigendom",
+      "html": "<p>De auteursrechten en andere intellectuele-eigendomsrechten op namen, logo's, personages, kattenontwerpen, illustraties, animaties, afbeeldingen, tekst, audio, programma's en andere inhoud in de app behoren toe aan ons of aan derden met rechtmatige rechten. Tenzij wettelijk toegestaan, mag u deze niet gebruiken, reproduceren, publiceren, wijzigen, herverdelen of verkopen zonder toestemming. Inhoud die is gegenereerd via een deelfunctie van de app, mag worden geplaatst op sociale media en andere diensten voor de gebruikelijke deeldoeleinden zoals bedoeld in de app.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Inhoud binnen de app",
+      "html": "<ol>\n       <li>Katten, items, titels en andere digitale content die beschikbaar zijn in de app, zijn bedoeld voor gebruik binnen de app.</li>\n       <li>Ze hebben geen reële geldwaarde en kunnen niet worden ingewisseld voor contant geld of andere goederen.</li>\n       <li>We kunnen namen, inhoud, aanschafvoorwaarden, gebruiksvoorwaarden, weergave en andere specificaties wijzigen ten behoeve van verbeteringen, balansaanpassingen, specificatiewijzigingen of operationele behoeften.</li>\n       <li>We streven ernaar om gebruikersgegevens zoveel mogelijk te bewaren tijdens updates, maar kunnen geen volledige bewaring of herstel garanderen op elk apparaat, besturingssysteem of in elke omgeving.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Reclame en beloningen",
+      "html": "<p>De app kan advertenties weergeven via services zoals Google AdMob en kan beloonde advertenties aanbieden die items of andere voordelen binnen de app opleveren. De voorwaarden voor beloningen zijn de voorwaarden die in de app worden weergegeven. De inhoud, presentatie, frequentie en voordelen van advertenties kunnen naar behoefte worden gewijzigd. Adverteerders en advertentieaanbieders zijn verantwoordelijk voor de inhoud van de advertenties; wij garanderen de geadverteerde producten of diensten niet.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Betaalde diensten en aankopen",
+      "html": "<p>Naast gratis functies kan de app ook betaalde functies of content aanbieden, zoals maandabonnementen, jaarabonnementen en eenmalige aankopen. De producten, prijzen, periodes en beschikbare functies die op het moment van aankoop in de app en de App Store worden weergegeven, zijn van toepassing. Aankopen en betalingen verlopen via de App Store van Apple; wij verzamelen of bewaren niet rechtstreeks betaalkaartgegevens.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Abonnementen",
+      "html": "<p>Abonnementskosten worden in rekening gebracht op uw Apple-account. Een abonnement wordt automatisch verlengd voor elke toepasselijke periode, tenzij u automatische verlenging uitschakelt in de App Store-instellingen. Nadat automatische verlenging is uitgeschakeld, blijven de betreffende functies over het algemeen beschikbaar tot het einde van de huidige betaalde periode. De algemene voorwaarden en het beleid van Apple en de App Store zijn van toepassing op abonnementsbeheer, het annuleren van automatische verlenging, terugbetalingen en andere betalingszaken.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Eenmalige aankoopplannen",
+      "html": "<p>Een eenmalige aankoop geeft recht op het gebruik van de betreffende betaalde functies zonder terugkerende abonnementskosten. Het garandeert niet dat de app, alle functies, integraties met derden of compatibiliteit met alle toekomstige iOS-versies of -apparaten permanent beschikbaar blijven. Het herstellen van aankoopgegevens en aanverwante zaken zijn onderworpen aan de systemen en het beleid van Apple en de App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Gegevensopslag",
+      "html": "<p>Instellingen, timergeschiedenis, katten, items, titels en andere gegevens kunnen op uw apparaat worden opgeslagen. Gegevens kunnen verloren gaan door het verwijderen van de app, een defect of vervanging van het apparaat, updates van het besturingssysteem, app-fouten of andere omstandigheden. We streven ernaar gegevens zoveel mogelijk te bewaren, maar kunnen niet garanderen dat alle gegevens altijd kunnen worden opgeslagen of hersteld.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Disclaimer",
+      "html": "<p>Wij garanderen niet dat de app altijd correct zal werken op elk apparaat en in elke besturingssysteemomgeving, of dat deze accuraat, volledig, veilig, geschikt voor een bepaald doel of continu beschikbaar zal zijn. Timers, meldingen en andere functies werken mogelijk niet zoals verwacht vanwege apparaatinstellingen, iOS-specificaties, energiebesparende functies, netwerkcondities of andere omstandigheden. Behalve in gevallen van opzettelijk wangedrag, grove nalatigheid of aansprakelijkheid die wettelijk niet kan worden uitgesloten, zijn wij niet aansprakelijk voor schade die voortvloeit uit het gebruik van, of de onmogelijkheid tot gebruik van, de app.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Wijzigingen of stopzetting",
+      "html": "<p>We kunnen functies of de app geheel of gedeeltelijk toevoegen, wijzigen, herzien, verminderen, opschorten of beëindigen, al naar gelang de ontwikkelings- en operationele omstandigheden, ondersteunde apparaten, iOS-specificaties, diensten van derden en andere factoren. We zullen, waar redelijkerwijs mogelijk, melding maken van belangrijke wijzigingen of stopzetting.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Wijzigingen in deze voorwaarden",
+      "html": "<p>We kunnen deze voorwaarden naar behoefte wijzigen vanwege wetswijzigingen, wijzigingen in de app of andere redenen. Gewijzigde voorwaarden treden in werking zodra ze in de app of op onze website worden gepubliceerd. We zullen waar nodig melding maken van belangrijke wijzigingen.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Toepasselijk recht",
+      "html": "<p>Deze voorwaarden worden beheerst door en geïnterpreteerd in overeenstemming met de wetgeving van Japan. Geschillen met betrekking tot de app of deze voorwaarden zullen worden opgelost in overeenstemming met de Japanse wetgeving.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Contact",
+      "html": "<div class=\"contact\">\n       <p>Ontwikkelaar en exploitant: SynCraft</p>\n       <p>Contact: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "nl",
+    "capturedAt": "2026-10-18T07:33:39.327Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "92fe68f0de9de351bef40b90bbbdede3d8c7c4bd470ebb10bd30f525cbef6684",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "Privacybeleid",
+      "SwingCat",
+      "Contact"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Selecteer taal"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "e254e761b1cdfd121a129b1af515c8f27d3d4d5cde70e03bee6622fa68140e71",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}

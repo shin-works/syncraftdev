@@ -35,9 +35,18 @@ test('generated pages are current, complete and explicitly label English fallbac
     assert.ok(!html.includes('translation-notice" role='));
   }
   const french = readFileSync(join(root, 'public/swingcat/fr/privacy/index.html'), 'utf8');
-  assert.ok(french.includes('<html lang="en"'));
-  assert.ok(french.includes('A full translation of this document is being prepared.'));
-  assert.ok(french.includes('noindex, follow'));
+  const manifest = JSON.parse(readFileSync(join(root, 'content/swingcat-legal/locales.json')));
+  if (manifest.locales.find((r) => r.webLocale === 'fr').state === 'translation-reviewed') {
+    const doc = JSON.parse(readFileSync(join(root, 'content/swingcat-legal/fr/privacy.json')));
+    assert.ok(french.includes('<html lang="fr"'));
+    assert.ok(!french.includes('translation-notice" role='));
+    assert.ok(french.includes(doc.ui.selectLanguage));
+    assert.ok(french.includes('>Conditions d&#39;utilisation</a>'));
+  } else {
+    assert.ok(french.includes('<html lang="en"'));
+    assert.ok(french.includes('A full translation of this document is being prepared.'));
+    assert.ok(french.includes('noindex, follow'));
+  }
   const options = [...french.matchAll(/<option value="([^"]+)"/g)].map((m) => m[1]);
   assert.equal(options.length, new Set(options).size);
 });
@@ -63,13 +72,14 @@ test('unsafe document HTML cannot be generated', () => fixture((dir) => {
 }));
 
 test('declaring a locale ready without its full documents fails', () => fixture((dir) => {
+  rmSync(join(dir, 'content/swingcat-legal/fr/privacy.json'), { force: true });
   edit(dir, 'locales.json', (d) => { d.locales.find((r) => r.appLocale === 'fr').state = 'translation-reviewed'; });
   assert.throws(() => run(dir, '--write'), /ENOENT/);
 }));
 
 test('all generated internal links point to existing pages or assets', () => {
   const manifest = JSON.parse(readFileSync(join(root, 'content/swingcat-legal/locales.json')));
-  const paths = new Set(manifest.locales.filter((r) => r.state === 'source-ready' || r.legacyEnglishBodyRoute).map((r) => r.path));
+  const paths = new Set(manifest.locales.filter((r) => ['source-ready','translation-reviewed'].includes(r.state) || r.legacyEnglishBodyRoute).map((r) => r.path));
   for (const path of paths) for (const kind of ['privacy','terms']) {
     const html = readFileSync(join(root, `public${path}${kind}/index.html`), 'utf8');
     for (const [, href] of html.matchAll(/(?:href|src|value)="(\/[^"#?]+)"/g)) {

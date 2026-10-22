@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "locale": "ms",
+  "kind": "terms",
+  "title": "Syarat Penggunaan",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Tarikh kuat kuasa: 28 Ogos 2026 <br>\n     Kemas kini terakhir: 8 September 2026",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Terma Penggunaan ini (\"Terma\") menetapkan terma dan syarat untuk menggunakan SwingCat (\"Aplikasi\"), aplikasi iOS yang disediakan oleh SynCraft (\"kami\", \"kita\", atau \"milik kami\").</p>\n      <p>Selain Terma ini, penggunaan Aplikasi anda tertakluk kepada Perjanjian Lesen Pengguna Akhir Piawai (EULA) Apple.</p>\n      <p>Perjanjian Lesen Pengguna Akhir Piawai Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Sila semak Terma dan Syarat ini dan Perjanjian Lesen Pengguna Akhir Apple Standard sebelum menggunakan Aplikasi ini.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. Aplikasi",
+      "html": "<ol>\n       <li>Aplikasi ini membantu pengguna mengurus fokus dan masa kerja menggunakan pemasa.</li>\n       <li>Bergantung pada penggunaan pemasa, Aplikasi ini mungkin menyediakan ciri-ciri yang membolehkan pengguna mendapatkan atau menggunakan kucing, item, gelaran dan kandungan lain.</li>\n       <li>Aplikasi ini tidak menjamin tumpuan, produktiviti, hasil pembelajaran, hasil kerja atau sebarang hasil khusus yang lain.</li>\n       <li>Ciri-ciri mungkin berbeza bergantung pada iOS, peranti dan syarat penggunaan yang lain.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Syarat penggunaan dan kelakuan yang dilarang",
+      "html": "<p>Anda menggunakan Aplikasi ini atas risiko anda sendiri dan tidak boleh: mengubah suai, menyahkompil, merekayasa balik atau melakukan tindakan serupa pada Aplikasi; menghasilkan semula, mengedarkan semula, menjual atau menggunakan Aplikasi tanpa kebenaran; mendapatkan ciri berbayar, ganjaran tontonan iklan atau kandungan lain melalui cara yang tidak betul; mengganggu operasi Aplikasi biasa; melanggar undang-undang atau ketenteraman awam yang terpakai; atau terlibat dalam tingkah laku yang kami anggap tidak sesuai secara munasabah. Kanak-kanak bawah umur harus mendapatkan persetujuan daripada ibu bapa atau penjaga sah jika diperlukan sebelum membeli perkhidmatan berbayar.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Harta intelek",
+      "html": "<p>Hak cipta dan hak harta intelek lain dalam nama, logo, watak, reka bentuk kucing, ilustrasi, animasi, imej, teks, audio, program dan kandungan lain dalam Aplikasi adalah milik kami atau pihak ketiga yang mempunyai hak yang sah. Kecuali sebagaimana yang dibenarkan oleh undang-undang, anda tidak boleh menggunakan, menghasilkan semula, menerbitkan, mengubah suai, mengedarkan semula atau menjualnya tanpa kebenaran. Kandungan yang dihasilkan melalui ciri perkongsian yang disediakan oleh Aplikasi boleh disiarkan ke media sosial dan perkhidmatan lain untuk tujuan perkongsian biasa yang dipertimbangkan oleh Aplikasi.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Kandungan dalam aplikasi",
+      "html": "<ol>\n       <li>Kucing, barang, gelaran dan kandungan digital lain yang tersedia dalam Aplikasi adalah bertujuan untuk digunakan dalam Aplikasi.</li>\n       <li>Ia tidak mempunyai nilai kewangan dunia sebenar dan tidak boleh ditukar dengan wang tunai atau harta lain.</li>\n       <li>Kami mungkin mengubah nama, kandungan, syarat pemerolehan, syarat penggunaan, paparan dan spesifikasi lain untuk penambahbaikan, pelarasan imbangan, perubahan spesifikasi atau keperluan operasi.</li>\n       <li>Kami berusaha untuk memelihara data pengguna di mana yang munasabah mungkin semasa kemas kini, tetapi tidak menjamin pemeliharaan atau pemulihan sepenuhnya pada setiap peranti, OS atau persekitaran.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Pengiklanan dan ganjaran",
+      "html": "<p>Aplikasi ini mungkin memaparkan iklan melalui perkhidmatan seperti Google AdMob dan mungkin menawarkan iklan ganjaran yang menyediakan item atau faedah lain dalam aplikasi. Syarat untuk ganjaran adalah yang dipaparkan dalam Aplikasi. Kandungan iklan, pembentangan, kekerapan dan faedah mungkin berubah mengikut keperluan. Pengiklan dan penyedia iklan bertanggungjawab terhadap kandungan iklan; kami tidak menjamin produk atau perkhidmatan yang diiklankan.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Perkhidmatan dan pembelian berbayar",
+      "html": "<p>Selain ciri percuma, Aplikasi ini mungkin menawarkan ciri atau kandungan berbayar, termasuk langganan bulanan, langganan tahunan dan pelan pembelian sekali sahaja. Produk, harga, tempoh dan ciri yang tersedia yang ditunjukkan dalam Aplikasi dan Gedung Aplikasi pada masa pembelian terpakai. Pembelian dan pembayaran dibuat melalui Gedung Aplikasi Apple; kami tidak mengumpul atau menyimpan maklumat kad pembayaran secara langsung.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Langganan",
+      "html": "<p>Yuran langganan dikenakan pada Akaun Apple anda. Langganan diperbaharui secara automatik untuk setiap tempoh yang berkenaan melainkan anda mematikan pembaharuan automatik dalam tetapan App Store. Selepas pembaharuan automatik dimatikan, ciri yang berkaitan biasanya kekal tersedia sehingga akhir tempoh berbayar semasa. Terma, syarat dan dasar Apple dan App Store mengawal pengurusan langganan, pembatalan pembaharuan automatik, bayaran balik dan perkara pembayaran lain.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Pelan pembelian sekali sahaja",
+      "html": "<p>Pelan pembelian sekali sahaja memberikan hak untuk menggunakan ciri berbayar yang berkaitan tanpa pembayaran langganan berulang. Ia tidak menjamin penyediaan Aplikasi, setiap ciri, integrasi pihak ketiga atau keserasian yang berterusan dengan semua versi atau peranti iOS akan datang. Pemulihan maklumat pembelian dan perkara berkaitan adalah tertakluk kepada sistem dan dasar Apple dan App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Penyimpanan data",
+      "html": "<p>Tetapan, sejarah pemasa, kucing, item, gelaran dan data lain mungkin disimpan pada peranti anda. Data mungkin hilang melalui pemadaman Aplikasi, kegagalan atau penggantian peranti, kemas kini OS, kecacatan Aplikasi atau keadaan lain. Kami berusaha untuk memelihara data jika boleh tetapi tidak menjamin bahawa semua data sentiasa boleh disimpan atau dipulihkan.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Penafian",
+      "html": "<p>Kami tidak menjamin bahawa Aplikasi akan sentiasa beroperasi dengan betul pada setiap peranti dan persekitaran OS, atau ia akan tepat, lengkap, selamat, sesuai untuk tujuan tertentu atau sentiasa tersedia. Pemasa, pemberitahuan dan ciri lain mungkin tidak beroperasi seperti yang dijangkakan disebabkan oleh tetapan peranti, spesifikasi iOS, ciri penjimatan kuasa, keadaan rangkaian atau keadaan lain. Kecuali dalam kes salah laku yang disengajakan, kecuaian besar atau liabiliti kami yang tidak boleh dikecualikan oleh undang-undang, kami tidak bertanggungjawab atas kerosakan yang timbul daripada penggunaan atau ketidakupayaan untuk menggunakan Aplikasi.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Perubahan atau pemberhentian",
+      "html": "<p>Kami mungkin menambah, mengubah, menyemak, mengurangkan, menggantung atau menamatkan ciri atau semua atau sebahagian daripada Aplikasi mengikut keperluan, dengan mengambil kira keadaan pembangunan dan operasi, peranti yang disokong, spesifikasi iOS, perkhidmatan pihak ketiga dan faktor lain. Kami akan memberikan notis tentang perubahan penting atau pemberhentian jika boleh.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Perubahan pada Terma ini",
+      "html": "<p>Kami mungkin mengubah Terma ini mengikut keperluan atas perubahan undang-undang, perubahan Aplikasi atau sebab-sebab lain. Terma yang Disemak Semula berkuat kuasa apabila disiarkan dalam Aplikasi atau di laman web kami. Kami akan memberikan notis tentang perubahan penting jika sesuai.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Undang-undang yang mentadbir",
+      "html": "<p>Terma-terma ini dikawal dan ditafsirkan mengikut undang-undang Jepun. Pertikaian yang berkaitan dengan Aplikasi atau Terma-terma ini akan diselesaikan mengikut undang-undang Jepun.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Hubungi",
+      "html": "<div class=\"contact\">\n       <p>Pembangun dan pengendali: SynCraft</p>\n       <p>Hubungi: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "ms",
+    "capturedAt": "2026-10-18T07:48:51.353Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "cd4c52eaab91a5ed8c6fdfa0c61c2631ed158d63753fb77a73270313e5423d4c",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "Dasar Privasi",
+      "SwingCat",
+      "Hubungi"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Pilih bahasa"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "b862f9806f942975bf1fd89d193d17afe1206d2674df89880bba67ceb3d9339d",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}

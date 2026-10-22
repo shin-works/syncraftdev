@@ -1,5 +1,11 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { readFileSync } from 'node:fs';
+
+const legalLocales = JSON.parse(readFileSync(new URL('./content/swingcat-legal/locales.json', import.meta.url), 'utf8'));
+const swingCatLegalPages = [...new Set(legalLocales.locales
+  .filter((row) => row.published && ['source-ready', 'translation-reviewed'].includes(row.state))
+  .flatMap((row) => ['privacy', 'terms'].map((kind) => `https://syncraft.dev${row.path}${kind}/`)))];
 
 export default defineConfig({
   site: 'https://syncraft.dev',
@@ -33,10 +39,7 @@ export default defineConfig({
         'https://syncraft.dev/clocktimer/en/terms/',
         'https://syncraft.dev/swingcat/',
         'https://syncraft.dev/swingcat/en/',
-        'https://syncraft.dev/swingcat/privacy/',
-        'https://syncraft.dev/swingcat/terms/',
-        'https://syncraft.dev/swingcat/en/privacy/',
-        'https://syncraft.dev/swingcat/en/terms/',
+        ...swingCatLegalPages,
       ],
     }),
   ],

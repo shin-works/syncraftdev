@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "locale": "zh-Hant-TW",
+  "kind": "privacy",
+  "title": "隱私權政策",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-10-18",
+  "datesHtml": "生效日期：2026年8月28日<br>\n     最後更新日期：2026年10月18日",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>本隱私權政策解釋了 SynCraft（「我們」）如何處理 iOS 應用程式 SwingCat（「應用程式」）中的使用者資訊。</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. 我們收集和儲存的資訊",
+      "html": "<p>該應用程式通常不會要求使用者直接輸入姓名、地址、電話號碼或電子郵件地址進行註冊。</p>\n      <p>根據您對應用程式的使用情況，以下資訊可能會儲存在您的裝置上：計時器設定；專注時間和計時器歷史記錄；您輸入的任務；貓、物品、稱號和其他應用程式內內容及其使用情況；應用程式設定；可選的個人資料資訊，例如姓名；以及付費功能的狀態。</p>\n      <p>我們也可能透過第三方服務收集或處理資訊，用於使用情況分析、品質改進、診斷和廣告投放。這些資訊可能包括裝置類型、作業系統、語言設定、應用程式版本、啟動和功能使用事件、崩潰和效能資料、IP 位址和其他網路資訊、廣告互動以及裝置或廣告識別碼。實際處理的資訊可能會因您的 iOS 版本、裝置設定、隱私選項、同意狀態和第三方服務規範而異。</p>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. 我們如何使用資訊",
+      "html": "<ol>\n       <li>提供該應用程式及其功能。</li>\n       <li>了解和分析應用程式使用情況。</li>\n       <li>為了改進功能、可用性和使用者體驗。</li>\n       <li>調查並修復錯誤、崩潰和其他問題。</li>\n       <li>用於展示廣告和提供廣告相關功能。</li>\n       <li>提供與廣告相關的應用程式內獎勵。</li>\n       <li>為防止濫用。</li>\n       <li>提供付費功能並確認購買狀態。</li>\n       <li>回覆問詢。</li>\n      </ol>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Firebase",
+      "html": "<p>我們可能會使用 Google LLC 提供的服務，包括 Firebase Analytics（用於了解應用程式使用情況並改進功能）和 Firebase Crashlytics（用於識別崩潰並提高穩定性）。這些服務可能會收集或處理使用資訊、裝置和作業系統資訊、崩潰日誌、應用程式狀態以及其他診斷資訊。</p>\n      <p>Google 隱私權政策及其他適用條款適用於 Firebase 處理的資訊。 Google<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隱私權政策</a><br><a href=\"https://firebase.google.com/support/privacy\" target=\"_blank\" rel=\"noopener\">Firebase 隱私與安全</a></p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Google AdMob",
+      "html": "<p>我們可能會使用 Google AdMob 來展示廣告。本應用程式可能會提供激勵廣告，使用者可以透過這些廣告獲得物品或其他應用程式內福利。 AdMob 和 Google 行動廣告 SDK 可能會收集或處理 IP 位址、裝置資訊、裝置或廣告識別碼、廣告展示次數和互動次數、應用程式內互動次數以及崩潰或效能資訊，用於廣告投放、效果衡量、詐欺防範和服務改進。</p>\n      <p>廣告識別碼的可用性可能取決於裝置設定、Apple 隱私功能和使用者同意。 Google<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隱私權政策：</a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google 如何使用合作夥伴網站或應用程式的資料</a></p>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. 應用程式內購買",
+      "html": "<p>我們可能會透過 App Store 提供訂閱和一次性購買方案。 Apple 會處理付款，我們不會直接收集或儲存信用卡號或其他付款資訊。為了提供付費功能，App 可能會存取或驗證有關已購產品和訂閱狀態的資訊。 Apple<a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">隱私權政策</a></p>\n      <p>我們使用 RevenueCat, Inc. 來驗證購買、管理訂閱和付費功能存取權、恢復購買以及了解購買和訂閱活動。 RevenueCat 會處理由其 SDK 產生的應用程式使用者 ID、已購產品識別碼、交易和購買歷史記錄資訊、訂閱狀態和到期日期，以及裝置作業系統和應用程式版本等技術資訊。</p>\n      <p>我們使用 RevenueCat 自動產生的匿名應用程式使用者 ID，而不是設定您的姓名或電子郵件地址作為購買識別碼。我們不會將您的應用程式內個人資料名稱或電子郵件地址作為客戶屬性傳送給 RevenueCat。使用匿名 ID 並不意味著不會處理任何資訊，也不意味著當您解除安裝應用程式時購買記錄會被刪除。</p>\n      <p>有關更多資訊，請參閱<a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 隱私權政策</a>和<a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 關於購買資料的資訊</a>。</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. 與第三方共享",
+      "html": "<p>我們不會出售使用者資訊。為提供本應用程式服務，我們可能會將資訊傳送至 Firebase、Google AdMob、Apple、RevenueCat 及其他服務提供者或由其處理。在獲得您的同意、法律要求、為保護生命、身體或財產安全所必需，或法律允許的其他情況下，我們也可能揭露資訊。</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. 資料保留和刪除",
+      "html": "<p>計時器歷史記錄、貓咪、物品、稱號、設定和其他應用程式資料可能會儲存在您的裝置上。僅儲存在裝置上的資料可能會因應用程式被刪除、裝置重設、裝置故障或其他原因而遺失。第三方服務處理的資料將根據其各自的保留期限和政策進行管理。</p>\n      <p>解除安裝應用程式本身並不會刪除購買記錄或第三方服務中保存的其他資訊。如有任何關於存取或刪除您的資訊的問題或請求，請與我們聯絡：<a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a>。我們將根據適用法律處理您的要求；某些記錄可能需要保留以履行法律義務或核實購買資訊。</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. 廣告和隱私選擇",
+      "html": "<p>廣告投放方式可能因地區、裝置設定、Apple隱私功能、同意狀態和其他條件而異。在必要時，我們可能會顯示一個螢幕，請求您同意或選擇有關廣告或其他資料用途的選項。您可以在 iOS 隱私權設定提供的範圍內，管理廣告識別碼和其他資訊的使用。</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. 兒童",
+      "html": "<p>未成年人使用本應用程式時，如有必要，應徵得父母或法定監護人的同意。本應用程式並非旨在主動收集兒童的姓名、地址、電話號碼或電子郵件地址等個人資訊。</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. 安全性",
+      "html": "<p>我們努力採取合理的安全措施，防止未經授權的存取、洩漏、篡改、遺失以及類似事件，這些事件涉及透過應用程式處理的資訊。</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. 本政策的變更",
+      "html": "<p>我們可能會因法律變更、應用程式功能變更、第三方服務變更或其他原因而對本政策進行必要的修改。修訂後的政策將在應用程式或我們的網站上發布後生效。對於重大變更，我們將酌情發出通知。</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. 聯絡方式",
+      "html": "<div class=\"contact\">\n       <p>如果您對本政策或應用程式中的資訊處理有任何疑問：</p>\n       <p>開發商和營運商：SynCraft</p>\n       <p>聯絡方式：<a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "zh-TW",
+    "capturedAt": "2026-10-18T07:50:02.627Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "70713f9a12e568a2af7a861cc8e3872c5b60747e676079fbfc7bd48ab37c70e0",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "使用條款",
+      "SwingCat",
+      "聯絡我們"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "選擇語言"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "07b718e6bdee178ddbadcd376bef7a02d7cd5dae3943d9bbca1b15cf6eaac263",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "locale": "ca",
+  "kind": "terms",
+  "title": "Condicions d'ús",
+  "effectiveDate": "2026-08-28",
+  "updatedDate": "2026-09-08",
+  "datesHtml": "Data d'entrada en vigor: 28 d'agost de 2026 <br>\n     Última actualització: 8 de setembre de 2026",
+  "status": "translation-reviewed",
+  "sourceLocale": "en",
+  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": null,
+      "html": "<p>Aquestes Condicions d'ús (\"Condicions\") estableixen els termes i condicions per a l'ús de SwingCat (l'\"Aplicació\"), una aplicació per a iOS proporcionada per SynCraft (\"nosaltres\", \"ens\" o \"nostre\").</p>\n      <p>A més d'aquestes Condicions, l'ús de l'Aplicació està subjecte a l'Acord de llicència d'usuari final estàndard (EULA) d'Apple.</p>\n      <p>Acord de llicència d'usuari final estàndard d'Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Si us plau, reviseu aquestes Condicions i l'Acord de llicència d'usuari final estàndard d'Apple abans d'utilitzar l'aplicació.</p>"
+    },
+    {
+      "id": "section-01",
+      "heading": "1. L'aplicació",
+      "html": "<ol>\n       <li>L'aplicació ajuda els usuaris a gestionar la concentració i el temps de treball mitjançant un temporitzador.</li>\n       <li>Depenent de l'ús del temporitzador, l'aplicació pot proporcionar funcions a través de les quals els usuaris poden obtenir o utilitzar gats, objectes, títols i altres continguts.</li>\n       <li>L'aplicació no garanteix la concentració, la productivitat, els resultats d'aprenentatge, els resultats laborals ni cap altre resultat específic.</li>\n       <li>Les funcions poden variar segons l'iOS, el dispositiu i altres condicions d'ús.</li>\n      </ol>"
+    },
+    {
+      "id": "section-02",
+      "heading": "2. Condicions d'ús i conductes prohibides",
+      "html": "<p>L'ús de l'aplicació és responsabilitat vostra i no podeu: modificar, descompilar, aplicar enginyeria inversa ni realitzar actes similars a l'aplicació; reproduir, redistribuir, vendre o utilitzar de cap altra manera l'aplicació sense autorització; obtenir funcions de pagament, recompenses per visualitzar anuncis o altre contingut a través de mitjans inadequats; interferir amb el funcionament normal de l'aplicació; violar les lleis o l'ordre públic; o participar en conductes que considerem raonablement inapropiades. Els menors d'edat han d'obtenir el consentiment d'un pare o tutor legal quan sigui necessari abans de comprar serveis de pagament.</p>"
+    },
+    {
+      "id": "section-03",
+      "heading": "3. Propietat intel·lectual",
+      "html": "<p>Els drets d'autor i altres drets de propietat intel·lectual sobre noms, logotips, personatges, dissenys de gats, il·lustracions, animacions, imatges, text, àudio, programes i altres continguts de l'aplicació pertanyen a nosaltres o a tercers amb drets legítims. Excepte en els casos en què ho permeti la llei, no podeu utilitzar-los, reproduir-los, publicar-los, modificar-los, redistribuir-los ni vendre'ls sense permís. El contingut generat mitjançant una funció de compartició proporcionada per l'aplicació es pot publicar a les xarxes socials i altres serveis amb finalitats de compartició ordinàries contemplades per l'aplicació.</p>"
+    },
+    {
+      "id": "section-04",
+      "heading": "4. Contingut dins de l'aplicació",
+      "html": "<ol>\n       <li>Els gats, els objectes, els títols i altres continguts digitals disponibles a l'aplicació estan pensats per al seu ús dins de l'aplicació.</li>\n       <li>No tenen valor monetari en el món real i no es poden canviar per diners en efectiu o altres béns.</li>\n       <li>Podem canviar noms, contingut, condicions d'adquisició, condicions d'ús, visualització i altres especificacions per a millores, ajustos d'equilibri, canvis d'especificacions o necessitats operatives.</li>\n       <li>Ens esforcem per preservar les dades dels usuaris sempre que sigui raonablement possible durant les actualitzacions, però no garantim la preservació o restauració completa en tots els dispositius, sistemes operatius o entorns.</li>\n      </ol>"
+    },
+    {
+      "id": "section-05",
+      "heading": "5. Publicitat i recompenses",
+      "html": "<p>L'aplicació pot mostrar anuncis a través de serveis com ara Google AdMob i pot oferir anuncis amb recompensa que proporcionin articles o altres beneficis dins de l'aplicació. Les condicions per a les recompenses són les que es mostren a l'aplicació. El contingut, la presentació, la freqüència i els beneficis dels anuncis poden canviar segons calgui. Els anunciants i els proveïdors d'anuncis són responsables del contingut dels anuncis; no garantim els productes o serveis anunciats.</p>"
+    },
+    {
+      "id": "section-06",
+      "heading": "6. Serveis i compres de pagament",
+      "html": "<p>A més de les funcions gratuïtes, l'aplicació pot oferir funcions o contingut de pagament, com ara subscripcions mensuals, subscripcions anuals i plans de compra única. S'apliquen els productes, preus, períodes i funcions disponibles que es mostren a l'aplicació i a l'App Store en el moment de la compra. Les compres i els pagaments es realitzen a través de l'App Store d'Apple; no recopilem ni emmagatzemem directament informació de la targeta de pagament.</p>"
+    },
+    {
+      "id": "section-07",
+      "heading": "7. Subscripcions",
+      "html": "<p>Les quotes de subscripció es carreguen al vostre compte d'Apple. Una subscripció es renova automàticament per cada període aplicable, tret que desactiveu la renovació automàtica a la configuració de l'App Store. Un cop desactivada la renovació automàtica, les funcions rellevants generalment romanen disponibles fins al final del període de pagament actual. Els termes, condicions i polítiques d'Apple i de l'App Store regeixen la gestió de subscripcions, la cancel·lació de la renovació automàtica, els reemborsaments i altres assumptes de pagament.</p>"
+    },
+    {
+      "id": "section-08",
+      "heading": "8. Plans de compra única",
+      "html": "<p>Un pla de compra única proporciona el dret a utilitzar les funcions de pagament rellevants sense pagaments de subscripció recurrents. No garanteix el subministrament perpètu de l'aplicació, de totes les funcions, de les integracions de tercers ni de la compatibilitat amb totes les versions o dispositius iOS futurs. La restauració de la informació de compra i els assumptes relacionats estan subjectes als sistemes i polítiques d'Apple i de l'App Store.</p>"
+    },
+    {
+      "id": "section-09",
+      "heading": "9. Emmagatzematge de dades",
+      "html": "<p>La configuració, l'historial del temporitzador, els gats, els elements, els títols i altres dades es poden emmagatzemar al dispositiu. Les dades es poden perdre si s'elimina l'aplicació, si falla o es substitueix el dispositiu, si s'actualitza el sistema operatiu, si hi ha defectes de l'aplicació o si hi ha altres circumstàncies. Ens esforcem per preservar les dades sempre que sigui raonablement possible, però no garantim que totes les dades es puguin desar o restaurar sempre.</p>"
+    },
+    {
+      "id": "section-10",
+      "heading": "10. Avís legal",
+      "html": "<p>No garantim que l'aplicació funcioni sempre correctament en tots els dispositius i entorns de sistema operatiu, ni que sigui precisa, completa, segura, adequada per a un propòsit concret o que estigui disponible contínuament. És possible que els temporitzadors, les notificacions i altres funcions no funcionin com s'espera a causa de la configuració del dispositiu, les especificacions d'iOS, les funcions d'estalvi d'energia, les condicions de la xarxa o altres circumstàncies. Excepte en casos de mala conducta intencionada nostra, negligència greu o responsabilitat que no es pugui excloure per llei, no som responsables dels danys derivats de l'ús o la impossibilitat d'utilitzar l'aplicació.</p>"
+    },
+    {
+      "id": "section-11",
+      "heading": "11. Canvis o interrupcions",
+      "html": "<p>Podem afegir, canviar, revisar, reduir, suspendre o finalitzar funcions o la totalitat o part de l'aplicació segons calgui, tenint en compte les circumstàncies de desenvolupament i operatives, els dispositius compatibles, les especificacions d'iOS, els serveis de tercers i altres factors. Avisarem dels canvis importants o de la discontinuació sempre que sigui raonablement possible.</p>"
+    },
+    {
+      "id": "section-12",
+      "heading": "12. Canvis en aquestes Condicions",
+      "html": "<p>Podem modificar aquestes Condicions segons calgui a causa de canvis legals, canvis a l'aplicació o altres motius. Les Condicions revisades entren en vigor quan es publiquen a l'aplicació o al nostre lloc web. Avisarem dels canvis importants quan sigui necessari.</p>"
+    },
+    {
+      "id": "section-13",
+      "heading": "13. Llei aplicable",
+      "html": "<p>Aquestes Condicions es regeixen i s'interpreten d'acord amb les lleis del Japó. Els conflictes relacionats amb l'Aplicació o aquestes Condicions es resoldran d'acord amb la legislació japonesa.</p>"
+    },
+    {
+      "id": "section-14",
+      "heading": "14. Contacte",
+      "html": "<div class=\"contact\">\n       <p>Desenvolupador i operador: SynCraft</p>\n       <p>Contacte: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p>\n      </div>"
+    }
+  ],
+  "translation": {
+    "method": "Google Translate website",
+    "target": "ca",
+    "capturedAt": "2026-10-18T07:33:50.435Z",
+    "nativeLegalReview": false,
+    "rawCaptureSha256": "b330b4e9b12f038c5e789cd87574c86e9cc2971e895f9fc7a2b127deb90a6bac",
+    "editorialCorrection": true
+  },
+  "checks": {
+    "issues": [],
+    "unchangedEnglishBlocks": []
+  },
+  "ui": {
+    "footer": [
+      "Política de privacitat",
+      "SwingCat",
+      "Contacte"
+    ],
+    "home": "SwingCat",
+    "selectLanguage": "Selecciona l'idioma"
+  },
+  "review": {
+    "method": "Codex full-source self-review",
+    "reviewDate": "2026-10-18",
+    "draftSha256": "9e161688ad12ed3660d1f7d39353c1e25dc4838402cca2858ab77032f7a04f30",
+    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+    "nativeLegalReview": false
+  }
+}
