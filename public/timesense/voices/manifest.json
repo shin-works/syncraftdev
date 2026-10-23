@@ -41,6 +41,46 @@
       "size": 32559126,
       "sha256": "3cce4714abfcd0c86f3cc1480698804937cfcce961e0bdd44301e2881133bd80",
       "minAppVersion": "2.0.8"
+    },
+    "it": {
+      "version": 1,
+      "url": "https://syncraft.dev/timesense/voices/it/core_v1.zip",
+      "size": 5758400,
+      "sha256": "755d68e6b77facf35fda0e4e4fd5cd991ef88cb90fd04cfe07ca25212b1ba9f3",
+      "minAppVersion": "3.1.0",
+      "notes": "Additional language audio; requires an app build supporting it/tr/ar/pl/id voice packs and on-device iOS notification audio."
+    },
+    "tr": {
+      "version": 1,
+      "url": "https://syncraft.dev/timesense/voices/tr/core_v1.zip",
+      "size": 22482529,
+      "sha256": "b369c81b06c797c2c9a73bdffbe13a4af52ca71023a78ce6377106d2a53094e4",
+      "minAppVersion": "3.1.0",
+      "notes": "Additional language audio; requires an app build supporting it/tr/ar/pl/id voice packs and on-device iOS notification audio."
+    },
+    "ar": {
+      "version": 1,
+      "url": "https://syncraft.dev/timesense/voices/ar/core_v1.zip",
+      "size": 47161163,
+      "sha256": "d4ac58179c57824abd58a2ff00670c6dd05466834863fa68044d1e2c665956d7",
+      "minAppVersion": "3.1.0",
+      "notes": "Additional language audio; requires an app build supporting it/tr/ar/pl/id voice packs and on-device iOS notification audio."
+    },
+    "pl": {
+      "version": 1,
+      "url": "https://syncraft.dev/timesense/voices/pl/core_v1.zip",
+      "size": 25657050,
+      "sha256": "75a6fd1e5b697512d2e66c2cb62fd1132dbca0a4114724673cd16c1b477cba52",
+      "minAppVersion": "3.1.0",
+      "notes": "Additional language audio; requires an app build supporting it/tr/ar/pl/id voice packs and on-device iOS notification audio."
+    },
+    "id": {
+      "version": 1,
+      "url": "https://syncraft.dev/timesense/voices/id/core_v1.zip",
+      "size": 7143396,
+      "sha256": "c4085a1f3f171f4d4afb3fbf6dad7bb6988ef96799f4f83c9e8c14d37194d8a3",
+      "minAppVersion": "3.1.0",
+      "notes": "Additional language audio; requires an app build supporting it/tr/ar/pl/id voice packs and on-device iOS notification audio."
     }
   }
 }
