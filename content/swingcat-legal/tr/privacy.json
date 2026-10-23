@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Gizlilik Politikası",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Yürürlük tarihi: 28 Ağustos 2026 <br>\n     Son güncelleme: 18 Ekim 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Yürürlük tarihi: 28 Ağustos 2026 <br>\n     Son güncelleme: 24 Ekim 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Bu Gizlilik Politikası, SynCraft'ın (\"biz,\" \"bize\" veya \"bizim\") iOS uygulaması SwingCat'te (\"Uygulama\") kullanıcı bilgilerini nasıl işlediğini açıklamaktadır.</p>"
+      "html": "<p>Bu Gizlilik Politikası, SynCraft'ın (\"biz,\" \"bize\" veya \"bizim\") iOS veya Android uygulaması SwingCat'te (\"Uygulama\") kullanıcı bilgilerini nasıl işlediğini açıklamaktadır.</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Topladığımız ve sakladığımız bilgiler",
-      "html": "<p>Uygulama, kayıt olmak için kullanıcıların doğrudan ad, adres, telefon numarası veya e-posta adresi girmesini genellikle gerektirmez.</p>\n      <p>Uygulamanın kullanımına bağlı olarak, cihazınızda aşağıdaki bilgiler saklanabilir: zamanlayıcı ayarları; odaklanma süresi ve zamanlayıcı geçmişi; sizin girdiğiniz görevler; kediler, öğeler, unvanlar ve diğer uygulama içi içerikler ve bunların kullanımı; uygulama ayarları; ad gibi isteğe bağlı profil bilgileri; ve ücretli özelliklerin durumu.</p>\n      <p>Ayrıca, kullanım analizi, kalite iyileştirmeleri, teşhis ve reklamcılık amacıyla üçüncü taraf hizmetler aracılığıyla bilgi toplayabilir veya işleyebiliriz. Bu, cihaz türü, işletim sistemi, dil ayarları, uygulama sürümü, başlatma ve özellik kullanım olayları, çökme ve performans verileri, IP adresi ve diğer ağ bilgileri, reklam etkileşimleri ve cihaz veya reklam tanımlayıcılarını içerebilir. Gerçekte işlenen bilgiler, iOS sürümünüze, cihaz ayarlarınıza, gizlilik tercihlerinize, onay durumunuza ve üçüncü taraf hizmet özelliklerine göre değişiklik gösterebilir.</p>"
+      "html": "<p>Uygulama, kayıt olmak için kullanıcıların doğrudan ad, adres, telefon numarası veya e-posta adresi girmesini genellikle gerektirmez.</p>\n      <p>Uygulamanın kullanımına bağlı olarak, cihazınızda aşağıdaki bilgiler saklanabilir: zamanlayıcı ayarları; odaklanma süresi ve zamanlayıcı geçmişi; sizin girdiğiniz görevler; kediler, öğeler, unvanlar ve diğer uygulama içi içerikler ve bunların kullanımı; uygulama ayarları; ad gibi isteğe bağlı profil bilgileri; ve ücretli özelliklerin durumu.</p>\n      <p>Ayrıca, kullanım analizi, kalite iyileştirmeleri, teşhis ve reklamcılık amacıyla üçüncü taraf hizmetler aracılığıyla bilgi toplayabilir veya işleyebiliriz. Bu, cihaz türü, işletim sistemi, dil ayarları, uygulama sürümü, başlatma ve özellik kullanım olayları, çökme ve performans verileri, IP adresi ve diğer ağ bilgileri, reklam etkileşimleri ve cihaz veya reklam tanımlayıcılarını içerebilir. Gerçekte işlenen bilgiler, iOS veya Android sürümünüze, cihaz ayarlarınıza, gizlilik tercihlerinize, onay durumunuza ve üçüncü taraf hizmet özelliklerine göre değişiklik gösterebilir.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>Reklamları göstermek için Google AdMob'u kullanabiliriz. Uygulama, kullanıcıların öğeler veya diğer uygulama içi avantajlar alabileceği ödüllü reklamlar sunabilir. AdMob ve Google Mobil Reklam SDK'sı, reklam dağıtımı, ölçüm, dolandırıcılık önleme ve hizmet iyileştirme amacıyla IP adreslerini, cihaz bilgilerini, cihaz veya reklam tanımlayıcılarını, reklam gösterimlerini ve etkileşimlerini, uygulama içi etkileşimleri ve çökme veya performans bilgilerini toplayabilir veya işleyebilir.</p>\n      <p>Reklam tanımlayıcılarının kullanılabilirliği, cihaz ayarlarına, Apple gizlilik özelliklerine ve kullanıcı onayına bağlı olabilir. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Gizlilik Politikası </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google'ın iş ortağı sitelerden veya uygulamalardan elde ettiği verileri nasıl kullandığı</a></p>"
+      "html": "<p>Reklamları göstermek için Google AdMob'u kullanabiliriz. Uygulama, kullanıcıların öğeler veya diğer uygulama içi avantajlar alabileceği ödüllü reklamlar sunabilir. AdMob ve Google Mobil Reklam SDK'sı, reklam dağıtımı, ölçüm, dolandırıcılık önleme ve hizmet iyileştirme amacıyla IP adreslerini, cihaz bilgilerini, cihaz veya reklam tanımlayıcılarını, reklam gösterimlerini ve etkileşimlerini, uygulama içi etkileşimleri ve çökme veya performans bilgilerini toplayabilir veya işleyebilir.</p>\n      <p>Reklam tanımlayıcılarının kullanılabilirliği, cihaz ayarlarına, iOS veya Android gizlilik özelliklerine ve kullanıcı onayına bağlı olabilir. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Gizlilik Politikası </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google'ın iş ortağı sitelerden veya uygulamalardan elde ettiği verileri nasıl kullandığı</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Uygulama içi satın alımlar",
-      "html": "<p>App Store üzerinden abonelik ve tek seferlik satın alma planları sunabiliriz. Ödemeler Apple tarafından işlenir ve biz doğrudan kredi kartı numaralarını veya diğer ödeme bilgilerini toplamayız veya saklamayız. Ücretli özellikler sağlamak için uygulama, satın alınan ürünler ve abonelik durumu hakkında bilgilere erişebilir veya bunları doğrulayabilir. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple Gizlilik Politikası</a></p>\n      <p>Satın alımları doğrulamak, abonelik ve ücretli özellik erişimini yönetmek, satın alımları geri yüklemek ve satın alma ve abonelik faaliyetlerini anlamak için RevenueCat, Inc.'i kullanıyoruz. RevenueCat, SDK'sı tarafından oluşturulan bir Uygulama Kullanıcı Kimliğini, satın alınan ürün tanımlayıcılarını, işlem ve satın alma geçmişi bilgilerini, abonelik durumunu ve son kullanma tarihlerini ve cihaz işletim sistemi ve uygulama sürümü gibi teknik bilgileri işler.</p>\n      <p>Satın alma tanımlayıcınız olarak bir ad veya e-posta adresi belirlemek yerine, RevenueCat'in otomatik olarak oluşturduğu anonim Uygulama Kullanıcı Kimliğini kullanıyoruz. Uygulama içi profil adınızı veya e-posta adresinizi müşteri özellikleri olarak RevenueCat'e göndermiyoruz. Anonim bir kimlik kullanılması, hiçbir bilginin işlenmediği veya uygulamayı kaldırdığınızda satın alma kayıtlarının silindiği anlamına gelmez.</p>\n      <p>Daha fazla bilgi için <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat Gizlilik Politikasına</a> ve <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat'in satın alma verileri hakkındaki bilgilerine</a> bakın .</p>"
+      "html": "<p>iOS’te App Store, Android’de Google Play üzerinden abonelikler ve tek seferlik satın alımlar sunabiliriz. Ödemeler satın alımın yapıldığı mağaza tarafından işlenir: App Store için Apple, Google Play için Google. Kredi kartı numaralarını veya diğer ödeme bilgilerini doğrudan toplamaz ya da saklamayız. Ücretli özellikleri sunmak için Uygulama, satın alınan ürünlere ve abonelik durumuna ilişkin bilgilere erişebilir veya bunları doğrulayabilir.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple Gizlilik Politikası</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Gizlilik Politikası </a></p>\n      <p>Satın alımları doğrulamak, abonelik ve ücretli özellik erişimini yönetmek, satın alımları geri yüklemek ve satın alma ve abonelik faaliyetlerini anlamak için RevenueCat, Inc.'i kullanıyoruz. RevenueCat, SDK'sı tarafından oluşturulan bir Uygulama Kullanıcı Kimliğini, satın alınan ürün tanımlayıcılarını, işlem ve satın alma geçmişi bilgilerini, abonelik durumunu ve son kullanma tarihlerini ve cihaz işletim sistemi ve uygulama sürümü gibi teknik bilgileri işler.</p>\n      <p>Satın alma tanımlayıcınız olarak bir ad veya e-posta adresi belirlemek yerine, RevenueCat'in otomatik olarak oluşturduğu anonim Uygulama Kullanıcı Kimliğini kullanıyoruz. Uygulama içi profil adınızı veya e-posta adresinizi müşteri özellikleri olarak RevenueCat'e göndermiyoruz. Anonim bir kimlik kullanılması, hiçbir bilginin işlenmediği veya uygulamayı kaldırdığınızda satın alma kayıtlarının silindiği anlamına gelmez.</p>\n      <p>Daha fazla bilgi için <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat Gizlilik Politikasına</a> ve <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat'in satın alma verileri hakkındaki bilgilerine (iOS)</a> bakın .</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Üçüncü taraflarla paylaşım",
-      "html": "<p>Kullanıcılar hakkındaki bilgileri satmıyoruz. Bilgiler, Uygulamayı sağlamak için gerekli olduğu durumlarda Firebase, Google AdMob, Apple, RevenueCat ve diğer hizmetlere gönderilebilir veya bunlar tarafından işlenebilir. Ayrıca, sizin onayınızla, kanunen zorunlu olduğu durumlarda, can, beden veya mülkiyeti korumak için gerekli olduğu durumlarda veya kanunun izin verdiği diğer durumlarda bilgileri açıklayabiliriz.</p>"
+      "html": "<p>Kullanıcılar hakkındaki bilgileri satmıyoruz. Bilgiler, Uygulamayı sağlamak için gerekli olduğu durumlarda Firebase, Google AdMob, Apple (App Store), Google (Google Play), RevenueCat ve diğer hizmetlere gönderilebilir veya bunlar tarafından işlenebilir. Ayrıca, sizin onayınızla, kanunen zorunlu olduğu durumlarda, can, beden veya mülkiyeti korumak için gerekli olduğu durumlarda veya kanunun izin verdiği diğer durumlarda bilgileri açıklayabiliriz.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Reklam ve gizlilik tercihleri",
-      "html": "<p>Reklamların sunulma şekli bölgeye, cihaz ayarlarına, Apple gizlilik özelliklerine, onay durumuna ve diğer koşullara bağlı olarak değişebilir. Gerektiğinde, reklamlar veya diğer veri kullanımlarıyla ilgili onay veya seçim yapmanızı isteyen bir ekran gösterebiliriz. Reklam tanımlayıcılarının ve diğer bilgilerin kullanımını, iOS gizlilik ayarları aracılığıyla mümkün olan ölçüde yönetebilirsiniz.</p>"
+      "html": "<p>Reklamların sunulma şekli bölgeye, cihaz ayarlarına, iOS veya Android gizlilik özelliklerine, onay durumuna ve diğer koşullara bağlı olarak değişebilir. Gerektiğinde, reklamlar veya diğer veri kullanımlarıyla ilgili onay veya seçim yapmanızı isteyen bir ekran gösterebiliriz. Reklam tanımlayıcılarının ve diğer bilgilerin kullanımını, iOS veya Android gizlilik ayarları aracılığıyla mümkün olan ölçüde yönetebilirsiniz.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Dil seçin"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "d73ca544c94cee4caf7d568094891ec1d760cab713cb233e32d5a8e391b051f7",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "6306dfd8a6f39f36f2173a58c4a62abbe3cbd75caaeee6ccfae002b0a546caed",
+    "reviewedSectionsSha256": "4598ce1ecaabfdc90db669bd3f20d3185cd3add075d79cfbac0696a0305b1b9d"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "d73ca544c94cee4caf7d568094891ec1d760cab713cb233e32d5a8e391b051f7",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

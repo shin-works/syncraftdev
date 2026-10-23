@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Termini di utilizzo",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Data di entrata in vigore: 28 agosto 2026 <br>\n     Ultimo aggiornamento: 8 settembre 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Data di entrata in vigore: 28 agosto 2026 <br>\n     Ultimo aggiornamento: 24 ottobre 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Le presenti Condizioni d'uso (“Condizioni”) stabiliscono i termini e le condizioni per l'utilizzo di SwingCat (l'“App”), un'applicazione iOS fornita da SynCraft (“noi”, “ci” o “nostro”).</p>\n      <p>Oltre alle presenti Condizioni, l'utilizzo dell'App è soggetto al Contratto di licenza standard per l'utente finale (EULA) di Apple.</p>\n      <p>Contratto di licenza standard per l'utente finale di Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Prima di utilizzare l'App, si prega di leggere attentamente le presenti Condizioni e il Contratto di licenza standard per l'utente finale di Apple.</p>"
+      "html": "<p>Le presenti Condizioni d'uso (“Condizioni”) stabiliscono i termini e le condizioni per l'utilizzo di SwingCat (l'“App”), un'applicazione iOS o Android fornita da SynCraft (“noi”, “ci” o “nostro”).</p><p>Oltre ai presenti Termini, alla versione iOS distribuita tramite l’App Store si applica il contratto standard di licenza con l’utente finale di Apple (EULA). Alla versione Android distribuita tramite Google Play e agli acquisti effettuati nello store si applicano anche i termini e le politiche pertinenti di Google Play. Prima di usare l’App, leggi questi Termini e quelli applicabili al tuo store.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. L'app",
-      "html": "<ol>\n       <li>L'app aiuta gli utenti a gestire la concentrazione e il tempo di lavoro tramite un timer.</li>\n       <li>A seconda dell'utilizzo del timer, l'App potrebbe fornire funzionalità tramite le quali gli utenti possono ottenere o utilizzare gatti, oggetti, titoli e altri contenuti.</li>\n       <li>L'app non garantisce concentrazione, produttività, risultati di apprendimento, risultati lavorativi o qualsiasi altro risultato specifico.</li>\n       <li>Le funzionalità possono variare a seconda di iOS, del dispositivo e di altre condizioni di utilizzo.</li>\n      </ol>"
+      "html": "<ol>\n       <li>L'app aiuta gli utenti a gestire la concentrazione e il tempo di lavoro tramite un timer.</li>\n       <li>A seconda dell'utilizzo del timer, l'App potrebbe fornire funzionalità tramite le quali gli utenti possono ottenere o utilizzare gatti, oggetti, titoli e altri contenuti.</li>\n       <li>L'app non garantisce concentrazione, produttività, risultati di apprendimento, risultati lavorativi o qualsiasi altro risultato specifico.</li>\n       <li>Le funzionalità possono variare a seconda di iOS o Android, del dispositivo e di altre condizioni di utilizzo.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Servizi a pagamento e acquisti",
-      "html": "<p>Oltre alle funzionalità gratuite, l'App potrebbe offrire funzionalità o contenuti a pagamento, inclusi abbonamenti mensili, abbonamenti annuali e piani di acquisto una tantum. Si applicano i prodotti, i prezzi, i periodi e le funzionalità disponibili mostrati nell'App e nell'App Store al momento dell'acquisto. Gli acquisti e i pagamenti vengono effettuati tramite l'App Store di Apple; non raccogliamo né memorizziamo direttamente i dati delle carte di pagamento.</p>"
+      "html": "<p>Oltre alle funzionalità gratuite, l’App può offrire funzionalità o contenuti a pagamento, inclusi abbonamenti mensili, annuali e acquisti una tantum. Si applicano i prodotti, i prezzi, i periodi e le funzionalità indicati nell’App e nello store utilizzato al momento dell’acquisto. Acquisti e pagamenti avvengono tramite l’App Store di Apple su iOS o Google Play su Android. Non raccogliamo né conserviamo direttamente i dati delle carte di pagamento.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Abbonamenti",
-      "html": "<p>Le quote di abbonamento vengono addebitate sul tuo account Apple. L'abbonamento si rinnova automaticamente per ogni periodo applicabile, a meno che tu non disattivi il rinnovo automatico nelle impostazioni dell'App Store. Dopo aver disattivato il rinnovo automatico, le relative funzionalità rimangono generalmente disponibili fino alla fine del periodo di abbonamento già pagato in corso. La gestione degli abbonamenti, la disattivazione del rinnovo automatico, i rimborsi e altre questioni relative ai pagamenti sono regolati dai termini, dalle condizioni e dalle politiche di Apple e dell'App Store.</p>"
+      "html": "<p>Gli abbonamenti acquistati nell’App Store vengono addebitati all’Apple Account; quelli acquistati su Google Play all’Account Google utilizzato per l’acquisto. L’abbonamento si rinnova automaticamente per ogni periodo previsto, salvo disdetta o disattivazione del rinnovo automatico nello store di acquisto. Gestisci gli abbonamenti dell’App Store nelle impostazioni degli abbonamenti Apple e quelli di Google Play nelle impostazioni degli abbonamenti di Google Play. Dopo la disdetta, le funzionalità restano generalmente disponibili fino alla fine del periodo già pagato. Gestione, disdetta, rimborsi e altre questioni di pagamento sono soggetti alla legge applicabile e ai termini, alle condizioni e alle politiche dello store di acquisto.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=it\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Piani di acquisto una tantum",
-      "html": "<p>Un piano di acquisto una tantum dà diritto a utilizzare le relative funzionalità a pagamento senza pagamenti di abbonamento ricorrenti. Non garantisce la disponibilità perpetua dell'App, di tutte le funzionalità, delle integrazioni di terze parti o la compatibilità con tutte le future versioni di iOS o dispositivi. Il ripristino delle informazioni di acquisto e le questioni correlate sono soggette ai sistemi e alle politiche di Apple e dell'App Store.</p>"
+      "html": "<p>Un piano di acquisto una tantum dà diritto a utilizzare le relative funzionalità a pagamento senza pagamenti di abbonamento ricorrenti. Non garantisce la disponibilità perpetua dell'App, di tutte le funzionalità, delle integrazioni di terze parti o la compatibilità con tutte le future versioni di iOS o Android o dispositivi. Il ripristino delle informazioni di acquisto e le questioni correlate sono soggetti ai sistemi e alle politiche dello store utilizzato per l’acquisto (App Store o Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Dichiarazioni di non responsabilità",
-      "html": "<p>Non garantiamo che l'App funzioni sempre correttamente su ogni dispositivo e sistema operativo, né che sia accurata, completa, sicura, adatta a uno scopo specifico o continuamente disponibile. Timer, notifiche e altre funzionalità potrebbero non funzionare come previsto a causa delle impostazioni del dispositivo, delle specifiche iOS, delle funzionalità di risparmio energetico, delle condizioni di rete o di altre circostanze. Salvo in caso di dolo, colpa grave o responsabilità non escludibile per legge, non saremo responsabili per danni derivanti dall'utilizzo o dall'impossibilità di utilizzare l'App.</p>"
+      "html": "<p>Non garantiamo che l'App funzioni sempre correttamente su ogni dispositivo e sistema operativo, né che sia accurata, completa, sicura, adatta a uno scopo specifico o continuamente disponibile. Timer, notifiche e altre funzionalità potrebbero non funzionare come previsto a causa delle impostazioni del dispositivo, delle specifiche iOS o Android, delle funzionalità di risparmio energetico, delle condizioni di rete o di altre circostanze. Salvo in caso di dolo, colpa grave o responsabilità non escludibile per legge, non saremo responsabili per danni derivanti dall'utilizzo o dall'impossibilità di utilizzare l'App.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Modifiche o interruzione",
-      "html": "<p>Potremmo aggiungere, modificare, rivedere, ridurre, sospendere o interrompere funzionalità o l'App, in tutto o in parte, a seconda delle necessità, tenendo conto delle circostanze di sviluppo e operative, dei dispositivi supportati, delle specifiche iOS, dei servizi di terze parti e di altri fattori. Forniremo un preavviso di modifiche sostanziali o di interruzione laddove ragionevolmente possibile.</p>"
+      "html": "<p>Potremmo aggiungere, modificare, rivedere, ridurre, sospendere o interrompere funzionalità o l'App, in tutto o in parte, a seconda delle necessità, tenendo conto delle circostanze di sviluppo e operative, dei dispositivi supportati, delle specifiche iOS o Android, dei servizi di terze parti e di altri fattori. Forniremo un preavviso di modifiche sostanziali o di interruzione laddove ragionevolmente possibile.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Seleziona la lingua"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "33f815d2d3bf93e124357d0765681e88427e20bb55656e1020800d717ac45221",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "82383b9e172b18452f6b80cfed8f410880c0bc019304d1b615c17ef66fdd90ad",
+    "reviewedSectionsSha256": "8d0ede0d7b6afa312c8b8ba2098972091aec5be394b3ad95fedd71e4ead3360d"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "33f815d2d3bf93e124357d0765681e88427e20bb55656e1020800d717ac45221",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

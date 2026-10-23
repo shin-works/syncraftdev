@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Politique de confidentialité",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Date d'entrée en vigueur : 28 août 2026. <br>\n     Dernière mise à jour : 18 octobre 2026.",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Date d'entrée en vigueur : 28 août 2026. <br>\n     Dernière mise à jour : 24 octobre 2026.",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Cette politique de confidentialité explique comment SynCraft (« nous », « notre » ou « nos ») traite les informations des utilisateurs dans l’application iOS SwingCat (l’« App »).</p>"
+      "html": "<p>Cette politique de confidentialité explique comment SynCraft (« nous », « notre » ou « nos ») traite les informations des utilisateurs dans l’application iOS ou Android SwingCat (l’« App »).</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Informations que nous recueillons et stockons",
-      "html": "<p>L'application ne requiert généralement pas que les utilisateurs saisissent directement leur nom, adresse, numéro de téléphone ou adresse électronique pour s'inscrire.</p>\n      <p>Selon votre utilisation de l'application, les informations suivantes peuvent être stockées sur votre appareil : paramètres du minuteur ; temps de concentration et historique du minuteur ; tâches que vous avez saisies ; chats, objets, titres et autres contenus de l'application et leur utilisation ; paramètres de l'application ; informations de profil facultatives telles qu'un nom ; et l'état des fonctionnalités payantes.</p>\n      <p>Nous pouvons également collecter ou traiter des informations via des services tiers à des fins d'analyse d'utilisation, d'amélioration de la qualité, de diagnostic et de publicité. Ces informations peuvent inclure le type d'appareil, le système d'exploitation, les paramètres de langue, la version de l'application, les événements de lancement et d'utilisation des fonctionnalités, les données de plantage et de performance, l'adresse IP et d'autres informations réseau, les interactions publicitaires, ainsi que les identifiants de l'appareil ou identifiants publicitaires. Les informations effectivement traitées peuvent varier en fonction de votre version d'iOS, des paramètres de votre appareil, de vos choix de confidentialité, de votre niveau de consentement et des spécifications du service tiers.</p>"
+      "html": "<p>L'application ne requiert généralement pas que les utilisateurs saisissent directement leur nom, adresse, numéro de téléphone ou adresse électronique pour s'inscrire.</p>\n      <p>Selon votre utilisation de l'application, les informations suivantes peuvent être stockées sur votre appareil : paramètres du minuteur ; temps de concentration et historique du minuteur ; tâches que vous avez saisies ; chats, objets, titres et autres contenus de l'application et leur utilisation ; paramètres de l'application ; informations de profil facultatives telles qu'un nom ; et l'état des fonctionnalités payantes.</p>\n      <p>Nous pouvons également collecter ou traiter des informations via des services tiers à des fins d'analyse d'utilisation, d'amélioration de la qualité, de diagnostic et de publicité. Ces informations peuvent inclure le type d'appareil, le système d'exploitation, les paramètres de langue, la version de l'application, les événements de lancement et d'utilisation des fonctionnalités, les données de plantage et de performance, l'adresse IP et d'autres informations réseau, les interactions publicitaires, ainsi que les identifiants de l'appareil ou identifiants publicitaires. Les informations effectivement traitées peuvent varier en fonction de votre version d'iOS ou Android, des paramètres de votre appareil, de vos choix de confidentialité, de votre niveau de consentement et des spécifications du service tiers.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>Nous pouvons utiliser Google AdMob pour diffuser des publicités. L'application peut proposer des publicités récompensées permettant aux utilisateurs de recevoir des objets ou d'autres avantages. AdMob et le kit de développement logiciel (SDK) Google pour les annonces mobiles peuvent collecter ou traiter les adresses IP, les informations relatives à l'appareil, les identifiants de l'appareil ou identifiants publicitaires, les impressions et interactions publicitaires, les interactions au sein de l'application, ainsi que les informations de performance ou de plantage, à des fins de diffusion et de mesure des publicités, de prévention de la fraude et d'amélioration du service.</p>\n      <p>La disponibilité des identifiants publicitaires peut dépendre des paramètres de l'appareil, des fonctionnalités de confidentialité d'Apple et du consentement de l'utilisateur. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politique de confidentialité de Google : </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Comment Google utilise les données provenant de sites ou d'applications partenaires</a></p>"
+      "html": "<p>Nous pouvons utiliser Google AdMob pour diffuser des publicités. L'application peut proposer des publicités récompensées permettant aux utilisateurs de recevoir des objets ou d'autres avantages. AdMob et le kit de développement logiciel (SDK) Google pour les annonces mobiles peuvent collecter ou traiter les adresses IP, les informations relatives à l'appareil, les identifiants de l'appareil ou identifiants publicitaires, les impressions et interactions publicitaires, les interactions au sein de l'application, ainsi que les informations de performance ou de plantage, à des fins de diffusion et de mesure des publicités, de prévention de la fraude et d'amélioration du service.</p>\n      <p>La disponibilité des identifiants publicitaires peut dépendre des paramètres de l'appareil, des fonctionnalités de confidentialité d'iOS ou Android et du consentement de l'utilisateur. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politique de confidentialité de Google : </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Comment Google utilise les données provenant de sites ou d'applications partenaires</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Achats intégrés",
-      "html": "<p>Nous pouvons proposer des abonnements et des achats uniques via l'App Store. Apple traite les paiements ; nous ne collectons ni ne stockons directement les numéros de carte bancaire ou autres informations de paiement. Pour fournir les fonctionnalités payantes, l'application peut accéder aux informations relatives aux produits achetés et à l'état des abonnements, ou les vérifier. Consultez <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">la politique de confidentialité d'Apple.</a></p>\n      <p>Nous utilisons les services de RevenueCat, Inc. pour vérifier les achats, gérer les abonnements et l'accès aux fonctionnalités payantes, restaurer les achats et analyser l'activité liée aux achats et aux abonnements. RevenueCat traite un identifiant utilisateur généré par son SDK, les identifiants des produits achetés, l'historique des transactions et des achats, le statut et les dates d'expiration des abonnements, ainsi que des informations techniques telles que le système d'exploitation de l'appareil et la version de l'application.</p>\n      <p>Nous utilisons l'identifiant utilisateur anonyme généré automatiquement par RevenueCat plutôt que votre nom ou adresse e-mail comme identifiant d'achat. Nous ne transmettons ni votre nom de profil ni votre adresse e-mail à RevenueCat en tant qu'attributs client. L'utilisation d'un identifiant anonyme ne signifie pas qu'aucune information n'est traitée ni que l'historique de vos achats est supprimé lorsque vous désinstallez l'application.</p>\n      <p>Pour plus d'informations, consultez la <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">politique de confidentialité de RevenueCat</a> et <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">les informations de RevenueCat concernant les données d'achat</a>.</p>"
+      "html": "<p>Nous pouvons proposer des abonnements et des achats uniques via l’App Store sur iOS et Google Play sur Android. Les paiements sont traités par la boutique utilisée pour l’achat : Apple pour l’App Store et Google pour Google Play. Nous ne recueillons ni ne conservons directement les numéros de carte bancaire ou autres données de paiement. Pour fournir les fonctionnalités payantes, l’application peut consulter ou vérifier les informations sur les produits achetés et l’état des abonnements.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">la politique de confidentialité d'Apple.</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politique de confidentialité de Google ; </a></p>\n      <p>Nous utilisons les services de RevenueCat, Inc. pour vérifier les achats, gérer les abonnements et l'accès aux fonctionnalités payantes, restaurer les achats et analyser l'activité liée aux achats et aux abonnements. RevenueCat traite un identifiant utilisateur généré par son SDK, les identifiants des produits achetés, l'historique des transactions et des achats, le statut et les dates d'expiration des abonnements, ainsi que des informations techniques telles que le système d'exploitation de l'appareil et la version de l'application.</p>\n      <p>Nous utilisons l'identifiant utilisateur anonyme généré automatiquement par RevenueCat plutôt que votre nom ou adresse e-mail comme identifiant d'achat. Nous ne transmettons ni votre nom de profil ni votre adresse e-mail à RevenueCat en tant qu'attributs client. L'utilisation d'un identifiant anonyme ne signifie pas qu'aucune information n'est traitée ni que l'historique de vos achats est supprimé lorsque vous désinstallez l'application.</p>\n      <p>Pour plus d'informations, consultez la <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">politique de confidentialité de RevenueCat</a> et <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">les informations de RevenueCat concernant les données d'achat (iOS)</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Partage avec des tiers",
-      "html": "<p>Nous ne vendons pas les informations concernant les utilisateurs. Ces informations peuvent être transmises à Firebase, Google AdMob, Apple, RevenueCat et d'autres services, ou être traitées par ces services, selon les besoins pour le fonctionnement de l'application. Nous pouvons également divulguer des informations avec votre consentement, lorsque la loi l'exige, lorsque cela est nécessaire pour protéger la vie, l'intégrité physique ou les biens, ou dans les autres cas autorisés par la loi.</p>"
+      "html": "<p>Nous ne vendons pas les informations concernant les utilisateurs. Ces informations peuvent être transmises à Firebase, Google AdMob, Apple (App Store), Google (Google Play), RevenueCat et d'autres services, ou être traitées par ces services, selon les besoins pour le fonctionnement de l'application. Nous pouvons également divulguer des informations avec votre consentement, lorsque la loi l'exige, lorsque cela est nécessaire pour protéger la vie, l'intégrité physique ou les biens, ou dans les autres cas autorisés par la loi.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Choix en matière de publicité et de confidentialité",
-      "html": "<p>La diffusion des publicités peut varier selon la région, les réglages de l'appareil, les paramètres de confidentialité d'Apple, le niveau de consentement et d'autres conditions. Le cas échéant, nous pouvons afficher un écran vous demandant votre consentement ou un choix concernant les publicités ou l'utilisation de vos données. Vous pouvez gérer l'utilisation des identifiants publicitaires et autres informations dans les limites des réglages de confidentialité d'iOS.</p>"
+      "html": "<p>La diffusion des publicités peut varier selon la région, les réglages de l'appareil, les paramètres de confidentialité d'iOS ou Android, le niveau de consentement et d'autres conditions. Le cas échéant, nous pouvons afficher un écran vous demandant votre consentement ou un choix concernant les publicités ou l'utilisation de vos données. Vous pouvez gérer l'utilisation des identifiants publicitaires et autres informations dans les limites des réglages de confidentialité d'iOS ou Android.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Sélectionnez la langue"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "85fca58ce015203391c653c49c33e1fcf98c7a39e74337b469fe034859f925d7",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "b6bc1190bb6b28a0647527db07c77ceaa2de87f050041020b506b1e936cd3c65",
+    "reviewedSectionsSha256": "b0a577726f994db41060d035cf5677740d4ef6680a363783f0b81780d7ecde19"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "85fca58ce015203391c653c49c33e1fcf98c7a39e74337b469fe034859f925d7",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Syarat Penggunaan",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Tarikh kuat kuasa: 28 Ogos 2026 <br>\n     Kemas kini terakhir: 8 September 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Tarikh kuat kuasa: 28 Ogos 2026 <br>\n     Kemas kini terakhir: 24 Oktober 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Terma Penggunaan ini (\"Terma\") menetapkan terma dan syarat untuk menggunakan SwingCat (\"Aplikasi\"), aplikasi iOS yang disediakan oleh SynCraft (\"kami\", \"kita\", atau \"milik kami\").</p>\n      <p>Selain Terma ini, penggunaan Aplikasi anda tertakluk kepada Perjanjian Lesen Pengguna Akhir Piawai (EULA) Apple.</p>\n      <p>Perjanjian Lesen Pengguna Akhir Piawai Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Sila semak Terma dan Syarat ini dan Perjanjian Lesen Pengguna Akhir Apple Standard sebelum menggunakan Aplikasi ini.</p>"
+      "html": "<p>Terma Penggunaan ini (\"Terma\") menetapkan terma dan syarat untuk menggunakan SwingCat (\"Aplikasi\"), aplikasi iOS atau Android yang disediakan oleh SynCraft (\"kami\", \"kita\", atau \"milik kami\").</p><p>Selain Terma ini, versi iOS yang diedarkan melalui App Store tertakluk kepada Perjanjian Lesen Pengguna Akhir standard Apple (EULA). Versi Android yang diedarkan melalui Google Play dan pembelian dalam gedung tersebut juga tertakluk kepada terma dan dasar Google Play yang berkenaan. Sebelum menggunakan Aplikasi, baca Terma ini serta terma gedung yang anda gunakan.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. Aplikasi",
-      "html": "<ol>\n       <li>Aplikasi ini membantu pengguna mengurus fokus dan masa kerja menggunakan pemasa.</li>\n       <li>Bergantung pada penggunaan pemasa, Aplikasi ini mungkin menyediakan ciri-ciri yang membolehkan pengguna mendapatkan atau menggunakan kucing, item, gelaran dan kandungan lain.</li>\n       <li>Aplikasi ini tidak menjamin tumpuan, produktiviti, hasil pembelajaran, hasil kerja atau sebarang hasil khusus yang lain.</li>\n       <li>Ciri-ciri mungkin berbeza bergantung pada iOS, peranti dan syarat penggunaan yang lain.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Aplikasi ini membantu pengguna mengurus fokus dan masa kerja menggunakan pemasa.</li>\n       <li>Bergantung pada penggunaan pemasa, Aplikasi ini mungkin menyediakan ciri-ciri yang membolehkan pengguna mendapatkan atau menggunakan kucing, item, gelaran dan kandungan lain.</li>\n       <li>Aplikasi ini tidak menjamin tumpuan, produktiviti, hasil pembelajaran, hasil kerja atau sebarang hasil khusus yang lain.</li>\n       <li>Ciri-ciri mungkin berbeza bergantung pada iOS atau Android, peranti dan syarat penggunaan yang lain.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Perkhidmatan dan pembelian berbayar",
-      "html": "<p>Selain ciri percuma, Aplikasi ini mungkin menawarkan ciri atau kandungan berbayar, termasuk langganan bulanan, langganan tahunan dan pelan pembelian sekali sahaja. Produk, harga, tempoh dan ciri yang tersedia yang ditunjukkan dalam Aplikasi dan Gedung Aplikasi pada masa pembelian terpakai. Pembelian dan pembayaran dibuat melalui Gedung Aplikasi Apple; kami tidak mengumpul atau menyimpan maklumat kad pembayaran secara langsung.</p>"
+      "html": "<p>Selain ciri percuma, Aplikasi mungkin menawarkan ciri atau kandungan berbayar, termasuk langganan bulanan, tahunan dan pembelian sekali sahaja. Produk, harga, tempoh dan ciri tersedia yang dipaparkan dalam Aplikasi dan gedung yang digunakan pada masa pembelian adalah terpakai. Pembelian dan pembayaran dibuat melalui App Store milik Apple pada iOS atau Google Play pada Android. Kami tidak mengumpulkan atau menyimpan maklumat kad pembayaran secara langsung.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Langganan",
-      "html": "<p>Yuran langganan dikenakan pada Akaun Apple anda. Langganan diperbaharui secara automatik untuk setiap tempoh yang berkenaan melainkan anda mematikan pembaharuan automatik dalam tetapan App Store. Selepas pembaharuan automatik dimatikan, ciri yang berkaitan biasanya kekal tersedia sehingga akhir tempoh berbayar semasa. Terma, syarat dan dasar Apple dan App Store mengawal pengurusan langganan, pembatalan pembaharuan automatik, bayaran balik dan perkara pembayaran lain.</p>"
+      "html": "<p>Langganan yang dibeli dalam App Store dicaj melalui Akaun Apple anda; langganan Google Play dicaj melalui Akaun Google yang digunakan untuk pembelian. Langganan diperbaharui secara automatik bagi setiap tempoh berkenaan melainkan dibatalkan atau pembaharuan automatik dimatikan melalui gedung pembelian. Urus langganan App Store dalam tetapan langganan Apple dan langganan Google Play dalam tetapan langganan Google Play. Selepas pembatalan, ciri berkaitan lazimnya kekal tersedia sehingga tamat tempoh yang telah dibayar. Pengurusan, pembatalan, bayaran balik dan urusan pembayaran lain tertakluk kepada undang-undang yang terpakai serta terma, syarat dan dasar gedung pembelian.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=ms\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Pelan pembelian sekali sahaja",
-      "html": "<p>Pelan pembelian sekali sahaja memberikan hak untuk menggunakan ciri berbayar yang berkaitan tanpa pembayaran langganan berulang. Ia tidak menjamin penyediaan Aplikasi, setiap ciri, integrasi pihak ketiga atau keserasian yang berterusan dengan semua versi atau peranti iOS akan datang. Pemulihan maklumat pembelian dan perkara berkaitan adalah tertakluk kepada sistem dan dasar Apple dan App Store.</p>"
+      "html": "<p>Pelan pembelian sekali sahaja memberikan hak untuk menggunakan ciri berbayar yang berkaitan tanpa pembayaran langganan berulang. Ia tidak menjamin penyediaan Aplikasi, setiap ciri, integrasi pihak ketiga atau keserasian yang berterusan dengan semua versi atau peranti iOS atau Android akan datang. Pemulihan maklumat pembelian dan perkara berkaitan tertakluk kepada sistem dan dasar gedung yang digunakan untuk pembelian (App Store atau Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Penafian",
-      "html": "<p>Kami tidak menjamin bahawa Aplikasi akan sentiasa beroperasi dengan betul pada setiap peranti dan persekitaran OS, atau ia akan tepat, lengkap, selamat, sesuai untuk tujuan tertentu atau sentiasa tersedia. Pemasa, pemberitahuan dan ciri lain mungkin tidak beroperasi seperti yang dijangkakan disebabkan oleh tetapan peranti, spesifikasi iOS, ciri penjimatan kuasa, keadaan rangkaian atau keadaan lain. Kecuali dalam kes salah laku yang disengajakan, kecuaian besar atau liabiliti kami yang tidak boleh dikecualikan oleh undang-undang, kami tidak bertanggungjawab atas kerosakan yang timbul daripada penggunaan atau ketidakupayaan untuk menggunakan Aplikasi.</p>"
+      "html": "<p>Kami tidak menjamin bahawa Aplikasi akan sentiasa beroperasi dengan betul pada setiap peranti dan persekitaran OS, atau ia akan tepat, lengkap, selamat, sesuai untuk tujuan tertentu atau sentiasa tersedia. Pemasa, pemberitahuan dan ciri lain mungkin tidak beroperasi seperti yang dijangkakan disebabkan oleh tetapan peranti, spesifikasi iOS atau Android, ciri penjimatan kuasa, keadaan rangkaian atau keadaan lain. Kecuali dalam kes salah laku yang disengajakan, kecuaian besar atau liabiliti kami yang tidak boleh dikecualikan oleh undang-undang, kami tidak bertanggungjawab atas kerosakan yang timbul daripada penggunaan atau ketidakupayaan untuk menggunakan Aplikasi.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Perubahan atau pemberhentian",
-      "html": "<p>Kami mungkin menambah, mengubah, menyemak, mengurangkan, menggantung atau menamatkan ciri atau semua atau sebahagian daripada Aplikasi mengikut keperluan, dengan mengambil kira keadaan pembangunan dan operasi, peranti yang disokong, spesifikasi iOS, perkhidmatan pihak ketiga dan faktor lain. Kami akan memberikan notis tentang perubahan penting atau pemberhentian jika boleh.</p>"
+      "html": "<p>Kami mungkin menambah, mengubah, menyemak, mengurangkan, menggantung atau menamatkan ciri atau semua atau sebahagian daripada Aplikasi mengikut keperluan, dengan mengambil kira keadaan pembangunan dan operasi, peranti yang disokong, spesifikasi iOS atau Android, perkhidmatan pihak ketiga dan faktor lain. Kami akan memberikan notis tentang perubahan penting atau pemberhentian jika boleh.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Pilih bahasa"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "b862f9806f942975bf1fd89d193d17afe1206d2674df89880bba67ceb3d9339d",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "6c44630e9dd955a112791c8bdf609ec2f4809cb6c4a9361b9c272b02627192d4",
+    "reviewedSectionsSha256": "18f990cc906b30c8cf9ff35113c9e2060105b9cccdf2eec973a8af80bfc45157"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "b862f9806f942975bf1fd89d193d17afe1206d2674df89880bba67ceb3d9339d",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

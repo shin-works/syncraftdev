@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
   "appId": "6800948890",
-  "revision": "2026-10-22",
+  "revision": "2026-10-24",
   "fallback": "en",
   "notes": [
     "Existing routes do not imply translated bodies.",
     "Only source-ready or translation-reviewed documents can be rendered as localized pages.",
-    "Spanish ES/MX share a generic translation; country-specific legal questions are tracked separately."
+    "Spanish ES/MX share a generic translation; country-specific legal questions are tracked separately.",
+    "2026-10-24: existing localized URLs now serve shared iOS/Android documents with store-specific purchase and cancellation clauses."
   ],
   "locales": [
     {

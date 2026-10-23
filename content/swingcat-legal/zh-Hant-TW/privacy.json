@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "隱私權政策",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "生效日期：2026年8月28日<br>\n     最後更新日期：2026年10月18日",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "生效日期：2026年8月28日<br>\n     最後更新日期：2026年10月24日",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>本隱私權政策解釋了 SynCraft（「我們」）如何處理 iOS 應用程式 SwingCat（「應用程式」）中的使用者資訊。</p>"
+      "html": "<p>本隱私權政策解釋了 SynCraft（「我們」）如何處理 iOS或Android 應用程式 SwingCat（「應用程式」）中的使用者資訊。</p>"
     },
     {
       "id": "section-01",
       "heading": "1. 我們收集和儲存的資訊",
-      "html": "<p>該應用程式通常不會要求使用者直接輸入姓名、地址、電話號碼或電子郵件地址進行註冊。</p>\n      <p>根據您對應用程式的使用情況，以下資訊可能會儲存在您的裝置上：計時器設定；專注時間和計時器歷史記錄；您輸入的任務；貓、物品、稱號和其他應用程式內內容及其使用情況；應用程式設定；可選的個人資料資訊，例如姓名；以及付費功能的狀態。</p>\n      <p>我們也可能透過第三方服務收集或處理資訊，用於使用情況分析、品質改進、診斷和廣告投放。這些資訊可能包括裝置類型、作業系統、語言設定、應用程式版本、啟動和功能使用事件、崩潰和效能資料、IP 位址和其他網路資訊、廣告互動以及裝置或廣告識別碼。實際處理的資訊可能會因您的 iOS 版本、裝置設定、隱私選項、同意狀態和第三方服務規範而異。</p>"
+      "html": "<p>該應用程式通常不會要求使用者直接輸入姓名、地址、電話號碼或電子郵件地址進行註冊。</p>\n      <p>根據您對應用程式的使用情況，以下資訊可能會儲存在您的裝置上：計時器設定；專注時間和計時器歷史記錄；您輸入的任務；貓、物品、稱號和其他應用程式內內容及其使用情況；應用程式設定；可選的個人資料資訊，例如姓名；以及付費功能的狀態。</p>\n      <p>我們也可能透過第三方服務收集或處理資訊，用於使用情況分析、品質改進、診斷和廣告投放。這些資訊可能包括裝置類型、作業系統、語言設定、應用程式版本、啟動和功能使用事件、崩潰和效能資料、IP 位址和其他網路資訊、廣告互動以及裝置或廣告識別碼。實際處理的資訊可能會因您的 iOS或Android 版本、裝置設定、隱私選項、同意狀態和第三方服務規範而異。</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>我們可能會使用 Google AdMob 來展示廣告。本應用程式可能會提供激勵廣告，使用者可以透過這些廣告獲得物品或其他應用程式內福利。 AdMob 和 Google 行動廣告 SDK 可能會收集或處理 IP 位址、裝置資訊、裝置或廣告識別碼、廣告展示次數和互動次數、應用程式內互動次數以及崩潰或效能資訊，用於廣告投放、效果衡量、詐欺防範和服務改進。</p>\n      <p>廣告識別碼的可用性可能取決於裝置設定、Apple 隱私功能和使用者同意。 Google<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隱私權政策：</a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google 如何使用合作夥伴網站或應用程式的資料</a></p>"
+      "html": "<p>我們可能會使用 Google AdMob 來展示廣告。本應用程式可能會提供激勵廣告，使用者可以透過這些廣告獲得物品或其他應用程式內福利。 AdMob 和 Google 行動廣告 SDK 可能會收集或處理 IP 位址、裝置資訊、裝置或廣告識別碼、廣告展示次數和互動次數、應用程式內互動次數以及崩潰或效能資訊，用於廣告投放、效果衡量、詐欺防範和服務改進。</p>\n      <p>廣告識別碼的可用性可能取決於裝置設定、iOS或Android 隱私功能和使用者同意。 Google<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隱私權政策：</a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google 如何使用合作夥伴網站或應用程式的資料</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. 應用程式內購買",
-      "html": "<p>我們可能會透過 App Store 提供訂閱和一次性購買方案。 Apple 會處理付款，我們不會直接收集或儲存信用卡號或其他付款資訊。為了提供付費功能，App 可能會存取或驗證有關已購產品和訂閱狀態的資訊。 Apple<a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">隱私權政策</a></p>\n      <p>我們使用 RevenueCat, Inc. 來驗證購買、管理訂閱和付費功能存取權、恢復購買以及了解購買和訂閱活動。 RevenueCat 會處理由其 SDK 產生的應用程式使用者 ID、已購產品識別碼、交易和購買歷史記錄資訊、訂閱狀態和到期日期，以及裝置作業系統和應用程式版本等技術資訊。</p>\n      <p>我們使用 RevenueCat 自動產生的匿名應用程式使用者 ID，而不是設定您的姓名或電子郵件地址作為購買識別碼。我們不會將您的應用程式內個人資料名稱或電子郵件地址作為客戶屬性傳送給 RevenueCat。使用匿名 ID 並不意味著不會處理任何資訊，也不意味著當您解除安裝應用程式時購買記錄會被刪除。</p>\n      <p>有關更多資訊，請參閱<a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 隱私權政策</a>和<a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 關於購買資料的資訊</a>。</p>"
+      "html": "<p>我們可能透過iOS上的App Store及Android上的Google Play提供訂閱與一次性購買方案。付款由購買時使用的商店處理：App Store由Apple處理，Google Play由Google處理。我們不會直接蒐集或儲存信用卡號碼或其他付款資訊。為提供付費功能，本應用程式可能讀取或驗證已購商品資訊及訂閱狀態。</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">隱私權政策</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隱私權政策</a></p>\n      <p>我們使用 RevenueCat, Inc. 來驗證購買、管理訂閱和付費功能存取權、恢復購買以及了解購買和訂閱活動。 RevenueCat 會處理由其 SDK 產生的應用程式使用者 ID、已購產品識別碼、交易和購買歷史記錄資訊、訂閱狀態和到期日期，以及裝置作業系統和應用程式版本等技術資訊。</p>\n      <p>我們使用 RevenueCat 自動產生的匿名應用程式使用者 ID，而不是設定您的姓名或電子郵件地址作為購買識別碼。我們不會將您的應用程式內個人資料名稱或電子郵件地址作為客戶屬性傳送給 RevenueCat。使用匿名 ID 並不意味著不會處理任何資訊，也不意味著當您解除安裝應用程式時購買記錄會被刪除。</p>\n      <p>有關更多資訊，請參閱<a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 隱私權政策</a>和<a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 關於購買資料的資訊 (iOS)</a>。</p>"
     },
     {
       "id": "section-06",
       "heading": "6. 與第三方共享",
-      "html": "<p>我們不會出售使用者資訊。為提供本應用程式服務，我們可能會將資訊傳送至 Firebase、Google AdMob、Apple、RevenueCat 及其他服務提供者或由其處理。在獲得您的同意、法律要求、為保護生命、身體或財產安全所必需，或法律允許的其他情況下，我們也可能揭露資訊。</p>"
+      "html": "<p>我們不會出售使用者資訊。為提供本應用程式服務，我們可能會將資訊傳送至 Firebase、Google AdMob、Apple (App Store), Google (Google Play)、RevenueCat 及其他服務提供者或由其處理。在獲得您的同意、法律要求、為保護生命、身體或財產安全所必需，或法律允許的其他情況下，我們也可能揭露資訊。</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. 廣告和隱私選擇",
-      "html": "<p>廣告投放方式可能因地區、裝置設定、Apple隱私功能、同意狀態和其他條件而異。在必要時，我們可能會顯示一個螢幕，請求您同意或選擇有關廣告或其他資料用途的選項。您可以在 iOS 隱私權設定提供的範圍內，管理廣告識別碼和其他資訊的使用。</p>"
+      "html": "<p>廣告投放方式可能因地區、裝置設定、iOS或Android隱私功能、同意狀態和其他條件而異。在必要時，我們可能會顯示一個螢幕，請求您同意或選擇有關廣告或其他資料用途的選項。您可以在 iOS或Android 隱私權設定提供的範圍內，管理廣告識別碼和其他資訊的使用。</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "選擇語言"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "07b718e6bdee178ddbadcd376bef7a02d7cd5dae3943d9bbca1b15cf6eaac263",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "3aae77364385dd48cbfe04c094f06d495c1d91112ff895e08d3ea6b60e9bd311",
+    "reviewedSectionsSha256": "a341f9c050a8420134177ecf5436ef62e7b47d215247d718ae37ce9c2ad32b68"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "07b718e6bdee178ddbadcd376bef7a02d7cd5dae3943d9bbca1b15cf6eaac263",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

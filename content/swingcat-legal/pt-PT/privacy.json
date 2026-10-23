@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Política de Privacidade",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Data de entrada em vigor: 28 de agosto de 2026. <br>\n     Última atualização: 18 de outubro de 2026.",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Data de entrada em vigor: 28 de agosto de 2026. <br>\n     Última atualização: 24 de outubro de 2026.",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Esta Política de Privacidade explica como a SynCraft (\"nós\", \"nos\" ou \"nossos\") lida com as informações do utilizador na aplicação iOS SwingCat (a \"Aplicação\").</p>"
+      "html": "<p>Esta Política de Privacidade explica como a SynCraft (\"nós\", \"nos\" ou \"nossos\") lida com as informações do utilizador na aplicação iOS ou Android SwingCat (a \"Aplicação\").</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Informações que recolhemos e armazenamos",
-      "html": "<p>A aplicação geralmente não exige que os utilizadores introduzam diretamente o nome, morada, número de telefone ou endereço de e-mail para se registarem.</p>\n      <p>Dependendo da utilização da aplicação, as seguintes informações podem ser armazenadas no seu dispositivo: definições do temporizador; tempo de concentração e histórico do cronómetro; tarefas inseridas por si; gatos, itens, títulos e outros conteúdos da aplicação e a sua utilização; definições da aplicação; informações opcionais do perfil, como o nome; e o estado dos recursos pagos.</p>\n      <p>Também podemos recolher ou processar informações através de serviços de terceiros para análise de utilização, melhorias de qualidade, diagnósticos e publicidade. Isto pode incluir o tipo de dispositivo, o sistema operativo, as definições de idioma, a versão da aplicação, os eventos de arranque e utilização de recursos, os dados de falhas e de desempenho, o endereço IP e outras informações de rede, as interações com anúncios e os identificadores de dispositivos ou de publicidade. As informações efetivamente processadas podem variar de acordo com a sua versão do iOS, definições do dispositivo, opções de privacidade, estado de consentimento e especificações do serviço de terceiros.</p>"
+      "html": "<p>A aplicação geralmente não exige que os utilizadores introduzam diretamente o nome, morada, número de telefone ou endereço de e-mail para se registarem.</p>\n      <p>Dependendo da utilização da aplicação, as seguintes informações podem ser armazenadas no seu dispositivo: definições do temporizador; tempo de concentração e histórico do cronómetro; tarefas inseridas por si; gatos, itens, títulos e outros conteúdos da aplicação e a sua utilização; definições da aplicação; informações opcionais do perfil, como o nome; e o estado dos recursos pagos.</p>\n      <p>Também podemos recolher ou processar informações através de serviços de terceiros para análise de utilização, melhorias de qualidade, diagnósticos e publicidade. Isto pode incluir o tipo de dispositivo, o sistema operativo, as definições de idioma, a versão da aplicação, os eventos de arranque e utilização de recursos, os dados de falhas e de desempenho, o endereço IP e outras informações de rede, as interações com anúncios e os identificadores de dispositivos ou de publicidade. As informações efetivamente processadas podem variar de acordo com a sua versão do iOS ou Android, definições do dispositivo, opções de privacidade, estado de consentimento e especificações do serviço de terceiros.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>Podemos utilizar o Google AdMob para exibir anúncios. A aplicação pode oferecer anúncios com recompensas, através dos quais os utilizadores podem receber itens ou outros benefícios dentro da aplicação. O AdMob e o SDK de anúncios para dispositivos móveis do Google podem recolher ou processar endereços IP, informações do dispositivo, identificadores de dispositivo ou de publicidade, impressões e interações com anúncios, interações dentro da aplicação e informações sobre falhas ou desempenho para veiculação de anúncios, mensuração, prevenção de fraudes e melhoria do serviço.</p>\n      <p>A disponibilidade de identificadores de publicidade pode depender das definições do dispositivo, das características de privacidade da Apple e do consentimento do utilizador. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade do Google: </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Como o Google utiliza os dados de sites ou aplicações parceiras.</a></p>"
+      "html": "<p>Podemos utilizar o Google AdMob para exibir anúncios. A aplicação pode oferecer anúncios com recompensas, através dos quais os utilizadores podem receber itens ou outros benefícios dentro da aplicação. O AdMob e o SDK de anúncios para dispositivos móveis do Google podem recolher ou processar endereços IP, informações do dispositivo, identificadores de dispositivo ou de publicidade, impressões e interações com anúncios, interações dentro da aplicação e informações sobre falhas ou desempenho para veiculação de anúncios, mensuração, prevenção de fraudes e melhoria do serviço.</p>\n      <p>A disponibilidade de identificadores de publicidade pode depender das definições do dispositivo, das características de privacidade do iOS e do Android e do consentimento do utilizador. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade do Google: </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Como o Google utiliza os dados de sites ou aplicações parceiras.</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Compras na aplicação",
-      "html": "<p>Podemos oferecer subscrições e planos de compra única através da App Store. A Apple processa os pagamentos e não recolhemos nem armazenamos diretamente números de cartão de crédito ou outros dados de pagamento. Para fornecer recursos pagos, a aplicação pode aceder ou verificar informações sobre os produtos adquiridos e o estado da subscrição. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Política de Privacidade da Apple</a></p>\n      <p>Utilizamos a RevenueCat, Inc. para verificar compras, gerir o acesso a subscrições e recursos pagos, restaurar compras e compreender a atividade de compras e subscrições. A RevenueCat processa um ID de utilizador da aplicação gerado pelo seu SDK, identificadores de produtos adquiridos, informações de transações e histórico de compras, estado da subscrição e datas de expiração, bem como informações técnicas como o sistema operativo do dispositivo e a versão da aplicação.</p>\n      <p>Utilizamos o ID de utilizador anónimo gerado automaticamente pelo RevenueCat em vez de definir um nome ou endereço de e-mail como o seu identificador de compra. Não enviamos o nome do seu perfil na aplicação nem o seu endereço de e-mail para o RevenueCat como atributos do cliente. A utilização de um ID anónimo não significa que nenhuma informação seja processada ou que os registos de compra sejam eliminados quando desinstala a aplicação.</p>\n      <p>Para mais informações, consulte a <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade da RevenueCat</a> e <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">as informações da RevenueCat sobre os dados de compra</a>.</p>"
+      "html": "<p>Podemos disponibilizar subscrições e compras únicas através da App Store no iOS e do Google Play no Android. Os pagamentos são processados pela loja utilizada na compra: a Apple no caso da App Store e a Google no caso do Google Play. Não recolhemos nem armazenamos diretamente números de cartões de crédito ou outros dados de pagamento. Para disponibilizar as funcionalidades pagas, a aplicação pode consultar ou verificar informações sobre produtos adquiridos e o estado das subscrições.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Política de Privacidade da Apple</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade da Google </a></p>\n      <p>Utilizamos a RevenueCat, Inc. para verificar compras, gerir o acesso a subscrições e recursos pagos, restaurar compras e compreender a atividade de compras e subscrições. A RevenueCat processa um ID de utilizador da aplicação gerado pelo seu SDK, identificadores de produtos adquiridos, informações de transações e histórico de compras, estado da subscrição e datas de expiração, bem como informações técnicas como o sistema operativo do dispositivo e a versão da aplicação.</p>\n      <p>Utilizamos o ID de utilizador anónimo gerado automaticamente pelo RevenueCat em vez de definir um nome ou endereço de e-mail como o seu identificador de compra. Não enviamos o nome do seu perfil na aplicação nem o seu endereço de e-mail para o RevenueCat como atributos do cliente. A utilização de um ID anónimo não significa que nenhuma informação seja processada ou que os registos de compra sejam eliminados quando desinstala a aplicação.</p>\n      <p>Para mais informações, consulte a <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade da RevenueCat</a> e <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">as informações da RevenueCat sobre os dados de compra (iOS)</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6.º Partilha com terceiros",
-      "html": "<p>Não vendemos informações sobre os utilizadores. As informações podem ser enviadas ao Firebase, Google AdMob, Apple, RevenueCat e outros serviços, ou ser processadas por esses serviços, conforme necessário para fornecer a aplicação. Poderemos também divulgar informações quando consentir, quando a divulgação for exigida por lei, quando necessário para proteger a vida, a integridade física ou a propriedade, ou conforme permitido por lei.</p>"
+      "html": "<p>Não vendemos informações sobre os utilizadores. As informações podem ser enviadas ao Firebase, Google AdMob, Apple (App Store), Google (Google Play), RevenueCat e outros serviços, ou ser processadas por esses serviços, conforme necessário para fornecer a aplicação. Poderemos também divulgar informações quando consentir, quando a divulgação for exigida por lei, quando necessário para proteger a vida, a integridade física ou a propriedade, ou conforme permitido por lei.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Opções de publicidade e privacidade",
-      "html": "<p>A forma como os anúncios são apresentados pode variar de acordo com a região, as definições do dispositivo, as características de privacidade da Apple, o estado do consentimento e outras condições. Quando necessário, podemos apresentar um ecrã a solicitar consentimento ou uma escolha em relação aos anúncios ou outras utilizações de dados. Pode gerir a utilização de identificadores de publicidade e outras informações, na medida em que tal seja possível, através das definições de privacidade do iOS.</p>"
+      "html": "<p>A forma como os anúncios são apresentados pode variar de acordo com a região, as definições do dispositivo, as características de privacidade do iOS e do Android, o estado do consentimento e outras condições. Quando necessário, podemos apresentar um ecrã a solicitar consentimento ou uma escolha em relação aos anúncios ou outras utilizações de dados. Pode gerir a utilização de identificadores de publicidade e outras informações, na medida em que tal seja possível, através das definições de privacidade do iOS ou Android.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Selecione o idioma"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "e1b3ed9d2259c20e17dc46cd056a99f3de2cd546121dba96d142aa99a8bde7e0",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "ba66442319e19c4aa80debf083fe8b54cf09f9b38efda4437b269e3508272583",
+    "reviewedSectionsSha256": "78e26c132afeae836a998a26c36c898825e981c6fa1dd037550e03fbafed7313"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "e1b3ed9d2259c20e17dc46cd056a99f3de2cd546121dba96d142aa99a8bde7e0",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

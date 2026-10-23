@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Brugsbetingelser",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Ikrafttrædelsesdato: 28. august 2026 <br>\n     Sidst opdateret: 8. september 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Ikrafttrædelsesdato: 28. august 2026 <br>\n     Sidst opdateret: 24. oktober 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Disse brugsbetingelser (\"Vilkår\") angiver vilkårene og betingelserne for brug af SwingCat (\"Appen\"), en iOS-applikation leveret af SynCraft (\"vi\", \"os\" eller \"vores\").</p>\n      <p>Ud over disse vilkår er din brug af appen underlagt Apples standard slutbrugerlicensaftale (EULA).</p>\n      <p>Apples standard slutbrugerlicensaftale: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Gennemgå venligst disse vilkår og Apples standard slutbrugerlicensaftale, før du bruger appen.</p>"
+      "html": "<p>Disse brugsbetingelser (\"Vilkår\") angiver vilkårene og betingelserne for brug af SwingCat (\"Appen\"), en iOS- eller Android-applikation leveret af SynCraft (\"vi\", \"os\" eller \"vores\").</p><p>Ud over disse vilkår gælder Apples standardslutbrugerlicensaftale (EULA) for iOS-versionen, der distribueres via App Store. Android-versionen, der distribueres via Google Play, og køb i denne butik er også underlagt de gældende vilkår og politikker for Google Play. Læs disse vilkår og vilkårene for din butik, før du bruger appen.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. Appen",
-      "html": "<ol>\n       <li>Appen hjælper brugerne med at styre fokus og arbejdstid ved hjælp af en timer.</li>\n       <li>Afhængigt af timerbrugen kan appen tilbyde funktioner, hvorigennem brugerne kan få fat i eller bruge katte, genstande, titler og andet indhold.</li>\n       <li>Appen garanterer ikke koncentration, produktivitet, læringsresultater, arbejdsresultater eller andre specifikke resultater.</li>\n       <li>Funktionerne kan variere afhængigt af iOS, enheden og andre brugsforhold.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Appen hjælper brugerne med at styre fokus og arbejdstid ved hjælp af en timer.</li>\n       <li>Afhængigt af timerbrugen kan appen tilbyde funktioner, hvorigennem brugerne kan få fat i eller bruge katte, genstande, titler og andet indhold.</li>\n       <li>Appen garanterer ikke koncentration, produktivitet, læringsresultater, arbejdsresultater eller andre specifikke resultater.</li>\n       <li>Funktionerne kan variere afhængigt af iOS eller Android, enheden og andre brugsforhold.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Betalte tjenester og køb",
-      "html": "<p>Ud over gratis funktioner kan appen tilbyde betalte funktioner eller indhold, herunder månedlige abonnementer, årsabonnementer og engangskøb. Produkter, priser, perioder og tilgængelige funktioner, der vises i appen og App Store på købstidspunktet, gælder. Køb og betalinger foretages via Apples App Store; vi indsamler eller opbevarer ikke direkte betalingskortoplysninger.</p>"
+      "html": "<p>Ud over gratis funktioner kan appen tilbyde betalte funktioner eller indhold, herunder månedsabonnementer, årsabonnementer og engangskøb. De produkter, priser, perioder og tilgængelige funktioner, der vises i appen og i den anvendte butik på købstidspunktet, gælder. Køb og betalinger foretages via Apples App Store på iOS eller Google Play på Android. Vi indsamler eller gemmer ikke betalingskortoplysninger direkte.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Abonnementer",
-      "html": "<p>Abonnementsgebyrer opkræves på din Apple-konto. Et abonnement fornyes automatisk for hver relevant periode, medmindre du deaktiverer automatisk fornyelse i App Store-indstillingerne. Når automatisk fornyelse er deaktiveret, forbliver de relevante funktioner generelt tilgængelige indtil udgangen af den aktuelle betalte periode. Apples og App Stores vilkår, betingelser og politikker regulerer abonnementsadministration, annullering af automatisk fornyelse, refusioner og andre betalingsforhold.</p>"
+      "html": "<p>Abonnementer købt i App Store opkræves via din Apple-konto; abonnementer købt i Google Play via den Google-konto, der blev brugt til købet. Et abonnement fornyes automatisk for hver gældende periode, medmindre det opsiges, eller automatisk fornyelse deaktiveres i den butik, hvor det blev købt. Administrer App Store-abonnementer i Apples abonnementsindstillinger og Google Play-abonnementer i Google Plays abonnementsindstillinger. Efter opsigelse er funktionerne normalt tilgængelige indtil udgangen af den allerede betalte periode. Administration, opsigelse, tilbagebetalinger og andre betalingsforhold er underlagt gældende lovgivning samt købsbutikkens vilkår, betingelser og politikker.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=da\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Engangskøbsplaner",
-      "html": "<p>En engangskøbsplan giver ret til at bruge de relevante betalte funktioner uden tilbagevendende abonnementsbetalinger. Den garanterer ikke permanent tilgængelighed af appen, alle funktioner, tredjepartsintegrationer eller kompatibilitet med alle fremtidige iOS-versioner eller -enheder. Gendannelse af købsoplysninger og relaterede forhold er underlagt Apples og App Stores systemer og politikker.</p>"
+      "html": "<p>En engangskøbsplan giver ret til at bruge de relevante betalte funktioner uden tilbagevendende abonnementsbetalinger. Den garanterer ikke permanent tilgængelighed af appen, alle funktioner, tredjepartsintegrationer eller kompatibilitet med alle fremtidige iOS- eller Android-versioner eller -enheder. Gendannelse af købsoplysninger og relaterede forhold er underlagt systemerne og politikkerne i den butik, hvor købet blev foretaget (App Store eller Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Ansvarsfraskrivelser",
-      "html": "<p>Vi garanterer ikke, at appen altid vil fungere korrekt på alle enheder og operativsystemmiljøer, eller at den vil være nøjagtig, fuldstændig, sikker, egnet til et bestemt formål eller kontinuerligt tilgængelig. Timere, notifikationer og andre funktioner fungerer muligvis ikke som forventet på grund af enhedsindstillinger, iOS-specifikationer, strømbesparende funktioner, netværksforhold eller andre omstændigheder. Medmindre det drejer sig om forsætlig forseelse, grov uagtsomhed eller ansvar, der ikke kan udelukkes ved lov, er vi ikke ansvarlige for skader, der opstår som følge af brug af eller manglende evne til at bruge appen.</p>"
+      "html": "<p>Vi garanterer ikke, at appen altid vil fungere korrekt på alle enheder og operativsystemmiljøer, eller at den vil være nøjagtig, fuldstændig, sikker, egnet til et bestemt formål eller kontinuerligt tilgængelig. Timere, notifikationer og andre funktioner fungerer muligvis ikke som forventet på grund af enhedsindstillinger, iOS- eller Android-specifikationer, strømbesparende funktioner, netværksforhold eller andre omstændigheder. Medmindre det drejer sig om forsætlig forseelse, grov uagtsomhed eller ansvar, der ikke kan udelukkes ved lov, er vi ikke ansvarlige for skader, der opstår som følge af brug af eller manglende evne til at bruge appen.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Ændringer eller ophør",
-      "html": "<p>Vi kan tilføje, ændre, gennemgå, reducere, suspendere eller afslutte funktioner eller hele eller dele af appen efter behov, under hensyntagen til udviklings- og driftsforhold, understøttede enheder, iOS-specifikationer, tredjepartstjenester og andre faktorer. Vi vil give besked om væsentlige ændringer eller ophør, hvor det er rimeligt muligt.</p>"
+      "html": "<p>Vi kan tilføje, ændre, gennemgå, reducere, suspendere eller afslutte funktioner eller hele eller dele af appen efter behov, under hensyntagen til udviklings- og driftsforhold, understøttede enheder, iOS- eller Android-specifikationer, tredjepartstjenester og andre faktorer. Vi vil give besked om væsentlige ændringer eller ophør, hvor det er rimeligt muligt.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Vælg sprog"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "42c26e3548c45f236c5f4ddc3947f88f722463f8402b74b46007e3cb0026c749",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "f520572c3565d89bb500499696324aa6e94f1aae0763f36ad098062599031e96",
+    "reviewedSectionsSha256": "2a2d5c81dc2ac656cd49fffbe8fcddfccb5ad88485c3460ff268886ab43dffb7"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "42c26e3548c45f236c5f4ddc3947f88f722463f8402b74b46007e3cb0026c749",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

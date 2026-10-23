@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Politica de confidențialitate",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Data intrării în vigoare: 28 august 2026 <br>\n     Ultima actualizare: 18 octombrie 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Data intrării în vigoare: 28 august 2026 <br>\n     Ultima actualizare: 24 octombrie 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Această Politică de confidențialitate explică modul în care SynCraft („noi”, „nouă” sau „al nostru/a noastră/ai noștri/ale noastre”) gestionează informațiile utilizatorilor în aplicația iOS SwingCat („Aplicația”).</p>"
+      "html": "<p>Această Politică de confidențialitate explică modul în care SynCraft („noi”, „nouă” sau „al nostru/a noastră/ai noștri/ale noastre”) gestionează informațiile utilizatorilor în aplicația iOS sau Android SwingCat („Aplicația”).</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Informațiile pe care le colectăm și le stocăm",
-      "html": "<p>Aplicația nu solicită, în general, utilizatorilor să introducă direct un nume, o adresă, un număr de telefon sau o adresă de e-mail pentru a se înregistra.</p>\n      <p>În funcție de utilizarea Aplicației, următoarele informații pot fi stocate pe dispozitivul dvs.: setările temporizatorului; timpul de concentrare și istoricul temporizatorului; sarcinile introduse de dvs.; pisici, obiecte, titluri și alt conținut din aplicație, precum și utilizarea acestora; setările aplicației; informații opționale despre profil, cum ar fi numele; și starea funcțiilor plătite.</p>\n      <p>De asemenea, putem colecta sau prelucra informații prin intermediul serviciilor terțe pentru analiza utilizării, îmbunătățirea calității, diagnosticare și publicitate. Acestea pot include tipul dispozitivului, sistemul de operare, setările de limbă, versiunea aplicației, evenimentele de lansare și de utilizare a funcțiilor, datele privind blocarea și performanța, adresa IP și alte informații despre rețea, interacțiunile publicitare și identificatorii dispozitivului sau ai reclamei. Informațiile prelucrate efectiv pot varia în funcție de versiunea iOS, setările dispozitivului, opțiunile de confidențialitate, starea consimțământului și specificațiile serviciilor terțe.</p>"
+      "html": "<p>Aplicația nu solicită, în general, utilizatorilor să introducă direct un nume, o adresă, un număr de telefon sau o adresă de e-mail pentru a se înregistra.</p>\n      <p>În funcție de utilizarea Aplicației, următoarele informații pot fi stocate pe dispozitivul dvs.: setările temporizatorului; timpul de concentrare și istoricul temporizatorului; sarcinile introduse de dvs.; pisici, obiecte, titluri și alt conținut din aplicație, precum și utilizarea acestora; setările aplicației; informații opționale despre profil, cum ar fi numele; și starea funcțiilor plătite.</p>\n      <p>De asemenea, putem colecta sau prelucra informații prin intermediul serviciilor terțe pentru analiza utilizării, îmbunătățirea calității, diagnosticare și publicitate. Acestea pot include tipul dispozitivului, sistemul de operare, setările de limbă, versiunea aplicației, evenimentele de lansare și de utilizare a funcțiilor, datele privind blocarea și performanța, adresa IP și alte informații despre rețea, interacțiunile publicitare și identificatorii dispozitivului sau ai reclamei. Informațiile prelucrate efectiv pot varia în funcție de versiunea iOS sau Android, setările dispozitivului, opțiunile de confidențialitate, starea consimțământului și specificațiile serviciilor terțe.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>Este posibil să folosim Google AdMob pentru a afișa reclame. Aplicația poate oferi reclame cu recompensă prin intermediul cărora utilizatorii pot primi articole sau alte beneficii în aplicație. AdMob și SDK-ul Google Mobile Ads pot colecta sau procesa adrese IP, informații despre dispozitive, identificatori de dispozitive sau reclame, afișări și interacțiuni cu anunțurile, interacțiuni în aplicație și informații despre erori sau performanță pentru difuzarea anunțurilor, măsurare, prevenirea fraudelor și îmbunătățirea serviciilor.</p>\n      <p>Disponibilitatea identificatorilor publicitari poate depinde de setările dispozitivului, de funcțiile de confidențialitate Apple și de consimțământul utilizatorului. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Cum utilizează Google datele de pe site-urile sau aplicațiile partenere</a></p>"
+      "html": "<p>Este posibil să folosim Google AdMob pentru a afișa reclame. Aplicația poate oferi reclame cu recompensă prin intermediul cărora utilizatorii pot primi articole sau alte beneficii în aplicație. AdMob și SDK-ul Google Mobile Ads pot colecta sau procesa adrese IP, informații despre dispozitive, identificatori de dispozitive sau reclame, afișări și interacțiuni cu anunțurile, interacțiuni în aplicație și informații despre erori sau performanță pentru difuzarea anunțurilor, măsurare, prevenirea fraudelor și îmbunătățirea serviciilor.</p>\n      <p>Disponibilitatea identificatorilor publicitari poate depinde de setările dispozitivului, de funcțiile de confidențialitate iOS sau Android și de consimțământul utilizatorului. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Cum utilizează Google datele de pe site-urile sau aplicațiile partenere</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Achiziții în aplicație",
-      "html": "<p>Este posibil să oferim abonamente și planuri de achiziție unică prin App Store. Apple procesează plățile și nu colectăm sau stocăm direct numerele cardurilor de credit sau alte detalii de plată. Pentru a oferi funcții plătite, Aplicația poate accesa sau verifica informații despre produsele achiziționate și starea abonamentului. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate Apple</a></p>\n      <p>Folosim RevenueCat, Inc. pentru a verifica achizițiile, a gestiona accesul la abonamente și funcții cu plată, a restaura achizițiile și a înțelege activitatea de achiziții și abonamente. RevenueCat procesează un ID de utilizator al aplicației generat de SDK-ul său, identificatori de produse achiziționate, informații despre tranzacții și istoricul achizițiilor, starea abonamentului și datele de expirare, precum și informații tehnice, cum ar fi sistemul de operare al dispozitivului și versiunea aplicației.</p>\n      <p>Folosim ID-ul de utilizator anonim al aplicației generat automat de RevenueCat, în loc să setăm un nume sau o adresă de e-mail ca identificator al achiziției. Nu trimitem numele sau adresa de e-mail a profilului dvs. din aplicație către RevenueCat ca atribute ale clientului. Utilizarea unui ID anonim nu înseamnă că nu sunt procesate informații sau că înregistrările achizițiilor sunt șterse atunci când dezinstalați aplicația.</p>\n      <p>Pentru mai multe informații, consultați <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate RevenueCat</a> și <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informațiile RevenueCat despre datele de achiziție</a>.</p>"
+      "html": "<p>Putem oferi abonamente și achiziții unice prin App Store pe iOS și Google Play pe Android. Plățile sunt procesate de magazinul folosit pentru achiziție: Apple pentru App Store și Google pentru Google Play. Nu colectăm și nu stocăm direct numere de card de credit sau alte date de plată. Pentru a oferi funcțiile plătite, aplicația poate accesa sau verifica informații despre produsele cumpărate și starea abonamentelor.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate Apple</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate Google </a></p>\n      <p>Folosim RevenueCat, Inc. pentru a verifica achizițiile, a gestiona accesul la abonamente și funcții cu plată, a restaura achizițiile și a înțelege activitatea de achiziții și abonamente. RevenueCat procesează un ID de utilizator al aplicației generat de SDK-ul său, identificatori de produse achiziționate, informații despre tranzacții și istoricul achizițiilor, starea abonamentului și datele de expirare, precum și informații tehnice, cum ar fi sistemul de operare al dispozitivului și versiunea aplicației.</p>\n      <p>Folosim ID-ul de utilizator anonim al aplicației generat automat de RevenueCat, în loc să setăm un nume sau o adresă de e-mail ca identificator al achiziției. Nu trimitem numele sau adresa de e-mail a profilului dvs. din aplicație către RevenueCat ca atribute ale clientului. Utilizarea unui ID anonim nu înseamnă că nu sunt procesate informații sau că înregistrările achizițiilor sunt șterse atunci când dezinstalați aplicația.</p>\n      <p>Pentru mai multe informații, consultați <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Politica de confidențialitate RevenueCat</a> și <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informațiile RevenueCat despre datele de achiziție (iOS)</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Partajarea cu terți",
-      "html": "<p>Nu vindem informații despre utilizatori. Informațiile pot fi trimise către sau procesate de Firebase, Google AdMob, Apple, RevenueCat și alte servicii, după cum este necesar pentru furnizarea Aplicației. De asemenea, putem divulga informații în cazul în care vă dați consimțământul, în cazul în care divulgarea este impusă de lege, în cazul în care este necesar pentru a proteja viața, corpul sau proprietatea sau în orice alt mod permis de lege.</p>"
+      "html": "<p>Nu vindem informații despre utilizatori. Informațiile pot fi trimise către sau procesate de Firebase, Google AdMob, Apple (App Store), Google (Google Play), RevenueCat și alte servicii, după cum este necesar pentru furnizarea Aplicației. De asemenea, putem divulga informații în cazul în care vă dați consimțământul, în cazul în care divulgarea este impusă de lege, în cazul în care este necesar pentru a proteja viața, corpul sau proprietatea sau în orice alt mod permis de lege.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Opțiuni privind publicitatea și confidențialitatea",
-      "html": "<p>Modul în care sunt difuzate reclamele poate varia în funcție de regiune, setările dispozitivului, funcțiile de confidențialitate Apple, starea consimțământului și alte condiții. Acolo unde este necesar, este posibil să afișăm un ecran care solicită consimțământul sau o opțiune privind reclamele sau alte utilizări ale datelor. Puteți gestiona utilizarea identificatorilor publicitari și a altor informații în măsura în care acest lucru este disponibil prin setările de confidențialitate iOS.</p>"
+      "html": "<p>Modul în care sunt difuzate reclamele poate varia în funcție de regiune, setările dispozitivului, funcțiile de confidențialitate iOS sau Android, starea consimțământului și alte condiții. Acolo unde este necesar, este posibil să afișăm un ecran care solicită consimțământul sau o opțiune privind reclamele sau alte utilizări ale datelor. Puteți gestiona utilizarea identificatorilor publicitari și a altor informații în măsura în care acest lucru este disponibil prin setările de confidențialitate iOS sau Android.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Selectați limba"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "4e72a60cf40298aac590b9cc690a2c8a307a4482669fd7ab23b28521119479cc",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "faa41e9312f629e55e88ac12e12c77fa9782ce6f02e76adcb76878525997e025",
+    "reviewedSectionsSha256": "fe901c7a93c47d6a719dc432939ddb78fc25111a40d32cdf8c79f5e6c25d5285"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "4e72a60cf40298aac590b9cc690a2c8a307a4482669fd7ab23b28521119479cc",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Tietosuojakäytäntö",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Voimaantulopäivä: 28. elokuuta 2026 <br>\n     Viimeksi päivitetty: 18. lokakuuta 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Voimaantulopäivä: 28. elokuuta 2026 <br>\n     Viimeksi päivitetty: 24. lokakuuta 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Tässä tietosuojakäytännössä selitetään, miten SynCraft (\"me\", \"meitä\" tai \"meidän\") käsittelee käyttäjätietoja iOS-sovelluksessa SwingCat (\"Sovellus\").</p>"
+      "html": "<p>Tässä tietosuojakäytännössä selitetään, miten SynCraft (\"me\", \"meitä\" tai \"meidän\") käsittelee käyttäjätietoja iOS- tai Android-sovelluksessa SwingCat (\"Sovellus\").</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Keräämämme ja tallentamamme tiedot",
-      "html": "<p>Sovellus ei yleensä vaadi käyttäjiä antamaan suoraan nimeä, osoitetta, puhelinnumeroa tai sähköpostiosoitetta rekisteröityäkseen.</p>\n      <p>Sovelluksen käytöstä riippuen laitteellesi voidaan tallentaa seuraavat tiedot: ajastinasetukset; keskittymisaika ja ajastinhistoria; itse syöttämäsi tehtävät; kissat, esineet, arvonimet ja muu sovelluksen sisäinen sisältö sekä niiden käyttö; sovellusasetukset; valinnaiset profiilitiedot, kuten nimi; ja maksullisten ominaisuuksien tila.</p>\n      <p>Voimme myös kerätä tai käsitellä tietoja kolmansien osapuolten palveluiden kautta käyttöanalyysiä, laadunparannusta, diagnostiikkaa ja mainontaa varten. Näitä voivat olla esimerkiksi laitetyyppi, käyttöjärjestelmä, kieliasetukset, sovellusversio, käynnistys- ja ominaisuuksien käyttötapahtumat, kaatumis- ja suorituskykytiedot, IP-osoite ja muut verkkotiedot, mainosvuorovaikutukset sekä laite- tai mainostunnisteet. Käsiteltävät tiedot voivat vaihdella iOS-versiosi, laiteasetusten, tietosuoja-asetusten, suostumustilan ja kolmannen osapuolen palvelumääritysten mukaan.</p>"
+      "html": "<p>Sovellus ei yleensä vaadi käyttäjiä antamaan suoraan nimeä, osoitetta, puhelinnumeroa tai sähköpostiosoitetta rekisteröityäkseen.</p>\n      <p>Sovelluksen käytöstä riippuen laitteellesi voidaan tallentaa seuraavat tiedot: ajastinasetukset; keskittymisaika ja ajastinhistoria; itse syöttämäsi tehtävät; kissat, esineet, arvonimet ja muu sovelluksen sisäinen sisältö sekä niiden käyttö; sovellusasetukset; valinnaiset profiilitiedot, kuten nimi; ja maksullisten ominaisuuksien tila.</p>\n      <p>Voimme myös kerätä tai käsitellä tietoja kolmansien osapuolten palveluiden kautta käyttöanalyysiä, laadunparannusta, diagnostiikkaa ja mainontaa varten. Näitä voivat olla esimerkiksi laitetyyppi, käyttöjärjestelmä, kieliasetukset, sovellusversio, käynnistys- ja ominaisuuksien käyttötapahtumat, kaatumis- ja suorituskykytiedot, IP-osoite ja muut verkkotiedot, mainosvuorovaikutukset sekä laite- tai mainostunnisteet. Käsiteltävät tiedot voivat vaihdella iOS- tai Android-versiosi, laiteasetusten, tietosuoja-asetusten, suostumustilan ja kolmannen osapuolen palvelumääritysten mukaan.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>Saatamme käyttää Google AdMobia mainosten näyttämiseen. Sovellus voi tarjota palkittuja mainoksia, joiden kautta käyttäjät voivat saada tuotteita tai muita sovelluksen sisäisiä etuja. AdMob ja Google Mobile Ads SDK voivat kerätä tai käsitellä IP-osoitteita, laitetietoja, laite- tai mainostunnisteita, mainosten näyttökertoja ja vuorovaikutusta, sovelluksen sisäisiä vuorovaikutuksia sekä kaatumis- tai suorituskykytietoja mainosten näyttämistä, mittaamista, petosten estämistä ja palvelun parantamista varten.</p>\n      <p>Mainostunnisteiden saatavuus voi riippua laiteasetuksista, Applen tietosuojaominaisuuksista ja käyttäjän suostumuksesta. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlen tietosuojakäytäntö </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Miten Google käyttää tietoja kumppanisivustoilta tai sovelluksista</a></p>"
+      "html": "<p>Saatamme käyttää Google AdMobia mainosten näyttämiseen. Sovellus voi tarjota palkittuja mainoksia, joiden kautta käyttäjät voivat saada tuotteita tai muita sovelluksen sisäisiä etuja. AdMob ja Google Mobile Ads SDK voivat kerätä tai käsitellä IP-osoitteita, laitetietoja, laite- tai mainostunnisteita, mainosten näyttökertoja ja vuorovaikutusta, sovelluksen sisäisiä vuorovaikutuksia sekä kaatumis- tai suorituskykytietoja mainosten näyttämistä, mittaamista, petosten estämistä ja palvelun parantamista varten.</p>\n      <p>Mainostunnisteiden saatavuus voi riippua laiteasetuksista, iOS:n ja Androidin tietosuojaominaisuuksista ja käyttäjän suostumuksesta. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlen tietosuojakäytäntö </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Miten Google käyttää tietoja kumppanisivustoilta tai sovelluksista</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Sovelluksen sisäiset ostot",
-      "html": "<p>Saatamme tarjota tilauksia ja kertaostoksia App Storen kautta. Apple käsittelee maksuja, emmekä kerää tai tallenna suoraan luottokorttinumeroita tai muita maksutietoja. Maksullisten ominaisuuksien tarjoamiseksi sovellus voi käyttää tai tarkistaa tietoja ostetuista tuotteista ja tilauksen tilasta. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Applen tietosuojakäytäntö</a></p>\n      <p>Käytämme RevenueCat, Inc:iä ostosten vahvistamiseen, tilausten ja maksullisten ominaisuuksien käytön hallintaan, ostosten palauttamiseen sekä osto- ja tilaustoiminnan ymmärtämiseen. RevenueCat käsittelee SDK:nsa luomaa sovelluksen käyttäjätunnusta, ostettujen tuotteiden tunnisteita, tapahtuma- ja ostohistoriatietoja, tilauksen tilaa ja vanhenemispäiviä sekä teknisiä tietoja, kuten laitteen käyttöjärjestelmän ja sovelluksen version.</p>\n      <p>Käytämme RevenueCatin automaattisesti luomaa anonyymiä sovelluksen käyttäjätunnusta nimen tai sähköpostiosoitteen sijaan ostotunnisteena. Emme lähetä sovelluksen sisäistä profiilinimeäsi tai sähköpostiosoitettasi RevenueCatille asiakasattribuutteina. Anonyymin tunnuksen käyttö ei tarkoita, ettei tietoja käsitellä tai että ostotiedot poistetaan, kun poistat sovelluksen asennuksen.</p>\n      <p>Lisätietoja on <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tietosuojakäytännössä</a> ja <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tiedoissa ostotiedoista</a>.</p>"
+      "html": "<p>Voimme tarjota tilauksia ja kertaostoja iOS:n App Storessa ja Androidin Google Playssa. Maksut käsittelee ostoon käytetty kauppa: App Storessa Apple ja Google Playssa Google. Emme kerää tai tallenna suoraan luottokorttinumeroita tai muita maksutietoja. Maksullisten toimintojen tarjoamiseksi sovellus voi hakea tai tarkistaa ostettuja tuotteita ja tilauksen tilaa koskevia tietoja.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Applen tietosuojakäytäntö</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlen tietosuojakäytäntö </a></p>\n      <p>Käytämme RevenueCat, Inc:iä ostosten vahvistamiseen, tilausten ja maksullisten ominaisuuksien käytön hallintaan, ostosten palauttamiseen sekä osto- ja tilaustoiminnan ymmärtämiseen. RevenueCat käsittelee SDK:nsa luomaa sovelluksen käyttäjätunnusta, ostettujen tuotteiden tunnisteita, tapahtuma- ja ostohistoriatietoja, tilauksen tilaa ja vanhenemispäiviä sekä teknisiä tietoja, kuten laitteen käyttöjärjestelmän ja sovelluksen version.</p>\n      <p>Käytämme RevenueCatin automaattisesti luomaa anonyymiä sovelluksen käyttäjätunnusta nimen tai sähköpostiosoitteen sijaan ostotunnisteena. Emme lähetä sovelluksen sisäistä profiilinimeäsi tai sähköpostiosoitettasi RevenueCatille asiakasattribuutteina. Anonyymin tunnuksen käyttö ei tarkoita, ettei tietoja käsitellä tai että ostotiedot poistetaan, kun poistat sovelluksen asennuksen.</p>\n      <p>Lisätietoja on <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tietosuojakäytännössä</a> ja <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatin tiedoissa ostotiedoista (iOS)</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Jakaminen kolmansille osapuolille",
-      "html": "<p>Emme myy käyttäjien tietoja. Tietoja voidaan lähettää Firebaselle, Google AdMobille, Applelle, RevenueCatille ja muille palveluille tai käsitellä niiden toimesta tarvittaessa sovelluksen tarjoamiseksi. Voimme myös luovuttaa tietoja, jos annat suostumuksesi, jos laki sitä edellyttää, jos se on tarpeen hengen, ruumiin tai omaisuuden suojelemiseksi tai jos laki muutoin sallii.</p>"
+      "html": "<p>Emme myy käyttäjien tietoja. Tietoja voidaan lähettää Firebaselle, Google AdMobille, Applelle (App Store), Googlelle (Google Play), RevenueCatille ja muille palveluille tai käsitellä niiden toimesta tarvittaessa sovelluksen tarjoamiseksi. Voimme myös luovuttaa tietoja, jos annat suostumuksesi, jos laki sitä edellyttää, jos se on tarpeen hengen, ruumiin tai omaisuuden suojelemiseksi tai jos laki muutoin sallii.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Mainonta- ja tietosuojavalinnat",
-      "html": "<p>Mainosten näyttämistapa voi vaihdella alueen, laiteasetusten, Applen tietosuoja-asetusten, suostumuksen tilan ja muiden ehtojen mukaan. Tarvittaessa voimme näyttää näytön, jossa pyydetään suostumusta tai valintaa mainoksiin tai muuhun datan käyttöön liittyen. Voit hallita mainostunnisteiden ja muiden tietojen käyttöä siinä määrin kuin se on mahdollista iOS:n tietosuoja-asetuksissa.</p>"
+      "html": "<p>Mainosten näyttämistapa voi vaihdella alueen, laiteasetusten, iOS:n ja Androidin tietosuoja-asetusten, suostumuksen tilan ja muiden ehtojen mukaan. Tarvittaessa voimme näyttää näytön, jossa pyydetään suostumusta tai valintaa mainoksiin tai muuhun datan käyttöön liittyen. Voit hallita mainostunnisteiden ja muiden tietojen käyttöä siinä määrin kuin se on mahdollista iOS:n tai Androidin tietosuoja-asetuksissa.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Valitse kieli"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "bf0f0ebbfad0a00e18905c122065d9ead2881c42d933642ef682ef65d30084c8",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "b70723fe99d64e9352069752b67ef39528985b15beb8e1df30005b312ed310be",
+    "reviewedSectionsSha256": "c03d70c9bb1548a58c340a386748ee92abfe62aeb48d3fa68c2306f1172f9b63"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "bf0f0ebbfad0a00e18905c122065d9ead2881c42d933642ef682ef65d30084c8",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "隐私政策",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "生效日期：2026年8月28日<br>\n     最后更新日期：2026年10月18日",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "生效日期：2026年8月28日<br>\n     最后更新日期：2026年10月24日",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>本隐私政策解释了 SynCraft（“我们”）如何处理 iOS 应用程序 SwingCat（“应用程序”）中的用户信息。</p>"
+      "html": "<p>本隐私政策解释了 SynCraft（“我们”）如何处理 iOS或Android 应用程序 SwingCat（“应用程序”）中的用户信息。</p>"
     },
     {
       "id": "section-01",
       "heading": "1. 我们收集和存储的信息",
-      "html": "<p>该应用程序通常不要求用户直接输入姓名、地址、电话号码或电子邮件地址进行注册。</p>\n      <p>根据您对应用程序的使用情况，以下信息可能会存储在您的设备上：计时器设置；专注时间和计时器历史记录；您输入的任务；猫、物品、称号和其他应用程序内内容及其使用情况；应用程序设置；可选的个人资料信息，例如姓名；以及付费功能的状态。</p>\n      <p>我们可能还会通过第三方服务收集或处理信息，用于使用情况分析、质量改进、诊断和广告投放。这些信息可能包括设备类型、操作系统、语言设置、应用版本、启动和功能使用事件、崩溃和性能数据、IP 地址和其他网络信息、广告互动以及设备或广告标识符。实际处理的信息可能因您的 iOS 版本、设备设置、隐私选项、同意状态和第三方服务规范而异。</p>"
+      "html": "<p>该应用程序通常不要求用户直接输入姓名、地址、电话号码或电子邮件地址进行注册。</p>\n      <p>根据您对应用程序的使用情况，以下信息可能会存储在您的设备上：计时器设置；专注时间和计时器历史记录；您输入的任务；猫、物品、称号和其他应用程序内内容及其使用情况；应用程序设置；可选的个人资料信息，例如姓名；以及付费功能的状态。</p>\n      <p>我们可能还会通过第三方服务收集或处理信息，用于使用情况分析、质量改进、诊断和广告投放。这些信息可能包括设备类型、操作系统、语言设置、应用版本、启动和功能使用事件、崩溃和性能数据、IP 地址和其他网络信息、广告互动以及设备或广告标识符。实际处理的信息可能因您的 iOS或Android 版本、设备设置、隐私选项、同意状态和第三方服务规范而异。</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>我们可能会使用 Google AdMob 来展示广告。本应用可能会提供激励广告，用户可以通过这些广告获得物品或其他应用内福利。AdMob 和 Google 移动广告 SDK 可能会收集或处理 IP 地址、设备信息、设备或广告标识符、广告展示次数和互动次数、应用内互动次数以及崩溃或性能信息，用于广告投放、效果衡量、欺诈防范和服务改进。</p>\n      <p>广告标识符的可用性可能取决于设备设置、Apple 隐私功能和用户同意。Google<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隐私权政策：</a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google 如何使用来自合作伙伴网站或应用的数据</a></p>"
+      "html": "<p>我们可能会使用 Google AdMob 来展示广告。本应用可能会提供激励广告，用户可以通过这些广告获得物品或其他应用内福利。AdMob 和 Google 移动广告 SDK 可能会收集或处理 IP 地址、设备信息、设备或广告标识符、广告展示次数和互动次数、应用内互动次数以及崩溃或性能信息，用于广告投放、效果衡量、欺诈防范和服务改进。</p>\n      <p>广告标识符的可用性可能取决于设备设置、iOS或Android 隐私功能和用户同意。Google<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隐私权政策：</a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google 如何使用来自合作伙伴网站或应用的数据</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. 应用内购买",
-      "html": "<p>我们可能会通过 App Store 提供订阅和一次性购买方案。Apple 会处理付款，我们不会直接收集或存储信用卡号或其他付款信息。为了提供付费功能，App 可能会访问或验证有关已购产品和订阅状态的信息。Apple<a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">隐私政策</a></p>\n      <p>我们使用 RevenueCat, Inc. 来验证购买、管理订阅和付费功能访问权限、恢复购买以及了解购买和订阅活动。RevenueCat 会处理由其 SDK 生成的应用用户 ID、已购产品标识符、交易和购买历史记录信息、订阅状态和到期日期，以及设备操作系统和应用版本等技术信息。</p>\n      <p>我们使用 RevenueCat 自动生成的匿名应用用户 ID，而不是设置您的姓名或电子邮件地址作为购买标识符。我们不会将您的应用内个人资料名称或电子邮件地址作为客户属性发送给 RevenueCat。使用匿名 ID 并不意味着不会处理任何信息，也不意味着当您卸载应用时购买记录会被删除。</p>\n      <p>有关更多信息，请参阅<a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 隐私政策</a>和<a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 关于购买数据的信息</a>。</p>"
+      "html": "<p>我们可能通过iOS上的App Store及Android上的Google Play提供订阅和一次性购买方案。付款由购买时使用的商店处理：App Store由Apple处理，Google Play由Google处理。我们不会直接收集或保存信用卡号码或其他付款信息。为提供付费功能，本应用可能读取或核实已购商品信息及订阅状态。</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">隐私政策</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">隐私权政策</a></p>\n      <p>我们使用 RevenueCat, Inc. 来验证购买、管理订阅和付费功能访问权限、恢复购买以及了解购买和订阅活动。RevenueCat 会处理由其 SDK 生成的应用用户 ID、已购产品标识符、交易和购买历史记录信息、订阅状态和到期日期，以及设备操作系统和应用版本等技术信息。</p>\n      <p>我们使用 RevenueCat 自动生成的匿名应用用户 ID，而不是设置您的姓名或电子邮件地址作为购买标识符。我们不会将您的应用内个人资料名称或电子邮件地址作为客户属性发送给 RevenueCat。使用匿名 ID 并不意味着不会处理任何信息，也不意味着当您卸载应用时购买记录会被删除。</p>\n      <p>有关更多信息，请参阅<a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 隐私政策</a>和<a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat 关于购买数据的信息 (iOS)</a>。</p>"
     },
     {
       "id": "section-06",
       "heading": "6. 与第三方共享",
-      "html": "<p>我们不会出售用户信息。为提供本应用服务，我们可能会将信息发送至 Firebase、Google AdMob、Apple、RevenueCat 及其他服务提供商或由其处理。在获得您的同意、法律要求、为保护生命、身体或财产安全所必需，或法律允许的其他情况下，我们也可能披露信息。</p>"
+      "html": "<p>我们不会出售用户信息。为提供本应用服务，我们可能会将信息发送至 Firebase、Google AdMob、Apple (App Store), Google (Google Play)、RevenueCat 及其他服务提供商或由其处理。在获得您的同意、法律要求、为保护生命、身体或财产安全所必需，或法律允许的其他情况下，我们也可能披露信息。</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. 广告和隐私选择",
-      "html": "<p>广告投放方式可能因地区、设备设置、Apple隐私功能、同意状态和其他条件而异。在必要时，我们可能会显示一个屏幕，请求您同意或选择有关广告或其他数据用途的选项。您可以在 iOS 隐私设置提供的范围内管理广告标识符和其他信息的使用。</p>"
+      "html": "<p>广告投放方式可能因地区、设备设置、iOS或Android隐私功能、同意状态和其他条件而异。在必要时，我们可能会显示一个屏幕，请求您同意或选择有关广告或其他数据用途的选项。您可以在 iOS或Android 隐私设置提供的范围内管理广告标识符和其他信息的使用。</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "选择语言"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "7b50e817d4a3da55edf63f197e409cfff845103eacd2961b8e044944d4104154",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "5cda0418035dfc4eeabc83381dc722037bb46c4580af6199da89165d14180d1e",
+    "reviewedSectionsSha256": "54b80b8a6011bb97c5edcefb3e2e6b40360776558ca13ce43e8c7295f477aca5"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "7b50e817d4a3da55edf63f197e409cfff845103eacd2961b8e044944d4104154",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

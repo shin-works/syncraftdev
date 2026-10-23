@@ -31,7 +31,7 @@ test('generated pages are current, complete and explicitly label English fallbac
     const html = readFileSync(p, 'utf8');
     assert.ok(html.includes('https://www.revenuecat.com/privacy'));
     assert.equal((html.match(/id="section-05"/g) || []).length, 1);
-    assert.ok(html.includes('data-document-version="2026-10-18"'));
+    assert.ok(html.includes('data-document-version="2026-10-24"'));
     assert.ok(!html.includes('translation-notice" role='));
   }
   const french = readFileSync(join(root, 'public/swingcat/fr/privacy/index.html'), 'utf8');

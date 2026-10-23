@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Felhasználási feltételek",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Hatálybalépés dátuma: 2026. augusztus 28. <br>\n     Utolsó frissítés: 2026. szeptember 8.",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Hatálybalépés dátuma: 2026. augusztus 28. <br>\n     Utolsó frissítés: 2026. október 24.",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Jelen Felhasználási Feltételek („Feltételek”) határozzák meg a SwingCat („Alkalmazás”), a SynCraft („mi”, „minket” vagy „miénk”) által biztosított iOS-alkalmazás („Alkalmazás”) használatának feltételeit.</p>\n      <p>Jelen Feltételeken túlmenően az Alkalmazás Ön általi használatára az Apple Standard Végfelhasználói Licencszerződése (EULA) is vonatkozik.</p>\n      <p>Apple Standard Végfelhasználói Licencszerződés: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Kérjük, az Alkalmazás használata előtt tekintse át ezeket a Feltételeket és az Apple Standard Végfelhasználói Licencszerződést.</p>"
+      "html": "<p>Jelen Felhasználási Feltételek („Feltételek”) határozzák meg a SwingCat („Alkalmazás”), a SynCraft („mi”, „minket” vagy „miénk”) által biztosított iOS- vagy Android-alkalmazás („Alkalmazás”) használatának feltételeit.</p><p>E Feltételeken túl az App Store-on keresztül terjesztett iOS-verzióra az Apple szabványos végfelhasználói licencszerződése (EULA) is vonatkozik. A Google Playen terjesztett Android-verzióra és az ott végzett vásárlásokra a Google Play alkalmazandó feltételei és szabályzatai is érvényesek. Használat előtt olvassa el e Feltételeket és az áruházára vonatkozó feltételeket.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. Az alkalmazás",
-      "html": "<ol>\n       <li>Az alkalmazás segít a felhasználóknak a fókusz és a munkaidő kezelésében egy időzítő segítségével.</li>\n       <li>Az időzítő használatától függően az alkalmazás olyan funkciókat kínálhat, amelyeken keresztül a felhasználók macskákat, tárgyakat, címeket és egyéb tartalmakat szerezhetnek be vagy használhatnak.</li>\n       <li>Az alkalmazás nem garantálja a koncentrációt, a termelékenységet, a tanulási eredményeket, a munkaeredményeket vagy bármilyen más konkrét eredményt.</li>\n       <li>A funkciók az iOS-től, az eszköztől és egyéb használati körülményektől függően eltérőek lehetnek.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Az alkalmazás segít a felhasználóknak a fókusz és a munkaidő kezelésében egy időzítő segítségével.</li>\n       <li>Az időzítő használatától függően az alkalmazás olyan funkciókat kínálhat, amelyeken keresztül a felhasználók macskákat, tárgyakat, címeket és egyéb tartalmakat szerezhetnek be vagy használhatnak.</li>\n       <li>Az alkalmazás nem garantálja a koncentrációt, a termelékenységet, a tanulási eredményeket, a munkaeredményeket vagy bármilyen más konkrét eredményt.</li>\n       <li>A funkciók az iOS- vagy Android-től, az eszköztől és egyéb használati körülményektől függően eltérőek lehetnek.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Fizetős szolgáltatások és vásárlások",
-      "html": "<p>Az ingyenes funkciók mellett az alkalmazás fizetős funkciókat vagy tartalmakat is kínálhat, beleértve a havi előfizetéseket, az éves előfizetéseket és az egyszeri vásárlási csomagokat. Az alkalmazásban és az App Store-ban a vásárlás időpontjában megjelenített termékek, árak, időszakok és elérhető funkciók érvényesek. A vásárlások és a fizetések az Apple App Store-on keresztül történnek; közvetlenül nem gyűjtünk és nem tárolunk bankkártya-adatokat.</p>"
+      "html": "<p>Az ingyenes funkciók mellett az Alkalmazás fizetős funkciókat vagy tartalmat is kínálhat, például havi és éves előfizetéseket vagy egyszeri vásárlásokat. A vásárláskor az Alkalmazásban és a használt áruházban feltüntetett termékek, árak, időtartamok és elérhető funkciók az irányadók. A vásárlás és a fizetés iOS-en az Apple App Store-ján, Androidon a Google Playen keresztül történik. Fizetési kártyaadatokat közvetlenül nem gyűjtünk és nem tárolunk.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Előfizetések",
-      "html": "<p>Az előfizetési díjakat az Apple-fiókjára terheljük. Az előfizetés automatikusan megújul minden vonatkozó időszakra, kivéve, ha kikapcsolja az automatikus megújítást az App Store beállításaiban. Az automatikus megújítás kikapcsolása után a vonatkozó funkciók általában az aktuális fizetett időszak végéig elérhetők maradnak. Az Apple és az App Store feltételei, kikötései és szabályzatai szabályozzák az előfizetések kezelését, az automatikus megújítás lemondását, a visszatérítéseket és az egyéb fizetési kérdéseket.</p>"
+      "html": "<p>Az App Store-ban vásárolt előfizetéseket az Apple-fiókján, a Google Playen vásároltakat a vásárláshoz használt Google-fiókján keresztül számlázzák. Az előfizetés minden vonatkozó időszakra automatikusan megújul, ha nem mondja le, vagy nem kapcsolja ki az automatikus megújítást a vásárlás helyéül szolgáló áruházban. Az App Store-előfizetéseket az Apple előfizetési beállításaiban, a Google Play-előfizetéseket a Google Play előfizetési beállításaiban kezelje. Lemondás után a funkciók általában a már kifizetett időszak végéig elérhetők. A kezelésre, lemondásra, visszatérítésekre és egyéb fizetési ügyekre az alkalmazandó jogszabályok és a vásárláshoz használt áruház feltételei és szabályzatai vonatkoznak.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=hu\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Egyszeri vásárlási csomagok",
-      "html": "<p>Az egyszeri vásárlási csomag jogot biztosít a vonatkozó fizetős funkciók használatára rendszeres előfizetési díjak nélkül. Nem garantálja az Alkalmazás, minden funkció, harmadik féltől származó integrációk vagy az összes jövőbeli iOS-verzióval vagy eszközzel való kompatibilitás állandó biztosítását. A vásárlási információk visszaállítása és a kapcsolódó kérdések az Apple és az App Store rendszereinek és szabályzatainak hatálya alá tartoznak.</p>"
+      "html": "<p>Az egyszeri vásárlási csomag jogot biztosít a vonatkozó fizetős funkciók használatára rendszeres előfizetési díjak nélkül. Nem garantálja az Alkalmazás, minden funkció, harmadik féltől származó integrációk vagy az összes jövőbeli iOS- vagy Android-verzióval vagy eszközzel való kompatibilitás állandó biztosítását. A vásárlási adatok visszaállítására és a kapcsolódó ügyekre a vásárláshoz használt áruház (App Store vagy Google Play) rendszerei és szabályzatai vonatkoznak.</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Jogi nyilatkozatok",
-      "html": "<p>Nem garantáljuk, hogy az Alkalmazás minden eszközön és operációs rendszeren mindig megfelelően fog működni, illetve hogy pontos, teljes, biztonságos, egy adott célra alkalmas vagy folyamatosan elérhető lesz. Az időzítők, értesítések és egyéb funkciók a készülékbeállítások, az iOS specifikációi, az energiatakarékos funkciók, a hálózati feltételek vagy egyéb körülmények miatt nem feltétlenül működnek a várt módon. Szándékos jogsértő magatartásunk, súlyos gondatlanság vagy törvény által ki nem zárható felelősség esetének kivételével nem vállalunk felelősséget az Alkalmazás használatából vagy használatának lehetetlenségéből eredő károkért.</p>"
+      "html": "<p>Nem garantáljuk, hogy az Alkalmazás minden eszközön és operációs rendszeren mindig megfelelően fog működni, illetve hogy pontos, teljes, biztonságos, egy adott célra alkalmas vagy folyamatosan elérhető lesz. Az időzítők, értesítések és egyéb funkciók a készülékbeállítások, az iOS vagy Android specifikációi, az energiatakarékos funkciók, a hálózati feltételek vagy egyéb körülmények miatt nem feltétlenül működnek a várt módon. Szándékos jogsértő magatartásunk, súlyos gondatlanság vagy törvény által ki nem zárható felelősség esetének kivételével nem vállalunk felelősséget az Alkalmazás használatából vagy használatának lehetetlenségéből eredő károkért.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Változások vagy megszüntetés",
-      "html": "<p>Szükség szerint hozzáadhatunk, módosíthatunk, felülvizsgálhatunk, csökkenthetünk, felfüggeszthetünk vagy megszüntethetünk funkciókat, vagy az Alkalmazás egészét vagy annak egy részét, figyelembe véve a fejlesztési és működési körülményeket, a támogatott eszközöket, az iOS specifikációit, a harmadik féltől származó szolgáltatásokat és egyéb tényezőket. Ahol ez ésszerűen lehetséges, értesítjük a lényeges változásokról vagy a megszüntetésről.</p>"
+      "html": "<p>Szükség szerint hozzáadhatunk, módosíthatunk, felülvizsgálhatunk, csökkenthetünk, felfüggeszthetünk vagy megszüntethetünk funkciókat, vagy az Alkalmazás egészét vagy annak egy részét, figyelembe véve a fejlesztési és működési körülményeket, a támogatott eszközöket, az iOS vagy Android specifikációit, a harmadik féltől származó szolgáltatásokat és egyéb tényezőket. Ahol ez ésszerűen lehetséges, értesítjük a lényeges változásokról vagy a megszüntetésről.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Nyelv kiválasztása"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "6bc7deb1b295315ecda080aa4529c466f773debf5dc7fd30b5801f5fec2d665f",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "0fb30db39b0ae586be9b20a41463ba24ed880073c8b56219ec87a4cedfc7a6e5",
+    "reviewedSectionsSha256": "aaa5fd9367c03b9c1c39b50f825cc9a444fb789d859526b52bd9d28a61460370"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "6bc7deb1b295315ecda080aa4529c466f773debf5dc7fd30b5801f5fec2d665f",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

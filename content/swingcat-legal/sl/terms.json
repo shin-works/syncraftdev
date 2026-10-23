@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Pogoji uporabe",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Datum začetka veljavnosti: 28. avgust 2026 <br>\n     Zadnja posodobitev: 8. september 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Datum začetka veljavnosti: 28. avgust 2026 <br>\n     Zadnja posodobitev: 24. oktober 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Ti pogoji uporabe (»pogoji«) določajo pogoje uporabe aplikacije SwingCat (»aplikacija«), aplikacije za iOS, ki jo ponuja SynCraft (»mi«, »nas« ali »naš«).</p>\n      <p>Poleg teh pogojev vašo uporabo aplikacije ureja standardna licenčna pogodba za končnega uporabnika (EULA) družbe Apple.</p>\n      <p>Standardna licenčna pogodba za končnega uporabnika družbe Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Pred uporabo aplikacije preglejte te pogoje in standardno licenčno pogodbo za končnega uporabnika Apple.</p>"
+      "html": "<p>Ti pogoji uporabe (»pogoji«) določajo pogoje uporabe aplikacije SwingCat (»aplikacija«), aplikacije za iOS ali Android, ki jo ponuja SynCraft (»mi«, »nas« ali »naš«).</p><p>Poleg teh Pogojev za različico za iOS, distribuirano prek trgovine App Store, velja Applova standardna licenčna pogodba za končnega uporabnika (EULA). Za različico za Android, distribuirano prek trgovine Google Play, in nakupe v njej veljajo tudi ustrezni pogoji in pravilniki Google Play. Pred uporabo aplikacije preberite te Pogoje in pogoje svoje trgovine.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. Aplikacija",
-      "html": "<ol>\n       <li>Aplikacija uporabnikom pomaga upravljati osredotočenost in delovni čas s pomočjo časovnika.</li>\n       <li>Glede na uporabo časovnika lahko aplikacija ponuja funkcije, prek katerih lahko uporabniki pridobijo ali uporabljajo mačke, predmete, naslove in drugo vsebino.</li>\n       <li>Aplikacija ne zagotavlja koncentracije, produktivnosti, učnih izidov, delovnih izidov ali katerega koli drugega specifičnega rezultata.</li>\n       <li>Funkcije se lahko razlikujejo glede na iOS, napravo in druge pogoje uporabe.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Aplikacija uporabnikom pomaga upravljati osredotočenost in delovni čas s pomočjo časovnika.</li>\n       <li>Glede na uporabo časovnika lahko aplikacija ponuja funkcije, prek katerih lahko uporabniki pridobijo ali uporabljajo mačke, predmete, naslove in drugo vsebino.</li>\n       <li>Aplikacija ne zagotavlja koncentracije, produktivnosti, učnih izidov, delovnih izidov ali katerega koli drugega specifičnega rezultata.</li>\n       <li>Funkcije se lahko razlikujejo glede na iOS ali Android, napravo in druge pogoje uporabe.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Plačljive storitve in nakupi",
-      "html": "<p>Poleg brezplačnih funkcij lahko aplikacija ponuja plačljive funkcije ali vsebino, vključno z mesečnimi naročninami, letnimi naročninami in paketi za enkratni nakup. Veljajo izdelki, cene, obdobja in razpoložljive funkcije, prikazane v aplikaciji in trgovini App Store v času nakupa. Nakupi in plačila se izvajajo prek trgovine Apple App Store; podatkov o plačilnih karticah ne zbiramo ali shranjujemo neposredno.</p>"
+      "html": "<p>Poleg brezplačnih funkcij lahko aplikacija ponuja plačljive funkcije ali vsebino, vključno z mesečnimi in letnimi naročninami ter enkratnimi nakupi. Veljajo izdelki, cene, obdobja in razpoložljive funkcije, prikazani v aplikaciji in uporabljeni trgovini ob nakupu. Nakupi in plačila se izvajajo prek Applove trgovine App Store v sistemu iOS ali Google Play v sistemu Android. Podatkov o plačilnih karticah ne zbiramo ali shranjujemo neposredno.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Naročnine",
-      "html": "<p>Naročnine se zaračunavajo vašemu Apple računu. Naročnina se samodejno podaljša za vsako ustrezno obdobje, razen če v nastavitvah trgovine App Store izklopite samodejno podaljšanje. Ko je samodejno podaljšanje izklopljeno, ustrezne funkcije običajno ostanejo na voljo do konca trenutnega plačanega obdobja. Upravljanje naročnin, preklic samodejnega podaljšanja, vračila denarja in druge zadeve v zvezi s plačili urejajo pogoji, določila in pravilniki trgovin Apple in App Store.</p>"
+      "html": "<p>Naročnine, kupljene v trgovini App Store, se zaračunajo prek vašega računa Apple, naročnine v trgovini Google Play pa prek računa Google, uporabljenega pri nakupu. Naročnina se samodejno podaljša za vsako predvideno obdobje, razen če jo prekličete ali izklopite samodejno podaljševanje v trgovini, kjer ste jo kupili. Naročnine iz trgovine App Store upravljajte v Applovih nastavitvah naročnin, naročnine iz trgovine Google Play pa v nastavitvah naročnin Google Play. Po preklicu so funkcije praviloma dostopne do konca že plačanega obdobja. Za upravljanje, preklic, vračila in druga plačilna vprašanja veljajo ustrezna zakonodaja ter pogoji in pravilniki trgovine, kjer je bil opravljen nakup.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=sl\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Enkratni nakupni načrti",
-      "html": "<p>Enkratni nakupni paket zagotavlja pravico do uporabe ustreznih plačljivih funkcij brez ponavljajočih se plačil naročnine. Ne zagotavlja trajne razpoložljivosti aplikacije, vseh funkcij, integracij tretjih oseb ali združljivosti z vsemi prihodnjimi različicami ali napravami iOS. Obnovitev podatkov o nakupu in sorodne zadeve so predmet sistemov in pravilnikov Apple in App Store.</p>"
+      "html": "<p>Enkratni nakupni paket zagotavlja pravico do uporabe ustreznih plačljivih funkcij brez ponavljajočih se plačil naročnine. Ne zagotavlja trajne razpoložljivosti aplikacije, vseh funkcij, integracij tretjih oseb ali združljivosti z vsemi prihodnjimi različicami ali napravami iOS ali Android. Za obnovitev podatkov o nakupu in povezana vprašanja veljajo sistemi in pravilniki trgovine, uporabljene pri nakupu (App Store ali Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Izjave o omejitvi odgovornosti",
-      "html": "<p>Ne zagotavljamo, da bo aplikacija vedno pravilno delovala na vsaki napravi in operacijskem okolju ali da bo natančna, popolna, varna, primerna za določen namen ali neprekinjeno na voljo. Časovniki, obvestila in druge funkcije morda ne bodo delovali po pričakovanjih zaradi nastavitev naprave, specifikacij sistema iOS, funkcij za varčevanje z energijo, omrežnih razmer ali drugih okoliščin. Razen v primerih našega namernega protipravnega ravnanja, hude malomarnosti ali odgovornosti, ki je po zakonu ni mogoče izključiti, ne odgovarjamo za škodo, ki nastane zaradi uporabe ali nezmožnosti uporabe aplikacije.</p>"
+      "html": "<p>Ne zagotavljamo, da bo aplikacija vedno pravilno delovala na vsaki napravi in operacijskem okolju ali da bo natančna, popolna, varna, primerna za določen namen ali neprekinjeno na voljo. Časovniki, obvestila in druge funkcije morda ne bodo delovali po pričakovanjih zaradi nastavitev naprave, specifikacij sistema iOS ali Android, funkcij za varčevanje z energijo, omrežnih razmer ali drugih okoliščin. Razen v primerih našega namernega protipravnega ravnanja, hude malomarnosti ali odgovornosti, ki je po zakonu ni mogoče izključiti, ne odgovarjamo za škodo, ki nastane zaradi uporabe ali nezmožnosti uporabe aplikacije.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Spremembe ali ukinitev",
-      "html": "<p>Funkcije ali celotno aplikacijo ali njen del lahko po potrebi dodamo, spremenimo, pregledamo, zmanjšamo, začasno ustavimo ali ukinemo, pri čemer upoštevamo razvojne in operativne okoliščine, podprte naprave, specifikacije sistema iOS, storitve tretjih oseb in druge dejavnike. O bistvenih spremembah ali ukinitvi vas bomo obvestili, kadar je to razumno mogoče.</p>"
+      "html": "<p>Funkcije ali celotno aplikacijo ali njen del lahko po potrebi dodamo, spremenimo, pregledamo, zmanjšamo, začasno ustavimo ali ukinemo, pri čemer upoštevamo razvojne in operativne okoliščine, podprte naprave, specifikacije sistema iOS ali Android, storitve tretjih oseb in druge dejavnike. O bistvenih spremembah ali ukinitvi vas bomo obvestili, kadar je to razumno mogoče.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Izberite jezik"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "1df244440106475081e983fb28ec9767c611ebf41a4c9fcf6ecd35b769b2bfef",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "35b8d6d03da66cc12f8fce027caa7adceb6d3af2b9e48c99168cd2b283a883e6",
+    "reviewedSectionsSha256": "d967569b8540e1b227c0879236f5efd84a6e3ae4754d5982d97249c3d3884287"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "1df244440106475081e983fb28ec9767c611ebf41a4c9fcf6ecd35b769b2bfef",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

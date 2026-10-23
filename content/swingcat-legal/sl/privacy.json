@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Pravilnik o zasebnosti",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Datum začetka veljavnosti: 28. avgust 2026 <br>\n     Zadnja posodobitev: 18. oktober 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Datum začetka veljavnosti: 28. avgust 2026 <br>\n     Zadnja posodobitev: 24. oktober 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Ta politika zasebnosti pojasnjuje, kako SynCraft (»mi«, »nas« ali »naš«) obravnava uporabniške podatke v aplikaciji iOS SwingCat (»aplikacija«).</p>"
+      "html": "<p>Ta politika zasebnosti pojasnjuje, kako SynCraft (»mi«, »nas« ali »naš«) obravnava uporabniške podatke v aplikaciji iOS ali Android SwingCat (»aplikacija«).</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Podatki, ki jih zbiramo in shranjujemo",
-      "html": "<p>Aplikacija običajno ne zahteva, da uporabniki za registracijo neposredno vnesejo ime, naslov, telefonsko številko ali e-poštni naslov.</p>\n      <p>Glede na uporabo aplikacije se lahko v vaši napravi shranijo naslednji podatki: nastavitve časovnika; čas fokusa in zgodovina časovnika; opravila, ki ste jih vnesli; mačke, predmeti, naslovi in druga vsebina v aplikaciji ter njihova uporaba; nastavitve aplikacije; izbirni podatki o profilu, kot je ime; in stanje plačljivih funkcij.</p>\n      <p>Podatke lahko zbiramo ali obdelujemo tudi prek storitev tretjih oseb za analizo uporabe, izboljšave kakovosti, diagnostiko in oglaševanje. To lahko vključuje vrsto naprave, operacijski sistem, jezikovne nastavitve, različico aplikacije, dogodke zagona in uporabe funkcij, podatke o zrušitvah in delovanju, naslov IP in druge omrežne podatke, oglaševalske interakcije ter identifikatorje naprave ali oglaševanja. Dejansko obdelani podatki se lahko razlikujejo glede na vašo različico sistema iOS, nastavitve naprave, možnosti zasebnosti, stanje soglasja in specifikacije storitev tretjih oseb.</p>"
+      "html": "<p>Aplikacija običajno ne zahteva, da uporabniki za registracijo neposredno vnesejo ime, naslov, telefonsko številko ali e-poštni naslov.</p>\n      <p>Glede na uporabo aplikacije se lahko v vaši napravi shranijo naslednji podatki: nastavitve časovnika; čas fokusa in zgodovina časovnika; opravila, ki ste jih vnesli; mačke, predmeti, naslovi in druga vsebina v aplikaciji ter njihova uporaba; nastavitve aplikacije; izbirni podatki o profilu, kot je ime; in stanje plačljivih funkcij.</p>\n      <p>Podatke lahko zbiramo ali obdelujemo tudi prek storitev tretjih oseb za analizo uporabe, izboljšave kakovosti, diagnostiko in oglaševanje. To lahko vključuje vrsto naprave, operacijski sistem, jezikovne nastavitve, različico aplikacije, dogodke zagona in uporabe funkcij, podatke o zrušitvah in delovanju, naslov IP in druge omrežne podatke, oglaševalske interakcije ter identifikatorje naprave ali oglaševanja. Dejansko obdelani podatki se lahko razlikujejo glede na vašo različico sistema iOS ali Android, nastavitve naprave, možnosti zasebnosti, stanje soglasja in specifikacije storitev tretjih oseb.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>Za prikazovanje oglasov lahko uporabljamo Google AdMob. Aplikacija lahko ponuja nagrajene oglase, prek katerih lahko uporabniki prejmejo izdelke ali druge ugodnosti v aplikaciji. AdMob in komplet za razvoj programske opreme za mobilne oglase Google lahko zbirata ali obdelujeta naslove IP, podatke o napravah, identifikatorje naprav ali oglasov, prikaze in interakcije oglasov, interakcije v aplikaciji ter podatke o zrušitvah ali učinkovitosti delovanja za namene prikazovanja oglasov, merjenja, preprečevanja goljufij in izboljšanja storitev.</p>\n      <p>Razpoložljivost oglaševalskih identifikatorjev je lahko odvisna od nastavitev naprave, funkcij zasebnosti Apple in soglasja uporabnika. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlov pravilnik o zasebnosti </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Kako Google uporablja podatke s partnerskih spletnih mest ali aplikacij</a></p>"
+      "html": "<p>Za prikazovanje oglasov lahko uporabljamo Google AdMob. Aplikacija lahko ponuja nagrajene oglase, prek katerih lahko uporabniki prejmejo izdelke ali druge ugodnosti v aplikaciji. AdMob in komplet za razvoj programske opreme za mobilne oglase Google lahko zbirata ali obdelujeta naslove IP, podatke o napravah, identifikatorje naprav ali oglasov, prikaze in interakcije oglasov, interakcije v aplikaciji ter podatke o zrušitvah ali učinkovitosti delovanja za namene prikazovanja oglasov, merjenja, preprečevanja goljufij in izboljšanja storitev.</p>\n      <p>Razpoložljivost oglaševalskih identifikatorjev je lahko odvisna od nastavitev naprave, funkcij zasebnosti iOS ali Android in soglasja uporabnika. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlov pravilnik o zasebnosti </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Kako Google uporablja podatke s partnerskih spletnih mest ali aplikacij</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Nakupi v aplikaciji",
-      "html": "<p>V trgovini App Store lahko ponujamo naročnine in pakete za enkratni nakup. Apple obdeluje plačila in neposredno ne zbiramo ali shranjujemo številk kreditnih kartic ali drugih podatkov o plačilu. Za zagotavljanje plačljivih funkcij lahko aplikacija dostopa do podatkov o kupljenih izdelkih in stanju naročnine ali jih preverja. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Pravilnik o zasebnosti družbe Apple</a></p>\n      <p>Za preverjanje nakupov, upravljanje dostopa do naročnin in plačljivih funkcij, obnavljanje nakupov ter razumevanje dejavnosti nakupov in naročnin uporabljamo RevenueCat, Inc. RevenueCat obdeluje ID uporabnika aplikacije, ki ga ustvari njegov SDK, identifikatorje kupljenih izdelkov, podatke o zgodovini transakcij in nakupov, stanje in datume poteka naročnine ter tehnične podatke, kot sta operacijski sistem naprave in različica aplikacije.</p>\n      <p>Namesto imena ali e-poštnega naslova kot identifikatorja nakupa uporabljamo samodejno ustvarjen anonimni uporabniški ID aplikacije RevenueCat. Vašega imena profila v aplikaciji ali e-poštnega naslova ne pošiljamo RevenueCatu kot atributov stranke. Tudi pri uporabi anonimnega ID-ja se lahko obdelujejo podatki. Odstranitev aplikacije sama po sebi ne pomeni izbrisa zapisov o nakupih.</p>\n      <p>Za več informacij glejte <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">pravilnik o zasebnosti RevenueCat</a> in <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informacije RevenueCat o podatkih o nakupih</a>.</p>"
+      "html": "<p>Naročnine in enkratne nakupe lahko ponujamo prek trgovine App Store v sistemu iOS in Google Play v sistemu Android. Plačila obdeluje trgovina, uporabljena za nakup: Apple za App Store in Google za Google Play. Številk kreditnih kartic ali drugih podatkov o plačilu ne zbiramo ali shranjujemo neposredno. Za zagotavljanje plačljivih funkcij lahko aplikacija pridobi ali preveri podatke o kupljenih izdelkih in stanju naročnine.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Pravilnik o zasebnosti družbe Apple</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googlov pravilnik o zasebnosti </a></p>\n      <p>Za preverjanje nakupov, upravljanje dostopa do naročnin in plačljivih funkcij, obnavljanje nakupov ter razumevanje dejavnosti nakupov in naročnin uporabljamo RevenueCat, Inc. RevenueCat obdeluje ID uporabnika aplikacije, ki ga ustvari njegov SDK, identifikatorje kupljenih izdelkov, podatke o zgodovini transakcij in nakupov, stanje in datume poteka naročnine ter tehnične podatke, kot sta operacijski sistem naprave in različica aplikacije.</p>\n      <p>Namesto imena ali e-poštnega naslova kot identifikatorja nakupa uporabljamo samodejno ustvarjen anonimni uporabniški ID aplikacije RevenueCat. Vašega imena profila v aplikaciji ali e-poštnega naslova ne pošiljamo RevenueCatu kot atributov stranke. Tudi pri uporabi anonimnega ID-ja se lahko obdelujejo podatki. Odstranitev aplikacije sama po sebi ne pomeni izbrisa zapisov o nakupih.</p>\n      <p>Za več informacij glejte <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">pravilnik o zasebnosti RevenueCat</a> in <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">informacije RevenueCat o podatkih o nakupih (iOS)</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Deljenje s tretjimi osebami",
-      "html": "<p>Ne prodajamo informacij o uporabnikih. Informacije se lahko pošljejo storitvam Firebase, Google AdMob, Apple, RevenueCat in drugim storitvam ali jih te storitve obdelujejo, če je to potrebno za zagotavljanje aplikacije. Informacije lahko razkrijemo tudi, če s tem soglašate, če je razkritje potrebno po zakonu, če je to potrebno za zaščito življenja, telesa ali premoženja ali če to drugače dovoljuje zakon.</p>"
+      "html": "<p>Ne prodajamo informacij o uporabnikih. Informacije se lahko pošljejo storitvam Firebase, Google AdMob, Apple (App Store), Google (Google Play), RevenueCat in drugim storitvam ali jih te storitve obdelujejo, če je to potrebno za zagotavljanje aplikacije. Informacije lahko razkrijemo tudi, če s tem soglašate, če je razkritje potrebno po zakonu, če je to potrebno za zaščito življenja, telesa ali premoženja ali če to drugače dovoljuje zakon.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Izbire oglaševanja in zasebnosti",
-      "html": "<p>Način prikazovanja oglasov se lahko razlikuje glede na regijo, nastavitve naprave, funkcije zasebnosti Apple, stanje soglasja in druge pogoje. Po potrebi lahko prikažemo zaslon z zahtevo po soglasju ali izbiri glede oglasov ali druge uporabe podatkov. Uporabo oglaševalskih identifikatorjev in drugih informacij lahko upravljate v obsegu, ki je na voljo v nastavitvah zasebnosti sistema iOS.</p>"
+      "html": "<p>Način prikazovanja oglasov se lahko razlikuje glede na regijo, nastavitve naprave, funkcije zasebnosti iOS ali Android, stanje soglasja in druge pogoje. Po potrebi lahko prikažemo zaslon z zahtevo po soglasju ali izbiri glede oglasov ali druge uporabe podatkov. Uporabo oglaševalskih identifikatorjev in drugih informacij lahko upravljate v obsegu, ki je na voljo v nastavitvah zasebnosti sistema iOS ali Android.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Izberite jezik"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "c010893b0ec2803e2b92609205c63f541dc48bc7821028605a1d7933b35472a9",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "db90f015ef580cdd3ec9d0cb45df1e754166e10afbf9be68596fa674edcc27d0",
+    "reviewedSectionsSha256": "62e6318af7a6335c7ed39108c8604ad96482e02a9ce67409fa5b85a103e7c7f9"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "c010893b0ec2803e2b92609205c63f541dc48bc7821028605a1d7933b35472a9",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

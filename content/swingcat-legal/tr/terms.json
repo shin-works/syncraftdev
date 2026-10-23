@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Kullanım Şartları",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Yürürlük tarihi: 28 Ağustos 2026 <br>\n     Son güncelleme: 8 Eylül 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Yürürlük tarihi: 28 Ağustos 2026 <br>\n     Son güncelleme: 24 Ekim 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Bu Kullanım Şartları (\"Şartlar\"), SynCraft (\"biz,\" \"bize\" veya \"bizim\") tarafından sağlanan bir iOS uygulaması olan SwingCat'in (\"Uygulama\") kullanımına ilişkin şart ve koşulları belirler.</p>\n      <p>Bu Şartlara ek olarak, Uygulamayı kullanımınız Apple'ın Standart Son Kullanıcı Lisans Sözleşmesine (EULA) tabidir.</p>\n      <p>Apple Standart Son Kullanıcı Lisans Sözleşmesi: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Lütfen uygulamayı kullanmadan önce bu Şartları ve Apple Standart Son Kullanıcı Lisans Sözleşmesini inceleyin.</p>"
+      "html": "<p>Bu Kullanım Şartları (\"Şartlar\"), SynCraft (\"biz,\" \"bize\" veya \"bizim\") tarafından sağlanan bir iOS veya Android uygulaması olan SwingCat'in (\"Uygulama\") kullanımına ilişkin şart ve koşulları belirler.</p><p>Bu Koşullara ek olarak, App Store üzerinden dağıtılan iOS sürümü Apple’ın Standart Son Kullanıcı Lisans Sözleşmesine (EULA) tabidir. Google Play üzerinden dağıtılan Android sürümü ve bu mağazadaki satın alımlar için Google Play’in geçerli koşulları ve politikaları da uygulanır. Uygulamayı kullanmadan önce bu Koşulları ve kullandığınız mağazanın koşullarını inceleyin.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. Uygulama",
-      "html": "<ol>\n       <li>Bu uygulama, kullanıcıların bir zamanlayıcı kullanarak odaklanmalarını ve çalışma sürelerini yönetmelerine yardımcı olur.</li>\n       <li>Zamanlayıcı kullanımına bağlı olarak, uygulama kullanıcılara kediler, eşyalar, unvanlar ve diğer içerikleri edinme veya kullanma olanağı sağlayan özellikler sunabilir.</li>\n       <li>Bu uygulama konsantrasyonu, verimliliği, öğrenme kazanımlarını, iş sonuçlarını veya herhangi bir başka özel sonucu garanti etmez.</li>\n       <li>Özellikler, iOS sürümüne, cihaza ve diğer kullanım koşullarına bağlı olarak farklılık gösterebilir.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Bu uygulama, kullanıcıların bir zamanlayıcı kullanarak odaklanmalarını ve çalışma sürelerini yönetmelerine yardımcı olur.</li>\n       <li>Zamanlayıcı kullanımına bağlı olarak, uygulama kullanıcılara kediler, eşyalar, unvanlar ve diğer içerikleri edinme veya kullanma olanağı sağlayan özellikler sunabilir.</li>\n       <li>Bu uygulama konsantrasyonu, verimliliği, öğrenme kazanımlarını, iş sonuçlarını veya herhangi bir başka özel sonucu garanti etmez.</li>\n       <li>Özellikler, iOS veya Android sürümüne, cihaza ve diğer kullanım koşullarına bağlı olarak farklılık gösterebilir.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Ücretli hizmetler ve satın alımlar",
-      "html": "<p>Ücretsiz özelliklere ek olarak, uygulama aylık abonelikler, yıllık abonelikler ve tek seferlik satın alma planları da dahil olmak üzere ücretli özellikler veya içerik sunabilir. Uygulamada ve App Store'da satın alma anında gösterilen ürünler, fiyatlar, süreler ve mevcut özellikler geçerlidir. Satın alma ve ödemeler Apple'ın App Store'u üzerinden yapılır; ödeme kartı bilgilerini doğrudan toplamıyor veya saklamıyoruz.</p>"
+      "html": "<p>Uygulama, ücretsiz özelliklerin yanı sıra aylık ve yıllık abonelikler ile tek seferlik satın alımlar dahil ücretli özellikler veya içerikler sunabilir. Satın alım sırasında Uygulamada ve kullanılan mağazada gösterilen ürünler, fiyatlar, süreler ve kullanılabilir özellikler geçerlidir. Satın alımlar ve ödemeler iOS’te Apple’ın App Store’u, Android’de Google Play üzerinden yapılır. Ödeme kartı bilgilerini doğrudan toplamaz ya da saklamayız.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Abonelikler",
-      "html": "<p>Abonelik ücretleri Apple Hesabınızdan tahsil edilir. App Store ayarlarında otomatik yenilemeyi kapatmadığınız sürece abonelik, ilgili her dönem için otomatik olarak yenilenir. Otomatik yenileme kapatıldıktan sonra, ilgili özellikler genellikle mevcut ücretli dönemin sonuna kadar kullanılabilir durumda kalır. Apple ve App Store'un şartları, koşulları ve politikaları abonelik yönetimini, otomatik yenilemenin iptalini, geri ödemeleri ve diğer ödeme konularını düzenler.</p>"
+      "html": "<p>App Store’dan alınan abonelikler Apple Hesabınıza, Google Play’den alınanlar satın alımda kullanılan Google Hesabına faturalandırılır. Abonelik, satın alındığı mağazada iptal edilmediği veya otomatik yenileme kapatılmadığı sürece her dönem otomatik olarak yenilenir. App Store aboneliklerini Apple’ın abonelik ayarlarından, Google Play aboneliklerini Google Play’in abonelik ayarlarından yönetin. İptal sonrasında ilgili özellikler genellikle ödemesi yapılmış dönemin sonuna kadar kullanılabilir. Yönetim, iptal, iadeler ve diğer ödeme konuları, geçerli mevzuata ve satın alımın yapıldığı mağazanın koşulları ile politikalarına tabidir.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=tr\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Tek Seferlik Satın Alma Planları",
-      "html": "<p>Tek seferlik satın alma planı, ilgili ücretli özellikleri yinelenen abonelik ödemeleri olmadan kullanma hakkı sağlar. Uygulamanın, her özelliğin, üçüncü taraf entegrasyonlarının veya gelecekteki tüm iOS sürümleri veya cihazlarıyla uyumluluğun sürekli olarak sağlanmasını garanti etmez. Satın alma bilgilerinin geri yüklenmesi ve ilgili konular Apple ve App Store sistemleri ve politikalarına tabidir.</p>"
+      "html": "<p>Tek seferlik satın alma planı, ilgili ücretli özellikleri yinelenen abonelik ödemeleri olmadan kullanma hakkı sağlar. Uygulamanın, her özelliğin, üçüncü taraf entegrasyonlarının veya gelecekteki tüm iOS veya Android sürümleri veya cihazlarıyla uyumluluğun sürekli olarak sağlanmasını garanti etmez. Satın alma bilgilerinin geri yüklenmesi ve ilgili konular, satın alımın yapıldığı mağazanın (App Store veya Google Play) sistemlerine ve politikalarına tabidir.</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Yasal Uyarılar",
-      "html": "<p>Uygulamanın her cihazda ve işletim sistemi ortamında her zaman doğru şekilde çalışacağını veya doğru, eksiksiz, güvenli, belirli bir amaca uygun veya sürekli olarak kullanılabilir olacağını garanti etmiyoruz. Zamanlayıcılar, bildirimler ve diğer özellikler, cihaz ayarları, iOS özellikleri, güç tasarrufu özellikleri, ağ koşulları veya diğer koşullar nedeniyle beklendiği gibi çalışmayabilir. Kasıtlı hukuka aykırı davranışımız, ağır ihmalimiz veya kanunen hariç tutulamayan bir sorumluluk durumu dışında, uygulamanın kullanımından veya kullanılamamasından kaynaklanan zararlardan sorumlu değiliz.</p>"
+      "html": "<p>Uygulamanın her cihazda ve işletim sistemi ortamında her zaman doğru şekilde çalışacağını veya doğru, eksiksiz, güvenli, belirli bir amaca uygun veya sürekli olarak kullanılabilir olacağını garanti etmiyoruz. Zamanlayıcılar, bildirimler ve diğer özellikler, cihaz ayarları, iOS veya Android özellikleri, güç tasarrufu özellikleri, ağ koşulları veya diğer koşullar nedeniyle beklendiği gibi çalışmayabilir. Kasıtlı hukuka aykırı davranışımız, ağır ihmalimiz veya kanunen hariç tutulamayan bir sorumluluk durumu dışında, uygulamanın kullanımından veya kullanılamamasından kaynaklanan zararlardan sorumlu değiliz.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Değişiklikler veya durdurma",
-      "html": "<p>Geliştirme ve operasyonel koşullar, desteklenen cihazlar, iOS özellikleri, üçüncü taraf hizmetleri ve diğer faktörleri dikkate alarak, gerektiğinde Uygulamanın özelliklerini veya tamamını veya bir kısmını ekleyebilir, değiştirebilir, gözden geçirebilir, azaltabilir, askıya alabilir veya sonlandırabiliriz. Makul ölçüde mümkün olan her durumda, önemli değişiklikler veya sonlandırma konusunda bildirimde bulunacağız.</p>"
+      "html": "<p>Geliştirme ve operasyonel koşullar, desteklenen cihazlar, iOS veya Android özellikleri, üçüncü taraf hizmetleri ve diğer faktörleri dikkate alarak, gerektiğinde Uygulamanın özelliklerini veya tamamını veya bir kısmını ekleyebilir, değiştirebilir, gözden geçirebilir, azaltabilir, askıya alabilir veya sonlandırabiliriz. Makul ölçüde mümkün olan her durumda, önemli değişiklikler veya sonlandırma konusunda bildirimde bulunacağız.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Dil seçin"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "1778d3ac7655ca44c9545b77fc9b460c2aa2b6007adccdba3903b32918eedde2",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "99b203ee39bd325bcd93489f8d5c46b3a0941d78c1e50b40e92dda7e0f527e32",
+    "reviewedSectionsSha256": "bb27bec63f91106f5ab8c0e5a5c8f27cbb48f22e4e0ffeca50f047445039ed85"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "1778d3ac7655ca44c9545b77fc9b460c2aa2b6007adccdba3903b32918eedde2",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

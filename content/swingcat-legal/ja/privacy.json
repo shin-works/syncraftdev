@@ -4,20 +4,20 @@
   "kind": "privacy",
   "title": "プライバシーポリシー",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "制定日：2026年8月28日<br>最終更新日：2026年10月18日",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "制定日：2026年8月28日<br>最終更新日：2026年10月24日",
   "status": "source-reviewed",
   "sourceLocale": "en",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>SynCraft（以下「当方」といいます）は、当方が提供するiOSアプリ「SwingCat」（以下「本アプリ」といいます）におけるユーザー情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。</p>"
+      "html": "<p>SynCraft（以下「当方」といいます）は、当方が提供するiOSおよびAndroid向けアプリ「SwingCat」（以下「本アプリ」といいます）におけるユーザー情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。</p>"
     },
     {
       "id": "section-01",
       "heading": "1. 取得・保存する情報について",
-      "html": "<p>本アプリでは、氏名、住所、電話番号、メールアドレス等の情報をユーザー登録のために直接入力することを原則として求めません。</p>\n        <p>ただし、本アプリの利用に伴い、以下の情報がユーザーの端末内に保存される場合があります。</p>\n        <ul><li>タイマーの設定</li><li>集中時間およびタイマーの利用履歴</li><li>ユーザーが入力したタスク等の情報</li><li>猫、アイテム、称号その他のアプリ内コンテンツの取得・利用状況</li><li>アプリの各種設定</li><li>ユーザーが任意で設定した名前等のプロフィール情報</li><li>有料機能の利用状態</li></ul>\n        <p>これらの情報の全部または一部は、主にユーザーの端末内に保存されます。</p>\n        <p>また、本アプリでは、利用状況の把握、品質改善、不具合解析および広告配信等のため、第三者サービスを通じて以下のような情報が取得または処理される場合があります。</p>\n        <ul><li>端末の種類、OS、言語設定等の端末情報</li><li>本アプリのバージョン</li><li>アプリの起動、画面表示、機能利用等に関する情報</li><li>クラッシュ、エラー、パフォーマンス等に関する情報</li><li>IPアドレス等のネットワーク情報</li><li>広告の表示、視聴、操作等に関する情報</li><li>端末識別子、広告識別子その他の識別情報</li><li>その他、利用する第三者サービスがサービス提供のために取得する情報</li></ul>\n        <p>実際に取得または処理される情報は、iOSのバージョン、端末設定、ユーザーによるプライバシー設定や同意状況、および第三者サービスの仕様によって異なる場合があります。</p>"
+      "html": "<p>本アプリでは、氏名、住所、電話番号、メールアドレス等の情報をユーザー登録のために直接入力することを原則として求めません。</p>\n        <p>ただし、本アプリの利用に伴い、以下の情報がユーザーの端末内に保存される場合があります。</p>\n        <ul><li>タイマーの設定</li><li>集中時間およびタイマーの利用履歴</li><li>ユーザーが入力したタスク等の情報</li><li>猫、アイテム、称号その他のアプリ内コンテンツの取得・利用状況</li><li>アプリの各種設定</li><li>ユーザーが任意で設定した名前等のプロフィール情報</li><li>有料機能の利用状態</li></ul>\n        <p>これらの情報の全部または一部は、主にユーザーの端末内に保存されます。</p>\n        <p>また、本アプリでは、利用状況の把握、品質改善、不具合解析および広告配信等のため、第三者サービスを通じて以下のような情報が取得または処理される場合があります。</p>\n        <ul><li>端末の種類、OS、言語設定等の端末情報</li><li>本アプリのバージョン</li><li>アプリの起動、画面表示、機能利用等に関する情報</li><li>クラッシュ、エラー、パフォーマンス等に関する情報</li><li>IPアドレス等のネットワーク情報</li><li>広告の表示、視聴、操作等に関する情報</li><li>端末識別子、広告識別子その他の識別情報</li><li>その他、利用する第三者サービスがサービス提供のために取得する情報</li></ul>\n        <p>実際に取得または処理される情報は、iOSまたはAndroidのバージョン、端末設定、ユーザーによるプライバシー設定や同意状況、および第三者サービスの仕様によって異なる場合があります。</p>"
     },
     {
       "id": "section-02",
@@ -32,17 +32,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMobの利用について",
-      "html": "<p>本アプリでは、Google LLCが提供する広告配信サービス「Google AdMob」を利用し、広告を表示する場合があります。</p>\n        <p>本アプリでは、ユーザーが広告を視聴することで、アイテムその他のアプリ内特典を取得または一定期間利用できるリワード広告を提供する場合があります。</p>\n        <p>AdMobおよびGoogle Mobile Ads SDKでは、広告の配信、広告効果の測定、不正利用の防止およびサービス改善等のため、以下の情報が取得または処理される場合があります。</p>\n        <ul><li>IPアドレス</li><li>端末に関する情報</li><li>端末識別子または広告識別子</li><li>広告の表示および操作に関する情報</li><li>アプリ内での操作に関する情報</li><li>クラッシュおよびパフォーマンスに関する情報</li></ul>\n        <p>広告識別子等については、ユーザーの端末設定、Appleのプライバシー機能およびユーザーの同意状況等により、利用できない場合があります。</p>\n        <p>Google AdMobによる情報の取り扱いについては、Googleが定めるプライバシーポリシーその他の規定が適用されます。</p>\n        <p>Google プライバシーポリシー<br><a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">https://policies.google.com/privacy</a></p>\n        <p>Googleによるパートナーのアプリ利用時のデータ使用について<br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener noreferrer\">https://policies.google.com/technologies/partner-sites</a></p>"
+      "html": "<p>本アプリでは、Google LLCが提供する広告配信サービス「Google AdMob」を利用し、広告を表示する場合があります。</p>\n        <p>本アプリでは、ユーザーが広告を視聴することで、アイテムその他のアプリ内特典を取得または一定期間利用できるリワード広告を提供する場合があります。</p>\n        <p>AdMobおよびGoogle Mobile Ads SDKでは、広告の配信、広告効果の測定、不正利用の防止およびサービス改善等のため、以下の情報が取得または処理される場合があります。</p>\n        <ul><li>IPアドレス</li><li>端末に関する情報</li><li>端末識別子または広告識別子</li><li>広告の表示および操作に関する情報</li><li>アプリ内での操作に関する情報</li><li>クラッシュおよびパフォーマンスに関する情報</li></ul>\n        <p>広告識別子等については、ユーザーの端末設定、iOS・Androidそれぞれのプライバシー機能およびユーザーの同意状況等により、利用できない場合があります。</p>\n        <p>Google AdMobによる情報の取り扱いについては、Googleが定めるプライバシーポリシーその他の規定が適用されます。</p>\n        <p>Google プライバシーポリシー<br><a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">https://policies.google.com/privacy</a></p>\n        <p>Googleによるパートナーのアプリ利用時のデータ使用について<br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener noreferrer\">https://policies.google.com/technologies/partner-sites</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. アプリ内課金について",
-      "html": "<p>本アプリでは、App Storeを通じてサブスクリプションおよび買い切り型プラン等のアプリ内課金を提供する場合があります。</p>\n        <p>決済処理はAppleによって行われるため、当方がクレジットカード番号その他の決済情報を直接取得または保存することはありません。</p>\n        <p>有料機能を提供するため、購入済み商品、サブスクリプションの状態その他購入状態に関する情報を本アプリが取得または確認する場合があります。</p>\n        <p>Appleによる情報の取り扱いについては、Appleが定めるプライバシーポリシーその他の規定が適用されます。</p>\n        <p>Apple プライバシーポリシー<br><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/privacy/</a></p>\n        <p>本アプリでは、購入情報の検証、サブスクリプションおよび有料機能の利用権の管理、購入の復元、購入・契約状況の集計や分析のために、RevenueCat, Inc.のサービスを利用しています。RevenueCatでは、同社のSDKが生成するアプリユーザーID、購入した商品の識別子、取引・購入履歴、サブスクリプションの状態や有効期限、端末のOSやアプリのバージョンなどの技術情報が処理されます。</p><p>購入情報の管理には、氏名やメールアドレスの代わりにRevenueCatのSDKが自動生成する匿名のアプリユーザーIDを使用します。本アプリのプロフィール名やメールアドレスを、顧客属性としてRevenueCatに送信することはありません。匿名IDを使用していても、情報の処理が行われないことや、アプリを削除すると購入記録も削除されることを意味するものではありません。</p><p>詳しくは、<a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatのプライバシーポリシー</a>および<a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">購入情報の取扱いに関するRevenueCatの説明</a>をご確認ください。</p>"
+      "html": "<p>本アプリでは、iOS版ではApp Store、Android版ではGoogle Playを通じてサブスクリプションおよび買い切り型プラン等のアプリ内課金を提供する場合があります。</p>\n        <p>決済処理は購入に利用したストア（App StoreではApple、Google PlayではGoogle）によって行われるため、当方がクレジットカード番号その他の決済情報を直接取得または保存することはありません。</p>\n        <p>有料機能を提供するため、購入済み商品、サブスクリプションの状態その他購入状態に関する情報を本アプリが取得または確認する場合があります。</p>\n        <p>購入に利用したストアでの情報の取り扱いには、AppleまたはGoogleが定めるプライバシーポリシーその他の規定が適用されます。</p>\n        <p>Apple プライバシーポリシー<br><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/privacy/</a></p>\n        <p>Google プライバシーポリシー<br><a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">https://policies.google.com/privacy</a></p><p>本アプリでは、購入情報の検証、サブスクリプションおよび有料機能の利用権の管理、購入の復元、購入・契約状況の集計や分析のために、RevenueCat, Inc.のサービスを利用しています。RevenueCatでは、同社のSDKが生成するアプリユーザーID、購入した商品の識別子、取引・購入履歴、サブスクリプションの状態や有効期限、端末のOSやアプリのバージョンなどの技術情報が処理されます。</p><p>購入情報の管理には、氏名やメールアドレスの代わりにRevenueCatのSDKが自動生成する匿名のアプリユーザーIDを使用します。本アプリのプロフィール名やメールアドレスを、顧客属性としてRevenueCatに送信することはありません。匿名IDを使用していても、情報の処理が行われないことや、アプリを削除すると購入記録も削除されることを意味するものではありません。</p><p>詳しくは、<a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCatのプライバシーポリシー</a>および<a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">Appleプラットフォームの購入情報に関するRevenueCatの説明</a>をご確認ください。</p>"
     },
     {
       "id": "section-06",
       "heading": "6. 第三者への情報提供",
-      "html": "<p>当方は、ユーザーに関する情報を販売しません。</p>\n        <p>ただし、本アプリの提供に必要な範囲において、Firebase、Google AdMob、Apple、RevenueCatその他の第三者サービスへ情報が送信または処理される場合があります。</p>\n        <p>また、以下の場合には必要な範囲で情報を第三者へ提供する場合があります。</p>\n        <ul><li>ユーザー本人の同意がある場合</li><li>法令に基づき開示が必要となる場合</li><li>人の生命、身体または財産の保護のために必要な場合</li><li>その他法令上認められる場合</li></ul>\n        <p>第三者サービスによる情報の取り扱いについては、それぞれのサービス提供者が定めるプライバシーポリシーおよび利用規約が適用されます。</p>"
+      "html": "<p>当方は、ユーザーに関する情報を販売しません。</p>\n        <p>ただし、本アプリの提供に必要な範囲において、Firebase、Google AdMob、Apple（App Store）、Google（Google Play）、RevenueCatその他の第三者サービスへ情報が送信または処理される場合があります。</p>\n        <p>また、以下の場合には必要な範囲で情報を第三者へ提供する場合があります。</p>\n        <ul><li>ユーザー本人の同意がある場合</li><li>法令に基づき開示が必要となる場合</li><li>人の生命、身体または財産の保護のために必要な場合</li><li>その他法令上認められる場合</li></ul>\n        <p>第三者サービスによる情報の取り扱いについては、それぞれのサービス提供者が定めるプライバシーポリシーおよび利用規約が適用されます。</p>"
     },
     {
       "id": "section-07",
@@ -52,7 +52,7 @@
     {
       "id": "section-08",
       "heading": "8. 広告およびプライバシー設定",
-      "html": "<p>本アプリにおける広告の配信方法は、ユーザーの地域、端末設定、Appleのプライバシー機能、ユーザーによる同意状況その他の条件によって異なる場合があります。</p><p>必要となる地域または条件では、広告その他のデータ利用について、同意または選択を求める画面を表示する場合があります。</p><p>ユーザーは、iOSのプライバシー設定等を通じて、利用可能な範囲で広告識別子その他の情報の利用を管理できます。</p>"
+      "html": "<p>本アプリにおける広告の配信方法は、ユーザーの地域、端末設定、iOS・Androidそれぞれのプライバシー機能、ユーザーによる同意状況その他の条件によって異なる場合があります。</p><p>必要となる地域または条件では、広告その他のデータ利用について、同意または選択を求める画面を表示する場合があります。</p><p>ユーザーは、iOSまたはAndroidのプライバシー設定等を通じて、利用可能な範囲で広告識別子その他の情報の利用を管理できます。</p>"
     },
     {
       "id": "section-09",
@@ -75,5 +75,21 @@
       "html": "<div class=\"contact\"><p>本ポリシーおよび本アプリにおける情報の取り扱いについてのお問い合わせは、以下までお願いいたします。</p><p>開発・運営：SynCraft</p><p>お問い合わせ先：<a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p></div>"
     }
   ],
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82"
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
+  "reviewHistory": [
+    {}
+  ],
+  "review": {
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "3467215042163fd3b182e63adafb376335ff8461ca772bbc193ecf82e3ad69a8",
+    "reviewedSectionsSha256": "75caacdf6892c538d3aacfff2500b78d3cf028c603a2f8756112d839995d32b7"
+  },
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

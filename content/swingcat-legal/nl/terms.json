@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Gebruiksvoorwaarden",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Ingangsdatum: 28 augustus 2026 <br>\n     Laatst bijgewerkt: 8 september 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Ingangsdatum: 28 augustus 2026 <br>\n     Laatst bijgewerkt: 24 oktober 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Deze Gebruiksvoorwaarden (\"Voorwaarden\") beschrijven de voorwaarden voor het gebruik van SwingCat (de \"App\"), een iOS-applicatie van SynCraft (\"wij,\" \"ons\" of \"onze\").</p>\n      <p>Naast deze voorwaarden is uw gebruik van de app onderworpen aan de standaardlicentieovereenkomst voor eindgebruikers (EULA) van Apple.</p>\n      <p>Standaardlicentieovereenkomst voor eindgebruikers van Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Lees deze voorwaarden en de standaardlicentieovereenkomst voor eindgebruikers van Apple door voordat u de app gebruikt.</p>"
+      "html": "<p>Deze Gebruiksvoorwaarden (\"Voorwaarden\") beschrijven de voorwaarden voor het gebruik van SwingCat (de \"App\"), een iOS- of Android-applicatie van SynCraft (\"wij,\" \"ons\" of \"onze\").</p><p>Naast deze voorwaarden geldt voor de iOS-versie die via de App Store wordt verspreid de standaardlicentieovereenkomst voor eindgebruikers van Apple (EULA). Voor de Android-versie die via Google Play wordt verspreid en aankopen via die winkel gelden ook de toepasselijke voorwaarden en beleidsregels van Google Play. Lees vóór gebruik deze voorwaarden en de voorwaarden die voor uw winkel gelden.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. De app",
-      "html": "<ol>\n       <li>De app helpt gebruikers hun concentratie en werktijd te beheren met behulp van een timer.</li>\n       <li>Afhankelijk van het timergebruik kan de app functies bieden waarmee gebruikers katten, items, titels en andere content kunnen verkrijgen of gebruiken.</li>\n       <li>De app garandeert geen concentratie, productiviteit, leerresultaten, werkresultaten of enig ander specifiek resultaat.</li>\n       <li>De functies kunnen verschillen afhankelijk van iOS, het apparaat en andere gebruiksomstandigheden.</li>\n      </ol>"
+      "html": "<ol>\n       <li>De app helpt gebruikers hun concentratie en werktijd te beheren met behulp van een timer.</li>\n       <li>Afhankelijk van het timergebruik kan de app functies bieden waarmee gebruikers katten, items, titels en andere content kunnen verkrijgen of gebruiken.</li>\n       <li>De app garandeert geen concentratie, productiviteit, leerresultaten, werkresultaten of enig ander specifiek resultaat.</li>\n       <li>De functies kunnen verschillen afhankelijk van iOS of Android, het apparaat en andere gebruiksomstandigheden.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Betaalde diensten en aankopen",
-      "html": "<p>Naast gratis functies kan de app ook betaalde functies of content aanbieden, zoals maandabonnementen, jaarabonnementen en eenmalige aankopen. De producten, prijzen, periodes en beschikbare functies die op het moment van aankoop in de app en de App Store worden weergegeven, zijn van toepassing. Aankopen en betalingen verlopen via de App Store van Apple; wij verzamelen of bewaren niet rechtstreeks betaalkaartgegevens.</p>"
+      "html": "<p>Naast gratis functies kan de app betaalde functies of inhoud aanbieden, waaronder maandabonnementen, jaarabonnementen en eenmalige aankopen. De producten, prijzen, looptijden en beschikbare functies die op het moment van aankoop in de app en de gebruikte winkel worden weergegeven, zijn van toepassing. Aankopen en betalingen verlopen via de App Store van Apple op iOS of Google Play op Android. Wij verzamelen of bewaren zelf geen betaalkaartgegevens.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Abonnementen",
-      "html": "<p>Abonnementskosten worden in rekening gebracht op uw Apple-account. Een abonnement wordt automatisch verlengd voor elke toepasselijke periode, tenzij u automatische verlenging uitschakelt in de App Store-instellingen. Nadat automatische verlenging is uitgeschakeld, blijven de betreffende functies over het algemeen beschikbaar tot het einde van de huidige betaalde periode. De algemene voorwaarden en het beleid van Apple en de App Store zijn van toepassing op abonnementsbeheer, het annuleren van automatische verlenging, terugbetalingen en andere betalingszaken.</p>"
+      "html": "<p>Abonnementen via de App Store worden in rekening gebracht via uw Apple Account; abonnementen via Google Play via het Google-account waarmee u de aankoop hebt gedaan. Een abonnement wordt telkens automatisch verlengd, tenzij u het opzegt of automatische verlenging uitschakelt bij de winkel waar u het hebt gekocht. Beheer App Store-abonnementen in de abonnementsinstellingen van Apple en Google Play-abonnementen in de abonnementsinstellingen van Google Play. Na opzegging blijven de betreffende functies doorgaans beschikbaar tot het einde van de al betaalde periode. Beheer, opzegging, terugbetalingen en andere betaalzaken vallen onder het toepasselijke recht en de voorwaarden en beleidsregels van de winkel waar de aankoop is gedaan.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=nl\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Eenmalige aankoopplannen",
-      "html": "<p>Een eenmalige aankoop geeft recht op het gebruik van de betreffende betaalde functies zonder terugkerende abonnementskosten. Het garandeert niet dat de app, alle functies, integraties met derden of compatibiliteit met alle toekomstige iOS-versies of -apparaten permanent beschikbaar blijven. Het herstellen van aankoopgegevens en aanverwante zaken zijn onderworpen aan de systemen en het beleid van Apple en de App Store.</p>"
+      "html": "<p>Een eenmalige aankoop geeft recht op het gebruik van de betreffende betaalde functies zonder terugkerende abonnementskosten. Het garandeert niet dat de app, alle functies, integraties met derden of compatibiliteit met alle toekomstige iOS- of Android-versies of -apparaten permanent beschikbaar blijven. Het herstellen van aankoopgegevens en aanverwante zaken vallen onder de systemen en het beleid van de winkel waar de aankoop is gedaan (App Store of Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Disclaimer",
-      "html": "<p>Wij garanderen niet dat de app altijd correct zal werken op elk apparaat en in elke besturingssysteemomgeving, of dat deze accuraat, volledig, veilig, geschikt voor een bepaald doel of continu beschikbaar zal zijn. Timers, meldingen en andere functies werken mogelijk niet zoals verwacht vanwege apparaatinstellingen, iOS-specificaties, energiebesparende functies, netwerkcondities of andere omstandigheden. Behalve in gevallen van opzettelijk wangedrag, grove nalatigheid of aansprakelijkheid die wettelijk niet kan worden uitgesloten, zijn wij niet aansprakelijk voor schade die voortvloeit uit het gebruik van, of de onmogelijkheid tot gebruik van, de app.</p>"
+      "html": "<p>Wij garanderen niet dat de app altijd correct zal werken op elk apparaat en in elke besturingssysteemomgeving, of dat deze accuraat, volledig, veilig, geschikt voor een bepaald doel of continu beschikbaar zal zijn. Timers, meldingen en andere functies werken mogelijk niet zoals verwacht vanwege apparaatinstellingen, iOS- of Android-specificaties, energiebesparende functies, netwerkcondities of andere omstandigheden. Behalve in gevallen van opzettelijk wangedrag, grove nalatigheid of aansprakelijkheid die wettelijk niet kan worden uitgesloten, zijn wij niet aansprakelijk voor schade die voortvloeit uit het gebruik van, of de onmogelijkheid tot gebruik van, de app.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Wijzigingen of stopzetting",
-      "html": "<p>We kunnen functies of de app geheel of gedeeltelijk toevoegen, wijzigen, herzien, verminderen, opschorten of beëindigen, al naar gelang de ontwikkelings- en operationele omstandigheden, ondersteunde apparaten, iOS-specificaties, diensten van derden en andere factoren. We zullen, waar redelijkerwijs mogelijk, melding maken van belangrijke wijzigingen of stopzetting.</p>"
+      "html": "<p>We kunnen functies of de app geheel of gedeeltelijk toevoegen, wijzigen, herzien, verminderen, opschorten of beëindigen, al naar gelang de ontwikkelings- en operationele omstandigheden, ondersteunde apparaten, iOS- of Android-specificaties, diensten van derden en andere factoren. We zullen, waar redelijkerwijs mogelijk, melding maken van belangrijke wijzigingen of stopzetting.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Selecteer taal"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "e254e761b1cdfd121a129b1af515c8f27d3d4d5cde70e03bee6622fa68140e71",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "a183035e260a4951efc613d66413bf28b1b2e214cb08a0516bfb93721f686ad5",
+    "reviewedSectionsSha256": "0871c2cb3f09d344cc419f2fa0d756287847e0b9817eab4496ebc01bd9c38784"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "e254e761b1cdfd121a129b1af515c8f27d3d4d5cde70e03bee6622fa68140e71",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

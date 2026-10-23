@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Dasar Privasi",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Tarikh kuat kuasa: 28 Ogos 2026 <br>\n     Kemas kini terakhir: 18 Oktober 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Tarikh kuat kuasa: 28 Ogos 2026 <br>\n     Kemas kini terakhir: 24 Oktober 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Dasar Privasi ini menerangkan bagaimana SynCraft (\"kami\") mengendalikan maklumat pengguna dalam aplikasi iOS SwingCat (\"Aplikasi\").</p>"
+      "html": "<p>Dasar Privasi ini menerangkan bagaimana SynCraft (\"kami\") mengendalikan maklumat pengguna dalam aplikasi iOS atau Android SwingCat (\"Aplikasi\").</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Maklumat yang kami kumpul dan simpan",
-      "html": "<p>Aplikasi ini secara amnya tidak memerlukan pengguna memasukkan nama, alamat, nombor telefon atau alamat e-mel secara langsung untuk mendaftar.</p>\n      <p>Bergantung pada penggunaan Aplikasi, maklumat berikut mungkin disimpan pada peranti anda: tetapan pemasa; masa fokus dan sejarah pemasa; tugasan yang dimasukkan oleh anda; kucing, item, gelaran dan kandungan lain dalam aplikasi serta penggunaannya; Tetapan Aplikasi; maklumat profil pilihan seperti nama; dan status ciri berbayar.</p>\n      <p>Kami juga mungkin mengumpul atau memproses maklumat melalui perkhidmatan pihak ketiga untuk analisis penggunaan, penambahbaikan kualiti, diagnostik dan pengiklanan. Ini mungkin termasuk jenis peranti, OS, tetapan bahasa, versi Apl, peristiwa pelancaran dan penggunaan ciri, data ranap dan prestasi, alamat IP dan maklumat rangkaian lain, interaksi pengiklanan dan pengecam peranti atau pengiklanan. Maklumat yang sebenarnya diproses boleh berbeza-beza dengan versi iOS anda, tetapan peranti, pilihan privasi, status persetujuan dan spesifikasi perkhidmatan pihak ketiga.</p>"
+      "html": "<p>Aplikasi ini secara amnya tidak memerlukan pengguna memasukkan nama, alamat, nombor telefon atau alamat e-mel secara langsung untuk mendaftar.</p>\n      <p>Bergantung pada penggunaan Aplikasi, maklumat berikut mungkin disimpan pada peranti anda: tetapan pemasa; masa fokus dan sejarah pemasa; tugasan yang dimasukkan oleh anda; kucing, item, gelaran dan kandungan lain dalam aplikasi serta penggunaannya; Tetapan Aplikasi; maklumat profil pilihan seperti nama; dan status ciri berbayar.</p>\n      <p>Kami juga mungkin mengumpul atau memproses maklumat melalui perkhidmatan pihak ketiga untuk analisis penggunaan, penambahbaikan kualiti, diagnostik dan pengiklanan. Ini mungkin termasuk jenis peranti, OS, tetapan bahasa, versi Apl, peristiwa pelancaran dan penggunaan ciri, data ranap dan prestasi, alamat IP dan maklumat rangkaian lain, interaksi pengiklanan dan pengecam peranti atau pengiklanan. Maklumat yang sebenarnya diproses boleh berbeza-beza dengan versi iOS atau Android anda, tetapan peranti, pilihan privasi, status persetujuan dan spesifikasi perkhidmatan pihak ketiga.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>Kami mungkin menggunakan Google AdMob untuk memaparkan iklan. Aplikasi ini mungkin menawarkan iklan ganjaran yang membolehkan pengguna menerima item atau faedah lain dalam aplikasi. AdMob dan SDK Iklan Mudah Alih Google mungkin mengumpul atau memproses alamat IP, maklumat peranti, pengecam peranti atau pengiklanan, tanggapan dan interaksi iklan, interaksi dalam aplikasi dan maklumat ranap atau prestasi untuk penyampaian iklan, pengukuran, pencegahan penipuan dan penambahbaikan perkhidmatan.</p>\n      <p>Ketersediaan pengecam pengiklanan mungkin bergantung pada tetapan peranti, ciri privasi Apple dan persetujuan pengguna. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Dasar Privasi Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Cara Google menggunakan data daripada tapak atau aplikasi rakan kongsi</a></p>"
+      "html": "<p>Kami mungkin menggunakan Google AdMob untuk memaparkan iklan. Aplikasi ini mungkin menawarkan iklan ganjaran yang membolehkan pengguna menerima item atau faedah lain dalam aplikasi. AdMob dan SDK Iklan Mudah Alih Google mungkin mengumpul atau memproses alamat IP, maklumat peranti, pengecam peranti atau pengiklanan, tanggapan dan interaksi iklan, interaksi dalam aplikasi dan maklumat ranap atau prestasi untuk penyampaian iklan, pengukuran, pencegahan penipuan dan penambahbaikan perkhidmatan.</p>\n      <p>Ketersediaan pengecam pengiklanan mungkin bergantung pada tetapan peranti, ciri privasi iOS atau Android dan persetujuan pengguna. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Dasar Privasi Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Cara Google menggunakan data daripada tapak atau aplikasi rakan kongsi</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Pembelian dalam aplikasi",
-      "html": "<p>Kami mungkin menawarkan langganan dan pelan pembelian sekali sahaja melalui App Store. Apple memproses pembayaran dan kami tidak mengumpul atau menyimpan nombor kad kredit atau butiran pembayaran lain secara langsung. Untuk menyediakan ciri berbayar, Aplikasi boleh mengakses atau mengesahkan maklumat tentang produk yang dibeli dan status langganan. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Dasar Privasi Apple</a></p>\n      <p>Kami menggunakan RevenueCat, Inc. untuk mengesahkan pembelian, mengurus langganan dan akses ciri berbayar, memulihkan pembelian dan memahami aktiviti pembelian dan langganan. RevenueCat memproses ID Pengguna Apl yang dijana oleh SDKnya, pengecam produk yang dibeli, maklumat transaksi dan sejarah pembelian, status langganan dan tarikh luput serta maklumat teknikal seperti sistem pengendalian peranti dan versi Apl.</p>\n      <p>Kami menggunakan ID Pengguna Aplikasi tanpa nama yang dijana secara automatik oleh RevenueCat dan bukannya menetapkan nama atau alamat e-mel sebagai pengecam pembelian anda. Kami tidak menghantar nama profil dalam aplikasi atau alamat e-mel anda kepada RevenueCat sebagai atribut pelanggan. Penggunaan ID tanpa nama tidak bermakna tiada maklumat diproses atau rekod pembelian dipadam apabila anda menyahpasang Aplikasi.</p>\n      <p>Untuk maklumat lanjut, sila lihat <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Dasar Privasi RevenueCat</a> dan <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">maklumat RevenueCat tentang data pembelian</a>.</p>"
+      "html": "<p>Kami mungkin menawarkan langganan dan pembelian sekali sahaja melalui App Store pada iOS dan Google Play pada Android. Pembayaran diproses oleh gedung yang digunakan untuk pembelian: Apple bagi App Store dan Google bagi Google Play. Kami tidak mengumpulkan atau menyimpan nombor kad kredit atau butiran pembayaran lain secara langsung. Untuk menyediakan ciri berbayar, Aplikasi boleh mengakses atau mengesahkan maklumat produk yang dibeli dan status langganan.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Dasar Privasi Apple</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Dasar Privasi Google </a></p>\n      <p>Kami menggunakan RevenueCat, Inc. untuk mengesahkan pembelian, mengurus langganan dan akses ciri berbayar, memulihkan pembelian dan memahami aktiviti pembelian dan langganan. RevenueCat memproses ID Pengguna Apl yang dijana oleh SDKnya, pengecam produk yang dibeli, maklumat transaksi dan sejarah pembelian, status langganan dan tarikh luput serta maklumat teknikal seperti sistem pengendalian peranti dan versi Apl.</p>\n      <p>Kami menggunakan ID Pengguna Aplikasi tanpa nama yang dijana secara automatik oleh RevenueCat dan bukannya menetapkan nama atau alamat e-mel sebagai pengecam pembelian anda. Kami tidak menghantar nama profil dalam aplikasi atau alamat e-mel anda kepada RevenueCat sebagai atribut pelanggan. Penggunaan ID tanpa nama tidak bermakna tiada maklumat diproses atau rekod pembelian dipadam apabila anda menyahpasang Aplikasi.</p>\n      <p>Untuk maklumat lanjut, sila lihat <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">Dasar Privasi RevenueCat</a> dan <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">maklumat RevenueCat tentang data pembelian (iOS)</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Perkongsian dengan pihak ketiga",
-      "html": "<p>Kami tidak menjual maklumat tentang pengguna. Maklumat mungkin dihantar kepada atau diproses oleh Firebase, Google AdMob, Apple, RevenueCat dan perkhidmatan lain yang diperlukan untuk menyediakan Aplikasi. Kami juga mungkin mendedahkan maklumat jika anda bersetuju, jika pendedahan dikehendaki oleh undang-undang, jika perlu untuk melindungi nyawa, badan atau harta benda, atau seperti yang dibenarkan oleh undang-undang.</p>"
+      "html": "<p>Kami tidak menjual maklumat tentang pengguna. Maklumat mungkin dihantar kepada atau diproses oleh Firebase, Google AdMob, Apple (App Store), Google (Google Play), RevenueCat dan perkhidmatan lain yang diperlukan untuk menyediakan Aplikasi. Kami juga mungkin mendedahkan maklumat jika anda bersetuju, jika pendedahan dikehendaki oleh undang-undang, jika perlu untuk melindungi nyawa, badan atau harta benda, atau seperti yang dibenarkan oleh undang-undang.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Pilihan pengiklanan dan privasi",
-      "html": "<p>Cara iklan dihantar mungkin berbeza mengikut rantau, tetapan peranti, ciri privasi Apple, status persetujuan dan syarat-syarat lain. Jika perlu, kami mungkin memaparkan skrin yang meminta persetujuan atau pilihan mengenai iklan atau penggunaan data lain. Anda boleh mengurus penggunaan pengecam pengiklanan dan maklumat lain setakat yang tersedia melalui tetapan privasi iOS.</p>"
+      "html": "<p>Cara iklan dihantar mungkin berbeza mengikut rantau, tetapan peranti, ciri privasi iOS atau Android, status persetujuan dan syarat-syarat lain. Jika perlu, kami mungkin memaparkan skrin yang meminta persetujuan atau pilihan mengenai iklan atau penggunaan data lain. Anda boleh mengurus penggunaan pengecam pengiklanan dan maklumat lain setakat yang tersedia melalui tetapan privasi iOS atau Android.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Pilih bahasa"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "6d8b024704dfc4598d5eb9ba0dc188255c23b519698fea238932db53f852cb2f",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "9ccb7b6f8abc9c299d95475e07d01be2b88b4791b5a8e239a79e728765ed7147",
+    "reviewedSectionsSha256": "8b315889c26c674756a02bf96f4a72af2e8da0f811a57b368b1bddf381e29eaa"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "6d8b024704dfc4598d5eb9ba0dc188255c23b519698fea238932db53f852cb2f",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

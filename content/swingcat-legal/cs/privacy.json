@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Zásady ochrany osobních údajů",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Datum účinnosti: 28. srpna 2026 <br>\n     Poslední aktualizace: 18. října 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Datum účinnosti: 28. srpna 2026 <br>\n     Poslední aktualizace: 24. října 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Tyto Zásady ochrany osobních údajů vysvětlují, jak společnost SynCraft („my“, „nás“ nebo „naše“) nakládá s uživatelskými informacemi v aplikaci SwingCat pro iOS („Aplikace“).</p>"
+      "html": "<p>Tyto Zásady ochrany osobních údajů vysvětlují, jak společnost SynCraft („my“, „nás“ nebo „naše“) nakládá s uživatelskými informacemi v aplikaci SwingCat pro iOS nebo Android („Aplikace“).</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Informace, které shromažďujeme a uchováváme",
-      "html": "<p>Aplikace obecně nevyžaduje, aby uživatelé pro registraci přímo zadávali jméno, adresu, telefonní číslo nebo e-mailovou adresu.</p>\n      <p>V závislosti na používání aplikace mohou být ve vašem zařízení uloženy následující informace: nastavení časovače; čas soustředění a historie časovače; úkoly, které jste zadali; kočky, předměty, tituly a další obsah v aplikaci a jejich použití; nastavení aplikace; volitelné informace o profilu, jako je jméno; a stav placených funkcí.</p>\n      <p>Můžeme také shromažďovat nebo zpracovávat informace prostřednictvím služeb třetích stran za účelem analýzy používání, vylepšení kvality, diagnostiky a reklamy. Může se jednat o typ zařízení, operační systém, nastavení jazyka, verzi aplikace, události spuštění a používání funkcí, údaje o selhání a výkonu, IP adresu a další síťové informace, reklamní interakce a identifikátory zařízení nebo reklamy. Skutečně zpracovávané informace se mohou lišit v závislosti na verzi vašeho systému iOS, nastavení zařízení, možnostech ochrany osobních údajů, stavu souhlasu a specifikacích služeb třetích stran.</p>"
+      "html": "<p>Aplikace obecně nevyžaduje, aby uživatelé pro registraci přímo zadávali jméno, adresu, telefonní číslo nebo e-mailovou adresu.</p>\n      <p>V závislosti na používání aplikace mohou být ve vašem zařízení uloženy následující informace: nastavení časovače; čas soustředění a historie časovače; úkoly, které jste zadali; kočky, předměty, tituly a další obsah v aplikaci a jejich použití; nastavení aplikace; volitelné informace o profilu, jako je jméno; a stav placených funkcí.</p>\n      <p>Můžeme také shromažďovat nebo zpracovávat informace prostřednictvím služeb třetích stran za účelem analýzy používání, vylepšení kvality, diagnostiky a reklamy. Může se jednat o typ zařízení, operační systém, nastavení jazyka, verzi aplikace, události spuštění a používání funkcí, údaje o selhání a výkonu, IP adresu a další síťové informace, reklamní interakce a identifikátory zařízení nebo reklamy. Skutečně zpracovávané informace se mohou lišit v závislosti na verzi vašeho systému iOS nebo Android, nastavení zařízení, možnostech ochrany osobních údajů, stavu souhlasu a specifikacích služeb třetích stran.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>K zobrazování reklam můžeme používat službu Google AdMob. Aplikace může nabízet odměňované reklamy, jejichž prostřednictvím mohou uživatelé získávat položky nebo jiné výhody v aplikaci. AdMob a sada Google Mobile Ads SDK mohou shromažďovat nebo zpracovávat IP adresy, informace o zařízeních, identifikátory zařízení nebo reklam, zobrazení reklam a interakce s nimi, interakce v aplikaci a informace o selháních nebo výkonu za účelem zobrazování reklam, měření, prevence podvodů a zlepšování služeb.</p>\n      <p>Dostupnost reklamních identifikátorů může záviset na nastavení zařízení, funkcích ochrany osobních údajů společnosti Apple a souhlasu uživatele. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobních údajů společnosti Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Jak Google používá data z partnerských webů nebo aplikací</a></p>"
+      "html": "<p>K zobrazování reklam můžeme používat službu Google AdMob. Aplikace může nabízet odměňované reklamy, jejichž prostřednictvím mohou uživatelé získávat položky nebo jiné výhody v aplikaci. AdMob a sada Google Mobile Ads SDK mohou shromažďovat nebo zpracovávat IP adresy, informace o zařízeních, identifikátory zařízení nebo reklam, zobrazení reklam a interakce s nimi, interakce v aplikaci a informace o selháních nebo výkonu za účelem zobrazování reklam, měření, prevence podvodů a zlepšování služeb.</p>\n      <p>Dostupnost reklamních identifikátorů může záviset na nastavení zařízení, funkcích ochrany osobních údajů systémů iOS a Android a souhlasu uživatele. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobních údajů společnosti Google </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Jak Google používá data z partnerských webů nebo aplikací</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Nákupy v aplikaci",
-      "html": "<p>Prostřednictvím App Storu můžeme nabízet předplatné a jednorázové nákupní plány. Apple zpracovává platby a my přímo neshromažďujeme ani neukládáme čísla kreditních karet ani jiné platební údaje. Aby mohla aplikace poskytovat placené funkce, může přistupovat k informacím o zakoupených produktech a stavu předplatného nebo je ověřovat. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobních údajů společnosti Apple</a></p>\n      <p>Společnost RevenueCat, Inc. používáme k ověřování nákupů, správě předplatného a přístupu k placeným funkcím, obnovování nákupů a porozumění aktivitě nákupů a předplatného. RevenueCat zpracovává ID uživatele aplikace generované její sadou SDK, identifikátory zakoupených produktů, informace o historii transakcí a nákupů, stav a data vypršení platnosti předplatného a technické informace, jako je operační systém zařízení a verze aplikace.</p>\n      <p>Jako identifikátor nákupu používáme anonymní ID uživatele aplikace, které automaticky generuje RevenueCat, nikoli jméno nebo e-mailovou adresu. Nezasíláme společnosti RevenueCat vaše jméno z profilu v aplikaci ani e-mailovou adresu jako atributy zákazníka. I při použití anonymního ID může docházet ke zpracování informací. Odinstalace aplikace sama o sobě neznamená smazání záznamů o nákupech.</p>\n      <p>Další informace naleznete v <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">zásadách ochrany osobních údajů RevenueCat</a> a <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">v informacích RevenueCat o datech o nákupech</a>.</p>"
+      "html": "<p>Můžeme nabízet předplatné a jednorázové nákupy prostřednictvím App Storu na iOS a Google Play na Androidu. Platby zpracovává obchod, ve kterém byl nákup uskutečněn: Apple pro App Store a Google pro Google Play. Čísla kreditních karet ani jiné platební údaje přímo neshromažďujeme ani neukládáme. Pro poskytování placených funkcí může aplikace získávat nebo ověřovat informace o zakoupených produktech a stavu předplatného.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobních údajů společnosti Apple</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Zásady ochrany osobních údajů společnosti Google </a></p>\n      <p>Společnost RevenueCat, Inc. používáme k ověřování nákupů, správě předplatného a přístupu k placeným funkcím, obnovování nákupů a porozumění aktivitě nákupů a předplatného. RevenueCat zpracovává ID uživatele aplikace generované její sadou SDK, identifikátory zakoupených produktů, informace o historii transakcí a nákupů, stav a data vypršení platnosti předplatného a technické informace, jako je operační systém zařízení a verze aplikace.</p>\n      <p>Jako identifikátor nákupu používáme anonymní ID uživatele aplikace, které automaticky generuje RevenueCat, nikoli jméno nebo e-mailovou adresu. Nezasíláme společnosti RevenueCat vaše jméno z profilu v aplikaci ani e-mailovou adresu jako atributy zákazníka. I při použití anonymního ID může docházet ke zpracování informací. Odinstalace aplikace sama o sobě neznamená smazání záznamů o nákupech.</p>\n      <p>Další informace naleznete v <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">zásadách ochrany osobních údajů RevenueCat</a> a <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">v informacích RevenueCat o datech o nákupech (iOS)</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Sdílení s třetími stranami",
-      "html": "<p>Neprodáváme informace o uživatelích. Informace mohou být odesílány službám Firebase, Google AdMob, Apple, RevenueCat a dalším službám nebo jimi zpracovávány, pokud je to nezbytné pro poskytování aplikace. Informace můžeme také zveřejnit, pokud s tím souhlasíte, pokud je zveřejnění vyžadováno zákonem, pokud je to nezbytné k ochraně života, těla nebo majetku nebo pokud je to jinak povoleno zákonem.</p>"
+      "html": "<p>Neprodáváme informace o uživatelích. Informace mohou být odesílány službám Firebase, Google AdMob, Apple (App Store), Google (Google Play), RevenueCat a dalším službám nebo jimi zpracovávány, pokud je to nezbytné pro poskytování aplikace. Informace můžeme také zveřejnit, pokud s tím souhlasíte, pokud je zveřejnění vyžadováno zákonem, pokud je to nezbytné k ochraně života, těla nebo majetku nebo pokud je to jinak povoleno zákonem.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Možnosti reklamy a ochrany soukromí",
-      "html": "<p>Způsob zobrazování reklam se může lišit v závislosti na regionu, nastavení zařízení, funkcích ochrany osobních údajů společnosti Apple, stavu souhlasu a dalších podmínkách. V případě potřeby můžeme zobrazit obrazovku s žádostí o souhlas nebo volbu týkající se reklam či jiného použití dat. Používání reklamních identifikátorů a dalších informací můžete spravovat v rozsahu dostupném v nastavení ochrany osobních údajů v systému iOS.</p>"
+      "html": "<p>Způsob zobrazování reklam se může lišit v závislosti na regionu, nastavení zařízení, funkcích ochrany osobních údajů systémů iOS a Android, stavu souhlasu a dalších podmínkách. V případě potřeby můžeme zobrazit obrazovku s žádostí o souhlas nebo volbu týkající se reklam či jiného použití dat. Používání reklamních identifikátorů a dalších informací můžete spravovat v rozsahu dostupném v nastavení ochrany osobních údajů v systému iOS nebo Android.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Vyberte jazyk"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "01d408767cbe2e045b0b3d3131fa4b7f859edbaa7de9ab382817a04bba22c2cc",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "3167f9122a7202c0e5784bc09e1c1808a270b48020abd0beeb3a4ef27f2e9a9a",
+    "reviewedSectionsSha256": "3f952564b3225ce7ab82a0352b98672c7800f1c917184bde9248e15f787518cd"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "01d408767cbe2e045b0b3d3131fa4b7f859edbaa7de9ab382817a04bba22c2cc",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

@@ -35,3 +35,13 @@ and earned-title terminology matched to the app. Drafts remain unpublished;
 this self-review does not certify native-language quality or local legal compliance.
 Evidence, exact before/after edits, and reviewed document hashes are in the sibling
 repository `syncraft-store-metadata/legal/20261018-second-review/`.
+
+## 2026-10-24 shared platform revision
+
+All 45 web languages (90 documents) cover iOS and Android at their existing URLs.
+Apple EULA remains scoped to the App Store iOS version. Purchase, renewal,
+cancellation and restoration clauses follow the store used for the purchase.
+RevenueCat factual disclosures and non-platform clauses are retained.
+The platform revisions were translated locally by Codex and editorially reviewed;
+no external translation service was used for this revision, and this is not
+native-speaker legal certification.

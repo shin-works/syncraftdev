@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Personvernerklæring",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Ikrafttredelsesdato: 28. august 2026 <br>\n     Sist oppdatert: 18. oktober 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Ikrafttredelsesdato: 28. august 2026 <br>\n     Sist oppdatert: 24. oktober 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Denne personvernerklæringen forklarer hvordan SynCraft («vi», «oss» eller «vår») håndterer brukerinformasjon i iOS-applikasjonen SwingCat («appen»).</p>"
+      "html": "<p>Denne personvernerklæringen forklarer hvordan SynCraft («vi», «oss» eller «vår») håndterer brukerinformasjon i iOS- eller Android-applikasjonen SwingCat («appen»).</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Informasjon vi samler inn og lagrer",
-      "html": "<p>Appen krever vanligvis ikke at brukere oppgir navn, adresse, telefonnummer eller e-postadresse direkte for å registrere seg.</p>\n      <p>Avhengig av bruken av appen kan følgende informasjon lagres på enheten din: timerinnstillinger; fokustid og timerhistorikk; oppgaver du har lagt inn; katter, gjenstander, titler og annet innhold i appen og bruken av dem; appinnstillinger; valgfri profilinformasjon som navn; og status for betalte funksjoner.</p>\n      <p>Vi kan også samle inn eller behandle informasjon gjennom tredjepartstjenester for bruksanalyse, kvalitetsforbedringer, diagnostikk og annonsering. Dette kan inkludere enhetstype, operativsystem, språkinnstillinger, appversjon, oppstarts- og funksjonsbrukshendelser, krasj- og ytelsesdata, IP-adresse og annen nettverksinformasjon, reklameinteraksjoner og enhets- eller reklameidentifikatorer. Informasjonen som faktisk behandles kan variere med iOS-versjonen din, enhetsinnstillinger, personvernvalg, samtykkestatus og spesifikasjoner for tredjepartstjenester.</p>"
+      "html": "<p>Appen krever vanligvis ikke at brukere oppgir navn, adresse, telefonnummer eller e-postadresse direkte for å registrere seg.</p>\n      <p>Avhengig av bruken av appen kan følgende informasjon lagres på enheten din: timerinnstillinger; fokustid og timerhistorikk; oppgaver du har lagt inn; katter, gjenstander, titler og annet innhold i appen og bruken av dem; appinnstillinger; valgfri profilinformasjon som navn; og status for betalte funksjoner.</p>\n      <p>Vi kan også samle inn eller behandle informasjon gjennom tredjepartstjenester for bruksanalyse, kvalitetsforbedringer, diagnostikk og annonsering. Dette kan inkludere enhetstype, operativsystem, språkinnstillinger, appversjon, oppstarts- og funksjonsbrukshendelser, krasj- og ytelsesdata, IP-adresse og annen nettverksinformasjon, reklameinteraksjoner og enhets- eller reklameidentifikatorer. Informasjonen som faktisk behandles kan variere med iOS- eller Android-versjonen din, enhetsinnstillinger, personvernvalg, samtykkestatus og spesifikasjoner for tredjepartstjenester.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>Vi kan bruke Google AdMob til å vise annonser. Appen kan tilby belønnede annonser der brukere kan motta varer eller andre fordeler i appen. AdMob og Google Mobile Ads SDK kan samle inn eller behandle IP-adresser, enhetsinformasjon, enhets- eller annonseidentifikatorer, annonsevisninger og -interaksjoner, interaksjoner i appen og krasj- eller ytelsesinformasjon for annonselevering, måling, svindelforebygging og tjenesteforbedring.</p>\n      <p>Tilgjengeligheten av annonseidentifikatorer kan avhenge av enhetsinnstillinger, Apples personvernfunksjoner og brukerens samtykke. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googles personvernregler </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Hvordan Google bruker data fra partnersider eller -apper</a></p>"
+      "html": "<p>Vi kan bruke Google AdMob til å vise annonser. Appen kan tilby belønnede annonser der brukere kan motta varer eller andre fordeler i appen. AdMob og Google Mobile Ads SDK kan samle inn eller behandle IP-adresser, enhetsinformasjon, enhets- eller annonseidentifikatorer, annonsevisninger og -interaksjoner, interaksjoner i appen og krasj- eller ytelsesinformasjon for annonselevering, måling, svindelforebygging og tjenesteforbedring.</p>\n      <p>Tilgjengeligheten av annonseidentifikatorer kan avhenge av enhetsinnstillinger, personvernfunksjoner i iOS og Android og brukerens samtykke. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googles personvernregler </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Hvordan Google bruker data fra partnersider eller -apper</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Kjøp i appen",
-      "html": "<p>Vi kan tilby abonnementer og engangskjøp gjennom App Store. Apple behandler betalinger, og vi samler ikke inn eller lagrer kredittkortnumre eller andre betalingsdetaljer direkte. For å tilby betalte funksjoner kan appen få tilgang til eller bekrefte informasjon om kjøpte produkter og abonnementsstatus. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apples personvernregler</a></p>\n      <p>Vi bruker RevenueCat, Inc. til å bekrefte kjøp, administrere tilgang til abonnementer og betalte funksjoner, gjenopprette kjøp og forstå kjøps- og abonnementsaktivitet. RevenueCat behandler en appbruker-ID generert av SDK-en, kjøpte produktidentifikatorer, transaksjons- og kjøpshistorikkinformasjon, abonnementsstatus og utløpsdatoer, og teknisk informasjon som enhetens operativsystem og appversjon.</p>\n      <p>Vi bruker RevenueCats automatisk genererte anonyme bruker-ID for appen i stedet for å angi et navn eller en e-postadresse som kjøpsidentifikator. Vi sender ikke profilnavnet eller e-postadressen din i appen til RevenueCat som kundeattributter. Bruk av en anonym ID betyr ikke at ingen informasjon behandles eller at kjøpsposter slettes når du avinstallerer appen.</p>\n      <p>For mer informasjon, se <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat sin personvernerklæring</a> og <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCats informasjon om kjøpsdata</a>.</p>"
+      "html": "<p>Vi kan tilby abonnementer og engangskjøp via App Store på iOS og Google Play på Android. Betalinger behandles av butikken som brukes til kjøpet: Apple for App Store og Google for Google Play. Vi samler ikke inn eller lagrer kredittkortnumre eller andre betalingsopplysninger direkte. For å tilby betalte funksjoner kan appen hente eller kontrollere informasjon om kjøpte produkter og abonnementsstatus.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apples personvernregler</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googles personvernregler </a></p>\n      <p>Vi bruker RevenueCat, Inc. til å bekrefte kjøp, administrere tilgang til abonnementer og betalte funksjoner, gjenopprette kjøp og forstå kjøps- og abonnementsaktivitet. RevenueCat behandler en appbruker-ID generert av SDK-en, kjøpte produktidentifikatorer, transaksjons- og kjøpshistorikkinformasjon, abonnementsstatus og utløpsdatoer, og teknisk informasjon som enhetens operativsystem og appversjon.</p>\n      <p>Vi bruker RevenueCats automatisk genererte anonyme bruker-ID for appen i stedet for å angi et navn eller en e-postadresse som kjøpsidentifikator. Vi sender ikke profilnavnet eller e-postadressen din i appen til RevenueCat som kundeattributter. Bruk av en anonym ID betyr ikke at ingen informasjon behandles eller at kjøpsposter slettes når du avinstallerer appen.</p>\n      <p>For mer informasjon, se <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat sin personvernerklæring</a> og <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCats informasjon om kjøpsdata (iOS)</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Deling med tredjeparter",
-      "html": "<p>Vi selger ikke informasjon om brukere. Informasjon kan sendes til eller behandles av Firebase, Google AdMob, Apple, RevenueCat og andre tjenester etter behov for å levere appen. Vi kan også utlevere informasjon der du samtykker, der utlevering er påkrevd ved lov, der det er nødvendig for å beskytte liv, kropp eller eiendom, eller som ellers tillatt ved lov.</p>"
+      "html": "<p>Vi selger ikke informasjon om brukere. Informasjon kan sendes til eller behandles av Firebase, Google AdMob, Apple (App Store), Google (Google Play), RevenueCat og andre tjenester etter behov for å levere appen. Vi kan også utlevere informasjon der du samtykker, der utlevering er påkrevd ved lov, der det er nødvendig for å beskytte liv, kropp eller eiendom, eller som ellers tillatt ved lov.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Annonsering og personvernvalg",
-      "html": "<p>Måten annonser leveres på kan variere avhengig av region, enhetsinnstillinger, Apples personvernfunksjoner, samtykkestatus og andre betingelser. Der det er nødvendig, kan vi vise en skjerm som ber om samtykke eller et valg angående annonser eller annen databruk. Du kan administrere bruken av annonseidentifikatorer og annen informasjon i den grad det er tilgjengelig gjennom iOS-personverninnstillinger.</p>"
+      "html": "<p>Måten annonser leveres på kan variere avhengig av region, enhetsinnstillinger, personvernfunksjoner i iOS og Android, samtykkestatus og andre betingelser. Der det er nødvendig, kan vi vise en skjerm som ber om samtykke eller et valg angående annonser eller annen databruk. Du kan administrere bruken av annonseidentifikatorer og annen informasjon i den grad det er tilgjengelig gjennom iOS- eller Android-personverninnstillinger.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Velg språk"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "20908fbcd114d9b31574ad2429e215a3c4e3985d1a1be4b96efaff2a15f5061a",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "ed8cbedfc3a34f3fee52f3f3e31154b82c0bd257d1667ccb1d0a65b9d4132615",
+    "reviewedSectionsSha256": "7d5c28ce12f66bb59f5275fba20d0ea977bfc70e29be75d314baed243c2f3de5"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "20908fbcd114d9b31574ad2429e215a3c4e3985d1a1be4b96efaff2a15f5061a",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

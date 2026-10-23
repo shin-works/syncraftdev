@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Podmínky použití",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Datum účinnosti: 28. srpna 2026 <br>\n     Poslední aktualizace: 8. září 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Datum účinnosti: 28. srpna 2026 <br>\n     Poslední aktualizace: 24. října 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Tyto Podmínky použití („Podmínky“) stanoví podmínky pro používání aplikace SwingCat („Aplikace“), aplikace pro iOS poskytované společností SynCraft („my“, „nás“ nebo „naše“).</p>\n      <p>Kromě těchto Podmínek se na vaše používání Aplikace vztahuje Standardní licenční smlouva s koncovým uživatelem (EULA) společnosti Apple.</p>\n      <p>Standardní licenční smlouva s koncovým uživatelem společnosti Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Před použitím aplikace si prosím prostudujte tyto podmínky a standardní licenční smlouvu s koncovým uživatelem společnosti Apple.</p>"
+      "html": "<p>Tyto Podmínky použití („Podmínky“) stanoví podmínky pro používání aplikace SwingCat („Aplikace“), aplikace pro iOS nebo Android poskytované společností SynCraft („my“, „nás“ nebo „naše“).</p><p>Kromě těchto Podmínek se na verzi pro iOS distribuovanou prostřednictvím App Storu vztahuje standardní licenční smlouva společnosti Apple s koncovým uživatelem (EULA). Na verzi pro Android distribuovanou prostřednictvím Google Play a nákupy v tomto obchodě se vztahují také příslušné podmínky a zásady Google Play. Před použitím aplikace si přečtěte tyto Podmínky i podmínky příslušného obchodu.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. Aplikace",
-      "html": "<ol>\n       <li>Aplikace pomáhá uživatelům spravovat soustředění a pracovní čas pomocí časovače.</li>\n       <li>V závislosti na používání časovače může aplikace poskytovat funkce, pomocí kterých mohou uživatelé získávat nebo používat kočky, předměty, tituly a další obsah.</li>\n       <li>Aplikace nezaručuje soustředění, produktivitu, studijní výsledky, pracovní výsledky ani žádný jiný konkrétní výsledek.</li>\n       <li>Funkce se mohou lišit v závislosti na systému iOS, zařízení a dalších podmínkách používání.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Aplikace pomáhá uživatelům spravovat soustředění a pracovní čas pomocí časovače.</li>\n       <li>V závislosti na používání časovače může aplikace poskytovat funkce, pomocí kterých mohou uživatelé získávat nebo používat kočky, předměty, tituly a další obsah.</li>\n       <li>Aplikace nezaručuje soustředění, produktivitu, studijní výsledky, pracovní výsledky ani žádný jiný konkrétní výsledek.</li>\n       <li>Funkce se mohou lišit v závislosti na systému iOS nebo Android, zařízení a dalších podmínkách používání.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Placené služby a nákupy",
-      "html": "<p>Kromě bezplatných funkcí může aplikace nabízet placené funkce nebo obsah, včetně měsíčních předplatných, ročních předplatných a jednorázových nákupních plánů. Platí produkty, ceny, období a dostupné funkce uvedené v aplikaci a App Storu v době nákupu. Nákupy a platby se provádějí prostřednictvím App Storu společnosti Apple; přímo neshromažďujeme ani neukládáme informace o platebních kartách.</p>"
+      "html": "<p>Vedle bezplatných funkcí může aplikace nabízet placené funkce nebo obsah, včetně měsíčního a ročního předplatného a jednorázových nákupů. Platí produkty, ceny, období a dostupné funkce uvedené v aplikaci a v příslušném obchodě v okamžiku nákupu. Nákupy a platby probíhají přes App Store společnosti Apple na iOS nebo Google Play na Androidu. Údaje o platebních kartách přímo neshromažďujeme ani neukládáme.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Předplatné",
-      "html": "<p>Poplatky za předplatné jsou účtovány z vašeho účtu Apple. Předplatné se automaticky obnovuje pro každé příslušné období, pokud automatické obnovení nevypnete v nastavení App Storu. Po vypnutí automatického obnovení zůstávají příslušné funkce obvykle k dispozici až do konce aktuálního placeného období. Správu předplatného, zrušení automatického obnovení, vrácení peněz a další platební záležitosti upravují obchodní podmínky a zásady společností Apple a App Storu.</p>"
+      "html": "<p>Předplatné zakoupené v App Storu se účtuje prostřednictvím vašeho účtu Apple, předplatné v Google Play prostřednictvím účtu Google použitého při nákupu. Předplatné se automaticky obnovuje na každé příslušné období, pokud ho nezrušíte nebo nevypnete automatické obnovení v obchodě, kde jste ho zakoupili. Předplatné z App Storu spravujte v nastavení předplatných Apple, předplatné z Google Play v nastavení předplatných Google Play. Po zrušení jsou příslušné funkce zpravidla dostupné do konce již zaplaceného období. Správa, zrušení, vrácení peněz a další platební záležitosti podléhají platným právním předpisům a podmínkám a zásadám obchodu, ve kterém byl nákup uskutečněn.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=cs\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Jednorázové nákupní plány",
-      "html": "<p>Jednorázový nákupní plán poskytuje právo používat příslušné placené funkce bez opakovaných plateb předplatného. Nezaručuje trvalé poskytování aplikace, všech funkcí, integrací třetích stran ani kompatibilitu se všemi budoucími verzemi nebo zařízeními iOS. Obnovení informací o nákupu a související záležitosti podléhají systémům a zásadám společností Apple a App Store.</p>"
+      "html": "<p>Jednorázový nákupní plán poskytuje právo používat příslušné placené funkce bez opakovaných plateb předplatného. Nezaručuje trvalé poskytování aplikace, všech funkcí, integrací třetích stran ani kompatibilitu se všemi budoucími verzemi nebo zařízeními iOS nebo Android. Obnovení informací o nákupu a související záležitosti podléhají systémům a zásadám obchodu, ve kterém byl nákup uskutečněn (App Store nebo Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Prohlášení o vyloučení odpovědnosti",
-      "html": "<p>Nezaručujeme, že Aplikace bude vždy správně fungovat na každém zařízení a v každém operačním prostředí, ani že bude přesná, úplná, bezpečná, vhodná pro konkrétní účel nebo nepřetržitě dostupná. Časovače, oznámení a další funkce nemusí fungovat podle očekávání kvůli nastavení zařízení, specifikacím systému iOS, funkcím úspory energie, stavu sítě nebo jiným okolnostem. S výjimkou případů našeho úmyslného pochybení, hrubé nedbalosti nebo odpovědnosti, kterou nelze ze zákona vyloučit, neneseme odpovědnost za škody vzniklé v důsledku používání nebo nemožnosti používat Aplikaci.</p>"
+      "html": "<p>Nezaručujeme, že Aplikace bude vždy správně fungovat na každém zařízení a v každém operačním prostředí, ani že bude přesná, úplná, bezpečná, vhodná pro konkrétní účel nebo nepřetržitě dostupná. Časovače, oznámení a další funkce nemusí fungovat podle očekávání kvůli nastavení zařízení, specifikacím systému iOS nebo Android, funkcím úspory energie, stavu sítě nebo jiným okolnostem. S výjimkou případů našeho úmyslného pochybení, hrubé nedbalosti nebo odpovědnosti, kterou nelze ze zákona vyloučit, neneseme odpovědnost za škody vzniklé v důsledku používání nebo nemožnosti používat Aplikaci.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Změny nebo ukončení",
-      "html": "<p>Můžeme přidávat, měnit, kontrolovat, omezovat, pozastavovat nebo ukončovat funkce nebo celou Aplikaci nebo její část dle potřeby s přihlédnutím k vývojovým a provozním okolnostem, podporovaným zařízením, specifikacím iOS, službám třetích stran a dalším faktorům. O podstatných změnách nebo ukončení budeme informovat, pokud je to přiměřeně možné.</p>"
+      "html": "<p>Můžeme přidávat, měnit, kontrolovat, omezovat, pozastavovat nebo ukončovat funkce nebo celou Aplikaci nebo její část dle potřeby s přihlédnutím k vývojovým a provozním okolnostem, podporovaným zařízením, specifikacím iOS nebo Android, službám třetích stran a dalším faktorům. O podstatných změnách nebo ukončení budeme informovat, pokud je to přiměřeně možné.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Vyberte jazyk"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "547d732a1d89cf10f6ec15f5e96f802286094a5d94f51ce3ab1ca1f86bffee52",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "7bb0efebc55f791a38c097dc632eb1bb13241445e6c66669e01b769843aeb66a",
+    "reviewedSectionsSha256": "f57c40ff4806f7ccd40f5f54f4d59e4e61c67457f7407cc01b01a622d998a9a8"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "547d732a1d89cf10f6ec15f5e96f802286094a5d94f51ce3ab1ca1f86bffee52",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

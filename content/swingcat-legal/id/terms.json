@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Syarat Penggunaan",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Tanggal berlaku: 28 Agustus 2026 <br>\n     Terakhir diperbarui: 8 September 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Tanggal berlaku: 28 Agustus 2026 <br>\n     Terakhir diperbarui: 24 Oktober 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Syarat dan Ketentuan Penggunaan ini (\"Syarat\") menetapkan syarat dan ketentuan untuk menggunakan SwingCat (\"Aplikasi\"), sebuah aplikasi iOS yang disediakan oleh SynCraft (\"kami,\" \"kita,\" atau \"milik kami\").</p>\n      <p>Selain Syarat dan Ketentuan ini, penggunaan Aplikasi oleh Anda juga tunduk pada Perjanjian Lisensi Pengguna Akhir (EULA) Standar Apple.</p>\n      <p>Perjanjian Lisensi Pengguna Akhir Standar Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Harap tinjau Ketentuan ini dan Perjanjian Lisensi Pengguna Akhir Standar Apple sebelum menggunakan Aplikasi.</p>"
+      "html": "<p>Syarat dan Ketentuan Penggunaan ini (\"Syarat\") menetapkan syarat dan ketentuan untuk menggunakan SwingCat (\"Aplikasi\"), sebuah aplikasi iOS atau Android yang disediakan oleh SynCraft (\"kami,\" \"kita,\" atau \"milik kami\").</p><p>Selain Ketentuan ini, versi iOS yang didistribusikan melalui App Store tunduk pada Perjanjian Lisensi Pengguna Akhir standar Apple (EULA). Versi Android yang didistribusikan melalui Google Play dan pembelian di toko tersebut juga tunduk pada ketentuan dan kebijakan Google Play yang berlaku. Sebelum menggunakan Aplikasi, baca Ketentuan ini dan ketentuan toko yang Anda gunakan.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. Aplikasi",
-      "html": "<ol>\n       <li>Aplikasi ini membantu pengguna mengatur fokus dan waktu kerja menggunakan pengatur waktu.</li>\n       <li>Tergantung pada penggunaan pengatur waktu, Aplikasi dapat menyediakan fitur-fitur yang memungkinkan pengguna untuk mendapatkan atau menggunakan kucing, barang, gelar, dan konten lainnya.</li>\n       <li>Aplikasi ini tidak menjamin konsentrasi, produktivitas, hasil pembelajaran, hasil kerja, atau hasil spesifik lainnya.</li>\n       <li>Fitur dapat berbeda tergantung pada iOS, perangkat, dan kondisi penggunaan lainnya.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Aplikasi ini membantu pengguna mengatur fokus dan waktu kerja menggunakan pengatur waktu.</li>\n       <li>Tergantung pada penggunaan pengatur waktu, Aplikasi dapat menyediakan fitur-fitur yang memungkinkan pengguna untuk mendapatkan atau menggunakan kucing, barang, gelar, dan konten lainnya.</li>\n       <li>Aplikasi ini tidak menjamin konsentrasi, produktivitas, hasil pembelajaran, hasil kerja, atau hasil spesifik lainnya.</li>\n       <li>Fitur dapat berbeda tergantung pada iOS atau Android, perangkat, dan kondisi penggunaan lainnya.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Layanan dan pembelian berbayar",
-      "html": "<p>Selain fitur gratis, Aplikasi ini mungkin menawarkan fitur atau konten berbayar, termasuk langganan bulanan, langganan tahunan, dan paket pembelian satu kali. Produk, harga, jangka waktu, dan fitur yang tersedia yang ditampilkan di Aplikasi dan App Store pada saat pembelian berlaku. Pembelian dan pembayaran dilakukan melalui App Store Apple; kami tidak secara langsung mengumpulkan atau menyimpan informasi kartu pembayaran.</p>"
+      "html": "<p>Selain fitur gratis, Aplikasi dapat menawarkan fitur atau konten berbayar, termasuk langganan bulanan, tahunan, dan pembelian satu kali. Produk, harga, periode, dan fitur yang tersedia sebagaimana ditampilkan di Aplikasi dan toko yang digunakan saat pembelian berlaku. Pembelian dan pembayaran dilakukan melalui App Store milik Apple di iOS atau Google Play di Android. Kami tidak mengumpulkan atau menyimpan data kartu pembayaran secara langsung.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Langganan",
-      "html": "<p>Biaya berlangganan dibebankan ke Akun Apple Anda. Langganan akan diperpanjang secara otomatis untuk setiap periode yang berlaku kecuali Anda menonaktifkan perpanjangan otomatis di pengaturan App Store. Setelah perpanjangan otomatis dinonaktifkan, fitur-fitur terkait umumnya tetap tersedia hingga akhir periode pembayaran saat ini. Syarat, ketentuan, dan kebijakan Apple dan App Store mengatur pengelolaan langganan, pembatalan perpanjangan otomatis, pengembalian dana, dan hal-hal pembayaran lainnya.</p>"
+      "html": "<p>Langganan yang dibeli di App Store ditagihkan melalui Akun Apple Anda; langganan di Google Play ditagihkan melalui Akun Google yang digunakan untuk membeli. Langganan diperpanjang otomatis untuk setiap periode yang berlaku, kecuali dibatalkan atau perpanjangan otomatis dinonaktifkan melalui toko tempat langganan dibeli. Kelola langganan App Store di pengaturan langganan Apple dan langganan Google Play di pengaturan langganan Google Play. Setelah pembatalan, fitur umumnya tetap tersedia hingga akhir periode yang telah dibayar. Pengelolaan, pembatalan, pengembalian dana, dan urusan pembayaran lainnya tunduk pada hukum yang berlaku serta syarat, ketentuan, dan kebijakan toko tempat pembelian dilakukan.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=id\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Paket pembelian satu kali",
-      "html": "<p>Paket pembelian satu kali memberikan hak untuk menggunakan fitur berbayar yang relevan tanpa pembayaran langganan berulang. Namun, ini tidak menjamin penyediaan Aplikasi, setiap fitur, integrasi pihak ketiga, atau kompatibilitas dengan semua versi iOS atau perangkat di masa mendatang secara permanen. Pemulihan informasi pembelian dan hal-hal terkait tunduk pada sistem dan kebijakan Apple dan App Store.</p>"
+      "html": "<p>Paket pembelian satu kali memberikan hak untuk menggunakan fitur berbayar yang relevan tanpa pembayaran langganan berulang. Namun, ini tidak menjamin penyediaan Aplikasi, setiap fitur, integrasi pihak ketiga, atau kompatibilitas dengan semua versi iOS atau Android atau perangkat di masa mendatang secara permanen. Pemulihan informasi pembelian dan hal terkait tunduk pada sistem dan kebijakan toko tempat pembelian dilakukan (App Store atau Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Penafian",
-      "html": "<p>Kami tidak menjamin bahwa Aplikasi akan selalu beroperasi dengan benar di setiap perangkat dan lingkungan OS, atau bahwa Aplikasi akan akurat, lengkap, aman, sesuai untuk tujuan tertentu, atau selalu tersedia. Timer, notifikasi, dan fitur lainnya mungkin tidak beroperasi seperti yang diharapkan karena pengaturan perangkat, spesifikasi iOS, fitur penghematan daya, kondisi jaringan, atau keadaan lainnya. Kecuali dalam kasus kesalahan yang disengaja, kelalaian berat, atau tanggung jawab yang tidak dapat dikecualikan oleh hukum, kami tidak bertanggung jawab atas kerugian yang timbul dari penggunaan, atau ketidakmampuan untuk menggunakan, Aplikasi.</p>"
+      "html": "<p>Kami tidak menjamin bahwa Aplikasi akan selalu beroperasi dengan benar di setiap perangkat dan lingkungan OS, atau bahwa Aplikasi akan akurat, lengkap, aman, sesuai untuk tujuan tertentu, atau selalu tersedia. Timer, notifikasi, dan fitur lainnya mungkin tidak beroperasi seperti yang diharapkan karena pengaturan perangkat, spesifikasi iOS atau Android, fitur penghematan daya, kondisi jaringan, atau keadaan lainnya. Kecuali dalam kasus kesalahan yang disengaja, kelalaian berat, atau tanggung jawab yang tidak dapat dikecualikan oleh hukum, kami tidak bertanggung jawab atas kerugian yang timbul dari penggunaan, atau ketidakmampuan untuk menggunakan, Aplikasi.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Perubahan atau penghentian",
-      "html": "<p>Kami dapat menambahkan, mengubah, meninjau, mengurangi, menangguhkan, atau menghentikan fitur atau seluruh atau sebagian dari Aplikasi sesuai kebutuhan, dengan mempertimbangkan keadaan pengembangan dan operasional, perangkat yang didukung, spesifikasi iOS, layanan pihak ketiga, dan faktor lainnya. Kami akan memberikan pemberitahuan tentang perubahan material atau penghentian jika memungkinkan.</p>"
+      "html": "<p>Kami dapat menambahkan, mengubah, meninjau, mengurangi, menangguhkan, atau menghentikan fitur atau seluruh atau sebagian dari Aplikasi sesuai kebutuhan, dengan mempertimbangkan keadaan pengembangan dan operasional, perangkat yang didukung, spesifikasi iOS atau Android, layanan pihak ketiga, dan faktor lainnya. Kami akan memberikan pemberitahuan tentang perubahan material atau penghentian jika memungkinkan.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Pilih bahasa"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "6fa7e4c7e4a2d76995371730446d175da8489a720b12dceee1a96024ba80307d",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "8a4105c8325eb8f43f8f5ba4f55f203da7bcedcac2b35236326a7dcc4f86766d",
+    "reviewedSectionsSha256": "1fa05aefb2046e0b071879d54f361f4fe99cf0c4c2db315b109def7c9be66c52"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "6fa7e4c7e4a2d76995371730446d175da8489a720b12dceee1a96024ba80307d",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

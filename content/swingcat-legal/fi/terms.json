@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Käyttöehdot",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Voimaantulopäivä: 28. elokuuta 2026 <br>\n     Viimeksi päivitetty: 8. syyskuuta 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Voimaantulopäivä: 28. elokuuta 2026 <br>\n     Viimeksi päivitetty: 24. lokakuuta 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Nämä käyttöehdot (\"Ehdot\") määrittelevät SwingCatin (\"Sovellus\") käyttöehdot. SwingCat on SynCraftin (\"me\", \"meitä\" tai \"meidän\") tarjoama iOS-sovellus.</p>\n      <p>Näiden Ehtojen lisäksi Sovelluksen käyttöön sovelletaan Applen vakiokäyttöoikeussopimusta (EULA).</p>\n      <p>Applen vakiokäyttöoikeussopimus: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Lue nämä ehdot ja Applen vakiokäyttöoikeussopimus ennen sovelluksen käyttöä.</p>"
+      "html": "<p>Nämä käyttöehdot (\"Ehdot\") määrittelevät SwingCatin (\"Sovellus\") käyttöehdot. SwingCat on SynCraftin (\"me\", \"meitä\" tai \"meidän\") tarjoama iOS- tai Android-sovellus.</p><p>Näiden ehtojen lisäksi App Storen kautta jaettavaan iOS-versioon sovelletaan Applen vakiomuotoista loppukäyttäjän lisenssisopimusta (EULA). Google Playn kautta jaettavaan Android-versioon ja kyseisessä kaupassa tehtyihin ostoksiin sovelletaan myös Google Playn soveltuvia ehtoja ja käytäntöjä. Lue nämä ehdot ja käyttämäsi kaupan ehdot ennen sovelluksen käyttöä.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. Sovellus",
-      "html": "<ol>\n       <li>Sovellus auttaa käyttäjiä hallitsemaan keskittymistä ja työaikaa ajastimen avulla.</li>\n       <li>Ajastimen käytöstä riippuen sovellus voi tarjota ominaisuuksia, joiden kautta käyttäjät voivat hankkia tai käyttää kissoja, esineitä, arvonimiä ja muuta sisältöä.</li>\n       <li>Sovellus ei takaa keskittymistä, tuottavuutta, oppimistuloksia, työtuloksia tai mitään muuta tiettyä tulosta.</li>\n       <li>Ominaisuudet voivat vaihdella iOS:n, laitteen ja muiden käyttöolosuhteiden mukaan.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Sovellus auttaa käyttäjiä hallitsemaan keskittymistä ja työaikaa ajastimen avulla.</li>\n       <li>Ajastimen käytöstä riippuen sovellus voi tarjota ominaisuuksia, joiden kautta käyttäjät voivat hankkia tai käyttää kissoja, esineitä, arvonimiä ja muuta sisältöä.</li>\n       <li>Sovellus ei takaa keskittymistä, tuottavuutta, oppimistuloksia, työtuloksia tai mitään muuta tiettyä tulosta.</li>\n       <li>Ominaisuudet voivat vaihdella iOS:n tai Androidin, laitteen ja muiden käyttöolosuhteiden mukaan.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Maksulliset palvelut ja ostot",
-      "html": "<p>Ilmaisten ominaisuuksien lisäksi sovellus voi tarjota maksullisia ominaisuuksia tai sisältöä, kuten kuukausitilauksia, vuositilauksia ja kertaostoksia. Sovelluksessa ja App Storessa ostohetkellä näkyvät tuotteet, hinnat, jaksot ja käytettävissä olevat ominaisuudet ovat voimassa. Ostokset ja maksut tehdään Applen App Storen kautta; emme kerää tai tallenna maksukorttitietoja suoraan.</p>"
+      "html": "<p>Ilmaisten toimintojen lisäksi sovellus voi tarjota maksullisia toimintoja tai sisältöä, kuten kuukausi- ja vuositilauksia sekä kertaostoja. Sovellettavat tuotteet, hinnat, kaudet ja käytettävissä olevat toiminnot ovat ne, jotka näkyvät sovelluksessa ja käytetyssä kaupassa ostohetkellä. Ostot ja maksut tehdään iOS:ssä Applen App Storen ja Androidissa Google Playn kautta. Emme kerää tai tallenna maksukorttitietoja suoraan.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Tilaukset",
-      "html": "<p>Tilausmaksut veloitetaan Apple-tililtäsi. Tilaus uusiutuu automaattisesti kullekin sovellettavalle jaksolle, ellet poista automaattista uusimista käytöstä App Storen asetuksissa. Kun automaattinen uusiminen on poistettu käytöstä, kyseiset ominaisuudet pysyvät yleensä käytettävissä nykyisen maksetun kauden loppuun asti. Applen ja App Storen käyttöehdot ja käytännöt koskevat tilausten hallintaa, automaattisen uusimisen peruuttamista, hyvityksiä ja muita maksuasioita.</p>"
+      "html": "<p>App Storesta ostetut tilaukset veloitetaan Apple-tililtäsi ja Google Playsta ostetut tilaukset ostoon käytetyn Google-tilin kautta. Tilaus uusiutuu automaattisesti kunkin sovellettavan kauden ajaksi, ellei sitä peruta tai automaattista uusimista poisteta käytöstä ostoon käytetyssä kaupassa. Hallitse App Store -tilauksia Applen tilausasetuksissa ja Google Play -tilauksia Google Playn tilausasetuksissa. Perumisen jälkeen toiminnot ovat yleensä käytettävissä jo maksetun kauden loppuun asti. Hallintaan, perumiseen, hyvityksiin ja muihin maksuasioihin sovelletaan voimassa olevaa lainsäädäntöä sekä ostoon käytetyn kaupan ehtoja ja käytäntöjä.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=fi\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Kertaluonteiset ostosuunnitelmat",
-      "html": "<p>Kertaostospaketti antaa oikeuden käyttää asiaankuuluvia maksullisia ominaisuuksia ilman toistuvia tilausmaksuja. Se ei takaa sovelluksen, kaikkien ominaisuuksien, kolmansien osapuolten integraatioiden tai yhteensopivuuden jatkuvaa saatavuutta kaikkien tulevien iOS-versioiden tai -laitteiden kanssa. Ostotietojen palauttaminen ja siihen liittyvät asiat ovat Applen ja App Storen järjestelmien ja käytäntöjen alaisia.</p>"
+      "html": "<p>Kertaostospaketti antaa oikeuden käyttää asiaankuuluvia maksullisia ominaisuuksia ilman toistuvia tilausmaksuja. Se ei takaa sovelluksen, kaikkien ominaisuuksien, kolmansien osapuolten integraatioiden tai yhteensopivuuden jatkuvaa saatavuutta kaikkien tulevien iOS- tai Android-versioiden tai -laitteiden kanssa. Ostotietojen palauttamiseen ja siihen liittyviin asioihin sovelletaan ostoon käytetyn kaupan (App Store tai Google Play) järjestelmiä ja käytäntöjä.</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Vastuuvapauslausekkeet",
-      "html": "<p>Emme takaa, että sovellus toimii aina oikein kaikilla laitteilla ja käyttöjärjestelmissä tai että se on tarkka, täydellinen, turvallinen, sopii tiettyyn tarkoitukseen tai on jatkuvasti käytettävissä. Ajastimet, ilmoitukset ja muut ominaisuudet eivät välttämättä toimi odotetulla tavalla laiteasetusten, iOS:n teknisten tietojen, virransäästöominaisuuksien, verkko-olosuhteiden tai muiden olosuhteiden vuoksi. Emme ole vastuussa vahingoista, jotka johtuvat sovelluksen käytöstä tai käyttökyvyttömyydestä, lukuun ottamatta tapauksia, joissa kyseessä on tahallinen väärinkäytös, törkeä huolimattomuus tai vastuu, jota ei voida lain mukaan sulkea pois.</p>"
+      "html": "<p>Emme takaa, että sovellus toimii aina oikein kaikilla laitteilla ja käyttöjärjestelmissä tai että se on tarkka, täydellinen, turvallinen, sopii tiettyyn tarkoitukseen tai on jatkuvasti käytettävissä. Ajastimet, ilmoitukset ja muut ominaisuudet eivät välttämättä toimi odotetulla tavalla laiteasetusten, iOS:n tai Androidin teknisten tietojen, virransäästöominaisuuksien, verkko-olosuhteiden tai muiden olosuhteiden vuoksi. Emme ole vastuussa vahingoista, jotka johtuvat sovelluksen käytöstä tai käyttökyvyttömyydestä, lukuun ottamatta tapauksia, joissa kyseessä on tahallinen väärinkäytös, törkeä huolimattomuus tai vastuu, jota ei voida lain mukaan sulkea pois.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Muutokset tai lopettaminen",
-      "html": "<p>Voimme lisätä, muuttaa, tarkistaa, vähentää, keskeyttää tai lopettaa ominaisuuksia tai koko Sovelluksen tai sen osan tarpeen mukaan ottaen huomioon kehitys- ja toimintaolosuhteet, tuetut laitteet, iOS-määritykset, kolmansien osapuolten palvelut ja muut tekijät. Ilmoitamme olennaisista muutoksista tai lopettamisesta, jos se on kohtuudella mahdollista.</p>"
+      "html": "<p>Voimme lisätä, muuttaa, tarkistaa, vähentää, keskeyttää tai lopettaa ominaisuuksia tai koko Sovelluksen tai sen osan tarpeen mukaan ottaen huomioon kehitys- ja toimintaolosuhteet, tuetut laitteet, iOS- tai Android-määritykset, kolmansien osapuolten palvelut ja muut tekijät. Ilmoitamme olennaisista muutoksista tai lopettamisesta, jos se on kohtuudella mahdollista.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Valitse kieli"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "79498f87f81c748fcc3072a0232d5ff00fcc1abb4642086daae7bf7a18fcc295",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "6c47476cf677c800d12e9022c013d86098ccdd19be649d2dc1c7e5bf079f4fb1",
+    "reviewedSectionsSha256": "8ea5d76bfc0b20c12a4e17b0cd8199fffb685776ea1a26a21d92e5150c959d75"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "79498f87f81c748fcc3072a0232d5ff00fcc1abb4642086daae7bf7a18fcc295",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

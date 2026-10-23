@@ -4,20 +4,20 @@
   "kind": "terms",
   "title": "Terms of Use",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Effective date: August 28, 2026<br>Last updated: September 8, 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Effective date: August 28, 2026<br>Last updated: October 24, 2026",
   "status": "source-reviewed",
   "sourceLocale": "en",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>These Terms of Use (\"Terms\") set forth the terms and conditions for using SwingCat (the \"App\"), an iOS application provided by SynCraft (\"we,\" \"us,\" or \"our\").</p>\n<p>In addition to these Terms, your use of the App is subject to Apple's Standard End User License Agreement (EULA).</p>\n<p>Apple Standard End User License Agreement:<br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n<p>Please review these Terms and the Apple Standard End User License Agreement before using the App.</p>"
+      "html": "<p>These Terms of Use (\"Terms\") set forth the terms and conditions for using SwingCat (the \"App\"), an application for iOS and Android provided by SynCraft (\"we,\" \"us,\" or \"our\").</p>\n<p>In addition to these Terms, use of the iOS version distributed through the App Store is subject to Apple's Standard End User License Agreement (EULA).</p>\n<p>Apple Standard End User License Agreement:<br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n<p>The Android version distributed through Google Play and purchases made through that store are also subject to the applicable Google Play terms and policies. See the <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play Terms of Service</a>.</p><p>Please review these Terms and the terms applicable to your store before using the App.</p>"
     },
     {
       "id": "section-01",
       "heading": "1. The App",
-      "html": "<ol><li>The App helps users manage focus and work time using a timer.</li><li>Depending on timer use, the App may provide features through which users can obtain or use cats, items, titles, and other content.</li><li>The App does not guarantee concentration, productivity, learning outcomes, work outcomes, or any other specific result.</li><li>Features may differ depending on iOS, the device, and other conditions of use.</li></ol>"
+      "html": "<ol><li>The App helps users manage focus and work time using a timer.</li><li>Depending on timer use, the App may provide features through which users can obtain or use cats, items, titles, and other content.</li><li>The App does not guarantee concentration, productivity, learning outcomes, work outcomes, or any other specific result.</li><li>Features may differ depending on iOS or Android, the device, and other conditions of use.</li></ol>"
     },
     {
       "id": "section-02",
@@ -42,17 +42,17 @@
     {
       "id": "section-06",
       "heading": "6. Paid services and purchases",
-      "html": "<p>In addition to free features, the App may offer paid features or content, including monthly subscriptions, annual subscriptions, and one-time purchase plans. Products, prices, periods, and available features shown in the App and App Store at the time of purchase apply. Purchases and payments are made through Apple's App Store; we do not directly collect or store payment-card information.</p>"
+      "html": "<p>In addition to free features, the App may offer paid features or content, including monthly subscriptions, annual subscriptions, and one-time purchase plans. Products, prices, periods, and available features shown in the App and the store used for the purchase (App Store or Google Play) at the time of purchase apply. Purchases and payments are made through Apple's App Store on iOS or Google Play on Android; we do not directly collect or store payment-card information.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Subscriptions",
-      "html": "<p>Subscription fees are charged to your Apple Account. A subscription automatically renews for each applicable period unless you turn off auto-renewal in App Store settings. After auto-renewal is turned off, the relevant features generally remain available through the end of the current paid term. Apple and App Store terms, conditions, and policies govern subscription management, cancellation of automatic renewal, refunds, and other payment matters.</p>"
+      "html": "<p>Subscriptions purchased through the App Store are billed to your Apple Account; those purchased through Google Play are billed through the Google Account used for the purchase. A subscription automatically renews for each applicable period unless canceled or auto-renewal is turned off through the store where it was purchased. Manage App Store subscriptions through Apple's subscription settings and Google Play subscriptions through Google Play's subscription settings.</p><p>After cancellation, the relevant features generally remain available through the end of the current paid term. Subscription management, cancellation, refunds, and other payment matters are subject to applicable law and the terms, conditions, and policies of the store used for the purchase.</p><p>Instructions: <a href=\"https://support.apple.com/en-us/118428\" target=\"_blank\" rel=\"noopener\">Cancel an Apple subscription</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=en\" target=\"_blank\" rel=\"noopener\">Cancel a Google Play subscription</a>.</p>"
     },
     {
       "id": "section-08",
       "heading": "8. One-time purchase plans",
-      "html": "<p>A one-time purchase plan provides the right to use the relevant paid features without recurring subscription payments. It does not guarantee perpetual provision of the App, every feature, third-party integrations, or compatibility with all future iOS versions or devices. Restoration of purchase information and related matters are subject to Apple and App Store systems and policies.</p>"
+      "html": "<p>A one-time purchase plan provides the right to use the relevant paid features without recurring subscription payments. It does not guarantee perpetual provision of the App, every feature, third-party integrations, or compatibility with all future iOS or Android versions or devices. Restoration of purchase information and related matters are subject to the systems and policies of the store used for the purchase (App Store or Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -62,12 +62,12 @@
     {
       "id": "section-10",
       "heading": "10. Disclaimers",
-      "html": "<p>We do not guarantee that the App will always operate correctly on every device and OS environment, or that it will be accurate, complete, secure, suitable for a particular purpose, or continuously available. Timers, notifications, and other features may not operate as expected because of device settings, iOS specifications, power-saving features, network conditions, or other circumstances. Except in cases of our intentional misconduct, gross negligence, or liability that cannot be excluded by law, we are not liable for damages arising from use of, or inability to use, the App.</p>"
+      "html": "<p>We do not guarantee that the App will always operate correctly on every device and OS environment, or that it will be accurate, complete, secure, suitable for a particular purpose, or continuously available. Timers, notifications, and other features may not operate as expected because of device settings, iOS or Android specifications, power-saving features, network conditions, or other circumstances. Except in cases of our intentional misconduct, gross negligence, or liability that cannot be excluded by law, we are not liable for damages arising from use of, or inability to use, the App.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Changes or discontinuation",
-      "html": "<p>We may add, change, review, reduce, suspend, or end features or all or part of the App as needed, taking account of development and operational circumstances, supported devices, iOS specifications, third-party services, and other factors. We will provide notice of material changes or discontinuation where reasonably possible.</p>"
+      "html": "<p>We may add, change, review, reduce, suspend, or end features or all or part of the App as needed, taking account of development and operational circumstances, supported devices, iOS or Android specifications, third-party services, and other factors. We will provide notice of material changes or discontinuation where reasonably possible.</p>"
     },
     {
       "id": "section-12",
@@ -84,5 +84,21 @@
       "heading": "14. Contact",
       "html": "<div class=\"contact\"><p>Developer and operator: SynCraft</p><p>Contact: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p></div>"
     }
+  ],
+  "reviewHistory": [
+    {}
+  ],
+  "review": {
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "8d88e88c860d2fe0fdd6d6377bf912f36d402f80816b691d8d21c5e881bc7147",
+    "reviewedSectionsSha256": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d"
+  },
+  "platforms": [
+    "iOS",
+    "Android"
   ]
 }

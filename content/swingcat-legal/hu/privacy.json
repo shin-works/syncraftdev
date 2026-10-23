@@ -4,21 +4,21 @@
   "kind": "privacy",
   "title": "Adatvédelmi irányelvek",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Hatálybalépés dátuma: 2026. augusztus 28. <br>\n     Utolsó frissítés: 2026. október 18.",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Hatálybalépés dátuma: 2026. augusztus 28. <br>\n     Utolsó frissítés: 2026. október 24.",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "04febbebbd7b3da0d3e19dac5a2a990d186051a172f6709d59f28fced9e37b82",
+  "sourceHash": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Ez az Adatvédelmi Szabályzat elmagyarázza, hogy a SynCraft („mi”, „minket” vagy „miénk”) hogyan kezeli a felhasználói adatokat a SwingCat iOS alkalmazásban („Alkalmazás”).</p>"
+      "html": "<p>Ez az Adatvédelmi Szabályzat elmagyarázza, hogy a SynCraft („mi”, „minket” vagy „miénk”) hogyan kezeli a felhasználói adatokat a SwingCat iOS vagy Android alkalmazásban („Alkalmazás”).</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Az általunk gyűjtött és tárolt információk",
-      "html": "<p>Az alkalmazás általában nem igényli a felhasználóktól, hogy közvetlenül megadják a nevüket, címüket, telefonszámukat vagy e-mail címüket a regisztrációhoz.</p>\n      <p>Az Alkalmazás használatától függően a következő információk tárolódhatnak az eszközén: időzítő beállításai; fókuszidő és időzítő előzmények; az Ön által megadott feladatok; macskák, tárgyak, címek és egyéb alkalmazáson belüli tartalmak, valamint azok használata; Alkalmazásbeállítások; opcionális profilinformációk, például név; és a fizetős funkciók állapota.</p>\n      <p>Harmadik féltől származó szolgáltatásokon keresztül is gyűjthetünk vagy dolgozhatunk fel információkat használatelemzés, minőségfejlesztés, diagnosztika és hirdetések céljából. Ez magában foglalhatja az eszköztípust, az operációs rendszert, a nyelvi beállításokat, az alkalmazás verzióját, az indítási és funkcióhasználati eseményeket, a hiba- és teljesítményadatokat, az IP-címet és egyéb hálózati információkat, a hirdetési interakciókat, valamint az eszköz- vagy hirdetési azonosítókat. A ténylegesen feldolgozott információk az iOS verziójától, az eszközbeállításoktól, az adatvédelmi beállításoktól, a hozzájárulási állapottól és a harmadik féltől származó szolgáltatásspecifikációktól függően változhatnak.</p>"
+      "html": "<p>Az alkalmazás általában nem igényli a felhasználóktól, hogy közvetlenül megadják a nevüket, címüket, telefonszámukat vagy e-mail címüket a regisztrációhoz.</p>\n      <p>Az Alkalmazás használatától függően a következő információk tárolódhatnak az eszközén: időzítő beállításai; fókuszidő és időzítő előzmények; az Ön által megadott feladatok; macskák, tárgyak, címek és egyéb alkalmazáson belüli tartalmak, valamint azok használata; Alkalmazásbeállítások; opcionális profilinformációk, például név; és a fizetős funkciók állapota.</p>\n      <p>Harmadik féltől származó szolgáltatásokon keresztül is gyűjthetünk vagy dolgozhatunk fel információkat használatelemzés, minőségfejlesztés, diagnosztika és hirdetések céljából. Ez magában foglalhatja az eszköztípust, az operációs rendszert, a nyelvi beállításokat, az alkalmazás verzióját, az indítási és funkcióhasználati eseményeket, a hiba- és teljesítményadatokat, az IP-címet és egyéb hálózati információkat, a hirdetési interakciókat, valamint az eszköz- vagy hirdetési azonosítókat. A ténylegesen feldolgozott információk az iOS vagy Android verziójától, az eszközbeállításoktól, az adatvédelmi beállításoktól, a hozzájárulási állapottól és a harmadik féltől származó szolgáltatásspecifikációktól függően változhatnak.</p>"
     },
     {
       "id": "section-02",
@@ -33,17 +33,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>A Google AdMob szolgáltatást használhatjuk hirdetések megjelenítésére. Az alkalmazás jutalmazott hirdetéseket kínálhat, amelyeken keresztül a felhasználók tételeket vagy más alkalmazáson belüli előnyöket kaphatnak. Az AdMob és a Google Mobile Ads SDK gyűjthet vagy feldolgozhat IP-címeket, eszközinformációkat, eszköz- vagy hirdetési azonosítókat, hirdetésmegjelenítéseket és interakciókat, alkalmazáson belüli interakciókat, valamint összeomlási vagy teljesítményinformációkat a hirdetések megjelenítése, mérése, csalásmegelőzése és a szolgáltatásfejlesztés céljából.</p>\n      <p>A hirdetési azonosítók elérhetősége az eszközbeállításoktól, az Apple adatvédelmi funkcióitól és a felhasználó beleegyezésétől függhet. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google adatvédelmi irányelvek </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Hogyan használja fel a Google a partner webhelyekről vagy alkalmazásokból származó adatokat?</a></p>"
+      "html": "<p>A Google AdMob szolgáltatást használhatjuk hirdetések megjelenítésére. Az alkalmazás jutalmazott hirdetéseket kínálhat, amelyeken keresztül a felhasználók tételeket vagy más alkalmazáson belüli előnyöket kaphatnak. Az AdMob és a Google Mobile Ads SDK gyűjthet vagy feldolgozhat IP-címeket, eszközinformációkat, eszköz- vagy hirdetési azonosítókat, hirdetésmegjelenítéseket és interakciókat, alkalmazáson belüli interakciókat, valamint összeomlási vagy teljesítményinformációkat a hirdetések megjelenítése, mérése, csalásmegelőzése és a szolgáltatásfejlesztés céljából.</p>\n      <p>A hirdetési azonosítók elérhetősége az eszközbeállításoktól, az iOS vagy Android adatvédelmi funkcióitól és a felhasználó beleegyezésétől függhet. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google adatvédelmi irányelvek </a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Hogyan használja fel a Google a partner webhelyekről vagy alkalmazásokból származó adatokat?</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. Alkalmazáson belüli vásárlások",
-      "html": "<p>Előfizetéseket és egyszeri vásárlási csomagokat kínálhatunk az App Store-on keresztül. Az Apple dolgozza fel a fizetéseket, és nem gyűjtünk és nem tárolunk közvetlenül hitelkártyaszámokat vagy egyéb fizetési adatokat. A fizetős funkciók biztosítása érdekében az alkalmazás hozzáférhet a megvásárolt termékekkel és az előfizetés állapotával kapcsolatos információkhoz, vagy ellenőrizheti azokat. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple adatvédelmi szabályzat</a></p>\n      <p>A RevenueCat, Inc. szolgáltatásait használjuk a vásárlások ellenőrzésére, az előfizetések és fizetős funkciókhoz való hozzáférés kezelésére, a vásárlások visszaállítására, valamint a vásárlási és előfizetési tevékenységek megértésére. A RevenueCat feldolgozza az SDK által generált alkalmazásfelhasználói azonosítót, a megvásárolt termék azonosítóit, a tranzakciós és vásárlási előzményeket, az előfizetés állapotát és lejárati dátumát, valamint a technikai információkat, például az eszköz operációs rendszerét és az alkalmazás verzióját.</p>\n      <p>A RevenueCat automatikusan generált, anonim alkalmazásfelhasználói azonosítóját használjuk a vásárlási azonosítóként megadott név vagy e-mail cím helyett. Az alkalmazáson belüli profilnevét vagy e-mail címét nem küldjük el a RevenueCatnek ügyfélattribútumként. Az anonim azonosító használata nem jelenti azt, hogy nem kerül sor információk feldolgozására, vagy hogy a vásárlási adatok törlődnek az alkalmazás eltávolításakor.</p>\n      <p>További információkért lásd a <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat adatvédelmi irányelveit</a> és <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">a RevenueCat vásárlási adatokkal kapcsolatos tájékoztatóját</a>.</p>"
+      "html": "<p>Előfizetéseket és egyszeri vásárlásokat kínálhatunk iOS-en az App Store-on, Androidon a Google Playen keresztül. A fizetést a vásárláshoz használt áruház kezeli: az App Store esetében az Apple, a Google Play esetében a Google. Hitelkártyaszámokat és más fizetési adatokat közvetlenül nem gyűjtünk és nem tárolunk. A fizetős funkciók biztosításához az Alkalmazás lekérheti vagy ellenőrizheti a megvásárolt termékek és az előfizetések állapotának adatait.</p><p><a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple adatvédelmi szabályzat</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google adatvédelmi irányelvek </a></p>\n      <p>A RevenueCat, Inc. szolgáltatásait használjuk a vásárlások ellenőrzésére, az előfizetések és fizetős funkciókhoz való hozzáférés kezelésére, a vásárlások visszaállítására, valamint a vásárlási és előfizetési tevékenységek megértésére. A RevenueCat feldolgozza az SDK által generált alkalmazásfelhasználói azonosítót, a megvásárolt termék azonosítóit, a tranzakciós és vásárlási előzményeket, az előfizetés állapotát és lejárati dátumát, valamint a technikai információkat, például az eszköz operációs rendszerét és az alkalmazás verzióját.</p>\n      <p>A RevenueCat automatikusan generált, anonim alkalmazásfelhasználói azonosítóját használjuk a vásárlási azonosítóként megadott név vagy e-mail cím helyett. Az alkalmazáson belüli profilnevét vagy e-mail címét nem küldjük el a RevenueCatnek ügyfélattribútumként. Az anonim azonosító használata nem jelenti azt, hogy nem kerül sor információk feldolgozására, vagy hogy a vásárlási adatok törlődnek az alkalmazás eltávolításakor.</p>\n      <p>További információkért lásd a <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat adatvédelmi irányelveit</a> és <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">a RevenueCat vásárlási adatokkal kapcsolatos tájékoztatóját (iOS)</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Megosztás harmadik felekkel",
-      "html": "<p>Nem értékesítjük a felhasználókkal kapcsolatos információkat. Az információkat elküldhetjük a Firebase, a Google AdMob, az Apple, a RevenueCat és más szolgáltatások részére, illetve ezek a szolgáltatások feldolgozhatják azokat, amennyiben ez az alkalmazás biztosításához szükséges. Az információkat akkor is közzétehetjük, ha Ön hozzájárul, ha a közzétételt törvény írja elő, ha az élet, a testi épség vagy a vagyon védelme érdekében szükséges, vagy ha a törvény egyébként engedélyezi.</p>"
+      "html": "<p>Nem értékesítjük a felhasználókkal kapcsolatos információkat. Az információkat elküldhetjük a Firebase, a Google AdMob, az Apple (App Store), Google (Google Play), a RevenueCat és más szolgáltatások részére, illetve ezek a szolgáltatások feldolgozhatják azokat, amennyiben ez az alkalmazás biztosításához szükséges. Az információkat akkor is közzétehetjük, ha Ön hozzájárul, ha a közzétételt törvény írja elő, ha az élet, a testi épség vagy a vagyon védelme érdekében szükséges, vagy ha a törvény egyébként engedélyezi.</p>"
     },
     {
       "id": "section-07",
@@ -53,7 +53,7 @@
     {
       "id": "section-08",
       "heading": "8. Hirdetési és adatvédelmi beállítások",
-      "html": "<p>A hirdetések megjelenítésének módja régiónként, eszközbeállításoktól, az Apple adatvédelmi funkcióitól, a hozzájárulási állapottól és egyéb feltételektől függően változhat. Szükség esetén megjeleníthetünk egy képernyőt, amelyen hozzájárulást kérünk, vagy választási lehetőséget kínálunk a hirdetésekkel vagy egyéb adatfelhasználással kapcsolatban. A hirdetési azonosítók és egyéb információk felhasználását az iOS adatvédelmi beállításain keresztül kezelheti, amennyiben ez lehetséges.</p>"
+      "html": "<p>A hirdetések megjelenítésének módja régiónként, eszközbeállításoktól, az iOS vagy Android adatvédelmi funkcióitól, a hozzájárulási állapottól és egyéb feltételektől függően változhat. Szükség esetén megjeleníthetünk egy képernyőt, amelyen hozzájárulást kérünk, vagy választási lehetőséget kínálunk a hirdetésekkel vagy egyéb adatfelhasználással kapcsolatban. A hirdetési azonosítók és egyéb információk felhasználását az iOS vagy Android adatvédelmi beállításain keresztül kezelheti, amennyiben ez lehetséges.</p>"
     },
     {
       "id": "section-09",
@@ -98,10 +98,25 @@
     "selectLanguage": "Nyelv kiválasztása"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "2d7438796cf3aa9605eac64ca22ea1f9a819a6162a5fd4dd2752dec5f75c39d2",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "c749e30047079f0cf8c10de99d283dfcf3a3517b47fffc68a3d90efc1901bb05",
+    "reviewedSectionsSha256": "4864f1ac7bf03c16c7ae027ac94912b245bd0be06b357c35ecefd3f3dd3af2c4"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "2d7438796cf3aa9605eac64ca22ea1f9a819a6162a5fd4dd2752dec5f75c39d2",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

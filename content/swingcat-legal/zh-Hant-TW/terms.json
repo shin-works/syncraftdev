@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "使用條款",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "生效日期：2026年8月28日<br>\n     最後更新日期：2026年9月8日",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "生效日期：2026年8月28日<br>\n     最後更新日期：2026年10月24日",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>本使用條款（「條款」）規定了使用 SwingCat（「應用程式」）的條款和條件，SwingCat 是由 SynCraft（「我們」）提供的 iOS 應用程式。</p>\n      <p>除了本條款外，您對應用程式的使用還受蘋果公司的標準最終使用者授權協議（EULA）的約束。</p>\n      <p>蘋果標準最終使用者授權協議：<br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>請在使用本應用程式前仔細閱讀這些條款和蘋果標準最終使用者授權協議。</p>"
+      "html": "<p>本使用條款（「條款」）規定了使用 SwingCat（「應用程式」）的條款和條件，SwingCat 是由 SynCraft（「我們」）提供的 iOS或Android 應用程式。</p><p>除本條款外，透過App Store發行的iOS版本亦適用Apple標準使用者授權合約（EULA）。透過Google Play發行的Android版本及在該商店進行的購買，亦適用Google Play的相關條款與政策。使用本應用程式前，請閱讀本條款及您所使用商店的適用條款。</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. 該應用程式",
-      "html": "<ol>\n       <li>該應用程式透過計時器幫助使用者管理專注力和工作時間。</li>\n       <li>根據計時器的使用情況，該應用程式可能會提供一些功能，使使用者能夠獲取或使用貓、物品、稱號和其他內容。</li>\n       <li>該應用程式不保證注意力集中、生產力、學習成果、工作成果或任何其他具體結果。</li>\n       <li>功能可能因 iOS 系統、裝置及其他使用條件而異。</li>\n      </ol>"
+      "html": "<ol>\n       <li>該應用程式透過計時器幫助使用者管理專注力和工作時間。</li>\n       <li>根據計時器的使用情況，該應用程式可能會提供一些功能，使使用者能夠獲取或使用貓、物品、稱號和其他內容。</li>\n       <li>該應用程式不保證注意力集中、生產力、學習成果、工作成果或任何其他具體結果。</li>\n       <li>功能可能因 iOS或Android 系統、裝置及其他使用條件而異。</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. 付費服務和購買",
-      "html": "<p>除了免費功能外，本應用程式可能提供付費功能或內容，包括每月訂閱、年度訂閱和一次性購買方案。產品、價格、期限和可用功能以購買時應用內及 App Store 顯示的資訊為準。購買和付款均透過 Apple App Store 進行；我們不會直接收集或儲存支付卡資訊。</p>"
+      "html": "<p>除免費功能外，本應用程式可能提供付費功能或內容，包括月訂閱、年訂閱及一次性購買方案。實際商品、價格、期間及可用功能，以購買時本應用程式與所使用商店顯示的內容為準。iOS上的購買與付款透過Apple的App Store進行，Android上則透過Google Play進行。我們不會直接蒐集或儲存支付卡資訊。</p>"
     },
     {
       "id": "section-07",
       "heading": "7. 訂閱",
-      "html": "<p>訂閱費用將從您的 Apple 帳戶中扣除。除非您在 App Store 設定中關閉自動續訂，否則訂閱將在每個適用週期自動續訂。關閉自動續約後，相關功能通常仍可在當前付費週期結束前繼續使用。 Apple 和 App Store 的條款、條件和政策對訂閱管理、取消自動續訂、退款和其他付款事宜進行規範。</p>"
+      "html": "<p>透過App Store購買的訂閱向您的Apple帳號收費；透過Google Play購買的訂閱則透過購買時使用的Google帳戶收費。除非您在購買訂閱的商店取消訂閱或關閉自動續訂，否則訂閱會依各期期間自動續訂。App Store訂閱請在Apple的訂閱設定中管理，Google Play訂閱請在Google Play的訂閱設定中管理。取消後，相關功能通常仍可使用至已付款期間結束。訂閱管理、取消、退款及其他付款事項，受適用法律及購買時所使用商店的條款、條件與政策規範。</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=zh-Hant-TW\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. 一次性購買計劃",
-      "html": "<p>一次性購買方案可讓您使用相關付費功能，無需支付週期性的訂閱費用。但該方案不保證本應用程式、各項功能或第三方整合服務會永久提供，也不保證與所有未來的 iOS 版本或裝置相容。購買資訊的恢復及相關事宜受蘋果公司及 App Store 的系統及政策約束。</p>"
+      "html": "<p>一次性購買方案可讓您使用相關付費功能，無需支付週期性的訂閱費用。 但該方案不保證本應用程式、各項功能或第三方整合服務會永久提供，也不保證與所有未來的 iOS或Android 版本或裝置相容。 購買資訊的回復及相關事項，依購買時所使用商店（App Store或Google Play）的系統與政策辦理。</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. 免責聲明",
-      "html": "<p>我們不保證本應用程式在所有裝置和作業系統環境下始終正常運作，也不保證其準確、完整、安全、適用於特定用途或持續可用。由於裝置設定、iOS 系統規格、省電功能、網路狀況或其他因素，計時器、通知和其他功能可能無法如預期運作。除我方故意不當行為、重大過失或法律規定不得免除的責任外，對於因使用或無法使用本應用而造成的任何損失，我方概不負責。</p>"
+      "html": "<p>我們不保證本應用程式在所有裝置和作業系統環境下始終正常運作，也不保證其準確、完整、安全、適用於特定用途或持續可用。由於裝置設定、iOS或Android 系統規格、省電功能、網路狀況或其他因素，計時器、通知和其他功能可能無法如預期運作。除我方故意不當行為、重大過失或法律規定不得免除的責任外，對於因使用或無法使用本應用而造成的任何損失，我方概不負責。</p>"
     },
     {
       "id": "section-11",
       "heading": "11. 變更或終止",
-      "html": "<p>我們可能會根據開發和營運情況、支援的裝置、iOS 規範、第三方服務以及其他因素，視情況添加、變更、審查、減少、暫停或終止相關功能，或終止整個應用程式或其部分服務。我們將在合理可行的範圍內，就重大變更或終止事宜發出通知。</p>"
+      "html": "<p>我們可能會根據開發和營運情況、支援的裝置、iOS或Android 規範、第三方服務以及其他因素，視情況添加、變更、審查、減少、暫停或終止相關功能，或終止整個應用程式或其部分服務。我們將在合理可行的範圍內，就重大變更或終止事宜發出通知。</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "選擇語言"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "135136f70abd614d4c7fe226c62c4e44d60a67b4de5f05b1f231f7648f7a7620",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "8494e299c2f9deae4634517cbda1b3998f06ba768a03c8af8ebebea5d66f5884",
+    "reviewedSectionsSha256": "0af4a4d463238307c8f9e627132cfa8cfd57a187238270406c2881b7a581d4f6"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "135136f70abd614d4c7fe226c62c4e44d60a67b4de5f05b1f231f7648f7a7620",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

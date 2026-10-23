@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Condiciones de uso",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Fecha de entrada en vigor: 28 de agosto de 2026. <br>\n     Última actualización: 8 de septiembre de 2026.",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Fecha de entrada en vigor: 28 de agosto de 2026. <br>\n     Última actualización: 24 de octubre de 2026.",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Estas Condiciones de uso (\"Condiciones\") establecen los términos y condiciones para el uso de SwingCat (\"la Aplicación\"), una aplicación para iOS proporcionada por SynCraft (\"nosotros\", \"nos\" o \"nuestro\").</p>\n      <p>Además de estas Condiciones, el uso que usted haga de la Aplicación está sujeto al Acuerdo de Licencia de Usuario Final (EULA) estándar de Apple.</p>\n      <p>Acuerdo de licencia de usuario final estándar de Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Por favor, revise estas Condiciones y el Acuerdo de Licencia de Usuario Final Estándar de Apple antes de usar la aplicación.</p>"
+      "html": "<p>Estas Condiciones de uso (\"Condiciones\") establecen los términos y condiciones para el uso de SwingCat (\"la Aplicación\"), una aplicación para iOS o Android proporcionada por SynCraft (\"nosotros\", \"nos\" o \"nuestro\").</p><p>Además de estas condiciones, la versión de iOS distribuida a través de la App Store está sujeta al acuerdo de licencia estándar para usuarios finales de Apple (EULA). La versión de Android distribuida a través de Google Play y las compras realizadas en esa tienda también están sujetas a las condiciones y políticas aplicables de Google Play. Antes de usar la aplicación, lea estas condiciones y las que correspondan a su tienda.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. La aplicación",
-      "html": "<ol>\n       <li>La aplicación ayuda a los usuarios a gestionar su concentración y su tiempo de trabajo mediante un temporizador.</li>\n       <li>Dependiendo del uso del temporizador, la aplicación puede ofrecer funciones a través de las cuales los usuarios pueden obtener o usar gatos, objetos, títulos y otro contenido.</li>\n       <li>La aplicación no garantiza la concentración, la productividad, los resultados del aprendizaje, los resultados laborales ni ningún otro resultado específico.</li>\n       <li>Las características pueden variar según la versión de iOS, el dispositivo y otras condiciones de uso.</li>\n      </ol>"
+      "html": "<ol>\n       <li>La aplicación ayuda a los usuarios a gestionar su concentración y su tiempo de trabajo mediante un temporizador.</li>\n       <li>Dependiendo del uso del temporizador, la aplicación puede ofrecer funciones a través de las cuales los usuarios pueden obtener o usar gatos, objetos, títulos y otro contenido.</li>\n       <li>La aplicación no garantiza la concentración, la productividad, los resultados del aprendizaje, los resultados laborales ni ningún otro resultado específico.</li>\n       <li>Las características pueden variar según la versión de iOS o Android, el dispositivo y otras condiciones de uso.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Servicios y compras de pago",
-      "html": "<p>Además de las funciones gratuitas, la aplicación puede ofrecer contenido o funciones de pago, como suscripciones mensuales, anuales y planes de compra única. Se aplican los productos, precios, periodos y funciones disponibles que se muestran en la aplicación y en la App Store en el momento de la compra. Las compras y los pagos se realizan a través de la App Store de Apple; no recopilamos ni almacenamos directamente información de tarjetas de pago.</p>"
+      "html": "<p>Además de funciones gratuitas, la aplicación puede ofrecer funciones o contenido de pago, incluidas suscripciones mensuales, anuales y compras únicas. Se aplican los productos, precios, periodos y funciones disponibles que se muestran en la aplicación y en la tienda utilizada en el momento de la compra. Las compras y los pagos se realizan a través de la App Store de Apple en iOS o de Google Play en Android. No recopilamos ni almacenamos directamente los datos de las tarjetas de pago.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Suscripciones",
-      "html": "<p>Las tarifas de suscripción se cargan a su cuenta de Apple. La suscripción se renueva automáticamente por cada período aplicable, a menos que desactive la renovación automática en la configuración de la App Store. Una vez desactivada la renovación automática, las funciones correspondientes generalmente permanecen disponibles hasta el final del período de suscripción pagado. Los términos, condiciones y políticas de Apple y la App Store rigen la gestión de suscripciones, la cancelación de la renovación automática, los reembolsos y otros asuntos relacionados con los pagos.</p>"
+      "html": "<p>Las suscripciones compradas en la App Store se cobran a su cuenta de Apple; las de Google Play, a la cuenta de Google utilizada para la compra. La suscripción se renueva automáticamente en cada periodo previsto, salvo que la cancele o desactive la renovación automática en la tienda donde la compró. Gestione las suscripciones de la App Store en los ajustes de suscripciones de Apple y las de Google Play en los ajustes de suscripciones de Google Play. Tras la cancelación, las funciones suelen seguir disponibles hasta el final del periodo ya pagado. La gestión, la cancelación, los reembolsos y otras cuestiones de pago están sujetos a la legislación aplicable y a las condiciones y políticas de la tienda de compra.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=es\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Planes de compra única",
-      "html": "<p>La compra única permite usar las funciones de pago correspondientes sin pagos periódicos de suscripción. No garantiza la prestación indefinida de la aplicación, de todas sus funciones ni de las integraciones con terceros, ni la compatibilidad con todas las versiones futuras de iOS o con todos los dispositivos. La recuperación de la información de compra y otros asuntos relacionados están sujetos a las políticas y sistemas de Apple y la App Store.</p>"
+      "html": "<p>La compra única permite usar las funciones de pago correspondientes sin pagos periódicos de suscripción. No garantiza la prestación indefinida de la aplicación, de todas sus funciones ni de las integraciones con terceros, ni la compatibilidad con todas las versiones futuras de iOS o Android o con todos los dispositivos. La recuperación de la información de compra y otros asuntos relacionados están sujetos a los sistemas y políticas de la tienda utilizada para la compra (App Store o Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Exenciones de responsabilidad",
-      "html": "<p>No garantizamos que la aplicación funcione siempre correctamente en todos los dispositivos y sistemas operativos, ni que sea precisa, completa, segura, adecuada para un propósito específico o esté disponible de forma continua. Los temporizadores, las notificaciones y otras funciones pueden no funcionar como se espera debido a la configuración del dispositivo, las especificaciones de iOS, las funciones de ahorro de energía, las condiciones de la red u otras circunstancias. Salvo en casos de mala conducta intencional, negligencia grave o responsabilidad que no pueda excluirse por ley, no nos hacemos responsables de los daños derivados del uso o la imposibilidad de usar la aplicación.</p>"
+      "html": "<p>No garantizamos que la aplicación funcione siempre correctamente en todos los dispositivos y sistemas operativos, ni que sea precisa, completa, segura, adecuada para un propósito específico o esté disponible de forma continua. Los temporizadores, las notificaciones y otras funciones pueden no funcionar como se espera debido a la configuración del dispositivo, las especificaciones de iOS o Android, las funciones de ahorro de energía, las condiciones de la red u otras circunstancias. Salvo en casos de mala conducta intencional, negligencia grave o responsabilidad que no pueda excluirse por ley, no nos hacemos responsables de los daños derivados del uso o la imposibilidad de usar la aplicación.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Cambios o interrupción",
-      "html": "<p>Podemos añadir, modificar, revisar, reducir, suspender o dejar de ofrecer funciones, la aplicación completa o una parte de ella según sea necesario, teniendo en cuenta las circunstancias de desarrollo y operación, los dispositivos compatibles, las especificaciones de iOS, los servicios de terceros y otros factores. Notificaremos los cambios importantes o la interrupción del servicio siempre que sea razonablemente posible.</p>"
+      "html": "<p>Podemos añadir, modificar, revisar, reducir, suspender o dejar de ofrecer funciones, la aplicación completa o una parte de ella según sea necesario, teniendo en cuenta las circunstancias de desarrollo y operación, los dispositivos compatibles, las especificaciones de iOS o Android, los servicios de terceros y otros factores. Notificaremos los cambios importantes o la interrupción del servicio siempre que sea razonablemente posible.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Seleccionar idioma"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "032f9e2fd50c747ba7aa1896867699375e3921bf55dea9d09ad9fe1936e364b4",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "d666f34abae9669359bfd4c2e2cc4d6716ed23d62f9e1cc2994b61274373dc18",
+    "reviewedSectionsSha256": "4bd2223ed250f374082b680757fb1b46fde65b4f22c7649429af1acd8d8c0ca9"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "032f9e2fd50c747ba7aa1896867699375e3921bf55dea9d09ad9fe1936e364b4",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

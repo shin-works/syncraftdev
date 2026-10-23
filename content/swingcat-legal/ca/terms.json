@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Condicions d'ús",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Data d'entrada en vigor: 28 d'agost de 2026 <br>\n     Última actualització: 8 de setembre de 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Data d'entrada en vigor: 28 d'agost de 2026 <br>\n     Última actualització: 24 d'octubre de 2026",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Aquestes Condicions d'ús (\"Condicions\") estableixen els termes i condicions per a l'ús de SwingCat (l'\"Aplicació\"), una aplicació per a iOS proporcionada per SynCraft (\"nosaltres\", \"ens\" o \"nostre\").</p>\n      <p>A més d'aquestes Condicions, l'ús de l'Aplicació està subjecte a l'Acord de llicència d'usuari final estàndard (EULA) d'Apple.</p>\n      <p>Acord de llicència d'usuari final estàndard d'Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Si us plau, reviseu aquestes Condicions i l'Acord de llicència d'usuari final estàndard d'Apple abans d'utilitzar l'aplicació.</p>"
+      "html": "<p>Aquestes Condicions d'ús (\"Condicions\") estableixen els termes i condicions per a l'ús de SwingCat (l'\"Aplicació\"), una aplicació per a iOS o Android proporcionada per SynCraft (\"nosaltres\", \"ens\" o \"nostre\").</p><p>A més d’aquestes condicions, la versió per a iOS distribuïda a través de l’App Store està subjecta a l’acord estàndard de llicència d’usuari final d’Apple (EULA). La versió per a Android distribuïda a través de Google Play i les compres fetes en aquesta botiga també estan subjectes a les condicions i polítiques aplicables de Google Play. Abans d’utilitzar l’aplicació, llegiu aquestes condicions i les de la botiga que utilitzeu.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. L'aplicació",
-      "html": "<ol>\n       <li>L'aplicació ajuda els usuaris a gestionar la concentració i el temps de treball mitjançant un temporitzador.</li>\n       <li>Depenent de l'ús del temporitzador, l'aplicació pot proporcionar funcions a través de les quals els usuaris poden obtenir o utilitzar gats, objectes, títols i altres continguts.</li>\n       <li>L'aplicació no garanteix la concentració, la productivitat, els resultats d'aprenentatge, els resultats laborals ni cap altre resultat específic.</li>\n       <li>Les funcions poden variar segons l'iOS, el dispositiu i altres condicions d'ús.</li>\n      </ol>"
+      "html": "<ol>\n       <li>L'aplicació ajuda els usuaris a gestionar la concentració i el temps de treball mitjançant un temporitzador.</li>\n       <li>Depenent de l'ús del temporitzador, l'aplicació pot proporcionar funcions a través de les quals els usuaris poden obtenir o utilitzar gats, objectes, títols i altres continguts.</li>\n       <li>L'aplicació no garanteix la concentració, la productivitat, els resultats d'aprenentatge, els resultats laborals ni cap altre resultat específic.</li>\n       <li>Les funcions poden variar segons l'iOS o Android, el dispositiu i altres condicions d'ús.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Serveis i compres de pagament",
-      "html": "<p>A més de les funcions gratuïtes, l'aplicació pot oferir funcions o contingut de pagament, com ara subscripcions mensuals, subscripcions anuals i plans de compra única. S'apliquen els productes, preus, períodes i funcions disponibles que es mostren a l'aplicació i a l'App Store en el moment de la compra. Les compres i els pagaments es realitzen a través de l'App Store d'Apple; no recopilem ni emmagatzemem directament informació de la targeta de pagament.</p>"
+      "html": "<p>A més de funcions gratuïtes, l’aplicació pot oferir funcions o contingut de pagament, incloses subscripcions mensuals, anuals i compres úniques. S’apliquen els productes, preus, períodes i funcions disponibles que es mostren a l’aplicació i a la botiga utilitzada en el moment de la compra. Les compres i els pagaments es fan a través de l’App Store d’Apple a iOS o de Google Play a Android. No recollim ni emmagatzemem directament dades de targetes de pagament.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Subscripcions",
-      "html": "<p>Les quotes de subscripció es carreguen al vostre compte d'Apple. Una subscripció es renova automàticament per cada període aplicable, tret que desactiveu la renovació automàtica a la configuració de l'App Store. Un cop desactivada la renovació automàtica, les funcions rellevants generalment romanen disponibles fins al final del període de pagament actual. Els termes, condicions i polítiques d'Apple i de l'App Store regeixen la gestió de subscripcions, la cancel·lació de la renovació automàtica, els reemborsaments i altres assumptes de pagament.</p>"
+      "html": "<p>Les subscripcions comprades a l’App Store es cobren al compte d’Apple; les de Google Play, al compte de Google utilitzat per comprar-les. La subscripció es renova automàticament per cada període aplicable, llevat que es cancel·li o se’n desactivi la renovació automàtica a la botiga on es va comprar. Gestioneu les subscripcions de l’App Store a la configuració de subscripcions d’Apple i les de Google Play a la de Google Play. Després de la cancel·lació, les funcions solen continuar disponibles fins que acaba el període ja pagat. La gestió, la cancel·lació, els reemborsaments i altres qüestions de pagament estan subjectes a la legislació aplicable i a les condicions i polítiques de la botiga de compra.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=ca\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Plans de compra única",
-      "html": "<p>Un pla de compra única proporciona el dret a utilitzar les funcions de pagament rellevants sense pagaments de subscripció recurrents. No garanteix el subministrament perpètu de l'aplicació, de totes les funcions, de les integracions de tercers ni de la compatibilitat amb totes les versions o dispositius iOS futurs. La restauració de la informació de compra i els assumptes relacionats estan subjectes als sistemes i polítiques d'Apple i de l'App Store.</p>"
+      "html": "<p>Un pla de compra única proporciona el dret a utilitzar les funcions de pagament rellevants sense pagaments de subscripció recurrents. No garanteix el subministrament perpètu de l'aplicació, de totes les funcions, de les integracions de tercers ni de la compatibilitat amb totes les versions o dispositius iOS o Android futurs. La restauració de la informació de compra i les qüestions relacionades estan subjectes als sistemes i polítiques de la botiga utilitzada per a la compra (App Store o Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Avís legal",
-      "html": "<p>No garantim que l'aplicació funcioni sempre correctament en tots els dispositius i entorns de sistema operatiu, ni que sigui precisa, completa, segura, adequada per a un propòsit concret o que estigui disponible contínuament. És possible que els temporitzadors, les notificacions i altres funcions no funcionin com s'espera a causa de la configuració del dispositiu, les especificacions d'iOS, les funcions d'estalvi d'energia, les condicions de la xarxa o altres circumstàncies. Excepte en casos de mala conducta intencionada nostra, negligència greu o responsabilitat que no es pugui excloure per llei, no som responsables dels danys derivats de l'ús o la impossibilitat d'utilitzar l'aplicació.</p>"
+      "html": "<p>No garantim que l'aplicació funcioni sempre correctament en tots els dispositius i entorns de sistema operatiu, ni que sigui precisa, completa, segura, adequada per a un propòsit concret o que estigui disponible contínuament. És possible que els temporitzadors, les notificacions i altres funcions no funcionin com s'espera a causa de la configuració del dispositiu, les especificacions d'iOS o Android, les funcions d'estalvi d'energia, les condicions de la xarxa o altres circumstàncies. Excepte en casos de mala conducta intencionada nostra, negligència greu o responsabilitat que no es pugui excloure per llei, no som responsables dels danys derivats de l'ús o la impossibilitat d'utilitzar l'aplicació.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Canvis o interrupcions",
-      "html": "<p>Podem afegir, canviar, revisar, reduir, suspendre o finalitzar funcions o la totalitat o part de l'aplicació segons calgui, tenint en compte les circumstàncies de desenvolupament i operatives, els dispositius compatibles, les especificacions d'iOS, els serveis de tercers i altres factors. Avisarem dels canvis importants o de la discontinuació sempre que sigui raonablement possible.</p>"
+      "html": "<p>Podem afegir, canviar, revisar, reduir, suspendre o finalitzar funcions o la totalitat o part de l'aplicació segons calgui, tenint en compte les circumstàncies de desenvolupament i operatives, els dispositius compatibles, les especificacions d'iOS o Android, els serveis de tercers i altres factors. Avisarem dels canvis importants o de la discontinuació sempre que sigui raonablement possible.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Selecciona l'idioma"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "9e161688ad12ed3660d1f7d39353c1e25dc4838402cca2858ab77032f7a04f30",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "dec98b5cbd38e493127f057680ae9675a558a97dcd8a8c2b7b84cc205e43d32c",
+    "reviewedSectionsSha256": "3992a5fd9d691f46d14364dc165cc18facc2e41e4637710d28187c0b3b687104"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "9e161688ad12ed3660d1f7d39353c1e25dc4838402cca2858ab77032f7a04f30",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

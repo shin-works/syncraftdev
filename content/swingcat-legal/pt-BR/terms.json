@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Termos de Uso",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Data de entrada em vigor: 28 de agosto de 2026. <br>\n     Última atualização: 8 de setembro de 2026.",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Data de entrada em vigor: 28 de agosto de 2026. <br>\n     Última atualização: 24 de outubro de 2026.",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Estes Termos de Uso (\"Termos\") estabelecem os termos e condições para o uso do SwingCat (o \"Aplicativo\"), um aplicativo iOS fornecido pela SynCraft (\"nós\", \"nos\" ou \"nossos\").</p>\n      <p>Além destes Termos, o seu uso do Aplicativo está sujeito ao Contrato de Licença de Usuário Final (EULA) padrão da Apple.</p>\n      <p>Contrato de Licença de Usuário Final Padrão da Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Leia atentamente estes Termos e o Contrato de Licença de Usuário Final Padrão da Apple antes de usar o aplicativo.</p>"
+      "html": "<p>Estes Termos de Uso (\"Termos\") estabelecem os termos e condições para o uso do SwingCat (o \"Aplicativo\"), um aplicativo iOS ou Android fornecido pela SynCraft (\"nós\", \"nos\" ou \"nossos\").</p><p>Além destes Termos, a versão para iOS distribuída pela App Store está sujeita ao Contrato de Licença de Usuário Final padrão da Apple (EULA). A versão para Android distribuída pelo Google Play e as compras feitas nessa loja também estão sujeitas aos termos e políticas aplicáveis do Google Play. Antes de usar o aplicativo, leia estes Termos e os termos aplicáveis à sua loja.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. O aplicativo",
-      "html": "<ol>\n       <li>O aplicativo ajuda os usuários a gerenciar o foco e o tempo de trabalho usando um cronômetro.</li>\n       <li>Dependendo do uso do cronômetro, o aplicativo pode fornecer recursos por meio dos quais os usuários podem obter ou usar gatos, itens, títulos e outros conteúdos.</li>\n       <li>O aplicativo não garante concentração, produtividade, resultados de aprendizagem, resultados de trabalho ou qualquer outro resultado específico.</li>\n       <li>Os recursos podem variar dependendo do iOS, do dispositivo e de outras condições de uso.</li>\n      </ol>"
+      "html": "<ol>\n       <li>O aplicativo ajuda os usuários a gerenciar o foco e o tempo de trabalho usando um cronômetro.</li>\n       <li>Dependendo do uso do cronômetro, o aplicativo pode fornecer recursos por meio dos quais os usuários podem obter ou usar gatos, itens, títulos e outros conteúdos.</li>\n       <li>O aplicativo não garante concentração, produtividade, resultados de aprendizagem, resultados de trabalho ou qualquer outro resultado específico.</li>\n       <li>Os recursos podem variar dependendo do iOS ou Android, do dispositivo e de outras condições de uso.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Serviços e compras pagos",
-      "html": "<p>Além dos recursos gratuitos, o aplicativo pode oferecer recursos ou conteúdo pagos, incluindo assinaturas mensais, assinaturas anuais e planos de compra única. Os produtos, preços, períodos e recursos disponíveis exibidos no aplicativo e na App Store no momento da compra são os que se aplicam. As compras e os pagamentos são feitos por meio da App Store da Apple; não coletamos nem armazenamos informações de cartão de pagamento diretamente.</p>"
+      "html": "<p>Além de recursos gratuitos, o aplicativo pode oferecer recursos ou conteúdo pagos, incluindo assinaturas mensais, anuais e compras únicas. Aplicam-se os produtos, preços, períodos e recursos disponíveis exibidos no aplicativo e na loja usada no momento da compra. As compras e os pagamentos são feitos pela App Store da Apple no iOS ou pelo Google Play no Android. Não coletamos nem armazenamos diretamente dados de cartões de pagamento.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Assinaturas",
-      "html": "<p>As taxas de assinatura são cobradas na sua conta Apple. A assinatura é renovada automaticamente para cada período aplicável, a menos que você desative a renovação automática nas configurações da App Store. Após a desativação da renovação automática, os recursos relevantes geralmente permanecem disponíveis até o final do período pago atual. Os termos, condições e políticas da Apple e da App Store regem o gerenciamento de assinaturas, o cancelamento da renovação automática, os reembolsos e outras questões de pagamento.</p>"
+      "html": "<p>As assinaturas compradas na App Store são cobradas da sua Conta Apple; as compradas no Google Play, da Conta do Google usada na compra. A assinatura é renovada automaticamente a cada período previsto, a menos que seja cancelada ou que a renovação automática seja desativada na loja de compra. Gerencie as assinaturas da App Store nos ajustes de assinaturas da Apple e as do Google Play nas configurações de assinaturas do Google Play. Após o cancelamento, os recursos geralmente permanecem disponíveis até o fim do período já pago. Gerenciamento, cancelamento, reembolsos e outras questões de pagamento estão sujeitos à legislação aplicável e aos termos, condições e políticas da loja de compra.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=pt-BR\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Planos de compra única",
-      "html": "<p>Um plano de compra única concede o direito de usar os recursos pagos relevantes sem pagamentos recorrentes de assinatura. Ele não garante o fornecimento perpétuo do aplicativo, de todos os recursos, integrações de terceiros ou compatibilidade com todas as versões ou dispositivos iOS futuros. A restauração das informações de compra e assuntos relacionados estão sujeitos aos sistemas e políticas da Apple e da App Store.</p>"
+      "html": "<p>Um plano de compra única concede o direito de usar os recursos pagos relevantes sem pagamentos recorrentes de assinatura. Ele não garante o fornecimento perpétuo do aplicativo, de todos os recursos, integrações de terceiros ou compatibilidade com todas as versões ou dispositivos iOS ou Android futuros. A restauração das informações de compra e questões relacionadas estão sujeitas aos sistemas e políticas da loja usada na compra (App Store ou Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Isenções de responsabilidade",
-      "html": "<p>Não garantimos que o Aplicativo funcionará sempre corretamente em todos os dispositivos e sistemas operacionais, ou que será preciso, completo, seguro, adequado para uma finalidade específica ou disponível continuamente. Temporizadores, notificações e outros recursos podem não funcionar como esperado devido às configurações do dispositivo, especificações do iOS, recursos de economia de energia, condições da rede ou outras circunstâncias. Exceto em casos de dolo, negligência grave ou responsabilidade que não possa ser excluída por lei, não nos responsabilizamos por danos decorrentes do uso ou da impossibilidade de usar o Aplicativo.</p>"
+      "html": "<p>Não garantimos que o Aplicativo funcionará sempre corretamente em todos os dispositivos e sistemas operacionais, ou que será preciso, completo, seguro, adequado para uma finalidade específica ou disponível continuamente. Temporizadores, notificações e outros recursos podem não funcionar como esperado devido às configurações do dispositivo, especificações do iOS ou Android, recursos de economia de energia, condições da rede ou outras circunstâncias. Exceto em casos de dolo, negligência grave ou responsabilidade que não possa ser excluída por lei, não nos responsabilizamos por danos decorrentes do uso ou da impossibilidade de usar o Aplicativo.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Alterações ou descontinuação",
-      "html": "<p>Podemos adicionar, alterar, revisar, reduzir, suspender ou encerrar funcionalidades, ou todo ou parte do aplicativo, conforme necessário, levando em consideração as circunstâncias de desenvolvimento e operação, os dispositivos compatíveis, as especificações do iOS, os serviços de terceiros e outros fatores. Sempre que razoavelmente possível, notificaremos sobre alterações significativas ou descontinuação.</p>"
+      "html": "<p>Podemos adicionar, alterar, revisar, reduzir, suspender ou encerrar funcionalidades, ou todo ou parte do aplicativo, conforme necessário, levando em consideração as circunstâncias de desenvolvimento e operação, os dispositivos compatíveis, as especificações do iOS ou Android, os serviços de terceiros e outros fatores. Sempre que razoavelmente possível, notificaremos sobre alterações significativas ou descontinuação.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Selecione o idioma"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "9b7af4207514674db17a219ce0af8c95e4f7e02e2f3aa8e4b25b48ce13c44e85",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "6d6e8160387fcc74176796c338a609c75afeb263014e41fedb0572809755938f",
+    "reviewedSectionsSha256": "a1af4750e02f538b8b82df2c4aa312500df93461cbdda6f04668fb1515ef3ea9"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "9b7af4207514674db17a219ce0af8c95e4f7e02e2f3aa8e4b25b48ce13c44e85",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

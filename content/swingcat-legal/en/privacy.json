@@ -4,20 +4,20 @@
   "kind": "privacy",
   "title": "Privacy Policy",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-10-18",
-  "datesHtml": "Effective date: August 28, 2026<br>Last updated: October 18, 2026",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Effective date: August 28, 2026<br>Last updated: October 24, 2026",
   "status": "source-reviewed",
   "sourceLocale": "en",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>This Privacy Policy explains how SynCraft (\"we,\" \"us,\" or \"our\") handles user information in the iOS application SwingCat (the \"App\").</p>"
+      "html": "<p>This Privacy Policy explains how SynCraft (\"we,\" \"us,\" or \"our\") handles user information in the iOS and Android application SwingCat (the \"App\").</p>"
     },
     {
       "id": "section-01",
       "heading": "1. Information we collect and store",
-      "html": "<p>The App does not generally require users to directly enter a name, address, phone number, or email address in order to register.</p><p>Depending on use of the App, the following information may be stored on your device: timer settings; focus time and timer history; tasks entered by you; cats, items, titles, and other in-app content and their usage; App settings; optional profile information such as a name; and the status of paid features.</p><p>We may also collect or process information through third-party services for usage analysis, quality improvements, diagnostics, and advertising. This may include device type, OS, language settings, App version, launch and feature-use events, crash and performance data, IP address and other network information, advertising interactions, and device or advertising identifiers. The information actually processed can vary with your iOS version, device settings, privacy choices, consent status, and third-party service specifications.</p>"
+      "html": "<p>The App does not generally require users to directly enter a name, address, phone number, or email address in order to register.</p><p>Depending on use of the App, the following information may be stored on your device: timer settings; focus time and timer history; tasks entered by you; cats, items, titles, and other in-app content and their usage; App settings; optional profile information such as a name; and the status of paid features.</p><p>We may also collect or process information through third-party services for usage analysis, quality improvements, diagnostics, and advertising. This may include device type, OS, language settings, App version, launch and feature-use events, crash and performance data, IP address and other network information, advertising interactions, and device or advertising identifiers. The information actually processed can vary with your OS version, device settings, privacy choices, consent status, and third-party service specifications.</p>"
     },
     {
       "id": "section-02",
@@ -32,17 +32,17 @@
     {
       "id": "section-04",
       "heading": "4. Google AdMob",
-      "html": "<p>We may use Google AdMob to display advertisements. The App may offer rewarded ads through which users can receive items or other in-app benefits. AdMob and the Google Mobile Ads SDK may collect or process IP addresses, device information, device or advertising identifiers, ad impressions and interactions, in-app interactions, and crash or performance information for ad delivery, measurement, fraud prevention, and service improvement.</p><p>Availability of advertising identifiers may depend on device settings, Apple privacy features, and user consent. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">How Google uses data from partner sites or apps</a></p>"
+      "html": "<p>We may use Google AdMob to display advertisements. The App may offer rewarded ads through which users can receive items or other in-app benefits. AdMob and the Google Mobile Ads SDK may collect or process IP addresses, device information, device or advertising identifiers, ad impressions and interactions, in-app interactions, and crash or performance information for ad delivery, measurement, fraud prevention, and service improvement.</p><p>Availability of advertising identifiers may depend on device settings, the privacy features of iOS or Android, and user consent. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a><br><a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">How Google uses data from partner sites or apps</a></p>"
     },
     {
       "id": "section-05",
       "heading": "5. In-app purchases",
-      "html": "<p>We may offer subscriptions and one-time purchase plans through the App Store. Apple processes payments, and we do not directly collect or store credit-card numbers or other payment details. To provide paid features, the App may access or verify information about purchased products and subscription status. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple Privacy Policy</a></p>\n<p>We use RevenueCat, Inc. to verify purchases, manage subscription and paid-feature access, restore purchases, and understand purchase and subscription activity. RevenueCat processes an App User ID generated by its SDK, purchased product identifiers, transaction and purchase-history information, subscription status and expiration dates, and technical information such as the device operating system and App version.</p><p>We use RevenueCat's automatically generated anonymous App User ID rather than setting a name or email address as your purchase identifier. We do not send your in-app profile name or email address to RevenueCat as customer attributes. The use of an anonymous ID does not mean that no information is processed or that purchase records are deleted when you uninstall the App.</p><p>For more information, see the <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat Privacy Policy</a> and <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat's information about purchase data</a>.</p>"
+      "html": "<p>We may offer subscriptions and one-time purchase plans through the App Store on iOS and Google Play on Android. Payments are processed by the store used for the purchase (Apple for the App Store or Google for Google Play), and we do not directly collect or store credit-card numbers or other payment details. To provide paid features, the App may access or verify information about purchased products and subscription status. <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple Privacy Policy</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a></p>\n<p>We use RevenueCat, Inc. to verify purchases, manage subscription and paid-feature access, restore purchases, and understand purchase and subscription activity. RevenueCat processes an App User ID generated by its SDK, purchased product identifiers, transaction and purchase-history information, subscription status and expiration dates, and technical information such as the device operating system and App version.</p><p>We use RevenueCat's automatically generated anonymous App User ID rather than setting a name or email address as your purchase identifier. We do not send your in-app profile name or email address to RevenueCat as customer attributes. The use of an anonymous ID does not mean that no information is processed or that purchase records are deleted when you uninstall the App.</p><p>For more information, see the <a href=\"https://www.revenuecat.com/privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat Privacy Policy</a> and <a href=\"https://www.revenuecat.com/docs/platform-resources/apple-platform-resources/apple-app-privacy\" target=\"_blank\" rel=\"noopener\">RevenueCat's information about purchase data on Apple platforms</a>.</p>"
     },
     {
       "id": "section-06",
       "heading": "6. Sharing with third parties",
-      "html": "<p>We do not sell information about users. Information may be sent to or processed by Firebase, Google AdMob, Apple, RevenueCat, and other services as necessary to provide the App. We may also disclose information where you consent, where disclosure is required by law, where necessary to protect life, body, or property, or as otherwise permitted by law.</p>"
+      "html": "<p>We do not sell information about users. Information may be sent to or processed by Firebase, Google AdMob, Apple (App Store), Google (Google Play), RevenueCat, and other services as necessary to provide the App. We may also disclose information where you consent, where disclosure is required by law, where necessary to protect life, body, or property, or as otherwise permitted by law.</p>"
     },
     {
       "id": "section-07",
@@ -52,7 +52,7 @@
     {
       "id": "section-08",
       "heading": "8. Advertising and privacy choices",
-      "html": "<p>The way advertisements are delivered may vary by region, device settings, Apple privacy features, consent status, and other conditions. Where required, we may display a screen requesting consent or a choice concerning ads or other data uses. You may manage the use of advertising identifiers and other information to the extent available through iOS privacy settings.</p>"
+      "html": "<p>The way advertisements are delivered may vary by region, device settings, the privacy features of iOS or Android, consent status, and other conditions. Where required, we may display a screen requesting consent or a choice concerning ads or other data uses. You may manage the use of advertising identifiers and other information to the extent available through iOS or Android privacy settings.</p>"
     },
     {
       "id": "section-09",
@@ -74,5 +74,21 @@
       "heading": "12. Contact",
       "html": "<div class=\"contact\"><p>For questions about this Policy or information handling in the App:</p><p>Developer and operator: SynCraft</p><p>Contact: <a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p></div>"
     }
+  ],
+  "reviewHistory": [
+    {}
+  ],
+  "review": {
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "ac973f5142f179b1c96bfa45c51bc1c62ff806350205903ed49f135f4e81c7e3",
+    "reviewedSectionsSha256": "4ffab11ddca8357b5bfad6df340b9c012e9b17e26750f0396f423f8a287ba67b"
+  },
+  "platforms": [
+    "iOS",
+    "Android"
   ]
 }

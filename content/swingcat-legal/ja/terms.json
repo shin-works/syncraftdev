@@ -4,20 +4,20 @@
   "kind": "terms",
   "title": "利用規約",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "制定日：2026年8月28日<br>最終更新日：2026年9月8日",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "制定日：2026年8月28日<br>最終更新日：2026年10月24日",
   "status": "source-reviewed",
   "sourceLocale": "en",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>本利用規約（以下「本規約」といいます）は、SynCraft（以下「当方」といいます）が提供するiOSアプリ「SwingCat」（以下「本アプリ」といいます）の利用条件を定めるものです。</p>\n        <p>本アプリの利用には、本規約に加えて、Apple Inc.が定める「Apple Standard End User License Agreement（標準エンドユーザ使用許諾契約）」が適用されます。</p>\n        <p>Apple Standard End User License Agreement:<br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n        <p>本アプリをご利用いただく前に、本規約および上記Apple Standard End User License Agreementをご確認ください。</p>"
+      "html": "<p>本利用規約（以下「本規約」といいます）は、SynCraft（以下「当方」といいます）が提供するiOSおよびAndroid向けアプリ「SwingCat」（以下「本アプリ」といいます）の利用条件を定めるものです。</p>\n        <p>App Storeから配信されるiOS版の利用には、本規約に加えて、Apple Inc.が定める「Apple Standard End User License Agreement（標準エンドユーザ使用許諾契約）」が適用されます。</p>\n        <p>Apple Standard End User License Agreement:<br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n        <p>Google Playから配信されるAndroid版および同ストアでの購入には、適用されるGoogle Playの規約・ポリシーも適用されます。<a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play利用規約</a></p><p>本アプリをご利用いただく前に、本規約およびご利用のストアに適用される規約をご確認ください。</p>"
     },
     {
       "id": "section-01",
       "heading": "第1条：本アプリについて",
-      "html": "<ol><li>本アプリは、タイマーを利用して集中や作業時間の管理を支援するアプリです。</li><li>本アプリでは、タイマーの利用状況などに応じて、猫、アイテム、称号その他のコンテンツを獲得または利用できる機能を提供する場合があります。</li><li>本アプリは、利用者の集中力、生産性、学習成果、業務成果その他特定の結果を保証するものではありません。</li><li>本アプリの機能や提供内容は、iOS、端末その他の利用環境によって一部異なる場合があります。</li></ol>"
+      "html": "<ol><li>本アプリは、タイマーを利用して集中や作業時間の管理を支援するアプリです。</li><li>本アプリでは、タイマーの利用状況などに応じて、猫、アイテム、称号その他のコンテンツを獲得または利用できる機能を提供する場合があります。</li><li>本アプリは、利用者の集中力、生産性、学習成果、業務成果その他特定の結果を保証するものではありません。</li><li>本アプリの機能や提供内容は、iOS・Android、端末その他の利用環境によって一部異なる場合があります。</li></ol>"
     },
     {
       "id": "section-02",
@@ -42,17 +42,17 @@
     {
       "id": "section-06",
       "heading": "第6条：有料サービスおよび購入について",
-      "html": "<ol><li>本アプリは無料で利用できる機能に加え、一部の機能またはコンテンツを有料で提供する場合があります。</li><li>有料サービスには、以下の商品が含まれる場合があります。<ul><li>月額サブスクリプション</li><li>年額サブスクリプション</li><li>買い切り型プラン</li></ul></li><li>実際に提供される商品、価格、利用期間および利用可能な機能については、購入時に本アプリおよびApp Storeに表示される内容が適用されます。</li><li>有料サービスの購入および決済は、Appleが提供するApp Storeを通じて行われます。当方が利用者のクレジットカード番号その他の決済情報を直接取得または保存することはありません。</li></ol>"
+      "html": "<ol><li>本アプリは無料で利用できる機能に加え、一部の機能またはコンテンツを有料で提供する場合があります。</li><li>有料サービスには、以下の商品が含まれる場合があります。<ul><li>月額サブスクリプション</li><li>年額サブスクリプション</li><li>買い切り型プラン</li></ul></li><li>実際に提供される商品、価格、利用期間および利用可能な機能については、購入時に本アプリおよび購入に利用するストア（App StoreまたはGoogle Play）に表示される内容が適用されます。</li><li>有料サービスの購入および決済は、iOS版ではAppleが提供するApp Store、Android版ではGoogleが提供するGoogle Playを通じて行われます。当方が利用者のクレジットカード番号その他の決済情報を直接取得または保存することはありません。</li></ol>"
     },
     {
       "id": "section-07",
       "heading": "第7条：サブスクリプション",
-      "html": "<ol><li>サブスクリプションの料金は、利用者のApple Accountに請求されます。</li><li>サブスクリプションは、利用者がApp Storeの設定から自動更新を停止しない限り、所定の契約期間ごとに自動的に更新されます。</li><li>自動更新を停止した場合でも、原則として現在の支払済み契約期間が終了するまでは対象機能を利用できます。</li><li>サブスクリプションの管理、自動更新の停止、返金その他の決済に関する取り扱いについては、AppleおよびApp Storeの規約、条件およびポリシーが適用されます。</li></ol>"
+      "html": "<ol><li>サブスクリプションの料金は、App Storeで購入した場合はApple Account、Google Playで購入した場合は購入に使用したGoogleアカウントを通じて請求されます。</li><li>サブスクリプションは、利用者が購入したストアで解約または自動更新の停止を行わない限り、所定の契約期間ごとに自動的に更新されます。App Storeで購入した場合はAppleのサブスクリプション管理画面、Google Playで購入した場合はGoogle Playの定期購入管理画面で手続きしてください。</li><li>自動更新を停止した場合でも、原則として現在の支払済み契約期間が終了するまでは対象機能を利用できます。</li><li>サブスクリプションの管理、自動更新の停止、返金その他の決済に関する取り扱いには、適用法令および購入に利用したストアの規約、条件、ポリシーが適用されます。</li></ol><p>手続きの案内：<a href=\"https://support.apple.com/ja-jp/118428\" target=\"_blank\" rel=\"noopener\">Appleのサブスクリプションの解約</a> ／ <a href=\"https://support.google.com/googleplay/answer/7018481?hl=ja\" target=\"_blank\" rel=\"noopener\">Google Playの定期購入の解約</a></p>"
     },
     {
       "id": "section-08",
       "heading": "第8条：買い切り型プラン",
-      "html": "<ol><li>買い切り型プランを購入した場合、対象となる有料機能を期間の定めなく利用できます。</li><li>「買い切り」とは、サブスクリプションのような継続的な料金の支払いを必要とせず、対象機能の利用権を提供することを意味します。</li><li>ただし、本アプリ自体の提供、すべての機能、第三者サービスとの連携、将来のすべてのiOSまたは端末への対応を永久に保証するものではありません。</li><li>購入情報の復元その他の取り扱いについては、AppleおよびApp Storeの仕組みおよびポリシーに従います。</li></ol>"
+      "html": "<ol><li>買い切り型プランを購入した場合、対象となる有料機能を期間の定めなく利用できます。</li><li>「買い切り」とは、サブスクリプションのような継続的な料金の支払いを必要とせず、対象機能の利用権を提供することを意味します。</li><li>ただし、本アプリ自体の提供、すべての機能、第三者サービスとの連携、将来のすべてのiOS・Androidのバージョンまたは端末への対応を永久に保証するものではありません。</li><li>購入情報の復元その他の取り扱いについては、購入に利用したストア（App StoreまたはGoogle Play）の仕組みおよびポリシーに従います。</li></ol>"
     },
     {
       "id": "section-09",
@@ -62,12 +62,12 @@
     {
       "id": "section-10",
       "heading": "第10条：免責事項",
-      "html": "<ol><li>当方は、本アプリがすべての端末およびOS環境において常に正常に動作すること、ならびにその正確性、完全性、安全性、特定の目的への適合性および継続的な利用可能性を保証するものではありません。</li><li>タイマー、通知その他の機能について、端末設定、iOSの仕様、省電力機能、通信環境その他の事情により、期待どおりに動作しない場合があります。</li><li>外部サービスの障害、仕様変更または提供終了等により、本アプリの一部機能が利用できなくなる場合があります。</li><li>本アプリの利用または利用できなかったことに関連して利用者に損害が生じた場合であっても、当方の故意または重大な過失による場合その他法令上責任を免れることのできない場合を除き、当方は責任を負いません。</li></ol>"
+      "html": "<ol><li>当方は、本アプリがすべての端末およびOS環境において常に正常に動作すること、ならびにその正確性、完全性、安全性、特定の目的への適合性および継続的な利用可能性を保証するものではありません。</li><li>タイマー、通知その他の機能について、端末設定、iOSまたはAndroidの仕様、省電力機能、通信環境その他の事情により、期待どおりに動作しない場合があります。</li><li>外部サービスの障害、仕様変更または提供終了等により、本アプリの一部機能が利用できなくなる場合があります。</li><li>本アプリの利用または利用できなかったことに関連して利用者に損害が生じた場合であっても、当方の故意または重大な過失による場合その他法令上責任を免れることのできない場合を除き、当方は責任を負いません。</li></ol>"
     },
     {
       "id": "section-11",
       "heading": "第11条：サービス内容の変更・終了",
-      "html": "<p>当方は、本アプリをより良くするため、必要に応じて機能や内容の追加、変更、見直しを行うことがあります。</p><p>これに伴い、一部機能の提供を終了したり、従来とは異なる仕様や利用方法に変更したりする場合があります。</p><p>また、開発・運営上の事情、対応端末、iOSの仕様、第三者サービスの提供状況その他の事情を踏まえ、本アプリの全部または一部の提供を縮小、一時停止または終了する場合があります。</p><p>重要な変更または提供終了については、可能な範囲で本アプリ内または当方ウェブサイト等でお知らせします。</p>"
+      "html": "<p>当方は、本アプリをより良くするため、必要に応じて機能や内容の追加、変更、見直しを行うことがあります。</p><p>これに伴い、一部機能の提供を終了したり、従来とは異なる仕様や利用方法に変更したりする場合があります。</p><p>また、開発・運営上の事情、対応端末、iOSまたはAndroidの仕様、第三者サービスの提供状況その他の事情を踏まえ、本アプリの全部または一部の提供を縮小、一時停止または終了する場合があります。</p><p>重要な変更または提供終了については、可能な範囲で本アプリ内または当方ウェブサイト等でお知らせします。</p>"
     },
     {
       "id": "section-12",
@@ -85,5 +85,21 @@
       "html": "<div class=\"contact\"><p>開発・運営：SynCraft</p><p>お問い合わせ先：<a href=\"mailto:hello@syncraft.dev\">hello@syncraft.dev</a></p></div>"
     }
   ],
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1"
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
+  "reviewHistory": [
+    {}
+  ],
+  "review": {
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "24c1d5c36cf38f25c0a30cbcd0c4e9caad0ecbfea1195b75990afdca8dfd7ba9",
+    "reviewedSectionsSha256": "26e6ff2742db17a9377087632626af79a94cb74b1952dae247f16eb13b153f96"
+  },
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }

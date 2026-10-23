@@ -4,21 +4,21 @@
   "kind": "terms",
   "title": "Điều khoản sử dụng",
   "effectiveDate": "2026-08-28",
-  "updatedDate": "2026-09-08",
-  "datesHtml": "Ngày có hiệu lực: 28 tháng 8 năm 2026. <br>\n     Cập nhật lần cuối: 8 tháng 9 năm 2026.",
+  "updatedDate": "2026-10-24",
+  "datesHtml": "Ngày có hiệu lực: 28 tháng 8 năm 2026. <br>\n     Cập nhật lần cuối: 24 tháng 10 năm 2026.",
   "status": "translation-reviewed",
   "sourceLocale": "en",
-  "sourceHash": "302944ca625df3f1cf7bae544db9d8f6f43f17c92a87eea4101a2f193a4e46b1",
+  "sourceHash": "d22915ef37f8f6843ea651c97dda87a4c8f95198ae95319bb0192a72ed5b618d",
   "sections": [
     {
       "id": "intro",
       "heading": null,
-      "html": "<p>Các Điều khoản Sử dụng này (\"Điều khoản\") quy định các điều khoản và điều kiện sử dụng SwingCat (\"Ứng dụng\"), một ứng dụng iOS do SynCraft (\"chúng tôi\") cung cấp.</p>\n      <p>Ngoài các Điều khoản này, việc bạn sử dụng Ứng dụng còn tuân theo Thỏa thuận cấp phép người dùng cuối tiêu chuẩn (EULA) của Apple.</p>\n      <p>Thỏa thuận cấp phép người dùng cuối tiêu chuẩn của Apple: <br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>\n      <p>Vui lòng xem lại các Điều khoản này và Thỏa thuận Cấp phép Người dùng Cuối Tiêu chuẩn của Apple trước khi sử dụng Ứng dụng.</p>"
+      "html": "<p>Các Điều khoản Sử dụng này (\"Điều khoản\") quy định các điều khoản và điều kiện sử dụng SwingCat (\"Ứng dụng\"), một ứng dụng iOS hoặc Android do SynCraft (\"chúng tôi\") cung cấp.</p><p>Ngoài các Điều khoản này, phiên bản iOS được phân phối qua App Store còn chịu sự điều chỉnh của Thỏa thuận cấp phép người dùng cuối tiêu chuẩn của Apple (EULA). Phiên bản Android được phân phối qua Google Play và các giao dịch mua tại cửa hàng đó cũng chịu sự điều chỉnh của các điều khoản và chính sách hiện hành của Google Play. Trước khi sử dụng Ứng dụng, vui lòng đọc các Điều khoản này và điều khoản áp dụng cho cửa hàng của bạn.</p><p><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\" rel=\"noopener\">Apple EULA</a> · <a href=\"https://play.google.com/about/play-terms/\" target=\"_blank\" rel=\"noopener\">Google Play</a></p>"
     },
     {
       "id": "section-01",
       "heading": "1. Ứng dụng",
-      "html": "<ol>\n       <li>Ứng dụng này giúp người dùng quản lý sự tập trung và thời gian làm việc bằng cách sử dụng bộ đếm thời gian.</li>\n       <li>Tùy thuộc vào việc sử dụng bộ hẹn giờ, ứng dụng có thể cung cấp các tính năng cho phép người dùng nhận hoặc sử dụng mèo, vật phẩm, danh hiệu và nội dung khác.</li>\n       <li>Ứng dụng này không đảm bảo khả năng tập trung, năng suất, kết quả học tập, kết quả công việc hoặc bất kỳ kết quả cụ thể nào khác.</li>\n       <li>Các tính năng có thể khác nhau tùy thuộc vào hệ điều hành iOS, thiết bị và các điều kiện sử dụng khác.</li>\n      </ol>"
+      "html": "<ol>\n       <li>Ứng dụng này giúp người dùng quản lý sự tập trung và thời gian làm việc bằng cách sử dụng bộ đếm thời gian.</li>\n       <li>Tùy thuộc vào việc sử dụng bộ hẹn giờ, ứng dụng có thể cung cấp các tính năng cho phép người dùng nhận hoặc sử dụng mèo, vật phẩm, danh hiệu và nội dung khác.</li>\n       <li>Ứng dụng này không đảm bảo khả năng tập trung, năng suất, kết quả học tập, kết quả công việc hoặc bất kỳ kết quả cụ thể nào khác.</li>\n       <li>Các tính năng có thể khác nhau tùy thuộc vào hệ điều hành iOS hoặc Android, thiết bị và các điều kiện sử dụng khác.</li>\n      </ol>"
     },
     {
       "id": "section-02",
@@ -43,17 +43,17 @@
     {
       "id": "section-06",
       "heading": "6. Dịch vụ và mua hàng trả phí",
-      "html": "<p>Ngoài các tính năng miễn phí, Ứng dụng có thể cung cấp các tính năng hoặc nội dung trả phí, bao gồm các gói đăng ký hàng tháng, hàng năm và các gói mua một lần. Sản phẩm, giá cả, thời hạn và các tính năng có sẵn được hiển thị trong Ứng dụng và App Store tại thời điểm mua hàng sẽ được áp dụng. Việc mua hàng và thanh toán được thực hiện thông qua App Store của Apple; chúng tôi không trực tiếp thu thập hoặc lưu trữ thông tin thẻ thanh toán.</p>"
+      "html": "<p>Ngoài các tính năng miễn phí, Ứng dụng có thể cung cấp tính năng hoặc nội dung trả phí, bao gồm gói đăng ký theo tháng, theo năm và gói mua một lần. Sản phẩm, giá, thời hạn và tính năng khả dụng hiển thị trong Ứng dụng và cửa hàng được sử dụng tại thời điểm mua sẽ được áp dụng. Việc mua và thanh toán được thực hiện qua App Store của Apple trên iOS hoặc Google Play trên Android. Chúng tôi không trực tiếp thu thập hoặc lưu trữ thông tin thẻ thanh toán.</p>"
     },
     {
       "id": "section-07",
       "heading": "7. Đăng ký",
-      "html": "<p>Phí đăng ký sẽ được tính vào Tài khoản Apple của bạn. Gói đăng ký sẽ tự động gia hạn cho mỗi kỳ áp dụng trừ khi bạn tắt tính năng tự động gia hạn trong cài đặt App Store. Sau khi tắt tính năng tự động gia hạn, các tính năng liên quan thường vẫn khả dụng cho đến hết thời hạn thanh toán hiện tại. Các điều khoản, điều kiện và chính sách của Apple và App Store quy định việc quản lý gói đăng ký, hủy gia hạn tự động, hoàn tiền và các vấn đề thanh toán khác.</p>"
+      "html": "<p>Gói đăng ký mua qua App Store được tính phí qua Tài khoản Apple; gói mua qua Google Play được tính phí qua Tài khoản Google dùng để mua. Gói đăng ký tự động gia hạn theo từng kỳ, trừ khi bạn hủy hoặc tắt tự động gia hạn tại cửa hàng nơi đã mua. Hãy quản lý gói đăng ký App Store trong phần cài đặt đăng ký của Apple và gói Google Play trong phần cài đặt đăng ký của Google Play. Sau khi hủy, các tính năng thường vẫn khả dụng đến hết thời hạn đã thanh toán. Việc quản lý, hủy, hoàn tiền và các vấn đề thanh toán khác tuân theo pháp luật áp dụng cùng các điều khoản, điều kiện và chính sách của cửa hàng nơi đã mua.</p><p><a href=\"https://support.apple.com/118428\" target=\"_blank\" rel=\"noopener\">App Store (iOS)</a> · <a href=\"https://support.google.com/googleplay/answer/7018481?hl=vi\" target=\"_blank\" rel=\"noopener\">Google Play (Android)</a></p>"
     },
     {
       "id": "section-08",
       "heading": "8. Gói mua một lần",
-      "html": "<p>Gói mua một lần cung cấp quyền sử dụng các tính năng trả phí tương ứng mà không cần thanh toán phí đăng ký định kỳ. Nó không đảm bảo việc cung cấp ứng dụng vĩnh viễn, mọi tính năng, tích hợp bên thứ ba hoặc khả năng tương thích với tất cả các phiên bản iOS hoặc thiết bị trong tương lai. Việc khôi phục thông tin mua hàng và các vấn đề liên quan tuân theo hệ thống và chính sách của Apple và App Store.</p>"
+      "html": "<p>Gói mua một lần cung cấp quyền sử dụng các tính năng trả phí tương ứng mà không cần thanh toán phí đăng ký định kỳ. Nó không đảm bảo việc cung cấp ứng dụng vĩnh viễn, mọi tính năng, tích hợp bên thứ ba hoặc khả năng tương thích với tất cả các phiên bản iOS hoặc Android hoặc thiết bị trong tương lai. Việc khôi phục thông tin mua hàng và các vấn đề liên quan tuân theo hệ thống và chính sách của cửa hàng được sử dụng để mua (App Store hoặc Google Play).</p>"
     },
     {
       "id": "section-09",
@@ -63,12 +63,12 @@
     {
       "id": "section-10",
       "heading": "10. Tuyên bố miễn trừ trách nhiệm",
-      "html": "<p>Chúng tôi không đảm bảo rằng Ứng dụng sẽ luôn hoạt động chính xác trên mọi thiết bị và môi trường hệ điều hành, hoặc rằng Ứng dụng sẽ chính xác, đầy đủ, an toàn, phù hợp với mục đích cụ thể hoặc luôn khả dụng. Bộ hẹn giờ, thông báo và các tính năng khác có thể không hoạt động như mong đợi do cài đặt thiết bị, thông số kỹ thuật iOS, tính năng tiết kiệm năng lượng, điều kiện mạng hoặc các trường hợp khác. Ngoại trừ trường hợp chúng tôi cố ý vi phạm, sơ suất nghiêm trọng hoặc trách nhiệm pháp lý không thể loại trừ theo luật, chúng tôi không chịu trách nhiệm đối với thiệt hại phát sinh từ việc sử dụng hoặc không thể sử dụng Ứng dụng.</p>"
+      "html": "<p>Chúng tôi không đảm bảo rằng Ứng dụng sẽ luôn hoạt động chính xác trên mọi thiết bị và môi trường hệ điều hành, hoặc rằng Ứng dụng sẽ chính xác, đầy đủ, an toàn, phù hợp với mục đích cụ thể hoặc luôn khả dụng. Bộ hẹn giờ, thông báo và các tính năng khác có thể không hoạt động như mong đợi do cài đặt thiết bị, thông số kỹ thuật iOS hoặc Android, tính năng tiết kiệm năng lượng, điều kiện mạng hoặc các trường hợp khác. Ngoại trừ trường hợp chúng tôi cố ý vi phạm, sơ suất nghiêm trọng hoặc trách nhiệm pháp lý không thể loại trừ theo luật, chúng tôi không chịu trách nhiệm đối với thiệt hại phát sinh từ việc sử dụng hoặc không thể sử dụng Ứng dụng.</p>"
     },
     {
       "id": "section-11",
       "heading": "11. Thay đổi hoặc ngừng cung cấp",
-      "html": "<p>Chúng tôi có thể thêm, thay đổi, xem xét, giảm bớt, tạm ngừng hoặc chấm dứt các tính năng hoặc toàn bộ hoặc một phần Ứng dụng khi cần thiết, có tính đến các điều kiện phát triển và vận hành, các thiết bị được hỗ trợ, thông số kỹ thuật iOS, dịch vụ của bên thứ ba và các yếu tố khác. Chúng tôi sẽ thông báo về những thay đổi quan trọng hoặc việc ngừng hoạt động nếu có thể.</p>"
+      "html": "<p>Chúng tôi có thể thêm, thay đổi, xem xét, giảm bớt, tạm ngừng hoặc chấm dứt các tính năng hoặc toàn bộ hoặc một phần Ứng dụng khi cần thiết, có tính đến các điều kiện phát triển và vận hành, các thiết bị được hỗ trợ, thông số kỹ thuật iOS hoặc Android, dịch vụ của bên thứ ba và các yếu tố khác. Chúng tôi sẽ thông báo về những thay đổi quan trọng hoặc việc ngừng hoạt động nếu có thể.</p>"
     },
     {
       "id": "section-12",
@@ -108,10 +108,25 @@
     "selectLanguage": "Chọn ngôn ngữ"
   },
   "review": {
-    "method": "Codex full-source self-review",
-    "reviewDate": "2026-10-18",
-    "draftSha256": "895df82ef4ee94a090d8624db1adf1253bf220a0f8ecee7d562f9892ce554607",
-    "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
-    "nativeLegalReview": false
-  }
+    "method": "Codex local translation and platform-scope editorial review",
+    "reviewDate": "2026-10-24",
+    "nativeLegalReview": false,
+    "externalTranslationServiceUsed": false,
+    "scope": "Approved shared iOS/Android platform revision; other clauses retained",
+    "previousDocumentSha256": "ce641372cb9af77b66241390fa2d2a9fadf19365b1ecc7ffd308003be562c335",
+    "reviewedSectionsSha256": "6035f52c6e59852b1ca3dbe08a8d8447ffd348a75645bec9cff7a3e9078522f7"
+  },
+  "reviewHistory": [
+    {
+      "method": "Codex full-source self-review",
+      "reviewDate": "2026-10-18",
+      "draftSha256": "895df82ef4ee94a090d8624db1adf1253bf220a0f8ecee7d562f9892ce554607",
+      "reviewScopeSha256": "9a1ed4f8a3481281bebf8f643963b88523bda2e2d188f10a7f19b4cd84896837",
+      "nativeLegalReview": false
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ]
 }
